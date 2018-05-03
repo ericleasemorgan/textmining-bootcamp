@@ -1,3 +1,5 @@
 lib/mallet
 .DS_Store
 tmp/*
+log/*
+etc/.ipynb_checkpoints

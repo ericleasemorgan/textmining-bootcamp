@@ -17,6 +17,7 @@ Text mining: Beyond the basics
    XIV Appendix A: An Introduction to the NLTK
     XV About the author
 
-This is a test of the Emergency Broadcast System. This is only a test. In case of a real emergency, you would be instructed to contact the nearest systems librarian. This is only a test. --ELM
+This is another test of the Emergency Broadcast System. --ELM
+
 
 

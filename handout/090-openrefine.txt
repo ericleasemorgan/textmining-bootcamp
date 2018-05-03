@@ -1,0 +1,32 @@
+Cleaning & analyzing word lists with OpenRefine
+===============================================
+
+OpenRefine can be a useful tool for evaluating a dictionary. For example, it can be used to find sets of words with given patterns, as well as for counting & tabulating occurrences. Here's how:
+
+  1) Save a dictionary to a file.
+  2) Launch OpenRefine.
+  3) Create a new project with the saved file.
+  4) Accept the defaults, and continue to create the project.
+  5) Create a "Text facet" on the list of words.
+  6) Sort the list of facets by count.
+
+The result will be a list of words and their frequencies. The beginning of the list will be full of stop ("function") words. Ignoring the stop words, one can get a better idea of what words are mentioned more frequently, and therefore you can begin to enumerate the text's themes. Scroll to the end of the list to see the words occurring infrequently. Perusing the list of infrequent words can be just as insightful as perusing the list of frequently used words.
+
+OpenRefines supports the filtering ("searching") of columns, and filtering is enhanced through the use of regular expressions. Using this feature you can begin to identify as well as compare & contrast themes. For example, you might want to compare & contrast the frequency of the words "man" and "god". Here's how:
+
+  1) Remove all facets and filters.
+  2) Create a new "Text filter" on the list of words.
+  3) Enter "^man$|^god$" into the query field.
+  4) Make sure the "regular expression" check box is checked.
+  5) Create a "Text facet" on the list of words.
+  6) Sort the list of facets by count.
+
+The result is a tabulation of the words "man" and "god", and then you can the determine whether one theme is highlighted more often than another. Additional queries might include:
+
+  * ^love.*|^war.*
+  * ^man.*|^men*|^woman.*|^women*
+  * ^man$|^men$|^woman$|^women$
+  * ^mr$|^mrs$|^ms$
+  * ^time$|^space$
+
+

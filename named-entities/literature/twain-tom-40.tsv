@@ -1,0 +1,531 @@
+type	entity
+PERSON	Samuel Clemens
+LOCATION	America
+PERSON	Tom Sawyer
+PERSON	Jim
+PERSON	Tom
+PERSON	Silas
+LOCATION	Mississippi
+PERSON	Don
+PERSON	Tom Sawyer
+PERSON	Tom
+PERSON	Polly
+PERSON	Tom
+LOCATION	Arkansaw
+PERSON	Sally
+PERSON	Tom
+PERSON	Aunt Polly
+PERSON	Polly
+PERSON	Tom
+PERSON	Huck Finn
+PERSON	Tom Sawyer
+PERSON	Polly
+PERSON	Tom
+PERSON	Mary
+PERSON	Tom
+PERSON	Huck
+PERSON	Huck Finn
+PERSON	Brace Dunlap
+PERSON	Benny
+PERSON	Silas
+PERSON	Brace Dunlap
+PERSON	Benny Why Benny
+PERSON	Silas
+PERSON	Jubiter Dunlap
+PERSON	Jubiter
+PERSON	Jubiter
+PERSON	Jubiter
+PERSON	Jubiter
+PERSON	Jubiter
+LOCATION	North
+PERSON	Jake There
+PERSON	Sally
+PERSON	Jubiter
+PERSON	Tom
+PERSON	Tom
+PERSON	Sally
+PERSON	Silas
+PERSON	Sally
+PERSON	JAKE DUNLAP
+LOCATION	Louisiana
+LOCATION	Upper Mississippi
+LOCATION	Lower Mississippi
+LOCATION	Arkansaw
+LOCATION	St Louis
+PERSON	Tom
+PERSON	Tom
+PERSON	Tom Sawyer
+PERSON	Tom
+PERSON	Phillips
+LOCATION	Elexandria
+LOCATION	Iowa
+PERSON	Tom
+PERSON	Tom
+PERSON	Phillips
+ORGANIZATION	Phillips
+PERSON	Tom
+PERSON	Jackson
+PERSON	Tom
+PERSON	Jubiter Dunlap
+PERSON	Jubiter Dunlap
+PERSON	Phillips
+PERSON	Tom
+PERSON	Jubiter Dunlap
+PERSON	Dunlaps Tom
+PERSON	Silas
+PERSON	Brace
+PERSON	Brace
+PERSON	Benny
+PERSON	Jubiter
+PERSON	Silas
+PERSON	Uncle Silas
+PERSON	Jubiter
+PERSON	Tom
+PERSON	Brace
+PERSON	Tom
+PERSON	Huck
+PERSON	Jubiter
+PERSON	George
+PERSON	Tom
+PERSON	Tom
+PERSON	Tom
+PERSON	Tom
+LOCATION	St Louis
+PERSON	Tom
+LOCATION	St Louis
+LOCATION	Upper Mississippi
+PERSON	Tom
+PERSON	Tom Sawyer
+PERSON	Jake Dunlap
+PERSON	Said
+PERSON	Bud Dixon
+PERSON	Huck Finn
+PERSON	Jake You
+PERSON	Bud Dixon
+PERSON	Hal Clayton
+PERSON	Bud
+PERSON	Bud Dixon
+PERSON	Bud Dixon
+PERSON	Hal
+PERSON	Tom
+PERSON	Huck
+PERSON	Tom
+PERSON	Bud Dixon
+PERSON	Hal Clayton
+PERSON	George
+PERSON	Tom
+LOCATION	Missouri
+LOCATION	Iowa
+PERSON	Bud
+PERSON	Bud
+PERSON	Hal
+PERSON	Hal
+PERSON	Bud
+PERSON	Hal Clayton
+ORGANIZATION	Elex
+PERSON	Hal Clayton
+PERSON	Silas
+PERSON	Jake
+PERSON	Jake
+PERSON	Jake
+PERSON	Brace
+PERSON	Jubiter
+PERSON	Said
+PERSON	Tom
+PERSON	Silas
+PERSON	Tom
+PERSON	Jake
+PERSON	Brace
+PERSON	Jake
+PERSON	Tom
+PERSON	Don
+PERSON	Don
+PERSON	Don
+PERSON	Tom
+PERSON	Jake Dunlap
+PERSON	Tom
+PERSON	Tom Sho
+PERSON	Bill Withers
+PERSON	Jack
+PERSON	Jack
+PERSON	Parson Silas
+PERSON	Silas
+PERSON	Lem Beebe
+PERSON	Jim Lane Jim Lane
+PERSON	Jubiter Dunlap
+PERSON	Said
+PERSON	Tom
+PERSON	Jim
+PERSON	Lem
+PERSON	Jim
+PERSON	Tom
+PERSON	Tom Sawyer
+PERSON	Tom Sawyer
+PERSON	Tom Sawyer
+PERSON	Tom Sawyer
+PERSON	Tom Sawyer
+PERSON	Tom
+PERSON	Huck Finn
+PERSON	Tom
+PERSON	Tom
+PERSON	Sally
+PERSON	Tom
+PERSON	Silas
+PERSON	Sally
+PERSON	Silas
+PERSON	Tom Sawyer
+PERSON	Sally
+PERSON	Tom
+PERSON	Lem Beebe
+PERSON	Jim Lane
+PERSON	Jubiter Dunlap
+PERSON	Huck Finn
+PERSON	Tom Sawyer
+PERSON	Huck
+PERSON	Tom
+PERSON	Huck
+PERSON	Tom Sawyer
+PERSON	Sally
+LOCATION	Arkansaw
+PERSON	Tom Sawyer
+PERSON	Sally Shet
+PERSON	Tom
+PERSON	Mary
+PERSON	Sid
+PERSON	Tom
+PERSON	Polly
+PERSON	Aunt Sally
+PERSON	Marse Brace
+PERSON	Marse Silas
+PERSON	Silas
+PERSON	Billy
+PERSON	Aunt Sally
+PERSON	Benny
+PERSON	Said Benny
+PERSON	Benny
+PERSON	Aunt Sally
+PERSON	Tom
+PERSON	Tom
+PERSON	Jubiter
+PERSON	Uncle Silas
+PERSON	Tom
+PERSON	Benny
+PERSON	Tom
+PERSON	Tom
+PERSON	Tom
+PERSON	Huck
+PERSON	Jake Dunlap
+PERSON	Hal Clayton
+PERSON	Bud Dixon
+PERSON	Huck
+PERSON	Tom
+PERSON	Tom
+PERSON	Huck
+PERSON	Tom
+PERSON	Tom
+PERSON	Don
+PERSON	Tom Looks
+PERSON	Tom
+PERSON	Aunt Sally
+PERSON	Tom
+PERSON	Benny
+PERSON	Marse Brace
+PERSON	Marse Jubiter
+PERSON	Marse Silas
+PERSON	Silas
+PERSON	Silas
+PERSON	Benny
+PERSON	Tom
+PERSON	Silas
+PERSON	Tom
+PERSON	Tom
+PERSON	Tom
+PERSON	Tom
+PERSON	Huck
+PERSON	Tom
+PERSON	Huck
+PERSON	Tom
+PERSON	Jake
+PERSON	Tom
+PERSON	Don
+PERSON	Tom
+PERSON	Huck
+PERSON	George
+PERSON	Huck
+PERSON	Jake Dunlap
+PERSON	Huck Finn
+PERSON	Tom
+PERSON	Jake Dunlap
+PERSON	Jake Dunlap
+PERSON	Tom
+PERSON	Tom
+PERSON	Tom
+PERSON	Huck
+PERSON	Tom
+PERSON	Steve Nickerson
+PERSON	Tom
+PERSON	Tom
+PERSON	Jake
+PERSON	Tom
+PERSON	Jake
+PERSON	Jake
+PERSON	Tom
+PERSON	Jake
+PERSON	Tom
+PERSON	Tom Sawyer
+PERSON	JUBITER DUNLAP
+PERSON	Brace Dunlap Brace
+PERSON	Dummy
+PERSON	Brace Dunlap
+PERSON	Dummy
+PERSON	Uncle Silas
+PERSON	Tom
+PERSON	Generly
+PERSON	Jubiter Dunlap
+PERSON	Tom
+PERSON	Tom
+PERSON	Tom Sawyer
+PERSON	Quick Huck
+PERSON	Jeff Hooker
+PERSON	Tom
+PERSON	Tom
+PERSON	Huck
+PERSON	Huck Finn
+PERSON	Huck Finn
+PERSON	Huck
+PERSON	Silas
+PERSON	Jeff Hooker
+PERSON	Tom Sawyer
+PERSON	Tom
+PERSON	Jubiter Dunlap
+PERSON	Tom
+PERSON	Hooker
+PERSON	Tom
+PERSON	Tom
+PERSON	Tom
+PERSON	Jeff Hooker
+PERSON	Tom
+PERSON	Huck
+PERSON	Poor Jubiter
+PERSON	Tom
+PERSON	Tom
+PERSON	Uncle Silas
+PERSON	Sally
+PERSON	Benny
+PERSON	Tom
+PERSON	Huck
+PERSON	Jubiter Dunlap
+PERSON	Sally
+PERSON	Benny
+PERSON	Uncle Silas
+PERSON	SILAS
+PERSON	Benny
+PERSON	Aunt Sally
+PERSON	Tom
+PERSON	Uncle Silas
+PERSON	Sally
+PERSON	Benny
+PERSON	Jubiter
+PERSON	Tom
+PERSON	Jubiter
+PERSON	Jubiter
+PERSON	Cain
+PERSON	Tom
+PERSON	Tom
+PERSON	Uncle Silas
+PERSON	Benny
+PERSON	Tom
+PERSON	Uncle Silas
+PERSON	Silas
+PERSON	Tom
+PERSON	Uncle Silas
+PERSON	Jubiter Dunlap
+PERSON	Sally
+PERSON	Benny
+PERSON	Silas
+PERSON	Aunt Sally
+PERSON	Tom
+PERSON	Huck
+PERSON	Tom
+PERSON	Silas
+PERSON	Aunt Sally
+PERSON	Uncle Silas
+PERSON	Benny
+PERSON	SAWYER
+PERSON	Poor Benny
+PERSON	Tom
+PERSON	Tom
+PERSON	Sally
+PERSON	Benny
+PERSON	Tom Sawyer
+PERSON	Silas
+PERSON	Silas
+PERSON	Benny
+PERSON	Aunt Sally
+PERSON	Tom
+PERSON	Benny
+PERSON	Aunt Sally
+PERSON	Uncle Silas
+PERSON	Jubiter Dunlap
+PERSON	Jubiter
+PERSON	Jubiter
+PERSON	Uncle Silas
+PERSON	Jubiter
+PERSON	Uncle Silas
+PERSON	Jubiter
+PERSON	Silas
+PERSON	Sally
+PERSON	Benny
+PERSON	Tom
+PERSON	Uncle Silas
+PERSON	Silas
+PERSON	Silas
+PERSON	Tom
+PERSON	Lem Beebe
+PERSON	Lem
+PERSON	Jim Lane
+PERSON	Jubiter Dunlap
+PERSON	Bill
+PERSON	Jack Withers
+PERSON	Uncle Silas
+PERSON	LEM BEEBE
+PERSON	Jim Lane
+PERSON	Jupiter Dunlap
+PERSON	Tom Sawyer
+PERSON	Lem
+PERSON	Jubiter
+PERSON	Lem
+PERSON	Jim Lane
+PERSON	Tom
+PERSON	Lem Beebe
+PERSON	Lem
+PERSON	Benny
+PERSON	Jim Lane
+PERSON	Tom
+PERSON	Tom
+PERSON	Arkansaw
+PERSON	Tom
+PERSON	Silas
+PERSON	Lem
+PERSON	Jim
+PERSON	Brace Dunlap
+PERSON	Bill Withers BILL WITHERS
+PERSON	Jack
+PERSON	Parson Silas
+PERSON	Sam Cooper
+PERSON	Silas
+PERSON	Tom
+PERSON	Jack Withers
+PERSON	Bill
+PERSON	Brace Dunlap
+PERSON	Tom
+PERSON	Uncle Silas
+PERSON	Lem Beebe
+PERSON	Jim Lane
+PERSON	Silas
+PERSON	Jackson
+PERSON	Benny
+PERSON	Sally
+PERSON	George Tom Sawyer
+PERSON	Brace Dunlap
+PERSON	Tom
+PERSON	Tom
+PERSON	Aunt Sally
+PERSON	Benny
+PERSON	Tom
+PERSON	Tom
+PERSON	Tom
+ORGANIZATION	St Louis Them
+PERSON	Brace Dunlap
+PERSON	Uncle Silas
+PERSON	Uncle Silas
+PERSON	Jubiter
+PERSON	Jubiter
+PERSON	Uncle Silas
+PERSON	Uncle Silas
+PERSON	Uncle Silas
+PERSON	Lem Beebe
+PERSON	Jim Lane
+PERSON	Uncle Silas
+PERSON	Jubiter Dunlap
+PERSON	Uncle Silas
+PERSON	Jubiter
+PERSON	Silas
+PERSON	Bill
+PERSON	Jack Withers
+PERSON	Uncle Silas
+PERSON	Silas
+PERSON	Uncle Silas
+LOCATION	Flagler
+PERSON	Silas
+PERSON	Uncle Silas
+PERSON	Jubiter Dunlap
+PERSON	Tom
+PERSON	Uncle Silas
+PERSON	Jubiter Dunlap
+PERSON	Jubiter Dunlap
+PERSON	Jubiter Dunlap
+PERSON	Jubiter Dunlap
+PERSON	Uncle Silas
+PERSON	JAKE Dunlap
+PERSON	Great Scott
+PERSON	BRACE Dunlap
+PERSON	Great Scott And
+PERSON	JUBITER Dunlap
+PERSON	Tom
+PERSON	Aunt Sally
+PERSON	Benny
+PERSON	Uncle Silas
+PERSON	Tom Sawyer Tom Sawyer
+PERSON	Tom Sawyer Which
+PERSON	Tom Sawyer
+PERSON	Bruce Dunlap
+PERSON	Uncle Silas
+PERSON	Jubiter
+PERSON	Uncle Silas
+PERSON	Uncle Silas
+PERSON	Jake
+LOCATION	Jubiter
+PERSON	Jim Lane
+PERSON	Bill Withers
+PERSON	Huck Finn
+PERSON	Jubiter Dunlap
+PERSON	Jake
+PERSON	Jake
+PERSON	Huck
+PERSON	Uncle Silas
+PERSON	Silas
+PERSON	Jim
+PERSON	Silas
+PERSON	Uncle Silas
+PERSON	Jubiter Dunlap
+PERSON	Jubiter Dunlap
+PERSON	Uncle Silas
+PERSON	Tom Sawyer
+PERSON	Tom
+PERSON	Tom
+PERSON	Brace Dunlap
+PERSON	Uncle Silas
+PERSON	Tom
+PERSON	Tom
+PERSON	Jubiter Dunlap
+PERSON	Jubiter
+PERSON	Tom
+PERSON	Jake
+PERSON	Jake
+PERSON	Jubiter
+PERSON	Tom
+PERSON	Jubiter
+PERSON	Tom
+PERSON	Jubiter
+PERSON	Tom
+PERSON	Jubiter
+PERSON	Tom
+PERSON	Tom
+PERSON	Tom Sawyer
+PERSON	Brace Dunlap
+PERSON	Silas
+PERSON	Uncle Silas
+PERSON	George
+PERSON	Tom Sawyer
+PERSON	Tom

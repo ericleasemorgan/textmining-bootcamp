@@ -1,0 +1,350 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Logo (Home Page Only)
+
+
+
+
+Cultural Analytics Lab
+
+We use data science to analyse patterns in big cultural data. The lab is directed by Lev Manovich, a pioneer in the field of cultural analytics. 
+
+
+
+
+
+
+
+
+
+
+
+
+Logo and Side Nav
+
+
+
+
+
+Cultural Analytics Lab
+
+
+
+
+
+
+
+
+	News
+	About
+	Projects
+	Publications
+	People
+
+
+
+	Mailing List
+	Twitter
+	Flickr
+	RSS
+
+
+
+
+
+
+
+
+
+
+News
+
+
+The posts from 2018-2016 are on our archive site: 
+www.softwarestudies.com.
+
+
+
+
+
+Browse News Archive
+
+
+
+
+	
+January 2018
+
+	
+November 2017
+
+	
+September 2017
+
+	
+May 2017
+
+	
+March 2017
+
+	
+February 2017
+
+	
+October 2016
+
+	
+July 2016
+
+	
+May 2016
+
+	
+April 2016
+
+	
+August 2014
+
+	
+January 2013
+
+	
+February 2012
+
+	
+November 2010
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        
+16 April 2016
+
+
+          
+        
+
+
+
+
+
+
+
+
+
+[bookmark: 7832806987413539050]
+
+A View from Above: Exploratory Visualizations of MoMA Photography Collection
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+[image: ]
+
+	
+Tweet
+
+
+
+
+
+
+
+	
+  [image: ]
+  Radial visualization of 18,941 photographs in the MoMA photography collection. Dates: 1837 - 2012. The distance of a image h from the center is determined by its year of creation; the newer the photograph, the farther it is from the center. The degree of a photograph’s placement in the circle is determined by its average brightness (it increases counterclockwise from 90 degrees).
+
+ 
+	
+  [image: ]
+  Visualization of 18,941 photographs in the MoMA photography collection. Dates: 1837 - 2012. Images are sorted by year of creation (vertical axis, ascending from top to bottom).
+
+ 
+
+
+
+
+
+Publication
+
+
+ Nadav Hochman and Lev Manovich. "A View from Above: Exploratory Visualizations of the Thomas Walther Collection," in Mitra Abbaspour, Lee Ann Daffner, and Maria Morris Hambourg, eds. Object:Photo. Modern Photographs: The Thomas Walther Collection 1909–1949. New York: The Museum of Modern Art, 2014.
+
+
+Authors
+ 
+Nadav Hochman and Lev Manovich, 2013.
+
+
+Description
+ 
+
+ The use of quantitative analysis and visualization for the study of cultural visual data allows us to view cultural artifacts in new ways, to confirm and describe more precisely the existing understanding of historical developments, and, potentially, to reveal previously unnoticed patterns. This essay presents visualizations of photographs in the Thomas Walther Collection at The Museum of Modern Art, New York, in relation to the greater MoMA photography collection. To the best of our knowledge, this is the first time that historical patterns in a large photography collection have been analyzed and visualized using quantitative computer techniques. 
+
+
+[bookmark: more]
+
+ Our method has two main steps. First, we use custom image processing software to automatically measure the characteristics of the digitized photographs, such as tonality, contrast, color palette, texture, line orientation, and the presence and position of faces. In the second step, we use our visualization tools to create high-resolution images showing all the pictures in a collection sorted by their visual properties and/or their metadata (date, dimensions, artist, place of origin, etc.).
+
+
+ Visualizations presented in this essay use two characteristics: average tonality and average saturation. We also explore historical patterns in representations of faces, bodies, and body parts, and compare the prevalence of photographs taken outdoors and indoors. Available metadata for each photograph included the artist’s name, nationality at time of death, and place of birth, when different than nationality; the date (or date range) when the photograph’s negative was made; and the photographic process used to make the print. The visualizations allow us to explore patterns in the photographs’ metadata and in their visual form and content. We have created many views of the collection, organizing the images in different ways: by selected visual characteristics, for example, or by creation date. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[bookmark: comments]
+
+
+
+
+
+
+
+
+
+
+        
+      
+
+
+
+
+Newer Post
+
+
+Older Post
+
+Home
+
+
+
+
+
+
+
+
+
+
+Footer
+
+
+
+    Cultural Analytics Lab
+
+    © 2008 - 2016 Software Studies Initiative and Cultural Analytics Lab
+
+
+
+
+
+    
+        	Flickr
+	RSS
+	Twitter
+	Facebook
+
+
+    
+
+
+
+
+    
+    
+
+    
+    
+        
+            
+                To subscribe to our mailing list, please enter your email address. (You can unsubscribe at any time.)
+
+                
+                    Email Address 
+                    
+                
+
+                
+                    
+
+                    
+
+                
+
+                
+                
+
+                
+
+            
+
+        
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xml:lang="de_DE" lang="de_DE" xmlns="http://www.w3.org/1999/xhtml">
+<head><script src="http://archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app23.us.archive.org';v.server_ms=350;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="http://web.archive.org/static/js/wbhack.js?v=1522452177.0" charset="utf-8"></script>
+
+<script type="text/javascript">
+__wbhack.init('http://web.archive.org/web');
+</script>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/static/css/banner-styles.css?v=1522452177.0" />
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/static/css/iconochive.css?v=1522452177.0" />
+
+<!-- End Wayback Rewrite JS Include -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<!-- 
+	www.gesis.org
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2012 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<base href=""/>
+<link rel="shortcut icon" href="http://web.archive.org/web/20130606061117im_/http://www.gesis.org/fileadmin/img/favicon.ico" type="image/x-icon; charset=binary"/>
+<link rel="icon" href="http://web.archive.org/web/20130606061117im_/http://www.gesis.org/fileadmin/img/favicon.ico" type="image/x-icon; charset=binary"/>
+
+<link rel="canonical" href="web-archive-org-0065.htm"/>
+<meta name="generator" content="TYPO3 4.5 CMS"/>
+
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20130606061117cs_/http://www.gesis.org/typo3temp/stylesheet_3b12437b4a.css?1358807570" media="all"/>
+
+
+
+<script src="http://web.archive.org/web/20130606061117js_/http://www.gesis.org/typo3conf/ext/t3mootools/res/mootools_v1.2.1.js?1324326354" type="text/javascript"></script>
+<script src="http://web.archive.org/web/20130606061117js_/http://www.gesis.org/typo3conf/ext/rgaccordion/res/rgaccordion1.js?1302164900" type="text/javascript"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+<!-- 
+/*_scriptCode*/
+var browserName=navigator.appName;var browserVer=parseInt(navigator.appVersion);var version="";var msie4=(browserName=="Microsoft Internet Explorer"&&browserVer>=4);if((browserName=="Netscape"&&browserVer>=3)||msie4||browserName=="Konqueror"||browserName=="Opera"){version="n3";}else{version="n2";}
+function blurLink(theObject){if(msie4){theObject.blur();}}
+function decryptCharcode(n,start,end,offset){n=n+offset;if(offset>0&&n>end){n=start+(n-end-1);}else if(offset<0&&n<start){n=end-(start-n-1);}
+return String.fromCharCode(n);}
+function decryptString(enc,offset){var dec="";var len=enc.length;for(var i=0;i<len;i++){var n=enc.charCodeAt(i);if(n>=0x2B&&n<=0x3A){dec+=decryptCharcode(n,0x2B,0x3A,offset);}else if(n>=0x40&&n<=0x5A){dec+=decryptCharcode(n,0x40,0x5A,offset);}else if(n>=0x61&&n<=0x7A){dec+=decryptCharcode(n,0x61,0x7A,offset);}else{dec+=enc.charAt(i);}}
+return dec;}
+function linkTo_UnCryptMailto(s){location.href=decryptString(s,-2);}
+// -->
+/*]]>*/
+</script>
+
+<title>GESIS - HSR:&nbsp;37.4 - The Économie des Conventions</title><link href="http://web.archive.org/web/20130606061117cs_/http://www.gesis.org/fileadmin/styles/gs_styles_current/gs_styles.css" rel="stylesheet" type="text/css"/>    <meta property="fb:page_id" content="123549644340121"/> 
+    <meta name="DC.title" content="GESIS - Leibniz-Institut für Sozialwissenschaften"/>
+    <meta name="geo.region" content="DE-NW"/>
+    <meta name="geo.placename" content="Köln"/>
+    <meta name="geo.position" content="50.9426;6.9524"/>
+    <meta name="ICBM" content="50.9426, 6.9524"/>
+<!--[if lte IE 7]><link href="fileadmin/styles/gs_styles_current/patches/gs_styles_patch.css" rel="stylesheet" type="text/css" /><![endif]-->  <script type="text/javascript" src="http://web.archive.org/web/20130606061117js_/http://www.gesis.org/fileadmin/scripts/search.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20130606061117js_/http://www.gesis.org/fileadmin/scripts/quicklinks.js"></script>
+  <script type="text/javascript">
+  <!--
+  function jump(path) {
+    href = 'http://web.archive.org/web/20130606061117/http://www.gesis.org/' + path; window.open(href,"F");
+    form.gs_quicklinks.selectedIndex = 0;
+  }
+  -->
+  </script>
+<meta name="description" content="GESIS Leibniz Institut für Sozialwissenschaften"/>
+<meta name="keywords" content="Aggregatdaten,ALLBUS,amtliche,Mikrodaten,Beratung,Branchenklassifikation,CEWS,Comparative,Sampling,Daten,Datenzugang,Datenanalyse,Datenarchiv,Datenerhebung,Dauerbeobachtung,Demografie,digitale Bibliothek,Dokumentation,empirische Sozialforschung,Eurobarometer,European Value Study,Forschungsdatenbanken,Forschungsdatenzentrum,Dauerbeobachtung,Historische,Sozialforschung,Informationssystem,PIAAC,Sekundäranalyse,Servicezentrum,Skalen,SOFIS,SOWIPORT,Soziale Indikatoren,sozialer Wandel,Sozialstruktur,Sozialwissenschaften,SSOAR,Standardisierung,Telefonumfragen,Wahlforschung,ZACAT,Zeitreihen,ZIS,EHES,Fragebogen,Pretest,Pretesting,Kognitive Interviews,Eyetracking"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="copyright" content="GESIS Leibniz Institut für Sozialwissenschaften"/>
+<meta http-equiv="content-language" content="German=de"/>
+<link rev="made" href="mailto:info@gesis.org"/>
+<meta http-equiv="reply-to" content="info@gesis.org"/>
+<meta name="author" content="GESIS Leibniz Institut für Sozialwissenschaften"/>
+<meta name="DC.Description" content="GESIS Leibniz Institut für Sozialwissenschaften"/>
+<meta name="DC.Subject" content="Aggregatdaten,ALLBUS,amtliche,Mikrodaten,Beratung,Branchenklassifikation,CEWS,Comparative,Sampling,Daten,Datenzugang,Datenanalyse,Datenarchiv,Datenerhebung,Dauerbeobachtung,Demografie,digitale Bibliothek,Dokumentation,empirische Sozialforschung,Eurobarometer,European Value Study,Forschungsdatenbanken,Forschungsdatenzentrum,Dauerbeobachtung,Historische,Sozialforschung,Informationssystem,PIAAC,Sekundäranalyse,Servicezentrum,Skalen,SOFIS,SOWIPORT,Soziale Indikatoren,sozialer Wandel,Sozialstruktur,Sozialwissenschaften,SSOAR,Standardisierung,Telefonumfragen,Wahlforschung,ZACAT,Zeitreihen,ZIS,EHES,Fragebogen,Pretest,Pretesting,Kognitive Interviews,Eyetracking"/>
+<meta name="DC.Rights" content="GESIS Leibniz Institut für Sozialwissenschaften"/>
+<meta name="DC.Language" scheme="NISOZ39.50" content="German=de"/>
+<meta name="DC.Creator" content="GESIS Leibniz Institut für Sozialwissenschaften"/>
+<link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements"/>
+<script type="text/javascript" src="http://web.archive.org/web/20130606061117js_/http://www.gesis.org/typo3temp/pmkshadowbox/base-de-DE-flv-html-iframe-img-qt-swf-wmp-sizzle/shadowbox.js"></script><link type="text/css" media="all" rel="stylesheet" href="http://web.archive.org/web/20130606061117cs_/http://www.gesis.org/typo3temp/pmkshadowbox/base-de-DE-flv-html-iframe-img-qt-swf-wmp-sizzle/shadowbox.css"/><script type="text/javascript">
+		/* <![CDATA[ */			function shadowBoxInit() {
+				Shadowbox.init({
+					animate: 1,
+					animateFade: 1,
+					animSequence: 'sync',
+					autoplayMovies: 1,
+					continuous: 0,
+					counterLimit: 10,
+					counterType: 'default',
+					displayCounter: 1,
+					displayNav: 1,
+					enableKeys: 1,
+					fadeDuration: 0.35,
+					flashParams: {bgcolor:"#000000",allowfullscreen:"true"},
+					flashVars: {},
+					flashVersion: '9.0.0',
+					handleOversize: 'resize',
+					handleUnsupported: 'link',
+					initialHeight: 160,
+					initialWidth: 320,
+					modal: 0,
+					onChange: function() {},
+					onClose: function() {},
+					onFinish: function() {},
+					onOpen: function() {},
+					overlayColor: '#000000',
+					overlayOpacity: 0.5,
+					resizeDuration: 0.35,
+					showOverlay: 1,
+					showMovieControls: 1,
+					skipSetup: 0,
+					slideshowDelay: 0,
+					viewportPadding: 20,
+					preserveAspectWhileResizing: 0
+				});
+			}
+Shadowbox.path = 'typo3temp/pmkshadowbox/base-de-DE-flv-html-iframe-img-qt-swf-wmp-sizzle/';shadowBoxInit();;/* ]]> */
+		</script><link href="http://web.archive.org/web/20130606061117cs_/http://www.gesis.org/fileadmin/styles/gs_styles_current/screen/microsite/hsr.css" rel="stylesheet" type="text/css"/>
+</head>
+<body id="pageUID-8071">
+
+<div class="page_margins" id="page_margins">
+  <div class="page" id="page">
+    <div id="header">
+		<!-- Output of lib.header [begin] -->
+			<div id="topnav"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/en/hsr/current-issues/current-issues-2011-2013/374-the-economie-des-conventions/" target="_self" class="language"><img src="http://web.archive.org/web/20130606061117im_/http://www.gesis.org/fileadmin/img/icons/gs_flag_en.gif" alt="English" width="14" height="11"/></a>
+		<!-- Output of lib.header.20 [begin] -->
+			<a class="skip" href="web-archive-org-0065.htm#navigation" title="Direkt zur Navigation springen">Zur Navigation springen</a><span class="hideme">.</span><a class="skip" href="web-archive-org-0065.htm#content" title="Direkt zum Content springen">Zum Content springen</a><span class="hideme">.</span><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/kontakt/" target="_self">Kontakt</a>&nbsp;&#124;&nbsp;<a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/feedback/" target="_self">Feedback</a>
+		<!-- Output of lib.header.20 [end] -->
+			<form name="search" action="http://web.archive.org/web/20130606061117/http://www.gesis.org/suche" method="get" onsubmit="searchClean();"><input type="text" id="searchfield" name="query" value="Suchbegriffe eingeben..." onclick="this.value=''"/><input type="hidden" name="hitsPerPage" value="10"/><input type="hidden" name="hitsPerSite" value="0"/><input type="hidden" name="lang" value="de"/></form></div>
+		<!-- Output of lib.header.30 [begin] -->
+			<a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/"><img src="http://web.archive.org/web/20130606061117im_/http://www.gesis.org/fileadmin/img/header/gs_logo_microsite.jpg" width="160" height="50" border="0" class="headImg1" alt="" title="Zur Homepage"/></a>
+		<!-- Output of lib.header.30 [end] -->
+			
+		<!-- Output of lib.header [end] -->
+			</div>
+    <div id="microsite"><span id="micrositeClaim">Historical Social Research</span></div>
+    <div id="nav">
+		<!-- Output of lib.nav.10 [begin] -->
+			<a id="navigation" name="navigation"></a>
+		<!-- Output of lib.nav.10 [end] -->
+			
+		<!-- Output of lib.nav.20 [begin] -->
+			<div id="nav_main"><ul><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/hsr-home/" target="_self"><span>HSR Home</span></a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/profil/" target="_self"><span>Profil</span></a></li><li id="current"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/" target="_self"><span>Aktuelle Ausgaben</span></a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/fuer-autoren/" target="_self"><span>Für Autoren</span></a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/archiv/" target="_self"><span>Archiv</span></a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/bestellungen/" target="_self"><span>Bestellungen</span></a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/faqs/" target="_self"><span>FAQs</span></a></li>
+		<!-- Output of lib.nav.20 [end] -->
+			
+		<!-- Output of lib.nav.30 [begin] -->
+			</ul></div>
+		<!-- Output of lib.nav.30 [end] -->
+			</div>
+    <div id="main">
+      
+      <div id="col1">
+        <div id="col1_content" class="clearfix">
+          
+		<!-- Output of lib.submenu.10 [begin] -->
+			<ul id="submenu">
+		<!-- Output of lib.submenu.10.30 [begin] -->
+			<li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2011-2013/" target="_self"><span class="menuOpened">Aktuelle Hefte 2011-2013</span></a><ul><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2011-2013/aktuelles-supplement-25-juergen-w-falter/" target="_self">Aktuelles Supplement 25: Jürgen W. Falter</a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2011-2013/aktuelles-heft-381-security-and-conspiracy/" target="_self">Aktuelles Heft: 38.1 Security and Conspiracy</a></li><li><strong>37.4 - The Économie des Conventions</strong></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/373-digital-humanities/" target="_self">37.3 - Digital Humanities</a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/372-elite-transformation/" target="_self">37.2 - Elite Transformation</a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/371-elite-foundations/" target="_self">37.1 - Elite Foundations</a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/suppl-24-contemporary-history/" target="_self">Suppl. 24 - Contemporary History</a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/364-conventions-and-institutions/" target="_self">36.4 - Conventions and Institutions</a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/363-markets-and-market-societies/" target="_self">36.3 - Markets and Market Societies</a></li><li><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/362-fertility/" target="_self">36.2 - Fertility</a></li></ul></li>
+		<!-- Output of lib.submenu.10.30 [end] -->
+			</ul>
+		<!-- Output of lib.submenu.10 [end] -->
+			
+          
+		<!-- Output of lib.selectorBox [begin] -->
+			
+		<!-- Output of lib.selectorBox [end] -->
+			
+          <div class="textBelowMenu"><!--TYPO3SEARCH_begin--><!--TYPO3SEARCH_end--></div>
+          <div class="partner">            <a href="http://web.archive.org/web/20130606061117/http://www.wgl.de/" title="Opens external link in new window" target="_blank" class="external-link-new-window">
+            <img src="http://web.archive.org/web/20130606061117im_/http://www.gesis.org/fileadmin/upload/allgemein/logos/leibniz_logo_de.png" class="wgl-logo" alt="Leibniz logo"/></a>
+</div>
+        </div>
+      </div>
+      <div id="col2">
+        <div id="col2_content" class="clearfix">
+          <div id="quicklinks" class="dialogue-container"><h1>GESIS Quicklinks</h1><div class="dialogue-content"><form name="form" id="form" action="http://web.archive.org/web/20130606061117/http://www.gesis.org/"><select name="gs_quicklinks" id="gs_quicklinks" onchange="jump(this.value)"><option value="">Seite auswählen...</option><option value="allbus">ALLBUS</option><option value="cews">CEWS</option><option value="dbk">Datenbestandskatalog</option><option value="dara">da|ra</option><option value="eurobarometer">Eurobarometer</option><option value="unser-angebot/daten-analysieren/umfragedaten/european-values-study">European Values Study</option><option value="gles">German Longitudinal Election Study (GLES)</option><option value="issp">ISSP</option><option value="missy">MISSY</option><option value="piaac">PIAAC</option><option value="wahlen/politbarometer">Politbarometer</option><option value="sowiport">Sowiport</option><option value="ssoar">SSOAR</option><option value="zacat">ZACAT</option></select></form><div class="clearfix"></div></div></div>
+          <div id="col2_below_quicklinks"><!--TYPO3SEARCH_begin-->
+	<!--  CONTENT ELEMENT, uid:31087/templavoila_pi1 [begin] -->
+		<div id="c31087" class="csc-default"><div class="dialogue-container">
+	<h1>Aktuelles</h1>
+	<div class="dialogue-content">
+	<!--  CONTENT ELEMENT, uid:27230/text [begin] -->
+		<div id="c27230" class="csc-default">
+		<!--  Text: [begin] -->
+			<ul><li><h5><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2011-2013/aktuelles-supplement-25-juergen-w-falter/" title="Opens internal link in current window" target="_self" class="internal-link">Neu: HSR Suppl. 25 - Jürgen W. Falter. Zur Soziographie des Nationalsozialismus</a></h5></li><li><h5><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/" title="Opens internal link in current window" target="_self" class="internal-link">Neue HSR erschienen: 38.1 - Security and Conspiracy in History</a></h5></li><li><h5><a href="web-archive-org-0065.htm" title="Opens internal link in current window" target="_self" class="internal-link">HSR 37.4: The Économie des Conventions</a></h5></li></ul><ul><li><h5>Frei zum Download:<br/>- <a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/archiv/2011/suppl-23-kollektive-biografie/" title="Opens internal link in current window" target="_self" class="internal-link">HSR Suppl. 23. Schröder <br/> &nbsp;&nbsp;Kollektivbiographie</a><br/>- <a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/archiv/2011/361-management-research/" title="Opens internal link in current window" target="_self" class="internal-link">HSR 36.1 Management Research</a><br/>- <a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/archiv/hsf/" title="Opens internal link in current window" class="internal-link">HSF Vol. 1-13 <br/></a></h5></li></ul>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:27230/text [end] -->
+		</div>
+</div></div>
+	<!--  CONTENT ELEMENT, uid:31087/templavoila_pi1 [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:31092/list [begin] -->
+		<div id="c31092" class="csc-default">
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "gs_contact", plugin "tx_gscontact_pi1"
+
+	-->
+	<div class="tx-gscontact-pi1">
+		<div class="dialogue-container"><h1>Kontakt</h1><div class="contact"><h3>GESIS</h3><p><strong>Redaktion Historical Social Research / Historische Sozialforschung</strong><br/>Unter Sachsenhausen 6-8<br/>50667 Köln<br/>Tel.: 0221 - 476 94 141<br/>0221 - 476 94 164<br/><a class="email" href="javascript:linkTo_UnCryptMailto('ocknvq,jutBiguku0qti');" title="hsr(at)gesis(dot)org"><span>E-Mail</span></a></p></div><div class="clearfix"></div></div>
+	</div>
+	
+	<!-- END: Content of extension "gs_contact", plugin "tx_gscontact_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:31092/list [end] -->
+		<!--TYPO3SEARCH_end--></div>
+        </div>
+      </div>
+      <div id="col3">
+        <div id="col3_content" class="clearfix">
+          <div class="floatbox"><!--TYPO3SEARCH_begin-->
+	<!--  CONTENT ELEMENT, uid:31091/textpic [begin] -->
+		<div id="rgaccord1-nest"><div id="c31091" class="csc-default">
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<h5>HSR Vol. 37 (2012) No. 4: Focus I: The Économie des Conventions / Focus II: Towards Web History</h5>
+<p>Rainer Diaz-Bone &amp; Robert Salais (Eds): The Économie des Conventions – Transdisciplinary Discussions and Perspectives.
+</p>
+<p>Die économie des conventions (EC) stellt einen einflussreichen transdisziplinären, pragmatischen Forschungsansatz dar für die historische Analyse ökonomischer Koordinationsformen und ökonomischer Institutionen. Dieser wurde zunächst in Frankreich entwickelt. Seit einigen Jahren internationalisiert sich die Rezeption. Historical Social Research/Historische Sozialforschung hat seit 2009 sowohl Beiträge über die EC als auch Anwendungen der EC publiziert. In der vorliegenden Ausgabe werden nun aktuelle und kritische Diskussionen präsentiert, die institutionentheoretische, methodologische und konzeptionelle Probleme der EC aufgreifen. Darüber hinaus werden aber Beiträge vorgelegt, die weitere Anwendungen der EC in der transdisziplinären historischen Analyse der Ökonomie präsentieren und die Perspektiven für die Ausarbeitung konzeptioneller und methodologischer Ansätze der EC aufzeigen.&nbsp; 
+</p>
+<p>Christoph Classen, Susanne Kinnebrock &amp; Maria Löblich (Eds.): Towards Web History: Sources, Methods, and Challenges in the Digital Age. 
+</p>
+<p class="MsoNormal">Der Prozess der Digitalisierung stellt für die Geschichtswissenschaft und die historische Kommunikationsforschung eine doppelte Herausforderung dar. Einerseits gilt es, diesen Prozess historisch zu beschreiben und sich auf den grundlegend veränderten Charakter digitaler Quellen und Kommunikationsformen einzustellen. Auf der anderen Seite hat die Digitalisierung die Forschung und die innerfachliche Kommunikation bereits nachhaltig verändert und wird dies auch weiterhin tun. Dieser doppelten Herausforderung geht der HSR Focus „Towards Web History“ nach. Erstens geht es um die Frage, wie eine zukünftige Geschichte des World Wide Web angesichts bisher ungeahnter Schwierigkeiten geschrieben werden kann. Zweitens wird anhand von ausgewählten Digitalisierungsprojekten analysiert, wie digitalisierte Medienquellen so produktiv gemacht werden können, dass sich daraus ein möglichst großer Mehrwert für die Forschung und weitere Nutzerkreise ergibt. </p>
+<p>Dieses Heft enthält weiterhin ein Mixed Issue mit neun Artikeln zu unterschiedlichen Themen. [<strong><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/bestellungen/" title="Opens internal link in current window" target="_self" class="internal-link">Zur Bestellung</a></strong>]</p>
+		<!--  Text: [end] -->
+			</div>
+		<!--  Image block: [end] -->
+			</div></div>
+	<!--  CONTENT ELEMENT, uid:31091/textpic [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:31089/text [begin] -->
+		<div class="rgaccord1-nest"><h3 class="rgaccord1-toggle"><span class="rgaccord1-icon">Inhaltsverzeichnis &amp; Abstracts</span></h3><div class="rgaccord1-content"><div id="rgaccord1-nest"><div id="c31089" class="csc-default">
+		<!--  Header: [begin] -->
+			<h1>Inhaltsverzeichnis &amp; Abstracts</h1>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<h5><strong><strong><strong>Focus I: T<strong>he </strong><strong><em><span lang="EN-US"></span></em></strong></strong><strong><em><span lang="EN-US"></span></em></strong></strong><strong><em><span lang="EN-US">É</span><span lang="EN-US">conomie des Conventions</span></em></strong></strong></h5><ul><li><span lang="EN-US"><em>Rainer Diaz-Bone &amp; Robert Salais:</em> The <em>Économie des Conventions</em> – Transdisciplinary Discussions and Perspectives. Introduction to the HSR Focus. </span><span lang="EN-GB"></span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-01-diazsal/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D01\x2Ddiazsal\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><span lang="EN-GB"> </span></li><li><span lang="EN-GB"></span><span lang="EN-US"><em>Christian Bessy: </em>Institutions and Conventions of Quality. </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-02-bessy/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D02\x2Dbessy\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><span lang="EN-US"></span></li><li><em>La<em>urent Thévenot</em>: </em><span lang="EN-US"><span lang="EN-US">Convening the Company of Historians to go into Conventions, Powers, </span></span> Critiques and Engagements. <span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-03-theven/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D03\x2Dtheven\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><span lang="EN-US"></span></li><li><span lang="EN-US"><em>Jürgen Kädtle</em>r</span>: On Conventions, Institutions, Power, and Uncertainty – Some Cursory<span lang="EN-US"> Remarks. </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-04-kaedtl/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D04\x2Dkaedtl\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><span lang="FR"></span></li><li><span lang="FR"><em>Bert De Munck</em>: Conventions, the Great Transformation and Actor Network Theory. </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-05-demunck/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D05\x2Ddemunck\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><span lang="EN-GB"></span></li><li><span lang="EN-US"><em>Robert Salais</em>: Quantification and the Economics of Convention.</span><span lang="EN-GB"> </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-06-salais/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D06\x2Dsalais\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a>.</span><span lang="EN-US"><span id="1343312150842S"></span></span><span lang="EN-GB"></span></li><li><span lang="EN-US"><em>Rainer Diaz-Bone</em>: Elaborating the Conceptual Difference between Conventions and </span>Institutions. <span lang="EN-US"></span><span lang="EN-US"></span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-07-diazbon/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D07\x2Ddiazbon\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><span lang="EN-US"> </span><em><span lang="EN-US"></span></em><em><span lang="EN-US"></span></em></li><li><em><span lang="EN-US"></span></em><span lang="EN-US"><em>Claire Judde de Larivièr</em>e: The ‘Public’ and the ‘Private’ in Sixteenth-Century Venice: From Medieval Economy to Early Modern State.</span><span lang="EN-GB"> </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-08-judde/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D08\x2Djudde\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><span lang="EN-GB"> </span><em><span lang="EN-US"></span></em></li></ul><p><span lang="EN-US"></span> 
+</p>
+<h5><strong><strong><span lang="EN-US">Focus II: Towards Web History</span></strong></strong></h5><ul><li><span lang="EN-US"><em>Christoph Classen, Susanne Kinnebrock &amp; Maria Löblich</em>: Towards Web History: Sources, Methods, and Challenges in the Digital Age. An Introduction. </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-09-classetal/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D09\x2Dclassetal\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><span lang="EN-US"></span></li><li><em>N<em></em></em><em>iels Brügger</em>: When the Present Web is Later the Past: Web Historiography, Digital<span lang="EN-US"> History, and Internet Studies. </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-10-bruegg/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D10\x2Dbruegg\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span></li><li><span lang="EN-US"><em>Christian Schwarzenegger</em>:Exploring Digital Yesterdays – Reflections on New Media and the Future of Communication History. </span><span lang="EN-US"></span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-11-schwarze/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D11\x2Dschwarze\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span></li><li><span lang="EN-US"><em>Christian Oggolder</em>:&nbsp; </span>Inside – Outside. Web History and the Ambivalent Relationship between Old and New Media. <span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-12-oggol/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D12\x2Doggol\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span></li><li><em>Albrecht Hoppe &amp; Rudolf Stöbe</em>r: Amtspresse in Preußen. Zur Erschließung der Provinzial-Correspondenz und Neuesten Mittheilungen. <span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-13-hopstoe/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D13\x2Dhopstoe\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span></li><li><span lang="EN-US"><em>Patrick Rössler, Achim Bonte &amp; Katja Leiskau</em>:  Digitization of Popular Print Media as a Source for Studies on Visual  Communication: Illustrated Magazines of the Weimar Republic. </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-14-roessetal/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D14\x2Droessetal\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span></li></ul><h5><strong>Mixed Issue: <strong><span lang="EN-US">Articles</span></strong></strong> </h5><ul><li><span lang="EN-US"><em>Jarg Bergold &amp; Stefan Thomas</em>: Participatory Research Methods: A Methodological Approach in Motion.</span><span lang="FR"> </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-15-bergthom/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D15\x2Dbergthom\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span></li><li> <span lang="EN-US"><em>Franz Breuer</em>:  Predecessor-Successor Transitions in Institutional and Interpersonal  Contexts: On the Development of a Theory of Transfer of Personal  Objects.</span><span lang="EN-US"></span><span lang="EN-GB"> </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-16-breuer/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D16\x2Dbreuer\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span></li><li><span lang="EN-US"><em>César A. Cisneros Puebla &amp; Judith Davidson</em>: Qualitative Computing and Qualitative Research: Addressing the Challenges of Technology and Globalization.</span><span lang="EN-US"></span><span lang="EN-GB"> </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-17-puebdavid/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D17\x2Dpuebdavid\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span></li><li><em>Rainer Schützeichel</em>: Verstehen in professionalen Interaktionen.<span lang="EN-US"></span><span lang="EN-GB"> </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-18-schuetz/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D18\x2Dschuetz\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><span lang="EN-US"></span></li><li><span lang="EN-US"><em>Ann-Mari Sellerberg &amp; Vesa Leppänen</em>: A Typology of Narratives of Social Inclusion and Exclusion: The Case of Bankrupt Entrepreneurs.</span><span lang="EN-US"></span><span lang="EN-GB"> </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-19-sellleppae/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D19\x2Dsellleppae\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span></li><li><span lang="EN-US"><em>Evangelina Baralou, Patricia Wolf &amp; Jens O. Meissner</em>:  Bright, Excellent, Ignored: The Contribution of Luhmann’s System Theory  and Its Problem of Non-Connectivity to Academic Management Research. </span><span lang="EN-US"></span><span lang="EN-GB"> </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-20-baraletal/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D20\x2Dbaraletal\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><span lang="EN-US"><em></em></span></li><li><span lang="EN-US"><em>Claude Diebolt</em>: Where Are We Now in Cliometrics?</span> <span lang="EN-US"></span><span lang="EN-GB"> </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-21-diebo/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D21\x2Ddiebo\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><span lang="EN-US"><em></em></span></li><li><span lang="EN-US"><em>Anne Reimat</em>: Old Age Pensions, Demography and Economic Growth in the Long Run: The French Case Revisited. </span><span lang="EN-US"></span><span lang="EN-US"></span><span lang="EN-GB"> </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-22-reimat/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D22\x2Dreimat\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span><em></em></li><li><em>Patricio Sáiz</em>: Social Networks of Innovation in the European Periphery: Exploring<span lang="EN-US"> Independent versus Corporate Patents in Spain circa 1820-1939. </span><span lang="EN-US"></span><span lang="EN-GB"> </span><span lang="EN-US"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/hsr/aktuelle-ausgaben/aktuelle-hefte-2010-2012/ordner-fuer-abstracts-374/abstract-374-23-saiz/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.gesis.org\x2Fhsr\x2Faktuelle\x2Dausgaben\x2Faktuelle\x2Dhefte\x2D2010\x2D2012\x2Fordner\x2Dfuer\x2Dabstracts\x2D374\x2Fabstract\x2D374\x2D23\x2Dsaiz\x2F','FEopenLink','width=600,height=500');vHWin.focus();return false;" title="Opens internal link in current window" class="internal-link">[Abstract]</a></span></li></ul>
+		<!--  Text: [end] -->
+			</div></div></div></div>
+	<!--  CONTENT ELEMENT, uid:31089/text [end] -->
+		<!--TYPO3SEARCH_end--></div>
+        </div>
+        <div id="ie_clearing">&nbsp;</div>
+      </div>
+    </div>
+    
+		<!-- Output of lib.footer [begin] -->
+			<div id="footer">
+		<!-- Output of lib.footer.100 [begin] -->
+			<div id="copyright">&copy; GESIS</div><div id="footerlinks"><a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/das-institut/impressum/">Impressum</a> | <a href="http://web.archive.org/web/20130606061117/http://www.gesis.org/sitemap">Sitemap</a> |&nbsp;
+		<!-- Output of lib.footer.100 [end] -->
+			Letztes Update dieser Seite am&nbsp;13.05.2013&nbsp;</div><div id="socialLinks"><ul><li><div class="g-plusone" data-size="medium" data-href="http://www.gesis.org"></div></li><li><iframe src="http://web.archive.org/web/20130606061117if_/http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.gesis.org&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=dark&amp;font=arial&amp;height=21" scrolling="no" frameborder="0"></iframe></li><li>Folgen Sie uns auf:</li><li><a class="googleplus" href="http://web.archive.org/web/20130606061117/https://plus.google.com/106144515597313076323?prsrc=3" target="_blank"><img src="http://web.archive.org/web/20130606061117im_/http://www.gesis.org/fileadmin/img/icons/gs_googleplus.png" alt="google plus"/></a></li><li><a class="facebook" href="http://web.archive.org/web/20130606061117/http://www.facebook.com/gesis.org" target="_blank"><img src="http://web.archive.org/web/20130606061117im_/http://www.gesis.org/fileadmin/img/icons/gs_facebook.png" alt="facebook"/></a></li><li><a class="twitter" href="http://web.archive.org/web/20130606061117/http://twitter.com/gesis_org" target="_blank"><img src="http://web.archive.org/web/20130606061117im_/http://www.gesis.org/fileadmin/img/icons/gs_twitter.png" alt="twitter"/></a></li></ul></div></div>
+		<!-- Output of lib.footer [end] -->
+			
+  </div>
+</div>
+<!-- Copyright (c) 2000-2013 etracker GmbH. All rights reserved. -->
+<!-- This material may not be reproduced, displayed, modified or distributed -->
+<!-- without the express prior written permission of the copyright holder. -->
+
+<!-- BEGIN etracker code ETRC 3.0 -->
+<script type="text/javascript">document.write(String.fromCharCode(60)+"script type=\"text/javascript\" src=\"http"+("https:"==document.location.protocol?"s":"")+"://web.gesis.org/t.js?et=qPKGYV\">"+String.fromCharCode(60)+"/script>");</script>
+
+<!-- etracker PARAMETER 3.0 -->
+<script type="text/javascript">
+var et_pagename     = "GESIS%2F37.4%20-%20The%20%C9conomie%20des%20Conventions%3Ahsr%2Faktuelle-ausgaben%2Faktuelle-hefte-2010-2012%2F374-the-economie-des-conventions%2F";
+var et_areas        = "GESIS%2Fhsr%2Faktuelle-ausgaben%2Faktuelle-hefte-2010-2012%2F374-the-economie-des-conventions%2F";
+</script>
+<!-- etracker PARAMETER END -->
+
+<script type="text/javascript">_etc();</script>
+<noscript><p><a href="http://web.archive.org/web/20130606061117/http://www.etracker.com/"><img class="trackimage" style="border:0px;" alt="" src="http://web.archive.org/web/20130606061117im_/http://www.etracker.com/nscnt.php?et=qPKGYV"/></a></p></noscript>
+<!-- etracker CODE END -->
+
+
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 06:11:17 Jun 06, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:19:35 Apr 11, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  LoadShardBlock: 109.051 (3)
+  esindex: 0.009
+  captures_list: 125.371
+  CDXLines.iter: 11.188 (3)
+  PetaboxLoader3.datanode: 85.094 (4)
+  exclusion.robots: 0.276
+  exclusion.robots.policy: 0.238
+  RedisCDXSource: 0.745
+  PetaboxLoader3.resolve: 114.428
+  load_resource: 202.757
+-->

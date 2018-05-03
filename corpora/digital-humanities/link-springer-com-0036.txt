@@ -1,0 +1,1036 @@
+
+        
+
+
+    
+    Skip to main content
+
+        
+            
+    
+        This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+        
+
+    
+
+
+
+                    
+
+
+                
+        
+            
+                    
+                SpringerLink
+
+    
+        
+    
+
+    
+
+
+                    
+                        
+                            
+                                
+    
+    
+    
+        
+    
+
+
+                            
+
+                        
+
+                    
+
+                    
+    
+        
+            
+                Search
+                    
+                
+            
+        
+
+
+        	
+                
+                    Home
+                
+            
+	
+                
+                    Contact us
+                
+            
+	
+                    
+                        Log in
+                    
+                
+
+
+    
+ 
+ 
+            
+
+
+        
+
+    
+
+            
+
+            
+                
+                    
+                        
+                            
+        
+            [image: Neural Processing Letters]
+        
+
+
+
+                        
+
+                    
+                    
+                        
+
+
+                        
+                            Neural Processing Letters
+October 2017, Volume 46, Issue 2,
+                        pp 379–409 | Cite as
+
+A New Evolving Tree-Based Model with Local Re-learning for Document Clustering and Visualization
+
+	Authors
+	Authors and affiliations
+
+	Wui Lee Chang
+	Kai Meng TayEmail author
+	Chee Peng Lim
+
+
+
+ArticleFirst Online: 06 February 2017
+
+
+
+    	
+                     242
+                     Downloads
+            
+
+
+
+
+
+Abstract
+The Evolving tree (ETree) is a hierarchical clustering and visualization model that allows the number of clusters to grow and evolve with new data samples in an online learning manner. While many hierarchical clustering models are available in the literature, ETree stands out because of its visualization capability. It is an enhancement of the Self-Organizing Map, a famous and useful clustering and visualization model. ETree organises the trained data samples in the form of a tree structure for better presentation and visualization especially for high-dimensional data samples. Even though ETree has been used in a number of applications, its use in textual document clustering and visualization is limited. In this paper, ETree is modified and deployed as a useful model for undertaking textual documents clustering and visualization problems. We introduce a new local re-learning procedure that allows the tree structure to grow and adapt to new features, i.e., new words from new textual documents. The performance of the proposed ETree model is evaluated with two (one benchmark and one real) document data sets. A number of key aspects of the proposed ETree model, which include its topology representation, learning time, as well as recall and precision rates, are evaluated. The results show that the proposed local re-learning procedure is useful for handling increasing number of features incrementally. In summary, this study contributes towards a modified ETree model and its use in a new domain, i.e., textual document clustering and visualization.
+Keywords
+Evolving tree Textual documents Clustering Visualization Local re-learning 
+This is a preview of subscription content, log in to check access
+
+
+Notes
+Acknowledgements
+To 2nd Regional Engineering Conference 2008 (EnCon 2008), and the organizing committee. Special thanks to Miss Liew Hui Chang who had helped during information collections and compilations. The authors had the permission to use the collection of abstracts from EnCon 2008, in which the authors would like to express gratitude for.
+
+Appendix
+See Tables 7, 8, 9, and 10.Table 7 Textual documents mapped onto \(N_{81,14} \) 
+ 
+
+	  i 
+ 	 Topics
+ 	 Places
+ 	 People
+ 	 Organizations
+ 	 Text
+ 
+	 221
+ 	 –
+ 	 China Japan
+ 	 –
+ 	 Worldbank
+ 	 China will receive loans totalling 390 mln dlrs from Japan and the World Bank for investment in new highways and port facilities. The Japan Overseas Economic Co–operation Fund is to provide 260 mln dlrs towards China”s plans to improve its road network, the official New China News Agency reported. A 130 mln dlr World Bank loan will be used to build 12 new berths incorporating container handling systems at the northeast China port of Tianjin, the agency said. It gave no details of the repayment terms of the loans. REUTER&#3;
+ 
+	 1185
+ 	 –
+ 	 Usa
+ 	 –
+ 	 –
+ 	 Norfolk Southern Corp said it entered into a joint venture with Sovran Financial Corp&lt;SOVN> to build the Sovran III Building, which will be renamed Norfolk Southern Tower. Norfolk Southern said it will locate its headquarters in the tower and occupy the 17th through 21st floors. It did not disclose the financial terms of the venture. The company said construction of the building adjacent to the Royster Building in downtown Norfolk begain in October 1986. Another story has been added to the original plans, making a 21–story tower. Reuter&#3;
+ 
+	 5687
+ 	 –
+ 	 Usa
+ 	 –
+ 	 –
+ 	 The Federal Home Loan Bank Board said it voted to transfer one billion dlrs cash from the Federal Savings and Loan Insurance Corp (FSLIC) to the Dallas Federal Home Loan bank tomorrow to correct a collateral deficiency. The infusion was needed because the value of collateral behind FSLIC loans to savings and loan associations in the region had declined, an FHLBB official said. The official said that as a result, auditors of the Dallas bank, one of the 12 regional federal home loan banks, would be able to give an unqualified opinion on the bank’s condition. Reuter&#3;
+ 
+	 6046
+ 	 Earn
+ 	 Usa
+ 	 –
+ 	 –
+ 	 net 65 mln vs 57 mln year shr preferred 14.87 dlrs vs 12.51 dlrs shr common 236.77 dlrs vs 197.40 dlrs net 247 mln vs 208 mln NOTE: Federal Home Loan Mortgage Corp. FHLMC had 14,998,210 preferred shares outstanding in 1986 vs 14,998,379 in 1985, owned by about 3,000 member institutions of the 12 Federal Home Loan Banks. FHLMC also has 100,000 shares of common, owned by the Home Loan Banks. Reuter&#3;
+ 
+	 6088
+ 	 –
+ 	 Usa Mexico
+ 	 Petricioli
+ 	 –
+ 	 Mexican Finance Minister Gustavo Petriccioli said Mexico will sign its 7.7 billion dlr commercial bank loan on Friday. Petriccioli, speaking to reporters after a visit to the World Bank, said the loan was currently 98.5 pct subscribed, a figure Treasury Secretary James Baker used in Congressional testimony yesterday. Reuter&#3;
+ 
+	 6383
+ 	 –
+ 	 Usa
+ 	 –
+ 	 –
+ 	 The Federal Home Loan Bank Board said it put the Perpetual Savings Bank in Santa Ana, Calif., Into receivership because it was insolvent and replaced it with a new federally chartered Perpetual Savings Association. This is the 15th federal action assisting troubled U.S. Savings institutions this year. REUTER&#3;
+ 
+	 6461
+ 	 Acq
+ 	 Usa
+ 	 –
+ 	 –
+ 	 The Federal Home Loan Bank Board (FHLBB) announced today the replacement of a closed Santa Ana, Calif., savings bank in the 15th federal action assisting troubled U.S. savings institutions this year. The FHLBB said Perpetual Savings Bank in Santa Ana was put into receivorship because it was insolvent and was replaced by a new federally chartered Perpetual Savings Association. It said the savings bank’s insolvency “was a direct result of losses on speculative investments in real estate which were not supported by appraisals.” The FHLBB said it appointed Great American First Savings Bank&lt;GTA> of San Diego to manage Perpetual Savings. It said as of January 31, Perpetual had assets of 61.9 mln dlrs. Reuter&#3;
+ 
+	 9846
+ 	 Earn
+ 	 Usa
+ 	 –
+ 	 –
+ 	 The Federal Home Loan Bank Board said that it closed Equitable Savings and Loan Association of Fountain Valley, California, on Friday due to insolvency, amongst other complaints. The bank board said in a statement that Equitable’s insured deposits have been transfered to a unit of Buffalo–based Empire of America Federal Savings Bank&lt;EOA> in Woodland Hills, California. Consequently, Equitable’s offices will open as Empire branches today. Equitable had assets of 59.12 mln dlrs. Reuter&#3;
+ 
+	 10005
+ 	 –
+ 	 Usa
+ 	 –
+ 	 –
+ 	 The Federal Home Loan Bank Board said it had closed Equitable Savings and Loan Association of Fountain Valley, Calif., and transferred its insured deposits to Empire of America–California, FSB, a federal savings bank in Woodland Hills, Calif. Equitable had assets of 59.12 mln dlrs. Empire is a subsidiary of Empire of America, FSB, Buffalo, N.Y., which has 9.1 billion dlrs in assets and 143 offices in five states. The former offices of Equitable will open as branches of Empire and Equitable’s depositors will have immediate access to their insured funds. Equitable was insolvent and had substantially dissipated assets and earnings, resulting in an unsafe and unsound condition to transact business, the bank board said. It was the seventh closing of a thrift in the nation this year and the first liquidation in California. The FHLBB said Equitable had deposits of 79.2 mln dlrs, all of which was insured except for about 300,000 dlrs. A spokeswoman for the board said information on the cost of the transfer to the Federal Savings and Loan Insurance Corp. was unavailable. Reuter&#3;
+ 
+	 11005
+ 	 Earn
+ 	 Usa
+ 	 –
+ 	 –
+ 	 Equicor, Equitable HCA Corp, said that the company will likely attain revenues in excess of two billion dlrs in its first year of operations. The company, created last October with initial equity of 400 mln dlrs, is owned equally by the Equitable Life Assurance Society of the U.S. and Hospital Corp of America&lt;HCA>. Financial results for the first six months of the company’s operations were not disclosed. Equicor provides employee group plans to 1,500 corporations nationwide. It said it aims to double its marketshare in five years from the about 3.5 pct of the employee benefits industry it controls. Reuter&#3;
+ 
+
+
+
+ Table 8 Textual documents mapped onto \(N_{82,14} \) 
+ 
+
+	  i 
+ 	 Topics
+ 	 Places
+ 	 People
+ 	 Organizations
+ 	 Text
+ 
+	 243
+ 	 –
+ 	 Egypt Congo
+ 	 –
+ 	 –
+ 	 Representatives of nine African countries will meet here on March 11 to discuss the African debt crisis, the Chad political situation and other issues, Egypt’s Minister of State for Foreign Affairs, Boutros Boutros Ghali, said. He told reporters on his return from Ethiopia and Djibouti that the meeting and venue had been agreed by the Organisation of African Unity (OAU). He said Egypt, Zambia, Djibouti, Zaire, Uganda, Sierra Leone, Congo, Algeria and Mali would be represented. Foreign Ministry sources said Congo President Denis Sassou–Nguesso would chair the meeting. REUTER&#3;
+ 
+	 201
+ 	 –
+ 	 Italy
+ 	 –
+ 	 –
+ 	 Leaders of Italy’s five coalition parties have agreed to meet today to try to settle their differences which are mainly between Prime Minister Bettino Craxi’s Socialist Party and the majority Christian Democrats. Sources close to Deputy Prime Minister Arnaldo Forlani said Craxi told him he would announce his resignation next week, allowing negotiations on a new government leader. The conservative Christian Democrats demanded the meeting after Craxi said a pact agreed during a government crisis last August, under which he was to hand over the prime minister’s job next month, was unlikely to be fulfilled. Political sources said the Christian Democrats are likely to leave the coalition, which also includes Republicans, Social Democrats and Liberals, unless they get the prime minister’s job. They said Craxi’s plans to resign show he has decided to stick to the pact but talks on a leader, a government program and sharing of ministries will not be easy. They said there is dissent among the partners and that Forlani has been trying to mediate to avoid a crisis. They said the five are likely to begin talks tomorrow on whether formation of a new government is feasible or early elections are inevitable. Elections are not due until 1988. REUTER&#3;
+ 
+	 1046
+ 	 –
+ 	 Italy
+ 	 –
+ 	 –
+ 	 Socialist Prime Minister Bettino Craxi said his five party coalition government would resign. Craxi, Italy’s prime minister for a postwar record of 3–1/2 years, told the Senate (upper house) he would hand his and the government’s resignation to President Francesco Cossiga immediately after leaving the chamber. Craxi has been prime minister, at the head of two separate but identical five–party coalitions, since August 1983. Reuter&#3;
+ 
+	 1094
+ 	 –
+ 	 Italy
+ 	 –
+ 	 –
+ 	 Italian Prime Minister Bettino Craxi and his five–party coalition government have resigned, officials said. A statement from the Quirinal presidential palace said head of state Francesco Cossiga had reserved his decision on whether to accept the resignation, normal procedure when a government stands down. The statement said Cossiga had asked Craxi, who has been prime minister for a post–war record of three–and–a–half years, to continue to handle current government business. REUTER&#3;
+ 
+	 1762
+ 	 –
+ 	 Italy
+ 	 Cossiga
+ 	 –
+ 	 President Francesco Cossiga meets political leaders to discuss how to form a new government following the resignation of Prime Minister Bettino Craxi. Craxi’s Socialist Party has said it will not serve under Foreign Minister Giulio Andreotti, who has been prime minister five times previously and whom the majority Christian Democratic Party has said it wants to take on the job again. The Socialist Party, the second biggest in the outgoing five–party coalition, said it would accept only Ciriaco De Mita, Christian Democratic Party secretary, or the party’s president, Arnaldo Forlani, for the job of prime minister. Political sources said talks are likely to be difficult and could take several days due to rivalry between the two leading parties. In Craxi’s 3–1/2 years as prime minister, the Christian Democrats have become increasingly irritated at being denied the prime minister’s job. The sources said early general elections are likely unless agreement can be reached. Cossiga is due to meet former presidents before holding talks with party leaders, including the opposition Communists and the junior coalition members —- Republicans, Liberals and Social Democrats. After the consultations, Cossiga will name a prime minister–designate who will try to form a government. REUTER&#3;
+ 
+	 2048
+ 	 –
+ 	 Usa Japan
+ 	 Nakasone
+ 	 –
+ 	 Commerce Secretary Malcolm Baldrige said he may recommend that the United States retaliate against Japan if the Japanese do not permit U.S. construction firms to participate in building the eight billion dlr Kansai airport. But he said he had a personal commitment from Japanese Prime Minister Yasuhiro Nakasone that US firms would have a chance at the work. “I think he will honor that commitment,” Baldrige told the Senate Appropriations subcommittee on commerce affairs.” He said one form of retaliation could be to curb Japanese firms’ two billion dlr construction work in the United States reuter&#3;
+ 
+	 2862
+ 	 –
+ 	 Italy
+ 	 –
+ 	 –
+ 	 Italian President Francesco Cossiga asked veteran Christian Democrat politician Giulio Andreotti to try to form a new government, officials said. They said Andreotti had reserved his reply on whether to accept the mandate, normal procedure until he has ascertained whether he can form a government. Cossiga nominated Andreotti, sole candidate of the majority Christian Democrats, despite stiff opposition from the Socialists of outgoing Prime Minister Bettino Craxi. REUTER&#3;
+ 
+	 4456
+ 	 –
+ 	 Italy
+ 	 –
+ 	 –
+ 	 Italian Prime Minister designate Giulio Andreotti expressed cautious optimism about his chances of forming a government, amid concern by industrialists that a lengthy political crisis could cause economic damage. Andreotti today wound up his first round of political consultations aimed at finding a way out of the crisis. His Christian Democrats and the Socialists of outgoing premier Bettino Craxi, whose row caused last week’s collapse of the five–party coalition, remained deeply divided. Andreotti said he would spend the weekend considering the situation before a second round of consultations next week. Meanwhile Italy’s top industrialists expressed concern that a long drawn—out crisis, or continuing squabbling between the five coalition partners, could jeopardise the major economic progress made in three—and—a—half stable years under Craxi. Luigi Lucchini, president of the employers organisation Confindustria said in a speech yesterday, “What is certain is that a precarious political situation is damaging to the economy, to the objectives of companies, to competitivity.” His remarks were supported by Fiat chairman Giovanni Agnelli, who said in a radio interview that he hoped for a reconstruction of the coalition. REUTER&#3;
+ 
+	  8676 
+ 	 –
+ 	 Italy
+ 	 –
+ 	 –
+ 	 Veteran politician Giulio Andreotti abandoned his attempts to form a government, putting Italy on course for early elections, political sources said. Christian Democrat Andreotti told President Francesco Cossiga he was unable to reconstruct the five–party coalition after two weeks of negotiations, they said. Reuter&#3;
+ 
+	  9473 
+ 	 –
+ 	 Italy
+ 	 –
+ 	 –
+ 	 Veteran politician Giulio Andreotti abandoned his attempts to form a government, putting Italy on course for early elections, political sources said. Christian Democrat Andreotti told President Francesco Cossiga he was unable to reconstruct the five–party coalition after two weeks of negotiations, they said. Reuter&#3;
+ 
+
+
+
+ Table 9 Summary of textual documents mapped onto \(N_{4,2} \) 
+ 
+
+	 Doc.
+ 	 Keywords
+ 	 Texts
+ 
+	 1
+ 	 Fuzzy inference system; FMEA;
+ 	 A fuzzy inference system (fis) based failure mode and effect analysis (fmea) methodology is presented. fmea methodology was introduced as a formal and systematic procedure for evaluation of risk associated to potential failure modes in the 1960s. bowles and pel Open image in new window[image: ] ez further proposed an fis based risk priority number (rpn) model as an alternative to the conventional rpn model [1]. the use of the fis based rpn in a semiconductor manufacturing process, i.e., underfill dispensing, is further reported
+ 
+	 98
+ 	 Fuzzy modeling; Monotonic property; FMEA; Occurrence score.
+ 	 Many real world engineering problems of interest revolve around a system that satisfied the monotonicity property between its input and output. thus, specific fuzzy model that preserves monotonicity constraints better approximates than the conventional fuzzy model. in the recent year, methods that improve the performance of fuzzy model that satisfy the monotonic constraints have been reported. in this paper, we investigate on the conditions for a single-input fuzzy model to fulfill the monotone output property using a derivative approach. from the derivation, a guideline on how the input membership functions should be tuned is provided. we demonstrate the use of the derived conditions with an application of fuzzy model to my proposed fuzzy occurrence model in failure mode and effect analysis (fmea) methodology. i construct the fuzzy occurrence model with information collected from a semiconductor manufacturing plant for flip chip ball grid array (fcbga) products. analysis and concluding remarks are then presented
+ 
+	 100
+ 	 Fuzzy modeling; Monotonic property; FMEA; Bowles fuzzy rpn model.
+ 	 This paper focuses on the modeling of a monotone multi-input fuzzy model. it can be viewed as a continuation from the part i, which focus on single-input fuzzy model. again, i try to investigate the use of derivative approach to find the conditions of a multi-input fuzzy model to fulfill the monotonous property. from the derivation, a guideline on how the input membership functions should be tuned is provided. we demonstrate the use of the derived conditions with an application of fuzzy model to bowles fuzzy rpn model in failure mode and effect analysis (fmea) methodology. in this paper, the fuzzy fmea model is conducted with information collected from a semiconductor manufacturing plant for flip chip ball grid array (fcbga) products. analysis and concluding remarks are then presented
+ 
+	 101
+ 	 Fuzzy logic; Context-aware system; FIS; Fuzzy owl
+ 	 In the context awareness, information would be retrieved, processed, shared, and reused in the maximum automatic way possible. our study in the context awareness application has shown that these are rarely a matter of true or false but rather procedures that require degrees of relatedness, similarity, or ranking. apart from the wealth of applications that are inherently imprecise, information itself is many times imprecise or uncertain. for example, temperature is “cold” “warm” “hot” and tourist is “low” “medium” “high” are examples of such concepts. dealing with such type of information would yield more realistic, intelligent and effective applications. in this paper we propose a fuzzy owl web ontology language, in order to be able to capture, and represent with such type of uncertain concepts
+ 
+	 159
+ 	 Qualitative technique; Semi-quantitative technique; Quantitative technique; Risk-based assessment; Risk analysis; Reliability method.
+ 	 Corrosion is a common form of degradation in pipelines that reduces both the static and cyclic strength of a pipeline. in the structural engineering field, metal corrosion is considered as one of the most dominant failure mechanisms that significantly affects the reliability of structure. this paper presents a methodology for the assessment of corrosion in pipelines known as risk-based assessment (rba). rba has been a topic of interest among structure owners and inspection vendors due to its great capability in ensuring pipeline safety and integrity as well as enhancing the cost effectiveness. rba is a systematic approach which aims to reduce the overall risk exposure by focusing on the areas of higher risk. this approach reduces the total scope of work and inspection costs in a structured and justifiable way. the paper reviews about three types of risk assessment techniques which are qualitative (q), semi-quantitative (sq) and quantitative risk assessment (qra). however, the paper mainly focused on qra which focusing on risk estimation (likelihood analysis and consequence analysis). this technique can be utilised to avoid unnecessary inspection and extend the inspection intervals based on the risks associated with the pipelines. therefore, inspection personnel can prioritise the inspection schedule on the high risk areas
+ 
+	 278
+ 	 External factors; Cause of the problems; Corrective action; Corporate performance.
+ 	 Construction industry as a sector that contribute 4–8% to gross domestic product (gdp) need to improve their ability both state own contractors and private contractors. with the improvement of ability, contruction company will able to compete in domestic and international. in order to improve company ability, construction company need as early as possible to make corrective action in form of control system toward factors that can influence successfullness of the company. Few factors that affected and be determined of company successfulness are: internal factors, external factors, and market forces. external factors are a factor that is out of stakeholders control and need to anticipate early. external factors commonly are dominated by government regulation which is giving legal aspect outside monetary aspect, material ability, project safety, low cost competitors, money depreciation, technological changes, natural disasters, lack of material and worker. The research objective discussed in this paper is to identify the corrective action of the problems arise in a construction company’s external factors that influence the company’s success performance. The methods used are literature studies and survey for identifying the problems and lesson learned corrective action. Analyses used in this research are statistical analysis and delphi method. the results show the corrective actions are implemented toward the cause of the problems by regarding its effects (as a risk factor) whether the highest risk or the lowest risk, and also considering that those corrective actions are preventive and anticipative actions in order to decrease the external problems in the construction company
+ 
+	 279
+ 	 Rusunawa; Build-operate-transfer; Investment; Risk
+ 	 To fulfil the needs of proper housing for public, the government have made some strategies that set on the national plan of mid term development year 2004–2009, the plan containing the availability of facility and infrastructure of low-budgeted housing area, in which one of the project is the construction of 60,000 units low-cost apartments (rusunawa) and 250,000 low cost leased apartment (rusunami) that dedicated for public with low income. The construction is involving private sector. the limited budget has pushed the government to persuade the private sector to involve on the construction project. one of the cooperation schemes that offered to the private sector is build-operate-transfer. this scheme is become an alternative to attract the private sector to involve on the construction project. however, build-operate-transfer scheme has an uncertainty on the investment return. Risk assessment should be made in order to the answer the uncertainty of investment return. identification and analysis of the risk factor is become the subject of this research that expected can be a consideration to the private sector in risk simulating and therefore can produce a clear picture on the opportunity and risk on the investment, this picture is expected can attract the private sector to join on the rusunawa investment. interpretation of identification on the research is carried out through analysis on stake holder and rank sorting with analytical hierarchy process (ahp) also regression analysis that applied to investment risk research. complicated bureaucracy, difficulties on licenses issuance, and uncontrollable inflation are identified as the significant risk factors that affect the rusunawa investment. this research is also expected can assist the government to attract the private sector in succeeding the public housing project
+ 
+
+
+
+ Table 10 Summary of textual documents mapped onto \(N_{5,2} \) 
+ 
+
+	 Doc.
+ 	 Keywords
+ 	 Texts
+ 
+	 3
+ 	 Curve synthesis; High quality curves; Spiral; Monotonic curvature curves.
+ 	 A planar curve called generalised log aesthetic curve segment (glac) has been proposed using the curve synthesis process with two types of formulation; \(\vert \)Ñ-shift and \(\vert \)Ê- shift. both methods were carried out by extending the formulation of generalized cornu spiral (gcs) in a similar manner to the log aesthetic curve (lac). the family of glac comprises of planar curves of high quality such as gcs, lac, clothoid, logarithmic spiral, circle involute and etc. the glac segment has an additional parameter to determine its shape as compared to gcs and lac segment, hence an extra constraint can be satisfied when shaping the glac segment. the final section of this paper shows some numerical examples
+ 
+	 13
+ 	 Wire electrical discharge machining; 304 stainless steel; Surface roughness; Tolerance; Machining time.
+ 	 Wire electrical discharge machining (wedm) is a process which has been implemented widely in various applications. it works very effectively in machining of difficultto- cut materials and alloys in die and aerospace industries with high dimensional accuracies. however, this capability is affected by the parameters being used for the cutting. the optimum selection of manufacturing conditions is very important in wire edm processes. this research presents a study on wedm on stainless steel 304 using mitsubishi ra 90 series. particularly, this study investigate the significance of several parameters including voltage gap, peak current, wire tension and wire speed toward the surface quality, tolerance and machining time. a two level full factorial design of experiment method was used to determine the significance of the parameters
+ 
+	 20
+ 	 Acoustic emission; Low speed bearing; Lubrication condition.
+ 	 This paper investigates the capability of acoustic emission technique in monitoring and accessing the lubrication condition in a low speed rolling element bearing (reb) operating with constant speed of 47 rpm. the rig consists of a motor/gearbox system, a test bearing (47 rpm) and a hydraulic cylinder ram. the bearing test rig employed for this study is a spherical roller bearing selected from a split cooper bearing and subjected to 1000 psi and 2000 psi load via a hydraulic cylinder ram. measurements have been carried out using of a physical acoustic corporation (pac) broad band ae transducer model wdi and the amplification is provided with by a pac pre-amplifier type 1220a. four simulations of various grease fillings up to full, a quarter full, half full capacity and dry condition have been carried out. the time domain parameters which have been utilized are rms and energy. the results of this study can be exploited to bring information from the lubrication condition to determine the suitable lubrication filling for the bearing. thus, the lubrication of the bearing can be improved and the lifetime of the bearing lengthen. it is expected that the properly lubricated bearing element will transmit more energy of ae signal compared to a poorly lubricated bearing, as there would be more contact between asperity points and lubricant. the results of the experiment indicate that the values of rms and energy are capable to distinguish various lubricant conditions in the bearing. the obtained results show that the rms and energy values increase with the increment of lubricant amount in the low speed bearing housing. this phenomenon is different from the results normally obtained in a high speed reb
+ 
+
+
+
+ 
+
+References
+	1.
+Rui X, Wunsch DC (2009) Clustering. Wiley, IEEE PressGoogle Scholar
+
+	2.
+Kohonen T (2001) Self-organizing maps, 3rd edn. Springer, BerlinCrossRefMATHGoogle Scholar
+
+	3.
+Kohonen T (1990) The self-organizing map. Proc IEEE 78(9):1464–1480CrossRefGoogle Scholar
+
+	4.
+Rauber A, Merkl D, Dittenbachm M (2002) The growing hierarchical self-organizing map: exploratory analysis of high-dimensional data. IEEE Trans Neural Netw 13(6):1331–1341CrossRefGoogle Scholar
+
+	5.
+Carpenter GA, Grossberg S, Rosen DB (1991) ART 2-A: an adaptive resonance algorithm for rapid category learning and recognition. Neural Netw 4:493–504CrossRefGoogle Scholar
+
+	6.
+Carpenter GA, Grossberg S, Markuzon N, Reynolds JH, Rosen DB (1992) Fuzzy ARTMAP: a neural network architecture for incremental supervised learning of analog multidimensional maps. IEEE Trans Neural Netw 3(5):698–713CrossRefGoogle Scholar
+
+	7.
+Pal NR, Pal K, Keller JM, Bezdek JC (2005) A possibilistic fuzzy c-means clustering algorithm. IEEE Trans Fuzzy Syst 13(4):517–530CrossRefGoogle Scholar
+
+	8.
+Kanungo T, Mount DM, Nethanyahu NS, Piatko CD, Silverman R, Wu AY (2002) An efficient k-means clustering algorithm: analysis and implementation. IEEE Trans Pattern Anal Mach Intell 24(7):881–892CrossRefGoogle Scholar
+
+	9.
+Xu C, Tao D, Xu C (2015) Multi-view self-paced learning for clustering. In: Proceedings of 24th international conference on artificial intelligence, pp 3974–3980Google Scholar
+
+	10.
+Arora R, Gupta MR, Kapila A, Fazel M (2013) Similarity-based clustering by left-stochastic matrix factorization. Mach Learn Res 14(1):1715–1746MathSciNetMATHGoogle Scholar
+
+	11.
+Hsu CC, Lin SH, Tai WS (2011) Apply extended self-organizing map to cluster and classify mixed-type data. Neurocomputing 74(18):3832–3842CrossRefGoogle Scholar
+
+	12.
+Tai WS, Hsu CC, Chen JC (2010) A mixed-type self-organizing map with a dynamic structure. In: International conference on neural networks, pp 1–8Google Scholar
+
+	13.
+Matharage S, Alahakoon D, Rajapakse J, Huang P (2011) Fast growing self-organizing map for text clustering. In: Lecturer notes computer science, neural information processing, 7063, pp 406–415Google Scholar
+
+	14.
+Kuo RJ, Wang CF, Chen ZY (2012) Integration of growing self-organizing and continuous genetic algorithm for grading lithium-ion battery cells. Appl Soft Comput 8(12):2012–2022CrossRefGoogle Scholar
+
+	15.
+Huang SY, Tsaih RH (2012) The prediction approach with growing hierarchical self-organizing map. In: International conference on neural networks, pp 1–7Google Scholar
+
+	16.
+Hosseini HS (2011) Binary tree time adaptive self-organizing map. Neurocomputing 74(11):1823–1839MathSciNetCrossRefGoogle Scholar
+
+	17.
+Allahyar A, Yazdi HS, Harati A (2015) Constrained semi-supervised growing self-organizing map. Neurocomputing 147:456–471CrossRefGoogle Scholar
+
+	18.
+Pakkanen J, Iivarinen J, Oja E (2006) The evolving tree-analysis and applications. IEEE Trans Neural Netw 17(3):591–603CrossRefGoogle Scholar
+
+	19.
+Pakkanen J, Iivarinen J, Oja E (2004) The evolving tree: a novel self-organizing network for data analysis. Neural Process Lett 20(33):199–211CrossRefGoogle Scholar
+
+	20.
+Fabrizio S (2005) Text cetegorization. In: Alessandro Z (ed) Text mining and its applications. WIT Press, Southampton, pp 109–129Google Scholar
+
+	21.
+Fabrizio S (2002) Machine learning in automated text categorization. ACM Comput Surv 34(1):1–47CrossRefGoogle Scholar
+
+	22.
+Lagus K, Kaski S, Kohonen T (2004) Mining massive document collections by the WEBSOM method. Inf Sci 163(1):135–156CrossRefGoogle Scholar
+
+	23.
+Kaski S, Honkela T, Lagus K, Kohonen T (1998) WEBSOM: self-organizing maps of document collections. Neurocomputing 21(1):101–117CrossRefMATHGoogle Scholar
+
+	24.
+Lewis DD (1998) Naïve Bayes at forty: the independence as assumption in information retrieval. Lect Notes Comp Sci 1398:4–15CrossRefGoogle Scholar
+
+	25.
+Hotho A, Maedche A, Staab S (2002) Ontology-based text document clustering. KI 16(4):48–54Google Scholar
+
+	26.
+Witten IH, Frank E, Hall MA (2011) Data mining: practical machine learning tools and techniques, 3rd edn. Morgan Kaufmann, BurlingtonGoogle Scholar
+
+	27.
+Dhillon IS (2001) Co-clustering documents and words using bipartite spectral graph partitioning. In: Proceedings of 7th international conference on knowledge discovery data mining, pp 269–274Google Scholar
+
+	28.
+Liu Y, Loh HT, Sun A (2009) Imbalanced text classification: a term weighting approach. Expert Syst Appl 36(1):690–701CrossRefGoogle Scholar
+
+	29.
+Wold S, Esbensen K, Geladi P (1987) Principal component analysis. Chemom Intell Lab Syst 2(1–3):37–52CrossRefGoogle Scholar
+
+	30.
+Ye J, Li Q (2004) LDA/QR: an efficient and effective dimension reduction algorithm and its theoretical foundation. Pattern Recognit 37(4):851–854CrossRefGoogle Scholar
+
+	31.
+Roweis ST, Saul LK (2000) Nonlinear dimensionality reduction by locally linear embedding. Science 290(5500):2323–2326CrossRefGoogle Scholar
+
+	32.
+Belkin M, Niyogi P (2003) Laplacian eigenmaps for dimensionality reduction and data representation. Neural Comput 15(6):1373–1396CrossRefMATHGoogle Scholar
+
+	33.
+Yu J, Tao D, Wang M (2012) Adaptive hypergraph learning and its application in image classification. IEEE Trans Image Process 21(7):3262–3272MathSciNetCrossRefGoogle Scholar
+
+	34.
+Yu J, Hong R, Wang M, You J (2014) Image clustering based on sparse patch alignment framework. Pattern Recognit 47(11):3512–3519CrossRefGoogle Scholar
+
+	35.
+Tao D, Tang X, Li X, Wu X (2006) Asymmetric bagging and random subspace for support vector machines-based relevance feedback in image retrieval. IEEE Trans Pattern Anal Mach Intell 28(7):1088–1099CrossRefGoogle Scholar
+
+	36.
+Yu J, Rui Y, Tao D (2014) Click prediction for web image reranking using multimodal sparse coding. IEEE Trans Image Process 23(5):2019–2032MathSciNetCrossRefGoogle Scholar
+
+	37.
+Tao D, Li X, Wu X, Maybank SJ (2007) General tensor discriminant analysis and gabor features for gait recognition. IEEE Trans Pattern Anal Mach Intell 29(10):1700–1715CrossRefGoogle Scholar
+
+	38.
+Luo Y, Tao D, Ramamohanarao K, Xu C, Wen Y (2015) Tensor canonical correlation analysis for multi-view dimension reduction. IEEE Trans Knowl Data Eng 27(11):3111–3124CrossRefGoogle Scholar
+
+	39.
+Luo Y, Tang J, Yan J, Xu C, Chen Z (2014) Pre-trained multi-view word embedding using two-side neural network. In: Proceedings of 28th AAAI conference, pp 1982–1988Google Scholar
+
+	40.
+Moore BC (1981) Principle component analysis in linear systems: controllability, observability, and model reduction. IEEE Trans Automat Control 26(1):17–32MathSciNetCrossRefMATHGoogle Scholar
+
+	41.
+Bingham E, Mannila H (2001) Random projection in dimensionality reduction: applications to image and text data. In: Proceedings of 7th international conference on knowledge discovery data mining, pp 245–250Google Scholar
+
+	42.
+Sammon JW (1969) A nonlinear mapping for data structure analysis. IEEE Trans Comput 18(5):401–409CrossRefGoogle Scholar
+
+	43.
+Kohonen T, Kaski S, Lagus K, Salojarvi J, Honkela J, Paatero V, Saarela A (2000) Self organization of a massive document collection. IEEE Trans Neural Netw 11(3):574–586CrossRefGoogle Scholar
+
+	44.
+Bourgeois N, Cottrell M, Deruelle B, Lamasse S, Letremy P (2015) How to improve robustness in Kohonen maps and display additional information in factorial analysis: application to text mining. Neurocomputing 147:120–135CrossRefGoogle Scholar
+
+	45.
+Liu Y, Wang X, Wu C (2008) ConSOM: a conceptional self-organizing map model for text clustering. Neurocomputing 71(4):857–862CrossRefGoogle Scholar
+
+	46.
+Lughofer E (2011) Evolving fuzzy systems-methodologies, advanced concepts and applications, 1st edn. Springer, BerlinCrossRefMATHGoogle Scholar
+
+	47.
+Kim HJ, Kim JU, Ra YG (2005) Boosting Naïve Bayes text classification using uncertainty-based selective sampling. Neurocomputing 67(4):403–410CrossRefGoogle Scholar
+
+	48.
+Pan SJ, Yang Q (2010) A survey on transfer learning. IEEE Trans Knowl Data Eng 22(10):1345–1359CrossRefGoogle Scholar
+
+	49.
+Bezdek JC, Keller J, Krisnapuram R, Pal NR (1999) Fuzzy models and algorithms for pattern recognition and image processing. Kluwer, DordrechtCrossRefMATHGoogle Scholar
+
+	50.
+Chang WL, Tay KM, Lim CP (2014) A new evolving tree for text document clustering and visualization. In: Soft computing in industrial applications, Springer, pp 141–151Google Scholar
+
+	51.
+Chang WL, Tay KM, Lim CP (2013) Enhancing an evolving tree-based text document visualization model with fuzzy \(c\)-means clustering. In: IEEE international conference fuzzy, pp 1–6Google Scholar
+
+	52.
+The Reuters-21578, Distribution 1.0 test collection is available from http://www.daviddlewis.com/resources/testcollections/reuters21578
+                        
+
+	53.
+Porter MF (1980) An algorithm for suffix stripping. Program Electron Lib 14(3):130–137Google Scholar
+
+	54.
+The Default English Stop-words List is available from http://www.ranks.nl/resources/stopwords.html
+                        
+
+	55.
+Debole F, Sebastiani F (2005) An analysis of the relative hardness of Rueters-21578 subsets. J Am Soc Inf Sci Technol 56(6):584–586CrossRefGoogle Scholar
+
+	56.
+Yang Y, Liu X (1999) A re-examination of text categorization methods. In: Proceedings of the 22nd annual international ACM SIGIR conference on Research and development in information retrieval, pp 42–49Google Scholar
+
+	57.
+King A (2012) Online k-means clustering of nonstationary data. Prediction Project ReportGoogle Scholar
+
+	58.
+Lin YS, Jiang JY, Lee SJ (2014) A similarity measure for text classification and clustering. IEEE Trans Knowl Data Eng 26(7):1575–1590CrossRefGoogle Scholar
+
+	59.
+Nagwani NK (2015) A comment on “a similarity measure for text classification and clustering”. IEEE Trans Knowl Data Eng 27(9):2589–2590CrossRefGoogle Scholar
+
+
+
+Copyright information
+© Springer Science+Business Media New York 2017
+
+Authors and Affiliations
+	Wui Lee Chang	1
+
+
+	Kai Meng Tay	1
+
+Email author
+	Chee Peng Lim	2
+
+
+
+	1.Faculty of EngineeringUniversiti Malaysia SarawakKota SamarahanMalaysia
+	2.Institute for Intelligent Systems Research and InnovationDeakin UniversityGeelongAustralia
+
+
+
+
+                        
+                        
+    About this article
+
+    
+                
+            
+                CrossMark
+                
+                    
+                
+            
+        
+
+
+        
+            	
+        Cite this article as:
+    
+	Chang, W.L., Tay, K.M. & Lim, C.P. Neural Process Lett (2017) 46: 379. https://doi.org/10.1007/s11063-017-9597-3
+
+
+                	
+            DOI
+            https://doi.org/10.1007/s11063-017-9597-3
+        
+	
+                Publisher Name
+                Springer US
+            
+	
+                Print ISSN
+                1370-4621
+            
+	
+                Online ISSN
+                1573-773X
+            
+
+
+
+            	
+            About this journal
+        
+	
+                Reprints and Permissions
+            
+
+
+
+        
+
+      
+      
+          
+    
+
+
+
+                        
+    Personalised recommendations
+
+    
+        
+             
+
+        
+
+    
+
+
+
+                        
+
+    
+        
+                
+        
+    Cite
+    article
+
+
+	
+        How to cite?
+    
+	
+            
+                
+                    
+                    .RIS
+                
+                
+                        
+                            Papers
+                        
+                        
+                            Reference Manager
+                        
+                        
+                            RefWorks
+                        
+                        
+                            Zotero
+                        
+                
+            
+        
+	
+            
+                
+                    
+                    .ENW
+                
+                
+                        
+                            EndNote
+                        
+                
+            
+        
+	
+            
+                
+                    
+                    .BIB
+                
+                
+                        
+                            BibTeX
+                        
+                        
+                            JabRef
+                        
+                        
+                            Mendeley
+                        
+                
+            
+        
+
+
+    
+
+
+                
+
+
+
+                
+        
+            Buy options
+        
+    
+
+
+        
+
+    
+
+
+
+                    
+
+                    
+                        
+                            
+                                
+                                    Actions
+
+
+                                        
+                                            
+
+
+
+
+    
+        Log in to check access
+    
+
+    
+        
+            
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                    
+                        Buy (PDF)
+                    
+                    
+                        USD 39.95
+                    
+
+                
+
+            
+
+        
+            
+                	Unlimited access to the full article
+	Instant download
+	Include local sales tax if applicable
+
+
+            
+
+        
+
+        
+            
+                
+                    
+                        Subscribe to Journal
+                    
+                
+
+                
+                    Get Access to
+                    Neural Processing Letters
+
+                    for the whole of 2018
+                
+
+            
+
+        
+        
+
+    Rent this article via DeepDyve
+
+
+
+    
+
+    
+        
+            Learn about institutional subscriptions
+    
+
+
+
+
+
+
+                                        
+
+
+                                    
+                                        
+
+
+
+                                            
+        
+    Cite
+    article
+
+
+	
+        How to cite?
+    
+	
+            
+                
+                    
+                    .RIS
+                
+                
+                        
+                            Papers
+                        
+                        
+                            Reference Manager
+                        
+                        
+                            RefWorks
+                        
+                        
+                            Zotero
+                        
+                
+            
+        
+	
+            
+                
+                    
+                    .ENW
+                
+                
+                        
+                            EndNote
+                        
+                
+            
+        
+	
+            
+                
+                    
+                    .BIB
+                
+                
+                        
+                            BibTeX
+                        
+                        
+                            JabRef
+                        
+                        
+                            Mendeley
+                        
+                
+            
+        
+
+
+    
+
+
+                                            
+
+
+
+                                    
+
+                                
+
+                                
+
+                            
+
+                                
+
+
+                        
+
+                    
+                
+
+            
+            
+    
+        Cookies
+
+        We use cookies to improve your experience with our site.
+        More information
+
+        
+            Accept
+        
+
+    
+
+
+
+                
+        
+            
+                
+                    Over 10 million scientific documents at your fingertips
+
+                                
+                                    Switch Edition
+
+                                    	Academic Edition
+	Corporate Edition
+
+
+                                
+
+                
+
+            
+
+        
+
+        
+            	
+                    Home
+                
+	
+                    Impressum
+                
+	
+                    Legal information
+                
+	
+                    Accessibility
+                
+	
+                    Contact us
+                
+
+
+            
+                Springer Nature
+                
+                    
+                    
+                
+            
+
+            © 2017 Springer International Publishing AG. Part of Springer Nature.
+
+
+                
+                    Not logged in
+                    Not affiliated
+                    99.65.190.47
+                
+
+        
+
+    
+
+        
+
+          
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+        
+        
+        
+    

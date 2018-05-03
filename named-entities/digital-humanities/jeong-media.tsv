@@ -1,0 +1,224 @@
+type	entity
+PERSON	Wooseob Jeong
+ORGANIZATION	Emporia State University Abstract Interest
+ORGANIZATION	Amazon
+ORGANIZATION	ANOVA
+ORGANIZATION	SPSS
+PERSON	Don
+PERSON	Matthews
+ORGANIZATION	Moody
+PERSON	Nguyen
+ORGANIZATION	Corel
+PERSON	Nguyen
+PERSON	Nguyen
+PERSON	Bruneau Picarougne
+PERSON	Bruneau
+PERSON	Zheng Gomi
+PERSON	Itoh
+PERSON	Rijn
+PERSON	Yang
+PERSON	Yang
+PERSON	Camargo Caicedo
+PERSON	Gonzalez
+PERSON	Gao
+ORGANIZATION	Google
+PERSON	Gao
+PERSON	Janecek
+PERSON	Janecek
+PERSON	Yang
+PERSON	Gao
+PERSON	Janecek
+PERSON	Manovich
+ORGANIZATION	National Institutes of Health NIH Manovich
+PERSON	Yamaoka
+PERSON	Manovich Douglass
+PERSON	Manovich
+ORGANIZATION	National Endowment
+PERSON	Greco
+PERSON	Matthews
+ORGANIZATION	Moody 2007
+PERSON	Matthews
+ORGANIZATION	Moody 2007 Yampbell 2005
+PERSON	Francesca Lia Block
+PERSON	Regina Sierra Carter
+PERSON	Carter
+PERSON	Shariff
+PERSON	Shariff
+PERSON	Lewis Carroll
+PERSON	Carruth
+PERSON	Goldsmith
+PERSON	Reutzel
+LOCATION	Gali
+ORGANIZATION	Reutzel
+LOCATION	Gali
+PERSON	Carter
+PERSON	Zinck
+ORGANIZATION	Hawkins Wendelin
+PERSON	Zinck
+PERSON	Kragler
+PERSON	Nolley
+ORGANIZATION	ICDL International Children s Digital Library Reuter
+PERSON	Hendershot
+PERSON	Moss
+PERSON	Swartz
+PERSON	Hendricks
+PERSON	Swartz
+PERSON	Hendricks
+PERSON	Rinehart Gerlach
+ORGANIZATION	BOB
+PERSON	Rinehart
+PERSON	Cunningham
+ORGANIZATION	University of Waikato
+LOCATION	New Zealand
+PERSON	Vanderschantz
+PERSON	Hinze
+PERSON	Cunningham
+PERSON	Vanderschantz
+ORGANIZATION	Congress Classification System Vanderschantz amp Timpany
+PERSON	ImagePlot
+ORGANIZATION	Methdology Data Collection
+LOCATION	Amazon
+ORGANIZATION	Australia Brazil Canada China France Germany India Italy Japan Mexico Spain United Kingdom
+LOCATION	United States
+ORGANIZATION	Country Number of Images Country Number of Images Australia
+LOCATION	Italy
+LOCATION	Brazil
+LOCATION	Japan
+LOCATION	Canada
+LOCATION	Mexico
+LOCATION	China
+LOCATION	Spain
+LOCATION	France
+LOCATION	United Kingdom UK
+LOCATION	Germany
+LOCATION	United States US
+LOCATION	India
+PERSON	Manovich
+ORGANIZATION	SPSS
+ORGANIZATION	ANOVA
+ORGANIZATION	SPSS
+LOCATION	Australia
+LOCATION	Brazil
+LOCATION	United Kingdom
+LOCATION	China
+LOCATION	United Kingdom United States Spain India Italy France
+LOCATION	Germany
+ORGANIZATION	Media Visualization
+PERSON	ImagePlot
+LOCATION	Brazil
+LOCATION	Germany
+LOCATION	China Japan United Kingdom
+LOCATION	United States
+LOCATION	China Japan France
+LOCATION	India
+LOCATION	Germany Italy Mexico
+LOCATION	Spain
+ORGANIZATION	ANOVA
+PERSON	ImagePlot
+PERSON	Manovich
+PERSON	Manovich
+PERSON	Manovich
+PERSON	Pecoskie
+PERSON	Pecoskie
+PERSON	Beheshti
+PERSON	Beheshti
+PERSON	Rowman
+PERSON	Littlefield Berry
+PERSON	Berry
+PERSON	Palgrave Macmillan Bruneau
+PERSON	Bruneau
+PERSON	Camargo J E Caicedo
+PERSON	Gonzalez
+ORGANIZATION	Journal of Visual Languages amp Computing
+PERSON	Carter
+LOCATION	Ohio
+PERSON	Carter
+ORGANIZATION	St Louis
+ORGANIZATION	Inter Disciplinary Press United Kingdom Cunningham
+ORGANIZATION	American Society for Information Science and Technology
+PERSON	Cunningham S J Alqurashi H Hinze
+PERSON	J Keim
+PERSON	Gao Y Luo
+PERSON	Gao
+PERSON	Gao Y Peng J Luo
+PERSON	Keim
+ORGANIZATION	Google
+PERSON	Goldsmith
+PERSON	Goldsmith
+PERSON	Carruth
+ORGANIZATION	Adele Minchin
+PERSON	Greco
+PERSON	Greco
+PERSON	Milliot
+ORGANIZATION	Routledge Hawkins Wendelin amp Zinck 1983 Hawkins Wendelin K amp Zinck
+PERSON	Hinze
+PERSON	Hinze
+PERSON	Cunningham
+ORGANIZATION	Digital Libraries
+PERSON	Immel
+PERSON	Woudhuysen
+PERSON	Janecek
+PERSON	Janecek
+LOCATION	Berlin
+ORGANIZATION	Heidelberg Kragler amp Nolley
+PERSON	Nolley
+PERSON	Manovich
+PERSON	Amy Herzog
+PERSON	John Richardson
+ORGANIZATION	Digital Media Oxford University Press
+ORGANIZATION	Manovich L Douglass J amp Zepel
+PERSON	Matthews
+ORGANIZATION	Moody 2007 Matthews N amp Moody N
+ORGANIZATION	Ashgate Publishing Ltd
+PERSON	McCleery
+ORGANIZATION	Penguin
+ORGANIZATION	Moody N Eds
+PERSON	Mohr
+PERSON	Mohr
+ORGANIZATION	Journal of Literacy Research
+PERSON	Hendershot
+PERSON	Nguyen
+ORGANIZATION	Information Visualization in Digital Libraries Nguyen
+PERSON	Pearson
+PERSON	Woudhuysen
+ORGANIZATION	Library amp Information Science Research
+ORGANIZATION	American Society for Information Science and Technology 58 12 1745 1763 Reutzel
+LOCATION	Gali
+LOCATION	Gali
+PERSON	Rinehart
+PERSON	Rinehart
+PERSON	Gerlach
+PERSON	Welker
+ORGANIZATION	Literacy Research and Instruction
+PERSON	Shariff
+PERSON	Beheshti
+PERSON	Spiller
+ORGANIZATION	Journal of Librarianship
+PERSON	Suarez
+PERSON	Woudhuysen
+PERSON	Woudhuysen
+ORGANIZATION	Global History Oxford University Press Swartz amp Hendricks 2000 Swartz M K amp Hendricks C G 2000 Factors
+ORGANIZATION	Journal of Adolescent amp Adult Literacy
+ORGANIZATION	Hinrichs U amp Carpendale
+PERSON	Hinze
+PERSON	Vanderschantz
+PERSON	Hinze
+PERSON	McKay
+LOCATION	Canberra Australia
+PERSON	Herzog
+PERSON	Richardson
+ORGANIZATION	Digital Media Oxford University Press Worring
+PERSON	Rijn
+PERSON	Yamaoka
+PERSON	Yamaoka S Manovich
+PERSON	Douglass
+PERSON	Kuester
+ORGANIZATION	Yampbell 2005 Yampbell
+ORGANIZATION	Unicorn
+PERSON	Yang
+PERSON	Yang J Fan J Hubball D Gao Y Luo H Ribarsky
+PERSON	Zheng
+PERSON	Zheng Y Gomi
+PERSON	Itoh
+ORGANIZATION	Ochanomizu University
+ORGANIZATION	Alliance of Digital Humanities Organizations Affiliated

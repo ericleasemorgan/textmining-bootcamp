@@ -1,0 +1,1075 @@
+
+
+    
+    
+        Skip to main content
+    
+
+
+
+
+
+
+    
+        
+            
+                We use cookies to improve your experience with our site.
+                    
+                        Accept and close
+                    
+                     | More
+                        info.
+
+            
+
+        
+
+    
+
+
+
+
+
+
+    
+        
+            
+                
+    
+        
+            
+                [image: Advertisement]
+        
+
+    
+
+
+            
+        
+
+    
+
+
+
+
+Thank you for visiting nature.com. You are using a browser version with
+    limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off
+    compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site
+    without styles and JavaScript.
+
+
+
+    
+     
+         
+             
+                 	nature.com
+	nature genetics
+	articles
+	article
+
+
+             
+        
+
+         
+        A Nature Research Journal
+
+        
+     
+
+
+
+
+    
+    
+        
+            
+                
+                    
+                        
+                            
+										
+											Menu
+										
+                            
+                                [image: Nature Genetics][image: ]
+
+                        
+
+                    
+
+                    
+                        
+                            
+										
+											Search
+										
+                            
+                            
+                                
+										
+											E-alert
+										
+                                
+                            
+                            
+                                
+										
+											Submit
+										
+                                
+                            
+                              
+            
+                My Account
+            
+    
+    
+            
+                Login
+            
+    
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+    
+    	[image: ]
+	Altmetric: 6
+	Citations: 515
+	
+                    More detail
+                
+
+
+
+                            
+                                Article
+                                
+                            
+
+                            
+                            A literature network of human genes for high-throughput analysis of gene expression
+
+                            	Tor-Kristian Jenssen1
+
+
+
+
+
+
+	, Astrid Lægreid2
+
+	, Jan Komorowski1, 4
+
+	 & Eivind Hovig3
+
+	Nature Genetics volume 28, pages 21–28 (2001)
+	doi:10.1038/ng0501-21
+	Download Citation
+
+
+	Received:
+	05 July 2000
+	Accepted:
+	26 March 2001
+	Published:
+	01 May 2001
+
+
+
+
+
+                            
+                            
+                        
+                    
+                    
+    
+
+
+                    
+    
+
+
+
+                    
+                        Abstract
+We have carried out automated extraction of explicit and implicit biomedical knowledge from publicly available gene and text databases to create a gene-to-gene co-citation network for 13,712 named human genes by automated analysis of titles and abstracts in over 10 million MEDLINE records. The associations between genes have been annotated by linking genes to terms from the medical subject heading (MeSH) index and terms from the gene ontology (GO) database. The extracted database and accompanying web tools for gene-expression analysis have collectively been named 'PubGene'. We validated the extracted networks by three large-scale experiments showing that co-occurrence reflects biologically meaningful relationships, thus providing an approach to extract and structure known biology. We validated the applicability of the tools by analyzing two publicly available microarray data sets.
+
+
+
+
+                        
+                            
+                            
+                                
+    
+        
+        
+    	
+                
+                    
+                        Subscribe to Nature Genetics for full access:
+
+                        $59
+
+                    
+
+                
+
+                
+                    Subscribe
+                
+
+            
+	
+            
+
+        
+
+
+
+
+        Additional access options:
+
+
+        
+            Already a subscriber? 
+            Log in  now or 
+            Register  for online access.
+        
+
+        
+            	Login via Athens |
+                
+	Login via Shibboleth |
+                
+	
+                    Use a document delivery service |
+                
+	
+                    Purchase
+                        a site license
+                
+
+
+        
+    
+
+
+
+                            
+
+                        
+                        References
+	1.Adams, M.D. et al. The genome sequence of Drosophila melanogaster. Science 287, 2185–2195 (2000).
+		PubMed
+	Article
+	Google Scholar
+
+
+
+
+	2.The C. elegans Sequencing Consortium. Genome sequence of the nematode C. elegans: a platform for investigating biology. Science 282, 2012–2018 (1998); errata: 283, 35 (1999); 283, 2103 (1999); 285, 1493 (1999).
+		Google Scholar
+
+
+
+
+	3.Goffeau, A. et al. Life with 6000 genes. Science 274, 546, 563–567 (1996).
+		Article
+	Google Scholar
+
+
+
+
+	4.Ashburner, M. et al. Gene ontology: tool for the unification of biology. The Gene Ontology Consortium. Nature Genet. 25, 25–29 (2000).
+		Google Scholar
+
+
+
+
+	5.Schena, M., Shalon, D., Davis, R.W. & Brown, P.O. Quantitative monitoring of gene expression patterns with a complementary DNA microarray. Science 270, 467–470 (1995).
+		CAS
+	PubMed
+	Article
+	Google Scholar
+
+
+
+
+	6.Eisen, M.B., Spellman, P.T., Brown, P.O. & Botstein, D. Cluster analysis and display of genome-wide expression patterns. Proc. Natl. Acad. Sci. USA 95, 14863–14868 (1998).
+		CAS
+	PubMed
+	Article
+	Google Scholar
+
+
+
+
+	7.Andrade, M.A. & Bork, P. Automated extraction of information in molecular biology. FEBS Lett. 476, 12–17 (2000).
+		CAS
+	PubMed
+	Article
+	Google Scholar
+
+
+
+
+	8.Blaschke, C., Andrade, M.A., Ouzounis, C. & Valencia, A. Automatic extraction of biological information from scientific text: protein-protein interactions. in Intelligent Systems for Molecular Biology 60–67 (AAAI Press, Heidelberg, 1999).
+		Google Scholar
+
+
+
+
+	9.Thomas, J., Milward, D., Ouzounis, C., Pulman, S. & Carroll, M. Automatic extraction of protein interactions from scientific abstracts. Pac. Symp. Biocomput. 5, 541–552 (2000).
+		Google Scholar
+
+
+
+
+	10.Humphreys, K., Demetriou, G. & Gaizauskas, R. Two applications of information extraction to biological science journal articles: enzyme interactions and protein structures. Pac. Symp. Biocomput. 5, 505–516 (2000).
+		Google Scholar
+
+
+
+
+	11.Sekimizu, T., Park, H.S. & Tsujii, J. Identifying the interaction between genes and gene products based on frequently seen verbs in Medline abstracts. in Genome Informatics Workshop 62–71 (Universal Academy Press, Tokyo, 1998).
+		Google Scholar
+
+
+
+
+	12.Craven, M. & Kumlien, J. Constructing biological knowledge bases by extracting information from text sources. in Intelligent Systems for Molecular Biology 77–86 (AAAI Press, Heidelberg, 1999).
+		Google Scholar
+
+
+
+
+	13.Rindflesch, T.C., Rayan, J.V. & Hunter, L. Extracting molecular binding relationships from biomedical text. in Applied Natural Language Processing and the North American Chapter of the Association for Computational Linguistics 188–195 (Association for Computational Linguistics, Seattle, 2000).
+		Google Scholar
+
+
+
+
+	14.Rindflesch, T.C., Tanabe, L., Weinstein, J.N. & Hunter, L. EDGAR: extraction of drugs, genes and relations from the biomedical literature. Pac. Symp. Biocomput. 5, 517–528 (2000).
+		Google Scholar
+
+
+
+
+	15.Proux, D., Rechenmann, F., Julliard, L., Pillet, V. & Jacq, B. Detecting gene symbols and names in biological texts: A first step toward pertinent information extraction. in Genome Informatics Workshop 72–80 (Universal Academy Press, Tokyo, 1998).
+		Google Scholar
+
+
+
+
+	16.Fukuda, K., Tsunoda, T., Tamura, A. & Takagi, T. Toward information extraction: identifying protein names from biological papers. Pac. Symp. Biocomput. 3, 705–716 (1998).
+		Google Scholar
+
+
+
+
+	17.Andrade, M.A. & Valencia, A. Automatic annotation for biological sequences by extraction of keywords from MEDLINE abstracts. Development of a prototype system. in Intelligent Systems for Molecular Biology 25–32 (AAAI Press, Halkidiki, 1997).
+		Google Scholar
+
+
+
+
+	18.Jenssen, T.-K., Komorowski, J., Lægreid, A. & Hovig, E. Pubgen: Discovering and visualising gene-gene relations. in Currents in Computational Molecular Biology (eds. Miyano, S., Shamir, R. & Takagi, T.) 48–49 (Universal Academy Press, Tokyo, 2000).
+		Google Scholar
+
+
+
+
+	19.Stapley, B.J. & Benoit, G. Biobibliometrics: information retrieval and visualization from co-occurrences of gene names in Medline abstracts. Pac. Symp. Biocomput. 5, 529–540 (2000).
+		Google Scholar
+
+
+
+
+	20.Shatkay, H., Edwards, S., Wilbur, W. & Boguski, M. Genes, themes and microarrays: using information retrieval for large-scale gene analysis. in Intelligent Systems for Molecular Biology 317–328 (AAAI Press, San Diego, 2000).
+		Google Scholar
+
+
+
+
+	21.Alizadeh, A.A. et al. Distinct types of diffuse large B-cell lymphoma identified by gene expression profiling. Nature 403, 503–511 (2000).
+		CAS
+	PubMed
+	Article
+	Google Scholar
+
+
+
+
+	22.Iyer, V.R. et al. The transcriptional program in the response of human fibroblasts to serum. Science 283, 83–87 (1999).
+		CAS
+	PubMed
+	Article
+	Google Scholar
+
+
+
+
+	23.Gu, Y., Shen, Y., Gibbs, R.A. & Nelson, D.L. Identification of FMR2, a novel gene associated with the FRAXE CCG repeat and CpG island. Nature Genet. 13, 109–113 (1996).
+		Google Scholar
+
+
+
+
+	24.Jager, U. et al. Follicular lymphomas' BCL-2/IgH junctions contain templated nucleotide insertions: novel insights into the mechanism of t(14;18) translocation. Blood 95, 3520–3529 (2000).
+		CAS
+	PubMed
+	Google Scholar
+
+
+
+
+	25.Stamatopoulos, K. et al. Molecular insights into the immunopathogenesis of follicular lymphoma. Immunol. Today 21, 298–305 (2000).
+		CAS
+	PubMed
+	Article
+	Google Scholar
+
+
+
+
+	26.Lossos, I.S. et al. Ongoing immunoglobulin somatic mutation in germinal center B cell-like but not in activated B cell-like diffuse large cell lymphomas. Proc. Natl. Acad. Sci. USA 97, 10209–10213 (2000).
+		CAS
+	PubMed
+	Article
+	Google Scholar
+
+
+
+
+	27.Bravo, R. Growth factor-responsive genes in fibroblasts. Cell Growth Differ. 1, 305–309 (1990).
+		CAS
+	PubMed
+	Google Scholar
+
+
+
+
+	28.Parsons-Wingerter, P., Elliott, K.E., Clark, J.I. & Farr, A.G. Fibroblast growth factor-2 selectively stimulates angiogenesis of small vessels in arterial tree. Arterioscler. Thromb. Vasc. Biol. 20, 1250–1256 (2000).
+		CAS
+	PubMed
+	Google Scholar
+
+
+
+
+	29.Aronson, A.R., Rindflesch, T.C. & Browne, A.C. Exploiting a large thesaurus for information retrieval in Proceedings of the 6th Applied Natural Language Processing Conference (Rockefellar University Press, New York, 1994).
+		Google Scholar
+
+
+
+
+	30.White, J.A. et al. Guidelines for human gene nomenclature. Genomics 45, 468–471 (1997).
+		CAS
+	PubMed
+	Article
+	Google Scholar
+
+
+
+
+	31.Cormen, T.H., Leiserson, C.E. & Rivest, R.L. Introduction to Algorithms 1028 (MIT Press, Cambridge, Massachusetts, 1990).
+		Google Scholar
+
+
+
+
+
+Download references
+
+
+
+Acknowledgements
+We thank the National Library of Medicine for access to MEDLINE; D. Tjeldvoll for help with installation and use of the Graphviz software, and contributions to programming on early versions of the web-interface; H.-C. Aasheim and Ø. Fodstad for discussions; and S. Bade, W.P. Kuo, S. Vinterbo and D. Warren for comments on the manuscript. This work was supported in part by grants from the Norwegian Cancer Society. T.K.J. was supported by grant 134422/410 from the Norwegian Research Council.
+
+
+Author information
+Affiliations
+	Department of Computer and Information Science, Norwegian University of Science and Technology, Trondheim, Norway.
+	Tor-Kristian Jenssen
+	 & Jan Komorowski
+
+
+	Department of Physiology and Biomedical Engineering, Norwegian University of Science and Technology, Trondheim, Norway.
+	Astrid Lægreid
+
+
+	Department of Tumour Biology, Institute for Cancer Research, The Norwegian Radium Hospital, Oslo, Norway.
+	Eivind Hovig
+
+
+	Department of Computer and Information Science, Linköping University, Sweden.
+	Jan Komorowski
+
+
+
+Authors
+	Search for Tor-Kristian Jenssen in:
+	Nature Research journals • 
+	PubMed • 
+	Google Scholar
+
+
+	Search for Astrid Lægreid in:
+	Nature Research journals • 
+	PubMed • 
+	Google Scholar
+
+
+	Search for Jan Komorowski in:
+	Nature Research journals • 
+	PubMed • 
+	Google Scholar
+
+
+	Search for Eivind Hovig in:
+	Nature Research journals • 
+	PubMed • 
+	Google Scholar
+
+
+
+
+Corresponding author
+Correspondence to Eivind Hovig.
+
+
+Supplementary information
+HTML files
+	1.Web Table A.
+
+
+	2.Web Table B.
+
+
+
+Videos
+	1.Web Movie A.
+
+
+	2.Web Movie B.
+
+
+	3.Web Movie C.
+
+
+	4.Web Movie D.
+
+
+
+
+
+
+Rights and permissions
+To obtain permission to re-use content from this article visit RightsLink.
+
+
+
+                        
+                        
+
+                        
+                    
+
+                
+
+                
+                    
+                        
+                            Article Tools
+	Tools
+
+
+Tools
+	Print
+
+Share
+	Twitter
+	Facebook
+
+
+
+
+                        
+
+                        
+                        
+                        
+                        
+                        
+                            
+                                
+                            
+
+                        
+
+                    
+
+                
+
+
+                
+                    
+    
+        
+            
+                [image: Advertisement]
+        
+
+    
+
+
+                
+
+            
+        
+    
+
+
+
+    
+        
+            Menu
+
+            
+                
+                    
+                        
+                            
+                                
+                                    Nature Genetics
+                                
+
+                            
+
+                            
+    
+        	
+                    Current Issue
+                
+	
+                    Browse Issues
+                
+	
+                    News & Comment
+                
+	
+                    Research
+                
+	
+                    Browse Articles
+                
+	
+                    Focuses & Supplements
+                
+	
+                    About the Journal
+                
+	
+                    For Authors
+                
+	
+                    For Referees
+                
+	
+                    Web Feeds
+                
+
+
+    
+
+
+                        
+
+                    
+
+                
+
+            
+
+
+            
+                
+                    
+                        
+                            
+                                
+                                    Journals A-Z
+                                        Journals A-Z
+                                
+
+                            
+
+                            
+                                	
+                                        Nature
+                                    
+	
+                                        Nature Communications
+                                    
+	
+                                        Nature Protocols
+                                    
+	
+                                        Review journals
+                                    
+	
+                                        Scientific Reports
+                                    
+	
+                                        View all journals
+                                    
+
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+            
+                
+                    
+                        
+                            
+                                
+                                    All Subjects
+                                    All Subjects
+                                
+
+                            
+
+                            
+                                	
+                                        Biological Sciences
+                                    
+	
+                                            Earth & Environmental Sciences
+                                    
+	
+                                        Health Sciences
+                                    
+	
+                                        Physical Sciences
+                                    
+	
+                                            Scientific Community & Society
+                                    
+	
+                                        View all subjects
+                                    
+
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+            
+                
+                    
+                        
+                            
+                                
+                                    nature.com
+                                    nature.com
+                                
+
+                            
+
+                            
+                                	
+                                            Subscriptions
+                                    
+	
+                                           Authors & Referees
+                                    
+	
+                                            Librarians
+                                    
+	
+                                            Advertisers
+                                    
+	
+                                            Press
+                                    
+	
+                                            About
+                                    
+
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+    
+
+
+
+
+
+    
+        
+            Search
+
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                            
+                                                Search Nature.com
+                                                
+                                            
+
+                                        
+
+                                        
+                                            
+                                                advanced
+                                            
+                                        
+                                    
+
+                                
+
+                                
+                                    
+                                        Search
+                                    
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+    
+
+
+
+
+
+
+    
+        
+
+            Nature Genetics
+
+            ISSN 1546-1718 (online)
+
+            
+        
+
+
+        
+
+
+        
+    nature.com sitemap
+
+
+    
+        
+            For authors and referees
+
+            	Guide to Authors
+	Guide to Referees
+	Editorial policies
+	Language editing
+	Scientific editing
+	Reprints &
+                    permissions
+
+
+        
+
+        
+            For readers
+
+            	Journals A-Z
+	Subject Pages
+	Protocol Exchange
+	Blogs
+	Podcasts
+	Webcasts
+	Subscriptions
+	Mobile apps
+	RSS
+
+
+        
+
+        
+            For librarians
+
+            	Account administration
+	Site licenses
+	Catalogs
+	Print subscriptions
+	Pay per view
+	Open access
+	Promotion tools
+	Public interfaces
+	User guides 
+	Library relations
+	Publisher collaborations
+
+
+        
+
+        
+            Careers and events
+
+            	Natureconferences
+	Natureevents
+	Naturejobs.com
+
+
+        
+
+        
+            Regional websites
+
+            	Natureasia
+	Nature China
+	Nature India
+	Nature Japan
+	Nature Korea
+	Nature Middle
+                    East
+
+
+        
+
+        
+            Nature Research
+
+            	About us
+	Work for us
+	Help
+	Contact us
+	Privacy Policy
+	Use of cookies
+	Legal notice
+	Accessibility statement
+	Terms & Conditions
+	Partners
+
+
+        
+
+        
+            For advertisers
+
+            	Advertising
+                    options
+	Journal
+                    audience
+	Event advertising
+	Job posts
+	Contact
+                    representative
+
+
+        
+
+        
+            For press
+
+            	Press site
+	Press room
+	Contact press office
+
+
+        
+
+    
+
+    
+        [image: Springer Nature]
+        © 2018 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+    [image: ]
+    [image: ]
+
+
+
+
+
+[image: ]

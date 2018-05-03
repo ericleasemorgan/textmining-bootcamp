@@ -1,0 +1,176 @@
+<html>
+<head>
+  <link rel="Edit-Time-Data" href="http://people.virginia.edu/~jmu2m//Kings.5-00/primitives_files/editdata.mso">
+
+  <title>According to Aristotle, scientific knowledge (episteme) must be expressed in statements that</title>
+  <style type="text/css">
+:link { color: blue }
+  :visited { color: purple }
+  </style>
+</head>
+
+<body>
+  <h2>"Scholarly Primitives: what methods do humanities researchers have in common, and how might our tools reflect this?"</h2><br>
+
+  <h3>part of a symposium on "Humanities Computing: formal methods, experimental practice" sponsored by King's College, London, May 13, 2000.</h3><br>
+  <strong>By John Unsworth</strong><br>
+
+  <div class="Section1">
+    <p>According to Aristotle, scientific knowledge (episteme) must be expressed in statements that follow deductively from a finite list of self-evident statements (axioms) and only employ terms defined from a finite list of self-understood terms (primitives). [Stanford Encyclopedia of Philosophy]</p>
+
+    <p>The notion of "primitives" as the "finite list of self-understood terms" from which, without recourse to further definitions or explanations, axiomatic logic may proceed, has (as you probably know) run into some difficulty in philosophy and mathematics, especially in the 20<sup>th</sup> century, but it's not my purpose here to sort that out--I'm using the term "primitives" in a self-consciously analogical way, to refer to some basic functions common to scholarly activity across disciplines, over time, and independent of theoretical orientation. These "self-understood" functions form the basis for higher-level scholarly projects, arguments, statements, interpretations--in terms of our original, mathematical/philosophical analogy, axioms. My list of scholarly primitives is not meant to be exhaustive, I won't give each of them equal attention today, and I would welcome suggested additions and debate over alterations or deletions, but here's a starting point:</p>
+
+    <p><strong>Discovering</strong></p>
+
+    <p><strong>Annotating</strong></p>
+
+    <p><strong>Comparing</strong></p>
+
+    <p><strong>Referring</strong></p>
+
+    <p><strong>Sampling</strong></p>
+
+    <p><strong>Illustrating</strong></p>
+
+    <p><strong>Representing</strong></p>
+
+    <p>My immediate intention in presenting these is to suggest a list of functions (recursive functions) that could be the basis for a manageable but also useful tool-building enterprise in humanities computing. My list of primitives is in no particular order--in fact, the two that seem to me to be the true primitives here are "referring" and "representing" since each of these is in some way involved in all the others. More on those two as we come to them. With respect to the list as a whole, my argument is that these activities are basic to scholarship across eras and across media, yet my particular interest is in scholarship that is based on digital information, and in particular, <em>networked</em> digital information. </p>
+
+    <p>My grappling with the term and the idea of "scholarly primitives" began about a year and a half ago, here at King's College, as part of an ultimately unsuccessful effort to fund some joint US/UK research into text analysis tools (perhaps, come to think of it, my list of scholarly primitives should include the age-old scholarly activity of "begging"). That proposal didn't actually use the term "primitives," but it did imagine some basic functions of scholarship that might be embodied in tools which, given a common architecture, could be combined to accomplish higher-order (axiomatic) functions. </p>
+
+    <p>The next iteration of this proposal, also unsuccessful, was addressed to the National Endowment for the Humanities and actually used the term and described the idea. In a section entitled <strong>Functional Primitives of Humanities Scholarship,</strong> the proposal said,</p>
+
+    <p>It is the operative assumption of this project that <em>comparison</em> is one of the most basic scholarly operations--a functional primitive of humanities research, as it were. Scholars in many different disciplines, working with many different kinds of materials, want to compare several (sometimes many) objects of analysis, whether those objects are texts, images, films, or any other species of human production. </p>
+
+    <p>I'll come back to the proposal in a moment, but let me stop on that point--comparison as a scholarly primitive--and illustrate it with a series of images, the first from IATH's Unicode browser, and the rest from the Blake Archive's soon-to-be-released version 2.0 user interface. </p>
+
+    <p><img width="629" height="276" src="http://people.virginia.edu/~jmu2m//Kings.5-00/primitives_files/image002.jpg"></p>
+
+    <p>Babble developed out of a religious studies project that wanted to compare texts in different language groups and cultural traditions dealing with the same story elements. The comparison is potentially structural, in that it might be keyed to units like chapter and verse, but it cannot be a straightforward collation or diff, because the texts themselves are only conceptually comparable--from the point of view of their character-encoding, they are incommensurable. A large part of the challenge in building Babble has been the requirement to publish these comparisons over the Web: in an example such as the one given above, with three different character sets, this means writing a Java application that navigates the shifting waters between Unicode character-encoding and system-dependent fonts for screen representation (and indeed, a shifting strategy on the part of Sun for Java's method of dealing with those system fonts). I would say it's a mark of a scholarly primitive that, like the comparison of texts across languages, it can function with merely conceptual support from the material. These primitives <em>are</em> the irreducible currency of scholarship, so it should, in principal, be possible to exchange them across all manner of boundaries of type or token. </p>
+
+    <p>A second example of comparison comes from the Blake Archive: it was an early ambition of the Archive to allow scholars and students to compare different printings of Blake's illuminated books. In the current version of the Archive, the interface reflects (quite strictly) the hierarchical genre/work/printing/plate structure of the Archive's SGML data , so that in order to compare two plates, a user would have to find her way down to one plate, then open a second browser, start over, and pull up the same plate in a different printing--a strategy which, while not actually prohibited by the Archive's design, is certainly not enabled by it either. Recognizing that the need to compare is a very basic need, we have revised the interface so that, from any plate in any book you can pull up any set of equivalent plates in other printings of the same work--or you can jump directly to any other plate in any other work. Here's what that looks like:</p>
+
+    <p><img width="576" height="144" src="http://people.virginia.edu/~jmu2m//Kings.5-00/primitives_files/image004.jpg"></p>
+
+    <p><img width="553" height="863" src="http://people.virginia.edu/~jmu2m//Kings.5-00/primitives_files/image006.jpg"></p>
+
+    <p><img width="576" height="281" src="http://people.virginia.edu/~jmu2m//Kings.5-00/primitives_files/image008.jpg"></p>
+
+    <p>These changes to the user interface are quite simple, yet they increase the utility of the Archive as a research tool by a great deal, for two reasons: first, they offer a functionality that can be called into play for many different reasons (which is to say, they enact a scholarly primitive); second, they offer the particular primitive of comparison in both structured and unstructured ways: you can take advantage of the structured data by calling parallel plates to the screen in a single move, and yet while doing that you can escape the constraint imposed on comparison by the structure that contains the objects to be compared--a hierarchy which is absolutely necessary to the production and maintenance of the resource but which is (also) not necessarily of equal functional importance from the end-user's point of view. We are further liberated from hierarchy (and the ad-hoc comparison strategy common to users of the current interface is raised to a new level) by the navigator, which allows us to connect any two points in the archive in one step. </p>
+
+    <p>To return to the NEH proposal:</p>
+
+    <p>A second functional primitive is, in our view, <em>selection</em>--not only the selection of objects for comparison, but also, and equally importantly, the selection of regions of interest within the objects selected. A third functional primitive is <em>linking</em>--either in the classic form of annotation, or in the more abstract sense of creating operative associations between, among, and within digital objects. </p>
+
+    <p>Here's a graphic example of what we had in mind, from the current implementation of the Blake Archive, using Inote, Web-deliverable Java software produced at IATH that allows linking of annotations to selected subsections of images:</p>
+
+    <p><img width="691" height="431" src="http://people.virginia.edu/~jmu2m//Kings.5-00/primitives_files/image010.jpg"></p>
+
+    <p>The idea for Inote came not from the Blake Archive but from the earliest days of the Rossetti Archive and the Valley of the Shadow (Civil War history) project. Both projects wanted a more articulate way to address image-based information than simply surrounding it with text on a page, as I'm doing, for example, in my all-purpose word-processor. In those early days of the Web, there were "annotation servers" that you could use to share annotations with others looking at the annotated material via the annotation server, but annotations could only apply to whole pages, not to any smaller unit--ergo, to a whole image, but not to a particular part of one. That was in 1993. In 2000 the situation is the same. Shared annotation is, for all scholarly intents and purposes, impossible on the Web. Some interesting though clunky schemes and workarounds have been developed (among these, Inote, for all its flaws, actually looks quite good), but there's not a lot you can do in this regard. </p>
+
+    <p>In this example, we also see the primitive of "selection" at work, inasmuch as the annotations in Inote are attached to a subsection of the image--in Inote's terms, a "detail". Selection, in general terms, is important because it allows us to address the relevant part of something: in the case of Inote and the Blake Archive, this is most clearly seen in the image search, in which a user selects one or more search terms (to find the image above, "child and snake") and the search result that comes back is, ultimately, something like "sector CD of America, Copy A, Plate 13." From the earliest days of the Archive, we knew we'd want to do something like this, so the markup for the archive was designed to allow editors to describe the visual contents of Blake's plates with reference to a positional grid, in which A is the upper left quadrant, B the upper right, C the lower left, D the lower right, and E the whole. Sectors can be combined (so the snake, in our example, can be said to occur in CD) and a search result brings up the editorial description of the section of the plate that answers to our search terms, with an Inote button below it: clicking that button invokes the Inote software, with a command-line switch (generated by the style-sheet for search results) that instructs Inote to open with a focus on a particular detail. Thus, rather than having to carve up Blake's plates into the subsections we think might answer to someone's search, and present those--or the plate itself--entire, designing Inote to accommodate a very simple but important functional behavior (a scholarly primitive) allows us to do something specifically useful to Blake, but generally useful in entirely different contexts as well.</p>
+
+    <p>While we're on the subject of Inote, it's worth pointing out that--as just described, and in other ways--we have successfully resisted impulses to customize the software for the data structures of the Blake Archive, or for their higher-level (more axiomatic) scholarly intentions. We have instead kept it a primitive tool that serves a primitive function in a basic, but broadly applicable, way. If we who are here today do get involved, collectively or individually, in the development of other software to enable scholarly primitives, this is an important principle to retain: software intended to enable these primitives should be developed and tested in the context of real scholarly use, but it should resist customization, because purpose-built or project-centered software is unlikely to provide broad support for functional primitives. </p>
+
+    <p></p>
+
+    <p>Another such primitive is "sampling"--closely related to "selection." Sampling is the result of selection according to a criterion, really: the criterion could be a search term (in which case the sample that results from selection would be a sample of the frequency with which the thing searched for occurs in the body of material searched). In another case, the criterion might itself be a rate of frequency, for example "five frames per second," in which case the sample that results would be a series of images sampling the world inside the camera's frame every five seconds. I'll give another graphical example here, showing a search for references to different kinds of people (biblical, mythical, medieval) from Deborah Parker's project on Dante's Inferno. Here's what the search form looks like:</p>
+
+    <p><img width="630" height="403" src="http://people.virginia.edu/~jmu2m//Kings.5-00/primitives_files/image012.jpg"></p>
+
+    <p>And here's the result set:</p>
+
+    <p><img width="629" height="251" src="http://people.virginia.edu/~jmu2m//Kings.5-00/primitives_files/image014.jpg"></p>
+
+    <p>What we have here is a model of the poem, in the form of a spiral, in which each circle in the spiral is a canto, and each point on each circle is a line in the canto. Distributed across these circles are triangular flags of different colors, corresponding to the colors assigned different search terms on the initial search form. The whole result set is returned as a VRML model, so we can move around in it, fly up and get a closer view of the results:</p>
+
+    <p><img width="629" height="250" src="http://people.virginia.edu/~jmu2m//Kings.5-00/primitives_files/image016.jpg"></p>
+
+    <p>What we have, then, is a graphical display of frequency, a model that shows us the rate at which the things for which we sampled occur in this dataset. What this example shows, I would suggest, is that sampling is a scholarly primitive in its own right (not just a variant of selection), because it implies a unique kind of functionality, namely the ability to show distribution and clustering. </p>
+
+    <p>In the example above, each flag is a hypertext link (linking, or referring, being another scholarly primtive) back to the line it represents, in a Dynaweb presentation of the TEI-tagged text. This brings up the additive characteristic of scholarly primitives: it is a basic principle of the scholarly primitive that you can, and generally do, use it in combination with other primitives, piping them together like basic Unix tools, output from the first becoming input to the second, and so forth. That suggests, furthermore, the importance of something equivalent to stdout and stdin in all of this: the tools we build to embody these primitives in scholarly terms must have, or must use programming languages that have, the ability to produce output in a standard form, without foreknowledge of what will happen next to that output, and similarly, the ability to take input in standard form, without knowing where that input comes from or what has just produced it. </p>
+
+    <p>The other principle that needs to be mentioned, with reference to "referring," is the importance of stability in reference. This will always be a relative matter: no reference is perfectly stable, but more stable is better. Link rot on the Web exemplifies this principle, and we're all familiar with the problem of unstable reference in that context. </p>
+
+    <p>The NEH proposal I've just been "illustrating" (to score another primitive) didn't succeed, but it's part of my purpose here today to argue that it is, in fact, a good idea, and that we should collectively pursue it, with or without government funding--because right now, even these very basic scholarly activities are very poorly supported, if at all, with respect to networked electronic data. The importance of the network in all of this cannot be overstated: with the possible exception of a class of activities we'll call authoring, the most interesting things that you can do with standalone tools and standalone resources is, I would argue, less interesting and less important than the least interesting thing you can do with networked tools and networked resources. There is a genuine multiplier effect that comes into play when you can do even very stupid things across very large and unpredictable bodies of material, with other people. The huge, really huge, success and cultural impact of the Web is the best illustration I can provide: as anyone in the hypertext theory community would tell you, it's a very bad implementation of hypertext in almost every way; the only thing it has going for it is that it uses widely accepted standards and therefore it networks easily, and it makes a bunch of simplifying assumptions that made it easy to write software for--with the result that everyone uses it, and therein lies its value: lots of people use it and lots of stuff can be found in lots of places using it.</p>
+
+    <p>Actually, I'd like to use that proposition--that the most interesting things that you can do with standalone tools and standalone resources is less interesting and less important than the least interesting thing you can do with networked tools and networked resources--as a point of entry to the discussion of another scholarly primitive, namely "discovery." It's what scholars traditionally do in archives, what we all do in library catalogs and library stacks, what we do when we search indexes or abstracts of scholarly journals--and one of the most effective methods of discovery is still, and has always been, conversation with others who share our interests or who are simply interested in sharing: our teachers, our colleagues, and our students often bring to our attention resources that become important to our work in ways that we would not have predicted, and therefore could not have sought. </p>
+
+    <p>In the world of the Web, the most prominent tool for discovery is the search engine (it's worth pointing out that--with the unavoidable exception of pornography--search engines were the first web service or product to turn a profit). Those of us in the humanities computing world know a few things about searching, yes we do. We know that structured data gives you much better, more accurate, more useful search results, for example. And we also know that no two repositories have exactly the same structures, even if they use the same encoding scheme. So we also know that the advantage we derive from highly structured access to highly structured data is generally limited by the extent of the collection, as well as by its principles of selection and encoding, its perspective, and quite possibly its terms of use. For that reason, when I start the process of discovery, I usually start with the least structured, most general search--a Google search of the Web. Lots and lots of data, very little structure, and the only structure I control or predict is the query itself. </p>
+
+    <p></p>
+
+    <p>When I started looking around for material on two of the other scholarly primitives, annotation and comparison, I went to Google, and I searched for "annotation and comparison." I was looking for discussion of annotation and comparison as scholarly activities, or for examples of the same; interestingly, what I found was a pattern of hits referencing the Human Genome Project: apparently, annotation and comparison are indeed cross-disciplinary functional primitives. I think I would not have found these hits, or not so readily, if I had included that word "scholarly" in my query, or if Google (or the data on the Web) had offered me a more structured search: with more structure at my disposal, I would have designed my search to produce fewer results that were more likely to answer to what I wanted to find, and I had no intention or particular interest in finding results in the realm of biology. But because I've learned from experience to value the serendipity of the unlooked-for search result, and because Google is easy to use instantly from anywhere (I have the Google button installed in my web browser.) I started with an unstructured search across a large body of (essentially) unstructured data, the only structure being provided by the query itself (I probably would have gotten less interesting results if, instead of searching for annotation and comparison, I had searched for comparison and annotation).</p>
+
+    <p> </p>
+
+    <p>Here's what I discovered about annotation and comparison: biologists do it too, and it is also fundamental to their research in genetics, and furthermore, they are grappling with many of the same social, technical, and intellectual problems that humanities computing people are. My first point here is that the power of a primitive function executed across a very large pile of networked information is very great--greater, in part, because it brings you results that you don't expect but do find significant. Lest you doubt this, I refer you to the handout: its left-hand column presents and unedited excerpt from a web document recording a 1998 meeting, sponsored by the Department of Energy, between computer scientists and biologists working on the Human Genome Project. My second point, though, is really a departure (and point of exit) from my topic of scholarly primitives, into what may become a discussion of the common experimental methods and problems that characterize informatics, regardless of its modifier. So, in the left-hand column of the handout, we have a discussion of medical informatics and in the right-hand column I have substituted "Humanities Genres Project" for "Human Genome Project" and "humanist" for "biologist" and "library" for "laboratory," but otherwise left the text intact. I want to read the altered version aloud, because I think we learn something important from this exercise, but before doing that, let me say that what I have done with my search results is to deform them in an instructive way--and deformation is a type of representation, another scholarly primitive. Here's what we learn from representation (on the left) and deformation (on the right):</p>
+
+    <table border="1" cellspacing="5" cellpadding="5" width="100%">
+      <tr>
+        <td valign="top">
+          <p>Since the beginning of the Human Genome Project, informatics has been widely regarded as one of the most important elements of the HGP. The overall quantity of information, the mass and varying types of experimental raw data being generated, the spectrum of data from ABI traces to DNA sequences, to map positions of markers, to identified genes, ultimately to intelligent predictions of future genes (open reading frames) and their hypothetical functions, all absolutely require computational collection, management, storage, organization, access, and analysis. Not surprisingly, given the wide diversity of sponsoring agencies, participating institutions, and scientists who are involved in genomics, the resulting data are highly heterogeneous in terms of format, organization, quality, and content. Furthermore, not all uses for these data can be anticipated today; this implies a need for structural flexibility in the database(s) that support the genome project. Additionally, knowledge improves over time which implies that curation of the data, i.e. correcting it, adding to the functional and useful links it has, annotating it, must be done on a continuous basis.</p>
+
+          <p> </p>
+
+          <p>Although universally regarded as critical to the success of the HGP, informatics is done by computer scientists, not biologists. This has led to some communication difficulties that have not been fully resolved. By and large, those doing informatics have not had practical biology backgrounds (there are, of course, exceptions to this), and biologists, to a large extent, have used computers only for word processing and e-mail. This situation is changing rapidly but still has a way to go. Additionally, the expectations from genome informatics are not uniform; biologists have a set of expectations that can vary from those of the computational scientists. Importantly, computational analyses of genomic data are not meant to generate "revealed truth"; rather, they are best understood as serving to generate testable hypotheses that must then be taken to a lab bench somewhere for critical testing. Both NHGRI and OBER took the starting position that it is the needs of the users that matter the most and which must drive the goals of genome informatics over the next 5 years. To this end, most of the invitees were, broadly defined, "users" of informatics services, and only a minority were "producers."</p>
+
+          <p> </p>
+
+          <p>Prior to the workshop, the ORISE contractor E-mailed to all the invitees 4 broad questions to serve as a framework for the workshop. These four questions were:</p>
+
+          <p> </p>
+
+          <p>1.Queries: What scientific questions will you want to answer? What types of data will you need to answer these questions? Which of these data types are permanent, which are temporary but important, and which will need to be regularly updated? What uses will you have for genomic sequence data in the next 5 years? </p>
+
+          <p> </p>
+
+          <p>2.Tools: What protocols and tools for data submission, viewing, analysis, annotation, curation, comparison, and manipulation will you need to make maximal use of the data? What sorts of links among datasets will be useful? </p>
+
+          <p> </p>
+
+          <p>3.Infrastructure: What critical infrastructures will be needed to support the queries you want to perform and what attributes should these infrastructures have? In what ways should they be flexible, and how should they stay current? How should they be maintained? </p>
+
+          <p> </p>
+
+          <p>4.Standards: What kind of community-agreed standards are needed, e.g. controlled vocabularies, datatypes, annotations, and structures? How should these be defined and established?</p>
+
+          <p> </p>
+        </td>
+
+        <td valign="top">
+          <p>Since the beginning of the Humanities Genres Project, informatics has been widely regarded as one of the most important elements of the HGP. The overall quantity of information, the mass and varying types of experimental raw data being generated, the spectrum of data from traces of previous authors to sonnet sequences, to map positions of markers, to identified genres, ultimately to intelligent predictions of future genres (open reading frames) and their hypothetical functions, all absolutely require computational collection, management, storage, organization, access, and analysis. Not surprisingly, given the wide diversity of sponsoring agencies, participating institutions, and scholars who are involved in genre studies, the resulting data are highly heterogeneous in terms of format, organization, quality, and content. Furthermore, not all uses for these data can be anticipated today; this implies a need for structural flexibility in the database(s) that support the Genres project. Additionally, knowledge improves over time which implies that curation of the data, i.e. correcting it, adding to the functional and useful links it has, annotating it, must be done on a continuous basis.</p>
+
+          <p> </p>
+
+          <p>Although universally regarded as critical to the success of the Humanities Genres Project, informatics is done by computer scientists, not humanists. This has led to some communication difficulties that have not been fully resolved. By and large, those doing informatics have not had practical humanities backgrounds (there are, of course, exceptions to this), and humanists, to a large extent, have used computers only for word processing and e-mail. This situation is changing rapidly but still has a way to go. Additionally, the expectations from Genres informatics are not uniform; humanists have a set of expectations that can vary from those of the computational scientists. Importantly, computational analyses of generic data are not meant to generate "revealed truth"; rather, they are best understood as serving to generate testable hypotheses that must then be taken to a library somewhere for critical testing. Both NHGRI and OBER took the starting position that it is the needs of the users that matter the most and which must drive the goals of Genres informatics over the next 5 years. To this end, most of the invitees were, broadly defined, "users" of informatics services, and only a minority were "producers."</p>
+
+          <p> </p>
+
+          <p>Prior to the workshop, the ORISE contractor E-mailed to all the invitees 4 broad questions to serve as a framework for the workshop. These four questions were:</p>
+
+          <p> </p>
+
+          <p>1.Queries: What questions will you want to answer? What types of data will you need to answer these questions? Which of these data types are permanent, which are temporary but important, and which will need to be regularly updated? What uses will you have for generic data in the next 5 years? </p>
+
+          <p> </p>
+
+          <p>2.Tools: What protocols and tools for data submission, viewing, analysis, annotation, curation, comparison, and manipulation will you need to make maximal use of the data? What sorts of links among datasets will be useful? </p>
+
+          <p> </p>
+
+          <p>3.Infrastructure: What critical infrastructures will be needed to support the queries you want to perform and what attributes should these infrastructures have? In what ways should they be flexible, and how should they stay current? How should they be maintained? </p>
+
+          <p> </p>
+
+          <p>4.Standards: What kind of community-agreed standards are needed, e.g. controlled vocabularies, datatypes, annotations, and structures? How should these be defined and established?</p>
+
+          <p> </p>
+        </td>
+      </tr>
+    </table>
+
+    <p>.</p>
+  </div>
+</body>
+</html>

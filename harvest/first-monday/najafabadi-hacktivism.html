@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+	<title>Hacktivism and distributed hashtag spoiling on Twitter: Tales of the #IranTalks | Najafabadi | First Monday</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Hacktivism and distributed hashtag spoiling on Twitter: Tales of the #IranTalks" />
+	
+	
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+
+	<meta name="DC.Contributor.Sponsor" xml:lang="en" content=""/>
+	<meta name="DC.Coverage" xml:lang="en" content=""/>
+	<meta name="DC.Coverage.spatial" xml:lang="en" content=""/>
+	<meta name="DC.Coverage.temporal" xml:lang="en" content=""/>
+	<meta name="DC.Creator.PersonalName" content="Mahdi M. Najafabadi"/>
+	<meta name="DC.Creator.PersonalName" content="Robert J. Domanski"/>
+	<meta name="DC.Date.created" scheme="ISO8601" content="2018-04-01"/>
+	<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2018-03-15"/>
+	<meta name="DC.Date.issued" scheme="ISO8601" content="2018-04-01"/>
+	<meta name="DC.Date.modified" scheme="ISO8601" content="2018-04-01"/>
+	<meta name="DC.Description" xml:lang="en" content=" The landmark Joint Comprehensive Plan of Action (JCPOA) was the final agreement of a series of tense nuclear negotiations between Iran and EU3+3 countries that started from September 2013, after which the Iranian people had elected a new president, and finalized in 2015. During several rounds of these negotiations, we noticed that some Twitter users were seemingly trying to distract people from the flow of latest news about the most trending negotiation’s hashtag, “#IranTalks”, by posting irrelevant tweets at a high frequency, that could be categorized as ‘spam’. We collected a sampling of all the tweets that contained the #IranTalks hashtag, and marked the distracting tweets based on some criteria. We populated a list of the spammers’ accounts and extracted their one-on-one friendship relationship (following/followed by). We applied social and organizational network analysis techniques and found strong evidence for the existence of an organization through which the accounts responsible for such tweeting behavior are connected. We believe the results of this study can stimulate more research about this social and organizational phenomenon and its possible impacts, and can help in better understanding and more accurate analysis of social trends on social media platforms. "/>
+	<meta name="DC.Format" scheme="IMT" content="text/html"/>
+	<meta name="DC.Identifier" content="8378"/>
+						<meta name="DC.Identifier.URI" content="http://firstmonday.org/ojs/index.php/fm/article/view/8378"/>
+	<meta name="DC.Language" scheme="ISO639-1" content="en"/>
+	<meta name="DC.Rights" content="Copyright (c) 2018 First Monday" />
+	<meta name="DC.Rights" content=""/>
+	<meta name="DC.Source" content="First Monday"/>
+	<meta name="DC.Source.ISSN" content="13960466"/>
+	<meta name="DC.Source.Issue" content="4"/>	<meta name="DC.Source.URI" content="http://firstmonday.org/ojs/index.php/fm"/>
+	<meta name="DC.Source.Volume" content="23"/>					<meta name="DC.Title" content="Hacktivism and distributed hashtag spoiling on Twitter: Tales of the #IranTalks"/>
+		<meta name="DC.Type" content="Text.Serial.Journal"/>
+	<meta name="DC.Type.articleType" content="Articles"/>
+		<meta name="gs_meta_revision" content="1.1" />
+	<meta name="citation_journal_title" content="First Monday"/>
+	<meta name="citation_issn" content="13960466"/>
+        <meta name="citation_author" content="Mahdi M. Najafabadi"/>
+        <meta name="citation_author_institution" content="University at Albany, State University of New York (SUNY)"/>
+        <meta name="citation_author" content="Robert J. Domanski"/>
+<meta name="citation_title" content="Hacktivism and distributed hashtag spoiling on Twitter: Tales of the #IranTalks"/>
+
+	<meta name="citation_date" content="2018/04/01"/>
+
+	<meta name="citation_volume" content="23"/>
+	<meta name="citation_issue" content="4"/>
+
+						<meta name="citation_abstract_html_url" content="http://firstmonday.org/ojs/index.php/fm/article/view/8378"/>
+	<meta name="citation_language" content="en"/>
+										<meta name="citation_fulltext_html_url" content="http://firstmonday.org/ojs/index.php/fm/article/view/8378/6663"/>
+				
+
+	<link rel="stylesheet" href="http://firstmonday.org/ojs/lib/pkp/styles/pkp.css" type="text/css" />
+	<link rel="stylesheet" href="http://firstmonday.org/ojs/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="http://firstmonday.org/ojs/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="http://firstmonday.org/ojs/styles/compiled.css" type="text/css" />
+	<link rel="stylesheet" href="http://firstmonday.org/ojs/styles/articleView.css" type="text/css" />
+			<link rel="stylesheet" href="http://firstmonday.org/ojs/lib/pkp/styles/rtEmbedded.css" type="text/css" />
+	
+	
+	
+	<link rel="stylesheet" href="http://firstmonday.org/ojs/styles/sidebar.css" type="text/css" />		<link rel="stylesheet" href="http://firstmonday.org/ojs/styles/rightSidebar.css" type="text/css" />	
+			<link rel="stylesheet" href="http://firstmonday.org/ojs/public/journals/3/journalStyleSheet.css" type="text/css" />
+			<link rel="stylesheet" href="http://firstmonday.org/ojs/plugins/blocks/languageToggle/styles/languageToggle.css" type="text/css" />
+	
+	<!-- Base Jquery -->
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		// Provide a local fallback if the CDN cannot be reached
+		if (typeof google == 'undefined') {
+			document.write(unescape("%3Cscript src='http://firstmonday.org/ojs/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+			document.write(unescape("%3Cscript src='http://firstmonday.org/ojs/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
+		} else {
+			google.load("jquery", "1.4.4");
+			google.load("jqueryui", "1.8.6");
+		}
+	</script>
+	
+	<!-- Compiled scripts -->
+			
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/lib/jquery/plugins/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/functions/fontController.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/functions/general.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/functions/jqueryValidatorI18n.js"></script>
+
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/classes/Helper.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/classes/ObjectProxy.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/classes/Handler.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/classes/linkAction/LinkActionRequest.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/classes/features/Feature.js"></script>
+
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/controllers/SiteHandler.js"></script><!-- Included only for namespace definition -->
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/controllers/UrlInDivHandler.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/controllers/AutocompleteHandler.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/controllers/ExtrasOnDemandHandler.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/controllers/form/FormHandler.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/controllers/form/AjaxFormHandler.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/controllers/form/ClientFormHandler.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/controllers/grid/GridHandler.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/controllers/linkAction/LinkActionHandler.js"></script>
+
+<script type="text/javascript" src="http://firstmonday.org/ojs/js/pages/search/SearchFormHandler.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/js/statistics/ReportGeneratorFormHandler.js"></script>
+<script type="text/javascript" src="http://firstmonday.org/ojs/plugins/generic/lucene/js/LuceneAutocompleteHandler.js"></script>
+
+<script type="text/javascript" src="http://firstmonday.org/ojs/lib/pkp/js/lib/jquery/plugins/jquery.pkp.js"></script>	
+	
+	<link rel="alternate" type="application/atom+xml" title="First Monday (atom+xml)" href="http://firstmonday.org/ojs/index.php/fm/gateway/plugin/WebFeedGatewayPlugin/atom" />
+	<link rel="alternate" type="application/rdf+xml" title="First Monday (rdf+xml)" href="http://firstmonday.org/ojs/index.php/fm/gateway/plugin/WebFeedGatewayPlugin/rss" />
+	<link rel="alternate" type="application/rss+xml" title="First Monday (rss+xml)" href="http://firstmonday.org/ojs/index.php/fm/gateway/plugin/WebFeedGatewayPlugin/rss2" />
+	<script type="text/javascript" src="http://firstmonday.org/ojs/js/relatedItems.js"></script>
+	<script type="text/javascript" src="http://firstmonday.org/ojs/js/inlinePdf.js"></script>
+	<script type="text/javascript" src="http://firstmonday.org/ojs/js/pdfobject.js"></script>
+
+</head>
+<body id="pkp-common-openJournalSystems">
+
+<div id="container">
+
+<div id="header">
+<div id="headerTitle">
+<h1>
+	<img src="http://firstmonday.org/ojs/public/journals/3/pageHeaderTitleImage_en_US.gif" width="252" height="102" alt="Page Header" />
+</h1>
+</div>
+</div>
+
+<div id="body">
+
+	<div id="sidebar">
+							<div id="rightSidebar">
+				<div class="block" id="sidebarDevelopedBy">
+	<a class="blockTitle" href="http://pkp.sfu.ca/ojs/" id="developedBy">Open Journal Systems</a>
+</div><div class="block" id="sidebarHelp">
+	<a class="blockTitle" href="javascript:openHelp('http://firstmonday.org/ojs/index.php/fm/help')">Journal Help</a>
+</div><div class="block" id="sidebarUser">
+			<span class="blockTitle">User</span>
+	
+												<form method="post" action="http://firstmonday.org/ojs/index.php/fm/login/signIn">
+					<table>
+						<tr>
+							<td><label for="sidebar-username">Username</label></td>
+							<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+						</tr>
+						<tr>
+							<td><label for="sidebar-password">Password</label></td>
+							<td><input type="password" id="sidebar-password" name="password" value="" size="12" class="textField" /></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Remember me</label></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" value="Login" class="button" /></td>
+						</tr>
+					</table>
+				</form>
+						</div>
+<div class="block" id="sidebarNavigation">
+	<span class="blockTitle">Journal Content</span>
+
+	<form id="simpleSearchForm" action="http://firstmonday.org/ojs/index.php/fm/search/search">
+		<table id="simpleSearchInput">
+			<tr>
+				<td>
+													<label for="simpleQuery">Search <br />
+					<input type="text" id="simpleQuery" name="simpleQuery" size="15" maxlength="255" value="" class="textField" /></label>
+								</td>
+			</tr>
+			<tr>
+				<td><label for="searchField">
+				Search Scope
+				<br />
+				<select id="searchField" name="searchField" size="1" class="selectMenu">
+					<option label="All" value="query">All</option>
+<option label="Authors" value="authors">Authors</option>
+<option label="Title" value="title">Title</option>
+<option label="Abstract" value="abstract">Abstract</option>
+<option label="Index terms" value="indexTerms">Index terms</option>
+<option label="Full Text" value="galleyFullText">Full Text</option>
+
+				</select></label>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Search" class="button" /></td>
+			</tr>
+		</table>
+	</form>
+
+	<br />
+
+		<span class="blockSubtitle">Browse</span>
+	<ul>
+		<li><a href="http://firstmonday.org/ojs/index.php/fm/issue/archive">By Issue</a></li>
+		<li><a href="http://firstmonday.org/ojs/index.php/fm/search/authors">By Author</a></li>
+		<li><a href="http://firstmonday.org/ojs/index.php/fm/search/titles">By Title</a></li>
+		
+					<li><a href="http://firstmonday.org/ojs/index.php/index">Other Journals</a></li>
+						</ul>
+	</div>
+
+<!-- Add javascript required for font sizer -->
+<script type="text/javascript">
+	<!--
+	$(function(){
+		fontSize("#sizer", "body", 9, 16, 32, "/ojs"); // Initialize the font sizer
+	});
+	// -->
+</script>
+
+<div class="block" id="sidebarFontSize" style="margin-bottom: 4px;">
+	<span class="blockTitle">Font Size</span>
+	<div id="sizer"></div>
+</div>
+<br /><div class="block" id="sidebarWebFeed">
+	<span class="blockTitle">Current Issue</span>
+	<a href="http://firstmonday.org/ojs/index.php/fm/gateway/plugin/WebFeedGatewayPlugin/atom">
+	<img src="http://firstmonday.org/ojs/plugins/generic/webFeed/templates/images/atom10_logo.gif" alt="Atom logo" border="0" /></a>
+	<br />
+	<a href="http://firstmonday.org/ojs/index.php/fm/gateway/plugin/WebFeedGatewayPlugin/rss2">
+	<img src="http://firstmonday.org/ojs/plugins/generic/webFeed/templates/images/rss20_logo.gif" alt="RSS2 logo" border="0" /></a>
+	<br />
+	<a href="http://firstmonday.org/ojs/index.php/fm/gateway/plugin/WebFeedGatewayPlugin/rss">
+	<img src="http://firstmonday.org/ojs/plugins/generic/webFeed/templates/images/rss10_logo.gif" alt="RSS1 logo" border="0" /></a>
+</div>
+
+<div class="block" id="sidebarRTArticleTools">
+
+	<span class="blockTitle">Article Tools</span>
+			<div class="articleToolItem">
+			<img src="http://firstmonday.org/ojs/plugins/blocks/readingTools/icons/abstract.png" class="articleToolIcon" alt="" /> <a href="http://firstmonday.org/ojs/index.php/fm/article/view/8378" target="_parent">Abstract</a><br />
+		</div>
+				<div class="articleToolItem">
+			<img src="http://firstmonday.org/ojs/plugins/blocks/readingTools/icons/printArticle.png" class="articleToolIcon" alt="" /> <a href="javascript:openRTWindow('http://firstmonday.org/ojs/index.php/fm/rt/printerFriendly/8378/6663');">Print this article</a>
+		</div>
+				<div class="articleToolItem">
+			<img src="http://firstmonday.org/ojs/plugins/blocks/readingTools/icons/metadata.png" class="articleToolIcon" alt=""/> <a href="javascript:openRTWindow('http://firstmonday.org/ojs/index.php/fm/rt/metadata/8378/6663');">Indexing metadata</a><br />
+		</div>
+				<div class="articleToolItem">
+			<img src="http://firstmonday.org/ojs/plugins/blocks/readingTools/icons/citeArticle.png" class="articleToolIcon" alt=""/> <a href="javascript:openRTWindow('http://firstmonday.org/ojs/index.php/fm/rt/captureCite/8378/6663');">How to cite item</a><br />
+		</div>
+							<div class="articleToolItem">
+			<img src="http://firstmonday.org/ojs/plugins/blocks/readingTools/icons/emailArticle.png" class="articleToolIcon" alt=""/>
+			Email this article <span style="font-size: 0.8em">(Login required)</span>		</div>
+				<div class="articleToolItem">
+			<img src="http://firstmonday.org/ojs/plugins/blocks/readingTools/icons/emailArticle.png" class="articleToolIcon" alt=""/>
+			Email the author <span style="font-size: 0.8em">(Login required)</span>		</div>
+		</div>
+
+<div class="block" id="sidebarRTAuthorBios">
+	<span class="blockTitle">
+					About The Authors
+			</span>
+		<div class="authorBio">
+	<p>
+		<em>Mahdi M. Najafabadi</em>
+		<a href="http://orcid.org/0000-0001-6095-8120" target="_blank" class="orcid"><img src="http://firstmonday.org/ojs/plugins/blocks/authorBios/orcid.png" alt="orcid" /></a>		<br /><a href="http://www.albany.edu/faculty/mahdi">http://www.albany.edu/faculty/mahdi</a><br />				<br />University at Albany, State University of New York (SUNY)			</p>
+
+	<p><p>Mahdi is currently pursuing his Ph.D. studies by focusing on open data ecosystems. He is interested in applying system thinking to address complex sociotechnical problems in public and private sectors. Mahdi is also interested in studying how information technologies and social media is exploited by people, organizations, and governments for a better outcome, and the implications of this attitude towards information technology.</p></p>
+	</div>
+	<div class="separator"></div>
+		<div class="authorBio">
+	<p>
+		<em>Robert J. Domanski</em>
+											</p>
+
+	<p><p>Instructor of both political science and computer science at the City University of New York. He is the author of the book, <em>Who governs the Internet? A political architecture</em>, and his ongoing research focuses on the topics of hacktivism and the politics of algorithms.</p></p>
+	</div>
+	
+	</div>
+			</div>
+			</div>
+
+<div id="main">
+
+<div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="http://firstmonday.org/ojs/index.php/fm/index">Home</a></li>
+		<li id="about"><a href="http://firstmonday.org/ojs/index.php/fm/about">About</a></li>
+
+					<li id="login"><a href="http://firstmonday.org/ojs/index.php/fm/login">Login</a></li>
+							<li id="register"><a href="http://firstmonday.org/ojs/index.php/fm/user/register">Register</a></li>
+												<li id="search"><a href="http://firstmonday.org/ojs/index.php/fm/search">Search</a></li>
+		
+					<li id="current"><a href="http://firstmonday.org/ojs/index.php/fm/issue/current">Current</a></li>
+			<li id="archives"><a href="http://firstmonday.org/ojs/index.php/fm/issue/archive">Archives</a></li>
+		
+					<li id="announcements"><a href="http://firstmonday.org/ojs/index.php/fm/announcement">Announcements</a></li>
+				
+
+									<li class="navItem" id="navItem-0"><a href="http://firstmonday.org/ojs/index.php/fm/about/submissions#onlineSubmissions">SUBMISSIONS</a></li>
+						</ul>
+</div>
+<div id="breadcrumb">
+	<a href="http://firstmonday.org/ojs/index.php/fm/index" target="_parent">Home</a> &gt;
+	<a href="http://firstmonday.org/ojs/index.php/fm/issue/view/592" target="_parent">Volume 23, Number 4 - 2 April 2018</a> &gt;	<a href="najafabadi-hacktivism.html" class="current" target="_parent">Najafabadi</a>
+</div>
+
+<div id="content">
+
+
+			<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 2012"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Hacktivism and distributed hashtag spoiling on Twitter: Tales of the #IranTalks</title>
+</head>
+<body bgcolor="#ffffff" LINK="#bb7777" VLINK="#7777bb" ALINK="#ffee99" text="#000000">
+<blockquote><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57230" border="1" alt="First Monday" align="bottom"><br></blockquote>
+<hr>
+<blockquote>
+
+<center><a href="najafabadi-hacktivism.html#author"><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57212" alt="Hacktivism and distributed hashtag spoiling on Twitter: Tales of the #IranTalks by Mahdi M. Najafabadi and Robert J. Domanski" border="1"></a></center>
+
+<br><hr><br>
+
+<p><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57228" alt="Abstract"><br>The landmark Joint Comprehensive Plan of Action (JCPOA) was the final agreement of a series of tense nuclear negotiations between Iran and EU3+3 countries that started from September 2013, after which the Iranian people had elected a new president, and finalized in 2015. During several rounds of these negotiations, we noticed that some Twitter users were seemingly trying to distract people from the flow of latest news about the most trending negotiation&rsquo;s hashtag, &ldquo;#IranTalks&rdquo;, by posting irrelevant tweets at a high frequency, that could be categorized as &lsquo;spam&rsquo;. We collected a sampling of all the tweets that contained the #IranTalks hashtag, and marked the distracting tweets based on some criteria. We populated a list of the spammers&rsquo; accounts and extracted their one-on-one friendship relationship (following/followed by). We applied social and organizational network analysis techniques and found strong evidence for the existence of an organization through which the accounts responsible for such tweeting behavior are connected. We believe the results of this study can stimulate more research about this social and organizational phenomenon and its possible impacts, and can help in better understanding and more accurate analysis of social trends on social media platforms.</p>
+
+<p><strong>Contents</strong></p>
+<p><a href="najafabadi-hacktivism.html#p1">1. Introduction</a><br>
+<a href="najafabadi-hacktivism.html#p2">2. Research question and significance</a><br>
+<a href="najafabadi-hacktivism.html#p3">3. Reviewing the literature and background</a><br>
+<a href="najafabadi-hacktivism.html#p4">4. Research method</a><br>
+<a href="najafabadi-hacktivism.html#p5">5. Findings</a><br>
+<a href="najafabadi-hacktivism.html#p6">6. Limitations and further research</a><br>
+<a href="najafabadi-hacktivism.html#p7">7. Concluding remarks</a></p>
+
+<p>&nbsp;</p><hr><p>&nbsp;</p>
+<p><strong><a name="p1"></a>1. Introduction</strong></p>
+
+<p>Twitter is one of the most popular social media and social networking platforms that engages users in several ways. Users can share their stories (mainly some information about the event or otherwise users&rsquo; reactions to it) in up-to-the-second microblogs &mdash; <em>i.e.</em>, &lsquo;tweets&rsquo;. Tweets can include links, images, and location information, and users can make a tweet viral by marking it &lsquo;favorite&rsquo; and/or &lsquo;retweeting&rsquo; it in a crowdsourced manner. Users can also include one or more relevant keywords &mdash; <em>i.e.</em>, &lsquo;hashtags&rsquo; (#) &mdash; to participate in and take advantage of an automatic indexing mechanism, that makes their tweets more visibility and discoverability by other users. If employed properly, this mechanism helps reporters promote and information consumers seek the latest news, progress, and opinions, per desired topic, around the world, in a matter of seconds.</p>
+
+<p>Twitter users can follow one another to receive each other&rsquo;s tweets on their &lsquo;timeline&rsquo;, and can block certain users to disallow them from following their account. Another way to seek tweets by the users is to employ the search mechanism to look for one or more desired hashtags or keywords, that results in a list of most popular and recent tweets that contained the search term. Topics that are viral among a large number of users will have &lsquo;trending&rsquo; hashtags. For every trending hashtag, many users are posting and are viewing the corresponding tweets. If the hashtag is among the most popular hashtags in a certain time, it is displayed to all users who lookup trending hashtags. Thus, tweets that contain trending hashtags receive more attention from a large audience, just because of employing the right hashtag(s) at the right time.</p>
+
+<p>However, users have no restrictions on how to use hashtags, including popular hashtags, for any tweet, even if the tweet is not relevant to the hashtag(s) used. This leaves room for user to exploit trending hashtags for promoting totally irrelevant tweets (about issues that do not have connections to the issues corresponding to the hashtag in the first place). In most of these cases, the users committing this action are considered &lsquo;spammers&rsquo;.</p>
+
+<p>Employing an irrelevant or less relevant hashtag in a tweet can be have variety of motivations such as commercial advertisement of a business, supporting a political rally, or sometimes increasing social awareness around a (forgotten or diminishing) topic in the public sphere, and can be done either as an individual or otherwise as a collaborative effort. Such collaborative efforts sometimes try to &lsquo;hijack&rsquo; a popular hashtag for a different &mdash; or maybe less relevant &mdash; cause (Campbell, 2013). These efforts in which certain technical capabilities are used without directly violating or breaking any policies or regulations, in an unconventional and unexpected way (compared to the generally accepted ways of using those capabilities), is known as &lsquo;hacktivism&rsquo;. To give their voice leverage, hacktivists sometimes use pieces of software known as &lsquo;bots&rsquo; to post tweets at a higher frequency and from several different &lsquo;distributed&rsquo; accounts <a name="1a"></a>[<a href="najafabadi-hacktivism.html#1">1</a>].</p>
+
+<p>During the negotiations between Iran and the world powers (known as EU3+3) <a name="2a"></a>[<a href="najafabadi-hacktivism.html#2">2</a>], we noticed a situation in which irrelevant tweets were posted by some real users, in a manner different from all categories above.</p>
+
+<p>The pattern we recorded suggests an organized distributed effort mostly to distract users from receiving latest news and reactions. This could not be categorized as a collective hashtag hijacking effort because the spammers were not communicating a single message (although some of the recorded tweets can be categorized as such), nor as a hacktivist bot-based attack because there were indications that the user account are in control of real people. The fundamental difference here was the evidence of a real organized, coordinated effort between users engaging in this type of behavior, which suggested a possible organizational mandate. In fact, several different messages were sent at a very high frequency that would result in &lsquo;hashtag spoiling&rsquo; (Najafabadi, 2017) &mdash; a situation in which the real news stories and reactions regarding a viral hashtag are not easy to follow by the mainstream users, because of the high frequency of repeated, irrelevant, outdated, or even false stories posted in tweets that contain the same hashtag and dominates the hashtag search results. This practice of hashtag spoiling, done by real users who are already connected through a traditional organization, with the goal of user distraction on a mainly political issue is, we would argue, a new form of hacktivism.</p>
+
+<p><em>1.1. Research overview</em></p>
+
+<p>To examine this initial thought, we recorded sample sets of the tweets containing the &lsquo;#IranTalks&rsquo; hashtag during a few weeks at the peak of the negotiations, mostly when the #IranTalks hashtag was trending. These tweets were supposed to be about the nuclear negotiations. We analyzed the contents of a simple random sample of the randomly recorded tweets and marked the ones irrelevant to the ongoing nuclear talks as &lsquo;spam&rsquo; by human judgement. We populated a list of active &lsquo;spammers&rsquo;, that contained all the users responsible for five or more spams. We employed social and organizational network analysis (SNA) techniques to check upon meaningful signs of relationships between those spammers &mdash; <em>i.e.</em>, a network structure that could signal a corresponding physical organization of the spammers &mdash; and made an assertion about the possible motivations for this organized behavior.</p>
+
+<p><a href="najafabadi-hacktivism.html#tab1">Table 1</a> summarizes the research steps, and the instruments and outcomes per step.</p>
+
+<p>We finish the paper by listing some other possibilities for further analyzing social network actors, and by explaining the possible impact of this phenomenon on analyzing social media &mdash; here, Twitter &mdash; data.</p>
+
+<p>&nbsp;</p>
+<a name="tab1"></a>
+<table align="center" width="70%" border="1" cellpadding="1" cellspacing="1">
+<tr align="center"><td bgcolor="#99CCFF" colspan="4"><strong>Table 1:</strong> Research steps, and their instruments and outcomes.</td></tr>
+<tr align="center"><td><strong>Step</strong></td><td><strong>Activity</strong></td><td><strong>Tool(s)</strong></td><td><strong>Outcome</strong></td></tr>
+<tr><td align="center">1</td><td>We collected sample Twitter data containing the #IranTalks hashtag (in decks of the most recent 100 tweets) at intervals of every few hours during peak times of the #IranTalks. We repeated this procedure 100 times to end up with 100 twitter decks, each containing 100 tweets and its corresponding metadata. (We made simple exclusions in the query to exclude simple and detectable bots&rsquo; activity.)</td><td>Twitter API (Python code)</td><td>Initially sampled tweet decks</td></tr>
+<tr><td align="center">2</td><td>We randomly selected 25 out of 100 decks of tweets (each deck containing 100 actual tweets) for coding and further analysis.</td><td>Simple random sampling</td><td>Confirmed sampled tweet decks</td></tr>
+<tr><td align="center">3</td><td>We coded the tweets in each sampled deck based on their relevance to the ongoing nuclear negotiations (0 = relevant; 1 = irrelevant). To minimize human bias, we only included users with more than five spam tweets on our spammers list populated from all our sampled decks (an initial list of 57 users was formed).</td><td>Manual coding</td><td>List of twitter users with identified spamming activity</td></tr>
+<tr><td align="center">4</td><td>We extracted one-on-one Twitter relationships (follows and followed by) for every possible pair of the users in our spammers list, and formed a &lsquo;friendship matrix&rsquo;.</td><td>Python code</td><td>Friendship matrix</td></tr>
+<tr><td align="center">5</td><td>Using social and organizational network analysis techniques, we identified, analyzed, and visualized some network characteristics of the spammers network. The findings led to conclusions about possible existence of an organization, and a possible mandate of users&rsquo; activity on Twitter regarding the #IranTalks.</td><td>Social network analysis</td><td>Assertions about the organization of the spammers</td></tr>
+<tr><td align="center">6</td><td>We took a retrospective look at the un-sampled tweet decks to see what information we can find about our top spammers, to see whether this information is also a match with our findings from previous step or not.</td><td>Simple user detection</td><td>Added insights about the spammers activity</td></tr>
+</table>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<p><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57231" alt="++++++++++"></p>
+<p><strong><a name="p2"></a>2. Research question and significance</strong></p>
+
+<p>As explained earlier, during some rounds of nuclear negotiations, we noticed a situation in which some Twitter users were seemingly trying to distract other Twitter users from the flow of latest news about and reactions to the most trending negotiation&rsquo;s hashtag, #IranTalks. We focused on discovering possible indications of an organized distributed effort to misuse a trending &mdash; popular &mdash; hashtag, or &lsquo;hashtag spoiling&rsquo;, targeting the real-time news coverage of the nuclear negotiations. We checked the accounts of a few of these users and found some similarities in their demographics, and their tweeting behavior.</p>
+
+<p>Besides these similarities, the way these users exploited the &lsquo;#IranTalks&rsquo; hashtag to post their tweets was abnormal &mdash; very frequent tweets, or repetition of tweets by others (and not retweeting the exact same content from other similar users), less relevant or irrelevant, and outdated or even tweets that contained fake news. We were interested to find out if this was an individual behavior by some random users who just feel that they should engage in such activity to amplify their voice by hijacking the #IranTalks hashtag, or if it was an organized effort launched by an existing institution in the physical world.</p>
+
+<p>Our specific research question in this study was: Are there evidence that there is an organization (or a number of organizations) through which these specific spammers (who are showing this type of unique spamming behavior) are connected? We believed that extracting Twitter relationships between the user accounts who followed this pattern of tweeting could help us in finding an answer to this question.</p>
+
+<p>This research can help us understand the situations in which this behavior is likely to occur, and allows us to recognize it when it takes place, and depending on the situation, make sure that we would account for it when we are conducting social network analysis. This study can generate more insights about this type of behavior&rsquo;s short-term and long-term repercussions, and can possibly help evolve more effective counter mechanisms, enhanced by social media platform algorithms and by participation of social media users individually or collectively. In other words, this study can increase individual users&rsquo; awareness and inform the user community to keep away from such distraction and keep up with the real flow of an under-attack hashtag, and even further, help with some crowdsourced counter mechanisms.</p>
+
+<p>&nbsp;</p>
+<p><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57231" alt="++++++++++"></p>
+<p><strong><a name="p3"></a>3. Reviewing the literature and background</strong></p>
+
+<p>In the following subsections, we provide a twofold literature review. The first part covers modern hacktivism in the age of Internet and social media and a background on the various ways in which specific cyberspace can be misappropriated to advance political agendas. The second part explains the history and sociopolitical backgrounds in which the nuclear negotiations took place.</p>
+
+<p><em>3.1. Hacktivism: Political or ideological motivations for misuse</em></p>
+
+<p>Social media platforms are now employed by politicians and by officials at different levels of governments, as well as by individuals, businesses, and social activists as an enabler for their social outreach, for promoting, supporting, or opposing a cause or an idea (Sandoval-Almazan and Gil-Garcia, 2014; Jungherr, 2016; Khazraee and Losey, 2016; Rossini, <em>et al.</em>, 2017; DePaula, <em>et al.</em>, 2018). In some cases, different methods of &lsquo;political spamming&rsquo; is used as an opposing digital action. Political and ideological spams are mostly aimed to promote a perspective or belief, or otherwise, as we observed in this study, distract users from following the normal flow of tweets. In fact, social media is known to have an effect on the evolution of a user&rsquo;s opinions (He, <em>et al.</em>, 2017) and thus political causes and figures try to shape or shift public opinion for or against an issue (Dincelli, <em>et al.</em>, 2016). Although affecting public opinion is a normal activity in a democratic society, filling the public space with false news is in most cases prohibited by domestic and national laws and regulations and is considered illegal, and in many instance, unethical. Considering the recent findings about how some thousand organized social media pages or bots actively have spread false news or fake opinions to some targeted audiences, for example in the 2016 U.S. elections (Shane and Goel, 2017; Entous, <em>et al.</em>, 2017; Bastos and Mercea, 2017), reveals the importance of studying these types of user behavior in social media, and its effects.</p>
+
+<p>As illustrated in <a href="najafabadi-hacktivism.html#fig1">Figure 1</a>, there are various ways in which people seek to respond to or protest against their ideological opponents in cyberspace.</p>
+
+<p>&nbsp;</p>
+<a name="fig1"></a>
+<table align="center" width="60%" cellpadding="4">
+<tr align="center"><td><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/58379" alt="Spectrum of cyber-spatial activities"></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr align="center"><td><strong>Figure 1:</strong> Spectrum of cyber-spatial activities (Domanski, 2015).</td></tr>
+</table>
+<p>&nbsp;</p>
+
+<p>Cyberactivism refers to the use of the Internet and social media tools to communicate with others in support of or in opposition to a cause (Jordan, 1999). Examples include online petitions, organized information campaigns in social media forums like Facebook groups, Web sites that seek to disseminate information about a cause or an upcoming event, general recruitment to an activist organization, etc. These are all legally and constitutionally accepted forms of political activism whose implementations have simply migrated to cyberspace. They might seek to disrupt the sociopolitical status quo, but do so legally and with an eye towards organizing and mobilizing people to collective action.</p>
+
+<p>Cracktivism, on the other hand, is where the boundary is crossed from legal acts of political expression over to illicit and criminal actions. It refers to unauthorized intrusions of private software systems, defacement, the destruction and/or theft of information, and more. While admittedly often still motivated by political ideology, cracktivism does value destruction as its goal. If sponsored by governmental actors, it then falls into the classification of cyberwarfare (Rosenzweig, 1998; Curran and Gibson, 2013).</p>
+
+<p>Hacktivism, by contrast, refers to a similar type of largely benign, but disruptive, not destructive, form of political expression. Acts of hacktivism, by definition, do not seek to destroy their targets. It is the act of computer hacking for political purposes and stems from the original meaning of the term &lsquo;hacking&rsquo; &mdash; utilized since the 1970s &mdash; meaning to make use of something for a purpose other than for which it was originally intended (Jordan and Taylor, 2004).</p>
+
+<p>There is an important distinction between hacking and hacktivism. Hacking is a clever use of technology for virtually any purpose, often self-interested (Bell, 2001). Hacktivism, on the other hand, is a clever use of technology specifically to express oneself politically. It can be thought of as a form of political speech (Coleman, 2013), often administered through code and automation, designed as an unexpected exploitation of technological capabilities.</p>
+
+<p>Hacktivism has a history reaching back at least to the early 2000s (Morozov, 2011) and its current incarnations include relatively infamous collectives such as Anonymous and 4Chan (Coleman, 2015). An early prominent example of hacktivism was the introduction of the &lsquo;Googlebomb&rsquo; <a name="3a"></a>[<a href="najafabadi-hacktivism.html#3">3</a>]. and some unconventional exploitation of the Google&rsquo;s PageRank algorithm to effectively manipulate the search results relating to specific political figures. For example, beginning in 2003, a Googlebomb made it so that whenever a user searched for the phrase &ldquo;miserable failure&rdquo;, a biography of George W. Bush was displayed as the first result (Cohen, 2007). Similarly, in January 2009, before even taking the oath of office, opponents of President-Elect Barack Obama made it so that he sat atop the search results for &ldquo;failure&rdquo; while, simultaneously, his supporters produced the same effect for &ldquo;cheerful achievement&rdquo; (Taylor, 2009). There are several more examples of such activity (Havenstein, 2008; Amira, 2011).</p>
+
+<p>Hacktivism also includes misusing some mechanisms that are in place to avoid this type of behavior. For instance, by using a social media platform&rsquo;s crowdsourced &lsquo;report&rsquo; mechanism which is originally to help stopping users from violating laws and acceptable use policies, some accounts might be attacked with false reports, and thus might be suspended, at least temporarily. There was an instance of this in the Democratic Party&rsquo;s 2016 presidential primaries, where Hillary Clinton&rsquo;s campaign was accused of buying social media trolls (May, 2016) and made efforts to shut down some of Bernie Sanders&rsquo; accounts on social media using this technique (Taylor, 2016; Zimmerman, 2016).</p> 
+
+<p>The legality of hacktivism sometimes finds itself in a gray zone, as such acts are not overtly criminal by nature (Domanski, 2015). Rather, like cyberactivism, they seek to disrupt the political status quo through expression, often with the ultimate goal of gaining mainstream attention to their advocated position on an issue. Nevertheless, such activities raise numerous problematic challenges for regulators (Spinello, 2002). The difference between cyberactivism and hacktivism is that, whereas the targets of a cyberactivist lie in real space, for example in an online petition to change a local school board ordinance, environmental regulation, or some other type of public policy, the targets of hacktivism exist in cyberspace. For example, in redirecting visitors trying to reach the White House Web site to a different site expressing opposition to the President&rsquo;s position on an issue, no actual damage is being done to the White House site, no information is being stolen, and their administrators will surely &lsquo;fix&rsquo; the redirect in a brief amount of time. However, the story would (hopefully, in the hacktivist&rsquo;s mind) garner media and public attention to the cause he or she was trying to advocate for, and might ultimately have repercussions in real space politics.</p>
+
+<p>Individuals and different groups of people (<em>e.g.</em>, people being affected by a policy in a certain part of a country or in a certain industry, or likewise) can have political and ideological motivations for hacktivism. They sometimes find themselves collaborating in an act of hacktivism due to popularity of a cause or purpose. In some instances of the group action however, acts of hacktivism is performed by a group of people are already connected and organized through an existing institutional mechanism in the real space. In this case, the users can simply organize their online activities &mdash; <em>e.g.</em>, spamming &mdash; for greater effectiveness, but most often their activities will contain enough footprints that would indicate the existence of such organization.</p>
+
+<p><em>3.2. Related work</em></p>
+
+<p>Political spamming has been a hot research topic recently (see several related references in the previous section and in the current section).</p>
+
+<p>Previous studies have reported instances of hacktivism in which social media capacities are used in large scale in an unexpected way (Taylor, 2005; Hampson, 2012; Deseriis, 2017; Solomon, 2017). There are also many studies that include cases in which spamming is performed by programmed software bots (Sedhai and Sun, 2015; Deseriis, 2017; Bessi and Ferrara, 2016; Ferrara, <em>et al.</em>, 2016; Woolley, 2016; Su&aacute;rez-Serrato, <em>et al.</em>, 2016; Stukal, <em>et al.</em>, 2017), or by real people (Irani, <em>et al.</em>, 2010; Song, <em>et al.</em>, 2011; Thomas, <em>et al.</em>, 2011; Lee, <em>et al.</em>, 2012; Hadgu, <em>et al.</em>, 2013; Yang, <em>et al.</em>, 2014; Almaatouq, <em>et al.</em>, 2014; Wu, <em>et al.</em>, 2017), often organized by an entity such as a government, or a social or political group (Qtiesh, 2011; Emspak, 2011; Finley, 2015; King, <em>et al.</em>, 2017; Stukal, <em>et al.</em>, 2017; Leonnig, <em>et al.</em>, 2017; Finley, 2015).</p>
+
+<p>One popular way of propagating spam in Twitter, is by misusing a &lsquo;hashtag&rsquo; that is already designated to a viral conversation. This is mostly done by including the hashtag, in a high volume of tweets that are irrelevant to the corresponding conversation. Although some spammers try to &lsquo;hijack&rsquo; the &lsquo;trending&rsquo; hashtags to communicate their own message to the users who are engaged with the original conversation, some other spammers (mostly with political aims) do not necessarily communicate a specific message in their spams, and they only want to distract users from following that conversation. This type of spamming would result in disrupting the formation of social conversations (around that issue), interfering with the normal shaping of public opinion, and deflecting public opinion by using propaganda to amplify a point of view that is not prolifically supported, and at the bottom line, affecting people&rsquo;s choices based on the wrong perceptions they would receive from spammers&rsquo; activities.</p>
+
+<p>In different studies, those instances are referred to as &lsquo;hashtag spamming&rsquo; (Hyun and Kim, 2016; Sedhai and Sun, 2015), &lsquo;hashtag hijacking&rsquo; (or &lsquo;hashjacking&rsquo; for short) (Hadgu, <em>et al.</em>, 2013; Jackson and Foucault Welles, 2015; Virmani, <em>et al.</em>, 2017), or &lsquo;trend stuffing&rsquo; (Irani, <em>et al.</em>, 2010), based on the details of the case study. In our case though, the characteristics are slightly different: It is done in a distributed and organized manner, it is performed by real people who (as we will see) are connected through a traditional organization which is not a government, and their aim seems not to be promoting a unique message or Web site, but to distract the public and interfere with the normal shaping of public opinion. We call this specific type of spamming as &lsquo;hashtag spoiling&rsquo; (Najafabadi, 2017) <a name="4a"></a>[<a href="najafabadi-hacktivism.html#4">4</a>].</p>
+
+<p><em>3.3. The sociopolitical grounds of the phenomenon under study</em></p>
+
+<p>After the Iranian people elected a new president in 2013, within a matter of months, the long-halted negotiations restarted between Iran and the EU3+3 countries and escalated to the &lsquo;ministry&rsquo; level. These negotiations eventually created &ldquo;the longest and most complex international arms-control agreement ever, at 159 pages&rdquo; (Porter, 2015). It took almost two years to achieve a final agreement known as the Joint Comprehensive Plan of Action (JCPOA), which was backed by a United Nations Security Council resolution <a name="5a"></a>[<a href="najafabadi-hacktivism.html#5">5</a>]. It imposed major restrictions on the Iranian nuclear program and put Iranian nuclear facilities under strict and thorough surveillance. In return, the deal mandates that the international community would accept a safe level of uranium enrichment on Iranian soil for civilian and research purposes, and would lift (and ultimately revoke) all nuclear-related embargoes, sanctions, and corresponding restrictive regulations <a name="6a"></a>[<a href="najafabadi-hacktivism.html#6">6</a>].</p>
+
+<p>This was the result of several rounds of tense negotiations closely followed by the media, journalists, advocacy groups and lobbyists, investors, researchers, and also individual people. Twitter was a popular tool for these stakeholders to keep up with the most recent developments in the talks. In each round of the negotiations, formal or leaked news about a possible failure or success of the negotiations was highly impactful on the popularity of the #IranTalks (and some other relevant) hashtag(s) <a name="7a"></a>[<a href="najafabadi-hacktivism.html#7">7</a>].</p>
+
+<p>During the two years of negotiations, some external entities tried to disrupt the progress, because any kind of agreement that would end the isolation of Iran from the global market &mdash; regardless of the terms of the agreement &mdash; would have been counted a game-changing loss for the entities benefiting from the status quo. These entities form a wide spectrum ranging from some countries in the region and in the world, to some powerful lobbies and influential groups both in Iran and the U.S. Newspaper/Internet/TV ads, significant investments in lobbying efforts, several rounds of meetings between high officials of the countries, public speeches, and the propagation of falsified information, all were among the techniques used. However, the negotiations finally produced the JCPOA as an agreed upon roadmap for all negotiating parties. Given this atmosphere, it was not unexpected to find that there were some politically motivated organized efforts to misuse Twitter capabilities to hijack negotiation&rsquo;s hashtag(s).</p>
+
+<p>&nbsp;</p>
+<p><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57231" alt="++++++++++"></p>
+<p><strong><a name="p4"></a>4. Research method</strong></p>
+
+<p>Politically motivated activities that fit into hacktivism and similar categories are more likely to be committed by groups of people and thus can be studied for &lsquo;organized&rsquo; behavior. Thus, social and organizational networks analysis (SNA) tools and techniques can help us reveal some information about the users (hereafter, actors) based on their position in the identified network. In Twitter &mdash; as well as many other social media platforms in which users can post almost anything at their discretion &mdash; the complexities and conflicts of information rights, user rights, and acceptable use policies makes it hard to distinguish between normal activity and spam. This is because some users might see a tweet as a spam (<em>i.e.</em>, irrelevant or less relevant) to the employed hashtag(s), and some may not, and even more, some might even believe that the distraction goal and its repercussions on public opinion and awareness are always relevant. Thus, categorizing tweets that contain a specific hashtag as spam would be more valid if more distinctive criteria were employed, although any criteria would still be debatable. Thus, we tried to employ techniques to make sure that we identified spammers in a way that was acceptable by a larger community of Twitter users (see subsection <a href="najafabadi-hacktivism.html#p45">4.5. Inclusion criteria</a>).</p>
+
+<p>As illustrated earlier in <a href="najafabadi-hacktivism.html#tab1">Table 1</a>, we wrote a Python script and used it to collect a sample of #IranTalks tweets on occasions when the hashtag was highly used in tweets. We coded a sample of the tweets and identified some of them as spam in cases where we found a disconnect between the content of the tweet and the #IranTalks hashtag. Next, we populated a list of the user accounts responsible for five or more spams in at least one dataset (tweet deck). For the second round of data collection, we evaluated the Twitter relationship (following and followed by) for all pairs of user accounts in our spammers list from the previous step, and formed a &lsquo;friendship matrix&rsquo;. Finally, we used the UCINET software (v. 6.611) to analyze this network. We have highlighted our major findings of this network assessment below and also in the <a href="najafabadi-hacktivism.html#p5">Findings</a> section.</p>
+
+<p><em>4.1. Preparation and logistics</em></p>
+
+<p>To avoid biases from Twitter algorithms that favor some tweets based on users&rsquo; historical activity patterns, we created a new Twitter account and made some anonymity precautions to avoid any of such heuristics tailoring and filtering algorithms applied to our search results. We also used a new workstation and Internet connection for account creation while no other Twitter login session was active, to make sure Twitter would not bind this new account to any existing account behavior.</p>
+
+<p><em>4.2. Round 1 of data collection</em></p>
+
+<p>Round 1 data collection for this study was a two-step process.</p>
+
+<p>We programmed and used a Python script to collect data directly from Twitter using a Twitter application programming interface (API), facilitated by a public Python library. We executed this Python script in certain intervals (<em>i.e.</em>, every two to four hours) at times when the negotiations were active and the #IranTalks hashtag was at the peak of its use by many Twitter users worldwide. We recorded one hundred tweets per run &mdash; the maximum that the Twitter API allows us to collect in every attempt free of charge. The data collected contained the body (<em>i.e.</em>, text) of the tweets plus some metadata such as timestamps, number of followers of the sender of the tweets, date of account creation, and in some cases even more information like geographical location (based on user preferences and privacy settings of the corresponding user account). Upon fetching a tweet deck, the Python code also parsed the tweets, and exported selected elements we deemed important for our analysis into MS Excel worksheets (one Excel worksheet per tweet deck or dataset).</p>
+
+<p><em>4.3. Sampling</em></p>
+
+<p>As explained earlier, a part of the sampling was done by Twitter, due to the Twitter API&rsquo;s &lsquo;rate limit&rsquo; on free Twitter data. This API returns 100 tweets per call, which seemed sufficicent for this study. After it reached its predefined maximum capacity (in most cases, 15 API function calls per user), it stopped for a 15-minute window before it functioned again. Each of the collected tweet decks was stored in a separate Excel file. We used simple random sampling and selected 25 out of 100 for this study.</p>
+
+<p><em>4.4. Coding</em></p>
+
+<p>We used human judgment to identify spam tweets. We marked a tweet as spam if it did not contain something directly relevant to the nuclear talks between EU3+3 and Iran. These criteria were judged based on familiarity with the issue. We did not mark a tweet as spam unless there was strong evidence for it based on our criteria both in content and tweeting/retweeting behavior, <em>e.g.</em>, false information, outdated posts, tweets containing links to non-credible Web sites, and very high frequency of tweets.</p>
+
+<a name="p45"></a><p><em>4.5. Inclusion criteria</em></p>
+
+<p>To make sure we were focusing on certain spamming behavior, we defined another inclusion criterion for coded datasets. We decided to only include datasets that contained at least one user with five or more tweets coded as spam. Based on this new criterion, seven of the datasets did not meet inclusion criteria at this stage and the remaining 18 other datasets met the criteria.</p>
+
+<p><em>4.6. Data cleansing</em></p>
+
+<p>In the middle of the data collection phase, we noticed some efforts to hijack the #IranTalks hashtag. These efforts were conducted by different interest groups and were also facilitated by some Twitter bots. Among the interest groups we detected were some pro-Iran bot spams, pro-Saudi bot spams, and some bot spams and real-person spams from within U.S. political coalitions.</p>
+
+<p>In the middle of the data collection stage, for example, some pro-Saudi spammers bots started to use the #IranTalks hashtag to propagate supportive messages about the war in Yemen conducted by the coalition of Kingdom of Saudi Arabia (KSA) and its allies. From the frequency of the tweets and the similarity of the contents (although they were not retweets of each other) and some other footprints, it was clear that they were generated and posted by bots, not by real people.</p>
+
+<p>The focus of this study was to detect organizational characteristics of real users with prearranged mandates on misusing Twitter capabilities. Therefore, we intentionally excluded the bots&rsquo; activities. We could exclude most of the bots&rsquo; activities with just a little twist to the original search query by which we fetched tweet samples. All the bots we detected were promoting specific hashtags, which we employed as a filtering mechanism to exclude bots from our initial data collection query. Despite these precautions, some of these bot-propagated tweets passed through our filters and ended up in the sampled datasets, but not at a large scale.</p>
+
+<p>In addition, we realized that in some of our sampled datasets, there were human spammers with different interests and patterns of activity &mdash; <em>e.g.</em>, business interests &mdash; than the ones who were the subject of this study. Human spammers with different interests were almost impossible to exclude from recorded data, but they were usually posting spam tweets at a much lower rate, not affecting the results of our analysis. Here, in most instances, these spammers were detected with only one spam in a 100-tweet dataset, which increases the chances that it was an individual user. Our final inclusion criterion excluded such individuals &mdash; <em>i.e.</em>, they did not appear in our final list of spammers. We also noticed that two of the sampled tweet decks had a time overlap with each other, but since the identification of the spammers was done based on each tweet deck, it did not violate the integrity of our method.</p>
+
+<p>Before the analysis, we removed four isolated actors which did not seem a part of this spammer network. However, there could be other possibilities: 1) A false positive in our spam criteria; or, 2) Sampling error which implies that our sampling technique did not capture spammer actors who could bridge a relationship between the main network and the isolates (<em>i.e.</em>, corresponding dyadic connections were absent only in our sample).</p>
+
+<p><em>4.7. Identifying most active spammers</em></p>
+
+<p>To decrease the likelihood of false positive spam detection, we defined a new criterion for counting an account as a spammer: each spammer had to have five or more tweets marked as spam in any of our sample datasets of 100 tweets. Thus, any user with four or fewer recorded spam tweets per dataset were not counted as a spammer. These criteria captured those actors that were doing a recognizable spamming job, which made our analysis more robust. This also made it more suitable for our SNA at this stage, since we were trying to analyze the network of the spammers at the dyadic level. Finally, we created one list of all the accounts responsible for five or more spam tweets in each of our 25 datasets.</p>
+
+<p><em>4.8. Round 2 of data collection: Extracting the friendship matrix</em></p>
+
+<p>We used another Python script to extract Twitter friendship relationships (following/followed by) between every pair of actors in our spammer lists. This formed a bidirectional social network which enabled us to employ social network analysis (SNA) tools and techniques to acquire more information about the network. The friendship data was extracted from Twitter in spring 2016, based on the list of spammers that was populated in winter and spring 2015 rounds of data collection.</p>
+
+<p><em>4.9. Social network analysis</em></p>
+
+<p>We employed social network analysis (SNA) concepts to find meaningful insights about our hypothesis, <em>i.e.</em>, existence of the spammers&rsquo; organization based on our sample data. In our analysis, we exclusively relied on Twitter data. Knowing nothing about the true relationships, while trying to come up with assertions solely based on the data, we used a black box analysis. We started by using simple network characteristics, then we identified the most influential network actors (based on the Twitter data we extracted), and then we tried to identify some cohesive subgroups in the network, which basically showed subgroups of the network who were very well connected to each other.</p>
+
+<p><em>4.10. Final round of analysis: A retrospective look at the unsampled datasets</em></p>
+
+<p>Although the original Twitter data was collected in the spring of 2015 and the friendship matrices were extracted in the spring of 2016, we decided to conduct a retrospective analysis in the datasets that were not selected in our initial sample for the study. Thus, having populated the spammer list from our sample, we checked the rest of the datasets (the unselected tweet decks) to find if the identified spammers appeared in some tweets. There was no coding involved in this step, and we simply counted the number of appearances of each of the spamming user accounts, to find if there was a meaningful pattern of activity related to our research.</p>
+
+<p>&nbsp;</p>
+<p><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57231" alt="++++++++++"></p>
+<p><strong><a name="p5"></a>5. Findings</strong></p>
+
+<p>To have an assertion about the organization of user accounts, we considered several aspects of user account characteristics and patterns of behavior. We documented patterns of account activities and demographics, and employed SNA techniques to find meaningful clues about an organization network related to spamming activities.</p>
+
+<p><em>5.1.Data description and statistics</em></p>
+
+<p>As illustrated in <a href="najafabadi-hacktivism.html#fig2">Figure 2</a>, some of the sampled tweet decks have significantly shorter durations (vertical timescale equaled one hour). This was due to the fact that the Twitter API collects the last 100 tweets at each call. Thus, in peak times of the #IranTalks hashtag to collect the most recent 100 tweets required going back to a shorter period of time, because tweets were posted more frequently.</p>
+
+<p>The data description and statistics &mdash; even before employing any SNA techniques &mdash; often can generate insights about the phenomenon. We divided these insights into two types: insights related to characteristics of the data, and insights generated after coding took place.</p>
+
+<p>&nbsp;</p>
+<a name="fig2"></a>
+<table align="center" width="60%" cellpadding="4">
+<tr align="center"><td><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57214" alt="Sampled tweet decks timestamp and duration"></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr align="center"><td><strong>Figure 2:</strong> Sampled tweet decks timestamp and duration.</td></tr>
+<tr align="center"><td>Note: Larger version of figure available <a href="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57215" target="new">here</a>.</td></tr>
+</table>
+<p>&nbsp;</p>
+
+<p>Even before we began coding, we found some signs of abnormal activity. For instance, regardless of the content of tweets, the volume of tweets and the high frequency of posting tweets using a specific hashtag (around one tweet every six seconds) could hardly be considered a normal user activity. As we found patterns of activities that did not fit into Twitter bot activities, we believe it was an effort to help with distraction of Twitter users from following the #IranTalks hashtag, as discussed earlier. For instance, in our sampled data, we found that certain Twitter accounts were bombarding the #IranTalks hashtag. Here are a few instances to support this assertion.</p>
+
+<ul><li>A total of 43 tweets in 4 minutes and 53 seconds by one user (out of 100, dataset 02), of which 12 had met our inclusion criteria as spam;</li>
+<li>A total of 37 tweets in 4 minutes and 18 seconds by another user (out of 100, dataset 15), of which 16 had met our inclusion criteria as spam; and,</li>
+<li>A total of 38 tweets in 4 minutes and 38 seconds by another (out of 100, dataset 18), of which 35 had met our inclusion criteria as spam.</li></ul>
+
+<p>To come up with these numbers, we initially created a list of all identified spammers. This list contained 286 accounts that 1) had posted at least one spam tweet according to our inclusion criteria; 2) were responsible for 814 spam tweets; and, 3) comprised a total of 1,041 tweets (in the datasets they had at least one tweet labeled as spam). However, we discovered that 19 accounts out of 286 (less than seven percent) were responsible for roughly 50 percent of the tweets, and that five of these accounts appeared more than once (one account appeared three times) in our sampled datasets. On the demographics, the accounts of over 85 prcent of identified &lsquo;active&rsquo; spammers were created either late 2013 or early 2014, the first months that the new Iranian government took office.</p>
+
+<p>For each dataset (each file containing 100 tweets), once the coding of the data was completed, we created an overview table to summarize demographics and information about patterns of activity in that dataset: specifically, the identified spammer accounts&rsquo; names; total number of their tweets in the that dataset; and, number of tweets marked as spam. <a href="najafabadi-hacktivism.html#tab2">Table 2</a> is a sample of the overview tables that summarized a deck of 100 tweets that were sent in 4 minutes and 52 seconds. In this deck, the user in the first row posted 43 total tweets (average of one tweet per 6.79 seconds), 31 of which we coded as spam. This user and the user in the second row, accounted for 67 percent of the total #IranTalks tweets recorded in that short time period, of which 54 percent were coded as spam. The accounts were created on two consecutive days in November 2013. The overview tables revealed that some spammers posted tweets (either detected as spam or not) more often than others, at least in the recorded samples. Further assessment showed that most of the tweets by the spammers&rsquo; accounts &mdash; even some that did not meet our inclusion criteria and thus were not marked as spam &mdash; were in fact negative posts opposing the Iranian government and/or against making progress in the talks.</p>
+
+<p>&nbsp;</p>
+<a name="tab2"></a>
+<table align="center" width="70%" border="1" cellpadding="1" cellspacing="1">
+<tr align="center"><td bgcolor="#99CCFF" colspan="6"><strong>Table 2:</strong> Overview table of a sample tweet deck.</td></tr>
+<tr align="center"><td><strong>User ID</strong></td><td><strong># Tweets</strong></td><td><strong># Spams</strong></td><td><strong>Followers</strong></td><td><strong>Friends</strong></td><td><strong>Account created on</strong></td></tr>
+<tr align="center"><td>karemym11</td><td>43</td><td>31</td><td>345</td><td>266</td><td>20 Dec 2013</td></tr>
+<tr align="center"><td>amir43872139</td><td>26</td><td>23</td><td>231</td><td>570</td><td>19 Dec 2013</td></tr>
+<tr align="center"><td>habibsaaid52</td><td>4</td><td>4</td><td>463</td><td>371</td><td>12 Nov 2013</td></tr>
+<tr align="center"><td colspan="3">&nbsp;</td><td><strong>Total</strong></td><td>1,039</td><td>1,207</td></tr>
+</table>
+<p>&nbsp;</p>
+
+<p><a href="najafabadi-hacktivism.html#tab3">Table 3</a> shows simple data description for the same deck of tweets as in Table 2. Looking at some of the numbers in the table &mdash; such as number of total tweets or the number of total spams by identified spammers, out of the total 100 tweets &mdash; provides insight suspicious or at least abnormal activities.</p>
+
+<p>&nbsp;</p>
+<a name="tab3"></a>
+<table align="center" width="70%" border="1" cellpadding="1" cellspacing="1">
+<tr align="center"><td bgcolor="#99CCFF" colspan="5"><strong>Table 3:</strong> Simple statistics of the sample deck of tweets from Table 2.</td></tr>
+<tr align="center"><td>&nbsp;</td><td><strong># Tweets</strong></td><td><strong># Spams</strong></td><td><strong>Followers</strong></td><td><strong>Friends</strong></td></tr>
+<tr><td><strong>Total tweets accounted for
+by identified spammers</strong></td><td align="center">73<br>(out of 100)</td><td align="center">58<br>(out of 100)</td><td align="center">N/A</td><td align="center">N/A</td></tr>
+<tr><td><strong>Standard deviation</strong></td><td align="center">15.97</td><td align="center">11.32</td><td align="center">94.72</td><td align="center">126.07</td></tr>
+<tr><td><strong>Mean</strong></td><td align="center">24.33</td><td align="center">19.33</td><td align="center">346.33</td><td align="center">402.33</td></tr>
+</table>
+<p>&nbsp;</p>
+
+<p>The time of account creation for 100 percent of the accounts that were identified as spammers were between 2012 and 2014 and the number of their followers were in the order of tens and hundreds (only a few outliers exceeded one thousand followers).</p>
+
+<p><a href="najafabadi-hacktivism.html#fig3">Figure 3</a> illustrates the number of users recorded per sampled tweet deck vs. the number of active spammers identified. This figure suggests that as the number of total users in a dataset decreases, the portion of tweets by spammer accounts increases. In other words, it seems there was a base of spamming activity in each dataset, regardless of whether other users were tweeting about the hashtag or not.</p>
+
+<p>&nbsp;</p>
+<a name="fig3"></a>
+<table align="center" width="60%" cellpadding="4">
+<tr align="center"><td><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57216" alt="Number of users recorded per sampled tweet deck vs. the number of active spammers identified"></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr align="center"><td><strong>Figure 3:</strong> Number of users recorded per sampled tweet deck vs. the number of active spammers identified.</td></tr>
+<tr align="center"><td>Note: Larger version of figure available <a href="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57217" target="new">here</a>.</td></tr>
+</table>
+<p>&nbsp;</p>
+
+<p>We also examined the time factor. Figure 3 shows that as the #IranTalks hashtag was used by more users in a shorter time period (<em>i.e.</em>, the hashtag was increasingly trending), the number of spammers was a smaller percentage of total users. In other words, the number of spammers did not increase proportionally to the number of the users in a dataset. This suggests a limited number of spamming accounts, and a pattern that was different from general Twitter users reacting to the #IranTalks hashtag.</p>
+
+<p>To better illustrate this, we plotted the percentage of spammers by the duration of each of our sampled datasets (<a href="najafabadi-hacktivism.html#fig4">Figure 4</a>). It clearly suggests that as the duration of the dataset increases identified spammers were a smaller portion of the total users.</p>
+
+<p>&nbsp;</p>
+<a name="fig4"></a>
+<table align="center" width="60%" cellpadding="4">
+<tr align="center"><td><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57218" alt="Percentage of spammers by duration of dataset"></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr align="center"><td><strong>Figure 4:</strong> Percentage of spammers by duration of dataset.</td></tr>
+<tr align="center"><td>Note: Larger version of figure available <a href="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57219" target="new">here</a>.</td></tr>
+</table>
+<p>&nbsp;</p>
+
+<p>Our analysis of the identified active spammers (the spammers who met our selection criteria), as illustrated in <a href="najafabadi-hacktivism.html#fig5">Figure 5</a>, shows that given the number of spammers that account for a lot of tweeting activity, a high frequency tweeting pattern suggests spamming behavior. Comparing Figure 5 and <a href="najafabadi-hacktivism.html#fig2">Figure 2</a> gives a better understanding of the average time between each of the tweets, as explained in the sample data at the beginning of this section. To better illustrate this, we calculated the average number of seconds between each tweet of the most active spammers (Figure 5).</p>
+
+<p>&nbsp;</p>
+<a name="fig5"></a>
+<table align="center" width="60%" cellpadding="4">
+<tr align="center"><td><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57220" alt="Frequency of tweeting activity from most active spammers"></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr align="center"><td><strong>Figure 5:</strong> Frequency of tweeting activity from most active spammers.</td></tr>
+<tr align="center"><td>Note: Larger version of figure available <a href="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57221" target="new">here</a>.</td></tr>
+</table>
+<p>&nbsp;</p>
+
+<p>As illustrated in Figure 5, the most active spammers were tweeting on average one tweet every seven to 14 seconds. That was only their recorded activity within a sampled dataset of 100 tweets, at a specific time in negotiations. <a href="najafabadi-hacktivism.html#fig6">Figure 6</a> shows the aggregate number of tweets and the number of tweets that were marked as spam, per identified active spammer in the sampled dataset. These numbers are clearly abnormal for a typical Twitter user. The number of identified spams, illustrated in <a href="najafabadi-hacktivism.html#fig7">Figure 7</a>, also confirm this finding.</p>
+
+<p>&nbsp;</p>
+<a name="fig6"></a>
+<table align="center" width="60%" cellpadding="4">
+<tr align="center"><td><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57222" alt="Most active spammers by aggregated count of tweets and spams"></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr align="center"><td><strong>Figure 6:</strong> Most active spammers by aggregated count of tweets and spams.</td></tr>
+<tr align="center"><td>Note: Larger version of figure available <a href="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57223" target="new">here</a>.</td></tr>
+</table>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<a name="fig7"></a>
+<table align="center" width="60%" cellpadding="4">
+<tr align="center"><td><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57224" alt="Spamming pattern by active spammers per sampled dataset"></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr align="center"><td><strong>Figure 7:</strong> Spamming pattern by active spammers per sampled dataset.</td></tr>
+<tr align="center"><td>Note: Larger version of figure available <a href="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57225" target="new">here</a>.</td></tr>
+</table>
+<p>&nbsp;</p>
+
+<p>We extracted tweeting patterns of identified spammers from all datasets. Although we had collected and selected a very sparse sample of datasets, three spammers appeared in three of the datasets and another 20 had appeared twice.</p>
+
+<p>A deeper look at the contents of the tweets revealed that many of the spam tweets mentioned the Mojahedin-e-Khalgh organization (MKO or MEK) leader&rsquo;s Twitter handle in many of their tweets in an irrelevant manner to the negotiations (probably to make her more visible and give her credit for being mentioned several times, or maybe to report the progress they made toward an assigned duty).</p>
+
+<p>These clues indicated that this tweeting behavior was probably part of an organizationally mandated agenda, most likely attributed to the members of the MEK, which also introduced themselves as the People&rsquo;s Mojahedin of Iran (PMOI), National Liberation Army of Iran (NLA), National Council of Resistance for Iran (NCRI), Muslim Iranian Student&rsquo;s Society, and even some more. This is the largest anti-Iranian terrorist organization, with a history that goes back to the time of the Shah in the 1960s (Mejdini, 2016; Pike, 2017) <a name="8a"></a>[<a href="najafabadi-hacktivism.html#8">8</a>]. The U.S. had listed the MEK as a foreign terrorist organization on 8 October 1997 and removed it from the list on 28 September 2012 <a name="9a"></a>[<a href="najafabadi-hacktivism.html#9">9</a>].</p>
+
+<p>We found that they repeatedly retweeted or even copied their fellow tweets at a high frequency (copying the exact content of someone else&rsquo;s tweet on a large scale, instead of &lsquo;retweeting&rsquo; it, is not considered a normal activity). They also included in their tweets, Web URLs <a name="10a"></a>[<a href="najafabadi-hacktivism.html#10">10</a>] to one of their organizational Web sites, thus, bombarding the #IranTalks hashtag with tweets containing fake news and opinions unrelated to the subject.</p>
+
+<p><em>5.2. Basic network characteristics: Network connectedness and geodesic distances</em></p>
+
+<p>Our active spammers list of 57 users, contained only a few &lsquo;isolates&rsquo;, <em>i.e.</em>, actors who were not connected to the rest of the network. Best practice in social network analysis is to remove isolates if they are not a major part of the network. After elimination of the isolates, we had a directed (non-symmetric) friendship matrix corresponding to our list of active spammers, extracted from the &lsquo;following&rsquo; (out-degree) and &lsquo;being followed by&rsquo; (in-degree) relationships on Twitter.</p>
+
+<p>The overall average degree for the actors was 17.49 (out of possible 52 connections per actor), which indicated a highly connected network with a normalized network density of 33.64 percent. This shows the percentage of all possible links in the network that actually exist; in other words, on average, the portion of all possible one-on-one friendship relationships that are in place. For interpreting this number in a directed graph, we should remember that each pair of actors can have two relationships: actor A following actor B, and actor B following actor A. Each of these relationships either exists or is missing. In our data, 21 percent of the actors were fully connected (they followed each other) and 46.15 percent of actors had at least one form of direct connection (following, being followed by, or both), which we considered a significant finding for our hypothesis. This density indicated that almost one-third of all possible dyads were present in this network (927 ties out of the total 2,756 total possible dyads in our directed graph). This number clearly suggests a well-connected network. Another factor illustrating the connectedness of this network was the average distance of 1.68 which shows that every actor was within reach by 1.68 dyads (<em>i.e.</em>, edges, or ties between actors) on average from any point in the diagraph. The diameter of the network &mdash; <em>i.e.</em>, the longest path between any two actors in the network (after removing the isolates) &mdash; was only four edges. By looking at the geodesic distances matrix, it appears that except for one pair of actors, the diameter of the rest of the network is three. These findings also support the presence of a well connected network.</p>
+
+<p><em>5.3. Centrality and prestige measures</em></p>
+
+<p>There are several methods to calculate the centrality and prestige measures of a social network. Most often, the results of one method is congruent with other methods. For our application of centrality here on Twitter friendship relationships (in which network actors can follow each other asymmetrically), the degree centrality is a good fit. The basic idea is to find the most influential actors of the network, in terms of connections to other actors. Other forms of centrality calculations include betweenness centrality and closeness centrality. Since we are dealing with a directed graph corresponding to the Twitter friendship (following and followed by) of the spammers&rsquo; network, we may also refer to the incoming centrality measures (here, the in-degree measure) as the &lsquo;prestige&rsquo; of the actor, that is an indication of how popular an actor is among all other network members.</p>
+
+<p>In our case, the degree centrality analysis depicted a few outstanding accounts, of which some had high out-degree &lsquo;dyads&rsquo; to the network (following), some had high in-degree dyads from the network (being followed by), and some had both. For instance, the users &lsquo;BalouchN2&rsquo; and &lsquo;IranArabSpring&rsquo; had the highest in-degrees of 45 (86.5 percent) and 42 (80.8 percent) out of 52, which could be interpreted as accounts associated with more popularity, or those with a higher rank in an organizational order. The users &lsquo;no2censorship&rsquo; and &lsquo;peymaneh123&rsquo; each had 43 out-degrees (82.7 percent) out of 52 which could be interpreted as their extensive activity in following other accounts &mdash; which in some cases could persuade the followed account to &lsquo;follow back&rsquo;, helping to spread tweets of the original account. The accounts &lsquo;IranArabSpring&rsquo; and &lsquo;peymaneh123&rsquo; had the highest numbers for both in-degree and out-degree centrality. Besides the degree centrality analysis, other popular centrality measures also illustrated very similar results.</p>
+
+<p>Although the degree centralization is mostly calculated for individual actors within a network graph, the whole network can also be assigned a network centrality measure. This number is maximized in a star network (Wasserman and Faust, 1994), in which only one actor is connected directly to all other actors. For our network of identified spammers, the normalized degree centralization of the network was 51 percent which is significant and implies a connected set of actors. This suggests that no one actor completely dominated other actors in having direct connections to them.</p>
+
+<p><em>5.4. Cohesive subgroups</em></p>
+
+<p>Analyzing the cohesive subgroups helped us understand the internal structure of a network. The most cohesive subgroups &mdash; by using the &lsquo;cliques&rsquo; procedure &mdash; returns no results in a directed graph. However, if we symmetrize the data (using the &ldquo;Max Sym.&rdquo; procedure), there will be a huge number (218) of cliques of size 3 or more. We decided to increase the &lsquo;n&rsquo; to find the largest cliques in the symmetrized network. We ended up with 18 as the size, which returned six cliques. In other words, there are at least six different sets of actors in which they were fully connected to each other, and each of these sets contained 18 actors (either by following, by being followed, or both, since we symmetrized the friendship matrix for this procedure). The &lsquo;clique participation scores&rsquo; revealed that 13 actors were present in all these cliques. Not surprisingly, the actors already identified in the previous section in the centrality and prestige calculations also appeared in this list. Some of these 13 very well-connected actors also had a very high frequency of posting tweets in the recorded datasets, and six of them appeared more than once.</p>
+
+<p>In our cohesive subgroup analysis over the directed graph, we also observed that there were three 2-cliques in the network (subgroups which only lack two dyads to become maximally connected). These numbers were a strong indication of some type of organizational relationships among the actors we identified as spammers. Another interpretation was that there is a set of very well connected &mdash; central &mdash; actors in the network, and that other actors in the network were connected to the rest of the network through them. The following core/periphery analysis also supported this interpretation.</p>
+
+<p><em>5.5. Core/periphery analysis</em></p>
+
+<p>The core/periphery analysis is a helpful tool that allows splitting network actors into two groups, of which, the &lsquo;core&rsquo; actors have strong network ties and are considered central to the network, while the &lsquo;periphery&rsquo; actors have fewer ties with the core, and much fewer ties among themselves. In our spammers network, the core actors formed a subnetwork of 23 actors in which the density of the network was 77 percent (<em>i.e.</em>, 77 percent of all possible &lsquo;following&rsquo; and &lsquo;followed by&rsquo; ties in fact exist). Sixty-one percent of actors were fully connected (they both follow each other) and there was at least one form of direct connection between 93 percent of the actors. The density of the periphery network containing the rest of spammers (30 actors) was only seven percent. This could be an indication of a specific role that the core actors had undertaken in managing social media activities or some other form of affiliation between core actors. It also might indicate that some of the actors in the periphery group might not be a member of a specific organization, and might have been acting like one of them, for some reason.</p>
+
+<p><em>5.6. Network diagram</em></p>
+
+<p>A network diagram (<a href="najafabadi-hacktivism.html#fig8">Figure 8</a>) can clarify how intensely these spammers were connected to each other. A network diagram visualizes friendship (following/being followed by) relationships among actors. As Figure 8 illustrates, many actors in the network had direct connections to each other. This network contains only the spammers identified from a simple random sample of collected tweets, so this diagram could be an indication of the organization network we were testing for. This network diagram as well as the high measure of network density, both support our initial hypothesis of the existence of an organized network of spammers.</p>
+
+<p>&nbsp;</p>
+<a name="fig8"></a>
+<table align="center" width="60%" cellpadding="4">
+<tr align="center"><td><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57226" alt="Network diagram of the dyadic relationships"></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr align="center"><td><strong>Figure 8:</strong> Network diagram of the dyadic relationships.</td></tr>
+<tr align="center"><td>Note: Larger version of figure available <a href="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57227" target="new">here</a>.</td></tr>
+</table>
+<p>&nbsp;</p>
+
+<p><em>5.7. A retrospective look at the unsampled datasets</em></p>
+
+<p>We coded a sample subset of our collected tweet decks due to the difficulty of manually coding all the collected tweets, and because only a sample seemed a sufficient proof of concept to determine whether if our hypothesized pattern of behavior was taking place or not. Once we had generated a list of active spammers from the sampled data, we could take a retrospective look at the rest of the data and find confirmatory or non-confirmatory evidence, with no need to code more tweets (75 remaining tweet decks, each containing the 100 most recent tweets with the #IranTalks hashtag, at the time we ran our data collection Python script). Thus, we analyzed the rest of the datasets against our list of active spammers to discover: 1) how many times each spammer appeared in another dataset; 2) how many tweets the spammer posted that were recorded in the rest of the data; and, 3) what was the approximate average interval of time between the spammer&rsquo;s tweets. Here are the highlights:</p>
+
+<ul><li>The top numbers for appearance in other datasets were: 13, 9, 9, 8, 7, 7, several 6 and several 5 appearances and so on;</li>
+<li>The maximum number of tweets posted by one of the spammers in a single dataset: 52, 40, 39, 28, 26, 25, 22, 21, 19, and so on;</li></ul>
+
+<p>However, there is a time factor for each dataset which is variable. That means the numbers reported here might be the tweets that were posted over a short period of time, or they might have been posted over a longer period of time. Thus, we also looked into the duration of each dataset (the difference between the timestamp of the first and the last tweet recorded in each dataset) and calculated the approximate average intervals between a spammer&rsquo;s tweet postings. We say approximate because duration is a factor of the dataset, while the duration between a spammer&rsquo;s first and last tweets in each dataset is probably a smaller number, and thus, if the frequency is calculated based on that number, we would get a smaller number as the intervals between tweets, which is even more significant.</p>
+
+<ul><li>The lowest average time lapse (in seconds) between tweets of spammers in a single dataset is: 5, 8, 9, 11, 11, 13, and so on. We are just reporting the lowest number for each spammer that was seen among all 75 datasets. In fact, there were spammers who had a record of having more than just one of these very low time intervals between their tweets. For instance, the spammer who was accounted for the five-second interval between tweets, also had a record of 12 and another record of 13 in two other datasets, or similarly, the spammer with nine seconds between tweets was also seen in another dataset with a time interval of 11 seconds between tweets.</li></ul>
+
+<p>We found these findings confirmatory with our findings that the aim of this pattern of activity on Twitter was to distract users from following updates on the #IranTalks hashtag. Since a similar pattern of activity was recorded from users who happened to have very similar account demographics and characteristics, we can assert that there had been some intentional and organized effort of disruption.</p>
+
+<p>&nbsp;</p>
+<p><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57231" alt="++++++++++"></p>
+<p><strong><a name="p6"></a>6. Limitations and further research</strong></p>
+
+<p>For conducting this study, we had to rely on the free Twitter API for our data collection, as Twitter does not allow access to a complete set of tweets resulting from a search query, if there are more than a certain number within a given interval of time (this is called the &lsquo;rate limit&rsquo; of the Twitter API). Therefore, a researcher cannot use his own method of sampling all tweets without invoking some charges and fees. Thus, in most cases when a researcher hits the rate limit cap in the free version of the Twitter API, the API makes a first-level sampling of the data. In this study, we relied on this mechanism every time we executed our Python script to collect the latest 100 tweets on the #IranTalks hashtag. Moreover, the Twitter account used for fetching tweets was created specifically for this project to avoid any effects of previous activities on Twitter filtering mechanisms. But even for brand new accounts, Twitter uses some location and demographic information from the hosting computer and network to tailor tweets returned for a hashtag search, and that also can have an impact on fetched tweets.</p>
+
+<p>Another limitation resulting from this mechanism is that since the Twitter API returns 100 tweets every time it is called, the timespan for each of the fetched datasets containing 100 tweets varies. For instance, some of our sample 100 tweets are posted in a timespan as short as less than three minutes, while some others are posted in over 40 minutes. This disparity can result in inconsistencies that need to be addressed in analysis (as we did), but makes some time-specific analyses more difficult and less reliable.</p>
+
+<p>Another limitation in this study was that since we had a two-phase data collection with almost a year interval, some of the spammers from our original list of spammers were already identified and removed by Twitter, and thus we had to exclude them from our network analysis because no information about their friendships was available or could be fetched at the time of analysis. In at least one instance, the same account handle was used by a new user after the original account had been deleted by Twitter; we discovered this from the date of creation of the account. Friendship relationships might also have been changed during the data collection time interval but we considered this insignificant in our network analysis.</p>
+
+<p>In this study, we focused on what users were doing and how they acted or reacted to each other on social media. However, there are some directions for future research that could enhance our understanding of social networks:</p>
+
+<ul><li><p><em>Including affiliations in the analysis:</em> Looking into the accounts that operate together and in the same time intervals could be useful in some instances. For instance, the network might be composed of some subnetworks and this affiliation analysis could open a window to new understandings of network structure. In our sampled data, we might look into datasets and try to figure out which accounts usually appeared together on the sampled tweet decks. Unfortunately, the sampling by Twitter places a barrier on the extent to which this information can be elicited. Therefore, although a great way of finding out more about an unknown network of actors, an analysis of affiliation networks cannot result in any significant findings in our datasets in this study. However, if the full datasets were representatively sampled and coded for spam, it added value.</p></li>
+<li><p><em>Including reactions in the analysis:</em> All activities other than tweeting could also be considered for the analysis. For instance, marking tweets as favorite, retweeting, or mentioning were not part of this study, due to a lack of data, again resulted from limitations and restrictions of Twitter&rsquo;s free API. Also, one thing that was less common was that some of these users copied the exact content of another user&rsquo;s tweet, instead of simply retweeting it. These reactions, if studied, could add to our understanding of how these accounts were related, and how they interacted with each other.</p></li>
+<li><p><em>More rigorous spammer detection algorithms:</em> While we had limited our detection of spammer accounts to the coding of tweets and flagged a user as a spammer only if they had five or more tweets that were identified as spam, there could have been some alternatives for identifying spammers, even if they did not meet this study&rsquo;s criteria. For instance, as we described in the findings, some users were as active in posting a tweet every five seconds, and some were responsible for a great majority of the total tweets that were recorded in some datasets. Although most of these users were already recorded as spammers in our datasets, more criteria could have given us a richer list of spammers.</p></li>
+<li><p><em>Expanding spammer detection criteria to friendships and reactions:</em> Another spammer detection practice could be that once a tweet was marked as a spam, users who reacted to that tweet were placed on a list of &lsquo;potential spammers&rsquo; and watched for spammer-like behavior. This can be a &lsquo;greedier&rsquo; algorithm for spammer detection. The same logic could also apply to friendship relationships for an account already been identified as a spammer. In these cases, once a potential spammer is associated with sufficient red flags, that actor is then labeled as a spammer. Once this decision has been reached, the same analysis can be done for that user&rsquo;s tweets and/or friends, to identify new potential spammers in the pool.</p></li>
+<li><p><em>Other network analysis techniques:</em> There are also other social network analysis techniques that a researcher might find useful, such as block model and positional analysis to find if a network has positional equivalences to the network positions each of the actors have, transitivity analysis and clustering coefficient to find more about indirect friendships among users, network partitioning and clustering to find the most influential actors in terms of keeping the network connected, and so on.</p></li></ul>
+
+<p>An interesting issue for future research relates to the perception of disengaging tweets &mdash; as we call &lsquo;spam&rsquo; here &mdash; by Twitter users. We noticed that while some users are more inclusive in their definition of what they would consider as spam, other users have a much narrower definition of such, <em>i.e.</em>, they might find a tweet disengaging and perceive it as spam while another use might accept a loose connection between the tweet and the hashtag it was posted with. In this study, we used a clear two-step criterion which we believe helped us keep false-positive detections to a minimum. A survey of different social media users could help in understanding inclusiveness choices, and find out how they become distractions while users are following trending news and updates.</p>
+
+<p>There also seems to be a growing interest in terrorist groups and violent organizations that employ social media capabilities to support their activities (Bodine-Baron, <em>et al.</em> 2016). This calls for further study on the subject to connect hashtag spoiling behavior to known ways terrorist organizations and violent groups use social media, to better understand different possible aspects of the problem, and help social media platforms and users mitigate the impact of such activities. With more information on hand about the situations in which this spamming behavior is likely to take place, and with sufficient samples to give a good sense of how these spamming behaviors occur and spam tweets appear, unsupervised machine learning algorithms could be employed to detect them. This could be beneficial for social media applications that want to identify and block spammers, in order to allow users legitimately take advantage of social platform capabilities.</p>
+
+<p>&nbsp;</p>
+<p><img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57231" alt="++++++++++"></p>
+<p><strong><a name="p7"></a>7. Concluding remarks</strong></p>
+
+<p>In this paper, we presented our findings from a research on organized distributed hashtag spoiling activity in Twitter. We used Twitter data to show relationships between accounts responsible for high frequency and disengaging tweets, in a sample of recorded tweets, coded based on a two-step mechanism and stringent criteria. We employed social media tools and techniques to show the cohesive subgroups and seniority in the network of relationships. We analyzed the micro social network composed of dyadic connections between the accounts responsible for tweets marked as spam in our sample. Although we analyzed a small &mdash; and assumingly non-representative &mdash; sample of all such account spoiling using this hashtag, we believe this analysis can at least be a proof of concept in case it actually revealed evidence of some meaningful relationships between these accounts.</p>
+
+<p>The results illustrate that organized hashtag spoiling is actually taking place in some instances, and due to the context, we believe political motivations could be its main cause.</p>
+
+<p>Knowing about networked relationships among spammer accounts makes their tweeting patterns and similarities in demographics more meaningful. We can now assert that these accounts belong to individuals in organizations who had a planned mandate of spoiling the &ldquo;#IranTalks&rdquo; hashtag.</p>
+
+<p>In the context of our #IranTalks case study, a few insights and observations stand out.</p>
+
+<p>First, insofar as we have demonstrated that hashtag spoiling around #IranTalks has proven to be an organized campaign with the goal of disengaging Twitter users from following news related to the nuclear negotiations, this case clearly falls under the domain of hacktivism. The patterns of behavior that were undertaken by the hashtag spoilers were disruptive though non-destructive, and while they may have violated Twitter&rsquo;s terms of service agreement, were not overtly criminal.</p> 
+
+<p>Second, the case of the #IranTalks hashtag may signal a new evolutionary step in hacktivism. In the past, hacktivists deployed their tactics and disruptive acumen in order to draw attention to their political causes, or to amplify a particular voice to influence public opinion in some way. What makes this case different is that a similar methodology was applied, but in a way that resulted in a different effect &mdash; namely, user distraction. The goal of user distraction is a marked shift away from the goal of political expression. This is not only significant in its own right, but also could potentially serve to shift public opinion and, additionally, reshape how researchers contextualize the role of spam, botnets, collective blocklists, online collective actions, and a host of other objectives of study on this front.</p>
+
+<p>Third, in the hopes of being prescriptive, #IranTalks also highlights the ever increasing importance of algorithms as a meta-regulator. As hashtag spoiling and wider campaigns that target user distraction become more prevalent on social media platforms, their effects can only be mitigated through better detection algorithms. Consequently, those algorithms, their technical design, and their potential politicization, become central to this discussion. <img src="http://firstmonday.org/ojs/index.php/fm/article/viewFile/8378/6663/57229" alt="End of article"></p>
+ 
+<p>&nbsp;</p>
+<a name="author"></a>
+<p><strong>About the authors</strong></p>
+
+<p><strong>Mahdi M. Najafabadi</strong> is currently pursuing his Ph.D. studies by focusing on open data ecosystems. He is interested in applying system thinking to address complex sociotechnical problems in public and private sectors. Mahdi is also interested in studying how information technologies and social media is exploited by people, organizations, and governments for a better outcome, and the implications of this attitude towards information technology.<br>Web:<a href="http://www.albany.edu/faculty/mahdi" target="_blank"> http://www.albany.edu/faculty/mahdi</a><br>E-mail: mnajafabadi [at] albany [dot] edu</p>
+
+<p><strong>Robert J. Domanski</strong> holds his Ph.D. and is an instructor of both political science and computer science at the City University of New York. He is the author of the book, <em>Who governs the Internet? A political architecture</em>, and his ongoing research focuses on the topics of hacktivism and the politics of algorithms.<br>E-mail: Robert [dot] Domanski [at] csi [dot] cuny [dot] edu</p>
+
+<p>&nbsp;</p>
+<p><strong>Notes</strong></p>
+
+<p><a name="1"></a><a href="najafabadi-hacktivism.html#1a">1.</a> Twitter runs automated algorithms to detect such activities especially if they are enhanced by bots and bans them, as it believes this is against Twitter Rules. Twitter rules are accessible here at <a href="http://support.twitter.com/articles/18311" target="_blank">http://support.twitter.com/articles/18311</a>.</p>
+
+<p><a name="2"></a><a href="najafabadi-hacktivism.html#2a">2.</a> These countries were U.K., Germany, France (EU3), and U.S., China, and Russia (+3).</p>
+
+<p><a name="3"></a><a href="najafabadi-hacktivism.html#3a">3.</a> Google now has a policy of neutralizing Google bombs once the company is made aware of them. See &ldquo;Detecting new &lsquo;Googlebombs&rsquo;,&rdquo; <em>Google Public Policy Blog</em>, by Matt Cutts (2009).</p>
+
+<p><a name="4"></a><a href="najafabadi-hacktivism.html#4a">4.</a> For several examples (news reports) of cases in which governments commit a similar activity to distract (disengage) users from following updates on a particular issue, see Najafabadi (2017).</p>
+
+<p><a name="5"></a><a href="najafabadi-hacktivism.html#5a">5.</a> Nuclear negotiating parties had good reasons not to trust each other, and thus each party wanted to put enough mechanisms and measures in the final agreement to limit future interpretations or deterioration of the terms by the other party. Thus, unconventionally, instead of a treaty, the negotiating parties were required to implement this deal by an unanimous United Nations Security Council (UNSC) resolution that required the participating countries to implement the deal (BBC News, 2015). However, the Trump administration has since taken action which leaves the agreement&rsquo;s future in doubt.</p>
+
+<p>The UNSC has designated a special subsection on their Web site to the resolution 2231 (2015), that includes many related resources, accessible here: <a href="http://www.un.org/en/sc/2231" target="_blank">http://www.un.org/en/sc/2231</a>. The complete resolution is accessible via: the United Nation&rsquo;s Web portal on <a href="http://www.un.org/press/en/2015/sc11974.doc.htm" target="_blank">http://www.un.org/press/en/2015/sc11974.doc.htm</a> and also through the International Atomic Energy Agency (IAEA) on <a href="http://www.iaea.org/sites/default/files/unsc_resolution2231-2015.pdf" target="_blank">http://www.iaea.org/sites/default/files/unsc_resolution2231-2015.pdf</a></p>
+
+<p><a name="6"></a><a href="najafabadi-hacktivism.html#6a">6.</a> The Trump administration though has recently taken some actions which leaves the agreement&rsquo;s future in doubt.</p>
+
+<p><a name="7"></a><a href="najafabadi-hacktivism.html#7a">7.</a> Based on the city in which the negotiations were taking place, some alternative hashtags were also used. For a large majority of tweets though, other hashtags were overlapping with the #IranTalks hashtag as most users used more than one hashtag in their tweets to communicate about the topic.</p>
+
+<p><a name="8"></a><a href="najafabadi-hacktivism.html#8a">8.</a> Founded in 1965 as an opposition to the Shah&rsquo;s regime, it took part in the 1979 Islamic revolution that replaced the Shah, and then it turned against the Islamic Republic following the 1979 revolution. The group supported Iraq in its eight-year war against Iran, and &ldquo;targeted Iranian government officials and government facilities in Iran and abroad; during the 1970s, it attacked Americans in Iran&rdquo; (<a href="https://www.globalsecurity.org/military/world/para/mek.htm" target="_blank">https://www.globalsecurity.org/military/world/para/mek.htm</a>). According to Iran, &ldquo;out of the nearly 17,000 Iranians killed in terrorist assaults&rdquo; since Iran&rsquo;s 1979 Revolution, &ldquo;about 12,000 had fallen victim to MKO&rsquo;s terrorist attacks&rdquo;.</p>
+
+<p><a name="9"></a><a href="najafabadi-hacktivism.html#9a">9.</a> U.S. Department of State, Bureau of Counter-Terrorism, at <a href="http://www.state.gov/j/ct/rls/other/des/123085.htm" target="_blank">http://www.state.gov/j/ct/rls/other/des/123085.htm</a>, accessed 1 October 2017.</p>
+
+<p><a name="10"></a><a href="najafabadi-hacktivism.html#10a">10.</a> Uniform resource locator, or simply a Web link.</p>
+
+<p>&nbsp;</p>
+<p><strong>References</strong></p>
+
+<p>Abdullah Almaatouq, Ahmad Alabdulkareem, Mariam Nouh, Erez Shmueli, Mansour Alsaleh, Vivek K. Singh, Abdulrahman Alarifi, Anas Alfaris, and Alex (Sandy) Pentland, 2014. &ldquo;Twitter: Who gets caught? Observed trends in social micro-blogging spam,&rdquo; <em>WebSci &rsquo;14: Proceedings of the 2014 ACM Conference on Web Science</em>, pp. 33&ndash;41.<br>doi: <a href="https://doi.org/10.1145/2615569.2615688" target="_blank">https://doi.org/10.1145/2615569.2615688</a>, accessed 16 March 2018.</p>
+
+<p>Dan Amira, 2011. &ldquo;Rick Santorum has come to terms with his Google problem,&rdquo; <em>New York Magazine</em> (16 February), at <a href="http://nymag.com/daily/intelligencer/2011/02/rick_santorum_has_come_to_term.html"target="_blank">http://nymag.com/daily/intelligencer/2011/02/rick_santorum_has_come_to_term.html</a>, accessed 9 February 2016.</p>
+
+<p>Marco T. Bastos and Dan Mercea, 2017. &ldquo;The Brexit botnet and user-generated hyperpartisan news,&rdquo; <em>Social Science Computer Review</em> (10 October).<br>doi: <a href="https://doi.org/10.1177/0894439317734157" target="_blank">https://doi.org/10.1177/0894439317734157</a>, accessed 16 March 2018.</p>
+
+<p>BBC News, 2015. &ldquo;UN Security Council endorses Iran nuclear deal&rdquo; (20 July), at <a href="http://www.bbc.com/news/world-middle-east-33594937" target="_blank">http://www.bbc.com/news/world-middle-east-33594937</a>, accessed 1 October 2017.</p>
+
+<p>David Bell, 2001. <em>An introduction to cybercultures</em>. New York: Routledge.</p>
+
+<p>Alessandro Bessi and Emilio Ferrara, 2016. &ldquo;Social bots distort the 2016 U.S. Presidential election online discussion,&rdquo; <em>First Monday</em>, volume 21, number 11, at <a href="http://firstmonday.org/article/view/7090/5653" target="_blank">http://firstmonday.org/article/view/7090/5653</a>, accessed 16 March 2018.<br>doi: <a href="http://dx.doi.org/10.5210/fm.v21i11.7090" target="_blank">http://dx.doi.org/10.5210/fm.v21i11.7090</a>, accessed 16 March 2018.</p>
+
+<p>Elizabeth A. Bodine-Baron, Todd C. Helmus, Madeline Magnuson, and Zev Winkelman, 2016. <em>Examining ISIS support and opposition networks on Twitter</em>. Santa Monica, Calif.: RAND Corporation, at <a href="https://www.rand.org/pubs/research_reports/RR1328.html" target="_blank">https://www.rand.org/pubs/research_reports/RR1328.html</a>, accessed 16 March 2018.</p>
+
+<p>Anita Campbell, 2013. &ldquo;What is hashtag hijacking?&rdquo; <em>Small Business Trends</em> (19 August), at <a href="http://smallbiztrends.com/2013/08/what-is-hashtag-hijacking-2.html" target="_blank">http://smallbiztrends.com/2013/08/what-is-hashtag-hijacking-2.html</a>, accessed 15 December 2016.</p>
+
+<p>Noam Cohen, 2007. &ldquo;Google halts &lsquo;miserable failure&rsquo; link to President Bush,&rdquo; <em>New York Times</em> (29 January), at <a href="http://www.nytimes.com/2007/01/29/technology/29google.html" target="_blank">http://www.nytimes.com/2007/01/29/technology/29google.html</a>, accessed 9 February 2016.</p>
+
+<p>E. Gabriella Coleman, 2015. <em>Hacker, hoaxer, whistleblower, spy: The many faces of Anonymous</em>. London: Bloomsbury.</p>
+
+<p>E. Gabriella Coleman, 2013. <em>Coding freedom: The ethics and aesthetics of hacking</em>. Princeton, N.J.: Princeton University Press.</p>
+
+<p>Giorel Curran and Morgan Gibson, 2013. &ldquo;WikiLeaks, anarchism and technologies of dissent,&rdquo; <em>Antipode</em>, volume 45, number 2, pp. 294&ndash;314.<br>doi: <a href="http://dx.doi.org/10.1111/j.1467-8330.2012.01009.x" target="_blank">http://dx.doi.org/10.1111/j.1467-8330.2012.01009.x</a>, accessed 16 March 2018.</p>
+
+<p>Matt Cutts, 2009. &ldquo;Detecting new &lsquo;Googlebombs&rsquo;,&rdquo; <em>Google Public Policy Blog</em> (24 January), at <a href="http://publicpolicy.googleblog.com/2009/01/detecting-new-googlebombs.html" target="_blank">http://publicpolicy.googleblog.com/2009/01/detecting-new-googlebombs.html</a>, accessed 14 October 2017.</p>
+
+<p>Nic DePaula, Ersin Dincelli, and Teresa M. Harrison, 2018. &ldquo;Toward a typology of government social media communication: Democratic goals, symbolic acts and self-presentation,&rdquo; <em>Government Information Quarterly</em>, volume 35, number 1, pp. 98&ndash;108.<br>doi: <a href="https://doi.org/10.1016/j.giq.2017.10.003" target="_blank">https://doi.org/10.1016/j.giq.2017.10.003</a>, accessed 16 March 2018.</p>
+
+<p>Marco Deseriis, 2017. &ldquo;Hacktivism: On the use of botnets in cyberattacks,&rdquo; <em>Theory, Culture &amp; Society</em>, volume 34, number 1, pp. 131&ndash;152.<br>doi: <a href="https://doi.org/10.1177/0263276416667198" target="_blank">https://doi.org/10.1177/0263276416667198</a>, accessed 16 March 2018.</p>
+
+<p>Ersin Dincelli, Yuan Hong, and Nic DePaula, 2016. &ldquo;Information diffusion and opinion change during the <em>Gezi Park protests</em>: Homophily or social influence?&rdquo; <em>Proceedings of the Association for Information Science and Technology</em>, volume 53, number 1, pp. 1&ndash;5.<br>doi: <a href="https://doi.org/10.1002/pra2.2016.14505301109" target="_blank">https://doi.org/10.1002/pra2.2016.14505301109</a>, accessed 16 March 2018.</p>
+
+<p>Robert J. Domanski, 2015. <em>Who governs the Internet? A political architecture</em> Lanham, Md.: Lexington Books.</p>
+
+<p>Jesse Emspak, 2011. &ldquo;Russian protesters get Twitter-bombed,&rdquo; <em>Discovery News</em> (10 December), at http://news.discovery.com/tech/russian-protesters-get-twitter-bombed-111209.htm, accessed 1 May 2016.</p>
+
+<p>Adam Entous, Craig Timberg, and Elizabeth Dwoskin, 2017. &ldquo;Russian operatives used Facebook ads to exploit America&rsquo;s racial and religious divisions,&rdquo; <em>Washington Post</em> (25 September), at <a href="https://www.washingtonpost.com/business/technology/russian-operatives-used-facebook-ads-to-exploit-divisions-over-black-political-activism-and-muslims/2017/09/25/4a011242-a21b-11e7-ade1-76d061d56efa_story.html" target="_blank">https://www.washingtonpost.com/business/technology/russian-operatives-used-facebook-ads-to-exploit-divisions-over-black-political-activism-and-muslims/2017/09/25/4a011242-a21b-11e7-ade1-76d061d56efa_story.html</a>, accessed 1 October 2017.</p>
+
+<p>Emilio Ferrara, Onur Varol, Clayton Davis, Filippo Menczer, and Alessandro Flammini, 2016. &ldquo;The rise of social bots,&rdquo; <em>Communications of the ACM</em>, volume 59, number 7, pp. 96&ndash;104.<br>doi: <a href="https://doi.org/10.1145/2818717" target="_blank">https://doi.org/10.1145/2818717</a>, accessed 16 March 2018.</p>
+
+<p>Klint Finley, 2015. &ldquo;Pro-government Twitter bots try to hush Mexican activists,&rdquo; <em>Wired</em> (23 August), at <a href="http://www.wired.com/2015/08/pro-government-twitter-bots-try-hush-mexican-activists"target="_blank">http://www.wired.com/2015/08/pro-government-twitter-bots-try-hush-mexican-activists</a>, accessed 1 May 2016.</p>
+
+<p>Asmelash Teka Hadgu, Kiran Garimella, and Ingmar Weber, 2013. &ldquo;Political hashtag hijacking in the U.S.,&rdquo; <em>WWW &rsquo;13: Companion Proceedings of the 22nd International Conference on World Wide Web</em>, pp. 55&ndash;56.<br>doi: <a href="https://doi.org/10.1145/2487788.2487809" target="_blank">https://doi.org/10.1145/2487788.2487809</a>, accessed 16 March 2018.</p>
+
+<p>Noah C.N. Hampson, 2012. &ldquo;Hacktivism: A new breed of protest in a networked world,&rdquo; <em>Boston College International and Comparative Law Review</em>, volume 35, number 2, at <a href="http://lawdigitalcommons.bc.edu/iclr/vol35/iss2/6" target="_blank">http://lawdigitalcommons.bc.edu/iclr/vol35/iss2/6</a>, accessed 16 March 2018.</p>
+
+<p>Heather Havenstein, 2008. &ldquo;Blogger launches &lsquo;Google bomb&rsquo; at McCain,&rdquo; <em>Computerworld</em> (19 June), at <a href="http://www.computerworld.com/article/2534384/web-apps/blogger-launches--google-bomb--at-mccain.html" target="_blank">http://www.computerworld.com/article/2534384/web-apps/blogger-launches--google-bomb--at-mccain.html</a>, accessed 9 February 2016.</p>
+
+<p>Xiaoyun He, Amir Karami, and Chaoqun Deng, 2017. &ldquo;Examining the effects of online social relations on product ratings and adoption: Evidence from an online social networking and rating site,&rdquo; <em>International Journal of Web Based Communities</em>, volume 13, number 3, pp. 344&ndash;363.<br>doi: <a href="https://doi.org/10.1504/IJWBC.2017.086591" target="_blank">https://doi.org/10.1504/IJWBC.2017.086591</a>, accessed 16 March 2018.</p>
+
+<p>Yoonjin Hyun and Namgyu Kim, 2016. &ldquo;Detecting blog spam hashtags using topic modeling,&rdquo; <em>ICEC &rsquo;16: Proceedings of the 18th Annual International Conference on Electronic Commerce</em>, article number 43.<br>doi: <a href="https://doi.org/10.1145/2971603.2971646" target="_blank">https://doi.org/10.1145/2971603.2971646</a>, accessed 16 March 2018.</p>
+
+<p>Danesh Irani, Steve Webb, Calton Pu, and Kang Li, 2010. &ldquo;Study of trend-stuffing on Twitter through text classification,&rdquo; <em>CEAS 2010: Seventh annual Collaboration, Electronic messaging, Anti-Abuse and Spam Conference</em>; version at <a href="https://www.cc.gatech.edu/projects/doi/Papers/DIrani_CEAS_2010.pdf" target="_blank">https://www.cc.gatech.edu/projects/doi/Papers/DIrani_CEAS_2010.pdf</a>, accessed 16 March 2018.</p>
+
+<p>Sarah J. Jackson and Brooke Foucault Welles, 2015. &ldquo;Hijacking #myNYPD: Social media dissent and networked counterpublics,&rdquo; <em>Journal of Communication</em>, volume 65, number 6, pp. 932&ndash;952.<br>doi: <a href="https://doi.org/10.1111/jcom.12185" target="_blank">https://doi.org/10.1111/jcom.12185</a>, accessed 16 March 2018.</p>
+
+<p>Tim Jordan, 1999. <em>Cyberpower: The culture and politics of cyberspace and the Internet</em>. London: Routledge.</p>
+
+<p>Tim Jordan and Paul A. Taylor, 2004. <em>Hacktivism and cyberwars: Rebels with a cause?</em> London: Routledge.</p>
+
+<p>Andreas Jungherr, 2016. &ldquo;Twitter use in election campaigns: A systematic literature review,&rdquo; <em>Journal of Information Technology &amp; Politics</em>, volume 13, number 1, pp. 72&ndash;91.<br>doi: <a href="https://doi.org/10.1080/19331681.2015.1132401" target="_blank">https://doi.org/10.1080/19331681.2015.1132401</a>, accessed 16 March 2018.</p>
+
+<p>Emad Khazraee and James Losey, 2016. &ldquo;Evolving repertoires: Digital media use in contentious politics,&rdquo; <em>Communication and the Public</em>, volume 1, number 1, pp. 39&ndash;55.<br>doi: <a href="https://doi.org/10.1177/2057047315625076" target="_blank">https://doi.org/10.1177/2057047315625076</a>, accessed 16 March 2018.</p>
+
+<p>Gary King, Jennifer Pan, and Margaret E. Roberts, 2017. &ldquo;How the Chinese government fabricates social media posts for strategic distraction, not engaged argument,&rdquo; <em>American Political Science Review</em>, volume 111, number 3, pp. 484&ndash;501.<br>doi: <a href="https://doi.org/10.1017/S0003055417000144" target="_blank">https://doi.org/10.1017/S0003055417000144</a>, accessed 16 March 2018.</p>
+
+<p>Kyumin Lee, James Caverlee, Krishna Y. Kamath, and Zhiyuan Cheng, 2012. &ldquo;Detecting collective attention spam,&rdquo; <em>WebQuality &rsquo;12: Proceedings of the Second Joint WICOW/AIRWeb Workshop on Web Quality</em>, pp. 48&ndash;55.<br>doi: <a href="https://doi.org/10.1145/2184305.2184316" target="_blank">https://doi.org/10.1145/2184305.2184316</a>, accessed 16 March 2018.</p>
+
+<p>Carol D. Leonnig, Tom Hamburger, and Rosalind S. Helderman, 2017. &ldquo;Russian firm tied to pro-Kremlin propaganda advertised on Facebook during election,&rdquo; <em>Washington Post</em> (6 September), at <a href="http://www.washingtonpost.com/politics/facebook-says-it-sold-political-ads-to-russian-company-during-2016-election/2017/09/06/32f01fd2-931e-11e7-89fa-bb822a46da5b_story.html" target="_blank">http://www.washingtonpost.com/politics/facebook-says-it-sold-political-ads-to-russian-company-during-2016-election/2017/09/06/32f01fd2-931e-11e7-89fa-bb822a46da5b_story.html</a>, accessed 1 October 2017.</p>
+
+<p>Ken May, 2016. &ldquo;Pro-Clinton super PAC caught spending $1 million on social media trolls&rdquo; (22 April), at <a href="http://kenmay.net/pro-clinton-super-pac-caught-spending-1-million-on-social-media-trolls/" target="_blank">http://kenmay.net/pro-clinton-super-pac-caught-spending-1-million-on-social-media-trolls/</a>, accessed 16 March 2018.</p>
+
+<p>Fatjona Mejdini, 2016. &ldquo;Iranian opposition ex-fighters &lsquo;transferred to Albania&rsquo;,&rdquo; <em>Balkan Insight</em> (26 August), at <a href="http://www.balkaninsight.com/en/article/albania-continues-to-accept-iranian-mujahedins-08-26-2016" target="_blank">http://www.balkaninsight.com/en/article/albania-continues-to-accept-iranian-mujahedins-08-26-2016</a>, accessed 1 October 2017.</p>
+
+<p>Evgeny Morozov, 2011. <em>The net delusion: The dark side of Internet freedom</em>. New York: Public Affairs.</p>
+
+<p>Mahdi M. Najafabadi, 2017. &ldquo;A research agenda for distributed hashtag spoiling: Tales of a survived trending hashtag,&rdquo; <em>dg.o &rsquo;17: Proceedings of the Eighteenth Annual International Conference on Digital Government Research</em>, pp. 21&ndash;29.<br>doi: <a href="https://doi.org/10.1145/3085228.3085273" target="_blank">https://doi.org/10.1145/3085228.3085273</a>, accessed 16 March 2018.</p>
+
+<p>John Pike, 2017. &ldquo;Mujahedin-e Khalq organization,&rdquo; <em>GlobalSecurity.org</em>, at <a href="http://www.globalsecurity.org/military/world/para/mek.htm" target="_blank">http://www.globalsecurity.org/military/world/para/mek.htm</a>, accessed 1 October 2017.</p>
+
+<p>Gareth Porter, 2015. &ldquo;Behind the scenes: How the US and Iran reached their landmark deal,&rdquo; <em>Nation</em> (5 September), at <a href="http://www.thenation.com/article/behind-the-scenes-how-the-us-and-iran-reached-their-landmark-deal" target="_blank">http://www.thenation.com/article/behind-the-scenes-how-the-us-and-iran-reached-their-landmark-deal</a>, accessed 15 December 2016.</p>
+
+<p>Anas Qtiesh, 2011. &ldquo;Spam bots flooding Twitter to drown info about #Syria protests&rdquo; (18 April), at <a href="http://www.anasqtiesh.com/2011/04/spam-bots-flooding-twitter-to-drown-info-about-syria-protests" target="_blank">http://www.anasqtiesh.com/2011/04/spam-bots-flooding-twitter-to-drown-info-about-syria-protests</a>, accessed 1 May 2016.</p>
+
+<p>Roy Rosenzweig, 1998. &ldquo;Wizards, bureaucrats, warriors, and hackers: Writing the history of the Internet,&rdquo; <em>American Historical Review</em>, volume 103, number 5, pp. 1,530&ndash;1,552.<br>doi: <a href="https://doi.org/10.2307/2649970" target="_blank">https://doi.org/10.2307/2649970</a>, accessed 16 March 2018.</p>
+
+<p>Patr&iacute;cia G.C. Rossini, Jeff Hemsley, Sikana Tanupabrungsun, Feifei Zhang, Jerry Robinson, and Jennifer Stromer-Galley, 2017. &ldquo;Social media, U.S. presidential campaigns, and public opinion polls: Disentangling effects,&rdquo; <em>#SMSociety17: Proceedings of the Eighth International Conference on Social Media &amp; Society</em>,
+article number 56.<br>doi: <a href="https://doi.org/10.1145/3097286.3097342" target="_blank">https://doi.org/10.1145/3097286.3097342</a>, accessed 16 March 2018.</p>
+
+<p>Rodrigo Sandoval-Almazan and J. Ramon Gil-Garcia, 2014. &ldquo;Towards cyberactivism 2.0? Understanding the use of social media and other information technologies for political activism and social movements,&rdquo; <em>Government Information Quarterly</em>, volume 31, number 3, pp. 365&ndash;378.<br>doi: <a href="http://doi.org/10.1016/j.giq.2013.10.016" target="_blank">http://doi.org/10.1016/j.giq.2013.10.016</a>, accessed 16 March 2018.</p>
+
+<p>Surendra Sedhai and Aixin Sun, 2015. &ldquo;HSpam14: A collection of 14 million tweets for hashtag-oriented spam research,&rdquo; <em>SIGIR &rsquo;15: Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval</em>, pp. 223&ndash;232.<br>doi: <a href="http://doi.org/10.1145/2766462.2767701" target="_blank">http://doi.org/10.1145/2766462.2767701</a>, accessed 16 March 2018.</p>
+
+<p>Scott Shane and Vindu Goel, 2017. &ldquo;Fake Russian Facebook accounts bought $100,000 in political ads,&rdquo; <em>New York Times</em> (6 September), at <a href="http://www.nytimes.com/2017/09/06/technology/facebook-russian-political-ads.html"target="_blank">http://www.nytimes.com/2017/09/06/technology/facebook-russian-political-ads.html</a>, accessed 1 October 2017.</p>
+
+<p>Rukundo Solomon, 2017. &ldquo;Electronic protests: Hacktivism as a form of protest in Uganda,&rdquo; <em>Computer Law &amp; Security Review</em>, volume 33, number 5, pp. 718&ndash;728.<br>doi: <a href="https://doi.org/10.1016/j.clsr.2017.03.024" target="_blank">https://doi.org/10.1016/j.clsr.2017.03.024</a>, accessed 16 March 2018.</p>
+
+<p>Jonghyuk Song, Sangho Lee, and Jong Kim, 2011. &ldquo;Spam filtering in Twitter using sender-receiver relationship,&rdquo; In: Robin Sommer, Davide Balzarotti, and Gregor Maier (editors). <em>Recent advances in intrusion detection</em>. <em>Lecture Notes in Computer Science (LNCS)</em>, volume 6961. Berlin: Springer-Verlag, pp. 301&ndash;317.<br>doi: <a href="https://doi.org/10.1007/978-3-642-23644-0_16" target="_blank">https://doi.org/10.1007/978-3-642-23644-0_16</a>, accessed 16 March 2018.</p>
+
+<p>Richard A Spinello, 2002. <em>Regulating cyberspace: The policies and technologies of control</em>. Westport, Conn.: Quorum Books.</p>
+
+<p>Denis Stukal, Sergey Sanovich, Richard Bonneau, and Joshua A. Tucker, 2017. &ldquo;Detecting bots on Russian political Twitter,&rdquo; <em>Big Data</em>, volume 5, number 4, pp. 310&ndash;324.<br>doi: <a href="https://doi.org/10.1089/big.2017.0038" target="_blank">https://doi.org/10.1089/big.2017.0038</a>, accessed 16 March 2018.</p>
+
+<p>Pablo Su&aacute;rez-Serrato, Margaret E. Roberts, Clayton Davis, and Filippo Menczer, 2016. &ldquo;On the influence of social bots in online protests: Preliminary findings of a Mexican case study,&rdquo; In: Emma Spiro and Yong-Yeol Ahn (editors). <em>Social informatics</em>. <em>Lecture Notes in Computer Science</em>, volume 10047, Cham, Switzerland: Springer International, pp. 269&ndash;278.<br>doi: <a href="https://doi.org/10.1007/978-3-319-47874-6_19" target="_blank">https://doi.org/10.1007/978-3-319-47874-6_19</a>, accessed 16 March 2018.</p>
+
+<p>Colin Taylor, 2016. &ldquo;Hillary trolls just got Facebook to shut down Bernie groups by reporting them as pornography,&rdquo; <em>Occupy Democrats</em> (26 April), at <a href="http://occupydemocrats.com/2016/04/26/hillary-trolls-just-got-facebook-shut-bernie-groups-reporting-pornography" target="_blank">http://occupydemocrats.com/2016/04/26/hillary-trolls-just-got-facebook-shut-bernie-groups-reporting-pornography</a>, accessed 10 May 2016.</p>
+
+<p>Marisa Taylor, 2009. &ldquo;Google-bombing moves from Bush to Obama,&rdquo; <em>Wall Street Journal</em> (23 January), at <a href="http://blogs.wsj.com/digits/2009/01/23/google-bombing-moves-from-bush-to-obama" target="_blank">http://blogs.wsj.com/digits/2009/01/23/google-bombing-moves-from-bush-to-obama</a>, accessed 9 February 2016.</p>
+
+<p>Paul A. Taylor, 2005. &ldquo;From hackers to hacktivists: Speed bumps on the global superhighway?&rdquo; <em>New Media &amp; Society</em>, volume 7, number 5, pp. 625&ndash;646.<br>doi: <a href="https://doi.org/10.1177/1461444805056009" target="_blank">https://doi.org/10.1177/1461444805056009</a>, accessed 16 March 2018.</p>
+
+<p>Kurt Thomas, Chris Grier, Dawn Song, and Vern Paxson, 2011. &ldquo;Suspended accounts in retrospect: An analysis of Twitter spam,&rdquo; <em>IMC &rsquo;11: Proceedings of the 2011 ACM SIGCOMM Conference on Internet Measurement Conference</em>, pp. 243&ndash;258.<br>doi: <a href="https://doi.org/10.1145/2068816.2068840" target="_blank">https://doi.org/10.1145/2068816.2068840</a>, accessed 16 March 2018.</p>
+
+<p>Deepali Virmani, Nikita Jain, Ketan Parikh, and Abhishek Srivastava, 2017. &ldquo;HashMiner: Feature characterisation and analysis of #Hashtag hijacking using real-time neural network,&rdquo; <em>Procedia Computer Science</em>, volume 115, pp. 786&ndash;793.<br>doi: <a href="https://doi.org/10.1016/j.procs.2017.09.174" target="_blank">https://doi.org/10.1016/j.procs.2017.09.174</a>, accessed 16 March 2018.</p>
+
+<p>Stanley Wasserman and Katherine Faust, 1994. <em>Social network analysis: Methods and applications</em>. New York: Cambridge University Press.</p>
+
+<p>Samuel C. Woolley, 2016. &ldquo;Automating power: Social bot interference in global politics,&rdquo; <em>First Monday</em>, volume 21, number 4, at <a href="http://firstmonday.org/article/view/6161/5300" target="_blank">http://firstmonday.org/article/view/6161/5300</a>, accessed 15 May 2016.<br>doi: <a href="http://dx.doi.org/10.5210/fm.v21i4.6161" target="_blank">http://dx.doi.org/10.5210/fm.v21i4.6161</a>, accessed 16 March 2018.</p>
+
+<p>Tingmin Wu, Sheng Wen, Shigang Liu, Jun Zhang, Yang Xiang, Majed Alrubaian, and Mohammad Mehedi Hassan, 2017. &ldquo;Detecting spamming activities in Twitter based on deep-learning technique,&rdquo; <em>Concurrency and Computation: Practice and Experience</em>, volume 29, number 19, e4209.<br>doi: <a href="http://dx.doi.org/10.1002/cpe.4209" target="_blank">http://dx.doi.org/10.1002/cpe.4209</a>, accessed 16 March 2018.</p>
+
+<p>Chao Yang, Jialong Zhang, and Guofei Gu, 2014. &ldquo;A taste of tweets: Reverse engineering Twitter spammers,&rdquo; <em>ACSAC &rsquo;14: Proceedings of the 30th Annual Computer Security Applications Conference</em>, pp. 86&ndash;95.<br>doi: <a href="http://dx.doi.org/10.1145/2664243.2664258" target="_blank">http://dx.doi.org/10.1145/2664243.2664258</a>, accessed 16 March 2018.</p>
+
+<p>Neetzan Zimmerman, 2016. &ldquo;Hillary supporters accused of taking down Bernie FB pages in porn attack,&rdquo; <em>The Hill</em> (26 April), at <a href="http://thehill.com/blogs/blog-briefing-room/news/277657-hillary-supporters-take-down-bernie-fb-pages-in-coordinated" target="_blank">http://thehill.com/blogs/blog-briefing-room/news/277657-hillary-supporters-take-down-bernie-fb-pages-in-coordinated</a>, accessed 10 May 2016.</p>
+
+<p>&nbsp;</p>
+<hr width="300">
+
+<p><strong>Editorial history</strong></p>
+<p>Received 2 March 2018; accepted 14 March 2018.</p>
+
+<hr>
+
+<p>Copyright &copy; 2018, Mahdi M. Najafabadi and Robert J. Domanski.</p>
+
+<p>Hacktivism and distributed hashtag spoiling on Twitter: Tales of the #IranTalks<br>by Mahdi M. Najafabadi and Robert J. Domanski.<br><em>First Monday</em>, Volume 23, Number 4 - 2 April 2018<br>http://firstmonday.org/ojs/index.php/fm/article/view/8378/6663<br>doi: <a href="http://dx.doi.org/10.5210/fm.v23i4.8378" target="_blank">http://dx.doi.org/10.5210/fm.v23i4.8378</a></p>
+</blockquote>
+</body>
+</html>
+	
+					
+
+
+<!-- start AddThis -->
+						<script type="text/javascript">
+				var addthis_pub = 'sgroote@uic.edu';
+			</script>
+				<br />
+		<br />
+		<div class="addthis_container">
+			<a href="http://www.addthis.com/bookmark.php"
+				onmouseover="return addthis_open(this, '', '', 'Hacktivism and distributed hashtag spoiling on Twitter: Tales of the #IranTalks')"
+				onmouseout="addthis_close()" onclick="return addthis_sendto()">
+					<img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="Bookmark and Share" style="border:0;padding:0" />
+			</a>
+			<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>
+		</div>
+	<!-- end AddThis -->
+
+		
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-41314203-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- /Google Analytics -->
+
+<br /><br />
+A Great Cities Initiative of the University of Illinois at Chicago <a href="http://library.uic.edu/">University Library</a>.<p>© <em>First Monday</em>, 1995-2018. ISSN 1396-0466.</p>
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body -->
+
+
+
+</div> <!-- container -->
+</body>
+</html>

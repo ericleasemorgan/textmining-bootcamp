@@ -1,0 +1,876 @@
+		
+
+		
+
+		
+			
+			
+
+
+
+Main Page
+			
+				From Meta, a Wikimedia project coordination wiki
+				
+
+								
+					Jump to:					navigation, 					search
+				
+
+				
+
+	
+Meta-Wiki
+
+	
+	Mission
+	Projects
+
+(complete list)
+	Research
+	Translation
+
+(requests)
+	Vision
+
+
+
+	
+Welcome to Meta-Wiki, the global community site for the Wikimedia projects and the Wikimedia movement in general. Meta-Wiki's discussions range from coordination and documentation to planning and analysis of future Wikimedia activities.
+
+
+
+Other meta-focused wikis such as Wikimedia Outreach are specialized projects that have their roots in Meta-Wiki. Related discussion also takes place on Wikimedia mailing lists (particularly wikimedia-l, with its low-traffic equivalent WikimediaAnnounce), IRC channels on freenode, individual wikis of Wikimedia affiliates, and other places.
+
+
+
+
+
+
+		[image: ]Goings-on	[image: ]Requests
+		
+
+[Edit / Translate]
+
+April 2018
+
+	[image: Wikimedia-logo.svg]	April 1 - May 15:	The draft Annual Plan of the Wikimedia Foundation is open for comments.
+
+
+January 2018
+
+	[image: Wikimedia-logo.svg]	Jan 15:	The Community Capacity Map experiment is announced. Details in the about page.
+
+
+
+
+	
+
+
+	Cross-wiki issues
+	 »  Bot status
+	 »  CheckUser
+	 »  Speedy deletions
+	 »  Username changes
+	 »  Permissions
+	 »  Spam blacklist
+	 »  Title blacklist
+
+
+	Other
+	 »  Translations
+	 »  Logos
+	 »  Wikimedia Grants (funding)
+	 »  New languages
+	 »  Project closures
+	 »  Deletions (Deleteme category) / Undeletions
+	 »  More (overview)
+
+
+
+
+
+
+
+		[image: ]Community and communication	[image: ]Core issues and collaboration
+		
+
+
+	 » Babel, a discussion place for Meta-Wiki matters
+	 » Mailing lists and IRC
+	 » Meetups, a list of offline events
+	 » Wikimedia Embassy, a list of local contacts by language
+	 » Wikimedia Forum, a multilingual forum for Wikimedia projects
+	 » Wikimedians
+	 » Wikimedia Resource Center, a hub for WMF resources
+
+
+
+
+
+
+	
+
+
+	»  Community
+	»  Dispute resolution
+	»  Growing Wikimedia
+	»  Interlingual coordination
+	»  Requests for comment
+	»  Wikimedia principles
+
+
+
+
+
+
+
+		[image: ]Wikimedia Foundation, Meta-Wiki, and its sister projects
+		
+The Wikimedia Foundation is the overarching non-profit foundation that owns the Wikimedia servers along with the domain names, logos and trademarks of all Wikimedia projects and MediaWiki. Meta-Wiki is the coordination wiki for the various Wikimedia wikis.
+
+
+	Content projects
+	
+
+[image: Wikipedia-logo-v2.svg]
+
+
+
+	Wikipedia
+
+The free encyclopedia	
+
+[image: Wiktionary small.svg]
+
+
+
+	Wiktionary
+
+Free dictionary and thesaurus	
+
+[image: Commons-logo.svg]
+
+
+
+	Wikimedia Commons
+
+Free media repository
+	
+
+[image: Wikibooks-logo.svg]
+
+
+
+	Wikibooks
+
+Free textbooks and manuals	
+
+[image: Wikisource-logo.svg]
+
+
+
+	Wikisource
+
+Free-content library	
+
+[image: Wikidata-logo.svg]
+
+
+
+	Wikidata
+
+Free knowledge base
+	
+
+[image: Wikiversity-logo.svg]
+
+
+
+	Wikiversity
+
+Free learning materials and activities	
+
+[image: Wikiquote-logo.svg]
+
+
+
+	Wikiquote
+
+Collection of quotations	
+
+[image: Wikispecies-logo.svg]
+
+
+
+	Wikispecies
+
+Free directory of species
+	
+
+[image: Wikinews-logo.svg]
+
+
+
+	Wikinews
+
+Free-content news	
+
+[image: Wikivoyage-Logo-v3-icon.svg]
+
+
+
+	Wikivoyage
+
+Free travel guide	 
+	"Outreach and administration" projects
+	
+
+[image: Wikimedia-logo black.svg]
+
+
+
+	Wikimedia Foundation
+
+Foundation public relations	
+
+[image: Wikimedia Outreach.svg]
+
+
+
+	Wikimedia Outreach
+
+Wikimedia outreach wiki	
+
+[image: Wikimania.svg]
+
+
+
+	Wikimania
+
+The International Conference
+	
+
+[image: Wikimedia Community Logo-Mailservices.svg]
+
+
+
+	Wikimedia Mailservices
+
+Wikimedia Mailing Lists	
+
+[image: Nuvola mimetypes log.svg]
+
+
+
+	Wikistats
+
+Wikimedia statistics	
+
+[image: Incubator-logo.svg]
+
+
+
+	Incubator
+
+For language versions in development
+	"Technical and development" projects
+	
+
+[image: MediaWiki-notext.svg]
+
+
+
+	MediaWiki
+
+MediaWiki software documentation	
+
+[image: Wikitech logo.svg]
+
+
+
+	Wikitech
+
+Wikimedia technical documentation	
+
+[image: Wikimedia Phabricator logo.svg]
+
+
+
+	Phabricator
+
+A bug tracker for MediaWiki
+	
+
+[image: Wikipedia-logo-test v2.svg]
+
+
+
+	Test Wikipedia
+
+For testing software changes	
+
+[image: Wikimedia Cloud Services logo.svg]
+
+
+
+	Wikimedia Cloud Services
+
+Hosting environment for community managed software projects, tools, and data analysis	 
+
+
+
+
+
+
+
+[image: Geographylogo.png] In other languages: Afrikaans Alemannisch asturianu azərbaycanca Bahasa Indonesia Bahasa Melayu Basa Jawa Boarisch bosanski català čeština corsu dansk Deutsch eesti English español Esperanto français galego hrvatski isiZulu íslenska italiano la .lojban. kurdî Latina latviešu lietuvių magyar Malti Mirandés Napulitano Nederlands Nordfriisk norsk bokmål norsk nynorsk polski português português do Brasil română Runa Simi shqip sicilianu slovenčina slovenščina Soomaaliga suomi svenska Kiswahili tarandíne Tagalog Türkçe Tiếng Việt Võro Zazaki Ελληνικάавар башҡортса беларуская беларуская (тарашкевіца)‎ български нохчийн словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ қазақша Кыргызча македонски русский русиньскый саха тыла српски / srpski татарча/tatarça тыва дыл удмурт українська Հայերեն ქართული বাংলা हिन्दी ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ සිංහල தமிழ் తెలుగు ไทย ລາວ ភាសាខ្មែរ 한국어 한국어 (조선) 日本語 客家語/Hak-kâ-ngî 粵語 中文（简体）‎ 中文（繁體）‎ 贛語 吴语 文言 עברית العربية جازايرية فارسی ئۇيغۇرچە / Uyghurche مازِرونی کوردی
+
+Old style: Ænglisc Afrikaans Bân-lâm-gú Basa Sunda brezhoneg Cymraeg euskara estremeñu føroyskt Gaeilge hrvatski Ido Igbo interlingua occitan Runa Simi vèneto Yorùbá тоҷикӣ ಕನ್ನಡ मराठी नेपाली తెలుగు ភាសាខ្មែរ sou ไทย tgl བོད་ཡིག 吴语 文言 جهلسری بلوچی روچ کپتین بلوچی پښتو سنڌي اردو Skandinavisk (Skanwiki) Slovio (Slavopedia) +/-
+
+
+
+
+
+
+
+
+
+
+
+
+
+[image: ]
+
+					
+						Retrieved from "https://meta.wikimedia.org/w/index.php?title=Main_Page&oldid=15514880"					
+
+				Categories: 	Main page/en
+	Categories/en
+
+
+
+				
+
+							
+
+		
+
+		
+			Navigation menu
+
+			
+									
+						Personal tools
+
+							English
+	Not logged in
+	Talk
+	Contributions
+	Create account
+	Log in
+
+
+					
+
+									
+										
+						Namespaces
+
+							Main Page
+	Discussion
+
+
+					
+
+										
+												
+						
+							Variants
+						
+
+						
+							
+
+						
+
+					
+
+									
+
+				
+										
+						Views
+
+							Read
+	View source
+	View history
+
+
+					
+
+										
+						
+						More
+
+						
+							
+
+						
+
+					
+
+										
+						
+							Search
+						
+
+						
+							
+															
+
+						
+
+					
+
+									
+
+			
+
+			
+				
+
+						
+			Navigation
+
+			
+									Main page
+	Wikimedia News
+	Translations
+	Recent changes
+	Random page
+	Help
+	Babel
+
+
+							
+
+		
+
+			
+			Community
+
+			
+									Wikimedia Resource Center
+	Wikimedia Forum
+	Mailing lists
+	Requests
+	Babylon
+	Reports
+	Research
+	Planet Wikimedia
+
+
+							
+
+		
+
+			
+			Beyond the Web
+
+			
+									Meet Wikimedians
+	Events
+	Movement affiliates
+	Donate
+
+
+							
+
+		
+
+			
+			Print/export
+
+			
+									Create a book
+	Download as PDF
+	Printable version
+
+
+							
+
+		
+
+			
+			In other projects
+
+			
+									Wikimedia Commons
+	MediaWiki
+	Wikispecies
+	Wikibooks
+	Wikidata
+	Wikinews
+	Wikipedia
+	Wikiquote
+	Wikisource
+	Wikiversity
+	Wikivoyage
+	Wiktionary
+
+
+							
+
+		
+
+			
+			Tools
+
+			
+									What links here
+	Related changes
+	Special pages
+	Permanent link
+	Page information
+	Wikidata item
+	Cite this page
+
+
+							
+
+		
+
+			
+			In other languages
+
+			
+									Qafár af
+	Аҧсшәа
+	Acèh
+	Адыгабзэ
+	Afrikaans
+	Akan
+	Alemannisch
+	አማርኛ
+	Aragonés
+	Ænglisc
+	العربية
+	ܐܪܡܝܐ
+	مصرى
+	অসমীয়া
+	Asturianu
+	Atikamekw
+	Авар
+	Aymar aru
+	Azərbaycanca
+	تۆرکجه
+	Башҡортса
+	Boarisch
+	Žemaitėška
+	Bikol Central
+	Беларуская
+	Беларуская (тарашкевіца)‎
+	Български
+	भोजपुरी
+	Bislama
+	Bahasa Banjar
+	Bamanankan
+	বাংলা
+	བོད་ཡིག
+	বিষ্ণুপ্রিয়া মণিপুরী
+	Brezhoneg
+	Bosanski
+	ᨅᨔ ᨕᨘᨁᨗ
+	Буряад
+	Català
+	Chavacano de Zamboanga
+	Mìng-dĕ̤ng-ngṳ̄
+	Нохчийн
+	Cebuano
+	Chamoru
+	ᏣᎳᎩ
+	Tsetsêhestâhese
+	کوردی
+	Corsu
+	Nēhiyawēwin / ᓀᐦᐃᔭᐍᐏᐣ
+	Qırımtatarca
+	Čeština
+	Kaszëbsczi
+	Словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ
+	Чӑвашла
+	Cymraeg
+	Dansk
+	Deutsch
+	Thuɔŋjäŋ
+	Zazaki
+	Dolnoserbski
+	डोटेली
+	ދިވެހިބަސް
+	ཇོང་ཁ
+	Eʋegbe
+	Ελληνικά
+	Emiliàn e rumagnòl
+	English
+	Esperanto
+	Español
+	Eesti
+	Euskara
+	Estremeñu
+	فارسی
+	Fulfulde
+	Suomi
+	Võro
+	Na Vosa Vakaviti
+	Føroyskt
+	Français
+	Arpetan
+	Nordfriisk
+	Furlan
+	Frysk
+	Gaeilge
+	Gagauz
+	贛語
+	Gàidhlig
+	Galego
+	گیلکی
+	Avañe'ẽ
+	गोंयची कोंकणी / Gõychi Konknni
+	𐌲𐌿𐍄𐌹𐍃𐌺
+	ગુજરાતી
+	Gaelg
+	Hausa
+	客家語/Hak-kâ-ngî
+	Hawaiʻi
+	עברית
+	हिन्दी
+	Fiji Hindi
+	Hrvatski
+	Hornjoserbsce
+	Kreyòl ayisyen
+	Magyar
+	Հայերեն
+	Otsiherero
+	Interlingua
+	Bahasa Indonesia
+	Interlingue
+	Igbo
+	Iñupiak
+	Ilokano
+	Ido
+	Íslenska
+	Italiano
+	ᐃᓄᒃᑎᑐᑦ/inuktitut
+	日本語
+	Patois
+	La .lojban.
+	Basa Jawa
+	ქართული
+	Qaraqalpaqsha
+	Taqbaylit
+	Адыгэбзэ
+	Kabɩyɛ
+	Kongo
+	Gĩkũyũ
+	Қазақша
+	Kalaallisut
+	ភាសាខ្មែរ
+	ಕನ್ನಡ
+	한국어
+	Перем Коми
+	Kanuri
+	Къарачай-малкъар
+	कॉशुर / کٲشُر
+	Ripoarisch
+	Kurdî
+	Коми
+	Kernowek
+	Кыргызча
+	Latina
+	Ladino
+	Lëtzebuergesch
+	Лакку
+	Лезги
+	Luganda
+	Limburgs
+	Ligure
+	Lumbaart
+	Lingála
+	ລາວ
+	لۊری شومالی
+	Lietuvių
+	Latgaļu
+	Latviešu
+	मैथिली
+	Basa Banyumasan
+	Мокшень
+	Malagasy
+	Олык марий
+	Māori
+	Baso Minangkabau
+	Македонски
+	മലയാളം
+	Монгол
+	मराठी
+	Кырык мары
+	Bahasa Melayu
+	Malti
+	Mirandés
+	မြန်မာဘာသာ
+	Эрзянь
+	مازِرونی
+	Dorerin Naoero
+	Nāhuatl
+	Napulitano
+	Plattdüütsch
+	Nedersaksies
+	नेपाली
+	नेपाल भाषा
+	Nederlands
+	Norsk nynorsk
+	Norsk
+	Novial
+	Nouormand
+	Sesotho sa Leboa
+	Diné bizaad
+	Chi-Chewa
+	Occitan
+	Livvinkarjala
+	Oromoo
+	ଓଡ଼ିଆ
+	Ирон
+	ਪੰਜਾਬੀ
+	Pangasinan
+	Kapampangan
+	Papiamentu
+	Picard
+	Deitsch
+	Pälzisch
+	पालि
+	Norfuk / Pitkern
+	Polski
+	Piemontèis
+	پنجابی
+	Ποντιακά
+	پښتو
+	Português
+	Runa Simi
+	Rumantsch
+	Romani
+	Kirundi
+	Română
+	Armãneashti
+	Tarandíne
+	Русский
+	Русиньскый
+	Kinyarwanda
+	संस्कृतम्
+	Саха тыла
+	Sardu
+	Sicilianu
+	Scots
+	سنڌي
+	Davvisámegiella
+	Sängö
+	Srpskohrvatski / српскохрватски
+	සිංහල
+	Simple English
+	Slovenčina
+	Slovenščina
+	Gagana Samoa
+	ChiShona
+	Soomaaliga
+	Shqip
+	Српски / srpski
+	Sranantongo
+	SiSwati
+	Sesotho
+	Seeltersk
+	Basa Sunda
+	Svenska
+	Kiswahili
+	Ślůnski
+	தமிழ்
+	ತುಳು
+	తెలుగు
+	Tetun
+	Тоҷикӣ
+	ไทย
+	ትግርኛ
+	Türkmençe
+	Tagalog
+	Setswana
+	Lea faka-Tonga
+	Tok Pisin
+	Türkçe
+	Xitsonga
+	Татарча/tatarça
+	ChiTumbuka
+	Twi
+	Reo tahiti
+	Тыва дыл
+	Удмурт
+	ئۇيغۇرچە / Uyghurche
+	Українська
+	اردو
+	Oʻzbekcha/ўзбекча
+	Tshivenda
+	Vèneto
+	Vepsän kel’
+	Tiếng Việt
+	West-Vlams
+	Volapük
+	Walon
+	Winaray
+	Wolof
+	吴语
+	Хальмг
+	IsiXhosa
+	მარგალური
+	ייִדיש
+	Yorùbá
+	Vahcuengh
+	Zeêuws
+	中文
+	文言
+	Bân-lâm-gú
+	粵語
+	IsiZulu
+
+
+				Edit links
+			
+
+		
+
+				
+
+		
+
+				
+							 This page was last edited on 10 April 2016, at 14:35.
+	Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+See Terms of Use for details.
+
+
+							Privacy policy
+	About Meta
+	Disclaimers
+	Developers
+	Cookie statement
+	Mobile view
+
+
+											
+						[image: Wikimedia Foundation]					
+	
+						[image: Powered by MediaWiki]					
+
+
+						
+
+		
+
+		
+	

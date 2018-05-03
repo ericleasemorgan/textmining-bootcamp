@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"/><title>DHQ: Digital Humanities Quarterly: Digital Oulipo: Programming Potential Literature</title><link rel="stylesheet" type="text/css" href="http://www.digitalhumanities.org/dhq/common/css/dhq.css"/><link rel="stylesheet" type="text/css" media="screen" href="http://www.digitalhumanities.org/dhq/common/css/dhq_screen.css"/><link rel="stylesheet" type="text/css" media="print" href="http://www.digitalhumanities.org/dhq/common/css/dhq_print.css"/><link rel="alternate" type="application/atom+xml" href="http://www.digitalhumanities.org/dhq/feed/news.xml"/><link rel="shortcut icon" href="http://www.digitalhumanities.org/dhq/common/images/favicon.ico"/><script type="text/javascript" src="http://www.digitalhumanities.org/dhq/common/js/javascriptLibrary.js">
+                &lt;!-- Javascript functions --&gt;
+            </script><script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-15812721-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type =
+'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+ })();
+
+        </script></head><body><div id="top"><div id="backgroundpic"><script type="text/javascript" src="http://www.digitalhumanities.org/dhq/common/js/pics.js"><!--displays banner image--></script></div><div id="banner"><div id="dhqlogo"><img src="http://www.digitalhumanities.org/dhq/common/images/dhqlogo.png" alt="DHQ Logo"/></div><div id="longdhqlogo"><img src="http://www.digitalhumanities.org/dhq/common/images/dhqlogolonger.png" alt="Digital Humanities Quarterly Logo"/></div></div><div id="topNavigation"><div id="topnavlinks"><span><a href="http://www.digitalhumanities.org/dhq/" class="topnav">home</a></span><span><a href="http://www.digitalhumanities.org/dhq/submissions/index.html" class="topnav">submissions</a></span><span><a href="http://www.digitalhumanities.org/dhq/about/about.html" class="topnav">about dhq</a></span><span><a href="http://www.digitalhumanities.org/dhq/people/people.html" class="topnav">dhq people</a></span><span id="rightmost"><a href="http://www.digitalhumanities.org/dhq/contact/contact.html" class="topnav">contact</a></span></div><div id="search"><form action="http://www.digitalhumanities.org/dhq/findIt" method="get" onsubmit="javascript:document.location.href=cleanSearch(this.queryString.value); return false;"><div><input type="text" name="queryString" size="18"/> <input type="submit" value="Search"/></div></form></div></div></div><div id="main"><div id="leftsidebar"><div id="leftsidenav"><span>Current Issue<br/></span><ul><li><a href="http://www.digitalhumanities.org/dhq/vol/11/3/index.html">2017: 11.3</a></li></ul><span>Preview Issue<br/></span><ul><li><a href="http://www.digitalhumanities.org/dhq/preview/index.html">2017: 11.4</a></li></ul><span>Previous Issues<br/></span><ul><li><a href="http://www.digitalhumanities.org/dhq/vol/11/2/index.html">2017: 11.2</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/11/1/index.html">2017: 11.1</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/10/4/index.html">2016: 10.4</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/10/3/index.html">2016: 10.3</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/10/2/index.html">2016: 10.2</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/10/1/index.html">2016: 10.1</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/9/4/index.html">2015: 9.4</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/9/3/index.html">2015: 9.3</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/9/2/index.html">2015: 9.2</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/9/1/index.html">2015: 9.1</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/8/4/index.html">2014: 8.4</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/8/3/index.html">2014: 8.3</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/8/2/index.html">2014: 8.2</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/8/1/index.html">2014: 8.1</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/7/3/index.html">2013: 7.3</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/7/2/index.html">2013: 7.2</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/7/1/index.html">2013: 7.1</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/6/3/index.html">2012: 6.3</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/6/2/index.html">2012: 6.2</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/6/1/index.html">2012: 6.1</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/5/3/index.html">2011: 5.3</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/5/2/index.html">2011: 5.2</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/5/1/index.html">2011: 5.1</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/4/2/index.html">2010: 4.2</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/4/1/index.html">2010: 4.1</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/3/4/index.html">2009: 3.4</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/3/3/index.html">2009: 3.3</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/3/2/index.html">2009: 3.2</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/3/1/index.html">2009: 3.1</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/2/1/index.html">2008: 2.1</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/1/2/index.html">2007: 1.2</a></li><li><a href="http://www.digitalhumanities.org/dhq/vol/1/1/index.html">2007: 1.1</a></li></ul><span>Indexes<br/></span><ul><li><a href="http://www.digitalhumanities.org/dhq/index/title.html"> Title</a></li><li><a href="http://www.digitalhumanities.org/dhq/index/author.html"> Author</a></li></ul></div><img src="http://www.digitalhumanities.org/dhq/common/images/lbarrev.png" style="margin-left : 7px;" alt="sidenavbarimg"/><div id="leftsideID"><b>ISSN 1938-4122</b><br/></div><div class="leftsidecontent"><h3>Announcements</h3><ul><li><a href="http://www.digitalhumanities.org/dhq/announcements/index.html#reviewers">Call for Reviewers</a></li><li><a href="http://www.digitalhumanities.org/dhq/announcements/index.html#submissions">Call for Submissions</a></li></ul></div><div class="leftsidecontent"><script type="text/javascript">addthis_pub  = 'dhq';</script><a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s9.addthis.com/button1-addthis.gif" width="125" height="16" alt="button1-addthis.gif"/></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js">&lt;!-- Javascript functions --&gt;</script></div></div><div id="mainContent"><div id="printSiteTitle">DHQ: Digital Humanities Quarterly</div><div xmlns:dhqBiblio="http://digitalhumanities.org/dhq/ns/biblio" class="DHQarticle"><div id="pubInfo">2017<br/>Volume 11 Number 3</div><div class="toolbar"><form id="taporware" action="http://www.digitalhumanities.org/dhq/vol/11/3/000325/get"><div><a href="http://www.digitalhumanities.org/dhq/vol/11/3/index.html">2017 11.3</a>
+                     | 
+                    <a rel="external" href="http://www.digitalhumanities.org/dhq/vol/11/3/000325.xml">XML</a>
+
+| 
+		   Discuss
+			(<a href="berkman-digital.html#disqus_thread" data-disqus-identifier="000325">
+				Comments
+			</a>)
+                </div></form></div>
+    <div class="DHQheader">
+        
+            
+                
+                <h1 class="articleTitle lang en">Digital Oulipo: Programming Potential Literature</h1>
+                <div class="author"><a rel="external" href="http://www.digitalhumanities.org/dhq/vol/11/3/bios.html#berkman_natalie">Natalie Berkman</a> &lt;<a href="mailto:nberkman_at_princeton_dot_edu" onclick="javascript:window.location.href='mailto:'+deobfuscate('nberkman_at_princeton_dot_edu'); return false;" onkeypress="javascript:window.location.href='mailto:'+deobfuscate('nberkman_at_princeton_dot_edu'); return false;">nberkman_at_princeton_dot_edu</a>&gt;, Princeton University</div>
+            
+            
+
+            
+        
+        
+        
+        
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft.genre=article&amp;rft.atitle=Digital%20Oulipo%3A%20Programming%20Potential%20Literature&amp;rft.jtitle=Digital%20Humanities%20Quarterly&amp;rft.stitle=DHQ&amp;rft.issn=1938-4122&amp;rft.date=2017-10-03&amp;rft.volume=011&amp;rft.issue=3&amp;rft.aulast=Berkman&amp;rft.aufirst=Natalie&amp;rft.au=Natalie%20Berkman"> </span></div>
+
+    <div id="DHQtext">
+        
+            <div id="abstract"><h2>Abstract</h2>
+                
+                <p>The formally constrained work of the Oulipo (l’Ouvroir de Littérature
+                    Potentielle, loosely translated as Workshop of Potential Literature) lends
+                    itself particularly well to digital studies, which was quickly recognized by the
+                    members of the group. To facilitate its goal of avoiding chance in its literary
+                    production, the group was naturally drawn to the determinism of computers, where
+                    true chance is simply impossible. In its early years, therefore, the group used
+                    algorithmic procedures as a starting point for various texts and also attempted
+                    to program these texts on actual computers, creating some of the first
+                    electronic literature and embarking on proto-digital humanities work as early as
+                    the 1960s and 1970s, later abandoning these efforts and relegating all
+                    subsequent activity to a subsidiary group.</p>
+                <p>To understand the Oulipo's forays into computer science and more importantly, why
+                    they abandoned them, I designed and carried out one of the inaugural projects of
+                    the Princeton Center for Digital Humanities. The goal was twofold: first,
+                    through exploratory programming, I intended to create interactive, digital
+                    annexes to accompany my doctoral dissertation; more importantly, I hoped that by
+                    attempting to reproduce the Oulipo's own algorithmic efforts, I would gain
+                    similar insights into the nature of “Potential Literature” and be able to
+                    understand why the group abandoned such efforts after the 1970s.</p>
+                <p>This article describes the content, development, and results of my project. For
+                    each of my three Python-based annexes, I offer a historical survey of the
+                    Oulipian text or procedure discussed within and the Oulipo’s own proto-digital
+                    humanities experiments; then, I will talk about my own experiences as a
+                    coder-researcher, what learning Python has brought to my project, and how my
+                    exploratory programming offered me a new kind of critical reflection.
+                    Establishing these annexes forced me to learn to code, a type of work that does
+                    not only produce digital texts, but also helped me to reflect on the notion of
+                    chance in a more nuanced way. Finally, coding has allowed me to better
+                    understand the Oulipian mentality concerning this sort of digital
+                    experimentation. </p>
+            </div>
+            
+        
+        
+            <div class="div div0">
+                <h1 class="head">Introduction</h1>
+                <div class="counter"><a href="berkman-digital.html#p1">1</a></div><div class="ptext" id="p1">The Ouvroir de Litterature Potentielle (OuLiPo, loosely translated into English
+                    as the Workshop for Potential Literature), an experimental writing group founded
+                    in Paris in 1960, attempts to apply mathematical procedures to literature,
+                    inventing procedures (known as <span class="hi italic">constraints</span>) to follow
+                    during the composition of a text. One of the main goals of this strategy is to
+                    reduce the role of chance, and it is therefore unsurprising that computers were
+                    one of the first items on its early agenda. Computers are utterly incompatible
+                    with the notion of chance, and in theory should have been a perfect, and rather
+                    timely solution. Indeed, the founding of the Oulipo coincided with a critical
+                    stage in the development of computers, and the group took full advantage
+                    thereof, programming their texts and procedures through partnerships with Bull
+                    Computers and the Centre Pompidou. Early computing put one in much closer
+                    contact with the basic fabric of coding and the members quickly learned that
+                    writing code requires one to divide a problem into its simplest, logical
+                    components, very much like the elementary procedures they were inventing in the
+                    group's formative years. However, by the 1970s, the group abandoned such
+                    efforts, relegating all future algorithmic experimentation to a subsidiary. </div>
+                <div class="counter"><a href="berkman-digital.html#p2">2</a></div><div class="ptext" id="p2">In recent years, the field of digital humanities has been gaining popularity.
+                    While far from nascent (the origins can be dated back to as early as the 1940s),
+                    the discipline has failed to define itself, often preferring a broad scope that
+                    situates its activity at the intersection of computing, technology, and
+                    humanities scholarship. In theory, this sort of vague definition could be seen
+                    as beneficial, encompassing a wide range of tools and techniques that can be
+                    applied to humanistic work. In practice, while a great variety of scholarship
+                    has been and is currently being undertaken that claims to use digital humanities
+                    practices, a majority of this work seems to fall under the categories of textual
+                    encoding, the creation of digital archives, and the use of ready-made tools to
+                    run some type of analysis on a digital text or visualize data from it. The fact
+                    that digital humanists do not seem to prioritize learning to program has been
+                    lamented on several occasions by Nick Montfort, both in his own treatise on
+                    exploratory programming for humanistic inquiry [<a class="ref" href="berkman-digital.html#montfort2016">Montfort 2016</a>] and
+                    also in <cite class="title italic">A New Companion to Digital Humanities</cite>
+                    [<a class="ref" href="berkman-digital.html#montfort2015">Montfort 2015</a>]. While not widespread, a knowledge of computing
+                    languages and algorithmic procedures can indeed be productive in humanistic
+                    research, as the Oulipo demonstrates through its aforementioned computer efforts
+                    as well as through its non-algorithmic productions, which given the highly
+                    intentional compositional methods, lend themselves well to computational methods
+                    of inquiry. The Oulipo is not only a particularly good example of raw material
+                    to be analyzed using digital methods, but is also present in many canonical
+                    digital humanities criticisms, one of the best examples being Stephen Ramsay’s
+                        <cite class="title italic">Reading Machines</cite>
+                    [<a class="ref" href="berkman-digital.html#ramsay2011">Ramsay 2011</a>]. </div>
+                <div class="counter"><a href="berkman-digital.html#p3">3</a></div><div class="ptext" id="p3">However, the goal of this article is not to give a critical overview of the use
+                    of Oulipo studies for digital humanities. It is rather to demonstrate how I was
+                    able to use exploratory programming to understand the Oulipo's forays into
+                    computer science and more importantly, why the group abandoned such initiatives.
+                    To this end, I designed and carried out one of the inaugural projects of the
+                    Princeton Center for Digital Humanities under the guidance of Cliff
+                        Wulfman<a class="noteRef" href="berkman-digital.html#d19763e197">[1]</a> as my technical lead. My project had two
+                    main goals: first, through exploratory programming, I intended to create
+                    interactive, digital annexes to accompany my doctoral dissertation; more
+                    importantly, I hoped that by attempting to reproduce the Oulipo's own
+                    algorithmic efforts, I would gain similar insights into the nature of
+                        “Potential Literature” and be able to understand why the group
+                    abandoned such efforts. My original intention was to create five digital annexes
+                    (of which I only completed three that would constitute the final product)<a class="noteRef" href="berkman-digital.html#d19763e203">[2]</a>, each one to accompany a chapter in my dissertation. The
+                    purpose and development of these annexes were intertwined: my preliminary
+                    research on the Oulipo's computer efforts enriched my own understanding of the
+                    task at hand; by learning to program, I was afforded a rare glimpse into the
+                    mindset of the early Oulipo; finally, by manipulating the finished product, my
+                    reader would better understand the underlying mathematical principles at work in
+                    these texts.</div>
+                <div class="counter"><a href="berkman-digital.html#p4">4</a></div><div class="ptext" id="p4">This article describes the content, development, and results of my project. For
+                    each of my three Python-based annexes, I offer a historical survey of the
+                    Oulipian text or procedure discussed within and the Oulipo’s own proto-digital
+                    humanities experiments; then, I will talk about my own experiences as a
+                    coder-researcher, what learning Python has brought to my project, and how my
+                    exploratory programming offered me a new kind of critical reflection.
+                    Establishing these annexes forced me to learn to code, a type of work that does
+                    not only produce digital texts, but also helped me to reflect on the notion of
+                    chance in a more nuanced way. Finally, coding has allowed me to better
+                    understand the Oulipian mentality concerning this sort of digital
+                    experimentation. Carrying out a digital humanities project on the Oulipo —
+                    itself a quasi-academic research group that both analyzes and creates — resulted
+                    in a hybrid experiment with multiple, varied results and insights, which helped
+                    me both understand the history and development of Oulipian aesthetics as well as
+                    understand their texts better. While unconventional given the nature of digital
+                    humanities work today, the results of my research demonstrate a productive use
+                    of programming as both a creative and analytic exercise that can undoubtedly
+                    prove fruitful in future digital humanities work. </div>
+            </div>
+            <div class="div div0">
+                <h1 class="head">Part I: Combinatorial Poetry:</h1>
+                <div class="div div1">
+                    <h2 class="head"><cite class="title italic">Cent mille milliards de poèmes</cite></h2>
+                    <div class="counter"><a href="berkman-digital.html#p5">5</a></div><div class="ptext" id="p5">Published in 1961 by Oulipian cofounder Raymond Queneau and followed by a
+                        critical essay by his fellow cofounder François Le Lionnais, the <cite class="title italic">Cent mille milliards de poèmes</cite> (<cite class="title italic">A Hundred Thousand Billion Poems</cite>) is generally
+                        considered to be the first “Oulipian” text and therefore serves as an
+                        illustration of the group’s initial goals and influences, one of the main
+                        ones being computer science.</div>
+                    <div class="counter"><a href="berkman-digital.html#p6">6</a></div><div class="ptext" id="p6">In the preface, unconventionally called a <span class="foreign i">mode
+                            d’emploi</span> or user’s manual, Queneau explains how the text was
+                            <em class="emph">written</em>, but discourages the reader by claiming that the
+                        volume is impossible to <em class="emph">read</em> (it would take a very determined
+                        reader 190,258,751 years to read all the poems, even devoting 24 hours a
+                        day, 7 days a week [<a class="ref" href="berkman-digital.html#queneau1961">CMMP</a>, 2]). To produce his
+                        machine, Queneau wrote 10 “base” sonnets, each of which
+                        is constrained by not only the rules of this famous fixed form (14 verses,
+                        two quatrains and two tercets, a fixed rhyme scheme, the poetic meter of the
+                        French alexandrine, etc.), but also by three additional rules [<a class="ref" href="berkman-digital.html#queneau1961">CMMP</a>, 1]: </div>
+                    <div class="ptext"><ol class="list"><li class="item">Each rhyme in any of the original sonnets must rhyme with the
+                            corresponding verse of any of the other sonnets. Queneau imposes the
+                            additional constraint that the rhymes should not be too banal, rare, or
+                            unique. </li><li class="item">Each sonnet must have a “theme and
+                                continuity,” however the sonnets produced by the system do
+                            not have that same “charm.”</li><li class="item">Finally, the grammatical structure had to permit the substitution of
+                            any individual verse with the corresponding verse from any of the other
+                            nine sonnets. </li></ol></div>
+                    <div class="counter"><a href="berkman-digital.html#p7">7</a></div><div class="ptext" id="p7">With 10 sonnets of 14 lines each, adhering to these three simple rules,
+                        Queneau’s system is capable of producing 10<span class="hi superscript">14</span>
+                        “potential” poems. The use of the word <span class="hi italic">potential</span> is a double entendre — <span class="foreign i">potentiel</span> in French is the adjectival form of the word
+                            <span class="foreign i">puissance</span>, or exponential power. </div>
+                    <div class="counter"><a href="berkman-digital.html#p8">8</a></div><div class="ptext" id="p8">Before reaching the poems, the reader is faced with an epigraph by Alan
+                        Turing: “Only a machine can read a sonnet written by another
+                                machine”
+                             [<a class="ref" href="berkman-digital.html#queneau1961">CMMP</a>].<a class="noteRef" href="berkman-digital.html#d19763e303">[3]</a> This
+                        approximate translation comes from Turing’s famous <cite class="title italic">Times</cite> interview: “...I do not see why it [a computer] should not
+                                enter any one of the fields normally covered by the human intellect,
+                                and eventually compete on equal terms. I do not think you can even
+                                draw the line about sonnets, though the comparison is perhaps a
+                                little bit unfair because a sonnet written by a machine will be
+                                better appreciated by another machine”
+                             [<a class="ref" href="berkman-digital.html#hodges2012">Hodges 2012</a>, 420].</div>
+                    <div class="counter"><a href="berkman-digital.html#p9">9</a></div><div class="ptext" id="p9">Note the use of the passive voice in the original Turing citation. Queneau
+                        (who understood English too well to make such a blatant translation error)
+                        makes the machine the subject of his epigraph. The reader of his volume, he
+                        claims while ventriloquizing Turing, is a computer. The physical conception
+                        of the volume does indeed support this proposition: rather than taking
+                        pleasure in reading an exponential number of sonnets (most of which are an
+                        incoherent jumble of verses from prewritten sonnets, devoid of a theme and
+                        written by no one), the reader must manipulate the verses of Queneau’s
+                        original poems, cut into strips to produce a functional book-machine hybrid.
+                        The Oulipo quickly turned to actual machines to reimagine this foundational
+                        text, literally programming a combinatorial poetry collection that already
+                        owed much to computers. <div id="figure03" class="figure">
+                            
+                            <a href="http://www.digitalhumanities.org/dhq/vol/11/3/000325/resources/images/figure03.png" rel="external"><img src="http://www.digitalhumanities.org/dhq/vol/11/3/000325/resources/images/figure03.png" alt=""/></a>
+                        <div class="caption"><div class="label">Figure 1. </div> Image depicting how the volume functions. Source: <a href="http://openset.nl/blog/wp-content/uploads/2012/08/Prevert.jpg" onclick="window.open('http://openset.nl/blog/wp-content/uploads/2012/08/Prevert.jpg'); return false" class="ref">http://openset.nl/blog/wp-content/uploads/2012/08/Prevert.jpg</a>
+                            </div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="div div0">
+                <h1 class="head">Oulipian Computer experiments</h1>
+                <div class="counter"><a href="berkman-digital.html#p10">10</a></div><div class="ptext" id="p10">Before designing my own digital editions, I needed to take into consideration
+                    what the Oulipo had already attempted. The <cite class="title italic">Cent mille
+                        milliards de poèmes</cite>, in addition to being the first Oulipian text,
+                    was also the one that had been most programmed by the group — three times, in
+                    fact, in the 1960s, 1970s, and finally in 1999.<a class="noteRef" href="berkman-digital.html#d19763e346">[4]</a> Evaluating these attempts, contextualizing them given the
+                    historical capabilities of computers at the time, and understanding how the
+                    group perception of this programming challenge changed with each new attempt
+                    would not only enrich my dissertation, but would also help me in designing my
+                    digital annex.</div>
+                <div class="counter"><a href="berkman-digital.html#p11">11</a></div><div class="ptext" id="p11">After deciding at their second meeting to seek out computers to pursue various
+                    types of analytic work, the founding members of the Oulipo came into contact
+                    with Dmitri Starynkevitch, a French-born Russian immigrant, who was working for
+                    Bull Computers at the time. He began Oulipian computer work on the CAB 500
+                    computer that operated with the PAF language (Programmation Automatique des
+                    Formules) [<a class="ref" href="berkman-digital.html#starynkevitch1990">Starynkevitch article</a>, 26]. Collaboration with
+                    Starynkevitch brought the Oulipo into direct contact with computing, but also
+                    enabled Starynkevitch to apply the highly mathematical programming language to
+                    creative endeavors, allowing both sides to gain insight into the potential of
+                    this new technology. </div>
+                <div id="figure04" class="figure">
+                    
+                    <div class="ptext"><a href="http://www.digitalhumanities.org/dhq/vol/11/3/000325/resources/images/figure04.png" rel="external"><img src="http://www.digitalhumanities.org/dhq/vol/11/3/000325/resources/images/figure04.png" alt=""/></a></div>
+                <div class="caption"><div class="label">Figure 2. </div> Image of a CAB 500 computer. Source: <a href="http://www.histoireinform.com/Histoire/+infos2/CAB_500.jpg" onclick="window.open('http://www.histoireinform.com/Histoire/+infos2/CAB_500.jpg'); return false" class="ref">http://www.histoireinform.com/Histoire/+infos2/CAB_500.jpg</a>
+                    </div></div>
+                <div class="counter"><a href="berkman-digital.html#p12">12</a></div><div class="ptext" id="p12">In August 1961, Starynkevitch sent Queneau excerpts from the <cite class="title italic">Cent mille milliards de poèmes</cite> produced on the computer. The
+                    reaction of the Oulipians was less enthusiastic than might have been expected: “We would like M. Starynkevitch to detail the method he
+                            used: we hope that the choice of the verses was not left to
+                            chance”
+                         [<a class="ref" href="berkman-digital.html#bens2005">Bens 2005</a>, 79].<a class="noteRef" href="berkman-digital.html#d19763e379">[5]</a> This response is
+                    key to understanding Oulipian aesthetics and what the early group wanted to gain
+                    from this computer experiment. While there is a certain amount of chance in the
+                    production of the poems, this chance lies entirely with the reader, who is
+                    autonomous in producing what he or she wishes to read. While Queneau’s epigraph
+                    indicates that the reader is a sort of machine, Starynkevitch’s literal machine
+                    is too random for the group’s aesthetics. </div>
+                <div class="counter"><a href="berkman-digital.html#p13">13</a></div><div class="ptext" id="p13">After their collaboration with Starynkevitch, the Oulipo had one final group
+                    effort in the 1970s, a project known as the <cite class="title italic">Atelier de
+                        Recherches et Techniques Avancées</cite> (A.R.T.A.) at the Centre Pompidou,
+                    which Paul Fournel detailed first in a conference entitled <cite class="title italic">Écrivain-ordinateur</cite> in June 1977 and subsequently in the <cite class="title italic">Atlas de Littérature Potentielle</cite> of 1981. Directed by
+                    Paul Braffort (a computer scientist and member of the second generation of
+                    Oulipians coopted after the group’s founding), the goal of this project was to
+                    create a foundation for “a possible agreement between computer science and
+                            literary creation”
+                         [<a class="ref" href="berkman-digital.html#oulipo1981">Oulipo Atlas</a>, 298].<a class="noteRef" href="berkman-digital.html#d19763e405">[6]</a> They worked
+                    primarily with preexisting texts that were already combinatorial or algorithmic
+                    in nature. Their intent was to demonstrate that with such texts, computers can
+                    assist in the reading process.</div>
+                <div class="counter"><a href="berkman-digital.html#p14">14</a></div><div class="ptext" id="p14">The first experimental text was Queneau’s <cite class="title italic">Cent mille
+                        milliards de poèmes</cite>, of which Fournel admits: ““The printed collection is very nicely conceived but
+                            the manipulation of the strips on which each verse is printed is
+                            sometimes delicate”
+                         [<a class="ref" href="berkman-digital.html#oulipo1981">Oulipo Atlas</a>, 299].<a class="noteRef" href="berkman-digital.html#d19763e424">[7]</a> The physical
+                    design of the collection is visually compelling and provides a more intuitive
+                    understanding of the combinatorics that regulate the volume. However, certain
+                    manipulations of the set of poems are cumbersome, for instance reading Queneau’s
+                    original ten sonnets. In order for the computer to facilitate the reading
+                    process, the A.R.T.A. program makes a selection from Queneau’s original ten
+                    sonnets based on the length of the reader’s name and the time it takes the
+                    reader to type it. This generates a “magic number” of
+                    fourteen digits, each of which determines from which of the original ten sonnets
+                    the corresponding verse is taken [<a class="ref" href="berkman-digital.html#oulipo1981">Oulipo Atlas</a>, 299]. </div>
+                <div class="counter"><a href="berkman-digital.html#p15">15</a></div><div class="ptext" id="p15">This method responds to the Oulipo’s earlier question about Starynkevitch’s
+                    program regarding the method of choosing the verses. However, this new program
+                    is still surprisingly restrictive. Mark Wolff acknowledges that this program has
+                    more “potential” in the Oulipian sense than the one
+                    produced with the help of Starynkevitch: “Such a program has no potential in the Oulipian sense
+                            because random numbers produce aleatory effects. The original algorithm
+                            preserves an active role for the user, even if that role requires the
+                            minimal engagement of typing one's name in order to sustain the creative
+                            process”
+                         [<a class="ref" href="berkman-digital.html#wolff2007">Wolff 2007</a>, 6]. However, with the physical edition, the reader has the freedom to read
+                    in different ways. This program, on the other hand, only produces a single poem
+                    using a method that is never explicitly stated. While a reader could type
+                    his/her name multiple times to produce new poetry to read, this is a
+                    fundamentally less interesting task than manipulating the physical volume, where
+                    the reader has more autonomy. Herein lies one of the great difficulties that I
+                    would soon face in carrying out my project: since the active selection of poems
+                    is what creates the illusion that the reader becomes the author, having a
+                    computer replace the manipulation of verses deprives the reader of the pleasure
+                    and creativity he or she would experience with the physical volume. </div>
+                <div class="div div1">
+                    <h2 class="head">My CMMP experiment</h2>
+                    <div class="counter"><a href="berkman-digital.html#p16">16</a></div><div class="ptext" id="p16">Given my understanding of the text and the Oulipo's multiple attempts to
+                        program it, I began my project with the <cite class="title italic">Cent mille
+                            milliards de poèmes</cite> annex. Its status as the first Oulipian text
+                        did not enter into this decision, but rather I hoped that this text would be
+                        simple enough to serve as a practical introduction to programming in Python.
+                        My goal of creating a digital edition of this text was not original. In
+                        addition to the Oulipian editions I detailed above, there are other
+                        excellent online editions<a class="noteRef" href="berkman-digital.html#d19763e459">[8]</a> of the <cite class="title italic">Cent
+                            mille milliards de poèmes</cite>. My aim was twofold: first, to use
+                        this text as a practical introduction to computer programming, allowing me
+                        to better understand the Oulipo’s struggle with this text and its computer
+                        legacy; second, to use the creative enterprise of designing new methods to
+                        produce pseudo-random sonnets in order to grapple with the Oulipian notion
+                        of chance myself.</div>
+                    <div class="counter"><a href="berkman-digital.html#p17">17</a></div><div class="ptext" id="p17">To transform Queneau’s work, I first had to visualize the original 10 sonnets
+                        in computer science terms, as an <span class="hi italic">array</span> of <span class="hi italic">arrays</span>. In computer science, an <span class="hi italic">array</span> is a type of data structure consisting of a collection of
+                        elements, each identified by at least one index or key. A sonnet, by
+                        definition, is already an array of fourteen verses that can each be
+                        attributed a numbered index. In order to make Queneau’s sonnets intelligible
+                        to a computer program, I needed to rewrite them as an <span class="hi italic">array</span> of <span class="hi italic">arrays</span>: ten sonnets of fourteen
+                        lines each. Once I had this data structure, I had to learn to write programs
+                        that would pick a single verse from one of the original sonnets, building
+                        upon that to design a program that would generate a pseudo-random sonnet
+                        from a 14-character key (the digits of this key would each be between 0 and
+                        9, indicating which of the original 10 sonnets to take the verse from).
+                        Finally came the creative part: I had to decide how to produce
+                            <em class="emph">pseudo-random</em> sonnets in a way that would remain faithful
+                        to the Oulipian notion of <span class="hi italic">chance</span>. In the end, I came
+                        up with three different ways<a class="noteRef" href="berkman-digital.html#d19763e499">[9]</a>: </div>
+                    <div class="ptext"><ol class="list"><li class="item"><span class="hi bold">Age:</span> The reader inputs his/her birthday and the
+                            program uses the digits in the birthday to generate the key. The
+                            calculations I subject the digits of the birthday to in order to produce
+                            the key are invisible to the reader, and have nothing to do with the
+                            reader’s age. My next goal is therefore to tweak it to calculate exactly
+                            how old the reader is at the time the poem is generated so that every
+                            minute the reader generates a poem, that poem is different from the
+                            previous. </li><li class="item"><span class="hi bold">Location:</span> The reader is directed to a website
+                            which gives him/her a latitude and longitude value which he/she then
+                            inputs into my program. These numbers are then manipulated to create the
+                            14-digit code to generate a sonnet. In this way, the reader can generate
+                            sonnets from not only his or her current location, but any location. The
+                            implications of this type of pseudo-random poem are certainly in the
+                            spirit of the Oulipo, but once again, the actual calculations to which I
+                            subject the data to generate a 14-digit string seems too divorced from
+                            the method to be considered truly Oulipian. </li><li class="item"><span class="hi bold">UUID:</span> A UUID is generated from the user’s
+                            computer, which will produce a new sonnet each time (given that the
+                            particular UUID that was enough characters and only digits) is dependent
+                            on the time. </li></ol></div>
+                    <div class="counter"><a href="berkman-digital.html#p18">18</a></div><div class="ptext" id="p18">Ultimately, my annex is less than satisfying. Not only does the reader of my
+                        edition still have no freedom, but he/she is not even allowed into the
+                        process. The only person who had any fun in this is me. That said, perhaps
+                            <em class="emph">programming</em> this programmatic text is one viable way to
+                        read it. Queneau claims at the outset that his little poetry volume is
+                        utterly impossible to read in a human lifetime, but also claims that
+                            <em class="emph">only</em> a computer can appreciate poems generated in this way.
+                        Clearly, to have any chance at “reading” the volume, one
+                        must read it as a machine. </div>
+                    <div class="counter"><a href="berkman-digital.html#p19">19</a></div><div class="ptext" id="p19">Through programming, I have gained a more thorough understanding of this text
+                        and its implications, but I also understand how Queneau’s choice of
+                        extremely specific subject matter for each of his original poems is the key
+                        factor in the hilarity of the potential poems. Each verse of Queneau’s
+                        original poems is essentially <em class="emph">tagged</em> with vocabulary linking it
+                        to its specific subject. A verse from the first poem that is imbued with an
+                        Argentinian vocabulary, for instance, cannot possibly be interchanged with a
+                        verse about the leaning tower of Pisa without producing a destabilizing
+                        effect. And while certain combinations of these verses may indeed be funnier
+                        than others or produce unexpected effects, it is precisely the content of
+                        the original poems (that is to say, what would be invisible to a computer
+                        reading the text) that produces the surrealist effect of reading the
+                        potential poems. While my methods for generating pseudo-random poetry given
+                        Queneau’s originals may not be satisfying, I can use my program to analyze
+                        the text further. I have even adapted my program, replacing Queneau’s poems
+                        with Shakespearean sonnets that all have more or less the same theme. The
+                        resulting combinations are far less jarring than Queneau's original,
+                        precisely due to the lack of specific, tagging vocabulary. </div>
+                    <div class="counter"><a href="berkman-digital.html#p20">20</a></div><div class="ptext" id="p20">In a similar vein, this method can be adapted to interpret and analyze all
+                        combinatorial poetry. Poetry, as the Oulipo was well aware, by its fixed
+                        forms and propensity for patterns, can be inherently combinatorial. The
+                        Oulipo was not the first in noting this property — the Grands Rhétoriqueurs,
+                        for instance, were writing similarly expandable poetry as early as the
+                        fifteenth century (Jean Molinet's <cite class="title">Sept rondeaux sur un
+                            rondeau</cite>
+                        [<a class="ref" href="berkman-digital.html#molinet1999">Molinet 1999</a>] is an excellent example). Furthermore, the
+                        Oulipo's work has inspired countless other examples of combinatorial poetry
+                        generators that can be adapted as I have and subjected to statistical
+                        analysis. Computers can help a digital humanist when faced with a volume of
+                        combinatorial poetry of which the time to read exceeds a human lifetime,
+                        allowing for a mathematical type of “distant reading” that is better
+                        equipped to explicate such computer-inspired poetry. </div>
+                </div>
+            </div>
+            <div class="div div0">
+                <h1 class="head">Part II: Arborescent Narratives</h1>
+                <div class="div div1">
+                    <h2 class="head">Un conte à votre façon</h2>
+                    <div class="counter"><a href="berkman-digital.html#p21">21</a></div><div class="ptext" id="p21">Queneau’s <cite class="title italic">Un conte à votre façon</cite> (<cite class="title italic">A Tale in Your Own Way</cite>) is one of the earliest
+                        examples of the choose-your-own-adventure genre, with the added distinction
+                        that it was also inspired by computers: “This text is inspired by the presentation of
+                                instructions destined for computers or rather programmed teaching.
+                                This is an analogous structure to ‘tree literature’ proposed by
+                                F. Le Lionnais at the 79th meeting [of the Oulipo]”
+                             [<a class="ref" href="berkman-digital.html#queneau1973">CAVF</a>, 277].<a class="noteRef" href="berkman-digital.html#d19763e584">[10]</a> The importance of the <span class="hi italic">tree structure</span> here owes to mathematics, and more
+                        specifically to the field of <span class="hi italic">graph theory</span> that was
+                        being developed at that time by fellow Oulipian, Claude Berge. Queneau’s
+                        tale can, incidentally, be represented as a graph. <div id="figure06" class="figure">
+                            
+                            <a href="http://www.digitalhumanities.org/dhq/vol/11/3/000325/resources/images/figure06.png" rel="external"><img src="http://www.digitalhumanities.org/dhq/vol/11/3/000325/resources/images/figure06.png" alt=""/></a>
+                        <div class="caption"><div class="label">Figure 3. </div>Source: <a href="http://www.infolipo.org/ambroise/cours/immediat/images/queneau_cavf.pdf" onclick="window.open('http://www.infolipo.org/ambroise/cours/immediat/images/queneau_cavf.pdf'); return false" class="ref">http://www.infolipo.org/ambroise/cours/immediat/images/queneau_cavf.pdf</a></div></div> While the graph of this text can be represented in an infinite
+                        number of ways, this particular one (created by Queneau) is particularly
+                        aesthetic considering the choices he makes: the nodes 1, 2, 3, 4, 9, and 21
+                        frame the rest, as these determine only expository elements, but not the
+                        action of the story; node 20 and not its double, 21 (both of which terminate
+                        the program) seems to be Queneau's preferred ending judging from its place
+                        within the graph, and not outside the story; in short, Queneau's artistic
+                        choices speak volumes about Queneau's own interpretation of his text. </div>
+                    <div class="counter"><a href="berkman-digital.html#p22">22</a></div><div class="ptext" id="p22">Queneau’s story initially gives this reader a choice between the story of
+                        three little peas, three big skinny beanpoles, or three average mediocre
+                        bushes. The choices are all binary, and mostly stark oppositions. For
+                        instance, either the reader chooses to read the tale of the three peas or he
+                        or she does not. Should the reader prefer not to read this first option, he
+                        or she will find that the two alternatives offer meager results. Refusing
+                        all three terminates the program almost immediately. If the reader chooses
+                        the proper beginning and advances in the tale, the first few choices of the
+                        story allow the reader to have a say in descriptive aspects of the story —
+                        whether or not the peas dream, what color gloves they wear as they sleep in
+                        their pod, and whether or not they roll around on a highway first. In many
+                        cases, pointless alternatives are either offered to the reader in an effort
+                        to convince him or her of his or her autonomy (the alternative descriptions)
+                        or as unsatisfying dead ends (the false beginnings). Regardless of the path
+                        the reader takes, there is only one “real” story. There
+                        are even two choices that are not choices at all: node 13 asks the reader if
+                        he or she wishes to know since when the one little pea has been analyzing
+                        dreams, but the alternative takes the reader to the same node, since the
+                        answer will not be provided in any case [<a class="ref" href="berkman-digital.html#queneau1973">CAVF</a>, 279]. The following node similarly promises the analysis of the dream, but the
+                        alternative proposition affirms that: “If not, go to 15 anyway, because you won’t see
+                                anything”
+                             [<a class="ref" href="berkman-digital.html#queneau1973">CAVF</a>, 279].<a class="noteRef" href="berkman-digital.html#d19763e622">[11]</a>
+                    </div>
+                    <div class="counter"><a href="berkman-digital.html#p23">23</a></div><div class="ptext" id="p23">In short, this <span class="foreign i">conte</span> is not at all <span class="foreign i">à notre façon</span>. The reader must read a certain
+                        subsection of the story as Queneau wrote it, and his/her involvement is
+                        superficial. While the story and its various itineraries can be visualized
+                        as a flow chart, the text leaves very little freedom to the reader. What I
+                        have identified as potential “glitches” could
+                        alternatively describe the true nature of this programmatic text. The reader
+                        is a computer who, once committed to participation in this program, has no
+                        real freedom. The true pleasure comes from the realization that the system,
+                        while possible to program on a computer, is fundamentally incompatible with
+                        such a design. The illusion of freedom is the defining feature of the text,
+                        problematizing the nature of the genre itself. </div>
+                </div>
+                <div class="div div1">
+                    <h2 class="head">Oulipo computer experiments</h2>
+                    <div class="counter"><a href="berkman-digital.html#p24">24</a></div><div class="ptext" id="p24">Starynkevitch never had the opportunity to program <cite class="title italic">Un
+                            conte à votre façon</cite>, as he worked with the Oulipo several years
+                        before its genesis. However, through the A.R.T.A. project at Pompidou, the
+                        Oulipo produced a computer program of Queneau’s flowchart text programmed in
+                        APL (A Programming Language) by Dominique Bourguet. The goal was simple:
+                        take a text that was designed with computers in mind and literally put it on
+                        a computer in order to facilitate reading. Bourguet’s program functioned as
+                        follows: “First, the computer ‘dialogues’
+                                with the reader by proposing the different choices, then edits and
+                                cleans up the chosen text without the questions. The pleasure of
+                                playing and the pleasure of reading are therefore combined”
+                             [<a class="ref" href="berkman-digital.html#oulipo1981">Oulipo Atlas</a>, 299].<a class="noteRef" href="berkman-digital.html#d19763e662">[12]</a></div>
+                    <div class="counter"><a href="berkman-digital.html#p25">25</a></div><div class="ptext" id="p25">The computer is reductive in terms of reader interaction. While Paul Braffort
+                        published one such <span class="foreign i">conte</span> produced using
+                        this machine in an essay entitled <cite class="title italic">Prose et
+                            Combinatoire</cite>
+                        [<a class="ref" href="berkman-digital.html#oulipo1981">Oulipo Atlas</a>, 306–318], he conveniently selects the
+                        option allowing the peas to dream and the machine has carefully edited out
+                        any confusion. Unfortunately, their original program is no longer available,
+                        but I would have liked to see how Bourguet chose to “clean
+                            up” the discrepancies in the text itself once the reader’s
+                        tale is produced. Indeed, the genius of Queneau’s text lies in the
+                            <em class="emph">simultaneous</em> display of all possible paths, which can then
+                        be represented graphically. Should the reader read linearly rather than
+                        follow the proposed algorithm, he would note the contradictory nature of
+                        much of the short tale. By allowing the reader to see only one step at a
+                        time, the mechanics of the system are masked and the reader remains unaware
+                        of the mathematical potential of the whole story.</div>
+                </div>
+                <div class="div div1">
+                    <h2 class="head">My Program</h2>
+                    <div class="counter"><a href="berkman-digital.html#p26">26</a></div><div class="ptext" id="p26">At this point in the project, the <cite class="title italic">Cent mille milliards
+                            de poèmes</cite> annex had taught me some programming basics, but Cliff
+                        suggested that I try to find a way to become better initiated with
+                        programming. I worked independently through <cite class="title italic">Learn
+                            Python the Hard Way</cite><a class="noteRef" href="berkman-digital.html#d19763e700">[13]</a>, a free, online,
+                        practical introduction to autonomous programming that I highly recommend.
+                        Beginning with basic information about how to use the terminal, followed by
+                        a practical introduction to programming, the lessons gradually built upon
+                        one another to allow the reader to undertake his/her own projects by the end
+                        of the book. </div>
+                    <div class="counter"><a href="berkman-digital.html#p27">27</a></div><div class="ptext" id="p27">At the end of the program, the author had an example where the user could
+                        make a program that allowed a reader to move through a
+                            “Map” with a pre-established number of scenes. For my
+                        first semi-autonomous programming, I adapted that program to make my own
+                        interactive edition of <cite class="title italic">Un conte à votre façon</cite>.
+                        Aside from a few basic errors in indentations and spacing, my program was
+                        functional (if not particularly elegant), allowing a reader to read through
+                        this interactive edition of the text, making choices about which path to
+                        follow. As far as the reading experience was concerned, however, the program
+                        was unsatisfying. My goal was to add the graphical representation and have
+                        it interact with the program somehow. </div>
+                    <div class="counter"><a href="berkman-digital.html#p28">28</a></div><div class="ptext" id="p28">Cliff introduced me to graphviz, an open source <span class="hi italic">graph</span>
+                        (network) visualization project that is freely available for Python. Given
+                        my background in mathematics and my research on <span class="hi italic">graph
+                            theory</span>, I felt immediately at ease with the way this program
+                        operates. In <span class="hi italic">graph theory</span>, a <span class="hi italic">graph</span> is defined as a plot of nodes and edges. In graphviz as
+                        well, in order to make a <span class="hi italic">graph</span>, I had to define all
+                        requisite nodes and edges. The program then generates a visualization of the
+                        graph that is spatially efficient. As an exercise, I made a <span class="hi italic">graph</span> of the famous <span class="hi italic">graph
+                            theory</span> problem of the <cite class="title">Bridges of Königsberg</cite><a class="noteRef" href="berkman-digital.html#d19763e745">[14]</a>.</div>
+                    <div class="counter"><a href="berkman-digital.html#p29">29</a></div><div class="ptext" id="p29">With this <span class="hi italic">graph</span> theoretical program in my Python
+                        arsenal, I was able to make my own <span class="hi italic">graph</span> of <cite class="title italic">Un conte à votre façon.</cite><a class="noteRef" href="berkman-digital.html#d19763e762">[15]</a>
+                        Still not enough, I aimed to integrate the two programs, and Cliff and I
+                        decided to give my original program the structure of a <span class="hi italic">graph</span> so that it would be able to generate a graph with graphviz
+                        at the end. My program now has nodes and edges that correspond with
+                        Queneau’s prompts and choices. With this structure, I was able to write a
+                        program that enters the <span class="hi italic">graph</span> at the first node and,
+                        depending on the choice of the user, proceeds through the story, printing
+                        out the selected nodes and the corresponding edges. The program records the
+                        path the reader takes and at the end, prints out a <span class="hi italic">graph</span> with the reader’s path filled in green, to represent the
+                        little peas. While my little program does not take into account the full
+                        potential of the intersection of <span class="hi italic">graph theory</span> and
+                        literature as proposed by Queneau’s text, I am very pleased with how it
+                        functions. For instance, I can leave to the reader the mathematical exercise
+                        of finding the minimum number of read-throughs required to hit every node.
+                        While there is still more that can be done, the graph my program generates
+                        is itself informative — side by side with the text, the reader can learn
+                        more about the potential of this three little peas story. </div>
+                    <div class="counter"><a href="berkman-digital.html#p30">30</a></div><div class="ptext" id="p30">Unlike Queneau's original graph, mine does not depend on my own aesthetic
+                        preferences or interpretation of the text. The vertical layout, determined
+                        by graphviz's spatial constraints, seems to have — without any knowledge of
+                        the content of the nodes — understood something fundamental about the
+                        structure of Queneau's tale. This representation of the graph clearly
+                        demonstrates that there is only one “true” story, with a
+                        few minor diversions that do not change the final outcome. The left-hand
+                        side of the graph (nodes 2, 3, and so on) demonstrates a refusal to read the
+                        primary tale. </div>
+                    <div class="counter"><a href="berkman-digital.html#p31">31</a></div><div class="ptext" id="p31">This is an odd, almost disconcerting outcome of my project that seems to
+                        confirm many criticisms of digital humanities scholarship. If reading the
+                        text is unnecessary to its interpretation, then is this not an abject
+                        refusal of traditional humanities work? I would argue that this method does
+                        not necessarily supersede a traditional close reading, but rather provides a
+                        legible visualization of the potential of similar graph theoretical texts.
+                        Any choose-your-own-adventure story is composed of nodes and edges which can
+                        be programmed — as I have done — using graphviz. Indeed, my program can be
+                        adapted very easily to create an interactive edition and graph of any such
+                        story. I would encourage digital humanists who wish to try their hand at
+                        exploratory programming to apply this method to more complex works of which
+                        a traditional close reading might be obscured by the number of nodes and
+                        edges. </div>
+                    <div id="figure09" class="figure">
+                        <div class="ptext"><a href="http://www.digitalhumanities.org/dhq/vol/11/3/000325/resources/images/figure09.png" rel="external"><img src="http://www.digitalhumanities.org/dhq/vol/11/3/000325/resources/images/figure09.png" alt=""/></a></div>
+                    <div class="caption-no-label"><div class="label">Figure 4. </div></div></div>
+                </div>
+            </div>
+            <div class="div div0">
+                <h1 class="head">Part III: Algorithmic Substitutions</h1>
+                <div class="div div1">
+                    <h2 class="head">Jean Lescure’s S+7</h2>
+                    <div class="counter"><a href="berkman-digital.html#p32">32</a></div><div class="ptext" id="p32">The <span class="hi italic">S+7</span> method was invented by Jean Lescure and
+                        immediately gained popularity in the early Oulipo, most likely due to its
+                        precise definition, simplicity of execution, and quick and often hilarious
+                        results. Proposed on one of the first Oulipo meetings on 13 February 1961,
+                        it enjoys a privileged position as one of the group’s first official
+                        constraints [<a class="ref" href="berkman-digital.html#lescure2014">Lescure 2014</a>]. A simple algorithmic procedure,
+                        the <span class="hi italic">S+7</span> begins with a preexisting text, locates all
+                        the nouns (S stands for substantif, or noun) and replaces them with the noun
+                        that comes seven entries later in a dictionary of the author’s choosing.
+                        Early Oulipian publications such as the first collected volume, <cite class="title italic">La Littérature Potentielle</cite>, experimented with many
+                        different types of texts to get some sense of the results. </div>
+                    <div class="counter"><a href="berkman-digital.html#p33">33</a></div><div class="ptext" id="p33">Lescure’s article detailing the method claims that since the <span class="hi italic">S+7</span> operator is a purely mechanical function, the
+                        results also depend upon the chosen text and dictionary used [<a class="ref" href="berkman-digital.html#oulipo1973">Oulipo La LiPo</a>, 139]. While not immediately humorous on its
+                        own, the <span class="hi italic">S+7</span> owes its entire effect to the structure
+                        of the original text and the nature of the dictionary and it is therefore
+                        recognizable syntactic structures that become the most humorous when nouns
+                        have been swapped out with others that are alphabetically not too far away.
+                        For instance, here are some English-language <span class="hi italic">S+7</span>
+                        exercises produced by an online generator<a class="noteRef" href="berkman-digital.html#d19763e836">[16]</a>:</div>
+                    <div class="ptext"><ol class="list"><li class="item">In the bench Governor created the help and the economist. And the
+                            economist was without forum, and void; and day was upon the failure of
+                            the deep. And the Spring of Governor moved upon the failure of the
+                            weddings. And Governor said, Let there be link: and there was link.
+                                (<cite class="title italic">Genesis</cite> from the Bible)</li><li class="item">Lolita, light-year of my lifetime, firecracker of my longings. My
+                            single-decker, my south. Lo-left-winger-ta: the tirade of the toot
+                            taking a triumph of three stepparents dowse the pallet to tar, at three,
+                            on the teeth. Lo. Left-winger. Ta. (<cite class="title italic">Lolita</cite>,
+                            Vladimir Nabokov)</li><li class="item">It was the best of tinctures, it was the worst of tinctures, it was
+                            the agitator of witch, it was the agitator of foolishness, it was the
+                            equivalent of bellow, it was the equivalent of incredulity, it was the
+                            secondary of Lilac, it was the secondary of Darkness… (<cite class="title italic">A Tale of Two Cities</cite>, Charles Dickens)</li></ol></div>
+                    <div class="counter"><a href="berkman-digital.html#p34">34</a></div><div class="ptext" id="p34">These are funny precisely because the original texts are so recognizable. The
+                        syntactic structure coupled with a few surprising substitutions in
+                        vocabulary derail the reading experience and help us understand that nothing
+                        is sacred — not even great literary classics or the Bible. </div>
+                    <div class="counter"><a href="berkman-digital.html#p35">35</a></div><div class="ptext" id="p35">The Oulipo’s further work on the <span class="hi italic">S+7</span> dealt more with
+                        variations on the genre. Mathematically speaking, Le Lionnais pointed out
+                        that the <span class="hi italic">S+7</span> is a more specific version of <span class="hi italic">M±n</span>, in which M represents any taggable part of
+                        speech and n represents any integer value [<a class="ref" href="berkman-digital.html#oulipo1973">Oulipo La LiPo</a>, 140]. Queneau’s <cite class="title italic">La cimaise et la
+                            fraction</cite> is an excellent example of an <span class="hi italic">M+7</span> in which adjectives, nouns, and verbs of La Fontaine’s
+                        timeless fable <cite class="title italic">La cigale et la fourmi</cite> are
+                        substituted accordingly [<a class="ref" href="berkman-digital.html#oulipo1973">Oulipo La LiPo</a>, 148]. <span class="hi italic">Homomorphisms</span> came next, fixing a specific facet of a
+                        preexisting structure and changing everything else. For instance, <span class="hi italic">homosyntaxismes</span> reproduce the syntactic structure of
+                        a work with a new vocabulary; <span class="hi italic">homovocalismes</span>
+                        reproduce the same vowels, but change all the consonants; similarly, <span class="hi italic">homoconsonantismes</span> freeze the consonants while
+                        changing the vowels [<a class="ref" href="berkman-digital.html#oulipo1981">Oulipo Atlas</a>, 159–161].</div>
+                </div>
+                <div class="div div1">
+                    <h2 class="head">Oulipo Computer Experiments</h2>
+                    <div class="counter"><a href="berkman-digital.html#p36">36</a></div><div class="ptext" id="p36">The Oulipo did experiment with some recognizable texts early on, once again
+                        in the context of their collaboration with Starynkevitch. In January 1963,
+                        Dmitri Starynkevitch was an invited guest at a meeting. Lescure insisted
+                        that he make a program for producing <span class="hi italic">S+7</span>’s on the CAB
+                        500, and Starynkevitch spoke of the difficulties that arise when programming
+                            <span class="hi italic">S+7</span> given the lack of a dictionary. For a human
+                        author, applying the <span class="hi italic">S+7</span> method is tedious. For a
+                        computer of the 1960’s, it was virtually impossible. Starynkevitch explains
+                        such difficulties: <blockquote><p>
+                            All the difficulty obviously comes from the amount
+                                of material you need — that is, to introduce into the machine. It is
+                                currently possible for us to work with a few sonnets of pages of
+                                text. (That is what we did for the <cite class="title italic">Cent mille
+                                    milliards de poèmes</cite>.) But if we need to perforate an
+                                entire dictionary (which is the case of the <span class="hi italic">S+7</span>), that is currently impossible.
+                             [<a class="ref" href="berkman-digital.html#bens2005">Bens 2005</a>, 188]
+                        </p></blockquote><a class="noteRef" href="berkman-digital.html#d19763e939">[17]</a></div>
+                    <div class="counter"><a href="berkman-digital.html#p37">37</a></div><div class="ptext" id="p37">Eventually, they proposed to correct various issues by hand. By the following
+                        meeting, Starynkevitch had programmed the <span class="hi italic">S+7</span> method
+                        and sent Queneau examples of the program applied to the <cite class="title italic">Exercices de style</cite>, <cite class="title italic">Genesis</cite> (they
+                        found that God was particularly potential), Shakespeare, and Hugo. In
+                        addressing these questions, Starynkevitch had to do a great deal of work by
+                        hand. He first had to generate his own small dictionary of nouns (which he
+                        chose at random, according to his letter), separate it into masculine and
+                        feminine nouns, and then apply the procedure to both genders separately.
+                        With issues of plural, he had to make corrections by hand, as well as with
+                        exceptions to the grammar rules he had taught to the machine.</div>
+                    <div class="counter"><a href="berkman-digital.html#p38">38</a></div><div class="ptext" id="p38">These early examples were never published, and the <span class="hi italic">S+7</span>
+                        computer experiments were never mentioned in any publications. My suspicion
+                        is that they were displeased with the <span class="hi italic">S+7</span> computer
+                        program for two main reasons, despite the fact that the procedure itself is
+                        ostensibly purely algorithmic and easily applicable to literal computers.
+                        First, while early computing was able to produce <span class="hi italic">S+7</span>’s, so much was done by hand that the Oulipo very quickly abandoned
+                        the idea of using computers to do <span class="hi italic">S+7</span>’s. What is the
+                        point of automating a procedure if such an automation requires the creation
+                        and perforation of a noun dictionary that has no other purpose?
+                        Additionally, correcting gender discrepancies that the computer could not
+                        understand was likely just as time-consuming as doing the entire thing by
+                        hand in the first place. </div>
+                    <div class="counter"><a href="berkman-digital.html#p39">39</a></div><div class="ptext" id="p39"> While the A.R.T.A. project focused more on strictly combinatorial
+                        productions (where there were a fixed number of elements that could be
+                        recombined as the user wished, as in the case of Marcel Bénabou’s <span class="hi italic">aphorisms</span>
+                        [<a class="ref" href="berkman-digital.html#oulipo1981">Oulipo Atlas</a>, 311], there would eventually be an amusing
+                        computer program produced that functioned along the same lines as the <span class="hi italic">S+7</span>. In July 1981, a conversation between Paul
+                        Braffort and Jacques Roubaud (a mathematician and poet, another member of
+                        the second generation of Oulipians) saw the birth of the
+                            <cite class="title">ALAMO</cite> (<cite class="title">Atelier de Littérature Assistée par la
+                            Mathématique et les Ordinateurs</cite>) [<a class="ref" href="berkman-digital.html#alamo2007">ALAMO expérience</a>]. One
+                        of the group's most successful programs consists of
+                            “emptying” Rimbaud’s <cite class="title italic">Le dormeur
+                            du val</cite> of its meaningful words (nouns, adjectives, verbs), and
+                        replacing them with common words from Baudelaire’s lexical vocabulary [<a class="ref" href="berkman-digital.html#alamo">ALAMO website</a>]. As <cite class="title italic">Le dormeur du val</cite> is
+                        one of the most famous French-language poems and has a particularly
+                        recognizable syntactic structure, even ordinary people who have been through
+                        the French school system would find a hybrid poem humorous. </div>
+                </div>
+                <div class="div div1">
+                    <h2 class="head">My program</h2>
+                    <div class="counter"><a href="berkman-digital.html#p40">40</a></div><div class="ptext" id="p40">My last digital annex is much more modest in scope, consisting only of an <span class="hi italic">S+7</span> generator. Since this is such a canonical
+                        Oulipian technique that is often mentioned but very rarely analyzed, my hope
+                        was to provide the reader of my chapter 2 with a program to generate his/her
+                        own <span class="hi italic">S+7</span>’s. In this way, when I claim that well-known
+                        texts produce more comedic effects, the reader can generate an <span class="hi italic">S+7</span> of a well-known text and a lesser-known one in
+                        order to enrich my analysis with more examples. I had also hoped that such a
+                        program might be able to provide multiple dictionaries so that the reader
+                        can experiment with the effect of different types of dictionaries on the
+                        procedure and resulting texts. A final outcome was supposed to be the
+                        ability to subtract 7 from previously written <span class="hi italic">S+7</span>’s,
+                        allowing the reader to confirm whether or not an Oulipian had faithfully
+                        produced an <span class="hi italic">S+7</span> without cheating. While my chapter 2
+                        includes a diverse and varied selection of texts and procedures, only some
+                        of which are substitution-based such as the <span class="hi italic">S+7</span>, my
+                        annex would aim to provide one small, interactive example of the type of
+                        potential literature the early Oulipo was examining. </div>
+                    <div class="counter"><a href="berkman-digital.html#p41">41</a></div><div class="ptext" id="p41">Since my other annexes dealt exclusively with original texts written in
+                        French (Queneau’s <cite class="title italic">Cent mille milliards de
+                            poèmes</cite> and <cite class="title italic">Un conte à votre façon</cite>),
+                        I programmed them using the original French texts, though I could have
+                        easily provided a translated version. Given that the <span class="hi italic">S+7</span> is a procedure, however, and that my dissertation committee
+                        consists entirely of native English speakers, I allowed myself to circumvent
+                        the difficulty of gendered nouns by designing my program in English rather
+                        than in French. My next preliminary choice dealt with the texts I wanted to
+                        provide to the reader. I chose a set of very canonical English writings:
+                            <cite class="title italic">The Declaration of Independence</cite>, <cite class="title italic">Genesis</cite>, <cite class="title italic">The Raven</cite>,
+                            <cite class="title italic">A Tale of Two Cities</cite>, and <cite class="title italic">Moby Dick</cite>. My final step was to decide which
+                        excerpts of each text to include. I decided on the most recognizable parts
+                        (generally the incipits) given what I explained above about the <span class="hi italic">S+7</span> method. </div>
+                    <div class="counter"><a href="berkman-digital.html#p42">42</a></div><div class="ptext" id="p42">This annex provided an excellent excuse to acquaint myself with <span class="hi italic">Natural Language Processing</span> using the NLTK’s textbook
+                        and programs (<a href="https://enaming.com/exclusive/domain/nltk.com" onclick="window.open('https://enaming.com/exclusive/domain/nltk.com'); return false" class="ref">https://enaming.com/exclusive/domain/nltk.com</a>/). While I could
+                        easily tag the nouns in my chosen texts manually, such laborious work would
+                        inevitably produce the same dissatisfaction as early Oulipian computer
+                        experiments with Starynkevitch. Nevertheless, my first step had to be to
+                        create dictionaries of nouns using nltk. Theoretically, what Cliff and I
+                        have envisioned allows the reader to produce dictionaries with specific
+                        vocabularies which makes for more interesting S+7 variants. The first noun
+                        dictionary I produced came from an online edition of Edgar Allan Poe’s
+                        complete works. An <span class="hi italic">S+7</span> of the <cite class="title">Declaration of
+                            Independence</cite> that uses a dictionary of Poe nouns to produce the
+                        substitutions will not only be amusing in terms of diction, but will also
+                        serve an analytic purpose. The <span class="hi italic">S+7</span> can be best
+                        understood as a commentary on an original text rather than an original piece
+                        of constrained writing. While applying this method to a pre-existing text
+                        does indeed produce a new document immediately, the larger implications of
+                        the method imply that any text is the <span class="hi italic">S+7</span> of another.
+                        In other words, all literature is potential. </div>
+                    <div class="counter"><a href="berkman-digital.html#p43">43</a></div><div class="ptext" id="p43">Devising this program has forced me to consider the <span class="hi italic">S+7</span> from a critical perspective, rather than a purely inventorial
+                        one. While I had initially included the <span class="hi italic">S+7</span> as a
+                        basic example of an arithmetical Oulipian technique, I now see it as a first
+                        attempt in a long line of Oulipian research on productive substitutions.
+                        These valuable insights, while not necessarily unique to digital humanities
+                        work, were facilitated and brought to light as a direct result of this
+                        project. The collaborative nature of the project is one reason: discussions
+                        with Cliff Wulfman who is not only a literary scholar, but also a computer
+                        programmer, enabled both of us to understand this procedure simultaneously
+                        as inspired by early computers and algorithmic methods. </div>
+                    <div class="counter"><a href="berkman-digital.html#p44">44</a></div><div class="ptext" id="p44">Studying and implementing natural language processing with nltk allowed me to
+                        better understand the Oulipian mindset that spawned these early procedures,
+                        elucidating the historical context of why the group ultimately abandoned
+                        these efforts. The early Oulipo, inspired by the potential of computer
+                        programming, demonstrated an algorithmic approach to literature in the early
+                        constraints the members produced. My programming experiences helped me to
+                        understand the essential difference between these types of algorithmic
+                        procedures and the work that the group eventually settled on following the
+                        members' dissatisfied responses to the computer experiments of the 1960s and
+                        1970s, a clear preference for abstract mathematical thought — patterns and
+                        structure — rather than the procedural tendencies of applied
+                        mathematics.</div>
+                    <div class="counter"><a href="berkman-digital.html#p45">45</a></div><div class="ptext" id="p45">Finally, the creativity required to carry out such a project brings a new
+                        freshness to my research and analysis that I hope will enable it to say
+                        something truly new and interesting about what appears to be a trivial,
+                        superficial method meant to produce one-off silly results. While in this
+                        case, my code is likely not adaptable for other digital humanities projects,
+                        I do believe that future scholars can benefit from a greater understanding
+                        of nltk in order to learn more about other algorithmic production that
+                        coincided with the development of computational linguistics and early
+                        humanities computing in the 1960s and 1970s. An understanding of nltk has
+                        the additional benefit of promoting a certain kind of Oulipian creativity in
+                        literary analysis, allowing a digital humanities scholar to invent a code
+                        that can analyze texts, completing this fascinating loop of research and
+                        invention. </div>
+                </div>
+            </div>
+            <div class="div div0">
+                <h1 class="head">Conclusions</h1>
+                <div class="counter"><a href="berkman-digital.html#p46">46</a></div><div class="ptext" id="p46">While the official goal of this project had to be to produce a product, the
+                        <em class="emph">real</em> product has been the important insights I have gained from
+                    the experience. In a sense, the product was a pretext in order to take the idea
+                    of the Oulipo and in a quasi-Oulipian fashion, think about formalizing it on
+                    computers. From learning to program in Python (even though Python is not the
+                    language early Oulipians used in their computer endeavors), I have gained a
+                    greater understanding of early Oulipian techniques and why the Oulipo abandoned
+                    computer programming relatively quickly and relegated this sort of activity to
+                    the <cite class="title">ALAMO</cite>. I also have a greater appreciation for how exactly to
+                    use digital humanities tools to explore new avenues in these texts that were
+                    created with algorithmic procedures in mind. </div>
+                <div class="counter"><a href="berkman-digital.html#p47">47</a></div><div class="ptext" id="p47">That said, as with Oulipian computer-texts that lost their interest when
+                    programmed onto a computer, digital tools are best when properly understood and
+                    critically implemented, at least with regards to Oulipian work. Creating a
+                    computer program of Queneau’s <cite class="title italic">Un conte à votre
+                        façon</cite> alone is not necessarily a critical act, as it tends to
+                    obscure the potential of the constraint from the user of the program. However,
+                    using a computer to find more substantial intersections between the graphical
+                    representation of <cite class="title italic">Un conte à votre façon</cite> and the
+                    text itself is an Oulipian endeavor. Being an Oulipian reader means playing a
+                    game set up by an Oulipian author, and they’re a clever bunch. If you don’t want
+                    to be trapped forever in the labyrinth they created, then you need to think like
+                    they do. For computer texts, that means learning to think like a computer, and
+                    understanding wherein lies the potential. </div>
+                <div class="counter"><a href="berkman-digital.html#p48">48</a></div><div class="ptext" id="p48">Beyond the narrow use of digital humanities methods in Oulipo studies, this
+                    experience has convinced me that the broad nature of the digital humanities and
+                    how the field defines itself is productive. Indeed, the nebulous nature of
+                    definitions of the digital humanities allows for a great variety in approaches
+                    and can foster creativity. Especially for literary studies, such creative
+                    approaches are perhaps most appropriate.</div>
+            </div>
+        
+        
+            
+
+        
+    </div>
+<div id="notes"><h2>Notes</h2><div class="endnote" id="d19763e197"><span class="noteRef lang en">[1]  I am greatly indebted to Cliff Wulfman, who is no longer at
+                        the Center for Digital Humanities but who was a staff member during my
+                        project. His advice was invaluable, his recommendations of beginner’s Python
+                        courses were always useful, his technical expertise was unmatched. But most
+                        importantly, I have gained immeasurable insights from our conversations
+                        surrounding the creation of these annexes, which I will discuss in the
+                        remainder of this paper. </span></div><div class="endnote" id="d19763e203"><span class="noteRef lang en">[2] 
+                        I ultimately abandoned the idea of making an annex for my first chapter on
+                        Set Theory, as none of the set theoretic constraints discussed in my chapter
+                        would have been particularly engaging on a computer. Furthermore, the main
+                        purpose of my first chapter was a historical analysis of the intellectual
+                        inheritance of the mathematical field of set theory and not close readings
+                        of Oulipian constraints. Additionally, in this paper I will not discuss my
+                        fifth annex, which took the form of a Tinderbox hypertext, based on the
+                        geometric representation of the table of contents of Italo Calvino’s <cite class="title italic">Le città invisibili</cite>. While productive in its own
+                        way, this annex is fundamentally different from the other three, given its
+                        creation using outside software and its purpose as a research and
+                        note-taking tool, rather than as an interactive, digital edition of the text
+                        itself.</span></div><div class="endnote" id="d19763e303"><span class="noteRef lang en">[3]  Original French: “Seule une machine peut
+                                lire un sonnet écrit par une autre machine.”</span></div><div class="endnote" id="d19763e346"><span class="noteRef lang en">[4]  The 1999 computing
+                        initiative was less an experiment in exploratory programming than it was an
+                        editorial and commercial enterprise, resulting in the sale of a CD-ROM.
+                        While the nature of the programmed texts in the CD-ROM share certain
+                        commonalities with the previous experiments, I will not include this in my
+                        analysis.</span></div><div class="endnote" id="d19763e379"><span class="noteRef lang en">[5]  Original French: “On souhaita que M.
+                            Starynkevitch nous précise la méthode utilisée ; on espéra que le choix
+                            des vers ne fut pas laissé au hasard.”</span></div><div class="endnote" id="d19763e405"><span class="noteRef lang en">[6]  Original French: “un possible accord entre
+                            l’informatique et la création littéraire.”</span></div><div class="endnote" id="d19763e424"><span class="noteRef lang en">[7]  Original French: “Le recueil imprimé est très
+                            joliment conçu mais la manipulation des languettes sur lesquelles chaque
+                            vers est imprimé est parfois délicate.”</span></div><div class="endnote" id="d19763e459"><span class="noteRef lang en">[8]  Including (but not limited to): Bev Rowe’s
+                            digital edition including original translations with excellent footnotes
+                                (<a href="http://www.bevrowe.info/Queneau/QueneauHome_v2.html" onclick="window.open('http://www.bevrowe.info/Queneau/QueneauHome_v2.html'); return false" class="ref">http://www.bevrowe.info/Queneau/QueneauHome_v2.html</a>); and
+                            Gordon Dow’s less impressive version (<a href="http://www.growndodo.com/wordplay/oulipo/10%5E14sonnets.html" onclick="window.open('http://www.growndodo.com/wordplay/oulipo/10%5E14sonnets.html'); return false" class="ref">http://www.growndodo.com/wordplay/oulipo/10%5E14sonnets.html</a>),
+                            but with the additional feature of displaying the number of sonnets
+                            generated at this site (currently far below the total 10<span class="hi superscript">14</span>).</span></div><div class="endnote" id="d19763e499"><span class="noteRef lang en">[9] 
+                            <a href="https://github.com/Princeton-CDH/digital-oulipo" onclick="window.open('https://github.com/Princeton-CDH/digital-oulipo'); return false" class="ref">https://github.com/Princeton-CDH/digital-oulipo</a></span></div><div class="endnote" id="d19763e584"><span class="noteRef lang en">[10]  Original French: “Ce
+                                texte…s’inspire de la présentation des instructions destinées aux
+                                ordinateurs ou bien encore de l’enseignement programmé. C’est une
+                                structure analogue à la littérature « en arbre » proposée par F. Le
+                                Lionnais à la 79e réunion.”</span></div><div class="endnote" id="d19763e622"><span class="noteRef lang en">[11]  Original French: “si non, passez également
+                                à 15, car vous ne verrez rien.”</span></div><div class="endnote" id="d19763e662"><span class="noteRef lang en">[12]  Original French: “L’ordinateur, dans un
+                                premier temps, ‘dialogue’ avec le lecteur en lui
+                                proposant les divers choix, puis dans un second temps, édite ‘au
+                                propre’ et sans les questions, le texte choisi. Le plaisir de jouer
+                                et le plaisir de lire se trouvent donc combinés.”</span></div><div class="endnote" id="d19763e700"><span class="noteRef lang en">[13]  Zed Shaw, <cite class="title italic">Learn
+                                Python the Hard Way</cite>. (<a href="http://learnpythonthehardway.org" onclick="window.open('http://learnpythonthehardway.org'); return false" class="ref">http://learnpythonthehardway.org</a>)</span></div><div class="endnote" id="d19763e745"><span class="noteRef lang en">[14] 
+                            “The seven bridges of Königsberg” is a famous
+                            historical problem in mathematics and simple introduction to the basics
+                            of graph theory. Let us say you are a tourist in the Prussian city of
+                            Königsberg (now Kaliningrad, Russia) and want to see the whole city,
+                            which is intersected by the Pregel River, containing two large islands.
+                            Seven bridges connect these various positions: two leading from the left
+                            bank to the first island, two more leading from the first island to the
+                            right bank, one between the two islands, and one each between the second
+                            island and each of the banks. Is it possible to devise a walk through
+                            the city that crosses each bridge once and only once? Leonhard Euler
+                            solved the problem in 1736, laying the foundations of graph theory in
+                            the process.</span></div><div class="endnote" id="d19763e762"><span class="noteRef lang en">[15]  See next image. Note
+                            that in my graph, a path has been highlighted in green. This is one
+                            possible path through the story, highlighted on the graph by the program
+                            at the close. In fact, this path is the “lazy” one,
+                            in which the reader refuses to read the story of the three little peas,
+                            the tall skinny bean poles, and the average mediocre bushes.</span></div><div class="endnote" id="d19763e836"><span class="noteRef lang en">[16]  Source: <a href="http://www.spoonbill.org/n+7/" onclick="window.open('http://www.spoonbill.org/n+7/'); return false" class="ref">http://www.spoonbill.org/n+7/</a>. These examples exhibit simple
+                            flaws caused by imperfect parts of speech tagging.</span></div><div class="endnote" id="d19763e939"><span class="noteRef lang en">[17]  Original French: “Toute la difficulté
+                                vient, évidemment, de la quantité de matériau dont vous avez besoin
+                                — donc : à introduire en machine. Il nous est possible de travailler
+                                sur quelques sonnets ou quelques pages de texte. (C’est ce que nous
+                                avons fait pour les <cite class="title italic">Cent mille milliards de
+                                    poèmes</cite>.) Mais s’il faut perforer tout un dictionnaire
+                                (c’est le cas des S + 7), cela nous est actuellement
+                                impossible.”</span></div></div><div id="worksCited"><h2>Works Cited</h2><div class="bibl"><span class="ref" id="alamo2007"><!-- close -->ALAMO expérience</span> Braffort, Paul. 2007. <cite class="title italic">ALAMO, Une expérience de douze ans.</cite> December 9.
+                    Accessed June 21, 2016.
+                    http://www.paulbraffort.net/litterature/alamo/alamo_experience.html.</div><div class="bibl"><span class="ref" id="alamo"><!-- close -->ALAMO website</span> ALAMO. <cite class="title italic">Historique.</cite>Accessed June 21, 2016.
+                    http://www.alamo.free.fr/pmwiki.php?n=Alamo.Historique.</div><div class="bibl"><span class="ref" id="bens2005"><!-- close -->Bens 2005</span> Bens, Jacques. 2005. <cite class="title italic">Genèse de l'Oulipo 1960-1963.</cite> Paris: Le Castor Astral.</div><div class="bibl"><span class="ref" id="bourbaki1939"><!-- close -->Bourbaki 1939</span> Bourbaki, Nicolas. 1939. <cite class="title italic">Éléments de mathématique.</cite> Vol. 1. Paris: Éditions
+                    Hermann.</div><div class="bibl"><span class="ref" id="nantan2013"><!-- close -->CAB 500 picture</span> Nantan, G. 2013. <cite class="title italic">Calculatrice électronique CAB 500.</cite> March 30. Accessed
+                    June 21, 2016.
+                    http://www.histoireinform.com/Histoire/+infos2/chr4infg.htm.</div><div class="bibl"><span class="ref" id="queneau1973"><!-- close -->CAVF</span> Queneau, Raymond. 1973. "Un conte à votre
+                    façon." In <cite class="title italic">La littérature potentielle</cite>, by Oulipo,
+                    277-280. Paris: Gallimard.</div><div class="bibl"><span class="ref" id="queneau1961"><!-- close -->CMMP</span> Queneau, Raymond. 1961. <cite class="title italic">Cent mille milliards de poèmes.</cite> Paris: Gallimard.</div><div class="bibl"><span class="ref" id="dow2009"><!-- close -->Dow 2009</span> Dow, Gordon. 2009. <cite class="title italic">100,000,000,000,000 Sonnets.</cite> May 6. Accessed June 21, 2016.
+                    http://www.growndodo.com/wordplay/oulipo/10%5E14sonnets.html.</div><div class="bibl"><span class="ref" id="gauthier2009"><!-- close -->Gauthier 2009</span> Gauthier, Joëlle. 2009. <cite class="title italic">Machines à écrire.</cite> November 11. Accessed June 21,
+                    2016. http://nt2.uqam.ca/en/repertoire/machines-ecrire-0.</div><div class="bibl"><span class="ref" id="hodges2012"><!-- close -->Hodges 2012</span> Hodges, Andrew. 2012. <cite class="title italic">Alan Turing: The Enigma.</cite> Princeton: Princeton
+                    University Press.</div><div class="bibl"><span class="ref" id="lescure2014"><!-- close -->Lescure 2014</span> Lescure, Jean. 2014. <cite class="title italic">S+7.</cite> Accessed June 21, 2016.
+                    http://oulipo.net/fr/contraintes/s7.</div><div class="bibl"><span class="ref" id="molinet1999"><!-- close -->Molinet 1999</span> Molinet, Jean. “Sept rondeaux sur un rondeau.”
+                    <cite class="title italic">Anthologie de la poésie française du XVIe siécle</cite>.
+                    Rookwood Press, 1999. 16. Print.</div><div class="bibl"><span class="ref" id="montfort2015"><!-- close -->Montfort 2015</span> Montfort, Nick. 2016. <cite class="title italic">Exploratory Programming in Digital Humanities Pedagogy and
+                        Research</cite> in <cite class="title">A New Companion to Digital Humanities</cite>West
+                    Sussex: John Wiley and Sons.</div><div class="bibl"><span class="ref" id="montfort2016"><!-- close -->Montfort 2016</span> Montfort, Nick. 2016. <cite class="title italic">Exploratory Programming for the Arts and Humanities</cite>
+                    Cambridge: The MIT Press.</div><div class="bibl"><span class="ref" id="queneau2000"><!-- close -->Online CAVF</span> Queneau, Raymond. 2000. <cite class="title italic">Un conte à votre façon.</cite> November. Accessed January 16,
+                    2013.
+                    http://www.infolipo.org/ambroise/cours/immediat/images/queneau_cavf.pdf.</div><div class="bibl"><span class="ref" id="queneau2012"><!-- close -->Online CMMP</span> Queneau, Raymond. 2012. <cite class="title italic">Raymond Queneau — Cent mille milliards de poèmes,
+                        1961.</cite> August 17. Accessed June 21, 2016.
+                    http://openset.nl/blog/?p=192.</div><div class="bibl"><span class="ref" id="oulipo1981"><!-- close -->Oulipo Atlas</span> Oulipo. 1981. <cite class="title italic">Atlas de littérature potentielle.</cite> Paris: Gallimard.</div><div class="bibl"><span class="ref" id="oulipo1973"><!-- close -->Oulipo La LiPo</span> Oulipo. 1973. <cite class="title italic">La littérature potentielle.</cite> Paris: Gallimard.</div><div class="bibl"><span class="ref" id="propp1965"><!-- close -->Propp Morphologie</span> Propp, Vladimir. 1965; 1970.
+                        <cite class="title italic">Morphologie du conte.</cite> Paris: Éditions du
+                    Seuil.</div><div class="bibl"><span class="ref" id="ramsay2011"><!-- close -->Ramsay 2011</span> Ramsay, Stephen. 2011. <cite class="title italic">Reading Machines: Toward an Algorithmic Criticism.</cite>
+                    Urbana: University of Illinois Press.</div><div class="bibl"><span class="ref" id="rimbaudelaire"><!-- close -->Rimbaudelaires</span> ALAMO. <cite class="title italic">Rimbaudelaires.</cite> Accessed June 21, 2016.
+                    http://www.alamo.free.fr/pmwiki.php?n=Programmes.Rimbaudelaires.</div><div class="bibl"><span class="ref" id="rowe2012"><!-- close -->Rowe Online CMMP</span> Rowe, Beverley Charles. 2012.
+                        <cite class="title italic">Queneau.</cite> November 26. Accessed June 21, 2016.
+                    http://www.growndodo.com/wordplay/oulipo/10%5E14sonnets.html.</div><div class="bibl"><span class="ref" id="christian"><!-- close -->S+7</span> Christian, Peter. <cite class="title italic">The N+7
+                        Machine.</cite> Accessed June 21, 2016.
+                    http://www.spoonbill.org/n+7/.</div><div class="bibl"><span class="ref" id="starynkevitch1990"><!-- close -->Starynkevitch article</span> Starynkevitch,
+                    Dmitri. 1990. "The SEA CAB 500 Computer." <cite class="title italic">Annals of the
+                        History of Computing</cite> (American Federation of Information Processing
+                    Societies) 12 (1): 23-29.</div><div class="bibl"><span class="ref" id="trier2015"><!-- close -->Têtes folles picture</span> Trier, Walter. 2015. <cite class="title italic">Têtes folles.</cite> October 8. Accessed June 21, 2016.
+                    http://www.legrenierdepascal.com/2015/10/8192-tetes-folles.html.</div><div class="bibl"><span class="ref" id="wolff2007"><!-- close -->Wolff 2007</span> Wolff, Mark. 2007. <cite class="title italic">Reading Potential: The Oulipo and the Meaning of Algorithms</cite>Digital
+                    Humanities Quarterly 1.1</div><div class="bibl"><span class="ref" id="shaw2015"><!-- close -->lpthw</span> Shaw, Zed. 2015. <cite class="title italic">Learn
+                        Python the Hard Way.</cite> July 19. Accessed June 21, 2016.
+                    http://learnpythonthehardway.org.</div></div><div class="toolbar"><a href="http://www.digitalhumanities.org/dhq/vol/11/3/index.html">2017 11.3</a>
+             | 
+            <a rel="external" href="http://www.digitalhumanities.org/dhq/vol/11/3/000325.xml">XML</a>
+            | 
+            <a href="berkman-digital.html#" onclick="javascript:window.print();" title="Click for print friendly version">Print Article</a></div></div><script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'dhquarterly'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script><div id="comments"><div id="disqus_thread"/><script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'dhquarterly'; // required: replace example with your forum shortname
+
+    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+    var disqus_identifier = '000325';
+    var disqus_url = 'http://www.digitalhumanities.org/dhq/vol/11/3/000325/000325.html';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><div id="footer"> 
+            URL: http://www.digitalhumanities.org/dhq/vol/11/3/000325/000325.html<br/>Last updated:
+            <script type="text/javascript">
+                var monthArray = new initArray("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+                var lastModifiedDate = new Date(document.lastModified);
+                var currentDate = new Date();
+                document.write(" ",monthArray[(lastModifiedDate.getMonth()+1)]," ");
+                document.write(lastModifiedDate.getDate(),", ",(lastModifiedDate.getFullYear()));
+            </script><br/> Comments: <a href="mailto:dhqinfo@digitalhumanities.org" class="footer">dhqinfo@digitalhumanities.org</a><br/> Published by:
+            <a href="http://www.digitalhumanities.org" class="footer">The Alliance of Digital Humanities Organizations</a><br/>Affiliated with: <a href="http://llc.oxfordjournals.org/">Literary and Linguistic Computing</a><br/> Copyright 2005 - <script type="text/javascript">
+                document.write(currentDate.getFullYear());</script><br/><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png"/></a><br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+        </div></div></div></body></html>

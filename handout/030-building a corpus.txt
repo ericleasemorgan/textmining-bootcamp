@@ -1,0 +1,103 @@
+
+
+Building a corpus
+=================
+
+Building a corpus is very much like traditional library work. The process requires a number of steps:
+
+  * Articulating what you are going to collect; develop a "collection management policy"
+  * Identifying qualified materials
+  * Acquiring the materials
+  * Describing the materials
+  * Organizing the materials
+  * Making the materials accessible
+
+When it comes to text mining, the format of the materials is as important as the material's subject matter. This is true because text mining requires digital materials in a plain text format. A lot of effort goes into creating digital versions of texts, as well as plain text versions. 
+  
+delimited files
+
+  * tweets with one document per line
+
+    o CBS News (@CBSNews)
+    o Fox News (@foxnews)
+    o NBC News (@NBCNews)
+    
+    o Metropolitan Museum of Art (@metmuseum)
+    o Art Institute of Chicago (@artinstitutechi)
+    o Detroit Institute of Arts (@diadetroit)
+
+    o University of Cambridge (@Cambridge_Uni)
+    o Oxford University (@uniofoxford)
+    o Harvard University (@harvard)
+    
+  * tweets with one document per line but with two fields
+  
+    o Code4Lib 2017 (#c4l17)
+    o Code4Lib 2016 (#c4l16)
+    o Code4Lib 2015 (#c4l15)
+    
+    o Digital Humanities 2017 (#dh2017)
+    o Digital Humanities 2016 (#dh2016)
+    o Digital Humanities 2015 (#dh2015)
+
+    o JCDL 2017 (#jcdl2017)
+    o JCDL 2016 (#jcdl2016)
+    o JCDL 2015 (#jcdl2015)
+      
+plain text files
+  * Infomotions (http://infomotions.com/etexts/)
+  * Project Gutenburg (http://www.gutenberg.org)
+  
+HTML files
+
+  * Text Mining (https://en.wikipedia.org/wiki/Text_mining)
+  * Digital Humanities Quarterly (http://www.digitalhumanities.org/dhq/)
+  * First Monday (http://firstmonday.org)
+  
+PDF files
+  * Bulletin of the Association for Information Science and Technology (https://www.asist.org)
+  * Internet Archive (http://archive.org/)
+
+
+                           H  W  J  B
+     American literature   x     x  x
+      digital humanities   x  x  x
+       news, art museums      x        
+        news, university      x
+  news, world & national      x
+             text mining   x  x
+      Western philosophy            x
+
+There is a difference between a subject (topic), format (book, journal article, etc.), and MIME type( application/pdf, text/plain, text/html, application/json, etc.)
+
+T = plain text files
+W = Twitter feeds
+J = journal articles
+B = books
+
+
+The things in this workshop work quite well when they are the size of a scholarly article. Many scholarly articles concatenated together will work well too. But Web-based tools  usually being to loose their scalability once they are the size of of a "typical" novel -- about 500 K (or half a megabyte). That said, building a corpus is a very important part of any text mining, and it really oughtn't be limited by size.
+
+A corpus is a collection of one or more texts. In order to do text mining, the corpora is required to be in the form of "plain text", usually sans any mark-up such as XML. This collection of texts can be in the form of Twitter "tweets", PDF files (systematically) downloaded from bibliographic databases, sets of HTML pages harvested from the Web, books, etc.
+
+Given an HTML page, you can extract (most) of the URLs it contains by chaining together a set of commands:
+
+  * cat file.txt | egrep -o 'https?://[^ ]+' | sed -e 's/https/http/g' |  sed -e 's/>.*//g' | sed -e 's/\W+$//g' | sed -e 's/"//g'| sort | uniq | sort -bnr
+
+
+Given a set of URLs saved in a file, building a corpus use:
+
+  * curl - xargs -n 1 curl -O < your_files.txt
+  * wget - wget -i your_files.txt
+
+
+So for example, you could peruse a Wikipedia article, save it locally as an HTML file, extract all of the URLs, filter any undesireable URLs, and harvest the balance for more indepth investigations.
+
+Code4lib job postings
+wget --no-parent -E -r https://jobs.code4lib.org/jobs/
+
+--
+Eric Lease Morgan
+April 25, 2018
+
+

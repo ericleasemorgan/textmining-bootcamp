@@ -1,0 +1,4019 @@
+type	entity
+PERSON	Jane Austen
+PERSON	R W Robert William Chapman
+ORGANIZATION	Project Gutenberg License
+PERSON	Jane Austen Editor R W Robert William Chapman
+PERSON	Greg Weeks Jon Hurst Mary Meehan
+ORGANIZATION	Online Distributed Proofreading Team
+PERSON	Gutenberg
+ORGANIZATION	London Printed for T Egerton Military Library Whitehall
+ORGANIZATION	Bell
+LOCATION	Charlotte Street Bedford Square
+ORGANIZATION	La Belle Assemblee
+PERSON	Bennet
+LOCATION	Netherfield Park
+PERSON	Bennet
+PERSON	Bennet
+PERSON	Mrs Long
+LOCATION	Netherfield
+LOCATION	England
+PERSON	Morris
+PERSON	Bennet
+PERSON	Bingley
+PERSON	Bingley
+PERSON	William
+PERSON	Lady Lucas
+PERSON	Bingley
+PERSON	Lizzy
+PERSON	Lizzy
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Bennet
+PERSON	Bennet
+PERSON	Bennet
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Mrs Long
+PERSON	Mrs Long
+PERSON	Bennet
+PERSON	Mrs Bennet
+PERSON	Don
+PERSON	Kitty
+PERSON	Kitty
+PERSON	Kitty
+PERSON	Aye
+PERSON	Mrs Long
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Mrs Bennet
+PERSON	Mary
+PERSON	Mary
+PERSON	Mary
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Mrs Bennet
+PERSON	Bennet
+PERSON	Kitty
+PERSON	Bennet
+PERSON	Lydia
+PERSON	Bingley
+PERSON	Lydia
+PERSON	Bennet
+PERSON	Mrs Bennet
+PERSON	Lady Lucas
+PERSON	William
+PERSON	Bingley
+PERSON	Netherfield
+PERSON	Mrs Bennet
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Mrs Bennet
+PERSON	Bingley
+PERSON	Mrs Bennet
+LOCATION	Hertfordshire
+LOCATION	Netherfield
+PERSON	Lady Lucas
+LOCATION	London
+PERSON	Bingley
+LOCATION	London
+PERSON	Mr Bingley
+PERSON	Mr Bingley
+PERSON	Hurst
+PERSON	Darcy
+PERSON	Bingley
+LOCATION	Derbyshire
+PERSON	Mr Bingley
+LOCATION	Netherfield Such
+PERSON	Mr Darcy
+PERSON	Mrs Hurst
+ORGANIZATION	Miss Bingley
+PERSON	Mrs Bennet
+PERSON	Elizabeth Bennet
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+LOCATION	Netherfield
+PERSON	Bingley
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Mary
+PERSON	Bingley
+PERSON	Catherine
+PERSON	Lydia
+LOCATION	Longbourn
+PERSON	Bennet
+PERSON	Bennet
+PERSON	Jane
+PERSON	Bingley
+PERSON	Lucas
+PERSON	Jane
+PERSON	Maria Lucas
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Boulanger
+PERSON	Mrs Bennet
+PERSON	Mrs Hurst
+PERSON	Bennet
+PERSON	Lizzy
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Elizabeth
+LOCATION	England
+ORGANIZATION	Mr Bingley
+PERSON	Bingley
+LOCATION	Netherfield
+PERSON	Miss Bingley
+PERSON	Mrs Hurst
+PERSON	Bingley
+LOCATION	Netherfield House
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+LOCATION	Meryton
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Mrs Hurst
+PERSON	Bennet
+LOCATION	Longbourn
+PERSON	Bennets
+PERSON	William Lucas
+LOCATION	Meryton
+LOCATION	Meryton
+ORGANIZATION	Lucas Lodge
+ORGANIZATION	St James
+PERSON	Lady Lucas
+PERSON	Elizabeth
+LOCATION	Longbourn
+PERSON	Charlotte
+PERSON	Mrs Bennet
+PERSON	Lucas
+PERSON	Bingley
+PERSON	Jane
+PERSON	Robinson
+PERSON	Robinson
+PERSON	Robinson
+LOCATION	Meryton
+PERSON	Bennet
+PERSON	Eliza
+PERSON	Charlotte Mr Darcy
+PERSON	Eliza
+PERSON	Lizzy
+PERSON	Mrs Long
+PERSON	Jane
+PERSON	Darcy
+PERSON	Aye
+LOCATION	Netherfield
+PERSON	Bingley
+PERSON	Jane
+PERSON	Mrs Long
+PERSON	Mrs Long
+PERSON	Lucas
+PERSON	Eliza Another
+PERSON	Lizzy
+PERSON	Ma
+PERSON	Lucas
+PERSON	Elizabeth
+PERSON	Mary
+PERSON	Darcy
+PERSON	Lucas
+PERSON	Mrs Bennet
+LOCATION	Longbourn
+LOCATION	Netherfield
+PERSON	Bennet
+ORGANIZATION	Miss Bingley
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane
+PERSON	Jane
+PERSON	Lucas
+LOCATION	Charlotte
+PERSON	Bingley
+PERSON	Eliza
+PERSON	Jane
+ORGANIZATION	Bingley
+PERSON	Jane
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane
+LOCATION	Meryton
+PERSON	Vingt
+LOCATION	Charlotte
+PERSON	Jane
+LOCATION	Charlotte
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	William Lucas
+PERSON	Darcy
+LOCATION	Charlotte
+PERSON	Forster
+PERSON	Darcy
+PERSON	Lucas
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Forster
+LOCATION	Meryton
+PERSON	Lucas
+PERSON	Eliza
+PERSON	Lucas
+PERSON	Darcy There
+PERSON	Mary
+PERSON	Mary
+PERSON	Elizabeth
+PERSON	Mary
+ORGANIZATION	Lucases
+PERSON	Darcy
+PERSON	William Lucas
+PERSON	William
+PERSON	Darcy
+PERSON	William
+PERSON	Bingley
+PERSON	Darcy You
+LOCATION	Meryton
+ORGANIZATION	St James
+PERSON	Darcy
+LOCATION	London
+PERSON	Elizabeth
+PERSON	Eliza
+PERSON	Darcy
+PERSON	Darcy
+PERSON	William
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	William
+PERSON	Eliza
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Eliza
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Elizabeth Bennet
+PERSON	Elizabeth Bennet
+PERSON	Bingley
+LOCATION	Pemberley
+PERSON	Bennet
+LOCATION	Meryton
+PERSON	Philips
+LOCATION	London
+LOCATION	Longbourn
+LOCATION	Meryton
+PERSON	Catherine
+PERSON	Lydia
+LOCATION	Meryton
+PERSON	Meryton
+ORGANIZATION	Philips
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Catherine
+PERSON	Lydia
+PERSON	Carter
+LOCATION	London
+PERSON	Mrs Bennet
+PERSON	Bennet
+PERSON	Forster
+PERSON	William
+PERSON	Lydia
+PERSON	Forster
+PERSON	Carter
+PERSON	Watson
+PERSON	Clarke
+PERSON	Mrs Bennet
+PERSON	Bennet
+LOCATION	Netherfield
+PERSON	Mrs Bennet
+PERSON	Jane
+PERSON	Jane
+ORGANIZATION	Miss Bingley
+PERSON	Jane
+PERSON	Louisa
+PERSON	CAROLINE
+PERSON	Lydia
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Bingley
+LOCATION	Meryton
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane
+PERSON	Jane
+PERSON	Mrs Bennet
+LOCATION	Netherfield
+PERSON	Elizabeth
+PERSON	Lizzy
+PERSON	Jones
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Mary
+LOCATION	Meryton
+PERSON	Catherine
+PERSON	Lydia Elizabeth
+PERSON	Lydia
+PERSON	Carter
+LOCATION	Meryton
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Mrs Hurst
+ORGANIZATION	Miss Bingley
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Hurst
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Miss Bingley
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Jane
+PERSON	Bingley
+LOCATION	Netherfield
+PERSON	Elizabeth
+LOCATION	Longbourn
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Jane
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Hurst
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Bingley
+PERSON	Mrs Hurst
+PERSON	Louisa
+PERSON	Louisa
+PERSON	Bingley
+PERSON	Elizabeth Bennet
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Darcy
+ORGANIZATION	Miss Bingley
+PERSON	Mrs Hurst
+PERSON	Jane Bennet
+LOCATION	Meryton
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Hurst
+PERSON	Eliza Bennet
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Miss Bingley
+PERSON	Darcy
+PERSON	Charles
+PERSON	Pemberley
+LOCATION	England
+ORGANIZATION	Derbyshire With
+PERSON	Pemberley
+PERSON	Darcy
+PERSON	Charles Upon
+PERSON	Caroline
+LOCATION	Pemberley
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Elizabeth Bennet
+PERSON	Bingley
+PERSON	Charles
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Mrs Hurst
+ORGANIZATION	Miss Bingley
+PERSON	Hurst
+PERSON	Elizabeth
+PERSON	Eliza Bennet
+ORGANIZATION	Miss Bingley
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Jones
+PERSON	Jones
+PERSON	Bennet
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Longbourn
+PERSON	Jane
+PERSON	Mrs Bennet
+LOCATION	Netherfield
+PERSON	Jane
+PERSON	Mrs Bennet
+LOCATION	Netherfield
+PERSON	Jane
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Mrs Bennet
+PERSON	Bennet
+PERSON	Jones
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Mrs Bennet
+PERSON	Bingley
+LOCATION	Netherfield
+PERSON	Elizabeth You
+PERSON	Lizzy
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Mrs Bennet
+PERSON	Darcy
+PERSON	Mrs Bennet
+LOCATION	London
+PERSON	Aye
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Charlotte Lucas
+LOCATION	Longbourn
+PERSON	William
+PERSON	Bingley
+LOCATION	Charlotte
+PERSON	Bingley
+LOCATION	Charlotte
+PERSON	Lady Lucas
+PERSON	Jane
+PERSON	Jane
+PERSON	Gardiner
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Bingley
+PERSON	Jane
+PERSON	Lizzy Mr Bingley
+PERSON	Mrs Bennet
+PERSON	Bingley
+LOCATION	Netherfield Lydia
+PERSON	Bingley
+PERSON	Lydia
+PERSON	Jane
+PERSON	Carter
+LOCATION	Meryton
+PERSON	Forster
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Darcy
+ORGANIZATION	Miss Bingley
+PERSON	Hurst
+ORGANIZATION	Miss Bingley
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Hurst
+PERSON	Bingley
+PERSON	Mrs Hurst
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Grantley
+PERSON	Darcy Caroline
+PERSON	Darcy
+PERSON	Bingley Charles
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Mrs Bennet
+LOCATION	Netherfield
+LOCATION	Bingley
+ORGANIZATION	Bingley
+PERSON	Elizabeth
+PERSON	Mr Bingley
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Darcy
+ORGANIZATION	Miss Bingley
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Mrs Hurst
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Jane
+PERSON	Darcy
+ORGANIZATION	Philips
+PERSON	Elizabeth
+PERSON	Mrs Hurst
+PERSON	Elizabeth
+ORGANIZATION	Miss Bingley
+PERSON	Mrs Hurst
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Hurst
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Hurst
+PERSON	Darcy
+PERSON	Hurst
+PERSON	Hurst
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Mrs Hurst
+PERSON	Bennet Miss Bingley
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Charles
+LOCATION	Netherfield
+PERSON	Darcy
+PERSON	Nicholls
+PERSON	Caroline
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Eliza Bennet
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Darcy
+ORGANIZATION	Miss Bingley
+PERSON	Elizabeth
+PERSON	Teaze
+PERSON	Darcy
+PERSON	Darcy
+ORGANIZATION	Miss Bingley
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth Implacable
+PERSON	Bingley
+PERSON	Louisa
+PERSON	Hurst
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+LOCATION	Netherfield
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Mr Bingley
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Bingley
+PERSON	Netherfield
+PERSON	Jane
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Jane
+PERSON	Darcy
+PERSON	Elizabeth
+LOCATION	Netherfield
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Jane
+LOCATION	Longbourn
+LOCATION	Netherfield
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Jane
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Mary
+PERSON	Catherine
+PERSON	Lydia
+PERSON	Forster
+PERSON	Bennet
+PERSON	Charlotte Lucas
+PERSON	Mrs Bennet
+PERSON	Lydia
+PERSON	Hill
+PERSON	Bingley
+PERSON	Collins
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Bennet
+PERSON	Collins
+LOCATION	Westerham Kent
+PERSON	Catherine de Bourgh
+PERSON	Lewis de Bourgh
+ORGANIZATION	Church of England
+LOCATION	Longbourn
+PERSON	Lady Catherine
+PERSON	WILLIAM COLLINS
+PERSON	Bennet
+PERSON	Lady Catherine
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Lady Catherine
+PERSON	Mary
+PERSON	Catherine
+PERSON	Lydia
+PERSON	Collins
+PERSON	Collins
+PERSON	Bennet
+PERSON	Collins
+PERSON	Mrs Bennet
+PERSON	Mrs Bennet
+PERSON	Collins
+PERSON	Mrs Bennet
+PERSON	Mrs Bennet
+PERSON	Bennet
+PERSON	Catherine de Bourgh
+PERSON	Bennet
+PERSON	Collins
+PERSON	Catherine She
+LOCATION	Rosings
+PERSON	Catherine
+PERSON	Mrs Bennet
+LOCATION	Rosings Park
+PERSON	Rosings
+PERSON	Mrs Bennet
+PERSON	Lady Catherine
+PERSON	De Bourgh
+PERSON	Lady Catherine
+PERSON	Catherine
+PERSON	Bennet
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Collins
+PERSON	Kitty
+PERSON	Lydia
+PERSON	Fordyce
+PERSON	Lydia
+ORGANIZATION	Philips
+PERSON	Richard
+PERSON	Forster
+LOCATION	Meryton
+PERSON	Denny
+PERSON	Lydia
+PERSON	Collins
+PERSON	Mr Bennet
+PERSON	Bennet
+PERSON	Mrs Bennet
+PERSON	Lydia
+PERSON	Collins
+PERSON	Bennet
+PERSON	Collins
+PERSON	Lady Catherine de Bourgh
+LOCATION	Hunsford
+PERSON	Longbourn
+PERSON	Bennet
+PERSON	Mrs Bennet
+LOCATION	Longbourn
+PERSON	Jane
+PERSON	Collins
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Mrs Bennet
+PERSON	Lydia
+LOCATION	Meryton
+PERSON	Mary
+PERSON	Collins
+PERSON	Bennet
+PERSON	Collins
+PERSON	Bennet
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Collins
+PERSON	Denny
+LOCATION	London
+PERSON	Lydia
+PERSON	Kitty
+PERSON	Lydia
+PERSON	Denny
+PERSON	Mr Wickham
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Bennet
+LOCATION	Longbourn
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Denny
+PERSON	Wickham
+ORGANIZATION	Philips
+PERSON	Lydia
+ORGANIZATION	Mrs Philips
+ORGANIZATION	Mrs Philips
+PERSON	Jones
+LOCATION	Netherfield
+PERSON	Collins
+PERSON	Jane
+ORGANIZATION	Mrs Philips
+PERSON	Denny
+LOCATION	London
+PERSON	Wickham
+PERSON	Kitty
+PERSON	Lydia
+PERSON	Wickham
+LOCATION	Longbourn
+PERSON	Mrs Philips
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane
+PERSON	Collins
+PERSON	Mrs Bennet
+ORGANIZATION	Mrs Philips
+PERSON	Lady Catherine
+PERSON	Collins
+PERSON	Mrs Bennet
+LOCATION	Meryton
+PERSON	Wickham
+PERSON	Collins
+ORGANIZATION	Rosings
+PERSON	Mrs Philips
+PERSON	Rosings
+PERSON	Catherine
+PERSON	Lady Catherine
+ORGANIZATION	Philips
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Wickham
+ORGANIZATION	Philips
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Collins
+ORGANIZATION	Mrs Philips
+PERSON	Mrs Philips
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Darcy She
+PERSON	Wickham
+LOCATION	Netherfield
+LOCATION	Meryton
+PERSON	Darcy
+PERSON	Elizabeth
+LOCATION	Derbyshire
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Wickham
+LOCATION	Netherfield
+LOCATION	Hertfordshire Every
+PERSON	Wickham
+PERSON	Wickham
+LOCATION	Netherfield
+PERSON	Darcy If
+PERSON	Bennet
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Wickham
+LOCATION	Meryton
+PERSON	Denny
+PERSON	Meryton
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Darcy
+LOCATION	Netherfield
+PERSON	Wickham
+PERSON	Elizabeth
+ORGANIZATION	Philips
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth How
+PERSON	Darcy
+PERSON	Wickham
+ORGANIZATION	Pemberley House
+PERSON	Darcy He
+LOCATION	London
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Bingley Not
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Mrs Philips
+PERSON	Lady Catherine de Bourgh
+PERSON	Wickham
+PERSON	Collins
+PERSON	Elizabeth
+ORGANIZATION	de Bourgh Lady Catherine de Bourgh
+PERSON	Collins
+PERSON	Catherine de Bourgh
+PERSON	Anne Darcy
+PERSON	Darcy
+PERSON	Catherine
+PERSON	Miss de Bourgh
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Lady Catherine
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Wickham
+ORGANIZATION	Mrs Philips
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Lydia
+PERSON	Collins
+PERSON	Lydia
+PERSON	Collins
+PERSON	Mrs Philips
+ORGANIZATION	Longbourn House
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Wickham
+PERSON	Jane
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Wickham
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Jane
+PERSON	Mr Bingley
+PERSON	Bingley
+LOCATION	Netherfield
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+LOCATION	Netherfield
+PERSON	Mrs Bennet
+ORGANIZATION	Mr Bingley
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Catherine
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Mary
+ORGANIZATION	Society
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Bingley
+PERSON	Catherine de Bourgh
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Collins
+PERSON	Wickham
+PERSON	Collins
+ORGANIZATION	Hunsford Parsonage
+LOCATION	Rosings
+PERSON	Elizabeth
+PERSON	Collins
+LOCATION	Netherfield
+PERSON	Meryton
+LOCATION	Netherfield
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Kitty
+PERSON	Lydia
+PERSON	Elizabeth
+LOCATION	Netherfield
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Mr Denny
+PERSON	Lydia
+PERSON	Wickham
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Wickham She
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Charlotte Lucas
+PERSON	Collins
+PERSON	Wickham
+PERSON	Charlotte Lucas
+PERSON	Darcy
+PERSON	Charlotte
+PERSON	Darcy
+LOCATION	Charlotte
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	William Lucas
+PERSON	Darcy
+PERSON	Eliza
+LOCATION	Bingley
+PERSON	Darcy
+PERSON	Darcy
+PERSON	William
+PERSON	Bingley
+PERSON	Jane
+PERSON	William
+PERSON	William
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Eliza
+PERSON	George Wickham
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Darcy
+PERSON	George Wickham
+PERSON	Darcy
+PERSON	Darcy
+PERSON	George Wickham
+PERSON	Eliza
+PERSON	Elizabeth
+PERSON	Darcy
+ORGANIZATION	Miss Bingley
+PERSON	Elizabeth
+PERSON	Darcy She
+PERSON	Bingley Jane
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Jane
+PERSON	Wickham
+PERSON	Jane
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Wickham
+LOCATION	Meryton
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Jane
+ORGANIZATION	Bingley
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Lucas
+PERSON	Collins
+PERSON	Miss de Bourgh
+PERSON	Lady Catherine
+PERSON	Catherine de Bourgh
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Lady Catherine de Bourgh
+PERSON	Darcy
+PERSON	Collins
+PERSON	Collins
+PERSON	Darcy
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Jane She
+ORGANIZATION	Bingley
+PERSON	Lady Lucas
+PERSON	Jane
+PERSON	Mrs Bennet
+PERSON	Jane
+PERSON	Jane
+PERSON	Mrs Bennet
+PERSON	Lucas
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Darcy You
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Mrs Bennet
+PERSON	Lady Lucas
+PERSON	Elizabeth
+PERSON	Mary
+PERSON	Mary
+PERSON	Elizabeth
+PERSON	Mary
+PERSON	Mary
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane
+PERSON	Darcy
+PERSON	Mary
+PERSON	Mary
+PERSON	Mary
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Collins
+PERSON	Lady Lucas
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Collins
+PERSON	Lucas
+PERSON	Collins
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Mrs Bennet
+PERSON	Mrs Hurst
+PERSON	Mrs Bennet
+PERSON	Collins
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Bingley
+PERSON	Jane
+PERSON	Elizabeth
+ORGANIZATION	Miss Bingley
+PERSON	Lydia
+PERSON	Mrs Bennet
+LOCATION	Longbourn
+PERSON	Mr Bingley
+PERSON	Bingley
+LOCATION	London
+PERSON	Mrs Bennet
+LOCATION	Netherfield
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Bingley
+LOCATION	Netherfield
+LOCATION	Longbourn
+PERSON	Collins
+PERSON	Mrs Bennet Elizabeth
+PERSON	Madam
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Lizzy
+PERSON	Kitty
+PERSON	Elizabeth
+PERSON	Dear Ma
+PERSON	Collins
+PERSON	Lizzy
+PERSON	Elizabeth
+PERSON	Lizzy
+PERSON	Collins Elizabeth
+PERSON	Mrs Bennet
+PERSON	Kitty
+PERSON	Collins
+PERSON	Elizabeth
+LOCATION	Hertfordshire
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Hunsford
+PERSON	Mrs Jenkinson
+PERSON	de Bourgh
+PERSON	Collins
+PERSON	Hunsford
+PERSON	Catherine de Bourgh
+LOCATION	Longbourn
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Lady Catherine
+PERSON	Lady Catherine
+PERSON	Collins
+PERSON	Collins
+LOCATION	Longbourn
+PERSON	Collins
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	De Bourgh
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Mrs Bennet
+PERSON	Collins
+PERSON	Lizzy
+PERSON	Madam
+PERSON	Collins
+PERSON	Mrs Bennet
+PERSON	Lizzy
+PERSON	Bennet
+PERSON	Bennet
+PERSON	Lizzy
+PERSON	Collins
+PERSON	Bennet
+PERSON	Collins
+PERSON	Lizzy Lizzy
+PERSON	Collins
+PERSON	Collins
+PERSON	Lizzy
+PERSON	Lizzy
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Bennet
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Charlotte Lucas
+PERSON	Lydia
+PERSON	Collins
+PERSON	Lizzy
+PERSON	Charlotte
+PERSON	Kitty
+PERSON	Mrs Bennet
+PERSON	Lucas
+PERSON	Lizzy
+PERSON	Lucas
+PERSON	Charlotte
+PERSON	Jane
+PERSON	Elizabeth Aye
+PERSON	Mrs Bennet
+PERSON	Lizzy
+PERSON	Collins
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Kitty
+PERSON	Lydia
+LOCATION	Charlotte
+PERSON	Collins
+PERSON	Mrs Bennet
+PERSON	Collins My dear Madam
+PERSON	Madam
+PERSON	Bennet
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Lucas
+PERSON	Mrs Bennet
+PERSON	Collins
+PERSON	Elizabeth
+LOCATION	Meryton
+PERSON	Wickham
+LOCATION	Netherfield
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Wickham
+LOCATION	Longbourn
+PERSON	Bennet
+LOCATION	Netherfield
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Jane
+PERSON	Jane
+PERSON	Caroline Bingley
+LOCATION	Netherfield
+LOCATION	Grosvenor
+PERSON	Hurst
+LOCATION	Hertfordshire
+PERSON	Elizabeth
+LOCATION	Netherfield
+PERSON	Bingley
+PERSON	Jane
+PERSON	Bingley
+PERSON	Bingley
+LOCATION	London
+PERSON	Caroline
+LOCATION	Hertfordshire
+LOCATION	London
+PERSON	Charles
+LOCATION	Hertfordshire
+PERSON	Jane
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Georgiana Darcy
+PERSON	Louisa
+PERSON	Charles
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Jane
+PERSON	Caroline
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Jane
+PERSON	Jane
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Miss de Bourgh
+PERSON	Jane
+PERSON	Bingley
+PERSON	Darcy
+ORGANIZATION	Miss Bingley
+PERSON	Jane
+PERSON	Caroline
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Caroline
+PERSON	Jane
+PERSON	Bingley
+LOCATION	Netherfield
+PERSON	Mrs Bennet
+PERSON	Bingley
+LOCATION	Longbourn
+ORGANIZATION	Lucases
+PERSON	Lucas
+PERSON	Collins Elizabeth
+PERSON	Charlotte
+LOCATION	Charlotte
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Lucas
+LOCATION	Hertfordshire
+LOCATION	Longbourn House
+PERSON	Lucas Lodge
+LOCATION	Charlotte
+PERSON	Lucas
+PERSON	Collins
+PERSON	Lucas
+PERSON	William
+PERSON	Lady Lucas
+PERSON	Collins
+PERSON	Lucas
+PERSON	Bennet
+PERSON	William
+PERSON	Collins
+LOCATION	Longbourn
+ORGANIZATION	St James
+LOCATION	Charlotte
+PERSON	Charlotte
+PERSON	Collins
+PERSON	Elizabeth Bennet
+PERSON	Elizabeth
+PERSON	Collins
+LOCATION	Longbourn
+PERSON	Mrs Bennet
+LOCATION	Longbourn
+PERSON	My dear Madam
+PERSON	Bennet
+PERSON	Catherine
+PERSON	Collins
+LOCATION	Hertfordshire
+PERSON	Elizabeth With
+PERSON	Mrs Bennet
+PERSON	Mary
+PERSON	Lucas
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Collins
+LOCATION	Charlotte
+PERSON	Lucas
+PERSON	Eliza
+PERSON	Collins
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Collins
+PERSON	Collins
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Charlotte
+LOCATION	Charlotte
+PERSON	Collins
+PERSON	XXIII Elizabeth
+PERSON	William Lucas
+PERSON	Mrs Bennet
+PERSON	Lydia
+PERSON	William
+PERSON	Collins
+PERSON	Lizzy
+PERSON	William
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	William
+PERSON	Jane
+PERSON	Collins
+LOCATION	Hunsford
+LOCATION	London
+PERSON	Bennet
+PERSON	William
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	William
+PERSON	Lucas
+PERSON	Bennet
+PERSON	Charlotte Lucas
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Kitty
+PERSON	Lydia
+PERSON	Lucas
+PERSON	Collins
+LOCATION	Meryton
+PERSON	Lucas
+PERSON	Mrs Bennet
+LOCATION	Longbourn
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Bingley
+PERSON	Jane
+PERSON	Caroline
+PERSON	Collins
+PERSON	Lucas
+LOCATION	Longbourn
+PERSON	Lady Catherine
+LOCATION	Charlotte
+PERSON	Collins
+LOCATION	Hertfordshire
+PERSON	Mrs Bennet
+LOCATION	Longbourn
+ORGANIZATION	Lucas Lodge
+PERSON	Mrs Bennet
+PERSON	Bingley
+PERSON	Jane
+PERSON	Elizabeth
+LOCATION	Meryton
+LOCATION	Netherfield
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Jane
+PERSON	Darcy
+LOCATION	London
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Jane
+PERSON	Jane
+PERSON	Collins
+LOCATION	Longbourn
+ORGANIZATION	Lucas Lodge
+LOCATION	Longbourn
+PERSON	Mrs Bennet
+PERSON	Lucas
+PERSON	Charlotte
+PERSON	Collins
+LOCATION	Longbourn
+PERSON	Bennet
+PERSON	Bennet
+PERSON	Charlotte Lucas
+PERSON	Mrs Bennet
+PERSON	Bennet
+PERSON	Collins
+PERSON	Bennet
+ORGANIZATION	London Printed for T Egerton Military Library Whitehall
+PERSON	Bingley
+LOCATION	London
+LOCATION	Hertfordshire
+PERSON	Jane
+PERSON	Darcy
+PERSON	Caroline
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Caroline
+PERSON	Darcy
+PERSON	Jane
+PERSON	Bingley
+PERSON	Jane
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+LOCATION	Netherfield
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Nay
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Lizzy
+PERSON	Collins
+PERSON	Charlotte
+PERSON	Charlotte
+PERSON	Jane Mr Collins
+PERSON	Charlotte Lucas
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Bennet
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Lizzy
+PERSON	Jane Now
+LOCATION	Meryton
+PERSON	Wickham
+PERSON	Jane
+PERSON	Bennet
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Bennet
+LOCATION	Hertfordshire
+PERSON	Darcy
+PERSON	Collins
+LOCATION	Charlotte
+LOCATION	Hertfordshire
+LOCATION	Longbourn
+PERSON	Mrs Bennet
+LOCATION	Longbourn
+PERSON	Gardiner
+LOCATION	Netherfield
+PERSON	Mrs Gardiner
+PERSON	Mrs Bennet
+ORGANIZATION	Mrs Philips
+LOCATION	Longbourn
+PERSON	Gardiner
+PERSON	Mrs Bennet
+PERSON	Jane
+PERSON	Jane
+PERSON	Bingley
+PERSON	Lizzy
+PERSON	Collins
+PERSON	Lucas
+LOCATION	Longbourn
+PERSON	Mrs Gardiner
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Elizabeth
+PERSON	Mrs Gardiner
+PERSON	Darcy
+PERSON	Jane
+LOCATION	London
+PERSON	Darcy
+LOCATION	Gracechurch Street
+PERSON	Bingley
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Jane
+PERSON	Jane
+PERSON	Bennet
+PERSON	Caroline
+LOCATION	Longbourn
+LOCATION	Philipses
+ORGANIZATION	Lucases
+PERSON	Mrs Bennet
+PERSON	Wickham
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Elizabeth
+LOCATION	Hertfordshire
+PERSON	Gardiner Wickham
+LOCATION	Derbyshire
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Mrs Gardiner
+PERSON	Pemberley
+PERSON	Darcy
+LOCATION	Pemberley
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Fitzwilliam Darcy
+PERSON	Gardiner
+PERSON	Elizabeth
+PERSON	Lizzy
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Darcy My
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Collins
+LOCATION	Hertfordshire
+PERSON	Jane
+ORGANIZATION	Lucases
+PERSON	Mrs Bennet
+PERSON	Lucas
+PERSON	Elizabeth
+PERSON	Charlotte
+PERSON	Eliza
+LOCATION	Hertfordshire
+PERSON	Kent
+PERSON	Hunsford Elizabeth
+PERSON	Maria
+LOCATION	Charlotte
+PERSON	Eliza
+PERSON	Elizabeth
+PERSON	Elizabeth
+ORGANIZATION	Charlotte
+PERSON	Lady Catherine
+PERSON	Elizabeth
+PERSON	Charlotte
+PERSON	Catherine
+PERSON	Collins
+LOCATION	Hunsford
+PERSON	Rosings
+PERSON	Elizabeth
+PERSON	Jane
+LOCATION	London
+PERSON	Elizabeth
+PERSON	Jane
+LOCATION	Longbourn
+LOCATION	Grosvenor
+PERSON	Bingley
+PERSON	Caroline
+LOCATION	London
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Caroline
+PERSON	Mrs Hurst
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Jane
+PERSON	Bingley
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Bingley
+PERSON	Caroline
+PERSON	Darcy
+PERSON	Bingley
+LOCATION	Netherfield
+LOCATION	Hunsford Pray
+PERSON	William
+PERSON	Maria
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Mrs Gardiner
+PERSON	Kitty
+PERSON	Lydia
+LOCATION	Meryton
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Charlotte
+PERSON	Jane
+LOCATION	Charlotte
+PERSON	William
+LOCATION	London
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Catherine de Bourgh
+PERSON	William Lucas
+PERSON	Maria
+PERSON	Elizabeth
+PERSON	William
+LOCATION	Gracechurch
+PERSON	Gardiner
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Gardiner
+PERSON	Bingley
+LOCATION	Gracechurch
+PERSON	Jane
+PERSON	Mrs Gardiner
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Lizzy
+LOCATION	Derbyshire
+LOCATION	Derbyshire
+LOCATION	Hertfordshire
+PERSON	Lizzy
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Elizabeth
+LOCATION	Hunsford
+LOCATION	Rosings Park
+PERSON	Elizabeth
+PERSON	Collins
+LOCATION	Charlotte
+PERSON	Mrs Collins
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Collins
+LOCATION	Charlotte Once
+LOCATION	Charlotte
+LOCATION	London
+PERSON	Collins
+PERSON	Elizabeth
+LOCATION	Charlotte
+LOCATION	Rosings
+PERSON	Collins
+PERSON	William
+PERSON	Charlotte
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Collins
+PERSON	Charlotte
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Catherine de Bourgh
+PERSON	Maria
+LOCATION	Charlotte
+LOCATION	Rosings
+PERSON	Catherine
+LOCATION	Charlotte
+LOCATION	Hertfordshire
+PERSON	Elizabeth
+PERSON	Charlotte
+PERSON	Collins
+PERSON	Maria
+PERSON	Eliza
+PERSON	Elizabeth
+PERSON	Maria
+PERSON	Elizabeth
+PERSON	Lady Catherine
+PERSON	Maria
+PERSON	Catherine
+PERSON	Mrs Jenkinson
+LOCATION	Charlotte
+PERSON	Charlotte
+PERSON	De Bourgh
+PERSON	Elizabeth
+PERSON	Mr Collins
+PERSON	Charlotte
+PERSON	William
+PERSON	Elizabeth
+PERSON	De Bourgh
+PERSON	Collins
+PERSON	Charlotte
+LOCATION	Rosings
+PERSON	Collins
+PERSON	Catherine
+LOCATION	Rosings
+PERSON	William
+PERSON	Collins
+PERSON	Elizabeth Do
+PERSON	Catherine
+PERSON	Catherine
+PERSON	Catherine
+PERSON	Maria Lucas
+LOCATION	Rosings
+ORGANIZATION	St James
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Lewis De Bourgh
+PERSON	Maria
+PERSON	William
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Collins
+PERSON	Lady Catherine
+PERSON	Mrs Jenkinson
+PERSON	Mrs Collins
+ORGANIZATION	St James
+PERSON	William
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Lady Catherine
+PERSON	Darcy
+PERSON	Maria
+PERSON	De Bourgh
+PERSON	Mrs Jenkinson
+PERSON	Collins
+PERSON	Lady Catherine
+PERSON	Collins
+PERSON	William
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Catherine
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	De Bourgh
+PERSON	Catherine
+PERSON	Mrs Jenkinson
+PERSON	De Bourgh
+PERSON	Maria
+PERSON	Lady Catherine
+LOCATION	Charlotte
+PERSON	Elizabeth
+PERSON	Mrs Collins
+PERSON	Maria
+PERSON	Elizabeth
+PERSON	Mrs Collins
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Collins
+LOCATION	Charlotte
+PERSON	Lewis de Bourgh
+PERSON	Bennet
+LOCATION	London
+PERSON	Elizabeth
+PERSON	Aye
+PERSON	Jenkinson
+PERSON	Mrs Collins
+PERSON	Lady Metcalfe
+PERSON	Pope
+PERSON	Catherine
+PERSON	Bennet Yes Ma
+PERSON	Ma
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Catherine Sir William
+PERSON	Mrs Collins
+PERSON	De Bourgh
+PERSON	Mrs Jenkinson
+PERSON	Mrs Jenkinson
+PERSON	De Bourgh
+PERSON	Catherine
+PERSON	Collins
+PERSON	Ladyship
+PERSON	William
+PERSON	Catherine
+PERSON	Mrs Collins
+PERSON	Catherine
+PERSON	Collins
+PERSON	William
+PERSON	Elizabeth
+LOCATION	Rosings
+LOCATION	Charlotte
+PERSON	Collins
+PERSON	William
+LOCATION	Hunsford
+PERSON	William
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Collins
+LOCATION	Charlotte
+PERSON	Collins
+PERSON	De Bourgh
+LOCATION	Charlotte
+PERSON	Collins
+PERSON	Rosings
+PERSON	Elizabeth
+PERSON	Mrs Collins
+PERSON	Elizabeth
+PERSON	Collins
+LOCATION	Rosings
+PERSON	William
+ORGANIZATION	Collinses
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Catherine
+PERSON	Catherine
+LOCATION	Rosings
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Lady Catherine
+PERSON	Lucas
+PERSON	Collins
+LOCATION	Hunsford Lane
+PERSON	Rosings
+PERSON	Catherine
+PERSON	Darcy
+PERSON	Fitzwilliam
+PERSON	Collins
+LOCATION	Charlotte
+PERSON	Eliza
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Fitzwilliam
+PERSON	Darcy
+LOCATION	Hertfordshire
+PERSON	Mrs Collins
+PERSON	Elizabeth
+PERSON	Fitzwilliam
+PERSON	Mrs Collins
+PERSON	Elizabeth
+LOCATION	Bingleys
+PERSON	Jane
+PERSON	Bennet
+PERSON	Fitzwilliam
+PERSON	Catherine
+PERSON	Fitzwilliam
+PERSON	Darcy
+PERSON	Catherine
+PERSON	Darcy
+LOCATION	Fitzwilliam
+LOCATION	Rosings
+PERSON	Mrs Collins
+PERSON	Kent
+LOCATION	Hertfordshire
+PERSON	Elizabeth
+PERSON	Lady Catherine
+PERSON	Darcy
+PERSON	Madam
+LOCATION	England
+PERSON	Anne
+PERSON	Georgiana
+PERSON	Darcy
+PERSON	Lady Catherine
+PERSON	Madam
+PERSON	Miss Bennet
+PERSON	Mrs Collins
+PERSON	Rosings
+PERSON	Jenkinson
+PERSON	Darcy
+LOCATION	Fitzwilliam
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+LOCATION	Hertfordshire
+PERSON	Fitzwilliam
+LOCATION	Hertfordshire
+PERSON	Darcy
+PERSON	Fitzwilliam
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Fitzwilliam Shall
+LOCATION	Fitzwilliam
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Lady Catherine
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Darcy Miss Bennet
+LOCATION	London
+PERSON	Anne
+PERSON	Anne
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	De Bourgh
+PERSON	Bingley
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Mrs Collins
+PERSON	Maria
+PERSON	Catherine
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Rosings
+LOCATION	Hertfordshire
+LOCATION	Netherfield
+PERSON	Darcy
+PERSON	Bingley
+LOCATION	London
+PERSON	Bingley
+LOCATION	Netherfield
+LOCATION	Netherfield
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Collins
+PERSON	Hunsford
+PERSON	Collins
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Mrs Collins
+LOCATION	Hertfordshire
+LOCATION	Longbourn
+PERSON	Elizabeth
+PERSON	Jane
+LOCATION	Netherfield
+PERSON	Mrs Collins
+PERSON	Darcy
+PERSON	Longbourn Elizabeth
+PERSON	Kent
+LOCATION	Charlotte
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Charlotte
+PERSON	Eliza
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Catherine
+PERSON	Fitzwilliam
+PERSON	Elizabeth
+PERSON	George Wickham
+PERSON	Fitzwilliam
+PERSON	Darcy
+PERSON	Mrs Collins
+PERSON	Fitzwilliam
+PERSON	Eliza
+PERSON	Rosings
+LOCATION	Hunsford
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Mrs Collins
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy She
+LOCATION	Hunsford
+PERSON	Mrs Collins
+PERSON	Kent
+PERSON	Fitzwilliam
+PERSON	Jane
+PERSON	Jane
+PERSON	Darcy
+PERSON	Fitzwilliam
+PERSON	Kent
+PERSON	Darcy
+PERSON	Darcy He
+PERSON	Elizabeth
+LOCATION	Fitzwilliam
+PERSON	Darcy Are
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Mrs Hurst
+ORGANIZATION	Miss Bingley
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+LOCATION	Fitzwilliam
+PERSON	Elizabeth
+PERSON	Fitzwilliam
+PERSON	Darcy
+LOCATION	Fitzwilliam
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Jane
+ORGANIZATION	Miss Bingley
+PERSON	Jane
+PERSON	Fitzwilliam
+LOCATION	London
+PERSON	Jane
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Mr Bingley
+PERSON	Darcy
+LOCATION	Rosings
+PERSON	Mrs Collins
+PERSON	Collins
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Rosings
+PERSON	Jane
+PERSON	Darcy
+PERSON	Kent
+PERSON	Fitzwilliam
+PERSON	Fitzwilliam
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Jane
+PERSON	Wickham
+PERSON	Catherine
+PERSON	Charlotte
+PERSON	XII Elizabeth
+PERSON	Darcy
+PERSON	Kent
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Rosings
+PERSON	Bingley
+PERSON	Wickham Wilfully
+LOCATION	Hertfordshire
+PERSON	Bingley
+LOCATION	Netherfield
+PERSON	William Lucas
+PERSON	Bingley
+PERSON	Bennet
+LOCATION	Netherfield
+LOCATION	London
+LOCATION	London
+PERSON	Bingley
+LOCATION	Hertfordshire
+PERSON	Bingley
+PERSON	Wickham
+PERSON	Wickham
+PERSON	George Wickham
+LOCATION	Cambridge
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Fitzwilliam
+LOCATION	London
+ORGANIZATION	Ramsgate
+PERSON	Wickham
+PERSON	Mrs Younge
+PERSON	Georgiana
+PERSON	Georgiana
+PERSON	Wickham
+PERSON	Mrs Younge
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Fitzwilliam
+PERSON	Elizabeth
+PERSON	Darcy
+LOCATION	Netherfield
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Pemberley
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Wickham
+LOCATION	Hertfordshire
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Fitzwilliam
+PERSON	Fitzwilliam
+PERSON	Darcy
+PERSON	Wickham
+ORGANIZATION	Philips
+PERSON	Darcy
+PERSON	Darcy
+LOCATION	Netherfield
+PERSON	Netherfield
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Jane
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Jane
+PERSON	Jane
+LOCATION	Bingley
+PERSON	Darcy
+PERSON	Charlotte
+PERSON	Jane
+LOCATION	Netherfield
+PERSON	Jane
+PERSON	Rosings
+PERSON	Darcy
+PERSON	Fitzwilliam
+PERSON	Elizabeth
+PERSON	Fitzwilliam
+PERSON	Rosings
+PERSON	Collins
+PERSON	Rosings To Rosings
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Lady Catherine
+PERSON	Catherine
+PERSON	Darcy
+PERSON	Rosings
+PERSON	Collins
+PERSON	Lady Catherine
+PERSON	Bennet
+PERSON	Mrs Collins
+PERSON	Elizabeth
+PERSON	Mrs Collins
+PERSON	Mrs Bennet
+LOCATION	London
+PERSON	Dawson
+PERSON	Catherine
+PERSON	Mrs Collins
+PERSON	Georgiana
+ORGANIZATION	Ramsgate
+PERSON	Darcy
+PERSON	Darcy
+LOCATION	Pemberley
+PERSON	Lady Anne
+PERSON	John
+PERSON	Mrs Collins
+PERSON	Bromley
+ORGANIZATION	Bell
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Catherine
+PERSON	Lydia
+PERSON	Catherine
+PERSON	Lydia
+PERSON	Lydia
+LOCATION	Meryton
+PERSON	Meryton
+LOCATION	Longbourn
+PERSON	Jane
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Jane
+PERSON	Jane
+PERSON	Wickham
+LOCATION	Rosings
+PERSON	Maria
+PERSON	Catherine
+LOCATION	Hunsford
+PERSON	De Bourgh
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Mrs Collins
+PERSON	Hunsford
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Collins
+PERSON	Rosings
+PERSON	Catherine
+ORGANIZATION	Rosings Words
+PERSON	Elizabeth
+LOCATION	Hertfordshire
+PERSON	Lady Catherine
+PERSON	Mrs Collins
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Elizabeth
+PERSON	Poor Charlotte
+PERSON	Elizabeth
+PERSON	Collins
+LOCATION	Longbourn
+PERSON	Mrs Gardiner
+PERSON	Maria
+PERSON	Elizabeth
+PERSON	Maria
+LOCATION	Rosings
+PERSON	Elizabeth
+PERSON	Hunsford
+PERSON	Gardiner
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane
+LOCATION	Longbourn
+PERSON	Longbourn
+PERSON	Darcy
+PERSON	Jane
+LOCATION	Gracechurch
+LOCATION	Hertfordshire
+PERSON	Bennet
+PERSON	Kitty
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Meryton
+PERSON	Elizabeth
+LOCATION	Brighton
+PERSON	Mamma
+PERSON	Elizabeth
+LOCATION	Brighton
+PERSON	Lydia
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Aye
+PERSON	Wickham
+PERSON	Wickham
+LOCATION	Liverpool
+PERSON	Wickham
+PERSON	Mary King
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Kitty
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Jane
+ORGANIZATION	Philips
+PERSON	Lizzy
+PERSON	Collins
+PERSON	Forster
+PERSON	Kitty
+PERSON	Mrs Forster
+PERSON	Forster
+PERSON	Harriet
+PERSON	Pen
+LOCATION	Chamberlayne
+PERSON	Mrs Forster
+PERSON	Kitty
+PERSON	Denny
+PERSON	Wickham
+PERSON	Pratt
+PERSON	Mrs Forster
+PERSON	Lydia
+PERSON	Kitty
+PERSON	Longbourn Elizabeth
+PERSON	Wickham
+PERSON	Bennet
+PERSON	Jane
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Lizzy
+ORGANIZATION	Lucases
+PERSON	Maria
+PERSON	Lucas
+PERSON	Maria
+PERSON	Mrs Bennet
+PERSON	Jane
+PERSON	Lucases
+PERSON	Lydia
+PERSON	Mary
+PERSON	Kitty
+PERSON	Kitty
+PERSON	George
+PERSON	Mary
+PERSON	Lydia
+PERSON	Mary
+PERSON	Lydia
+LOCATION	Meryton
+PERSON	Elizabeth
+PERSON	Wickham
+LOCATION	Brighton
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	George Wickham
+PERSON	Jane
+PERSON	Darcy
+PERSON	Elizabeth You
+PERSON	Darcy
+PERSON	Jane
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Lizzy
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Lizzy
+PERSON	Jane
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Bennet
+PERSON	Darcy
+PERSON	Darcy
+LOCATION	Meryton
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Mrs Bennet
+PERSON	Jane
+ORGANIZATION	Philips
+PERSON	Jane
+LOCATION	London
+LOCATION	Netherfield
+LOCATION	Netherfield
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Lizzy
+ORGANIZATION	Collinses
+LOCATION	Charlotte
+PERSON	Longbourn
+LOCATION	Meryton
+PERSON	Kitty
+PERSON	Lydia
+PERSON	Lizzy
+PERSON	Millar
+PERSON	Lydia
+LOCATION	Brighton
+PERSON	Mrs Bennet
+LOCATION	Brighton
+ORGANIZATION	Philips
+PERSON	Kitty Such
+LOCATION	Longbourn
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Lydia
+PERSON	Mrs Forster
+LOCATION	Brighton
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Mrs Forster
+PERSON	Mrs Bennet
+PERSON	Kitty
+PERSON	Lydia
+PERSON	Kitty
+PERSON	Mrs Forster
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Mrs Forster
+LOCATION	Brighton
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Bennet
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Kitty
+PERSON	Lydia
+PERSON	Bennet
+PERSON	Jane
+LOCATION	Longbourn
+PERSON	Lydia
+LOCATION	Brighton
+PERSON	Forster
+LOCATION	Brighton
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Lydia
+LOCATION	Brighton
+PERSON	Lydia
+LOCATION	Brighton
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Wickham
+LOCATION	Meryton
+LOCATION	Longbourn
+PERSON	Elizabeth
+LOCATION	Hunsford
+PERSON	Fitzwilliam
+PERSON	Darcy
+LOCATION	Rosings
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Elizabeth In
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Mrs Forster
+LOCATION	Meryton
+PERSON	Kitty
+PERSON	Mrs Bennet
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Kitty
+PERSON	Kitty
+PERSON	Jane
+PERSON	Lydia
+PERSON	Kitty
+PERSON	Mrs Forster
+PERSON	Kitty
+LOCATION	Longbourn Everything
+PERSON	Mrs Bennet
+PERSON	June Kitty
+LOCATION	Meryton
+PERSON	Elizabeth
+LOCATION	Meryton
+PERSON	Mrs Gardiner
+PERSON	Gardiner
+LOCATION	London
+LOCATION	Derbyshire
+PERSON	Mrs Gardiner
+PERSON	Matlock Chatsworth Dovedale
+PERSON	Elizabeth
+LOCATION	Derbyshire
+PERSON	Mrs Gardiner
+PERSON	Jane
+LOCATION	Longbourn
+PERSON	Elizabeth
+LOCATION	Derbyshire
+ORGANIZATION	Oxford Blenheim Warwick Kenelworth Birmingham
+LOCATION	Derbyshire
+LOCATION	Lambton
+PERSON	Mrs Gardiner
+PERSON	Lambton Elizabeth
+PERSON	Pemberley
+PERSON	Mrs Gardiner
+PERSON	Gardiner
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Elizabeth
+LOCATION	Pemberley
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Pemberley
+PERSON	Pemberley
+ORGANIZATION	London Printed for T Egerton Military Library Whitehall
+PERSON	Elizabeth
+PERSON	Elizabeth
+ORGANIZATION	Pemberley House
+PERSON	Elizabeth
+PERSON	Pemberley
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Mrs Reynolds
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Mrs Reynolds
+PERSON	Mrs Gardiner
+PERSON	Lizzy
+PERSON	Mrs Reynolds
+PERSON	Elizabeth
+PERSON	Darcy Elizabeth
+PERSON	Ma
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Gardiner
+PERSON	Gardiner
+PERSON	Mrs Reynolds
+LOCATION	Pemberley
+PERSON	Darcy
+PERSON	Elizabeth
+ORGANIZATION	Ramsgate
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Mrs Gardiner Yes Ma
+PERSON	Elizabeth
+PERSON	Mrs Reynolds
+PERSON	Gardiner
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Mrs Reynolds
+PERSON	Elizabeth
+PERSON	Mrs Reynolds
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Darcy
+LOCATION	Longbourn
+LOCATION	Derbyshire
+PERSON	Elizabeth
+PERSON	Rosing
+PERSON	Elizabeth
+ORGANIZATION	Pemberley House
+PERSON	Darcy
+PERSON	Gardiner
+PERSON	Elizabeth
+PERSON	Mrs Gardiner
+PERSON	Gardiner
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Pemberley
+PERSON	Mrs Gardiner
+PERSON	Gardiner Elizabeth
+PERSON	Darcy
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Elizabeth
+LOCATION	Hunsford
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bakewell
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Mrs Gardiner
+PERSON	Matlock
+PERSON	Mrs Gardiner
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Lizzy
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Elizabeth
+LOCATION	Kent
+PERSON	Elizabeth
+PERSON	Mrs Gardiner
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Wickham
+LOCATION	Kent
+PERSON	Wickham
+LOCATION	Hertfordshire
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+ORGANIZATION	Lambton
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+ORGANIZATION	Lambton
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Bingley
+ORGANIZATION	Bingley
+PERSON	Elizabeth
+PERSON	Mrs Gardiner
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Georgiana
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Jane
+PERSON	Netherfield Elizabeth
+PERSON	Darcy
+LOCATION	Hunsford Parsonage
+LOCATION	Netherfield
+LOCATION	Rosings
+LOCATION	Netherfield
+PERSON	Darcy
+PERSON	Mrs Gardiner
+PERSON	Bennet
+LOCATION	Pemberley
+PERSON	Darcy
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Elizabeth
+LOCATION	Hertfordshire
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Mrs Gardiner
+PERSON	Darcy
+PERSON	Darcy
+LOCATION	Hertfordshire
+PERSON	Darcy
+PERSON	Lambton
+PERSON	Wickham
+LOCATION	Derbyshire
+PERSON	Darcy
+PERSON	Elizabeth
+LOCATION	Pemberley
+PERSON	Darcy
+LOCATION	Pemberley
+LOCATION	Pemberley
+PERSON	Elizabeth
+PERSON	Gardiner
+LOCATION	Pemberley
+PERSON	Elizabeth
+PERSON	Bingley
+LOCATION	Pemberley
+PERSON	Darcy
+PERSON	Mrs Hurst
+ORGANIZATION	Miss Bingley
+LOCATION	London
+PERSON	Georgiana
+PERSON	Mrs Gardiner
+PERSON	Mrs Hurst
+ORGANIZATION	Miss Bingley
+PERSON	Mrs Annesley
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Miss Bingley
+PERSON	Darcy
+PERSON	Miss Bingley
+PERSON	Elizabeth
+PERSON	Mrs Annesley
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Gardiner
+PERSON	Georgiana
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+ORGANIZATION	Miss Bingley
+PERSON	Eliza
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Wickham Georgiana
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Georgiana
+PERSON	Elizabeth
+PERSON	Georgiana
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Eliza Bennet
+PERSON	Darcy
+PERSON	Louisa
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Elizabeth
+LOCATION	Hertfordshire
+LOCATION	Netherfield
+PERSON	Darcy
+PERSON	Miss Bingley
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Mrs Gardiner
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Jane
+LOCATION	Lambton
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Lydia An
+PERSON	Forster
+LOCATION	Scotland
+PERSON	Wickham
+PERSON	Kitty
+PERSON	Lizzy
+PERSON	Forster
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Lizzy
+PERSON	Wickham
+PERSON	Lydia
+LOCATION	Scotland
+PERSON	Forster
+LOCATION	Brighton
+PERSON	Lydia
+LOCATION	Gretna Green
+PERSON	Denny
+PERSON	Lydia
+PERSON	Clapham
+LOCATION	London
+LOCATION	London
+LOCATION	Hertfordshire
+LOCATION	Barnet
+PERSON	Hatfield
+LOCATION	Longbourn
+PERSON	Lizzy
+PERSON	Lydia
+PERSON	Poor Kitty
+PERSON	Lizzy
+LOCATION	London
+PERSON	Forster
+PERSON	Forster
+LOCATION	Brighton
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Lydia
+PERSON	Gardiner
+PERSON	Elizabeth
+PERSON	Darcy
+LOCATION	Longbourn
+PERSON	Darcy
+PERSON	Jane
+LOCATION	Brighton
+PERSON	Darcy
+PERSON	Darcy
+LOCATION	Brighton
+LOCATION	London
+LOCATION	Scotland
+LOCATION	London
+PERSON	Jane
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Elizabeth
+LOCATION	Pemberley
+PERSON	Darcy Say
+PERSON	Elizabeth
+LOCATION	Derbyshire
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Lydia
+PERSON	Jane
+PERSON	Wickham
+PERSON	Jane
+PERSON	Wickham
+PERSON	Lydia
+PERSON	Lydia
+LOCATION	Hertfordshire
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Jane
+PERSON	Lydia
+PERSON	Mrs Gardiner
+PERSON	Lydia
+PERSON	Mrs Gardiner
+PERSON	Lydia
+PERSON	Gardiner
+PERSON	Elizabeth
+PERSON	Pemberley
+PERSON	Mrs Gardiner John
+PERSON	Darcy
+PERSON	Elizabeth
+LOCATION	Lambton
+PERSON	Gardiner
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Forster
+PERSON	Elizabeth
+PERSON	Mrs Gardiner
+PERSON	Wickham
+PERSON	Lizzy
+LOCATION	Scotland
+PERSON	Gardiner
+LOCATION	Scotland
+LOCATION	Barnet
+LOCATION	London
+LOCATION	London
+LOCATION	Scotland
+PERSON	Jane
+PERSON	Wickham
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Elizabeth
+LOCATION	Meryton
+PERSON	Wickham
+PERSON	Jane
+PERSON	Wickham
+PERSON	Jane
+PERSON	Jane
+PERSON	Wickham
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Darcy
+LOCATION	Longbourn
+PERSON	Pemberley
+PERSON	Darcy
+PERSON	Lydia
+PERSON	Jane
+LOCATION	Kent
+PERSON	Darcy
+PERSON	Fitzwilliam
+LOCATION	Meryton
+PERSON	Jane
+PERSON	Lydia
+LOCATION	Brighton
+LOCATION	Meryton
+PERSON	Elizabeth
+LOCATION	Longbourn
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane But
+PERSON	Mary
+PERSON	Kitty
+PERSON	Elizabeth You
+PERSON	Mrs Gardiner
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Lydia
+PERSON	Mrs Bennet
+PERSON	Wickham
+LOCATION	Brighton
+PERSON	Lydia
+PERSON	Bennet
+PERSON	Wickham
+ORGANIZATION	Collinses
+PERSON	Gardiner
+LOCATION	London
+PERSON	Bennet
+LOCATION	Brighton
+LOCATION	Gracechurch Street
+PERSON	Mrs Bennet
+PERSON	Lydia
+PERSON	Bennet
+PERSON	Lydia
+PERSON	Gardiner
+PERSON	Mary
+PERSON	Kitty
+PERSON	Kitty As
+PERSON	Mary
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Mary
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Forster
+PERSON	Forster
+PERSON	Lydia
+LOCATION	Scotland
+PERSON	Denny
+PERSON	Wickham
+PERSON	Forster
+PERSON	Denny
+PERSON	Denny
+PERSON	Forster
+PERSON	Kitty
+PERSON	Lydia
+LOCATION	Brighton
+PERSON	Forster
+PERSON	Wickham
+PERSON	Wickham
+LOCATION	Meryton
+PERSON	Jane
+PERSON	Forster
+PERSON	Lydia
+PERSON	Jane
+PERSON	Elizabeth These
+PERSON	Gretna Green
+PERSON	Lydia Wickham
+PERSON	Pratt
+LOCATION	Longbourn
+PERSON	Sally
+PERSON	Forster
+PERSON	LYDIA BENNET
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Mary
+PERSON	Kitty
+PERSON	Kitty
+PERSON	Mary
+ORGANIZATION	Philips
+LOCATION	Longbourn
+PERSON	Lucas
+PERSON	Elizabeth
+PERSON	Jane
+LOCATION	Epsom
+LOCATION	Clapham
+LOCATION	London
+LOCATION	Clapham
+PERSON	Bennet
+PERSON	Gardiner
+PERSON	Bennet
+LOCATION	Longbourn
+PERSON	Gardiner
+LOCATION	Hertfordshire
+PERSON	Mrs Bennet
+PERSON	Wickham
+PERSON	Meryton
+PERSON	Elizabeth
+PERSON	Jane
+LOCATION	Scotland
+PERSON	Gardiner
+LOCATION	Longbourn
+LOCATION	Gracechurch
+PERSON	Bennet
+LOCATION	Epsom
+PERSON	Clapham
+PERSON	Bennet
+LOCATION	London
+PERSON	Gardiner
+PERSON	Bennet
+LOCATION	London
+PERSON	Forster
+PERSON	Wickham
+PERSON	Forster
+PERSON	Lizzy
+PERSON	Elizabeth
+LOCATION	Longbourn
+PERSON	Gardiner
+PERSON	Collins
+PERSON	Jane
+PERSON	Elizabeth
+ORGANIZATION	Hertfordshire Be
+PERSON	Mrs Collins
+LOCATION	Charlotte
+PERSON	Mrs Bennet
+PERSON	Howsoever
+PERSON	Mrs Collins
+PERSON	Catherine
+PERSON	Catherine
+PERSON	Gardiner
+PERSON	Forster
+PERSON	Wickham
+PERSON	Lydia
+PERSON	Forster
+LOCATION	Brighton
+PERSON	Gardiner
+PERSON	Longbourn
+PERSON	Jane
+PERSON	Gardiner
+PERSON	Mrs Bennet
+PERSON	Lydia
+LOCATION	London
+PERSON	Wickham
+PERSON	Mrs Gardiner
+LOCATION	London
+PERSON	Bennet
+PERSON	Longbourn Mrs Gardiner
+PERSON	Elizabeth
+LOCATION	Derbyshire
+PERSON	Mrs Gardiner
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Lydia
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Elizabeth You
+PERSON	Lizzy
+LOCATION	London
+PERSON	Lydia
+LOCATION	London
+PERSON	Kitty She
+PERSON	Lizzy
+PERSON	Bennet
+PERSON	Kitty
+PERSON	Papa
+PERSON	Kitty
+LOCATION	Brighton
+PERSON	Lydia
+LOCATION	Brighton
+LOCATION	Balls
+PERSON	Kitty
+PERSON	Bennet
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Hill
+PERSON	Mrs Hill
+PERSON	Gardiner
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Jane
+LOCATION	Gracechurch
+LOCATION	London
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Wickham
+LOCATION	Haggerston
+LOCATION	Longbourn
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Elizabeth No
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Jane
+PERSON	Lydia
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Gardiner
+PERSON	Wickham
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Mary
+PERSON	Kitty
+PERSON	Mrs Bennet
+PERSON	Mrs Bennet
+PERSON	Jane
+PERSON	Gardiner
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Wickham
+PERSON	Gardiner
+PERSON	Lizzy
+PERSON	Kitty
+PERSON	Hill
+PERSON	Lydia How
+PERSON	Gardiner
+PERSON	Wickham
+PERSON	Mrs Wickham
+PERSON	Jane
+PERSON	Jane
+PERSON	Meryton
+ORGANIZATION	Philips
+PERSON	Lady Lucas
+PERSON	Mrs Long Kitty
+LOCATION	Meryton
+PERSON	Hill My dear Hill
+PERSON	Lydia
+PERSON	Mrs Hill
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Bennet
+PERSON	Lydia
+LOCATION	Great Britain
+PERSON	Bennet
+PERSON	Mrs Bennet
+PERSON	Lydia
+PERSON	Mrs Bennet
+PERSON	Mrs Bennet
+PERSON	Lydia
+PERSON	Bennet
+PERSON	Wickham
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Lydia Bennet
+LOCATION	Meryton
+PERSON	Mrs Bennet
+PERSON	Jane
+PERSON	Haye Park
+ORGANIZATION	Gouldings
+LOCATION	Stoke
+PERSON	Ashworth
+ORGANIZATION	Purvis Lodge
+PERSON	Mrs Bennet
+LOCATION	Longbourn
+PERSON	Bennet
+PERSON	Mrs Bennet
+PERSON	Mrs Bennet
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Lydia
+PERSON	Darcy
+LOCATION	Derbyshire
+PERSON	Wickham
+PERSON	Lydia
+PERSON	Gardiner
+PERSON	Bennet
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Forster
+PERSON	Wickham
+LOCATION	Brighton
+LOCATION	Meryton
+PERSON	Haggerston
+LOCATION	Longbourn
+PERSON	Mrs Gardiner
+PERSON	E GARDINER
+PERSON	Bennet
+PERSON	Wickham
+PERSON	Gardiner
+PERSON	Mrs Bennet
+PERSON	Lydia
+LOCATION	North
+LOCATION	Hertfordshire
+PERSON	Lydia
+PERSON	Mrs Forster
+PERSON	North
+PERSON	Jane
+PERSON	Elizabeth
+LOCATION	Longbourn
+PERSON	Bennet
+PERSON	Longbourn Elizabeth
+PERSON	Wickham
+PERSON	Jane
+PERSON	Elizabeth
+ORGANIZATION	Miss Bennets
+PERSON	Jane
+PERSON	Lydia
+PERSON	Mrs Bennet
+PERSON	Lydia
+PERSON	Wickham
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	William Goulding
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Jane
+PERSON	Lydia
+ORGANIZATION	Mrs Philips
+ORGANIZATION	Lucases
+PERSON	Mrs Wickham
+PERSON	Mrs Hill
+LOCATION	Brighton
+PERSON	Lydia
+ORGANIZATION	Newcastle
+PERSON	Elizabeth
+PERSON	Wickham
+LOCATION	London
+PERSON	Mrs Bennet
+PERSON	Wickham
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Wickham
+PERSON	Elizabeth Lizzy
+PERSON	Elizabeth
+ORGANIZATION	St Clement
+PERSON	Wickham
+PERSON	Wickham
+LOCATION	London
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Elizabeth
+LOCATION	Longbourn
+PERSON	Darcy
+PERSON	Gardiner
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Lydia
+ORGANIZATION	Derbyshire
+PERSON	Wickham
+PERSON	Younge
+PERSON	Darcy
+PERSON	Mrs Younge
+PERSON	Wickham
+PERSON	Wickham
+LOCATION	London
+PERSON	Wickham
+PERSON	Lydia His
+PERSON	Lydia
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Lydia
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Darcy
+LOCATION	Gracechurch
+PERSON	Gardiner
+PERSON	Darcy
+PERSON	Lizzy
+PERSON	Lizzy
+PERSON	Jane
+PERSON	Wickham
+PERSON	Lizzy
+LOCATION	Pemberley
+LOCATION	London
+PERSON	Lydia
+PERSON	Wickham
+LOCATION	Hertfordshire
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Darcy
+PERSON	Lydia
+PERSON	Lizzy
+LOCATION	Derbyshire
+PERSON	GARDINER
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Wickham Brother
+LOCATION	Wickham Every
+PERSON	Lydia
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Mrs Bennet
+PERSON	Lydia
+LOCATION	Meryton
+ORGANIZATION	Newcastle
+PERSON	Poor Reynolds
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Miss de Bourgh
+PERSON	Elizabeth
+ORGANIZATION	Lambton
+LOCATION	Gardiners
+LOCATION	Kympton
+PERSON	Darcy
+LOCATION	Kent
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Mrs Bennet
+LOCATION	Newcastle
+PERSON	Lydia
+PERSON	Wickham
+PERSON	Bennet
+PERSON	William Lucas
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Lydia
+LOCATION	Netherfield
+PERSON	Mrs Bennet
+PERSON	Jane
+PERSON	Bingley
+PERSON	Mrs Philips
+LOCATION	Netherfield
+PERSON	Mrs Nicholls
+LOCATION	Meryton
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Lizzy
+PERSON	Elizabeth
+LOCATION	Derbyshire
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Mrs Bennet
+LOCATION	Netherfield
+PERSON	Mrs Long
+ORGANIZATION	Gouldings
+PERSON	Bingley
+PERSON	Jane
+LOCATION	Netherfield
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Mrs Bennet
+LOCATION	Hertfordshire
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Kitty
+PERSON	Kitty
+PERSON	Mr
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Jane
+PERSON	Elizabeth
+LOCATION	Derbyshire
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Mrs Gardiner
+PERSON	Jane
+PERSON	Jane
+LOCATION	Netherfield
+LOCATION	Longbourn
+LOCATION	Derbyshire
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Elizabeth
+LOCATION	Hertfordshire
+LOCATION	Bingley
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Mrs Gardiner
+LOCATION	Derbyshire
+PERSON	Jane
+PERSON	Bingley
+PERSON	Mrs Bennet
+LOCATION	Michaelmas
+PERSON	Lucas
+ORGANIZATION	Times
+PERSON	George Wickham Esq
+PERSON	Lydia Bennet
+PERSON	Gardiner
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Darcy
+ORGANIZATION	Mr Bingley
+ORGANIZATION	Newcastle
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane
+PERSON	Mrs Bennet
+LOCATION	Longbourn
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth Now
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Mrs Bennet
+LOCATION	Bingley
+LOCATION	Longbourn
+PERSON	Elizabeth
+ORGANIZATION	Bingley
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Darcy
+LOCATION	Pemberley
+PERSON	Mrs Annesley
+PERSON	Scarborough
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+LOCATION	Netherfield
+PERSON	Lucas
+PERSON	Darcy
+PERSON	Jane
+PERSON	Mrs Long
+PERSON	Ah Mrs Bennet
+LOCATION	Netherfield
+PERSON	Mrs Long
+PERSON	Mrs Bennet
+PERSON	Bingley
+PERSON	Jane
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Lizzy
+PERSON	Bingley
+LOCATION	London
+PERSON	Mrs Bennet
+PERSON	Mrs Bennet
+PERSON	Jane
+PERSON	Bingley
+PERSON	Sarah
+PERSON	Bennet
+PERSON	Lizzy
+PERSON	Jane
+PERSON	Kitty
+PERSON	Kitty
+PERSON	Jane
+PERSON	Bennet
+PERSON	Mary
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Kitty
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Lizzy
+PERSON	Elizabeth
+PERSON	Kitty
+PERSON	Elizabeth
+PERSON	Kitty
+PERSON	Bennet
+PERSON	Bingley
+PERSON	Mrs Bennet
+PERSON	Jane
+ORGANIZATION	Bingley
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bingley
+PERSON	Bennet
+LOCATION	Bingley
+PERSON	Bingley
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Kitty Elizabeth
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Bennet
+PERSON	Kitty
+PERSON	Mrs Bennet
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Jane
+PERSON	Jane
+PERSON	Bennet
+PERSON	Jane
+LOCATION	Hertfordshire
+PERSON	Wickham Lydia
+PERSON	Jane
+PERSON	Mary
+LOCATION	Netherfield
+PERSON	Kitty
+LOCATION	Longbourn
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Jane
+PERSON	Elizabeth But
+PERSON	Elizabeth
+ORGANIZATION	Miss Bingley
+PERSON	Lizzy
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane Oh Lizzy
+PERSON	Collins
+PERSON	Longbourn
+PERSON	Mrs Bennet
+ORGANIZATION	Mrs Philips
+LOCATION	Meryton The Bennets
+PERSON	Lydia
+PERSON	Bingley
+PERSON	Jane
+ORGANIZATION	Bingley
+PERSON	Bennet
+PERSON	Catherine de Bourgh
+PERSON	Mrs Bennet
+PERSON	Kitty
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Catherine She
+PERSON	Catherine
+PERSON	William Lucas
+PERSON	Mrs Bennet
+PERSON	Mrs Collins
+PERSON	Elizabeth
+LOCATION	Charlotte
+PERSON	Mrs Bennet
+PERSON	Lady Catherine
+PERSON	Elizabeth Miss Bennet
+PERSON	Elizabeth
+PERSON	Lady Catherine
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Elizabeth Bennet
+PERSON	Darcy
+PERSON	Elizabeth
+LOCATION	Longbourn
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Bennet
+PERSON	Darcy
+PERSON	Lady Catherine
+PERSON	De Bourgh
+PERSON	De Bourgh You
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Catherine
+PERSON	Bennet
+PERSON	Darcy
+PERSON	Lady Catherine
+PERSON	Catherine
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Catherine
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Lady Catherine
+ORGANIZATION	Collinses
+PERSON	Meryton
+PERSON	Lizzy Elizabeth
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Rosings
+PERSON	Darcy It
+PERSON	Elizabeth
+LOCATION	Bingley
+PERSON	Jane
+PERSON	Lucas
+ORGANIZATION	Collinses
+PERSON	Catherine
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Bingley
+LOCATION	Netherfield
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Lizzy
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Collins
+PERSON	Mrs Collins
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Lizzy
+PERSON	Elizabeth
+PERSON	Lizzy
+PERSON	Catherine de Bourgh
+PERSON	Darcy
+PERSON	Lizzy
+ORGANIZATION	Lucases
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Lydia
+LOCATION	Longbourn
+PERSON	Charlotte
+PERSON	Lizzy
+PERSON	Elizabeth
+PERSON	Collins
+PERSON	Wickham
+PERSON	Lizzy
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Mr Bingley
+PERSON	Darcy
+LOCATION	Longbourn
+PERSON	Catherine
+PERSON	Mrs Bennet
+PERSON	Bingley
+PERSON	Jane
+PERSON	Mrs Bennet
+PERSON	Mary
+PERSON	Bingley
+PERSON	Jane
+PERSON	Elizabeth Kitty
+PERSON	Darcy
+PERSON	Kitty
+PERSON	Elizabeth
+ORGANIZATION	Lucases
+PERSON	Kitty
+PERSON	Maria
+PERSON	Elizabeth
+PERSON	Kitty
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Mrs Gardiner
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Elizabeth
+LOCATION	London
+LOCATION	Longbourn
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Georgiana
+LOCATION	Derbyshire
+PERSON	Bingley
+PERSON	Jane
+PERSON	Darcy
+PERSON	Elizabeth Not
+LOCATION	London
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Elizabeth
+PERSON	Bingley
+LOCATION	Bingley
+PERSON	Lizzy
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane Though
+PERSON	Bennet
+PERSON	Darcy
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Jane My dear dear Lizzy
+PERSON	Bingley
+PERSON	Lizzy
+PERSON	Jane
+PERSON	Bennet
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Lizzy
+LOCATION	Pemberley
+PERSON	Lambton
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Lydia
+PERSON	Mrs Bennet
+PERSON	Darcy
+PERSON	Lizzy
+LOCATION	Bingley
+PERSON	Elizabeth
+PERSON	Bingley
+PERSON	Bennet
+PERSON	Lizzy
+PERSON	Darcy
+PERSON	Lizzy
+PERSON	Kitty
+PERSON	Mrs Bennet
+LOCATION	Oakham Mount
+PERSON	Darcy
+PERSON	Bingley
+ORGANIZATION	Kitty Wont it Kitty Kitty
+PERSON	Darcy
+LOCATION	Mount
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Lizzy
+PERSON	Jane
+PERSON	Bennet
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Bennet
+PERSON	Darcy
+PERSON	Darcy
+PERSON	Kitty
+PERSON	Lizzy
+PERSON	Darcy
+PERSON	Jane But
+PERSON	Elizabeth
+PERSON	Lizzy
+PERSON	Lizzy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Lizzy
+PERSON	Mr Darcy
+PERSON	Lydia He
+PERSON	Darcy
+PERSON	Collins
+PERSON	Mary
+PERSON	Kitty
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Darcy Who
+PERSON	Lizzy
+PERSON	Jane
+PERSON	Lizzy
+PERSON	Lizzy
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Mrs Bennet
+PERSON	Elizabeth
+PERSON	Bennet
+PERSON	Wickham
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Mr Darcy
+PERSON	Jane
+LOCATION	Netherfield
+PERSON	Jane
+PERSON	Lydia
+PERSON	Catherine
+PERSON	Catherine
+LOCATION	Netherfield
+LOCATION	Longbourn
+LOCATION	Bingley
+PERSON	Catherine
+PERSON	Elizabeth But
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Mrs Gardiner
+PERSON	Jane
+PERSON	Darcy
+LOCATION	Pemberley
+PERSON	Darcy
+PERSON	Lady Catherine
+PERSON	Bennet
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Darcy Console Lady Catherine
+PERSON	Bingley
+PERSON	Jane
+PERSON	Jane
+PERSON	Darcy
+PERSON	Collins
+PERSON	Elizabeth
+PERSON	Longbourn
+PERSON	Lucas
+PERSON	Lady Catherine
+LOCATION	Charlotte
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	William Lucas
+ORGANIZATION	St James
+PERSON	William
+PERSON	Mrs Philips
+PERSON	Mrs Philips
+PERSON	Bingley
+PERSON	Elizabeth
+LOCATION	Pemberley
+PERSON	Mrs Bennet
+PERSON	Mrs Bingley
+PERSON	Mrs Darcy
+PERSON	Bennet
+PERSON	Bingley
+PERSON	Jane
+LOCATION	Netherfield
+LOCATION	Meryton
+LOCATION	Derbyshire
+PERSON	Jane
+PERSON	Elizabeth
+PERSON	Kitty
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Lydia
+PERSON	Mrs Wickham
+PERSON	Mary
+PERSON	Mrs Bennet
+PERSON	Mary
+PERSON	Wickham
+PERSON	Lydia
+PERSON	Elizabeth
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Lydia
+PERSON	Darcy
+PERSON	Wickham
+PERSON	Wickham
+PERSON	Darcy
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Darcy
+LOCATION	Pemberley
+PERSON	Elizabeth
+PERSON	Lydia
+LOCATION	London
+PERSON	Bingley
+PERSON	Bingley
+PERSON	Darcy
+LOCATION	Pemberley
+PERSON	Georgiana
+PERSON	Darcy
+PERSON	Elizabeth Pemberley
+PERSON	Georgiana
+PERSON	Darcy
+PERSON	Georgiana
+PERSON	Elizabeth
+PERSON	Elizabeth
+PERSON	Catherine
+PERSON	Elizabeth
+PERSON	Elizabeth
+LOCATION	Pemberley
+PERSON	Darcy
+PERSON	Elizabeth
+LOCATION	Derbyshire
+LOCATION	United States
+LOCATION	United States
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg
+PERSON	Gutenberg
+PERSON	Gutenberg
+PERSON	Gutenberg
+PERSON	Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation the Foundation
+ORGANIZATION	PGLAF
+LOCATION	United States
+LOCATION	United States
+LOCATION	United States
+PERSON	Gutenberg
+PERSON	Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Gutenberg tm License
+LOCATION	United States
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Foundation
+LOCATION	United States
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg tm License
+PERSON	Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg License
+PERSON	Gutenberg
+LOCATION	United States
+ORGANIZATION	Project Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg tm License
+ORGANIZATION	Project Gutenberg tm License
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg tm License
+PERSON	Gutenberg
+ORGANIZATION	Plain Vanilla ASCII
+ORGANIZATION	Project Gutenberg tm License
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation Royalty
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+PERSON	Michael Hart
+ORGANIZATION	Project Gutenberg tm trademark Contact the Foundation
+ORGANIZATION	Project Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Foundation
+PERSON	Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Mission of Project Gutenberg tm Project Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+ORGANIZATION	Foundation
+ORGANIZATION	Project Gutenberg Literary Archive Foundation The Project Gutenberg Literary Archive Foundation
+LOCATION	Mississippi
+ORGANIZATION	Internal Revenue Service The Foundation
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+ORGANIZATION	Foundation
+LOCATION	Melan Dr S Fairbanks AK
+LOCATION	West Salt Lake City UT
+PERSON	Gregory B Newby
+ORGANIZATION	Project Gutenberg Literary Archive Foundation Project Gutenberg
+ORGANIZATION	IRS The Foundation
+LOCATION	United States
+LOCATION	United States
+ORGANIZATION	General Information About Project Gutenberg
+PERSON	Michael S Hart
+ORGANIZATION	Project Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation

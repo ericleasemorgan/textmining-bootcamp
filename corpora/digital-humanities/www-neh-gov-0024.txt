@@ -1,0 +1,728 @@
+
+
+
+
+
+  
+
+    
+      
+      Skip to main content
+    
+
+
+        
+    
+
+	
+    
+    
+              
+                                    
+                [image: National Endowment for the Humanities logo]                              
+ 
+                              
+ 
+                	    	      
+	        Secondary Menu
+
+	        	Events
+	Humanities Magazine
+	Staff Directory
+
+	      
+ 
+	                  
+
+  
+ Search this site: 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                      
+  
+
+    
+    	
+		
+			YouTube
+	
+	
+		
+			Twitter
+	
+	
+		
+			Facebook
+	
+	
+		
+			Instagram
+	
+	
+		
+			Snapchat
+	
+	
+		
+			NEH Gov Delivery
+	
+
+
+
+
+    
+  
+
+
+ 
+
+ 
+          
+ 
+	
+
+	
+			    	      
+	        Main Menu
+
+	        	Home
+	About NEH
+	Grants
+	Divisions and Offices
+	News
+	Explore
+
+	      
+ 
+	        
+
+    
+
+    
+    
+
+
+    
+        
+    
+    
+          
+        You are here:
+
+        Home  /  Divisions and Offices  /  Office of Digital Humanities      
+ 
+    
+    
+            
+  
+
+    
+    Office of Digital Humanities
+
+
+
+    
+  
+
+
+ 
+
+ 
+    
+    
+      
+        
+        
+        
+                      
+													Grant News
+
+										
+						
+																	
+						Grant Announcement for Humanities High Performance Computing Program						
+			 									
+				            
+
+                    
+            		
+
+
+
+
+
+  
+
+      
+    
+
+  
+  
+    	
+  		
+  			December 1, 2008
+								 | By Brett Bobley				
+  		
+
+		
+			
+        
+    	
+	      	[image: PRINT]PRINT
+	Email
+
+
+	      
+
+    
+
+    
+		            								
+	
+		On November 18, I gave a presentation at the Supercomputing 2008 conference in Austin, Texas and announced the winners of the NEH/Department of Energy Humanities High Performance Computing program.
+
+These grants provide computer time on DOE machines at the National Energy Research Scientific Computing Center (NERSC) at DOE’s Lawrence Berkeley National Laboratory, as well as training and support to enable scholars to take full advantage of those resources in accordance with the DOE High-End Computing Revitalization Act of 2004 (P.L. 108–423) which authorized the Department to “provide for sustained access by the research community in the United States to high-end computing systems and to Leadership Systems, including provision of technical support for users of such systems.”
+
+The grants announced were:
+
+	
+		The Perseus Digital Library at Tufts University for its project Large-Scale Learning and the Automatic Analysis of Historical Texts. The Perseus project will be using advanced computational linguistic technologies to experiment with the analysis of ancient texts for the study of classics and other fields.
+	
+		The University of California, San Diego for its project Visualizing Patterns in Databases of Cultural Images and Video. UC San Diego will be creating computerized visualizations of large databases of digitized cultural heritage materials and performing statistical analyses on the data to discover new ways of studying art and culture.
+	
+		The Institute for Advanced Technology in the Humanities at the University of Virginia for its project High Performance Computing for Processing and Analysis of Digitized 3-D Models of Cultural Heritage. IATH will process previously-acquired raw datasets of culturally valuable objects such as artistic statuary, archaeological artifacts, and historical architecture in order to create highly accurate 3-D models for the study of art and architecture.
+
+
+I was very impressed with the Supercomputing 2008 conference. There was a huge turnout – nearly 10,000 attendees, I believe. Kevin Franklin from I-CHASS was kind enough to introduce me to a number of people from various supercomputing centers that were in attendance. I must say that I was happy to hear so many people talking about the humanities and how high performance computing might be a useful tool for some of the work that humanists do. In fact, after my talk, the NCSA (National Center for Supercomputing Applications) at the University of Illinois announced that they will also be making one million hours available for the humanities. There seems to be a lot of excitement in this space.
+
+
+						
+										
+		
+        
+	
+
+  
+	
+			    
+		    Keywords: 	high performance computing
+
+
+ 	    
+
+										
+	
+
+
+	
+
+	
+		
+		
+	      	[image: PRINT]PRINT
+	Email
+
+
+	      
+
+	
+
+		
+
+
+
+
+        
+ 
+
+              
+
+      
+ 
+
+                
+  
+
+    
+    	Divisions and Offices Home
+	Education Programs
+	Preservation and Access
+	Public Programs
+	Research Programs
+	Federal/State Partnership
+	Challenge Grants
+	Office of Digital Humanities	About ODH
+	ODH Staff
+	Featured Projects
+	Grant News
+	In the Field
+	Institutes
+
+
+
+
+
+
+
+
+    
+  
+
+
+ 
+  
+  
+
+          ODH Resources
+
+    
+    	Resource Library
+	HHPC
+
+
+
+
+
+    
+  
+
+
+ 
+  
+  
+
+    
+    Subscribe Keep up-to-date with Division news.
+
+
+
+    
+  
+
+
+ 
+  
+  
+
+          Grant Programs
+
+    
+    	Current
+	Passed
+
+
+    
+  
+  
+      
+        
+      
+  
+  
+        
+          Digital Humanities Advancement Grants
+
+
+Deadline: 
+June 5, 2018
+    
+  
+
+ 
+  
+
+  
+      
+  
+  
+        
+          Humanities Open Book Program
+
+
+Deadline: 
+September 26, 2018
+    
+  
+
+ 
+  
+
+  
+      
+  
+  
+        
+          Institutes for Advanced Topics in the Digital Humanities
+
+
+Deadline: 
+March 12, 2019
+    
+  
+
+ 
+  
+
+ 
+    
+
+  
+  
+  
+  
+      
+      View All » 
+    
+
+  
+  
+ 
+
+
+    
+  
+  
+      
+        
+      
+  
+  
+        
+          Digging Into Data Challenge
+
+
+Deadline: 
+June 29, 2016
+    
+  
+
+ 
+  
+
+ 
+    
+
+  
+  
+  
+  
+      
+      View All » 
+
+    
+
+  
+  
+ 
+
+
+
+
+
+
+    
+  
+
+
+ 
+  
+  
+
+    
+    
+    
+  
+  
+      
+        
+      
+  
+  
+        
+          Contact Information
+
+
+Email: odh@neh.gov
+
+    
+  
+
+ 
+  
+
+ 
+    
+
+  
+  
+  
+  
+  
+  
+ 
+
+
+
+    
+  
+
+
+ 
+
+ 
+      
+          
+
+    
+ 
+
+    
+	
+
+        
+    
+	
+ 
+
+
+  
+ 
+	
+	
+	      
+                    
+  
+
+    
+    
+	
+			
+				Edsitement
+	
+				Standing Together
+	
+				Chronicling America
+	
+				Created Equal
+
+
+	
+
+
+
+
+
+	
+			
+				About NEH
+	
+				Contact NEH
+	
+				National Council on the Humanities
+	
+				State Humanities Councils
+	
+				Awards and Honors
+	
+				Budget, Performance, and Legal Information
+	
+				Plain Writing at NEH
+	
+				Office of the Inspector General
+	
+				Equal Employment Opportunities
+	
+				Career Opportunities
+	
+				Website Disclaimers
+	
+			
+
+
+	
+
+
+	
+			
+				Grants
+	
+				Search for a Grant
+	
+				Not sure what to do? Let us help you...
+	
+				Become a Peer Reviewer
+	
+				Manage Your Grant
+	
+				The Application Review Process
+	
+				Brand Materials
+
+
+	
+
+
+	
+			
+				Divisions and Offices
+	
+				Education Programs
+	
+				Preservation and Access
+	
+				Public Programs
+	
+				Research Programs
+	
+				Federal/State Partnership
+	
+				Office of Challenge Grants
+	
+				Office of Digital Humanities
+
+
+	
+
+
+	
+			
+				News
+	
+				Press Releases
+	
+				News Archive
+	
+				NEH in the News
+	
+				NEH Impact Reports
+	
+				Events
+	
+				Humanities
+	
+				Back Issues
+	
+				Subscribe
+	
+				Magazine Staff
+	
+				Explore
+
+
+	
+
+
+
+
+
+		
+			Contact Us
+	
+			
+				
+					National Endowment 
+
+					for the Humanities 
+
+					400 7th Street SW 
+
+					Washington, DC 20506
+
+
+				
+					General Information
+
+					1-800-NEH-1121
+
+					202-606-8400
+
+
+				
+					Federal Relay (TTY Users):
+
+					800-877-8399
+
+
+				
+					questions[at]neh[dot]gov
+
+			
+
+		
+	
+			Connect With Us
+	
+				
+					
+						YouTube
+
+				
+	
+					
+						Twitter
+
+				
+	
+					
+						Facebook
+
+				
+	
+					
+						NEH Social Media
+
+				
+
+
+		
+
+
+
+
+
+
+	
+		www.neh.gov
+
+
+	
+		FOIA | No Fear Act | Office of the Inspector General | Accessibility | Privacy Policy and Terms of Use | Website Disclaimers | Open Gov | Plain Writing at NEH
+
+
+
+
+
+    
+  
+
+
+ 
+
+ 
+                              
+ 
+		
+
+	
+ 
+
+
+  
+
+
+    
+    
+    
+

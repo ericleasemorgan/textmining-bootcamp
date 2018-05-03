@@ -1,0 +1,488 @@
+
+
+
+  	dhresourcesforprojectbuilding
+
+
+
+      
+    log inhelp
+
+
+
+
+  
+  
+      
+      
+        Get a free wiki
+         | 
+        Try our free business product
+      
+    
+
+  
+
+
+
+    
+          	Wiki
+	Pages & Files
+
+
+    
+    
+      
+    
+
+  
+
+
+	
+        
+    
+      
+        
+          View
+
+                      Edit
+
+          					
+
+        
+
+      
+
+            
+        
+
+        
+        		
+		
+              
+                              
+                                  To edit this page,
+
+                  request access to the workspace.                
+
+                Already have an account? Log in!
+
+                                            
+
+            
+
+
+      
+
+      
+      	 	
+                          
+  
+      Guides and Introductions
+      (redirected from Guides)
+  
+
+    
+      
+      Page history
+    
+        last edited
+    by Alan Liu 8 months, 2 weeks ago
+    
+
+  
+
+  
+  
+    
+
+
+    
+
+    
+    
+	[image: Digital Humanities projects collage]	
+ 
+
+ 
+
+DH  
+Toychest  
+
+	 
+ 
+
+ 
+
+Digital Humanities Resources for Project Building  — Guides to DH
+
+
+
+	 	 	
+
+(curated by Alan Liu)
+
+
+
+(DH Toychest started 2013; last update 2017)
+
+
+
+
+
+ Guides to Digital Humanities | Tutorials | Tools | Examples | Data Collections & Datasets
+
+ 
+Guides and Introductions to DH
+
+
+
+Guides and Introductions to DH
+
+Contents: General Guides & Resources | Orientation on the Field | Getting Started | Creating and Maintaining an Online Scholarly Presence (Academic Blogging | Academic Twitter) | DH Project-Making | Digitization | Citing Digital Resources | Teaching Guides | The Job Market for DH Graduate Students | Evaluating DH Scholarship for Academic Promotion and Tenure
+
+ 
+
+	General Guides & Resources
+
+
+	CUNY Digital Humanities Resource Guide
+	Digital Humanities Keywords (in-progress online collection of essays on key concepts and words in DH) 
+	Morgan Paige, What Digital Humanists Do ("basic introduction to some of the major DH activities";   organized by project type) (2013)
+	Miriam Posner
+
+	 "How Did They Make That?" (2013)
+	"Tutorials and Introductions" to Digital Humanities (2014) 
+
+	Andrew Robichaud and Cameron Blevins, "Humanities 3.0: Tooling Up for Digital Humanities" (2011)
+	Simpson Center for the Humanities (U. Washington), Resources for Digital Humanities
+	UCLA Center for Digital Humanities, Intro to Digital Humanities (expansive resources based on Johanna Drucker and David Kim's DH 101  course at UCLA; includes concepts & readings, tutorials, exercises,  student projects, and advanced topics)
+	TaDiRAH. (see also about TaDiRAH) (taxonomy of   digital-humanities activities, objects, and techniques)
+
+
+	Orientation on the Field (selected) 
+
+	A Companion to Digital Humanities, ed. Susan Schreibman, Ray Siemens, and John Unsworth (Blackwell, 2004) [full text online]
+	A Companion to Digital Literary Studies, ed. Ray Siemens and Susan Schreibman (Blackwell, 2007) [full text online]
+	Debates in the Digital Humanities, ed. Matthew K. Gold (U. Minnesota Press, 2012) [full text online] 
+	DH- and New Media-friendly Journals (journals known for publications related to digital humanities and new media studies) 
+	History of Digital Humanities Field:
+
+	Susan Hockey, "The History of Humanities Computing" (2004)
+	John Unsworth, "What’s 'Digital Humanities' and How Did It Get Here?" (2012)
+	Meredith Hindley, "The Rise of the Machines--NEH and the Digital Humanities: The Early Years" (2013) 
+	Matthew G. Kirschenbaum, "What is Digital Humanities and What's It Doing in English Departments?" [PDF] (2010)
+
+
+	Getting Started with Digital Humanities
+
+	DevDH.org lessons on getting started in DH
+	Crystal S. Anderson, "Digital Humanities for the Rest of Us" (2016) (on taking "baby steps" into DH) 
+	Mary Axford, Discipline-Specific Tools: Digital Humanities (2014)
+
+	1 - What’s the Right Toolset for Digital Humanities?
+	2 - Literature
+	3 - History 
+
+	Andrew Goldstone, "Notes on Using Digital Media for First-Year Graduate Students" (2016) ("My department asked me to meet with our first-year Ph.D. students to talk about “Using Digital Media” in their scholarly lives. It was interesting to try to sketch an outline of what I thought a starting English Ph.D. student should hear on the topic, and I thought I’d post a copy of that outline here...")
+	Adeline Koh, "Introducing Digital Humanities Work to Undergraduates: An Overview" (2014) ("brief overview of an assortment of digital humanities projects that can be implemented in primarily undergraduate-focused institutions")
+	Paige Morgan, "How to Get a Digital Humanities Project Off the Ground" (2014) 
+	Trevor Owens, "Where to Start? On Research Questions in The Digital Humanities" (2014) 
+	Lisa Spiro, "Getting Started in Digital Humanities" (2011)
+	George H. Williams, "The Question of Inclusion in the Digital Humanities" (includes sections on Starting Places and Readings for beginners in DH) 
+
+
+	Creating and Maintaining an Online Scholarly Presence
+
+	Gerald R. Lucas, "Social Media: Top Ten Practices" (2013) ("My list of best practices for faculty in higher education teaching with social media") 
+	Kelli Marshall, "How to Curate Your Digital Identity as an Academic" (2015) 
+	Academic/Professional Blogging
+
+	Tim Hitchcock, "Doing It In Public: Impact, Blogging, Social Media and the Academy" (2014)
+	Rohan Maitzen, "Blogging: Accept No Substitutes!" (2013)
+	Ernesto Priego, "Some Tips for WordPress.com Beginners" (2014)
+	Writing For Research, "How to Write a Blogpost From Your Journal Article" (2015) 
+	See also: Jenny Davis on citing blogs in academic research (2013) 
+
+	Academic/Professional Twitter 
+
+	Ryan Cordell, "How to Start Tweeting (and Why You Might Want To)"  [paywalled; UCSB students have free access through UCSB Library Proxy server 
+	Dorothy Bishop, "A Gentle Introduction to Twitter for the Apprehensive Academic 
+	Christopher Long, "The Tweeting Graduate Student"
+	See also these posts and resources on academic tweeting: Tim Hitchcock on the importance of the academic use of Twitter and blogs (2014); Carl Straumsheim, "Twitter Has the Chatter" (2014)
+
+
+	DH Project-Making
+
+	Johanna Drucker, Workflow for Planning Digital Projects [PDF] (2014)
+
+
+	Digitization
+
+	Stephanie Routhier Perry, "Digitization and Digital Preservation: A Review of the Literature" (2014) (introduction to concepts, methods, techniques for digitizing resources)
+
+
+
+    
+
+  
+  
+
+
+  
+
+
+  
+        	
+  Guides and Introductions
+
+      
+    	
+      
+
+
+      	
+      
+			  
+					     Page Tools
+
+                    
+      
+        Insert links
+
+        Insert links to other pages or uploaded files.
+
+      
+
+      
+        Pages
+        Images and files
+      
+
+  
+      
+          
+            Insert a link to a new page
+
+            	 Loading...
+
+
+
+          
+
+          
+                            	No images or files uploaded yet.
+
+
+			        Insert image from URL
+
+          
+
+	    
+
+    
+
+			  
+
+        
+            Tip: To turn text into a link, highlight the text, then click on a page or file from the list above.
+        
+
+		  
+
+
+	
+
+ 
+
+
+  
+
+
+  
+
+  
+
+
+
+  
+    Comments (0)
+      
+
+  [bookmark: comments]
+  
+
+
+
+
+
+You don't have permission to comment on this page.
+
+
+
+
+
+  
+  
+    Printable version
+  
+
+
+
+
+
+                      	 
+
+
+
+      
+        
+          
+
+          
+
+        
+
+        
+
+
+
+  
+    PBworks  / Help
+
+    Terms of use / Privacy policy
+  
+
+
+
+
+  
+        About this workspace
+            
+
+    Contact the owner /         RSS feed /     This workspace is public
+  
+
+
+
+
+        
+          
+
+          
+
+        
+
+      
+
+    
+
+  	
+      
+    
+      
+
+      
+    
+
+      
+                        
+      Join this workspace
+
+
+      
+        
+
+                     
+                          To join this workspace,
+              request access.            
+
+            Already have an account? Log in!
+
+                              
+
+      
+
+      
+
+      
+
+    
+
+      
+              
+  Navigator
+ 
+  
+    Loading…
+
+  
+
+ 
+
+
+                
+  SideBar
+ 
+    
+      Home
+
+
+Guides & Intros
+
+Tutorials
+
+DH Tools
+
+DH Examples
+
+Data Collections & Datasets
+
+
+Alan Liu's Recent Digital Humanities Courses:
+
+	 English 149 (Undergrad, Fall 2014)
+	English 197 (Undergrad, Spring 2015)
+	English 236 (Graduate, Fall 2014)
+
+
+          
+
+   
+
+
+                            
+  Recent Activity
+ 
+  
+    
+      Show 0 new items
+    
+  
+
+  
+    Loading…
+
+  
+
+ 
+
+
+            
+
+    
+
+  
+
+
+
+
+      
+
+
+
+    
+[image: Quantcast]
+
+
+

@@ -1,0 +1,339 @@
+
+
+
+
+
+
+
+	[image: Page Header]
+
+
+
+
+
+
+
+
+
+	
+							
+				
+	Open Journal Systems
+
+
+	Journal Help
+
+
+			User
+	
+												
+						Username	
+	Password	
+	 Remember me
+	
+
+
+				
+
+						
+
+
+	Journal Content
+
+	
+			
+													Search 
+
+					
+								
+	
+				Search Scope
+				
+
+				All
+Authors
+Title
+Abstract
+Index terms
+Full Text
+
+
+				
+	
+
+
+	
+
+
+	
+
+
+		Browse
+		By Issue
+	By Author
+	By Title
+	Other Journals
+
+
+	
+
+
+
+
+
+
+	Font Size
+	
+
+
+
+
+
+	Current Issue
+	
+	[image: Atom logo]
+	
+
+	
+	[image: RSS2 logo]
+	
+
+	
+	[image: RSS1 logo]
+
+
+
+
+
+	Article Tools
+			
+			[image: ] Abstract
+
+		
+
+				
+			[image: ] Print this article
+		
+
+				
+			[image: ] Indexing metadata
+
+		
+
+				
+			[image: ] How to cite item
+
+		
+
+							
+			[image: ]
+			Email this article (Login required)		
+
+				
+			[image: ]
+			Email the author (Login required)		
+
+		
+
+
+
+	
+					About The Authors
+			
+		
+	
+		Rodrigo Sandoval-Almazan
+		[image: orcid]		
+http://www.uaemex.mx/
+				
+Universidad Autónoma del Estado de México		
+Mexico	
+
+
+	
+Rodrigo Sandoval-Almazan is Associate Professor at the Political Sciences and Social Sciences Department in the Autonomous State University of Mexico, in Toluca City.  Dr. Sandoval-Almazan is the author or co-author of articles in Government Information Quarterly, Information Polity, Electronic Journal of Electronic Government; Journal of Information Technology for Development; Journal of Organizational Computing and Electronic Commerce; International Journal of E-Politics IJEP. His research interests include electronic government, open government and social media in government. Proffesor Sandoval-Almazan has a Bachelors Degree in Political Science and Public Administration, a Masters in Management focused on Marketing, and a Ph.D. in Management with Information Systems.
+ 
+
+	
+
+	
+
+		
+	
+		Andrea L. Kavanaugh
+				
+http://www.cs.vt.edu/user/kavanaugh
+				
+Center for Human-Computer Interaction, Virginia Polytechnic Institute & State University (Virginia Tech)		
+United States	
+
+
+	
+Senior Research Scientist and Associate Director of the Center for Human-Computer Interaction at Virginia Polytechnic Institute and State University (Virginia Tech) in Blacksburg, Virginia, USA.
+
+	
+
+	
+	
+
+			
+
+			
+
+
+
+
+
+		Home
+	About
+	Login
+	Register
+	Search
+	Current
+	Archives
+	Announcements
+	SUBMISSIONS
+
+
+
+
+
+	Home >
+	Volume 23, Number 4 - 2 April 2018 >	Sandoval-Almazan
+
+
+
+
+
+
+			
+
+
+
+
+
+[image: First Monday]
+
+
+
+
+
+
+[image: Introduction to the special issue on social media and government by Rodrigo Sandoval-Almazan and Andrea L. Kavanaugh]
+
+
+
+
+
+
+[image: Abstract]
+The use of social media by public administration has been growing steadily, and fostering important transformations in organization, costs, citizen interaction and efficiency. Citizens are increasingly more informed about government activities, performance, and claims solutions. Citiizens and non-profit organizations are in greater communication with each other about government planning and response to complex and collective problems. Social media, such as Facebook, Twitter, You Tube and WhatsApp, as well as related tools, such as commenting, liking, tagging and rating, change the distribution of information, power and resources. The growing maturity of public officials in the use of these tools not only creates new opportunities, but also engenders problems. Many politicians, public officials and public servants are seeking ways to adapt their daily operations and practices to make effective use of social media for interaction with non-governmental organizations and with citizens and to provide information and services more efficiently. The papers in this special issue on social media and government capture the current state of some of these opportunities and problems.
+
+
+ 
+
+ 
+
+
+The use of social media by public administration has been growing steadily, and fostering important transformations in organization, costs, citizen interaction, and efficiency. Citizens are increasingly more informed about government activities, performance, and claims solutions. Citiizens and non-profit organizations are in greater communication with each other about government planning and response to complex and collective problems.
+
+
+Social media, such as Facebook, Twitter, YouTube, and WhatsApp, as well as related tools, such as commenting, liking, tagging and rating, change the distribution of information, power, and resources. The growing maturity of public officials in the use of these tools not only creates new opportunities, but also engenders problems. Many politicians, public officials and public servants are seeking ways to adapt their daily operations and practices to make effective use of social media for interaction with non-governmental organizations and with citizens and to provide information and services more efficiently.
+
+
+The papers in this special issue on social media and government capture the current state of some of these opportunities and problems. We present six papers of relevant theory, research, and practice from challenges and opportunities that face governments around the world. The papers address a range of topics on the use and impact of social media, such as emergency situations, government interaction with other agencies, as well as with organizations and citizens, and government promotion of information and feedback.
+
+
+Most of the research presented in this special issue is focused on the use of Twitter; one paper is an investigation of Facebook, and two papers study other platforms (NovaGob and Weibo). Authors present theoretical models, analyses, case studies, and metrics that advance research in multiple areas of digital government, notably public administration, and social and political participation.
+
+
+Authors Andrea Kavanaugh and Ziqian Song present a study of Twitter use in a set of proximal communities, located in the region of New River Valley in rural, southwest Virginia. As part of a larger project called the Virtual Town Square (VTS), the authors studied microblog communication behavior (i.e., tweets) posted by citizens and organizations in the region over a two-year period. The goal of the study is to identify topics that predominate, and to measure interactions that constitute conversations indicative of local community involvement. Analysis of a wide range of tweets in two years finds that topics follow a “seasonal” pattern, and users engage with common hashtags on topics to form discussions about local events, issues, and conditions. The findings indicate that Twitter facilitates conversations at the local and regional levels that facilitate and support community involvement.
+
+
+Ignacio Criado and Julián Villodre analyze a different type of community. Using social network analysis (SNA), the authors studied the NovaGob social media user community of 12,000 public employees. Their research questions are: 1) How do interactions among public employees occur within a social media community? and, 2) What factors determine the number of interactions in a social media community in the public sector? Their findings reveal among other things that the most powerful public employees in the network had the highest number of interactions; they also identified three types of collaboration in social media: operators, reciprocators, and free riders. This paper provides an empirical analysis of the use of a social media platform different from Twitter and Facebook and compares different types of interactions among users in a professional community.
+
+
+In “Citizens’ use of microblogging and government communication during emergencies: A case study on water contamination in Shanghai” Qianli Yuan and Mila Gasco explore the advantages and disadvantages of Weibo — the Chinese social media platform — in a crisis situation, analyzing how governments adapt to user behavior. The authors conducted a case study of the contamination of the Huangpu River in Shanghai by the carcasses of dead pigs. The authors analyzed 1,834 citizen messages and 94 official messages about this event. They coded and compared both kinds of messages in order to obtain a behavior comparison between these two types of actors. They found that citizens did not play the role of active information providers in this specific emergency, but rather they expressed their feelings and opinions about the facts, and did not reflect on the problem itself. The government’s use of microblogging in the early stages of the crisis indicates a push strategy, at least early on. Later, the government adopted an engagement strategy as well. However, they government chose less interactive forms of communication and technical vocabulary in their communication. The authors conclude that public organizations perceived government as “passive receivers” at the beginning of this emergency. The authors further confirm that it is very difficult for government agencies to analyze citizen posts in real-time and to develop consistent strategies to promote engagement or help. This research contributes to the important topic of disaster management and social media use, providing new insights about citizens’ behavior and government reactions.
+
+
+The use of social media by government is examined in the paper “Hactivism and distributed hashtag spoiling on Twitter: Tales of the #IranTalks” by Mahdi Najafabadi and Robert Domanski. The authors analyze the use of Twitter during the nuclear negotiations between Iran and EU + 3 countries between 2013 and 2015. The authors identify in the data set what they call hashtag spoiling, that is, sending different messages at high frequency using an existing viral hashtag. The purpose seems to be to distract Twitter users following a given hashtag from the relevant discussion. The authors collected tweets using the Twitter API and coded manually and used Python code to filter for the hashtag #IranTalks. Using social network analysis, they visualized the network characteristics of the hashtag users to find top spammers. Their findings show 57 users as active spammers which supports their hypothesis of distraction. Their findings also indicate the importance of algorithms as a “meta-regulator” to avoid such a problem. Among other contributions, this paper identifies a new form of hactivism and provides an empirical analysis of it.
+
+
+Nic de Paula and Ersin Dincelli examine the use of Facebook in local U.S. government agencies during a two-year period (2015 and 2016) in “Information strategies and affective reactions: How citizens interact with government social media content”. The authors propose a framework of five components: information provision, input seeking, dialogue online/off-line, interaction, and symbolic presentation. Using this framework, they studied 1,421 posts in order to understand how users interact with distinctive types of content. The authors found that the components of the framework are positively related to the number of likes, shares and comments; also, online dialogue received more likes and comments than posts that did not have such dialogue. Their results show that the use of symbolic representations and image-based content are more often associated with U.S. government interactions, however, this kind of content is not associated with political discussion. The authors expect the use of social media platforms to promote more transparency and public deliberation.
+
+
+A combined perspective of Twitter and YouTube is presented by Rodrigo Sandoval-Almazán and David Valle Cruz in “Towards an understanding of Twitter networks: The case of the state of Mexico”. The authors analyze State of the Union addresses by Governor Eruviel Avila during the two years (2015–2016) that were diffused by streaming through YouTube and conversations via Twitter. Using the Netlytic platform to analyze 2,406 tweets, they found that nodes and links among Twitter users are related. Their results reveal four different groups of users: journalists, political party followers, public officials, and others than can be considered citizens. A main contribution of this paper is to provide some ideas about Twitter networking among users. This network link has been poorly studied and could be important to understand the impact of Twitter on government interactions.
+
+
+These selected papers provide a timely collection of social media and government research, from an empirical point of view as well as a more theoretical and conceptual perspective. Collectively, they contribute to this emergent field and provide useful milestones for future research. [image: End of article]
+
+ 
+ 
+
+[bookmark: author]
+About the authors
+
+
+Rodrigo Sandoval-Almazán is associate professor on the political sciences faculty at the Autonomous University of the State of Mexico in Toluca, Mexico.
+E-mail: rsandovala [at] uaemex [dot] mx
+
+
+Andrea L. Kavanaugh is senior research scientist and associate director of the Center for Human-Computer Interaction at Virginia Polytechnic Institute and State University in Blacksburg, Virginia.
+E-mail: kavan [at] vt [dot] edu
+
+
+ 
+
+
+
+
+Editorial history
+
+Received 2 March 2018; accepted 6 March 2018.
+
+
+
+
+
+Copyright © 2018, Rodrigo Sandoval-Almazán and Andrea L. Kavanaugh.
+
+
+Introduction to the special issue on social media and government
+by Rodrigo Sandoval-Almazán and Andrea L. Kavanaugh.
+First Monday, Volume 23, Number 4 - 2 April 2018
+http://firstmonday.org/ojs/index.php/fm/article/view/8317/6659
+doi: http://dx.doi.org/10.5210/fm.v23i4.8317
+
+
+
+
+
+		
+
+		
+			
+					[image: Bookmark and Share]
+			
+			
+		
+
+	
+
+		
+
+
+
+
+
+
+
+
+A Great Cities Initiative of the University of Illinois at Chicago University Library.© First Monday, 1995-2018. ISSN 1396-0466.
+
+
+
+
+
+
+
+ 

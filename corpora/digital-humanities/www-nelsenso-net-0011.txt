@@ -1,0 +1,342 @@
+
+    
+         
+
+
+ 
+
+
+
+
+
+
+
+         
+          
+            
+                              
+                    	
+	
+	
+
+
+                   
+                    
+                        
+                                 
+                                   9976 utenti   
+                                
+
+                            
+                              
+                            
+
+                       
+                        
+
+                        
+                    
+   
+                    
+                        
+                
+      
+            
+
+            
+                
+                    [image: Logo nelSenso.Net]
+                
+  
+
+
+
+
+
+                
+
+                    	Home
+	FAQ
+	About
+
+
+                    
+
+                    
+                        info@nelsenso.net
+
+                    
+
+                    
+                                                                            
+                   
+               
+                
+
+               
+
+
+
+
+            
+
+
+        
+        
+        
+        
+            
+                
+                    
+                        Toggle navigation
+                        
+                        
+                        
+                    
+                
+            
+                
+                    	Home
+	Login
+	Summazer
+	IRezer
+	Clustezer
+	Recensioni
+	About Nelsenso.Net
+
+
+                
+
+            
+
+            
+
+        
+
+
+
+      
+     
+
+       
+    
+
+
+    
+        
+        
+        
+            
+                Text-mining Web Tools
+                                
+                
+                    
+                    
+                
+ 
+                
+                    
+                        
+                             
+
+                                
+                                    Lingue supportate:
+
+                                    [image: Languages]
+                                    Arabic, Bengali, Bulgarian, Czech, English, Finnish, French,
+                        German, Hindi, Hungarian, Italian, Marathi, Persian,
+                        Polish, Portuguese, Roumanian, Russian, Spanish, Swedish.
+
+                                
+     
+                            
+
+
+                                
+                                    Summazer
+
+                                    [image: Summazer]
+                                    Summazer è una applicazione web in grado di "spremere" un testo o una pagina web ed estrarne il succo, ovvero le frasi con più alto contenuto informativo per generare un riassunto del testo elaborato.
+                                    Summazer                
+                                
+
+
+
+                                
+                                    Web Services
+
+                                    [image: ]
+                                    SOAP SEO Web Services: le applicazioni di text-mining disponibili su NelSenso possono essere richiamate anche attraverso SOAP Web Services dai vostri CMS (tags: TITLE, Description, Keywords, Tags ...) per una efficace
+                                      posizionamento delle vostre pagine web sui motori di ricerca.
+
+                                    Read more                
+                                
+
+
+
+                             
+                                
+                                    IRezer
+
+                                    IRezer: il tool di Information Retrieval (IR) che consente l'estrazione automatica delle keywords (Tags) e delle frasi "chiave" più semanticamente rilevanti in un testo o pagina web.
+
+                                    IRezer
+                                    [image: IRezer]
+                                
+
+
+                                 
+                                    Clustezer
+
+                                    Clustezer è un tool che permette la classificazione automatica di keywords e keyprhases di una pagina web, in categorie/aree semantiche auto-determinate.
+
+                                    Clustezer
+                                    [image: Clustezer]
+                                
+                               
+                                                           
+                                
+                            
+
+                        
+
+                    
+  
+                
+     
+                    
+                   
+
+        
+	
+
+ 
+
+
+
+
+
+
+
+
+     
+     
+
+     
+    
+
+   
+    
+	 
+                
+                    
+                        [image: Condividi]
+                    
+                    
+                
+
+        
+
+     
+    
+        
+            
+                
+                
+                    
+                        Mappa
+
+                        	Home
+	Registrazione
+	Summazer
+	Irezer
+	Clustezer
+	About
+
+
+                    
+
+                
+
+                
+                    
+			        Ultime Recensioni
+
+			        	Scrivere… a macchina! - Articolo di Andrea Torti su "Proposta Lavoro" (Aprile 2016)                                      
+                          
+	Accessible Online Political Fact Evaluation - Michael Brinkhuis (University of Twente, The Netherlands)
+			  
+	Orizzonti di conoscenza. Strumenti digitali, metodi e prospettive per l'uomo del terzo millennio (collana Strumenti per la didattica e la ricerca) - di Sorrentino Fortunato; Pettenati M. Chiara  - Firenze University Press, 2014 
+                          
+	Internet Information Triangulation: Design theory and prototype evaluation - Journal of the Association for Information Science and Technology, 2014 - dr Fons Wijnhoven - Universiteit Twente
+                          
+	Tutte le recensioni »
+
+
+
+                    
+
+                
+ 
+                
+                    
+				    Approfondimenti
+
+				    	Intelligenza artificiale e motori di ricerca
+	Il Crawling è influenzato dal Cluster di un sito Web?
+	IR ed estrazione delle Top Keywords
+	National Centre for Text Mining (UK)
+	Text Mining, Visualization and Social Media (blog)
+	Memento Blog
+
+                    
+
+                       
+                    
+            
+                
+   
+                
+   
+            
+        
+        
+
+        
+            
+                
+                    Copyright @ 2015 NelSenso.Net | powered by Cavone.com
+                    	
+	
+	
+
+
+                
+
+            
+
+        
+
+    
+
+              
+    
+    
+     
+     
+    
+    
+    
+    
+     
+                
+
+    
+
+
+    
+
+              
+   
+    
+

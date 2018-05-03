@@ -1,0 +1,1055 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!--Converted with LaTeX2HTML 98.1p1 release (March 2nd, 1998)
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Untangling Text Data Mining</TITLE>
+<META NAME="description" CONTENT="Untangling Text Data Mining">
+<META NAME="keywords" CONTENT="final">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgcolor=white>
+
+
+<H2 ALIGN="CENTER">Untangling Text Data Mining</H2>
+<P ALIGN="CENTER"><STRONG>Marti A. Hearst<BR>
+School of Information Management &amp; Systems<BR>
+University of California, Berkeley<BR>
+102 South Hall <BR>
+Berkeley, CA 94720-4600<BR>
+<a href=http://www.sims.berkeley.edu/~hearst>
+<I>http://www.sims.berkeley.edu/~hearst</I></STRONG></a></P>
+<P ALIGN="LEFT"></P>
+
+
+
+This paper appears in the <i><b> Proceedings of
+<a href="http://www.mri.mq.edu.au/conf/acl99">
+ACL'99:</a> the 37th Annual Meeting of the
+<a href="http://www.cs.columbia.edu/~acl">
+Association for Computational Linguistics</a></b></i>,
+University of Maryland, June 20-26, 1999 (invited paper).
+<p>
+
+<H3>Abstract:</H3>
+<DIV>
+<P>
+The possibilities for data mining from large text collections are
+virtually untapped.  Text expresses a vast, rich range of information,
+but encodes this information in a form that is difficult to decipher
+automatically.  Perhaps for this reason, there has been little work in
+text data mining to date, and most people who have talked about it
+have either conflated it with information access or have not made use
+of text directly to discover heretofore unknown information.
+
+<P>
+In this paper I will first define data mining, information access, and
+corpus-based computational linguistics, and then discuss the
+relationship of these to text data mining.  The intent behind these
+contrasts is to draw attention to exciting new kinds of problems for
+computational linguists.  I describe examples of what I consider to be
+real text data mining efforts and briefly outline our recent ideas
+about how to pursue exploratory data analysis over text.
+
+<P>
+</DIV>
+<P>
+<P>
+
+<h2><A NAME="SECTION00010000000000000000">
+Introduction</A>
+</h2>
+
+<P>
+The nascent field of text data mining (TDM) has the peculiar
+distinction of having a name and a fair amount of hype but as yet
+almost no practitioners.  I suspect this has happened because people
+assume TDM is a natural extension of the slightly less nascent field
+of data mining (DM), also known as knowledge discovery in databases
+[<A
+ HREF="people-ischool-berkeley-edu-0033.htm#fayyad96b">Fayyad and Uthurusamy1999</A>], and information archeology [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#brachman93">Brachman  et al.1993</A>].
+Additionally, there are some disagreements about what actually
+constitutes data mining.  It turns out that ``mining'' is not a very
+good metaphor for what people in the field actually do.  Mining
+implies extracting precious nuggets of ore from otherwise worthless
+rock.  If data mining really followed this metaphor, it would mean
+that people were discovering new factoids within their
+inventory databases.  However, in practice this is not really the
+case.  Instead, data mining applications tend to be (semi)automated
+discovery of trends and patterns across very large datasets, usually
+for the purposes of decision making [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#fayyad96b">Fayyad and Uthurusamy1999</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#fayyad97">Fayyad1997</A>].  Part
+of what I wish to argue here is that in the case of text, it can be
+interesting to take the mining-for-nuggets metaphor seriously.
+
+<P>
+
+<h2><A NAME="SECTION00020000000000000000">
+TDM vs. Information Access</A>
+</h2>
+
+<P>
+It is important to differentiate between text data mining and
+information access (or information retrieval, as it is more widely
+known).
+
+<P>
+The goal of information access is to help users find documents that
+satisfy their information needs [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#baeza99">Baeza-Yates and Ribeiro-Neto1999</A>].  The standard
+procedure is akin to looking for needles in a needlestack - the
+problem isn't so much that the desired information is not known, but
+rather that the desired information coexists with many other valid
+pieces of information.  Just because a user is currently interested in
+NAFTA and not Furbies does not mean that all descriptions of Furbies
+are worthless.  The problem is one of homing in on what is currently
+of interest to the user.
+
+<P>
+As noted above, the goal of data mining is to discover or derive new
+information from data, finding patterns across datasets, and/or
+separating signal from noise.  The fact that an information retrieval
+system can return a document that contains the information a user
+requested does not imply that a new discovery has been made: the information
+had to have already been known to the author of the text; otherwise the
+author could not have written it down.
+
+<P>
+I have observed that many people, when asked about text data
+mining, assume it should have something to do with ``making things
+easier to find on the web''.  For example, the description of the
+KDD-97 panel on Data Mining and the Web stated:
+
+<P><BLOCKQUOTE>
+... Two challenges are predominant for data mining on the Web. The first
+goal is to help users in finding useful information on the Web and in
+discovering knowledge about a domain that is represented by a
+collection of Web-documents. The second goal is to analyse the
+transactions run in a Web-based system, be it to optimize the system
+or to find information about the clients using the 
+system.<A NAME="tex2html1"
+ HREF="people-ischool-berkeley-edu-0033.htm#foot16"><SUP>1</SUP></A>
+</BLOCKQUOTE>
+
+<P>
+This search-centric view misses the point that we might actually want
+to treat the information in the web as a large knowledge base from
+which we can extract new, never-before encountered information
+[<A
+ HREF="people-ischool-berkeley-edu-0033.htm#craven98">Craven  et al.1998</A>].
+
+<P>
+On the other hand, the results of certain types of text processing can yield
+<I>tools</I> that indirectly <I>aid</I> in the information access
+process.  Examples include  text clustering to
+create thematic overviews of text collections
+[<A
+ HREF="people-ischool-berkeley-edu-0033.htm#cutting92">Cutting  et al.1992</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#chalmers92">Chalmers and Chitson1992</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#rennison94">Rennison1994</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#wise95">Wise  et al.1995</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#lin91">Lin  et al.1991</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#hchen98">Chen  et al.1998</A>],
+automatically generating term associations to aid in query expansion
+[<A
+ HREF="people-ischool-berkeley-edu-0033.htm#peat91">Peat and Willett1991</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#voorhees94">Voorhees1994</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#xu96">Xu and Croft1996</A>], and using co-citation analysis to
+find general topics within a collection or identify central web pages
+[<A
+ HREF="people-ischool-berkeley-edu-0033.htm#white89">White and McCain1989</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#larson96b">Larson1996</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#kleinberg98">Kleinberg1998</A>].
+
+<P>
+Aside from providing tools to aid in the standard information access process,
+I think text data mining can contribute along another dimension.  In
+future I hope to see information access systems supplemented with
+tools for exploratory data analysis.  Our
+efforts in this direction are embodied in the LINDI project, described
+in Section <A HREF="people-ischool-berkeley-edu-0033.htm#eda">5</A> below.
+
+<h2><A NAME="SECTION00030000000000000000">
+TDM and Computational Linguistics</A>
+</h2>
+
+<P>
+If we extrapolate from data mining (as practiced) on numerical data to
+data mining from text collections, we discover that there already
+exists a field engaged in text data mining: corpus-based computational
+linguistics!  Empirical computational linguistics computes statistics
+over large text collections in order to discover useful patterns.
+These patterns are used to inform algorithms for various subproblems
+within natural language processing, such as part-of-speech tagging,
+word sense disambiguation, and bilingual dictionary creation
+[<A
+ HREF="people-ischool-berkeley-edu-0033.htm#armstrong94">Armstrong1994</A>].
+
+<P>
+It is certainly of interest to a computational linguist that the words
+``prices, prescription, and patent'' are highly likely to co-occur
+with the medical sense of ``drug'' while ``abuse, paraphernalia, and
+illicit'' are likely to co-occur with the illegal drug sense of this
+word [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#church91c">Church and Liberman1991</A>].  However, the kinds of patterns found and used
+in computational linguistics are not likely to be what the general
+business community hopes for when they use the term text data mining.
+
+<P>
+Within the computational linguistics framework, efforts in automatic
+augmentation of existing lexical structures seem to fit the 
+data-mining-as-ore-extraction metaphor.  Examples include automatic
+augmentation of WordNet relations [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#fellbaum98">Fellbaum1998</A>] by identifying
+lexico-syntactic patterns that unambiguously indicate those relations
+[<A
+ HREF="people-ischool-berkeley-edu-0033.htm#hearst98b">Hearst1998</A>], and automatic acquisition of subcategorization data
+from large text corpora [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#manning93">Manning1993</A>].  However, these serve the
+specific needs of computational linguistics and are not applicable to
+a broader audience.
+
+<P>
+
+<h2><A NAME="SECTION00040000000000000000">
+TDM and Category Metadata</A>
+</h2>
+
+<P>
+Some researchers have claimed that text categorization should be
+considered text data mining.  Although analogies can be found in the
+data mining literature (e.g., referring to classification of
+astronomical phenomena as data mining [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#fayyad96b">Fayyad and Uthurusamy1999</A>]), I believe
+when applied to text categorization this is a misnomer.  Text
+categorization is a boiling down of the specific content of a document
+into one (or more) of a set of pre-defined labels.  This does not lead
+to discovery of new information; presumably the person who wrote the
+document knew what it was about.  Rather, it produces a compact
+summary of something that is already known.
+
+<P>
+However, there are two recent areas of inquiry that make use of text
+categorization and do seem to fit within the conceptual framework of
+discovery of trends and patterns within textual data for more general
+purpose usage.
+
+<P>
+One body of work uses text category labels (associated with Reuters
+newswire) to find ``unexpected patterns'' among text articles
+[<A
+ HREF="people-ischool-berkeley-edu-0033.htm#feldman95">Feldman and Dagan1995</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#dagan96">Dagan  et al.1996</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#feldman97a">Feldman  et al.1997</A>].  The main approach is to compare
+distributions of category assignments within subsets of the document
+collection.  For instance, distributions of commodities in country C1
+are compared against those of country C2 to see if interesting or
+unexpected trends can be found.  Extending this idea, one country's
+export trends might be compared against those of a set of countries
+that are seen as an economic unit (such as the G-7). 
+
+<P>
+Another effort is that of the DARPA Topic Detection and Tracking
+initiative [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#allan98">Allan  et al.1998</A>].  While several of the tasks within this
+initiative are standard text analysis problems (such as categorization
+and segmentation), there is an interesting task called On-line New
+Event Detection, whose input is a stream of news stories in
+chronological order, and whose output is a yes/no decision for each
+story, made at the time the story arrives, indicating whether the
+story is the first reference to a newly occurring event.  In other
+words, the system must detect the first instance of what will become a
+series of reports on some important topic.  Although this can be
+viewed as a standard classification task (where the class is a binary
+assignment to the new-event class) it is more in the spirit of data
+mining, in that the focus is on discovery of the beginning of a new
+theme or trend.
+
+<P>
+The reason I consider this examples - using multiple occurrences of
+text categories to detect trends or patterns - to be ``real'' data
+mining is that they use text metadata to tell us something about the
+world, outside of the text collection itself.  (However, since these
+applications use metadata associated with text documents, rather than
+the text directly, it is unclear if it should be considered text data
+mining or standard data mining.)  The computational linguistics
+applications tell us about how to improve language analysis, but they
+do not discover more widely usable information.
+
+<P>
+The various contrasts made above are summarized in <A HREF="people-ischool-berkeley-edu-0033.htm#table">Table 1</A>.
+
+<P>
+
+<P>
+<BR>
+<DIV ALIGN="CENTER"><A NAME="table">&#160;</A>
+<TABLE>
+<CAPTION><STRONG>Table: 1</STRONG>
+ A classification of 
+data mining and text data mining applications. 
+</CAPTION>
+<TR><TD><TABLE CELLPADDING=3 BORDER="1">
+<TR><TD ALIGN="LEFT">&nbsp;</TD>
+<TD ALIGN="CENTER"><B> Finding Patterns</B></TD>
+<TD ALIGN="CENTER" COLSPAN=2><B>F inding Nuggets</B></TD>
+</TR>
+<TR><TD ALIGN="LEFT">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">Novel</TD>
+<TD ALIGN="CENTER">Non-Novel</TD>
+</TR>
+<TR><TD ALIGN="LEFT"><B> Non-textual data</B></TD>
+<TD ALIGN="CENTER">standard data mining</TD>
+<TD ALIGN="CENTER">?</TD>
+<TD ALIGN="CENTER">database queries</TD>
+</TR>
+<TR><TD ALIGN="LEFT"><B> Textual data</B></TD>
+<TD ALIGN="CENTER">computational linguistics</TD>
+<TD ALIGN="CENTER">real TDM</TD>
+<TD ALIGN="CENTER">information
+retrieval</TD>
+</TR>
+</TABLE></TD></TR>
+</TABLE>
+</DIV><BR>
+<P>
+
+<h2><A NAME="SECTION00050000000000000000">&#160;</A>
+<A NAME="eda">&#160;</A><BR>
+Text Data Mining as Exploratory Data Analysis
+</h2>
+
+<P>
+Another way to view text data mining is as a process of exploratory
+data analysis [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#tukey77">Tukey1977</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#hoaglin83">Hoaglin  et al.1983</A>] that leads to the discovery of
+heretofore unknown information, or to answers to questions for which
+the answer is not currently known.
+
+<P>
+Of course, it can be argued that the standard practice of reading
+textbooks, journal articles and other documents helps researchers in
+the discovery of new information, since this is an integral part of
+the research process. However, the idea here is to use text for discovery in
+a more direct manner.  Two examples are described below.
+
+<P>
+
+<H2><A NAME="SECTION00051000000000000000">
+Using Text to Form Hypotheses about Disease</A>
+</H2>
+
+<P>
+For more than a decade, Don Swanson has eloquently argued why it is
+plausible to expect new information to be derivable from text
+collections: experts can only read a small subset of what is published
+in their fields and are often unaware of developments in related
+fields. Thus it should be possible to find useful linkages between
+information in related literatures, if the authors of those
+literatures rarely refer to one another's work.  Swanson has shown how
+chains of causal implication within the medical literature can lead to
+hypotheses for causes of rare diseases, some of which have received
+supporting experimental evidence
+[<A
+ HREF="people-ischool-berkeley-edu-0033.htm#swanson87">Swanson1987</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#swanson91">Swanson1991</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#swanson94">Swanson and Smalheiser1994</A>,<A
+ HREF="people-ischool-berkeley-edu-0033.htm#swanson97">Swanson and Smalheiser1997</A>].
+
+<P>
+For example, when investigating causes of migraine headaches, he
+extracted various pieces of evidence from titles of articles in
+the biomedical literature.  Some of these clues can be paraphrased
+as follows:
+
+<P>
+<UL><LI>stress is associated with migraines
+<LI>stress can lead to loss of magnesium
+<LI>calcium channel blockers prevent some migraines
+<LI>magnesium is a natural calcium channel blocker
+<LI>spreading cortical depression (SCD) is implicated in some
+migraines
+<LI>high leveles of magnesium inhibit SCD
+<LI>migraine patients have high platelet aggregability
+<LI>magnesium can suppress platelet aggregability
+</UL>
+<P>
+These clues suggest that magnesium deficiency may play a role in some
+kinds of migraine headache; a hypothesis which did not exist in the
+literature at the time Swanson found these links.  The hypothesis has
+to be tested via non-textual means, but the important point is that a new,
+potentially plausible medical hypothesis was derived from a
+combination of text fragments and the explorer's medical expertise.
+(According to swanson91, subsequent study found support for
+the magnesium-migraine hypothesis [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#ramadan89">Ramadan  et al.1989</A>].)
+
+<P>
+This approach has been only partially automated.  There is, of course,
+a potential for combinatorial explosion of potentially valid links.
+beeferman98 has developed a flexible interface and analysis
+tool for exploring certain kinds of chains of links among lexical
+relations within WordNet.<A NAME="tex2html3"
+ HREF="people-ischool-berkeley-edu-0033.htm#foot58"><SUP>2</SUP></A> However, sophisticated new
+algorithms are needed for helping in the pruning process, since a good
+pruning algorithm will want to take into account various kinds of
+semantic constraints.  This may be an interesting area of
+investigation for computational linguists.
+
+<P>
+
+<H2><A NAME="SECTION00052000000000000000">
+Using Text to Uncover Social Impact</A>
+</H2>
+
+<P>
+Switching to an entirely different domain, consider a recent effort to
+determine the effects of publicly financed research on industrial
+advances [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#narin97">Narin  et al.1997</A>].  After years of preliminary studies and
+building special purpose tools, the authors found that the technology
+industry relies more heavily than ever on government-sponsored
+research results.  The authors explored relationships
+among patent text and the published research literature, using a
+procedure which was reported as follows in broad97:
+
+<P><BLOCKQUOTE>
+The CHI Research team examined the science references on the front
+pages of American patents in two recent periods - 1987 and 1988, as
+well as 1993 and 1994 - looking at all the 397,660 patents issued.
+ 
+   It found 242,000 identifiable science references and zeroed in on
+those published in the preceding 11 years, which turned out to be 80
+percent of them.  Searches of computer databases allowed the linking
+of 109,000 of these references to known journals and authors'
+addresses. After eliminating redundant citations to the same paper, as
+well as articles with no known American author, the study had a core
+collection of 45,000 papers. Armies of aides then fanned out to
+libraries to look up the papers and examine their closing lines, which
+often say who financed the research.  That detective work revealed an
+extensive reliance on publicly financed science.
+
+<P>...
+   Further narrowing its focus, the study set aside patents given to
+schools and governments and zeroed in on those awarded to industry.
+For 2,841 patents issued in 1993 and 1994, it examined the peak year
+of literature references, 1988, and found 5,217 citations to science
+papers.
+
+<P>
+Of these, it found that 73.3 percent had been written at public
+institutions - universities, government labs and other public
+agencies, both in the United States and abroad.
+</BLOCKQUOTE>
+
+<P>
+Thus a heterogeneous mix of 
+operations was required to conduct a complex analyses
+over large text collections.  These operations included:
+<ul>
+
+<P>
+<DL COMPACT>
+<DD><DT>&nbsp;
+<!-- MATH: \begin{itemize}
+\mbox{$\bullet$}
+\end{itemize} -->
+<DT>1
+<DD>Retrieval of articles from a particular collection (patents)
+within a particular date range.
+<DT>2
+<DD>Identification of the citation pool (articles cited by the
+patents).
+<DT>3
+<DD>Bracketing of this pool by date, creating a new subset of articles.
+<DT>4
+<DD>Computation of the percentage of articles that remain after bracketing.
+<DT>5
+<DD>Joining these results with those of other collections to
+identify the publishers of articles in the pool.
+<DT>6
+<DD>Elimination of redundant articles.
+<DT>7
+<DD>Elimination of articles based on an attribute type (author nationality).
+<DT>8
+<DD>Location of full-text versions of the articles.
+<DT>9
+<DD>Extraction of a special attribute from the full text 
+(the acknowledgement of funding).
+<DT>10
+<DD>Classification of this attribute (by institution type).
+<DT>11
+<DD>Narrowing the set of articles to consider by an attribute 
+(institution type).
+<DT>12
+<DD>Computation of statistics over one of the attributes (peak year)
+<DT>13
+<DD>Computation of the percentage of articles for which one
+attribute has been assigned another attribute type 
+(whose citation attribute has a particular institution attribute).
+</DL>
+</ul>
+
+<P>
+Because all the data was not available online, much of the work had to
+be done by hand, and special purpose tools were required
+to perform the operations. 
+
+<P>
+
+<H2><A NAME="SECTION00053000000000000000">
+The LINDI Project</A>
+</H2>
+
+<P>
+The objectives of the LINDI project<A NAME="tex2html5"
+ HREF="people-ischool-berkeley-edu-0033.htm#foot67"><SUP>3</SUP></A> are to investigate how
+researchers can use large text collections in the discovery of new
+important information, and to build software systems to help support
+this process.  The main tools for discovering new information are of
+two types: support for issuing sequences of queries and related
+operations across text collections, and tightly coupled statistical
+and visualization tools for the examination of associations among
+concepts that co-occur within the retrieved documents.  Both sets of
+tools make use of attributes associated specifically with text
+collections and their metadata.  Thus the broadening, narrowing, and
+linking of relations seen in the patent example should be tightly
+integrated with analysis and interpretation tools as needed in the
+biomedical example.
+
+<P>
+Following amant96, the interaction paradigm is that of a
+mixed-initiative balance of control between user and system.  The
+interaction is a cycle in which the system suggests hypotheses and
+strategies for investigating these hypotheses, and the user either
+uses or ignores these suggestions and decides on the next move.
+
+<P>
+We are interested in an important problem in molecular
+biology, that of automating the discovery of the function of newly
+sequenced genes [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#mikewalker98">Walker  et al.1998</A>].  Human genome researchers perform
+experiments in which they analyze co-expression of tens of thousands
+of novel and known genes simultaneously.<A NAME="tex2html6"
+ HREF="people-ischool-berkeley-edu-0033.htm#foot70"><SUP>4</SUP></A>
+Given this huge collection of genetic information, the goal is to
+determine which of the novel genes are medically interesting, meaning
+that they are co-expressed with already understood genes which are
+known to be involved in disease.  Our strategy is to explore the
+biomedical literature, trying to formulate plausible
+hypotheses about which genes are of interest.
+
+<P>
+Most information access systems require the user to execute and keep
+track of tactical moves, often distracting from the thought-intensive
+aspects of the problem [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#bates90">Bates1990</A>].  The LINDI interface provides a
+facility for users to build and so reuse sequences of query operations
+via a drag-and-drop interface.  These allow the user to repeat the
+same sequence of actions for different queries.  In the gene example,
+this allows the user to specify a sequence of operations to apply to
+one co-expressed gene, and then iterate this sequence over a list of
+other co-expressed genes that can be dragged onto the template.  (The
+Visage interface [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#derthick97">Derthick  et al.1997</A>] implements this kind of
+functionality within its information-centric framework.)  These
+include the following operations (see 
+<A HREF="people-ischool-berkeley-edu-0033.htm#fig">Figure 1</A>):
+
+<P>
+<UL><P>
+<LI>Iteration of an operation over the items within a set.  (This
+allows each item retrieved in a previous query to be use as a search
+terms for a new query.)
+
+<P>
+<LI>Transformation, i.e., applying an operation to an item and
+returning a transformed item (such as extracting a feature).
+
+<P>
+<LI>Ranking, i.e., applying an operation to a set of items and
+returning a (possibly) reordered set of items with the same
+cardinality.
+
+<P>
+<LI>Selection, i.e., applying an operation to a set of items and
+returning a (possibly) reordered set of items with the same or smaller
+cardinality.
+
+<P>
+<LI>Reduction, i.e., applying an operation to one or more sets of
+items to yield a singleton result (e.g., to compute percentages and
+averages).
+
+<P>
+</UL>
+<P>
+This system will allow maintenance of several different types of
+history including history of commands issued, history of strategies
+employed, and history of hypotheses tested.  For the history view, we
+plan to use a ``spreadsheet'' layout [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#hendry97">Hendry and Harper1997</A>] as well as a
+variation on a ``slide sorter'' view which Visage uses for
+presentation creation but not for history retention [<A
+ HREF="people-ischool-berkeley-edu-0033.htm#roth97">Roth  et al.1997</A>].
+
+<P>
+Since gene function discovery is a new area, there is not 
+yet a known set of exploration strategies.  So initially the system
+must help an expert user generate and record good exploration strategies.
+The user interface provides a mechanism for recording and
+modifying sequences of actions.  These include facilities that
+refer to metadata structure, allowing, for example, query terms to be
+expanded by terms one level above or below them in a subject
+hierarchy.  Once a successful set of strategies has been devised, they
+can be re-used by other researchers and (with luck) by an automated
+version of the system.  The intent is to build up enough strategies
+that the system will begin to be used as an assistant or advisor
+[<A
+ HREF="people-ischool-berkeley-edu-0033.htm#amant96">Amant1996</A>], ranking hypotheses according to projected importance
+and plausibility. 
+
+<P>
+Thus the emphasis of this system is to help automate the tedious parts
+of the text manipulation process and to integrate underlying 
+computationally-driven text analysis with human-guided decision making
+within exploratory data analysis over text.
+
+<P>
+<BR>
+<DIV align=center ><A NAME="fig">&#160;</A>
+<img src="http://people.ischool.berkeley.edu/~hearst/papers/acl99/lindi-gene.gif" width="70%">
+<TABLE width="70%">
+<tr><td>
+</td></tr><tr><td>
+<STRONG>Figure: 1</STRONG>
+A hypothetical sequence of operations for the exploration of gene
+function within a biomedical text collection, where the functions of
+genes A, B, and C are known, and commonalities are sought to
+hypothesize the function of the unknown gene.  The mapping operation
+imposes a rank ordering on the selected keywords.  The final operation
+is a selection of only those documents that contain at least one of
+the top-ranked keywords and that contain mentions of all three known
+genes.
+</TD></TR>
+</TABLE>
+</DIV><BR>
+<P>
+
+<h2><A NAME="SECTION00060000000000000000">
+Summary</A>
+</h2>
+
+<P>
+For almost a decade the computational linguistics community has viewed
+large text collections as a resource to be tapped in order to produce
+better text analysis algorithms.  In this paper, I have attempted to
+suggest a new emphasis: the use of large online text collections to
+discover new facts and trends about the world itself.  I suggest that
+to make progress we do not need fully artificial intelligent text
+analysis; rather, a mixture of computationally-driven and user-guided
+analysis may open the door to exciting new results.
+
+<P>
+<B>Acknowledgements</B>.  Hao Chen, Ketan Mayer-Patel, and Vijayshankar
+Raman contributed to the design and did all the implementation of the
+first LINDI prototype.
+
+<H2><A NAME="SECTIONREF">Footnotes</A></h2>
+<DL>
+<DT><A NAME="foot16">...
+system.</A><A NAME="foot16"
+ HREF="people-ischool-berkeley-edu-0033.htm#tex2html1"><SUP>1</SUP></A>
+<DD>http://www.aaai.org/Conferences/KDD/1997/kdd97-schedule.html
+<PRE>
+</PRE>
+<DT><A NAME="foot58">... WordNet.</A><A NAME="foot58"
+ HREF="people-ischool-berkeley-edu-0033.htm#tex2html3"><SUP>2</SUP></A>
+<DD>See
+http://www.link.cs.cmu.edu/lexfn
+<PRE>
+</PRE>
+<DT><A NAME="foot67">... project</A><A NAME="foot67"
+ HREF="people-ischool-berkeley-edu-0033.htm#tex2html5"><SUP>3</SUP></A>
+<DD>LINDI: Linking
+Information for Novel Discovery and Insight.
+<PRE>
+</PRE>
+<DT><A NAME="foot70">... simultaneously.</A><A NAME="foot70"
+ HREF="people-ischool-berkeley-edu-0033.htm#tex2html6"><SUP>4</SUP></A>
+
+<DD>A gene <I>g</I>' co-expresses with gene <I>g</I> when both are
+found to be activated in the same cells at the same time with much
+more likelihood than chance.
+
+</PRE>
+</dl>
+
+<P>
+<H2><A NAME="SECTIONREF">Bibliography</A>
+</H2>
+<DL COMPACT><DD><P></P><DT><A NAME="allan98"><STRONG>Allan  et al.1998</STRONG></A>
+<DD>
+J. Allan, J. Carbonell, G. Doddington, J. Yamron, and Y. Yang.
+<BR>1998.
+<BR>Topic detection and tracking pilot study: Final report.
+<BR>In <EM>Proceedings of the DARPA Broadcast News Transcription and
+  Understanding Workshop</EM>, pages 194-218.
+
+<P></P><DT><A NAME="amant96"><STRONG>Amant1996</STRONG></A>
+<DD>
+Robert St. Amant.
+<BR>1996.
+<BR><EM>A Mixed-Initiative Planning Approach to Exploratory Data
+  Analysis</EM>.
+<BR>Ph.D. thesis, Univeristy of Massachusetts, Amherst.
+
+<P></P><DT><A NAME="armstrong94"><STRONG>Armstrong1994</STRONG></A>
+<DD>
+Susan Armstrong, editor.
+<BR>1994.
+<BR><EM>Using Large Corpora</EM>.
+<BR>MIT Press.
+
+<P></P><DT><A NAME="baeza99"><STRONG>Baeza-Yates and Ribeiro-Neto1999</STRONG></A>
+<DD>
+Ricardo Baeza-Yates and Berthier Ribeiro-Neto.
+<BR>1999.
+<BR><EM>Modern Information Retrieval</EM>.
+<BR>Addison-Wesley Longman Publishing Company.
+
+<P></P><DT><A NAME="bates90"><STRONG>Bates1990</STRONG></A>
+<DD>
+Marcia J. Bates.
+<BR>1990.
+<BR>The berry-picking search: User interface design.
+<BR>In Harold Thimbleby, editor, <EM>User Interface Design</EM>.
+  Addison-Wesley.
+
+<P></P><DT><A NAME="beeferman98"><STRONG>Beeferman1998</STRONG></A>
+<DD>
+Douglas Beeferman.
+<BR>1998.
+<BR>Lexical discovery with an enriched semantic network.
+<BR>In <EM>Proceedings of the ACL/COLING Workshop on Applications of
+  WordNet in Natural Language Processing Systems</EM>, pages 358-364.
+
+<P></P><DT><A NAME="brachman93"><STRONG>Brachman  et al.1993</STRONG></A>
+<DD>
+R. J. Brachman, P. G. Selfridge, L. G. Terveen, B. Altman, A Borgida,
+  F. Halper, T. Kirk, A. Lazar, D. L. McGuinness, and L. A. Resnick.
+<BR>1993.
+<BR>Integrated support for data archaeology.
+<BR><EM>International Journal of Intelligent and Cooperative Information
+  Systems</EM>, 2(2):159-185.
+
+<P></P><DT><A NAME="broad97"><STRONG>Broad1997</STRONG></A>
+<DD>
+William J. Broad.
+<BR>1997.
+<BR>Study finds public science is pillar of industry.
+<BR>In <EM>The New York Times</EM>, May 13.
+
+<P></P><DT><A NAME="chalmers92"><STRONG>Chalmers and Chitson1992</STRONG></A>
+<DD>
+Matthew Chalmers and Paul Chitson.
+<BR>1992.
+<BR>Bead: Exploration in information visualization.
+<BR>In <EM>Proceedings of the 15th Annual International ACM/SIGIR
+  Conference</EM>, pages 330-337, Copenhagen, Denmark.
+
+<P></P><DT><A NAME="hchen98"><STRONG>Chen  et al.1998</STRONG></A>
+<DD>
+Hsinchen Chen, Andrea L. Houston, Robin R. Sewell, and Bruce R. Schatz.
+<BR>1998.
+<BR>Internet browsing and searching: User evaluations of category map and
+  concept space techniques.
+<BR><EM>Journal of the American Society for Information Sciences
+  (JASIS)</EM>, 49(7).
+
+<P></P><DT><A NAME="church91c"><STRONG>Church and Liberman1991</STRONG></A>
+<DD>
+Kenneth W. Church and Mark Y. Liberman.
+<BR>1991.
+<BR>A status report on the ACL/DCI.
+<BR>In <EM>The Proceedings of the 7th Annual Conference of the UW Centre
+  for the New OED and Text Research: Using Corpora</EM>, pages 84-91, Oxford.
+
+<P></P><DT><A NAME="craven98"><STRONG>Craven  et al.1998</STRONG></A>
+<DD>
+M. Craven, D. DiPasquo, D. Freitag, A. McCallum, T. Mitchell, K. Nigam, and
+  S. Slattery.
+<BR>1998.
+<BR>Learning to extract symbolic knowledge from the world wide web.
+<BR>In <EM>Proceedings of AAAI</EM>.
+
+<P></P><DT><A NAME="cutting92"><STRONG>Cutting  et al.1992</STRONG></A>
+<DD>
+Douglass R. Cutting, Jan O. Pedersen, David Karger, and John W. Tukey.
+<BR>1992.
+<BR>Scatter/Gather: A cluster-based approach to browsing large document
+  collections.
+<BR>In <EM>Proceedings of the 15th Annual International ACM/SIGIR
+  Conference</EM>, pages 318-329, Copenhagen, Denmark.
+
+<P></P><DT><A NAME="dagan96"><STRONG>Dagan  et al.1996</STRONG></A>
+<DD>
+Ido Dagan, Ronen Feldman, and Haym Hirsh.
+<BR>1996.
+<BR>Keyword-based browsing and analysis of large document sets.
+<BR>In <EM>Proceedings of the Fifth Annual Symposium on Document
+  Analysis and Information Retrieval (SDAIR)</EM>, Las Vegas, NV.
+
+<P></P><DT><A NAME="derthick97"><STRONG>Derthick  et al.1997</STRONG></A>
+<DD>
+Mark Derthick, John Kolojejchick, and Steven F. Roth.
+<BR>1997.
+<BR>An interactive visualization environment for data exploration.
+<BR>In <EM>Proceedings of the Third Annual Conference on Knowledge
+  Discovery and Data Mining (KDD)</EM>, Newport Beach.
+
+<P></P><DT><A NAME="fayyad96b"><STRONG>Fayyad and Uthurusamy1999</STRONG></A>
+<DD>
+Usama Fayyad and Ramasamy Uthurusamy.
+<BR>1999.
+<BR>Data mining and knowledge discovery in databases: Introduction to the
+  special issue.
+<BR><EM>Communications of the ACM</EM>, 39(11), November.
+
+<P></P><DT><A NAME="fayyad97"><STRONG>Fayyad1997</STRONG></A>
+<DD>
+Usama Fayyad.
+<BR>1997.
+<BR>Editorial.
+<BR><EM>Data Mining and Knowledge Discovery</EM>, 1(1).
+
+<P></P><DT><A NAME="feldman95"><STRONG>Feldman and Dagan1995</STRONG></A>
+<DD>
+Ronen Feldman and Ido Dagan.
+<BR>1995.
+<BR>KDT - knowledge discovery in texts.
+<BR>In <EM>Proceedings of the First Annual Conference on Knowledge
+  Discovery and Data Mining (KDD)</EM>, Montreal.
+
+<P></P><DT><A NAME="feldman97a"><STRONG>Feldman  et al.1997</STRONG></A>
+<DD>
+Ronen Feldman, Will Klosgen, and Amir Zilberstein.
+<BR>1997.
+<BR>Visualization techniques to explore data mining results for document
+  collections.
+<BR>In <EM>Proceedings of the Third Annual Conference on Knowledge
+  Discovery and Data Mining (KDD)</EM>, Newport Beach.
+
+<P></P><DT><A NAME="fellbaum98"><STRONG>Fellbaum1998</STRONG></A>
+<DD>
+Christiane Fellbaum, editor.
+<BR>1998.
+<BR><EM>WordNet: An Electronic Lexical Database</EM>.
+<BR>MIT Press.
+
+<P></P><DT><A NAME="hearst98b"><STRONG>Hearst1998</STRONG></A>
+<DD>
+Marti A. Hearst.
+<BR>1998.
+<BR>Automated discovery of wordnet relations.
+<BR>In Christiane Fellbaum, editor, <EM>WordNet: An Electronic Lexical
+  Database</EM>. MIT Press, Cambridge, MA.
+
+<P></P><DT><A NAME="hendry97"><STRONG>Hendry and Harper1997</STRONG></A>
+<DD>
+David G. Hendry and David J. Harper.
+<BR>1997.
+<BR>An informal information-seeking environment.
+<BR><EM>Journal of the American Society for Information Science</EM>,
+  48(11):1036-1048.
+
+<P></P><DT><A NAME="hoaglin83"><STRONG>Hoaglin  et al.1983</STRONG></A>
+<DD>
+David C. Hoaglin, Frederick Mosteller, and John W. Tukey.
+<BR>1983.
+<BR><EM>Understanding Robust and Exploratory Data Analysis</EM>.
+<BR>John Wiley &amp; Sons, Inc.
+
+<P></P><DT><A NAME="kleinberg98"><STRONG>Kleinberg1998</STRONG></A>
+<DD>
+Jon Kleinberg.
+<BR>1998.
+<BR>Authoritative sources in a hyperlinked environment.
+<BR>In <EM>Proceedings of the 9th ACM-SIAM Symposium on Discrete
+  Algorithms</EM>.
+
+<P></P><DT><A NAME="larson96b"><STRONG>Larson1996</STRONG></A>
+<DD>
+Ray R. Larson.
+<BR>1996.
+<BR>Bibliometrics of the world wide web: An exploratory analysis of the
+  intellectual structure of cyberspace.
+<BR>In <EM>ASIS '96: Proceedings of the 1996 Annual ASIS Meeting</EM>.
+
+<P></P><DT><A NAME="lin91"><STRONG>Lin  et al.1991</STRONG></A>
+<DD>
+Xia Lin, Dagobert Soergel, and Gary Marchionini.
+<BR>1991.
+<BR>A self-organizing semantic map for information retrieval.
+<BR>In <EM>Proceedings of the 14th Annual International ACM/SIGIR
+  Conference</EM>, pages 262-269, Chicago.
+
+<P></P><DT><A NAME="manning93"><STRONG>Manning1993</STRONG></A>
+<DD>
+Christopher D. Manning.
+<BR>1993.
+<BR>Automatic acquisition of a large subcategorization dictionary from
+  corpora.
+<BR>In <EM>Proceedings of the 31st Annual Meeting of the Association for
+  Computational Lingusitics</EM>, pages 235-242, Columbus, OH.
+
+<P></P><DT><A NAME="narin97"><STRONG>Narin  et al.1997</STRONG></A>
+<DD>
+Francis Narin, Kimberly S. Hamilton, and Dominic Olivastro.
+<BR>1997.
+<BR>The increasing linkage between us technology and public science.
+<BR><EM>Research Policy</EM>, 26(3):317-330.
+
+<P></P><DT><A NAME="peat91"><STRONG>Peat and Willett1991</STRONG></A>
+<DD>
+Helen J. Peat and Peter Willett.
+<BR>1991.
+<BR>The limitations of term co-occurence data for query expansion in
+  document retrieval systems.
+<BR><EM>JASIS</EM>, 42(5):378-383.
+
+<P></P><DT><A NAME="ramadan89"><STRONG>Ramadan  et al.1989</STRONG></A>
+<DD>
+N. M. Ramadan, H. Halvorson, A. Vandelinde, and S.R. Levine.
+<BR>1989.
+<BR>Low brain magnesium in migraine.
+<BR><EM>Headache</EM>, 29(7):416-419.
+
+<P></P><DT><A NAME="rennison94"><STRONG>Rennison1994</STRONG></A>
+<DD>
+Earl Rennison.
+<BR>1994.
+<BR>Galaxy of news: An approach to visualizing and understanding
+  expansive news landscapes.
+<BR>In <EM>Proceedings of UIST 94, ACM Symposium on User Interface
+  Software and Technology</EM>, pages 3-12, New York.
+
+<P></P><DT><A NAME="roth97"><STRONG>Roth  et al.1997</STRONG></A>
+<DD>
+Steven F. Roth, Mei C. Chuah, Stephan Kerpedjiev, John A. Kolojejchick, and
+  Peter Lucas.
+<BR>1997.
+<BR>Towards an information visualization workspace: Combining multiple
+  means of expression.
+<BR><EM>Human-Computer Interaction</EM>, 12(1-2):131-185.
+
+<P></P><DT><A NAME="swanson94"><STRONG>Swanson and Smalheiser1994</STRONG></A>
+<DD>
+Don R. Swanson and N. R. Smalheiser.
+<BR>1994.
+<BR>Assessing a gap in the biomedical literature: Magnesium deficiency
+  and neurologic disease.
+<BR><EM>Neuroscience Research Communications</EM>, 15:1-9.
+
+<P></P><DT><A NAME="swanson97"><STRONG>Swanson and Smalheiser1997</STRONG></A>
+<DD>
+Don R. Swanson and N. R. Smalheiser.
+<BR>1997.
+<BR>An interactive system for finding complementary literatures: a
+  stimulus to scientific discovery.
+<BR><EM>Artificial Intelligence</EM>, 91:183-203.
+
+<P></P><DT><A NAME="swanson87"><STRONG>Swanson1987</STRONG></A>
+<DD>
+Don R. Swanson.
+<BR>1987.
+<BR>Two medical literatures that are logically but not bibliographically
+  connected.
+<BR><EM>JASIS</EM>, 38(4):228-233.
+
+<P></P><DT><A NAME="swanson91"><STRONG>Swanson1991</STRONG></A>
+<DD>
+Don R. Swanson.
+<BR>1991.
+<BR>Complementary structures in disjoint science literatures.
+<BR>In <EM>Proceedings of the 14th Annual International ACM/SIGIR
+  Conference</EM>, pages 280-289.
+
+<P></P><DT><A NAME="tukey77"><STRONG>Tukey1977</STRONG></A>
+<DD>
+John W. Tukey.
+<BR>1977.
+<BR><EM>Exploratory Data Analysis</EM>.
+<BR>Addison-Wesley Publishing Company.
+
+<P></P><DT><A NAME="voorhees94"><STRONG>Voorhees1994</STRONG></A>
+<DD>
+Ellen M. Voorhees.
+<BR>1994.
+<BR>Query expansion using lexical-semantic relations.
+<BR>In <EM>Proceedings of the 17th Annual International ACM/SIGIR
+  Conference</EM>, pages 61-69, Dublin, Ireland.
+
+<P></P><DT><A NAME="mikewalker98"><STRONG>Walker  et al.1998</STRONG></A>
+<DD>
+Michael G. Walker, Walter Volkmuth, Einat Sprinzak, David Hodgson, and Tod
+  Klingler.
+<BR>1998.
+<BR>Prostate cancer genes identified by genome-scale expression analysis.
+<BR>Technical Report (unnumbered), Incyte Pharmaceuticals, July.
+
+<P></P><DT><A NAME="white89"><STRONG>White and McCain1989</STRONG></A>
+<DD>
+H. D. White and K. W. McCain.
+<BR>1989.
+<BR>Bibliometrics.
+<BR><EM>Annual Review of Information Science and Technology</EM>,
+  24:119-186.
+
+<P></P><DT><A NAME="wise95"><STRONG>Wise  et al.1995</STRONG></A>
+<DD>
+James A. Wise, James J. Thomas, Kelly Pennock, David Lantrip, Marc Pottier, and
+  Anne Schur.
+<BR>1995.
+<BR>Visualizing the non-visual: Spatial analysis and interaction with
+  information from text documents.
+<BR>In <EM>Proceedings of the Information Visualization Symposium 95</EM>,
+  pages 51-58. IEEE Computer Society Press.
+
+<P></P><DT><A NAME="xu96"><STRONG>Xu and Croft1996</STRONG></A>
+<DD>
+J. Xu and W. B. Croft.
+<BR>1996.
+<BR>Query expansion using local and global document analysis.
+<BR>In <EM>SIGIR '96: Proceedings of the 19th Annual International ACM
+  SIGIR Conference on Research and Development in Information Retrieval</EM>, pages
+  4-11, Zurich.
+</DL>
+
+</FONT>
+<h2><A NAME="SECTION00080000000000000000">
+  About this document ... </A>
+</h2><STRONG>Untangling Text Data Mining</STRONG><P>
+This document was generated using the
+<A HREF="http://www-dsed.llnl.gov/files/programs/unix/latex2html/manual/"><STRONG>LaTeX</STRONG>2<tt>HTML</tt></A> translator Version 98.1p1 release (March 2nd, 1998)
+<P>
+Copyright &#169; 1993, 1994, 1995, 1996, 1997,
+<A HREF="http://cbl.leeds.ac.uk/nikos/personal.html">Nikos Drakos</A>, 
+Computer Based Learning Unit, University of Leeds.
+<BR>
+
+<ADDRESS>
+<I>Marti Hearst</I>
+<BR><I>1999-05-12</I>
+</ADDRESS>
+</BODY>
+</HTML>

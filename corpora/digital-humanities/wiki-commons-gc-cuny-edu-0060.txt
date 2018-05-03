@@ -1,0 +1,477 @@
+
+		
+			Skip to content
+
+			
+
+		
+		
+			
+												
+					CUNY Academic Commons Wiki Archive
+				
+
+											
+
+
+			
+
+			Menu
+			Home
+	Contents
+
+
+		
+
+	
+
+
+			
+				
+
+
+
+			
+
+		
+		
+
+
+
+
+
+	
+	
+	
+				
+
+From CUNY Academic Commons
+
+
+
+
+
+
+
+[image: ]
+
+
+
+
+Welcome to the CUNY Digital Humanities Resource Guide, a collaboratively produced introduction to the field of Digital Humanities. The guide is a project of the CUNY Digital Humanities Initiative (DHI), a new working group aimed at building connections and community among those at CUNY who are – or would like to be – applying digital technologies to research and pedagogy in the humanities.
+
+
+
+[image: ]  
+
+[image: ]
+
+Centernet Summit and THATCamp London shared CC by Marin Dacos & Revues.org
+
+
+
+
+
+
+
+
+
+[bookmark: Introduction]
+
+  Introduction  
+
+	Using This Guide
+
+
+
+[bookmark: The_Digital_Humanities]
+
+  The Digital Humanities  
+
+	Defining the Digital Humanities
+
+	Sample Projects
+
+	Some Reading
+
+	Hot Topics
+
+
+
+[bookmark: The_Resource_Guide]
+
+  The Resource Guide  
+
+	Online Communities/Discussion Forums
+
+	DH on Twitter
+
+	Blogs to Follow
+
+	Journals
+
+	Conferences & Events
+
+	Training/Professional Development
+
+	Scholarships/Fellowships
+
+	Funding/Awards/Competitions
+
+	Centers for DH Work
+
+	Organizations/Associations
+
+	Tools & Methods
+
+	Data Management Tools
+
+	Research & Citation Management Tools
+
+	Writing Process Tools and Methods
+
+	DH Programs and Syllabi
+
+	Git and GitHub
+
+	Jobs
+
+	Tips
+
+	Other Resources
+
+
+
+[bookmark: Hackathon_Resources]
+
+ Hackathon Resources
+
+	HTML and CSS
+
+
+
+ Credits: The Digital Humanities Resource Guide was created by Charlie Edwards, a graduate student in the Ph.D. Program in English and the Interactive Technology and Pedagogy Certificate Program at The CUNY Graduate Center, in consultation with ITP faculty member Matthew K. Gold. CUNY Academic Commons Wiki Wrangler Scott Voth helped format it for the wiki.
+
+
+
+Future versions of the guide will be produced collaboratively by the members of the CUNY DHI community and, we hope, by the DH community at large.
+
+
+
+
+
+
+	 Previous: The CUNY Digital Humanities Initiative
+	    
+	 Next: Using This Guide
+
+
+
+Want to make a suggestion or correction? Please visit Using This Guide for more information.
+
+
+
+
+
+
+
+
+		
+	
+
+
+		
+		
+
+
+	
+	
+		
+	
+
+
+
+	
+
+	
+		Search for:
+		
+	
+	
+
+
+Categories
+			ADA Compliance (2)
+
+	Art (2)
+
+	Art on the Commons (1)
+
+	Assessment (5)
+
+	Blackboard (19)
+
+	Blogging (8)
+
+	Capitalism (1)
+
+	CCRC (8)
+
+	Citation Managers (2)
+
+	Composition (15)
+
+	Copyright (4)
+
+	Course Development (4)
+
+	Course Management Systems (1)
+
+	Course Site Assessment (2)
+
+	Creative practices (2)
+
+	CUNY Academic Commons (2)
+
+	CUNY ITunes U (32)
+
+	CUNY ITunes U Campus Home Pages (18)
+
+	CUNYDHI (24)
+
+	DH Guide (23)
+
+	Digital Humanities (23)
+
+	Directory of Academic Commons Group Wikis (11)
+
+	Distance Learning (6)
+
+	E-Learning (4)
+
+	Educational Technology (10)
+
+	Eportfolios (25)
+
+	ESL (2)
+
+	Faculty Development (3)
+
+	Featured (4)
+
+	FERPA (1)
+
+	FYE (2)
+
+	Google (2)
+
+	Gravatars (1)
+
+	Help (41)
+
+	Information Literacy (3)
+
+	Intellectual Property (2)
+
+	Librarians (10)
+
+	Libraries (11)
+
+	Library Science (3)
+
+	Lincoln Center (1)
+
+	Literature (1)
+
+	Math (1)
+
+	Math on the Commons (1)
+
+	Metadata (2)
+
+	Moodle (4)
+
+	NCC (9)
+
+	Omeka (4)
+
+	On-Line Lectures (5)
+
+	Online Program Assessment (1)
+
+	Open Access (OA) (7)
+
+	Open Source (9)
+
+	Philosophy (2)
+
+	Plugin (1)
+
+	Podcasting (6)
+
+	Poetry (1)
+
+	Political Science (1)
+
+	Politics (1)
+
+	Powerpoint (1)
+
+	Privacy (3)
+
+	Resources (4)
+
+	Rhetoric (9)
+
+	Sample online courses (2)
+
+	Sandbox (1)
+
+	Social Bookmarking (2)
+
+	Social Networking (2)
+
+	Suggestions (3)
+
+	Teaching and Learning with Technology (71)
+
+	The Arts @ CUNY (1)
+
+	Twitter (4)
+
+	Web 2.0 (32)
+
+	Web Publishing (19)
+
+	Wikis (8)
+
+	WordPress (8)
+
+
+
+
+
+				
+
+			
+
+
+			
+
+	
+		
+		
+
+	
+		
+		Built with Make. Your friendly WordPress page builder theme.	
+
+	
+
+
+			
+
+		
+
+
+		[image: css.php]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+		Need help with the Commons?
+		Visit our 
+help page
+		Send us a message
+	
+
+
+	
+
+	
+		
+		
+							Skip to toolbar
+						
+					CUNY Academic Commons	Home		
+	People		
+	Groups		
+	Sites		
+	Papers		
+	Events		
+	News		
+	Help		
+	About	About the Commons		
+	Contact Us		
+	Publications on the Commons		
+	Image Credits		
+	Privacy Policy		
+	Project Staff		
+	Terms of Service		
+
+
+		
+
+
+		
+	Log in		
+	Register		
+
+	Help		
+
+			
+
+					
+
+
+		
+	
+		This site is part of the CUNY Academic Commons, an academic social network for the entire 24-campus CUNY system.
+
+		Unless otherwise stated, all content on the CUNY Academic Commons is licensed under a  Creative Commons license.
+
+	
+
+
+	
+		[image: ]
+
+		Help | Contact Us | Privacy Policy | Terms of Service | Image Credits
+
+	
+
+
+	
+		[image: CUNY Logo]
+
+		
+			Built with WordPress |
+			Protected by Akismet  |
+			Powered by CUNY
+		
+
+	
+
+
+
+
+
+
+	

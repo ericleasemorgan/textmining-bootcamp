@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.americanscientist.org/sites/americanscientist.org/files/AmSci_Logo_for_Favicon_and_Social_Media.jpg" type="image/jpeg" />
+<meta name="description" content="With digitized text from five million books, one is never at a loss for words" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="doi-org-0099.htm" />
+<link rel="shortlink" href="https://www.americanscientist.org/node/3013" />
+<meta property="og:site_name" content="American Scientist" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.americanscientist.org/article/bit-lit" />
+<meta property="og:title" content="Bit Lit" />
+<meta property="og:updated_time" content="2018-02-02T14:07:06-05:00" />
+<meta property="article:published_time" content="2017-02-06T10:02:19-05:00" />
+<meta property="article:modified_time" content="2018-02-02T14:07:06-05:00" />
+  <title>Bit Lit | American Scientist</title>
+  <link type="text/css" rel="stylesheet" href="https://www.americanscientist.org/sites/americanscientist.org/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.americanscientist.org/sites/americanscientist.org/files/css/css_3PUIKrMnv99_O4OiiOC4gi6Oh5xs8omP5LqS29hL4hM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.americanscientist.org/sites/americanscientist.org/files/css/css_OYjADbDIfyfddEAOGs8rhyQwnGhovhYaMrNcEHhkUgY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.americanscientist.org/sites/americanscientist.org/files/css/css_PmXvxX3WfWmMq5Hi_uh-NCOpxPy0JXV98ElWTr59puM.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://assets.adobedtm.com/c876840ac68fc41c08a580a3fb1869c51ca83380/satelliteLib-5d26ffb3c7bdaa83d8ed16eea00bb531a1fa2254.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/profiles/esuitetools/modules/contrib/jquery_update/replace/jquery/2.1/jquery.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.americanscientist.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/misc/drupal.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/contrib/jquery_update/replace/jquery.form/3/jquery.form.js?v=3.51.0"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/misc/ajax.js?v=7.50"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/contrib/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/esuitetools/est_page_maker/scripts/contentbuilder.js?p5t11i"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.js?p5t11i"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+  
+	jQuery(document).ready(function ($) {
+        $("p.expandable").animate({
+              display: 'none'
+          }).hide()	      
+		    $(".toggle").click(function () {
+		        if ($(this).data('name') == 'show') {
+
+		            $(this).next(function () {
+		              display: 'none'
+		            }).hide();
+
+		            $(this).data('name', 'hide')
+		        } else {
+		            
+		            $(this).next(function () {
+		              display: 'block'
+		            }).show();
+
+		            $(this).data('name', 'show')
+		        }
+		    });
+		});
+
+
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/contrib/lightbox2/js/lightbox.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/all/libraries/vrview/build/vrview.js?p5t11i"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = 1;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/js/custom-vrview.js?p5t11i"></script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-1c15940b-4b4d-c897-b168-e62c98821237","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/all/libraries/ScrollMagic/ScrollMagic.min.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/all/libraries/ScrollMagic/animation.gsap.min.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/all/libraries/ScrollMagic/jquery.ScrollMagic.min.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/all/libraries/waypoints/noframework.waypoints.min.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/all/libraries/waypoints/jquery.waypoints.min.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/contrib/google_analytics/googleanalytics.js?p5t11i"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4481176-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/contrib/piwik/piwik.js?p5t11i"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://analytics.esuitetools.com/" : "http://analytics.esuitetools.com/");_paq.push(["setSiteId", "12"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/contrib/views_load_more/views_load_more.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/contrib/views/js/base.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/misc/progress.js?v=7.50"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/contrib/views/js/ajax_view.js?p5t11i"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      jQuery(document).ready(function ($) {
+        //$("#edit-body-und-0-format").hide();
+        //jQuery(Drupal.ckeditorInstance.parent).webkitimageresize();
+      });
+    
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/esuitetools/est_ip_access/button_replace.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/profiles/esuitetools/modules/contrib/disqus/disqus.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/js/jquery.sidr.min.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/js/main.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/js/selection-sharer.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/js/svg4everybody.min.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/js/webfontloader.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/js/iao-alert.jquery.js?p5t11i"></script>
+<script type="text/javascript" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/js/custom-scrollmagic.js?p5t11i"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"amsci","theme_token":"yx9mB_skZHilfG-B8gGW6RnBjHqZYREIuOry-QBfLgA","jquery_version":"2.1","js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/2.1.4\/jquery.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/esuitetools\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"profiles\/esuitetools\/modules\/contrib\/jquery_update\/replace\/jquery.form\/3\/jquery.form.js":1,"misc\/ajax.js":1,"profiles\/esuitetools\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"profiles\/esuitetools\/modules\/esuitetools\/est_page_maker\/scripts\/contentbuilder.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.10.2\/jquery-ui.js":1,"1":1,"profiles\/esuitetools\/modules\/contrib\/lightbox2\/js\/lightbox.js":1,"sites\/all\/libraries\/vrview\/build\/vrview.js":1,"2":1,"sites\/americanscientist.org\/themes\/amsci\/js\/custom-vrview.js":1,"\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/libraries\/ScrollMagic\/ScrollMagic.min.js":1,"sites\/all\/libraries\/ScrollMagic\/animation.gsap.min.js":1,"sites\/all\/libraries\/ScrollMagic\/jquery.ScrollMagic.min.js":1,"sites\/all\/libraries\/waypoints\/noframework.waypoints.min.js":1,"sites\/all\/libraries\/waypoints\/jquery.waypoints.min.js":1,"profiles\/esuitetools\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"4":1,"profiles\/esuitetools\/modules\/contrib\/piwik\/piwik.js":1,"5":1,"profiles\/esuitetools\/modules\/contrib\/views_load_more\/views_load_more.js":1,"profiles\/esuitetools\/modules\/contrib\/views\/js\/base.js":1,"misc\/progress.js":1,"profiles\/esuitetools\/modules\/contrib\/views\/js\/ajax_view.js":1,"6":1,"profiles\/esuitetools\/modules\/esuitetools\/est_ip_access\/button_replace.js":1,"profiles\/esuitetools\/modules\/contrib\/disqus\/disqus.js":1,"sites\/americanscientist.org\/themes\/amsci\/js\/jquery.sidr.min.js":1,"sites\/americanscientist.org\/themes\/amsci\/js\/main.js":1,"sites\/americanscientist.org\/themes\/amsci\/js\/selection-sharer.js":1,"sites\/americanscientist.org\/themes\/amsci\/js\/svg4everybody.min.js":1,"sites\/americanscientist.org\/themes\/amsci\/js\/webfontloader.js":1,"sites\/americanscientist.org\/themes\/amsci\/js\/iao-alert.jquery.js":1,"sites\/americanscientist.org\/themes\/amsci\/js\/custom-scrollmagic.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/esuitetools\/modules\/contrib\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"profiles\/esuitetools\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/esuitetools\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/esuitetools\/modules\/esuitetools\/est_core\/css\/est_core.css":1,"profiles\/esuitetools\/modules\/esuitetools\/est_page_maker\/scripts\/contentbuilder.css":1,"profiles\/esuitetools\/modules\/contrib\/lightbox2\/css\/lightbox.css":1,"profiles\/esuitetools\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/esuitetools\/modules\/contrib\/field_group\/field_group.field_ui.css":1,"sites\/americanscientist.org\/themes\/amsci\/css\/selection-sharer.css":1,"sites\/americanscientist.org\/themes\/amsci\/css\/styles.css":1}},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/profiles\/esuitetools\/modules\/contrib\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":false,"useragent":"Wget\/1.19.4 (darwin17.3.0)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"piwik":{"trackMailto":1},"disqusComments":"americanscientist","disqus":{"domain":"americanscientist","url":"https:\/\/www.americanscientist.org\/article\/bit-lit","title":"Bit Lit","identifier":"amsci_pub_12418","status":true},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:00cda3d1cd1fcbeba107322edb974582":{"view_name":"article_content","view_display_id":"block_3","view_args":"3013","view_path":"node\/3013","view_base_path":null,"view_dom_id":"00cda3d1cd1fcbeba107322edb974582","pager_element":0}}},"est_ip_access":{"product_id":550,"selector":"#commerce-cart-add-to-cart-form-550 input[type=\u0027submit\u0027]"},"urlIsAjaxTrusted":{"\/article\/bit-lit":true}});
+//--><!]]>
+</script>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '112014672653664',
+      xfbml      : true,
+      version    : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>  
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-3013 node-type-page-maker" >
+  <div id="skip-link">
+    <a href="doi-org-0099.htm#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+     <!--  Insert Header -->
+        <div id="sidr" class="banner__nav-wrapper sidr left">
+              <nav class="navigation" role="navigation">
+                <a href="doi-org-0099.htm#" class="bmenu--close" onClick="jQuery.sidr('close', 'sidr');">
+                    <div class="nav--close">
+                    <div class="nav--header"> Close  </div>
+                  </div>
+                </a>
+                                      <!-- start region.tpl.php template -->
+  <!-- start block.tpl.php template -->
+
+<ul class='navigation__top'><li class="first"><a href="https://www.americanscientist.org/search/node">Search</a></li>
+<li class="last"><a href="javascript: void(0);" class="cus__helpsidr">Help</a></li>
+</ul><!-- end block.tpl.php template -->
+<!-- start block.tpl.php template -->
+
+<ul class='navigation__main'><li class="first navigation--item"><a href="https://www.americanscientist.org/topics-names/all">Topics</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/topics-names/all?field_media_tid=338">Features</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/blogs/all">Blogs</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/topics-names/all?field_media_tid=103">Video</a></li>
+<li class="last navigation--item"><a href="https://www.americanscientist.org/topics-names/all?field_media_tid=102">Podcasts</a></li>
+</ul><!-- end block.tpl.php template -->
+<!-- start block.tpl.php template -->
+
+<ul class='navigation__utility'><li class="first navigation--item"><a href="https://www.americanscientist.org/magazine/issues/all">Magazine</a></li>
+<li class=""><a href="http://www.jstor.org/journal/amerscie" target="_blank">Archive</a></li>
+<li class="navigation--item"><a href="https://ecommerce.sigmaxi.org/ecom/#Subscribe" target="_blank">Subscribe</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/user?destination=node/3013">Newsletter</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/content/about-us">About Us</a></li>
+<li class="last navigation--item"><a href="https://www.americanscientist.org/content/advertise">Advertise</a></li>
+</ul><!-- end block.tpl.php template -->
+<!-- start block.tpl.php template -->
+
+<div class="item-list"><ul class="navigation__member"><li class="navigation--item first"><a href="https://www.americanscientist.org/user/login?destination=node/3013">Login</a></li>
+<li class="navigation--item last"><a href="https://www.americanscientist.org/user/register?destination=node/3013">Register</a></li>
+</ul></div><!-- end block.tpl.php template -->
+<!-- start block.tpl.php template -->
+
+<ul class='navigation__socialmedia'><li class="first socialmedia--Twitter"><a href="https://twitter.com/AmSciMag" target="_blank">Twitter</a></li>
+<li class="socialmedia--Facebook"><a href="https://www.facebook.com/AmericanScientist/" target="_blank">Facebook</a></li>
+<li class="socialmedia--Youtube"><a href="https://www.youtube.com/user/AmSciMagazine" target="_blank">YouTube</a></li>
+<li class="socialmedia--GooglePlus"><a href="https://plus.google.com/+AmericanscientistOrg" target="_blank">Google Plus</a></li>
+<li class="last socialmedia--LinkedIn"><a href="https://www.linkedin.com/company/american-scientist" target="_blank">LinkedIn</a></li>
+</ul><!-- end block.tpl.php template -->
+<!-- end region.tpl.php template -->
+                                  <a href="https://www.sigmaxi.org" target="_blank"><img class="sigma-logo--sm" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/img/sigma-xi-logo-sm.png" alt="Sigma XI" /></a>
+            </nav>
+        </div>
+    
+    
+          <header role="banner" class="banner nav-down">
+                              <a href="https://www.americanscientist.org/"><h1 class="banner__site-name"><span>American Scientist</span></h1></a>
+                          <ul class="bmenu__list">
+                <li class="bmenu__item bmenu--open"><a id="simple-menu" href="doi-org-0099.htm#sidr" class="bmenu--open">Open navigation
+                </a></li>
+    
+                <li class="bmenu__item bmenu--search"><a href="https://www.americanscientist.org/search/node" class="bmenu--search">Search
+                </a></li>
+            </ul>
+              <ul class="bmenu__list bmenu--onright">
+                <li class="bmenu__item bmenu--help">
+                  <a href="javascript:void(0)" class="bmenu--help">Help</a></li>
+                <li class="bmenu__item bmenu--login">
+                  <a href="https://www.americanscientist.org/user/login" class="bmenu--login">Login</a>                </li>
+              </ul>
+        </header>
+<div role="document" class="page-wrapper">
+  <main role="main">
+      
+                                                                          <!-- start region.tpl.php template -->
+  <!-- start block.tpl.php template -->
+
+<!-- start node--page_maker.tpl.php -->
+    <div class="article-wrapper Computer__topic node node-page-maker node-promoted node-full">
+          <div class="view view-article-content view-id-article_content view-display-id-block_3 view-dom-id-00cda3d1cd1fcbeba107322edb974582">
+            <div class="view-header">
+      <section class="article__hero">
+
+<div class="top-matter">
+<h2 class="article-title--lg media__header">Bit Lit</h2>
+<h3 class="article-author"><span>By</span>     <a href='https://www.americanscientist.org/author/brian_hayes'>Brian Hayes</a></h3>
+<p class="dek-title selectionShareable">With digitized text from five million books, one is never at a loss for words</p>
+<h4 class="media__keywords tags"><span class="Communications"><a href="https://www.americanscientist.org/topics-names/Communications">Communications</a></span> <span class="Computer"><a href="https://www.americanscientist.org/topics-names/Computer">Computer</a></span> <span class="Technology"><a href="https://www.americanscientist.org/topics-names/Technology">Technology</a></span> </h4>
+<div class="article__socialmedia">
+      <ul class="navigation__socialmedia">
+    <li class="socialmedia__item socialmedia--ArticleBookmark"></li>
+       <li class="socialmedia__item socialmedia--ArticleFacebook"><a class="st_facebook_large" st_title="Bit Lit" st_url="https://www.americanscientist.org/article/bit-lit" href="javascript:void(0)">Facebook</a></li>
+       <li class="socialmedia__item socialmedia--ArticleTwitter"><a class="st_twitter_custom" st_title="Bit Lit" st_url="https://www.americanscientist.org/article/bit-lit" href="javascript:void(0)">Twitter</a></li>
+       <li class="socialmedia__item socialmedia--ArticleLinkedIn"><a href="javascript:void(0)" class="st_linkedin_custom" st_title="Bit Lit" st_url="https://www.americanscientist.org/article/bit-lit">LinkedIn</a></li>
+       <li class="socialmedia__item socialmedia--ArticleGooglePlus"><a st_url="https://www.americanscientist.org/article/bit-lit" class="st_googleplus_custom" href="javascript:void(0)" st_title="Bit Lit">Google Plus</a></li>
+       <li class="socialmedia__item socialmedia--ArticleEmail"><a class="st_email_custom" href="javascript:void(0)" st_title="Bit Lit | American Scientist" st_url="https://www.americanscientist.org/article/bit-lit" title="Share by Email">
+Email</a></li>
+       <li class="socialmedia__item socialmedia--ArticlePrint"><a class="est-print" href="javascript:void(0)" st_title="Bit Lit" st_url="https://www.americanscientist.org/print/3013">Print</a></li>
+    </ul>
+  </div>
+</div>
+</section>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1">
+      
+              </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>      <div class="article-main">
+          <div class="view view-article-content view-id-article_content view-display-id-block_2 view-dom-id-4eceae5e18afa564562ae50ebc17abc0">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+          <div class="issue-bug">
+  
+          <div>
+      
+            <div class="image-wrapper">
+      <img src="https://www.americanscientist.org/sites/americanscientist.org/files/styles/issue_box_in_article/public/2011-99-3-cover.jpg?itok=Q0ik0kg7" alt="Current Issue">
+    </div>
+    <div class="bug__content">
+      <h3 class="bug__intro">This Article From Issue</h3>
+      <h4 class="bug__issue">May-June 2011</h4>
+      <h5 class="bug__volume">Volume 99, Number 3</h5>
+    </div>    </div>
+    
+  
+<div class="cus_bug__content">
+      <h6 class="bug__page">Page 190</h6>
+      <p class="bug__doi selectionShareable">DOI: <a href="doi-org-0099.htm#">10.1511/2011.90.190</a></p>
+</div>
+<ul class="bug__list media__list">
+        <li class="media__item"><form class="commerce-add-to-cart commerce-cart-add-to-cart-form-550" action="doi-org-0099.htm" method="post" id="commerce-cart-add-to-cart-form-550" accept-charset="UTF-8"><div><input type="hidden" name="product_id" value="550" />
+<input type="hidden" name="form_build_id" value="form-XFYtyhMe-zq0hSc9Sb0iMxZopf0pEkFB8O1FR0FIViE" />
+<input type="hidden" name="form_id" value="commerce_cart_add_to_cart_form_550" />
+<div id="edit-line-item-fields" class="form-wrapper"></div><input type="submit" id="edit-submit" name="op" value="Purchase this Article" class="form-submit" /></div></form></li>
+        <li class="media__item"><a href="https://www.americanscientist.org/node/234" class="media__button">View Issue</a></li>
+    </ul>
+</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+    <!-- start field.tpl.php template -->
+  <div class="row"><p>Books are being blown to bits. New ones are “born digital”; millions of old ones are being assimilated into the mind of the machine. </p><p>Some people question the wisdom of this transition to digital reading matter. Paper and ink have served us pretty well for a thousand years or more. Is it prudent to store everything we know in tiny smudges of electric charge we can’t see or touch? Critics also worry about who will wind up owning our cultural heritage. And then there are the sentimentalists, who say it’s just not the same curling up by the fireside with a good Kindle.</p><p>Well, I for one welcome our new computer overlords. And I would like to point out that books are not <em>only</em> for reading. There are other things we (and our computers) can do with the words in books. We can count them, sort them, make comparisons among them, search for patterns in their distribution, classify them, catalog them, analyze them. Yes, these are nerdy, mechanical, reductionist assaults on literature—but they are also methods of extracting meaning from text, just as reading is. And they scale better.</p></div><div class="row"><div class="adband vertical-ad__right">
+  <div id="mvbox">Ad Right</div>
+</div></div><div class="row"><h3 class="header--three">Googling the Lexicon </h3></div><div class="row"><p>The data-driven approach to language studies got a big boost last winter, when a team from Harvard and Google released a collection of digitized words and phrases culled from more than five million books published over the past 600 years. The text came out of the Google Books project, an industrial-scale scanning operation. Since 2004 Google Books has been digitizing the collections of more than 40 large libraries, as well as books supplied directly by publishers. At last report the Google scanning teams had paged their way through more than 15 million volumes. They estimate that another 115 million books remain to be done.</p><p>At the Google Books website, pages of scanned volumes are displayed as images, composed of pixels rather than letters and words. But to make the books searchable—which is, after all, Google’s main line of business—it’s necessary to extract the textual content as well. This is done by the process known as optical character recognition, or OCR—a computer’s closest approximation to reading.</p><p>In 2007 Jean-Baptiste Michel and Erez Lieberman Aiden of Harvard recognized that the textual corpus derived from the Google Books OCR process might make a useful resource for scholarly research in history, linguistics and cultural studies. There are many other corpora for such purposes, including one based on a Google index of the World Wide Web. But the Google Books database would be special both because of its large size and because of its historical reach. The Web covers only 20 years, but the printed word takes us back to Gutenberg.</p><p>Michel and Aiden got in touch with Peter Norvig and Jon Orwant of Google and eventually arranged for access to the data. Because of copyright restrictions, it was not possible to release the full text of books or even substantial excerpts. Instead the text was chopped into “<em>n</em>-grams”—snippets of a few words each. A single word is a 1-gram, a two-word phrase is a 2-gram, and so on. The Harvard-Google database includes 1-, 2-, 3-, 4- and 5-grams. For each year in which an <em>n</em>-gram was observed, the database lists the number of books in which it was found, the number of pages within those books on which it appeared and the total number of recorded occurrences.</p><p>The <em>n</em>-gram database is drawn from a subset of the full Google Books corpus, consisting of 5,195,769 books, or roughly 4 percent of all the books ever printed. The selected books were those with the highest OCR quality and the most reliable metadata—the information <em>about</em> the book, including the date of publication.</p><p>A further winnowing step excluded any <em>n</em>-gram that did not appear at least 40 times in the selected books. This threshold, cutting off the extreme tail of the <em>n</em>-gram distribution, greatly reduced the bulk of the collection. Combining the 40-occurrence threshold with the 4 percent sampling of books, a rough rule of thumb says that an <em>n</em>-gram must appear in print about 1,000 times if it’s to have a good chance of showing up in the database.</p><p>The final data set covers seven languages (Chinese, English, French, German, Hebrew, Russian and Spanish) and counts more than 500 billion occurrences of individual words. The chronological range is from 1520 to 2008 (although Michel and Aiden focus mainly on the interval 1800–2000, where the data are most abundant and consistent).</p></div><div class="row"><h3 class="header--three">Culturomics </h3></div><div class="row"><p>This past January, Michel, Aiden and a dozen co-authors from Harvard, Google and elsewhere published a research article in <em>Science</em> introducing the new linguistic corpus and presenting some of their early findings. They also announced the Google Books Ngram Viewer, an online tool that allows anyone to query the database. Finally, they made the entire <em>n</em>-gram data set available for download under a Creative Commons license.</p><p>Some of the results reported in the <em>Science</em> article show how <em>n</em>-gram data can be used to document changes in the structure of language. One study examines the shifting balance between regular and irregular verbs in English—those that form the past tense with <em>-ed</em> and those that follow older or odder rules. Between 1800 and 2000 six verbs migrated from irregular to regular (<em>burn, chide, smell, spell, spill</em> and <em>thrive</em>) but two others went the opposite way (<em>light</em> and <em>wake</em>). In the case of <em>sneaked</em> vs. <em>snuck</em>, it’s too soon to tell.</p><p>Michel and Aiden describe their work as <em>culturomics</em>, a word formed on the model of <em>genomics</em> (but not yet to be found in the <em>n</em>-gram data set). In the same way that large-scale collections of DNA sequences can reveal patterns in biology, high-volume linguistic data can aid the analysis of human culture. For example, Michel and Aiden examined changes in the trajectory of fame over the past two centuries by counting occurrences of celebrity names. According to the <em>n</em>-gram analysis, modern celebrities come to public attention at an earlier age, and their fame grows faster, but they fade faster, too. “In the future, everyone will be famous for 7.5 minutes,” they remark (attributing the quote to “Whatshisname”).</p><p>Another study looked at linguistic evidence of censorship and political repression. In English, the frequency of the name <em>Marc Chagall</em> grows steadily throughout the 20th century, but in German texts it disappears almost entirely during the Nazi years, when the artist’s work was deemed “degenerate.” Similar cases of suppression were found in China, Russia and the United States. (The American victims were the Hollywood 10—writers and directors blacklisted from 1947 until 1960 because of supposed Communist sympathies.)</p><p>Having found that known cases of censorship or suppression could be detected in the <em>n</em>-gram data, Michel and Aiden then asked whether new instances could be identified by searching among the millions of time series for those with a telltale pattern. In the case of the Nazi era, the team devised a “suppression index” that compares <em>n</em>-gram frequencies before, during and after the Hitler years. Starting with a list of 56,500 names of people, they found that almost 10 percent showed evidence of suppression in the German-language data, but not in English.</p></div><div class="row"><h3 class="header--three">The Oracle of N-grams </h3></div><div class="row"><p>Reading about these experiments gave me the itch to try running some of my own. And it turns out that many interesting questions can be investigated with little effort and no cost using the Google Ngram Viewer (<a href="http://ngrams.googlelabs.com" target="_blank">http://ngrams.googlelabs.com</a>). The protocol for this service is simple: Type in a comma-separated series of <em>n</em>-grams, and get back a graph showing their frequency as a function of time. The frequencies are normalized to adjust for linguistic inflation—the expansion of the language as more books are published each year. The normalized frequency is the number of occurrences of an <em>n</em>-gram in a given year divided by the sum of all <em>n</em>-gram occurrences recorded in that year.</p></div><div class="row"><center><img src="https://www.americanscientist.org/sites/americanscientist.org/files/201148154108434-2011-05HayesFA.jpg" class="myImg" alt=""></center></div><div class="row"><figure class="article__figure">
+<figcaption><input style="background-image: url(https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/img/expand-button.png); background-repeat: no-repeat; height:46px; width:46px; border:none; border-style:solid; border-color:#fff;" value="" class="toggle" id="toggle" data-name="hide" alt="Expand" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/img/expand-button.png" type="button">
+  <p class="expandable simple-paragraph" style="display: none;">Trends in word usage are traced across the centuries in a database built from the text of more than five million books, digitized as part of the Google Books project. The curves were drawn by the Ngram Viewer, an online tool available at <a href="http://ngrams.googlelabs.com" target="_blank">http://ngrams.googlelabs.com</a>. The frequency of each word is calculated as a proportion of all words published each year. For example, the word <em>Physics</em> was counted 55,757 times in books published in 1997; the total number of word occurrences in that year was 5,395,715,208, giving <em>Physics</em> a normalized frequency just over 0.001 percent. </p>
+</figcaption>
+</figure></div><div class="row"><p>Shown above is the Ngram Viewer’s output in response to a simple query—a list of six nouns. Interpreted with care, a chart like this one might tell us something about the shifting fortunes of scientific disciplines—but the careful interpretation is crucial. This is a popularity contest among words, not among the concepts they denote. From the graph it would appear that <em>Biology</em> did not exist before about 1840—and that’s close to the truth if we’re speaking of the word itself. But the science of living things goes back further.</p><p>The curves have some curious features that I can’t explain, such as synchronized humps in about 1815 and 1875. Was there a real (but short-lived) upsurge in publishing books on the sciences in those years? Or are we seeing some artifact of librarianship or the selection process? The geology curve appears to have a persistent oscillation with a period of roughly 20 years. What, if anything, is that about?</p><p>The same query words without the initial capital letters yield somewhat different results. So do the corresponding agent nouns—<em>astronomer</em>, <em>biologist</em>, and so forth.</p><p>The Ngram Viewer can become an absorbing (and time-consuming) entertainment. You might even turn it into a party game: One player draws the graph, the others try to guess the query. But less-frivolous applications are also within reach. Here’s one possibility: With well-crafted queries, it might be possible to gauge the penetration of various foreign languages into English publications (or vice versa). From a very small sample, I get the impression that the frequency of German words in English text sagged during the World Wars, whereas Russian peaked in the Cold War.</p></div><div class="row"><h3 class="header--three">Terror of Terabytes </h3></div><div class="row"><p>The Viewer is an excellent oracle for the <em>n</em>-gram data, but it answers just one kind of question: How has the frequency of a specific <em>n</em>-gram varied over time? Many other questions cannot be expressed in this form. You might want to know which <em>n</em>-grams are the most common, or how word frequency varies as a function of word length, or which words entered the printed record first. To answer these questions and others like them, you’ll have to work a little harder. For starters, you’ll have to download the data, which is not a trivial undertaking. </p></div><div class="row"><center><img src="https://www.americanscientist.org/sites/americanscientist.org/files/201148154248435-2011-05HayesFB.jpg" class="myImg" alt=""></center></div><div class="row"><figure class="article__figure">
+<figcaption><input style="background-image: url(https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/img/expand-button.png); background-repeat: no-repeat; height:46px; width:46px; border:none; border-style:solid; border-color:#fff;" value="" class="toggle" id="toggle" data-name="hide" alt="Expand" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/img/expand-button.png" type="button">
+  <p class="expandable simple-paragraph" style="display: none;">Overall growth of the English language can be seen in both the number of distinct words <em>(blue curve and left scale)</em> and the number of times those words appear in the corpus <em>(red curve and right scale)</em>. Both curves have a noticeable change of slope after World War II. The number of distinct words rises to 6 million in 2008, and the number of word occurrences approaches 14 billion. The database counts every spelling and capitalization variant separately, and also includes numbers, foreign words that appear in English books and much else.</p>
+<p class="selectionShareable simple-paragraph"><strong>Illustration by Brian Hayes.</strong></p></figcaption>
+</figure></div><div class="row"><p>The complete set of English <em>n</em>-grams weighs in at 340 gigabytes of compressed files, which expand to fill 2.5 terabytes of disk space. I have not yet tried to swallow all that data; doing anything interesting with it would require more hardware. I have been working solely with the English 1-gram files, which amount to 10 gigabytes when decompressed. I’ve been able to manage them on a laptop, although I’ve needed a refresher course in “external” algorithms—those that manipulate data on disk rather than in main memory. (This was a common practice when memory topped out at 64 kilobytes, but that was a long time ago.)</p><p>The 1-gram data are scattered over 10 files, which I merged into one. Then I set about gathering some basic facts and figures. In the English 1-gram data set there are 7,380,256 unique words, which occur a total of 359,675,008,445 times. Thus the mean number of occurrences per word is 48,735—but that’s a somewhat misleading number, because the distribution is highly skewed. (The top 100 words account for half of all word occurrences.) A more meaningful statistic is the median, which is 166.</p><p>Which are the most common 1-grams? Setting aside a few common marks of punctuation, the highest-frequency words are: <em>the, of, and, to, in, a, is, that, for, was</em>. Another trivia question: What’s the longest word in the corpus? I think the longest that’s really a word and that wasn’t invented just to set records is <em>phosphoribosylaminoimidazolecarboxamide</em>.</p><p>Prowling around in the data with a text editor reveals a multitude of oddities. Choose an entry at random, and it’s likely to be a word you’ve never seen before. Indeed, there’s a good chance it’s not a word at all in the strict sense, but rather a number or a mixture of letters and digits, or something even more mysterious. For example, my eye fell on this curious “word”:</p><p>BOBCATEWLLYUWXCARACALQW</p><p>How could such a zany-looking string of letters turn up at least 40 times in published books? As it happens, we have a tool for answering such questions, namely Google Books. Since the Google OCR program produced this string, the Books search engine should be able to find it. And there it is: a row of letters in a word-search game—a game that has apparently been reprinted in dozens of puzzle books.</p></div><div class="row"><h3 class="header--three">The Book of Numbers </h3></div><div class="row"><p>On looking at the numbers included in the <em>n</em>-gram archive, I was surprised at first by their abundance. Of the 7.4 million unique 1-grams, about 7 percent are numbers or numberlike strings of digits. But the explanation is straightforward: Numbers have higher entropy than words. Only a tiny fraction of all possible sequences of letters make a meaningful word, but almost any combination of digits is a properly formed number. Thus for a given total quantity of numbers, we can expect to find greater variety.</p></div><div class="row"><center><img src="https://www.americanscientist.org/sites/americanscientist.org/files/2011481543398436-2011-05HayesFC.jpg" class="myImg" alt=""></center></div><div class="row"><figure class="article__figure">
+<figcaption><input style="background-image: url(https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/img/expand-button.png); background-repeat: no-repeat; height:46px; width:46px; border:none; border-style:solid; border-color:#fff;" value="" class="toggle" id="toggle" data-name="hide" alt="Expand" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/img/expand-button.png" type="button">
+  <p class="expandable simple-paragraph" style="display: none;">Numbers included in the book-scan data reveal distinctive patterns of preference. Small numbers are more common than large ones, and round numbers (divisible by 10 or by 5) stand out above their neighbors. The data shown are for the integers from 0 through 100, but similar patterns are also observed elsewhere on the number line and at many scales.</p>
+<p class="selectionShareable simple-paragraph"><strong>Illustration by Brian Hayes.</strong></p></figcaption>
+</figure></div><div class="row"><p>To look more closely at the numeric 1-grams, I had to decide exactly what I would accept as a number. The OCR system allows mixed strings of letters and digits (1Deut, Na2SO4), but I wanted to consider just “pure” numbers, those that denote a definite numeric value or magnitude. I decided to accept any sequence of characters consisting entirely of digits or digits with a single embedded decimal point. The OCR program also accepts numbers preceded by a “$” sign, so I collected those dollar amounts too, but in a separate file.</p><p>Many different numerals can represent the same number: 01, 1, 1.0, 1.00 and 1.000 are all listed separately in the 1-gram files, but they all designate the same mathematical magnitude. I consolidated these items under the canonical value 1.0, and merged their yearly occurrence data into a single record. This procedure is not without drawbacks, in that it treats as numbers some items that aren’t meant to designate a numeric value, such as Zip codes. But I don’t know how to weed out those items.</p><p>The number list I compiled has 458,794 unique values. The smallest is necessarily 0, since the OCR process strips away any minus signs. What’s the largest entry? It’s the number formed by repeating the digit 7 exactly 80 times. When I looked up the origin of this curious value, I discovered images of computer punch cards, with labeled rows of 80 columns.</p><p>The first thing I did with the numbers was check to see if they obey Benford’s law, which describes the distribution of first digits in most of the numbers we meet in everyday life, such as those in stock-market tables. The law predicts that 1 is the most common leading digit, with higher digit values getting progressively rarer. In the theoretical distribution the frequency of digit <em>d</em> is proportional to log<sub>10</sub>(1+1/<em>d</em>). </p><p>When I tested the 1-gram numbers against the predictions of Benford’s law, the result was inconclusive. As expected, smaller first-digit values are more common among the 1-grams, but the preference for 1 is even more exaggerated than the Benford distribution predicts. The first digit should be a 1 about 30 percent of the time, but the actual frequency is 43 percent. Maybe those Zip codes are causing trouble?</p></div><div class="row"><center><img src="https://www.americanscientist.org/sites/americanscientist.org/files/201148154628437-2011-05HayesFD.jpg" class="myImg" alt=""></center></div><div class="row"><figure class="article__figure">
+<figcaption><input style="background-image: url(https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/img/expand-button.png); background-repeat: no-repeat; height:46px; width:46px; border:none; border-style:solid; border-color:#fff;" value="" class="toggle" id="toggle" data-name="hide" alt="Expand" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/img/expand-button.png" type="button">
+  <p class="expandable simple-paragraph" style="display: none;">Leading digits of numbers in large collections are expected to follow Benford’s law, defined here by the black stair steps. The Google Books numbers <em>(blue stalks)</em> have an excess of initial 1s. De-emphasizing year numbers of the 19th and 20th centuries yields a distribution closer to the expected shape <em>(red stalks)</em>.</p>
+<p class="selectionShareable simple-paragraph"><strong>Illustration by Brian Hayes.</strong></p></figcaption>
+</figure></div><div class="row"><p>I have another hypothesis: The distortion is caused by the times we live in! High on the list of popular numbers are values that look like years, almost all of which begin with 1. Numbers such as 2000, 1990, 1992 and 1980 are roughly 100 times more frequent than other four-digit numbers. To test my hypothesis I created an altered data set in which all numbers in the range 1800–1999 have their frequency artificially reduced by a factor of 1/100. The result is considerably closer to the Benford distribution, with 1 having a frequency of 34 percent <em>(see illustration above)</em>.</p><p>Something else revealed by this collection of numeric data is the extraordinary human fondness for round numbers. The illustration at the top of this page plots the abundance of the first 100 integers. For the most part, frequency decreases with increasing magnitude, but numbers that are “rounder”—divisible by 10, or if not by 10 then by 5—stand out above the crowd. (Also note that the integers 7 and 11, which by some vague measure might be taken as the <em>least</em> round numbers, are curiously depressed.) </p><p>Dollar amounts are even more dramatically biased in favor of well-rounded numbers. I had expected the monetary subset to be full of numbers ending in 99. Maybe that will be the case if we ever get an archive of junk mail and supermarket advertising, but in books there’s a distinct preference for trailing zeros. The most popular dollar amounts are 1, 100, 2, 5, 10, 1000, 10000.</p></div><div class="row"><h3 class="header--three">Quickfilver </h3></div><div class="row"><p>Michel and Aiden set out to study language and culture, but they have also created a resource for the study of optical character recognition.</p></div><div class="row"><center><img src="https://www.americanscientist.org/sites/americanscientist.org/files/201148154788438-2011-05HayesFE.jpg" class="myImg" alt=""></center></div><div class="row"><figure class="article__figure">
+<figcaption><input style="background-image: url(https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/img/expand-button.png); background-repeat: no-repeat; height:46px; width:46px; border:none; border-style:solid; border-color:#fff;" value="" class="toggle" id="toggle" data-name="hide" alt="Expand" src="https://www.americanscientist.org/sites/americanscientist.org/themes/amsci/img/expand-button.png" type="button">
+  <p class="expandable simple-paragraph" style="display: none;">A study of errors and oddities introduced by optical character recognition began by selecting a single word, <em>separate</em>, and then finding all other words in the database that can be produced by changing exactly one letter of <em>separate</em>; 65 such terms are present. Here the frequency of each word is encoded in its type size, which is proportional to the logarithm of the word’s total abundance. (The main entry, <em>separate</em>, appears 27,528,661 times; the rarest forms, 42 times.) Consulting images of pages in Google Books showed which forms were likely to be OCR errors and which had other explanations. For example, <em>seperate</em> is a frequent spelling mistake, but <em>sepatate</em> and <em>scparate</em> are more likely to be machine misreadings. More than 60,000 errors are caused by mistaking the 18th-century long <em>s</em> for an <em>f</em> or another letter. And some of the variants are not errors at all: <em>separase</em> is the name of an enzyme, and <em>separare</em> is an Italian verb. Correcting all the errors would have only a tiny effect on the frequency ascribed to <em>separate</em>; on the other hand, it would purge the database of more than 40 spurious words.</p>
+<p class="selectionShareable simple-paragraph"><strong>Illustration by Brian Hayes.</strong></p></figcaption>
+</figure></div><div class="row"><p>Based on a random sample from the 1-gram files, I estimate that 15 percent of the entries are affected in some way by OCR errors or anomalies. This sounds horrendous, but it does <em>not</em> mean that the OCR program made mistakes on 15 percent of the words it read; the word-recognition error rate is probably well under 1 percent. The problem is that there’s only one way to read a word correctly, but there are countless ways to go wrong. Suppose the program reads 1,000 words and gets 990 of them right. If it makes a different mistake on each of the remaining 10 words, then the final list has 11 entries, 10 of which are erroneous.</p><p>Because of this effect, efforts to tidy up OCR errors would not only improve the accuracy of the data set but would also reduce its bulk. Entries for <em>Rccovery, Reeovery, Reoovery, Rerovery</em> and <em>Revovery</em> could all be merged into <em>Recovery</em>. But making such repairs is a daunting task, especially if you want to preserve other variations and errors, introduced not by the OCR process but by authors and printers.</p><p>Consider: <em>bomemaker</em> is probably an OCR error; <em>invertibrate</em> is probably a human error; <em>cerimoniale</em> is probably not English. What about <em>haccalaureate</em>? Is that an OCR error or is it a degree granted by a programming school? A human reader can make judgments in such cases, but hand-grooming multigigabyte files is not an attractive prospect. We need a mechanized solution.</p><p>A few special cases look doable. The OCR program has encoded some instances of “fi” and “fl” as ligatures, combining the two letters into a single character, while other instances remain as pairs of letters. For most uses of the data set, it would probably be better to treat all these cases consistently; this seems easy to accomplish. </p><p>More challenging but perhaps still within reach is the problem of the “long s” that was part of English orthography through the 18th century as in:</p></div><div class="row"><center><img src="https://www.americanscientist.org/sites/americanscientist.org/files/20114121522438493-2011-05HayesText.jpg" class="myImg" alt=""></center></div><div class="row"><p>OCR programs (like many human readers) tend to interpret this character as the letter “f,” leading to an abundance of comical fricative spellings such as <em>quickfilver</em> and <em>abfceffes</em>. I suspect that an algorithm could successfully correct a large fraction of these misreadings without turning too many <em>flaws</em> into <em>slaws</em>. </p><p>The idea is to make a change only when the “s” form of a word is substantially more common than the “f” form and when the “f” version has a strong peak of popularity before 1800. But I have not yet tried implementing this algorithm, so I don’t know how many new errors it will introduce.</p><p>With other OCR quirks, the chronological clue is lacking, and so we must resort to blunter tools such as a matrix estimating the probability that any one character will be mistaken for another. No doubt much can be accomplished in this way. On the other hand, if these mistakes were easy to fix, they would have been fixed already.</p></div><div class="row"><h3 class="header--three">The Library of Babble </h3></div><div class="row"><p>Suppose we had a magically cleansed version of the Harvard-Google database, free of all OCR errors. Would the time-series graphs from the Ngram Viewer look much different? I doubt it. Thus for present purposes the noise introduced by the OCR process is a minor distraction we can safely ignore.</p><p>But there are purposes beyond the present ones. Google has announced the grandiose goal of digitizing all the world’s books. They may succeed. Some of those books may survive <em>only</em> in digital versions. And someone may even want to read them! If the scanning protocol now in use is the main channel by which we are to transmit 600 years of human culture to future generations, there’s reason to worry.</p><p>But for the moment I am not inclined to complain. The <em>n</em>-gram collection released by the Harvard-Google team is a marvelous gift. I would much rather have it now than wait for some unattainable level of perfection. And now that it’s been made public, it’s ours as well as theirs, and we can all help improve it.</p><p>©Brian Hayes</p></div><div class="row"><div class="article__bibliography topic-color">
+  <h4 class="bibliography__header">Bibliography</h4>
+  <ul class="bibliography__list">
+    <li>Abello, James, Panos M. Pardalos and Mauricio G. C. Resende (eds). 2002. <em>Handbook of Massive Data Sets</em>. Massive Computing, 4. Dordrecht: Kluwer Academic Publishers. </li><li>Michel, Jean-Baptiste, Yuan Kui Shen, Aviva Presser Aiden, Adrian Veres, Matthew K. Gray, the Google Books Team, Joseph P. Pickett, Dale Hoiberg, Dan Clancy, Peter Norvig, Jon Orwant, Steven Pinker, Martin A. Nowak and Erez Lieberman Aiden. 2011. Quantitative analysis of culture using millions of digitized books. <em>Science</em> 331:176–182. </li><li>Norvig, Peter. 2009. Natural language corpus data. In <em>Beautiful Data</em>, edited by Toby Segaran and Jeff Hammerbacher, pp. 219–242. Sebastopol, Calif.: O’Reilly. </li>
+    <li class="container">
+    <input id="biblio-check_id" type="checkbox">
+    <label for="biblio-check_id"></label>
+      <ul>
+       <li>Smith, Ray. 2007. An overview of the Tesseract OCR engine. In <em>Proceedings of the Ninth International Conference on Document Analysis and Recognition, ICDAR 2007</em>, Vol. 2, pp. 629–633. New York: IEEE. </li><li>Vitter, Jeffrey Scott. 2008. <em>Algorithms and Data Structures for External Memory</em>. Series on Foundations and Trends in Theoretical Computer Science. Hanover, Mass.: Now Publishers. </li>
+    </ul>
+  </li>
+  </ul>
+</div></div><!-- end field.tpl.php template -->
+<div class="sharethis-buttons"><div class="sharethis-wrapper"><span st_url="https://www.americanscientist.org/article/bit-lit" st_title="Bit Lit" class="st_facebook_custom" displayText="facebook"></span>
+<span st_url="https://www.americanscientist.org/article/bit-lit" st_title="Bit Lit" class="st_twitter_custom" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="https://www.americanscientist.org/article/bit-lit" st_title="Bit Lit" class="st_linkedin_custom" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="https://www.americanscientist.org/article/bit-lit" st_title="Bit Lit" class="st_googleplus_custom" displayText="googleplus" st_via="" st_username=""></span>
+<span st_url="https://www.americanscientist.org/article/bit-lit" st_title="Bit Lit" class="st_email_custom" displayText="email" st_via="" st_username=""></span>
+</div></div>
+<!-- start field.tpl.php template -->
+  <!-- end field.tpl.php template -->
+<!-- start field.tpl.php template -->
+  <!-- end field.tpl.php template -->
+<div id="disqus_thread"><noscript><p><a href="http://americanscientist.disqus.com/?url=https%3A%2F%2Fwww.americanscientist.org%2Farticle%2Fbit-lit">View the discussion thread.</a></p></noscript></div>      </div>
+            
+      <section class="read-more__section clearfix">
+        <div>
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="article__related next-article Engineering">
+    <div class="image-wrapper">
+     <img typeof="foaf:Image" src="https://www.americanscientist.org/sites/americanscientist.org/files/styles/article_read_more_block/public/2011-99-3-engineering-thumb.jpg?itok=ORQ30wEZ" width="240" height="195" />
+    </div>
+    <h3 class="related__header">Read More in This Issue</h3>
+    <h4 class="related__title"><a href="https://www.americanscientist.org/article/controlled-demolition">Controlled Demolition</a></h4>
+  </div></span>  </div>  </div>
+      <div class="read-more__buttons">
+        <ul class="read-more__list media__list">
+            <li class="media__item all__item"><a href="https://www.americanscientist.org/topics-names/all" class="media__button">All Topics</a></li>
+            <li class="media__item more__item"><a href="https://www.americanscientist.org/topics-names/Computer" class="media__button Computer">More in Computer</a></li>
+        </ul>
+      </div>
+    </section>
+  
+  
+      </div>
+  
+  <div id="disqus_thread"><noscript><p><a href="http://americanscientist.disqus.com/?url=https%3A%2F%2Fwww.americanscientist.org%2Farticle%2Fbit-lit">View the discussion thread.</a></p></noscript></div>
+<!-- end node--page_maker.tpl.php -->
+<!-- end block.tpl.php template -->
+<!-- end region.tpl.php template -->
+  </main>
+</div>
+          <div id="helpModal" class="helpmod">
+        <div class="help-content">
+          <span class="close">&times;</span>
+          <!-- start region.tpl.php template -->
+  <!-- start block.tpl.php template -->
+
+<div class="region-help-modal--inner">
+<h2>AMSCI ICON NAVIGATION:</h2> 
+
+<ul class="help__list"> 
+<li class="help__item bmenu--open">Navigation Menu 
+</li> 
+
+<li class="help__item bmenu--search">Search 
+</li> 
+
+<li class="help__item bmenu--help">Help 
+     </li> 
+
+<li class="help__item bmenu--login">Log In, Register
+     </li> 
+
+ <li class="help__item bmenu--myamsci">My AmSci
+     </li> 
+
+ <li class="help__item bmenu--menuicon"><span class="button__wrapper">Select Options <span class="smaller-text"> (not present on all pages)
+</span></span>
+     </li> 
+
+</ul>
+<p class="help-text"><strong>Click "American Scientist" to access home page</strong></p>
+</div><!-- end block.tpl.php template -->
+<!-- end region.tpl.php template -->
+        </div>
+      </div>
+      <footer class="footer clearfix" role="contentinfo">
+      <!-- start region.tpl.php template -->
+  <!-- start block.tpl.php template -->
+
+<ul class='navigation__socialmedia'><li class="first socialmedia--Twitter"><a href="https://twitter.com/AmSciMag" target="_blank">Twitter</a></li>
+<li class="socialmedia--Facebook"><a href="https://www.facebook.com/AmericanScientist/" target="_blank">Facebook</a></li>
+<li class="socialmedia--Youtube"><a href="https://www.youtube.com/user/AmSciMagazine" target="_blank">YouTube</a></li>
+<li class="socialmedia--GooglePlus"><a href="https://plus.google.com/+AmericanscientistOrg" target="_blank">Google Plus</a></li>
+<li class="last socialmedia--LinkedIn"><a href="https://www.linkedin.com/company/american-scientist" target="_blank">LinkedIn</a></li>
+</ul><!-- end block.tpl.php template -->
+<!-- end region.tpl.php template -->
+        <!-- start region.tpl.php template -->
+  <!-- start block.tpl.php template -->
+
+<ul class='navigation__main'><li class="first navigation--item"><a href="https://www.americanscientist.org/topics-names/all">Topics</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/topics-names/all?field_media_tid=338">Features</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/blogs/all">Blogs</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/topics-names/all?field_media_tid=103">Video</a></li>
+<li class="last navigation--item"><a href="https://www.americanscientist.org/topics-names/all?field_media_tid=102">Podcasts</a></li>
+</ul><!-- end block.tpl.php template -->
+<!-- end region.tpl.php template -->
+        <!-- start region.tpl.php template -->
+  <!-- start block.tpl.php template -->
+
+<ul class='navigation__utility'><li class="first navigation--item"><a href="https://www.americanscientist.org/magazine/issues/all">Magazine</a></li>
+<li class=""><a href="http://www.jstor.org/journal/amerscie" target="_blank">Archive</a></li>
+<li class="navigation--item"><a href="https://ecommerce.sigmaxi.org/ecom/#Subscribe" target="_blank">Subscribe</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/user?destination=node/3013">Newsletter</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/content/about-us">About Us</a></li>
+<li class="last navigation--item"><a href="https://www.americanscientist.org/content/advertise">Advertise</a></li>
+</ul><!-- end block.tpl.php template -->
+<!-- end region.tpl.php template -->
+        <!-- start region.tpl.php template -->
+  <!-- start block.tpl.php template -->
+
+<ul class="navigation__member">
+<li class="navigation--item"><a href="https://www.americanscientist.org/user/login">Login</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/user/register">Register</a></li>
+<li class="navigation--item"><a href="https://www.americanscientist.org/search/node">Search</a></li>
+<li class="navigation--item"><a class="cus__help" href="javascript:void(0)">Help</a></li></ul>
+<!-- end block.tpl.php template -->
+<!-- end region.tpl.php template -->
+        <!-- start region.tpl.php template -->
+  <!-- start block.tpl.php template -->
+
+<div class="view view-footer-issue-block view-id-footer_issue_block view-display-id-block view-dom-id-d8495aecdb702fc605ab082c1e771f4f">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+          <div class="media media__subscribe">
+<div class="image-wrapper current-issue">
+    <a href="https://www.americanscientist.org/magazine/issues/2018/march-april"><img src="https://www.americanscientist.org/sites/americanscientist.org/files/styles/footer_thumbnail/public/2018-106-2-cover.jpg?itok=rVXk0OfG" alt="March-April - 2018 - Volume: 106 - Number: 2"></a>
+ </div>
+<div class="media__content">
+                <p class="media__copy selectionShareable">The skeleton is sometimes viewed as a passive...</p>
+                <ul class="media__list"><li class="media__item first"><a href="https://ecommerce.sigmaxi.org/ecom/#Subscribe" class="media__button" target="_blank" rel="nofollow">Subscribe</a></li><li class="media__item"><a href="https://ecommerce.sigmaxi.org/ecom/#Subscribe" class="media__button issue-gift-button" target="_blank" rel="nofollow">Give a Gift</a></li><li class="media__item"><a href="https://www.sigmaxi.org/about/donate" class="media__button" target="_blank" rel="nofollow">Donate</a></li></ul>
+               </div></div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><!-- end block.tpl.php template -->
+<!-- end region.tpl.php template -->
+      <!-- start region.tpl.php template -->
+  <!-- start block.tpl.php template -->
+
+<div class="footer__utility clearfix">
+                 <h2 class="footer__society-name">A Publication of <br>
+                  <a href="https://www.sigmaxi.org/" target="_blank"><span>Sigma XI</span></a></h2>
+                 <p class="copyright selectionShareable">© 2017 Sigma Xi, The Scientific Research Honor Society</p>
+                 </div><!-- end block.tpl.php template -->
+<!-- end region.tpl.php template -->
+  </footer>
+  
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script type="text/javascript">
+  var protocol = document.location.protocol == "https:" ? "https" : "http";
+  var z = document.createElement("script");
+  z.type = "text/javascript";
+  z.src = protocol + "://s.zkcdn.net/ados.js";
+  z.async = true;
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(z,s);
+</script>
+
+<!--multiview-->
+  <style type="text/css">
+    #mvleaderboard img {
+    max-width:100% !important;
+    height: auto !important;
+  }
+  </style>
+
+    <script type="text/javascript">
+      var protocol = document.location.protocol == "https:" ? "https" : "http";
+      var z = document.createElement("script");
+      z.type = "text/javascript";
+      z.src = protocol + "://s.zkcdn.net/ados.js";
+      z.async = true;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(z,s);
+    </script>
+    <script type="text/javascript">
+      //leader ad
+      var ados = ados || {};
+      ados.run = ados.run || [];
+      ados.run.push(function() {
+        /* load placement for account: Multiview, site: SIGMAXIweb - Sigma Xi, The Scientific Research Society - MultiWeb, size: 1700x1176 - 1700 x 1176, zone: SIGMAXIweb - Leaderboard (1700x1176) */
+        ados_add_placement(4466, 70634, "mvleaderboard", 3140).setZone(171544);
+        ados_add_placement(4466, 70634, "mvbanner", 3204).setZone(176035);
+        ados_add_placement(4466, 70634, "mvbox", 43).setZone(171545);
+        ados_setDomain('engine.multiview.com');
+        ados_load();
+      });
+    </script>
+
+<!--multiview-->
+
+  <script>
+        jQuery(document).ready(function() {
+          jQuery('#simple-menu').sidr();
+          jQuery('body').addClass('isloaded');
+        var modal = document.getElementById('myModal');
+        //console.log(img);
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        jQuery('.myImg').on('click', function (){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        });
+      // Get the <span> element that closes the modal
+      var els = document.getElementsByClassName("close");
+      // When the user clicks on <span> (x), close the modal
+      Array.prototype.forEach.call(els, function(el) {
+        // Do stuff here
+        console.log(el.tagName);
+        el.onclick = function() {
+          modal.style.display = "none";
+        }
+      });
+      //span.onclick = function() {
+      //    modal.style.display = "none";
+      //}
+      
+ 
+      jQuery('.article__socialmedia .navigation__socialmedia .socialmedia--ArticleFacebook a, .blog__socialmedia .navigation__socialmedia .socialmedia--ArticleFacebook a').on('click', function (){
+        txt = jQuery('p.dek-title').text();
+        var purl = window.location.href;
+        FB.ui({
+          method: 'share',
+          mobile_iframe: true,
+          quote: txt,
+          href: purl,
+        }, function(response){});                   
+    });
+
+       jQuery('.article__quote .navigation__socialmedia .socialmedia--ArticleFacebook a, .blog__quote .navigation__socialmedia .socialmedia--ArticleFacebook a').on('click', function (){
+        var txt = jQuery(this).parents('blockquote').find('p').text();
+        var purl = window.location.href;
+        FB.ui({
+          method: 'share',
+          mobile_iframe: true,
+          quote: txt,
+          href: purl,
+        }, function(response){});
+    });
+
+      //twitter
+      jQuery('.blog__quote .navigation__socialmedia .socialmedia--ArticleTwitter a').on('click', function (){
+        var txt = jQuery(this).parents('blockquote').find('p').text();
+        var ptxt = txt.substr(0, 140);
+        var tweetUrl = 'https://twitter.com/share?text=' +
+        encodeURIComponent(ptxt) +
+        '...' +
+        '&url=' +
+        window.location.href;
+        PopupCenter(tweetUrl,'tweetit', '500', '350');
+      });
+  
+   
+      jQuery('.article__quote .navigation__socialmedia .socialmedia--ArticleTwitter a').on('click', function (){
+        var txt = jQuery(this).parents('blockquote').find('p').text();
+        var ptxt = txt.substr(0, 140);
+        var tweetUrl = 'https://twitter.com/share?text=' +
+        encodeURIComponent(ptxt) +
+        '...' +
+        '&url=' +
+        window.location.href;
+        PopupCenter(tweetUrl,'atweetit', '500', '350');
+      });
+      
+    });
+    
+    function PopupCenter(url, title, w, h) {
+        // Fixes dual-screen position                         Most browsers      Firefox
+        var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+        var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+        var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+        var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+        var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+        var top = ((height / 2) - (h / 2)) + dualScreenTop;
+        var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+
+        // Puts focus on the newWindow
+        if (window.focus) {
+            newWindow.focus();
+        }
+    }
+    
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+  jQuery('p').selectionSharer();
+
+      // Get the modal
+    var modal = document.getElementById('helpModal');
+
+    // Get the button that opens the modal
+    jQuery('.cus__help, .bmenu--help').on('click', function (){
+      modal.style.display = "block";
+    });
+
+    jQuery('.cus__helpsidr').on('click', function (){
+      modal.style.display = "block";
+      jQuery('.nav--close').click();
+    });
+
+    // When the user clicks on <span> (x), close the modal
+    jQuery('span.close').on('click', function (){
+        modal.style.display = "none";
+    });
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+  </script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"2aec59ab58","applicationID":"44878329","transactionName":"blYAY0VVCEsCVkdQXlccI1RDXQlWTEVSXlRmXgNZVlMDSjxbXF1UZkULUkBrFlkEUA==","queueTime":0,"applicationTime":1180,"atts":"QhEDFQ1PG0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<script type="text/javascript">_satellite.pageBottom();</script>

@@ -1,0 +1,678 @@
+
+    	
+			
+				
+					
+    
+    
+	
+	Warning:
+	The NCBI web site requires JavaScript to function. 
+	more...
+	
+
+	
+
+    
+    	NCBI[image: NCBI Logo]
+	Skip to main
+                        content
+	Skip to
+                        navigation
+	Resources	All Resources
+	Chemicals & Bioassays	BioSystems
+	PubChem BioAssay
+	PubChem Compound
+	PubChem Structure Search
+	PubChem Substance
+	All Chemicals & Bioassays Resources...
+
+
+	DNA & RNA	BLAST (Basic Local Alignment Search Tool)
+	BLAST (Stand-alone)
+	E-Utilities
+	GenBank
+	GenBank: BankIt
+	GenBank: Sequin
+	GenBank: tbl2asn
+	Genome Workbench
+	Influenza Virus
+	Nucleotide Database
+	PopSet
+	Primer-BLAST
+	ProSplign
+	Reference Sequence (RefSeq)
+	RefSeqGene
+	Sequence Read Archive (SRA)
+	Splign
+	Trace Archive
+	UniGene
+	All DNA & RNA Resources...
+
+
+	Data & Software	BLAST (Basic Local Alignment Search Tool)
+	BLAST (Stand-alone)
+	Cn3D
+	Conserved Domain Search Service (CD Search)
+	E-Utilities
+	GenBank: BankIt
+	GenBank: Sequin
+	GenBank: tbl2asn
+	Genome ProtMap
+	Genome Workbench
+	Primer-BLAST
+	ProSplign
+	PubChem Structure Search
+	SNP Submission Tool
+	Splign
+	Vector Alignment Search Tool (VAST)
+	All Data & Software Resources...
+
+
+	Domains & Structures	BioSystems
+	Cn3D
+	Conserved Domain Database (CDD)
+	Conserved Domain Search Service (CD Search)
+	Structure (Molecular Modeling Database)
+	Vector Alignment Search Tool (VAST)
+	All Domains & Structures Resources...
+
+
+	Genes & Expression	BioSystems
+	Database of Genotypes and Phenotypes (dbGaP)
+	E-Utilities
+	Gene
+	Gene Expression Omnibus (GEO) Database 
+	Gene Expression Omnibus (GEO) Datasets
+	Gene Expression Omnibus (GEO) Profiles
+	Genome Workbench
+	HomoloGene
+	Online Mendelian Inheritance in Man (OMIM)
+	RefSeqGene
+	UniGene
+	All Genes & Expression Resources...
+
+
+	Genetics & Medicine	Bookshelf
+	Database of Genotypes and Phenotypes (dbGaP)
+	Genetic Testing Registry
+	Influenza Virus
+	Online Mendelian Inheritance in Man (OMIM)
+	PubMed
+	PubMed Central (PMC)
+	PubMed Clinical Queries
+	RefSeqGene
+	All Genetics & Medicine Resources...
+
+
+	Genomes & Maps	Database of Genomic Structural Variation (dbVar)
+	GenBank: tbl2asn
+	Genome
+	Genome Project
+	Genome ProtMap
+	Genome Workbench
+	Influenza Virus
+	Nucleotide Database
+	PopSet
+	ProSplign
+	Sequence Read Archive (SRA)
+	Splign
+	Trace Archive
+	All Genomes & Maps Resources...
+
+
+	Homology	BLAST (Basic Local Alignment Search Tool)
+	BLAST (Stand-alone)
+	BLAST Link (BLink)
+	Conserved Domain Database (CDD)
+	Conserved Domain Search Service (CD Search)
+	Genome ProtMap
+	HomoloGene
+	Protein Clusters
+	All Homology Resources...
+
+
+	Literature	Bookshelf
+	E-Utilities
+	Journals in NCBI Databases
+	MeSH Database
+	NCBI Handbook
+	NCBI Help Manual
+	NCBI News & Blog
+	PubMed
+	PubMed Central (PMC)
+	PubMed Clinical Queries
+	PubMed Health
+	All Literature Resources...
+
+
+	Proteins	BioSystems
+	BLAST (Basic Local Alignment Search Tool)
+	BLAST (Stand-alone)
+	BLAST Link (BLink)
+	Conserved Domain Database (CDD)
+	Conserved Domain Search Service (CD Search)
+	E-Utilities
+	ProSplign
+	Protein Clusters
+	Protein Database
+	Reference Sequence (RefSeq)
+	All Proteins Resources...
+
+
+	Sequence Analysis	BLAST (Basic Local Alignment Search Tool)
+	BLAST (Stand-alone)
+	BLAST Link (BLink)
+	Conserved Domain Search Service (CD Search)
+	Genome ProtMap
+	Genome Workbench
+	Influenza Virus
+	Primer-BLAST
+	ProSplign
+	Splign
+	All Sequence Analysis Resources...
+
+
+	Taxonomy	Taxonomy
+	Taxonomy Browser
+	Taxonomy Common Tree
+	All Taxonomy Resources...
+
+
+	Training & Tutorials	NCBI Education Page
+	NCBI Handbook
+	NCBI Help Manual
+	NCBI News & Blog
+	All Training & Tutorials Resources...
+
+
+	Variation	Database of Genomic Structural Variation (dbVar)
+	Database of Genotypes and Phenotypes (dbGaP)
+	Database of Single Nucleotide Polymorphisms (dbSNP)
+	SNP Submission Tool
+	All Variation Resources...
+
+
+
+
+	How To	All How To
+	Chemicals & Bioassays
+	DNA & RNA
+	Data & Software
+	Domains & Structures
+	Genes & Expression
+	Genetics & Medicine
+	Genomes & Maps
+	Homology
+	Literature
+	Proteins
+	Sequence Analysis
+	Taxonomy
+	Training & Tutorials
+	Variation
+
+
+	About NCBI Accesskeys
+
+My NCBISign in to NCBISign Out
+
+
+    
+    
+    
+    
+    PubMed
+
+    
+        US National Library of Medicine
+        National Institutes of Health
+    
+
+
+
+    
+    Search databaseAll Databases
+Assembly
+Biocollections
+BioProject
+BioSample
+BioSystems
+Books
+ClinVar
+Clone
+Conserved Domains
+dbGaP
+dbVar
+EST
+Gene
+Genome
+GEO DataSets
+GEO Profiles
+GSS
+GTR
+HomoloGene
+Identical Protein Groups
+MedGen
+MeSH
+NCBI Web Site
+NLM Catalog
+Nucleotide
+OMIM
+PMC
+PopSet
+Probe
+Protein
+Protein Clusters
+PubChem BioAssay
+PubChem Compound
+PubChem Substance
+PubMed
+PubMed Health
+SNP
+Sparcle
+SRA
+Structure
+Taxonomy
+ToolKit
+ToolKitAll
+ToolKitBookgh
+UniGene
+
+Search term
+Search
+
+	Advanced
+	[bookmark: help]Help
+
+
+
+
+   
+    
+
+    
+    Result Filters
+
+    
+
+
+
+    
+        	[bookmark: Display]Format: Abstract
+
+Format	Summary
+	Summary (text)
+	Abstract
+	Abstract (text)
+	MEDLINE
+	XML
+	PMID List
+
+
+
+ApplySend to
+Choose Destination	File
+	Clipboard
+	Collections
+	E-mail
+	Order
+	My Bibliography
+	Citation manager
+
+
+
+	FormatSummary (text)
+Abstract (text)
+MEDLINE
+XML
+PMID List
+CSV
+
+
+
+Create File
+
+
+	1 selected item: 21170383
+	FormatSummary
+Summary (text)
+Abstract
+Abstract (text)
+MEDLINE
+XML
+PMID List
+
+MeSH and Other Data
+	E-mail
+	Subject
+	Additional text
+	
+
+
+E-mailDidn't get the message? Find out why...
+
+
+Add to Clipboard
+
+Add to Collections
+Order articles
+
+Add to My Bibliography
+Generate a file for use with external citation management software.
+
+Create File
+
+
+
+
+        
+    
+    
+    
+    
+    
+    
+    
+
+
+        
+            
+
+            
+        
+       
+        
+            
+            
+            
+            
+        
+
+        PLoS One. 2010 Dec 8;5(12):e14243. doi: 10.1371/journal.pone.0014243.
+The structure of the EU mediasphere.
+Flaounas I1, Turchi M, Ali O, Fyson N, De Bie T, Mosdell N, Lewis J, Cristianini N.
+Author information
+	1
+	Intelligent Systems Laboratory, University of Bristol, Bristol, United Kingdom.
+
+
+Abstract
+BACKGROUND: 
+A trend towards automation of scientific research has recently resulted in what has been termed "data-driven inquiry" in various disciplines, including physics and biology. The automation of many tasks has been identified as a possible future also for the humanities and the social sciences, particularly in those disciplines concerned with the analysis of text, due to the recent availability of millions of books and news articles in digital format. In the social sciences, the analysis of news media is done largely by hand and in a hypothesis-driven fashion: the scholar needs to formulate a very specific assumption about the patterns that might be in the data, and then set out to verify if they are present or not.
+METHODOLOGY/PRINCIPAL FINDINGS: 
+In this study, we report what we think is the first large scale content-analysis of cross-linguistic text in the social sciences, by using various artificial intelligence techniques. We analyse 1.3 M news articles in 22 languages detecting a clear structure in the choice of stories covered by the various outlets. This is significantly affected by objective national, geographic, economic and cultural relations among outlets and countries, e.g., outlets from countries sharing strong economic ties are more likely to cover the same stories. We also show that the deviation from average content is significantly correlated with membership to the eurozone, as well as with the year of accession to the EU.
+CONCLUSIONS/SIGNIFICANCE: 
+While independently making a multitude of small editorial decisions, the leading media of the 27 EU countries, over a period of six months, shaped the contents of the EU mediasphere in a way that reflects its deep geographic, economic and cultural relations. Detecting these subtle signals in a statistically rigorous way would be out of the reach of traditional methods. This analysis demonstrates the power of the available methods for significant automation of media content analysis.
+
+
+	PMID:
+	21170383
+	PMCID:
+	PMC2999531
+	DOI:
+	10.1371/journal.pone.0014243
+
+
+	 [Indexed for MEDLINE] 
+
+Free PMC Article
+
+Share
+
+Images from this publication.See all images  (3)Free text
+[image: Figure 1]Figure 1The communities of news outlets in the EU mediasphere.
+
+We created the network of the top news outlets per EU country. We connected two outlets if they reported the same stories more than expected by chance as measured by chi-square testing. A high threshold on the chi-square results that maximizes the modularity of the network was used for the current plot. This network is comprised of 147 nodes (outlets) and 263 edges organized in 31 communities. Each outlet is coloured by the country of its origin. Disconnected nodes are omitted. This way the relation of the strongest connected components and countries is revealed.
+
+The Structure of the EU Mediasphere
+PLoS One. 2010;5(12):e14243.
+
+
+
+[image: Figure 2]Figure 2The ‘co-coverage’ network of EU countries.
+
+This is the network of the most significant relations among EU countries that cover the same stories in their media. The network has 27 nodes that correspond to the EU countries and 112 links between them. The sparseness was chosen as high as possible with the restriction that all countries must link to at least one other country.
+
+The Structure of the EU Mediasphere
+PLoS One. 2010;5(12):e14243.
+
+
+
+[image: Figure 3]Figure 3The ‘co-coverage’ map of the EU.
+
+This is a 2D representation of the relative positions of EU countries based on their media content. At the centre is the ‘average’ content of the EU media. The Eurozone members are coloured in blue and the rest are coloured in gray. Eurozone countries are closer to each other, and to the average EU behaviour, than non-Eurozone countries.
+
+The Structure of the EU Mediasphere
+PLoS One. 2010;5(12):e14243.
+
+
+
+
+
+Publication type, MeSH terms
+Publication type
+	Research Support, Non-U.S. Gov't
+
+MeSH terms
+	Automation
+	Books
+	Culture*
+	Data Collection*
+	European Union
+	Humans
+	Mass Media*
+	Research
+	Social Sciences
+
+
+
+LinkOut - more resources
+Full Text Sources
+	Public Library of Science
+	Europe PubMed Central
+	PubMed Central
+
+Other Literature Sources
+	COS Scholar Universe
+
+
+
+
+
+	
+
+
+
+
+        
+            
+        
+
+        
+            
+            
+        
+
+        
+    
+
+
+  
+
+    Supplemental Content
+
+      
+    
+    
+    Full text links
+
+
+[image: Icon for Public Library of Science] [image: Icon for PubMed Central] 
+
+    
+    
+
+    [image: Loading ... ]
+
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+    
+    You are here: 
+            NCBI > Literature > PubMed
+
+    Support Center
+    [image: ]
+
+
+
+
+    
+    
+    
+        Simple NCBI Directory
+
+        	Getting Started
+
+	NCBI Education
+	NCBI Help Manual
+	NCBI Handbook
+	Training & Tutorials
+	Submit Data
+
+
+        
+        	Resources
+
+	Chemicals & Bioassays
+	Data & Software
+	DNA & RNA
+	Domains & Structures
+	Genes & Expression
+	Genetics & Medicine
+	Genomes & Maps
+	Homology
+	Literature
+	Proteins
+	Sequence Analysis
+	Taxonomy
+	Variation
+
+
+        
+        	Popular
+
+	PubMed
+	Bookshelf
+	PubMed Central
+	PubMed Health
+	BLAST
+	Nucleotide
+	Genome
+	SNP
+	Gene
+	Protein
+	PubChem
+
+
+        	Featured
+
+	Genetic Testing Registry
+	PubMed Health
+	GenBank
+	Reference Sequences
+	Gene Expression Omnibus
+	Genome Data Viewer
+	Human Genome
+	Mouse Genome
+	Influenza Virus
+	Primer-BLAST
+	Sequence Read Archive
+
+
+        	NCBI Information
+
+	About NCBI
+	Research at NCBI
+	NCBI News & Blog
+	NCBI FTP Site
+	NCBI on Facebook
+	NCBI on Twitter
+	NCBI on YouTube
+
+
+    
+
+    
+        External link. Please review our privacy policy.
+    
+    
+          
+        
+            
+                NLM
+            
+
+            
+                NIH
+            
+
+            
+                DHHS
+            
+
+            
+                USA.gov
+            
+         
+        
+
+        
+        
+            
+                
+                    National Center for
+                        Biotechnology Information,
+                 U.S. National Library of Medicine
+                
+                    8600 Rockville Pike, Bethesda
+                    MD, 20894
+                    USA
+                
+            
+
+            
+            Policies and Guidelines | Contact
+        
+
+    
+
+        
+    
+
+
+
+
+
+					
+
+				
+
+			
+
+		
+
+    
+
+
+
+

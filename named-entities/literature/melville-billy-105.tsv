@@ -1,0 +1,439 @@
+type	entity
+PERSON	BILLY BUDD
+PERSON	Herman Melville
+ORGANIZATION	Aldebaran
+LOCATION	Liverpool
+PERSON	Anacharsis Cloots
+PERSON	Murat
+PERSON	Billy
+LOCATION	Erie Canal
+PERSON	Alexander
+PERSON	Billy Budd
+PERSON	Baby Budd
+PERSON	Billy
+PERSON	Ratcliff
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy Budd
+PERSON	Graveling
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy Budd
+PERSON	Jove
+ORGANIZATION	Dundee
+PERSON	Thomas Paine
+PERSON	Burke
+PERSON	Paine
+ORGANIZATION	Dundee
+PERSON	Stephen Girard
+LOCATION	Philadelphia
+PERSON	Voltaire Diderot
+PERSON	Billy
+PERSON	Billy tho
+PERSON	Billy
+PERSON	Billy Budd
+PERSON	Saxon
+PERSON	Norman
+PERSON	Billy
+PERSON	Don
+PERSON	Billy Budd
+PERSON	Bernard
+PERSON	Billy
+PERSON	Adam
+PERSON	Cain
+PERSON	Caspar Hauser
+LOCATION	Rome
+PERSON	Hawthorne
+PERSON	Billy
+PERSON	Billy Budd
+LOCATION	Mediterranean
+LOCATION	Spithead
+LOCATION	England
+LOCATION	London
+LOCATION	England
+LOCATION	France
+PERSON	Dibdin
+PERSON	James
+LOCATION	America
+LOCATION	Spithead
+PERSON	Nelson
+LOCATION	Nile
+PERSON	Trafalgar
+LOCATION	China
+LOCATION	Europe
+ORGANIZATION	Don John of Austria Doria Van Tromp Jean Bart
+LOCATION	Portsmouth Nelson
+PERSON	Nelson
+LOCATION	Copenhagen
+LOCATION	Wellington
+PERSON	Nelson
+PERSON	Alfred
+LOCATION	Waterloo
+PERSON	Nelson
+LOCATION	Trafalgar Nelson
+PERSON	Nelson
+PERSON	Mansfield
+PERSON	Nelson
+PERSON	Horatio
+PERSON	Nelson
+PERSON	Billy
+PERSON	Edward Fairfax Vere
+PERSON	Rodney
+ORGANIZATION	De Grasse
+PERSON	Denton
+LOCATION	England
+PERSON	Andrew Marvell
+ORGANIZATION	Appleton House
+LOCATION	Fairfax
+PERSON	Rodney
+PERSON	Vere
+LOCATION	England
+PERSON	Vere
+PERSON	Horatio
+PERSON	Vere
+PERSON	John Claggart
+PERSON	Claggart
+PERSON	Tecumseh
+PERSON	Charles II
+PERSON	Claggart
+ORGANIZATION	Navy
+PERSON	Claggart
+ORGANIZATION	British Navy
+LOCATION	London
+ORGANIZATION	Navy
+LOCATION	Greenwich
+LOCATION	Baltimore
+LOCATION	England
+LOCATION	Cape
+LOCATION	America
+PERSON	Napoleon
+ORGANIZATION	Bunker Hill
+LOCATION	Atlantic
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Billy Budd
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Dansker
+PERSON	Nelson
+PERSON	Horatio
+PERSON	Haydon
+PERSON	Dansker
+PERSON	Billy Budd
+PERSON	Merlin
+PERSON	Dansker
+PERSON	Billy Nor
+PERSON	Billy
+PERSON	Billy
+PERSON	Baby
+PERSON	Billy The Dansker
+PERSON	Foretopman
+PERSON	Billy
+PERSON	Billy
+ORGANIZATION	Foretopman
+PERSON	Foretopman
+PERSON	Dansker
+PERSON	Baby Budd Jimmy Legs
+PERSON	Jimmy Legs
+PERSON	Billy
+PERSON	Baby Budd
+PERSON	Billy
+ORGANIZATION	Chiron
+PERSON	Achilles
+PERSON	Billy Budd
+PERSON	Dansker
+PERSON	Claggart
+PERSON	Billy
+PERSON	Claggart
+PERSON	Billy
+PERSON	Jimmy Legs
+PERSON	Donald
+PERSON	Billy Budd
+PERSON	Claggart
+PERSON	Jimmy Legs
+PERSON	Dansker
+PERSON	Claggart
+PERSON	Billy Budd
+PERSON	Claggart
+PERSON	Jonah
+PERSON	Claggart
+ORGANIZATION	Coke
+ORGANIZATION	Blackstone
+ORGANIZATION	Plato
+PERSON	Calvin
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Billy Budd
+PERSON	Claggart
+PERSON	Billy
+PERSON	Chang
+PERSON	Claggart
+PERSON	Billy Budd
+PERSON	Saul
+PERSON	David Claggart
+PERSON	Billy Budd
+PERSON	Claggart
+PERSON	Billy
+PERSON	Billy Budd
+PERSON	Claggart
+PERSON	Billy
+PERSON	Claggart
+PERSON	Jimmy Legs
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Billy
+PERSON	Billy
+PERSON	Claggart
+PERSON	Billy Budd
+PERSON	Foretopman
+PERSON	Billy
+PERSON	Don
+PERSON	Billy
+PERSON	Billy Budd
+PERSON	Billy
+PERSON	Hist Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Damme
+PERSON	Billy
+PERSON	Billy
+PERSON	Foretopman
+PERSON	Billy
+PERSON	Foretopman
+ORGANIZATION	Red Pepper Such
+PERSON	Billy
+PERSON	Billy Budd
+PERSON	Billy Budd
+PERSON	Billy
+PERSON	Altho Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Dansker
+PERSON	Billy
+PERSON	Billy
+PERSON	Baby Budd
+PERSON	Billy Why Jimmy Legs
+PERSON	Billy
+PERSON	Jimmy Legs
+PERSON	Merlin
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy Budd
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy Budd
+PERSON	Claggart
+PERSON	Billy
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy Budd
+PERSON	Claggart
+PERSON	Billy
+LOCATION	Straits
+PERSON	Vere
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Vere
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Vere
+PERSON	Claggart
+PERSON	Vere
+PERSON	Claggart
+PERSON	William Budd
+PERSON	William Budd
+PERSON	Vere
+PERSON	Ratcliff
+PERSON	Billy
+PERSON	Ratcliff
+PERSON	Budd
+PERSON	Lieutenant Ratcliff
+PERSON	Adam
+PERSON	Billy
+PERSON	Vere
+PERSON	Billy Budd
+ORGANIZATION	Navy
+PERSON	Claggart
+PERSON	Budd
+PERSON	Claggart
+PERSON	Budd
+PERSON	Claggart
+PERSON	Vere
+PERSON	Claggart
+PERSON	Jacob
+PERSON	Joseph
+PERSON	Vere
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Vere
+PERSON	Claggart
+PERSON	Vere
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Budd
+PERSON	Wilkes
+PERSON	Albert
+PERSON	Albert
+PERSON	Budd
+PERSON	Albert
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Billy
+PERSON	Billy
+PERSON	Claggart
+PERSON	Billy
+PERSON	Vestal
+PERSON	Vere
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+PERSON	Claggart
+PERSON	Vere
+PERSON	Billy
+PERSON	Billy
+PERSON	Vere
+PERSON	Albert
+PERSON	Albert
+PERSON	Vere
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Vere
+PERSON	Vere
+PERSON	Vere
+PERSON	Vere
+PERSON	Vere
+PERSON	Vere
+PERSON	Billy Budd
+PERSON	Vere
+PERSON	Vere
+LOCATION	Claggart
+PERSON	Budd
+PERSON	Jack Denton
+PERSON	Peter
+LOCATION	Foretopman
+PERSON	Vere
+PERSON	Billy Budd
+PERSON	Vere
+PERSON	Claggart
+PERSON	Billy Budd
+PERSON	Claggart
+PERSON	Vere
+PERSON	Vere
+PERSON	Vere
+PERSON	Vere
+PERSON	Billy
+PERSON	Billy
+PERSON	Vere
+PERSON	Billy
+PERSON	Billy
+PERSON	Vere
+PERSON	Vere
+PERSON	Billy
+PERSON	Budd
+PERSON	Budd
+PERSON	Vere
+PERSON	Billy
+ORGANIZATION	Navy
+PERSON	Budd
+PERSON	Budd
+LOCATION	England
+PERSON	Vere
+PERSON	Somers
+PERSON	Billy Budd
+PERSON	Vere
+PERSON	Vere
+PERSON	Billy
+PERSON	Vere
+PERSON	Billy
+PERSON	Billy
+PERSON	Abraham
+PERSON	Isaac
+PERSON	Vere
+PERSON	Boatswain
+PERSON	Claggart
+PERSON	Claggart
+PERSON	Billy Budd
+PERSON	Vere
+PERSON	Billy Budd
+ORGANIZATION	Fed
+PERSON	Billy
+PERSON	Christ
+LOCATION	Mars
+PERSON	Billy Budd
+PERSON	Billy
+PERSON	Billy
+PERSON	Billy
+LOCATION	Rome
+LOCATION	London
+PERSON	Billy
+PERSON	Cook
+PERSON	Billy
+PERSON	Elisha
+LOCATION	East
+PERSON	Vere
+PERSON	Billy
+PERSON	Billy
+LOCATION	East
+PERSON	Billy
+PERSON	Purser
+PERSON	Budd
+PERSON	Purser
+PERSON	Purser
+PERSON	Budd
+PERSON	Purser
+PERSON	Purser
+PERSON	Billy
+PERSON	Boatswain
+PERSON	Boatswain
+PERSON	Billy
+ORGANIZATION	St Louis
+LOCATION	Gibraltar
+PERSON	Vere
+PERSON	Billy Budd Billy Budd
+PERSON	Billy Budd
+LOCATION	Mediterranean
+PERSON	John Claggart
+PERSON	William Budd
+PERSON	Claggart
+PERSON	Budd
+ORGANIZATION	Navy
+PERSON	Johnson
+PERSON	John Claggart
+PERSON	Billy Budd
+PERSON	Billy
+LOCATION	Portsmouth
+PERSON	BILLY
+LOCATION	Lone Bay
+PERSON	Billy Budd
+PERSON	Billy
+PERSON	Billy
+PERSON	Donald
+PERSON	Taff

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html ng-app="taporApp">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>TAPoR</title>
+		<base href="" target="_self">
+		<link data-turbolinks-track="true" href="http://tapor-test.artsrn.ualberta.ca/assets/application-a0b1f6a795c1169fc979603aefd4e530.css" media="all" rel="stylesheet" />
+		<script data-turbolinks-track="true" src="http://tapor-test.artsrn.ualberta.ca/assets/application-78bd6fe2099da5f823ae10e0f04c8d10.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+		<meta content="authenticity_token" name="csrf-param" />
+<meta content="mSAsdJm3RsIBCWU9fubjPUOgX4vwYlns7JcJ2dLfuOc=" name="csrf-token" />
+
+		<script type="application/ld+json">
+			{
+			  "@context" : "http://schema.org",
+			  "@type" : "WebSite",
+			  "name" : "TAPoR",
+			  "alternateName" : "Text Analysis Portal for Research",
+			  "url" : "http://www.tapor.ca",
+			  "potentialAction": {
+				"@type": "SearchAction",
+    			"target": "http://tapor.ca/tools?query={search_term_string}",
+    			"query-input": "required name=search_term_string"
+  			  }
+			}
+		</script>
+
+		<script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div id="tapor-main" ng-controller="TaporMainController"> 
+			<!-- navigation -->
+			<div class="row" id="tapor-navigation">
+	<div class="col-md-12" >
+		<ul id="tapor-nav" class="list-unstyled">
+			<li>
+				<a href='http://tapor-test.artsrn.ualberta.ca/pages/about_tapor'>About</a>
+			</li>
+			<li>
+				<a href='http://tapor-test.artsrn.ualberta.ca/pages/tour'>Tour</a>
+			</li>
+			<li>
+				<a href='http://tapor-test.artsrn.ualberta.ca/pages/contact'>Contact</a>
+			</li>
+			<li>
+				<a href='http://tapor-test.artsrn.ualberta.ca/tools' >Tools</a>
+			</li>
+			<li ng-if="current_user.is_admin">
+				<a href='http://tapor-test.artsrn.ualberta.ca/tools/featured'>Set featured tools</a>
+			</li>
+			<li>
+				<a href='http://tapor-test.artsrn.ualberta.ca/tool_lists'>Lists</a>
+			</li>			
+		<!-- 	<li>
+				<a href='#' ng-click="go_to('/pages/tutorials')">Tutorials</a>
+			</li> -->
+			<li>
+				<a href='http://tapor-test.artsrn.ualberta.ca/pages/useful_links'>Useful links</a>
+			</li>
+			<li ng-if="current_user === null">
+				<a href='http://tapor-test.artsrn.ualberta.ca/signin'>Login</a>
+			</li>
+			<li ng-if="current_user !== null">
+				<a href='http://tapor-test.artsrn.ualberta.ca/users/{{current_user.id}}'>Profile</a>
+			</li>
+			<li ng-if="current_user !== null">
+				<a href='http://tapor-test.artsrn.ualberta.ca/tools/new'>Add tool</a>
+			</li>
+			<li ng-if="current_user !== null">
+				<a href='http://tapor-test.artsrn.ualberta.ca/tool_lists/new'>Add list</a>
+			</li>
+			<li ng-if="current_user.is_admin">
+				<a href='http://tapor-test.artsrn.ualberta.ca/attributes'>Attributes</a>
+			</li>
+			<li ng-if="current_user.is_admin">
+				<a href='http://tapor-test.artsrn.ualberta.ca/users'>Users</a>
+			</li>
+			<li ng-if="current_user !== null">
+				<a href='http://tapor-test.artsrn.ualberta.ca/sign_out'>Logout</a>
+			</li>
+		</ul>
+	</div>
+</div>
+			<!-- header -->
+			<div class="row" id="tapor-header">
+	<div class="col-md-2">
+		<div class="tapor-logo"><h1><a href='tapor-test-artsrn-ualberta-ca-0072.htm'>TAPoR 3</a></h1></div>
+	</div>
+	<div class="col-md-8 tapor-blue" id="tapor-tagline">
+		<h1>Discover research tools for studying texts.</h1>
+	</div>
+	<div class="col-md-2 tapor-blue" id="tapor-search">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Search" ng-model="query" custom-enter="header_search()">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" ng-click="header_search()">
+					<span class='glyphicon glyphicon-search'></span>
+				</button>
+			</span>
+		</div>
+	</div>
+</div>
+
+			<!-- main view -->
+			<div ng-init="checkUser()" ng-view id="main-view"></div> 
+			<!-- footer -->
+			<div class="row" id="tapor-footer">
+	<div class="col-md-3 tapor-logo">
+		<h3>TAPoR 3</h3>
+	</div>
+	<div class="col-md-9">
+		Copyright &copy; 2015 TAPoR, <a href="http://www.mcmaster.ca/">McMaster University</a>, <a href="http://www.ualberta.ca/">University of Alberta</a>
+	</div>
+</div>
+			</div>
+		</div>
+	</body>
+</html>

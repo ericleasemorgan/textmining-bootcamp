@@ -1,0 +1,40 @@
+<pos><sentence id="57">
+  <word wid="0" pos="IN" lemma="about">About</word>
+  <word wid="1" pos="NN" lemma="tour">Tour</word>
+  <word wid="2" pos="NN" lemma="contact">Contact</word>
+  <word wid="3" pos="NNS" lemma="tool">Tools</word>
+  <word wid="4" pos="VBN" lemma="set">Set</word>
+  <word wid="5" pos="VBD" lemma="feature">featured</word>
+  <word wid="6" pos="NNS" lemma="tool">tools</word>
+  <word wid="7" pos="NNS" lemma="list">Lists</word>
+  <word wid="8" pos="JJ" lemma="useful">Useful</word>
+  <word wid="9" pos="NNS" lemma="link">links</word>
+  <word wid="10" pos="NN" lemma="login">Login</word>
+  <word wid="11" pos="NN" lemma="profile">Profile</word>
+  <word wid="12" pos="VBP" lemma="add">Add</word>
+  <word wid="13" pos="NN" lemma="tool">tool</word>
+  <word wid="14" pos="VB" lemma="add">Add</word>
+  <word wid="15" pos="NN" lemma="list">list</word>
+  <word wid="16" pos="NNS" lemma="attribute">Attributes</word>
+  <word wid="17" pos="NNS" lemma="user">Users</word>
+  <word wid="18" pos="JJ" lemma="logout">Logout</word>
+  <word wid="19" pos="NN" lemma="tapor">TAPoR</word>
+  <word wid="20" pos="CD" lemma="3">3</word>
+  <word wid="21" pos="NNP" lemma="Discover">Discover</word>
+  <word wid="22" pos="NN" lemma="research">research</word>
+  <word wid="23" pos="NNS" lemma="tool">tools</word>
+  <word wid="24" pos="IN" lemma="for">for</word>
+  <word wid="25" pos="VBG" lemma="study">studying</word>
+  <word wid="26" pos="NNS" lemma="text">texts</word>
+  <word wid="27" pos="NNP" lemma="TAPoR">TAPoR</word>
+  <word wid="28" pos="CD" lemma="3">3</word>
+  <word wid="29" pos="NN" lemma="copyright">Copyright</word>
+  <word wid="30" pos="CD" lemma="2015">2015</word>
+  <word wid="31" pos="NNP" lemma="TAPoR">TAPoR</word>
+  <word wid="32" pos="NNP" lemma="McMaster">McMaster</word>
+  <word wid="33" pos="NNP" lemma="University">University</word>
+  <word wid="34" pos="NNP" lemma="University">University</word>
+  <word wid="35" pos="IN" lemma="of">of</word>
+  <word wid="36" pos="NNP" lemma="Alberta">Alberta</word>
+</sentence>
+</pos>

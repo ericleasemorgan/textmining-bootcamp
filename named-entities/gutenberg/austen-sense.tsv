@@ -1,0 +1,3858 @@
+type	entity
+PERSON	Jane Austen
+ORGANIZATION	Project Gutenberg License
+PERSON	Jane Austen
+PERSON	Austin Dobson Illustrator Hugh Thomson
+PERSON	Fritz Ohrenschall
+PERSON	Sankar Viswanathan
+PERSON	Dashwood
+PERSON	JANE AUSTEN
+PERSON	DOBSON
+PERSON	HUGH THOMSON LONDON MACMILLAN
+PERSON	Hugh Thomson
+PERSON	Cecilia
+PERSON	Madame D Arblay
+PERSON	Austen
+PERSON	Austen
+PERSON	Lyster
+PERSON	Cecilia
+PERSON	Austen
+PERSON	Madame D Arblay
+PERSON	Austen
+PERSON	Cecilia
+PERSON	Richardson
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Cecilia
+PERSON	Austen
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Cecilia
+PERSON	Austen
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Austen
+PERSON	Emma
+LOCATION	Mansfield Park
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Austen
+PERSON	Elinor
+PERSON	Marianne
+ORGANIZATION	Northanger Abbey
+PERSON	Willoughby
+LOCATION	Southampton
+PERSON	Cassandra Austen
+PERSON	Aunt Jane
+LOCATION	London
+PERSON	T Egerton
+ORGANIZATION	Military Library Whitehall
+PERSON	Austen
+LOCATION	Chawton Cottage
+PERSON	Egerton
+PERSON	Austen
+LOCATION	Sloane Street
+PERSON	Austen Leigh
+PERSON	Austen Leigh
+LOCATION	Mansfield Park
+PERSON	Emma
+PERSON	Austen Leigh
+PERSON	Austen
+PERSON	Bayes
+PERSON	Edgeworth
+PERSON	Brunton
+PERSON	Austen
+PERSON	Austen
+PERSON	Emma
+LOCATION	Mansfield Park
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elizabeth
+PERSON	Jane
+PERSON	Jane Bennet
+PERSON	Marianne Dashwood Darcy
+PERSON	Bingley
+PERSON	Edward Ferrars
+PERSON	Thomas Hardy
+PERSON	Austen
+PERSON	Elinor
+PERSON	Edward Ferrars
+PERSON	Marianne
+PERSON	George Eliot
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Jane
+PERSON	Eliza Bennet
+PERSON	Bennet
+PERSON	Catherine de Bourgh
+PERSON	Collins
+ORGANIZATION	Constantia
+PERSON	John Middleton
+LOCATION	London
+PERSON	Palmer
+PERSON	Robert Ferrars
+PERSON	John Dashwood Miss Austen
+PERSON	Mrs Dashwood
+LOCATION	Norland
+PERSON	Roger de Coverley
+LOCATION	Worcester
+LOCATION	Steventon
+LOCATION	Norland
+LOCATION	Barton Place
+LOCATION	Exeter
+PERSON	Iddesleigh
+LOCATION	Upton Pynes
+PERSON	Jennings
+LOCATION	Delaford
+PERSON	Austen
+LOCATION	Hampshire
+LOCATION	Devonshire
+ORGANIZATION	Canterbury
+PERSON	Charlotte Palmer
+PERSON	Joseph Andrews
+PERSON	Dashwood
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings Mrs Jennings
+PERSON	Mrs Ferrars
+PERSON	Ferrars
+PERSON	Edward Everything
+PERSON	Dashwood
+ORGANIZATION	Sussex
+LOCATION	Norland Park
+PERSON	Henry Dashwood
+LOCATION	Norland
+PERSON	Mrs Henry Dashwood
+PERSON	Henry Dashwood
+LOCATION	Norland
+PERSON	Dashwood
+LOCATION	Norland
+PERSON	Dashwood
+PERSON	Dashwood
+PERSON	John Dashwood
+PERSON	John Dashwood
+PERSON	John Dashwood
+PERSON	John Dashwood
+PERSON	Mrs Dashwood
+PERSON	John Dashwood
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Margaret
+PERSON	Marianne
+PERSON	John Dashwood
+LOCATION	Norland
+ORGANIZATION	Norland
+PERSON	Mrs Dashwood
+PERSON	John Dashwood
+PERSON	Harry
+LOCATION	Norland
+PERSON	Harry
+PERSON	Mrs Dashwood
+PERSON	Dashwood
+PERSON	Dashwood
+PERSON	Dashwood
+PERSON	John Dashwood
+LOCATION	Norland
+PERSON	Stanhill
+PERSON	Mrs Dashwood
+LOCATION	Norland
+LOCATION	Norland
+PERSON	Dashwood
+PERSON	Mrs Dashwood
+ORGANIZATION	Norland
+PERSON	John Dashwood
+LOCATION	Norland
+PERSON	Edward Ferrars
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Edward Ferrars
+PERSON	John Dashwood
+PERSON	Edward
+PERSON	Edward
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Fanny
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mamma
+PERSON	Edward
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Edward
+PERSON	Elinor
+PERSON	Edward
+PERSON	Cowper Nay Mamma
+PERSON	Cowper
+PERSON	Elinor
+PERSON	Edward
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Edward
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Edward
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Edward
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Fanny
+PERSON	Edward
+PERSON	Marianne
+PERSON	Edward
+PERSON	Elinor
+PERSON	Edward
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Ferrars
+PERSON	Mrs Dashwood
+PERSON	Elinor
+LOCATION	Devonshire
+PERSON	Barton Park
+LOCATION	Barton Cottage
+PERSON	Barton
+ORGANIZATION	Sussex
+LOCATION	Devonshire
+LOCATION	Norland
+PERSON	John Middleton
+PERSON	Elinor
+ORGANIZATION	Norland
+PERSON	John
+LOCATION	Norland
+PERSON	Mrs Dashwood
+PERSON	John Dashwood
+LOCATION	Norland
+PERSON	Devonshire Edward
+LOCATION	Exeter
+PERSON	John Dashwood
+LOCATION	Barton
+PERSON	Edward
+LOCATION	Norland
+PERSON	Edward
+PERSON	Elinor
+PERSON	John Dashwood
+PERSON	John Dashwood
+LOCATION	Norland
+PERSON	Marianne
+PERSON	John Dashwood
+PERSON	Mrs Dashwood
+PERSON	Mrs Dashwood
+LOCATION	Norland
+PERSON	Elinor
+ORGANIZATION	Norland
+LOCATION	Devonshire
+PERSON	Middleton
+PERSON	Mrs Dashwood
+LOCATION	Barton Park
+PERSON	John
+LOCATION	Norland
+PERSON	Dashwood
+ORGANIZATION	Norland
+PERSON	John Middleton
+ORGANIZATION	Norland
+PERSON	Mrs Dashwood
+ORGANIZATION	Norland
+PERSON	Marianne
+LOCATION	Barton Valley
+LOCATION	Barton Cottage
+LOCATION	Norland
+LOCATION	Barton
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Barton
+PERSON	John Middleton
+LOCATION	Stanhill
+LOCATION	Barton Park
+PERSON	Middleton
+PERSON	Mrs Dashwood
+LOCATION	Barton
+PERSON	Lady Middleton
+PERSON	John
+PERSON	Lady Middleton
+PERSON	John
+LOCATION	Barton Park
+ORGANIZATION	Middletons
+PERSON	John
+PERSON	John
+PERSON	Lady Middleton
+PERSON	Lady Middleton
+PERSON	John
+PERSON	John
+PERSON	Lady Middleton
+PERSON	John
+LOCATION	Barton The Miss Dashwoods
+PERSON	Mrs Dashwood
+PERSON	John
+LOCATION	Barton Park
+PERSON	Middleton
+LOCATION	Barton
+PERSON	Middleton
+LOCATION	Sussex
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Jennings
+PERSON	Brandon
+PERSON	John
+PERSON	Lady Middleton
+PERSON	Mrs Jennings
+PERSON	Middleton
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Lady Middleton
+PERSON	Brandon
+PERSON	John
+PERSON	Middleton
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Lady Middleton
+PERSON	Marianne
+PERSON	John
+PERSON	Lady Middleton
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Jennings
+PERSON	Barton
+PERSON	Brandon
+PERSON	Marianne Dashwood
+ORGANIZATION	Middletons
+PERSON	Mrs Jennings
+PERSON	Brandon
+PERSON	John
+PERSON	Mrs Dashwood
+PERSON	Mrs Jennings
+PERSON	Brandon
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mamma
+PERSON	Marianne
+PERSON	Edward Ferrars
+LOCATION	Norland
+PERSON	Mrs Dashwood
+PERSON	Barton
+PERSON	Elinor
+PERSON	Edward
+PERSON	Elinor
+PERSON	Elinor
+LOCATION	Norland
+PERSON	Edward
+LOCATION	Barton
+LOCATION	Norland
+ORGANIZATION	Norland
+PERSON	John Middleton
+LOCATION	Barton Park
+PERSON	John
+PERSON	Mrs Dashwood
+LOCATION	Allenham
+PERSON	Barton
+LOCATION	Norland
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Margaret
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Margaret
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Mrs Dashwood
+PERSON	Willoughby
+LOCATION	Allenham
+PERSON	Marianne
+PERSON	Marianne
+PERSON	John
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Allenham Willoughby
+PERSON	John
+PERSON	Mrs Dashwood Know
+LOCATION	England
+PERSON	Marianne
+PERSON	John
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Elinor Where
+LOCATION	Allenham
+PERSON	John
+PERSON	Willoughby
+ORGANIZATION	Allenham Court
+PERSON	Dashwood
+LOCATION	Somersetshire
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Mrs Dashwood
+PERSON	Willoughby
+PERSON	John
+PERSON	Marianne
+PERSON	John
+PERSON	Brandon That
+PERSON	John
+PERSON	Marianne
+PERSON	John
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Willoughby
+PERSON	Mrs Dashwood
+PERSON	John
+PERSON	Dashwood
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Cowper
+PERSON	Scott
+PERSON	Pope
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Edward
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Edward
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Willoughby
+PERSON	Brandon She
+PERSON	John
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Willoughby
+PERSON	Marianne Do
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Lady Middleton
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Lady Middleton
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Willoughby
+PERSON	Brandon
+PERSON	Mrs Dashwood
+ORGANIZATION	Devonshire
+PERSON	Marianne
+PERSON	John
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Mrs Dashwood
+PERSON	Marianne Her
+PERSON	Willoughby
+LOCATION	Norland
+ORGANIZATION	Sussex
+PERSON	Elinor
+LOCATION	Norland
+PERSON	Middleton
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Jennings
+PERSON	Middleton
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+LOCATION	Somersetshire
+ORGANIZATION	Somersetshire
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Willoughby Of John I
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Barton
+PERSON	Mab
+PERSON	Dashwood
+PERSON	Margaret
+PERSON	Willoughby
+PERSON	Margaret
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne I am
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Margaret
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Margaret
+PERSON	Elinor
+PERSON	Margaret
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Margaret
+PERSON	Margaret
+PERSON	Margaret
+LOCATION	Norland
+PERSON	Margaret
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Middleton
+PERSON	Brandon
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Barton
+PERSON	Brandon
+PERSON	John
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Whitwell
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Brandon
+PERSON	John Nobody
+PERSON	Lady Middleton
+PERSON	Brandon
+PERSON	Mrs Jennings
+LOCATION	Avignon
+PERSON	Lady Middleton
+PERSON	Fanny
+PERSON	Mrs Jennings
+PERSON	Lady Middleton
+PERSON	Brandon
+PERSON	Marianne
+PERSON	John
+PERSON	Brandon
+PERSON	Mrs Jennings
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Brandon
+PERSON	Marianne There
+PERSON	Brandon
+PERSON	John
+LOCATION	Newton
+PERSON	Willoughby
+LOCATION	Whitwell
+PERSON	Brandon
+PERSON	Barton
+PERSON	Whitwell
+PERSON	John
+PERSON	John
+PERSON	Mrs Jennings
+PERSON	Brandon
+PERSON	John No Only
+LOCATION	Honiton
+PERSON	Dashwood
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	John
+PERSON	Williams
+PERSON	Williams
+PERSON	Williams
+PERSON	Elinor She
+PERSON	John
+LOCATION	Whitwell
+PERSON	Willoughby
+PERSON	Marianne
+ORGANIZATION	Careys
+PERSON	John
+PERSON	Willoughby
+PERSON	Jennings
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Willoughby
+LOCATION	Allenham
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Mrs Smith
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Smith
+PERSON	Willoughby Illustration
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+LOCATION	Allenham
+PERSON	Willoughby
+PERSON	Willoughby
+LOCATION	England
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Mrs Jennings
+LOCATION	Delaford
+PERSON	Williams
+PERSON	Williams
+LOCATION	Avignon
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Mrs Jennings
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	John
+PERSON	Willoughby
+PERSON	Marianne
+LOCATION	Allenham
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Mrs Dashwood
+PERSON	Dashwood
+PERSON	Willoughby
+PERSON	Combe
+PERSON	Elinor Yes
+PERSON	Combe
+PERSON	Barton
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Willoughby
+LOCATION	Allenham
+PERSON	Barton
+PERSON	Mrs Smith
+PERSON	Barton
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Willoughby
+PERSON	Mrs Dashwood
+PERSON	Lady Middleton
+PERSON	Dashwood
+PERSON	Lady Middleton
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Mrs Smith
+LOCATION	London
+LOCATION	Allenham
+LOCATION	London
+PERSON	Mrs Smith
+LOCATION	Devonshire
+PERSON	Mrs Smith
+PERSON	Mrs Smith
+PERSON	Willoughby
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Willoughby
+LOCATION	Barton
+PERSON	Mrs Smith
+PERSON	Willoughby
+PERSON	Mrs Dashwood
+PERSON	Willoughby
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Barton Elinor
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Mrs Smith
+PERSON	Marianne
+PERSON	Marianne
+ORGANIZATION	Devonshire
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Mrs Smith
+PERSON	Willoughby
+LOCATION	Devonshire
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+ORGANIZATION	My Elinor
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Mrs Smith
+PERSON	Willoughby
+PERSON	Margaret
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	XVI Marianne
+LOCATION	Allenham
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Marianne Her
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	John
+PERSON	John
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	John
+PERSON	Mrs Jennings
+PERSON	Mrs Dashwood
+PERSON	Shakespeare
+PERSON	Hamlet
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Barton
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Edward Ferrars
+PERSON	Willoughby
+PERSON	Barton
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Edward
+LOCATION	Norland
+PERSON	Edward
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Edward
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Edward
+LOCATION	London
+LOCATION	Devonshire
+PERSON	Elinor
+LOCATION	Plymouth
+ORGANIZATION	Sussex
+PERSON	Elinor
+LOCATION	Norland
+ORGANIZATION	Norland
+PERSON	Marianne Dear
+ORGANIZATION	Norland
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Edward
+PERSON	Barton
+PERSON	Barton
+PERSON	Marianne
+ORGANIZATION	Middletons
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Ferrars
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Barton
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Mrs Ferrars
+PERSON	Edward
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+ORGANIZATION	Combe Magna Hunters
+PERSON	Edward
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Margaret
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Elinor
+LOCATION	London
+PERSON	Edward
+PERSON	Dashwood
+PERSON	Marianne
+LOCATION	London
+PERSON	Thomson Cowper Scott
+PERSON	Marianne Forgive
+PERSON	Edward
+PERSON	Edward
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Nay Edward
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Edward
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Edward Shyness
+PERSON	Marianne
+PERSON	Edward
+PERSON	Elinor
+PERSON	Edward
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Edward
+PERSON	Edward
+PERSON	Marianne
+PERSON	Edward
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Edward
+PERSON	Marianne
+PERSON	Edward
+PERSON	Marianne
+PERSON	Edward
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Edward
+PERSON	Mrs Dashwood
+PERSON	Edward
+PERSON	Fanny
+PERSON	Marianne
+PERSON	Edward
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Edward
+PERSON	Marianne
+PERSON	John
+PERSON	Mrs Jennings
+PERSON	John
+PERSON	Ferrars
+PERSON	Elinor
+PERSON	Edward
+PERSON	Margaret
+PERSON	John
+PERSON	Mrs Jennings
+PERSON	Marianne
+ORGANIZATION	Careys
+PERSON	John
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Edward And
+PERSON	Willoughby
+PERSON	Dashwood
+PERSON	Marianne
+PERSON	Edward
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Edward
+PERSON	Mrs Dashwood
+LOCATION	Norland
+LOCATION	Norland
+LOCATION	London
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Mrs Ferrars
+PERSON	Mrs Ferrars
+PERSON	Edward
+PERSON	Barton
+PERSON	Edward
+PERSON	Mrs Dashwood
+ORGANIZATION	Temple
+LOCATION	Oxford
+PERSON	Mrs Dashwood
+PERSON	Columella
+PERSON	Edward You
+PERSON	Edward
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Edward
+PERSON	Edward
+PERSON	Edward
+PERSON	John
+PERSON	Lady Middleton
+PERSON	Mrs Jennings
+PERSON	John
+PERSON	Palmers Charlotte
+PERSON	Elinor
+PERSON	Marianne Has
+PERSON	Mrs Jennings
+PERSON	Mrs Dashwood
+PERSON	Brandon
+PERSON	John
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Middleton
+PERSON	Mrs Dashwood
+PERSON	Margaret
+PERSON	Mrs Jennings
+PERSON	John Mrs Palmer
+PERSON	Lady Middleton
+PERSON	Mrs Palmer
+PERSON	Mamma
+PERSON	Mrs Dashwood
+PERSON	Palmer
+PERSON	Palmer
+PERSON	Palmer
+PERSON	Mrs Dashwood
+PERSON	Mrs Palmer
+PERSON	Mrs Jennings
+PERSON	Elinor
+LOCATION	London
+PERSON	Mrs Palmer
+PERSON	Mrs Jennings Lady Middleton
+PERSON	Palmer
+PERSON	Marianne
+PERSON	John Now Palmer
+PERSON	Mrs Jennings
+LOCATION	Allenham
+PERSON	Mrs Palmer
+PERSON	Palmer
+PERSON	Mrs Palmer
+PERSON	Lady Middleton
+PERSON	Palmer
+PERSON	John
+PERSON	Dashwood
+PERSON	Mrs Palmer
+PERSON	John
+PERSON	Lady Middleton
+PERSON	Mrs Jennings
+PERSON	Mrs Palmer
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Palmer
+PERSON	Elinor
+PERSON	Marianne
+ORGANIZATION	Westons
+PERSON	Palmer
+PERSON	Barton He
+PERSON	Mrs Palmer
+LOCATION	Hanover
+PERSON	Mrs Dashwood
+PERSON	Mrs Palmer
+PERSON	John
+PERSON	John
+PERSON	Marianne
+PERSON	John
+LOCATION	Allenham
+PERSON	Marianne
+PERSON	Mrs Palmer
+PERSON	Palmer Marianne
+PERSON	Mrs Palmer
+PERSON	John
+ORGANIZATION	Gilberts
+PERSON	John
+PERSON	John
+PERSON	Palmer
+LOCATION	Charlotte
+PERSON	Charlotte
+PERSON	Palmer
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Mrs Palmer
+LOCATION	Cleveland
+ORGANIZATION	Westons
+ORGANIZATION	Cleveland Certainly
+PERSON	Palmer
+ORGANIZATION	Westons
+LOCATION	Cleveland
+PERSON	Palmer
+PERSON	Elinor
+LOCATION	Charlotte
+ORGANIZATION	Parliament
+PERSON	Don
+PERSON	Palmer
+PERSON	Don
+PERSON	Elinor
+PERSON	Palmer
+PERSON	Elinor
+PERSON	Palmer
+LOCATION	Cleveland
+PERSON	Elinor
+PERSON	Mrs Palmer
+PERSON	Willoughby
+ORGANIZATION	Middletons
+PERSON	Marianne She
+PERSON	Willoughby
+LOCATION	Cleveland
+PERSON	Mrs Palmer
+PERSON	Barton
+LOCATION	Allenham Mama
+LOCATION	Weymouth
+LOCATION	Somersetshire
+PERSON	Palmer
+PERSON	Elinor
+PERSON	Don
+PERSON	Brandon
+PERSON	Brandon
+PERSON	Brandon
+PERSON	Barton
+PERSON	Willoughby
+ORGANIZATION	Combe Magna
+LOCATION	Devonshire
+PERSON	Brandon
+PERSON	Mamma
+PERSON	Willoughby
+LOCATION	Somersetshire
+PERSON	Elinor Oh
+ORGANIZATION	Combe Magna
+PERSON	Willoughby
+PERSON	Palmer
+PERSON	Mrs Palmer
+PERSON	Willoughby
+LOCATION	Charlotte
+ORGANIZATION	Combe Magna It
+PERSON	Brandon
+PERSON	John
+PERSON	John
+PERSON	Lady Middleton
+PERSON	John
+PERSON	Brandon
+PERSON	John
+PERSON	Palmer
+ORGANIZATION	Palmers
+LOCATION	Cleveland
+PERSON	Barton
+PERSON	Elinor
+LOCATION	Charlotte
+PERSON	Palmer
+PERSON	John
+PERSON	Mrs Jennings
+LOCATION	Exeter
+PERSON	Mrs Jennings
+PERSON	John
+LOCATION	Exeter
+LOCATION	Exeter
+PERSON	Lady Middleton
+PERSON	John
+PERSON	Mrs Jennings
+PERSON	Lady Middleton
+PERSON	Lady Middleton
+PERSON	John
+PERSON	Steeles
+PERSON	Elinor
+LOCATION	England
+PERSON	John
+LOCATION	Park
+PERSON	Lucy
+LOCATION	Exeter
+PERSON	John
+LOCATION	Park
+PERSON	Steeles
+ORGANIZATION	Miss Steeles
+PERSON	Elinor
+PERSON	Middleton
+PERSON	Lady Middleton
+PERSON	Elinor
+PERSON	Marianne
+PERSON	John
+PERSON	Steele
+PERSON	William
+PERSON	Annamaria
+PERSON	Steeles
+PERSON	Steeles
+PERSON	Lady Middleton
+PERSON	Steele
+PERSON	Marianne
+PERSON	Lady Middleton
+PERSON	Lucy Steele Marianne
+PERSON	Elinor
+PERSON	Middleton
+PERSON	Lucy
+PERSON	John
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Middleton
+PERSON	Elinor
+LOCATION	Barton Park
+PERSON	Steele
+PERSON	Dashwood
+ORGANIZATION	Sussex
+PERSON	Elinor
+LOCATION	Norland
+PERSON	Steele
+PERSON	John
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lucy
+LOCATION	Devonshire
+ORGANIZATION	Sussex
+LOCATION	Exeter
+LOCATION	Norland
+PERSON	Barton
+PERSON	Rose
+LOCATION	Exeter
+PERSON	Simpson
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Anne
+PERSON	Dashwood
+ORGANIZATION	Miss Steeles
+PERSON	Elinor
+LOCATION	Exeter
+PERSON	John Middleton
+PERSON	Elinor
+PERSON	John
+ORGANIZATION	Miss Steeles
+PERSON	John
+ORGANIZATION	Miss Steeles
+PERSON	Elinor
+PERSON	Barton Twill
+PERSON	Elinor
+PERSON	John
+PERSON	Edward
+PERSON	Marianne
+PERSON	Edward
+PERSON	Elinor The Miss Steeles
+PERSON	John
+PERSON	Steele
+PERSON	Ferrars
+PERSON	Steele Mr Ferrars
+PERSON	Dashwood
+PERSON	Anne
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Steele
+PERSON	Edward
+PERSON	Ferrars
+PERSON	Steele
+PERSON	John CHAPTER XXII Marianne
+ORGANIZATION	Miss Steeles
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Elinor
+LOCATION	Park
+PERSON	Lucy
+PERSON	Mrs Ferrars Elinor
+PERSON	Lucy
+LOCATION	Norland
+PERSON	Elinor
+PERSON	Edward
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Robert Ferrars Can
+PERSON	Lucy
+PERSON	Robert
+PERSON	Ferrars
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Anne
+PERSON	Mrs Ferrars
+PERSON	Ferrars
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Pratt
+PERSON	Pratt
+PERSON	Elinor
+LOCATION	Longstaple
+LOCATION	Plymouth
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Edward
+PERSON	Edward Ferrars
+PERSON	Ferrars
+PERSON	Lucy
+PERSON	Edward Ferrars
+PERSON	John Dashwood
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Edward
+PERSON	Elinor
+PERSON	Edward
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Edward
+PERSON	Anne
+PERSON	Edward
+PERSON	John
+PERSON	Edward
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Edward
+PERSON	Barton He
+LOCATION	Longstaple
+PERSON	Elinor
+PERSON	Lucy
+LOCATION	Plymouth
+PERSON	Lucy We
+LOCATION	Exeter
+PERSON	Elinor You
+PERSON	Elinor
+PERSON	Edward
+PERSON	Lucy
+PERSON	Edward
+LOCATION	Longstaple
+PERSON	Elinor
+ORGANIZATION	Miss Steeles
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Pratt
+PERSON	Edward
+LOCATION	Plymouth
+ORGANIZATION	Miss Steeles
+ORGANIZATION	Norland
+PERSON	Edward
+PERSON	Lucy
+ORGANIZATION	Norland
+LOCATION	Norland
+PERSON	Lucy Steele
+PERSON	Lucy
+PERSON	Edward
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Edward
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Edward
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Edward
+PERSON	Lucy
+PERSON	John
+PERSON	Elinor
+PERSON	Edward
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Edward
+PERSON	Edward
+PERSON	Lucy
+PERSON	Lucy
+PERSON	John
+PERSON	Middleton
+PERSON	Elinor
+PERSON	Lucy
+PERSON	John
+PERSON	Lady Middleton
+LOCATION	Exeter
+PERSON	Steeles Elinor
+PERSON	Lady Middleton
+PERSON	Margaret
+PERSON	Marianne
+PERSON	Lady Middleton
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lady Middleton
+PERSON	Lucy
+PERSON	Annamaria
+PERSON	Lucy
+PERSON	Middleton
+PERSON	Lucy
+PERSON	Lady Middleton
+PERSON	Marianne
+PERSON	Lady Middleton
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Lucy Steele
+PERSON	Lucy
+PERSON	Annamaria
+PERSON	Steele Dear
+PERSON	Lady Middleton
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Lady Middleton
+PERSON	Lucy
+PERSON	Marianne
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Ferrars
+PERSON	Edward
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Edward
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lucy
+LOCATION	Longstaple
+PERSON	Elinor
+PERSON	Mrs Ferrars
+PERSON	Mrs Ferrars
+PERSON	Robert
+PERSON	Edward
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Robert Ferrars
+PERSON	Elinor Not
+PERSON	Steele
+PERSON	Marianne
+PERSON	Lucy
+PERSON	Dashwood
+PERSON	Mrs Jennings
+PERSON	Lucy
+PERSON	Mrs Jennings
+PERSON	Steele
+PERSON	Lucy
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Marianne
+PERSON	Edward
+ORGANIZATION	Norland
+PERSON	Elinor
+PERSON	Ferrars
+PERSON	John Dashwood
+PERSON	John Dashwood
+PERSON	Edward
+PERSON	Lucy
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Edward Ferrars
+PERSON	Elinor
+PERSON	Edward
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Dashwood
+PERSON	Anne
+LOCATION	London
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Edward
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Edward
+PERSON	Lucy
+ORGANIZATION	Miss Steeles
+LOCATION	Barton Park
+PERSON	John
+LOCATION	Exeter
+PERSON	Mrs Jennings
+LOCATION	Portman Square Towards
+PERSON	Dashwood
+PERSON	Don
+PERSON	Betty
+PERSON	John
+PERSON	Marianne
+PERSON	Dashwood
+PERSON	Barton
+PERSON	Dashwood
+PERSON	Marianne
+PERSON	Dashwood
+LOCATION	Charlotte
+PERSON	Marianne
+PERSON	Dashwood
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Marianne
+LOCATION	London
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Middletons
+PERSON	Margaret
+LOCATION	London
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Middleton
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Edward Ferrars
+PERSON	Lucy
+PERSON	Mrs Dashwood
+LOCATION	London
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Edward
+PERSON	Edward Ferrars
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	John
+LOCATION	London
+PERSON	Lady Middleton
+ORGANIZATION	Miss Steeles
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+ORGANIZATION	Middletons
+PERSON	Steeles
+PERSON	Elinor
+PERSON	Mrs Jennings
+LOCATION	London
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Charlotte
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Elinor
+LOCATION	London
+PERSON	Elinor
+PERSON	Willoughby
+LOCATION	London
+LOCATION	Delaford
+PERSON	Barton
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Cartwright
+PERSON	Palmer
+LOCATION	Charlotte
+PERSON	Mrs Palmer
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Mrs Palmer
+PERSON	Palmer
+PERSON	Jennings
+PERSON	Palmer
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne
+LOCATION	Bond Street
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Combe Magna
+PERSON	Mrs Palmer
+PERSON	Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	John
+PERSON	Barton
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	John
+PERSON	Lady Middleton
+PERSON	Mary
+PERSON	Elinor
+PERSON	Combe
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Jennings
+PERSON	Marianne
+PERSON	Don
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Jennings
+PERSON	Lady Middleton
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+ORGANIZATION	Barton About
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+LOCATION	London
+PERSON	Marianne
+PERSON	Jennings
+PERSON	Elinor
+PERSON	Elinor
+LOCATION	Berkeley Street
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne Nay Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne Mrs Jennings
+PERSON	Middleton
+PERSON	John
+LOCATION	Berkeley Street
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	John
+PERSON	Lady Middleton
+LOCATION	London
+PERSON	Lady Middleton
+PERSON	Mrs Palmer
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Palmer
+PERSON	Brandon
+LOCATION	Devonshire
+PERSON	Elinor When
+PERSON	Marianne
+LOCATION	Berkeley Street
+PERSON	Middleton
+PERSON	John
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Brandon
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Lady Middleton
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Lady Middleton
+PERSON	Lady Middleton
+PERSON	Middleton
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Elinor
+LOCATION	Berkeley Street
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Lady Middleton
+PERSON	Lady Middleton
+PERSON	Marianne
+LOCATION	Berkeley
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Edward
+PERSON	Marianne
+LOCATION	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Ma
+PERSON	Willoughby
+PERSON	Dashwood
+PERSON	Don
+LOCATION	Devonshire
+ORGANIZATION	Charlotte Indeed Ma
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Willoughby
+LOCATION	Devonshire
+PERSON	JOHN WILLOUGHBY
+PERSON	Dashwood
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Poor Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne Ah
+PERSON	Edward
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne Have
+PERSON	Marianne
+PERSON	Elinor
+LOCATION	Berkeley
+PERSON	Willoughby
+PERSON	Mrs Jennings
+ORGANIZATION	Middletons
+PERSON	Middleton
+PERSON	Willoughby
+LOCATION	Barton
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Barton
+PERSON	Elinor
+PERSON	Willoughby Dearest Marianne
+PERSON	Edward
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Willoughby Willoughby
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne Yes
+PERSON	Willoughby
+ORGANIZATION	Middletons
+PERSON	Middleton
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Jennings
+PERSON	Marianne
+PERSON	Mrs Taylor
+PERSON	Grey
+PERSON	Marianne
+ORGANIZATION	Parrys
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Jennings
+PERSON	Elinor
+PERSON	Jennings
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Grey
+PERSON	Biddy Henshawe
+PERSON	Marianne
+PERSON	Grey
+PERSON	Mrs Taylor
+PERSON	Walker
+PERSON	Mrs Ellison
+PERSON	Grey
+PERSON	Mrs Ellison
+PERSON	Marianne
+PERSON	Aye
+PERSON	John
+LOCATION	Conduit Street
+PERSON	Mrs Palmer
+PERSON	John
+PERSON	Willoughby
+PERSON	John
+PERSON	Willoughby
+PERSON	Law
+PERSON	Don
+ORGANIZATION	Allenham House
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Brandon He
+LOCATION	Delaford
+LOCATION	Charlotte
+LOCATION	Barton Park
+PERSON	Willoughby
+PERSON	Ma
+PERSON	Elinor
+PERSON	Brandon And
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Mrs Jennings
+ORGANIZATION	Constantia
+PERSON	Dear Ma
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Marianne Elinor
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Grey
+PERSON	Willoughby
+LOCATION	Pall Mall
+PERSON	Willoughby John Willoughby
+PERSON	Grey
+LOCATION	Somersetshire
+PERSON	Ellison
+PERSON	Grey
+PERSON	Grey
+PERSON	Willoughby
+PERSON	Brandon
+PERSON	Mrs Jennings
+PERSON	Dashwood
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Marianne
+LOCATION	London
+PERSON	Barton
+PERSON	Mrs Jennings
+ORGANIZATION	Middletons
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Mrs Jennings
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Bond Street
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Barton
+PERSON	Dashwood
+LOCATION	Barton Park
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Eliza
+PERSON	Willoughby
+LOCATION	Scotland
+PERSON	Mrs Brandon
+LOCATION	East Indies
+LOCATION	England
+PERSON	Elinor
+LOCATION	England
+LOCATION	England
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Eliza
+LOCATION	Delaford
+LOCATION	Dorsetshire
+PERSON	Elinor
+PERSON	Willoughby
+LOCATION	Delaford
+PERSON	Whitwell
+PERSON	Barton
+PERSON	Willoughby
+PERSON	Elinor His
+PERSON	Eliza
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Barton
+PERSON	Elinor
+PERSON	Eliza
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Willoughby
+PERSON	Williams
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Marianne
+LOCATION	Barton
+PERSON	Willoughby
+PERSON	Barton
+PERSON	Marianne
+PERSON	Willoughby
+LOCATION	London
+LOCATION	Barton
+LOCATION	Allenham
+PERSON	Mrs Dashwood
+PERSON	Marianne
+LOCATION	London
+PERSON	Elinor
+PERSON	Edward
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	John
+PERSON	Elinor
+PERSON	John
+LOCATION	England
+PERSON	Barton
+PERSON	Mrs Palmer
+PERSON	Combe Magna
+LOCATION	Cleveland
+PERSON	Mrs Palmer
+PERSON	Willoughby
+PERSON	Grey
+PERSON	Folly
+PERSON	Lady Middleton
+PERSON	Elinor
+PERSON	Lady Middleton
+PERSON	John
+PERSON	Mrs Willoughby
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Michaelmas
+PERSON	Dashwood
+PERSON	Mrs Jennings
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Marianne
+ORGANIZATION	Willoughbys
+PERSON	Elinor
+PERSON	Bartlett
+PERSON	Holborn
+LOCATION	Berkeley Streets
+PERSON	Elinor
+PERSON	Lucy
+LOCATION	London
+PERSON	Barton
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Steele
+PERSON	Davies
+PERSON	Mrs Jennings
+PERSON	Steele
+PERSON	Nancy
+PERSON	Jennings
+PERSON	Steele
+PERSON	Dashwood
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Lucy
+PERSON	Dashwood
+PERSON	Steele
+PERSON	Marianne
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Steele
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Marianne
+PERSON	Mrs Jennings
+LOCATION	Sackville Street
+PERSON	Elinor
+PERSON	Mrs Jennings
+ORGANIZATION	Gray
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Gray
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	John Dashwood
+PERSON	Elinor
+PERSON	Fanny
+PERSON	Harry
+ORGANIZATION	Exeter Exchange
+PERSON	Ferrars Harry
+ORGANIZATION	Fanny
+LOCATION	Berkeley Street
+PERSON	Mrs Jennings
+ORGANIZATION	Middletons
+PERSON	Edward
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Dashwood
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	John Dashwood
+PERSON	Brandon
+PERSON	Elinor
+PERSON	John
+PERSON	Lady Middleton
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Brandon
+ORGANIZATION	Fanny
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Fanny
+PERSON	Edward Ferrars
+PERSON	Elinor
+PERSON	Mrs Ferrars
+ORGANIZATION	Hon Miss Morton
+PERSON	Morton
+PERSON	Mrs Ferrars
+PERSON	Fanny
+ORGANIZATION	Norland Common
+ORGANIZATION	East Kingham Farm
+PERSON	Gibson
+PERSON	Elinor
+ORGANIZATION	Norland
+LOCATION	Norland
+PERSON	Ferrars
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Fanny
+PERSON	Marianne
+LOCATION	Dorsetshire
+PERSON	Elinor
+PERSON	Fanny
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Brandon
+PERSON	Jennings
+PERSON	Lady Middleton
+PERSON	John
+PERSON	John
+PERSON	Dashwood
+PERSON	Lady Middleton
+PERSON	Dashwood
+PERSON	Fanny
+PERSON	Lady Middleton
+PERSON	Fanny
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Fanny
+PERSON	Mrs Ferrars
+ORGANIZATION	Fanny
+PERSON	John Dashwood
+PERSON	Jennings
+PERSON	Lady Middleton
+PERSON	Middleton
+PERSON	Mrs John Dashwood
+PERSON	Lady Middleton
+PERSON	Mrs Jennings
+LOCATION	Berkeley Street
+PERSON	Elinor
+PERSON	Edward
+PERSON	Fanny
+PERSON	Morton
+PERSON	Brandon
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Edward
+PERSON	Bartlett
+PERSON	Edward
+LOCATION	Berkeley Street Twice
+PERSON	Elinor
+ORGANIZATION	Middletons
+LOCATION	Harley Street
+PERSON	John Dashwood
+PERSON	Brandon
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Edward
+PERSON	Mrs Ferrars
+PERSON	Steeles
+PERSON	Lady Middleton
+PERSON	Lucy
+PERSON	John
+LOCATION	Conduit Street
+PERSON	Steeles
+PERSON	John Dashwood
+PERSON	Middleton
+PERSON	Lucy
+PERSON	John Dashwood
+PERSON	Edward
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Edward
+LOCATION	Harley Street
+PERSON	Dashwood
+PERSON	Lucy
+ORGANIZATION	Middletons
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Morton
+PERSON	Lucy
+PERSON	Elinor Mrs Ferrars
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Mrs Ferrars
+ORGANIZATION	Miss Steeles
+PERSON	Lucy
+ORGANIZATION	Miss Steeles
+PERSON	Lucy
+PERSON	Steele
+PERSON	Davies
+LOCATION	Norland
+PERSON	John Dashwood
+PERSON	Harry Dashwood
+PERSON	Lady Middleton
+PERSON	William
+PERSON	Harry
+PERSON	Lucy
+PERSON	Steele
+PERSON	Elinor
+PERSON	William
+PERSON	Mrs Ferrars
+PERSON	Fanny
+PERSON	Marianne
+PERSON	Norland Elinor
+PERSON	John Dashwood
+PERSON	Brandon
+PERSON	Dashwood
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Middleton
+PERSON	Fanny
+PERSON	Dashwood Hum
+PERSON	Mrs Ferrars
+PERSON	Fanny
+PERSON	Morton
+PERSON	Ma
+PERSON	Marianne
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Morton
+PERSON	Elinor
+PERSON	Ferrars
+PERSON	Ferrars
+PERSON	Morton
+PERSON	Morton
+PERSON	Fanny
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Ferrars
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Don
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Mrs Jennings
+PERSON	John
+PERSON	Lucy Steele
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Ferrars
+PERSON	Edward
+PERSON	Ferrars
+PERSON	Edward
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Lady Middleton
+LOCATION	Berkeley Street
+PERSON	Elinor
+PERSON	Mrs Palmer
+PERSON	Mrs Jennings
+PERSON	Lucy
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Mrs Ferrars
+PERSON	Mrs Ferrars
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Edward
+PERSON	Edward But
+PERSON	Lady Middleton
+PERSON	Mrs Dashwood
+LOCATION	Harley Street
+PERSON	Edward
+PERSON	Lady Middleton
+PERSON	Mrs Ferrars
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Ferrars
+PERSON	Edward
+PERSON	Edward
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lucy
+LOCATION	Berkeley Street
+PERSON	Lucy
+PERSON	Edward
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Edward
+PERSON	Marianne
+PERSON	Edward
+PERSON	Marianne
+PERSON	Dear Edward
+PERSON	Edward
+PERSON	Marianne
+PERSON	Edward
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Edward
+PERSON	Marianne
+LOCATION	London
+PERSON	Elinor
+PERSON	Edward
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Marianne
+LOCATION	London
+PERSON	Edward
+PERSON	Edward
+PERSON	Elinor
+PERSON	Edward
+PERSON	Barton
+PERSON	Edward
+PERSON	Edward
+PERSON	Marianne
+PERSON	Edward
+LOCATION	Harley Street
+PERSON	Edward Why
+PERSON	Marianne
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Edward
+LOCATION	Harley Street
+PERSON	Edward
+PERSON	Edward
+PERSON	Marianne
+PERSON	Edward
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Marianne
+PERSON	Lucy
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Marianne
+PERSON	Edward
+PERSON	Marianne
+PERSON	Thomas Palmer Esq
+PERSON	Mrs Jennings
+LOCATION	Charlotte
+ORGANIZATION	Middletons
+PERSON	Jennings
+PERSON	Lady Middleton
+PERSON	Lady Middleton
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Lucy
+PERSON	Middleton
+PERSON	Lucy
+PERSON	Steele
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Marianne
+PERSON	John
+PERSON	Mrs Jennings
+PERSON	John
+PERSON	Charlotte
+PERSON	Steele
+PERSON	Palmer
+PERSON	John Dashwood
+LOCATION	Harley Street
+PERSON	Dashwood
+LOCATION	Harley Street
+PERSON	John Dashwood
+PERSON	Marianne
+PERSON	Steele
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Marianne
+LOCATION	England
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Robert Ferrars
+PERSON	Lucy Happy
+PERSON	Edward
+PERSON	Robert
+PERSON	Robert
+PERSON	Edward
+LOCATION	Westminster
+PERSON	Pratt
+PERSON	Elinor
+PERSON	Edward
+PERSON	Pratt
+PERSON	Dawlish Elinor
+LOCATION	Devonshire
+LOCATION	London
+PERSON	Courtland
+PERSON	Bonomi
+PERSON	Courtland
+PERSON	Elliott
+LOCATION	Dartford
+PERSON	Elliott
+PERSON	Ferrars
+PERSON	My dear Lady Elliott
+PERSON	Lady Elliott
+PERSON	Elinor
+PERSON	John Dashwood
+PERSON	Dennison
+PERSON	Mrs Jennings
+PERSON	Fanny
+PERSON	Lady Middleton
+PERSON	Middleton
+LOCATION	Conduit Street
+PERSON	Lady Middleton
+PERSON	Fanny
+ORGANIZATION	Miss Steeles
+PERSON	Edward
+ORGANIZATION	Miss Steeles
+PERSON	Dashwood
+ORGANIZATION	Miss Steeles
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Fanny
+PERSON	Lucy
+LOCATION	Harley Street
+PERSON	Lady Middleton
+PERSON	Lucy
+PERSON	Mrs Dashwood
+PERSON	Edward
+PERSON	Lady Middleton
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Lady Middleton
+PERSON	John Dashwood
+LOCATION	Harley Street
+PERSON	Elinor
+PERSON	John
+PERSON	Mrs Dashwood
+PERSON	Lucy
+PERSON	Palmer
+LOCATION	Berkeley Street
+PERSON	Mrs Palmer
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Palmer
+LOCATION	Charlotte
+LOCATION	Charlotte
+PERSON	Donavan
+LOCATION	Harley Street
+LOCATION	Charlotte
+PERSON	Dashwood
+PERSON	Mrs Dashwood
+PERSON	Edward Ferrars
+PERSON	Edward Ferrars
+PERSON	Lucy
+PERSON	Nancy
+PERSON	Mrs Ferrars
+PERSON	Nancy
+PERSON	Lucy
+PERSON	Edward
+PERSON	Lucy
+PERSON	Nancy
+PERSON	Mrs Dashwood
+PERSON	Donavan
+PERSON	Donavan
+PERSON	Lucy
+PERSON	Nancy
+PERSON	Edward
+PERSON	Donavan
+LOCATION	Harley Street
+PERSON	Mrs Ferrars
+PERSON	Edward
+PERSON	Lucy
+PERSON	Mrs Ferrars
+PERSON	Lucy
+PERSON	Mrs Ferrars
+PERSON	Betty
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Edward
+PERSON	Marianne
+PERSON	Edward
+PERSON	Lucy What Mrs Ferrars
+PERSON	Edward
+PERSON	Lucy
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Edward Elinor
+PERSON	Edward
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Edward
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Edward
+PERSON	Marianne
+PERSON	Edward
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Lucy Steele
+PERSON	Edward
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Lucy
+LOCATION	Barton Park
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Lucy
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Edward
+PERSON	Lucy
+PERSON	Marianne
+PERSON	Edward
+PERSON	Lucy
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Edward
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Lucy
+PERSON	Edward
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Lucy
+PERSON	Mrs Jennings
+PERSON	Edward
+PERSON	Elinor
+ORGANIZATION	Mrs Ferrars
+ORGANIZATION	Poor Fanny
+PERSON	Donavan
+PERSON	Marianne
+PERSON	Fanny
+PERSON	Mrs Ferrars
+PERSON	Fanny
+PERSON	Mrs Ferrars
+PERSON	Fanny
+PERSON	Edward
+PERSON	Morton
+LOCATION	Norfolk
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Edward
+PERSON	Mrs Jennings
+PERSON	Dashwood
+PERSON	Lucy Steele
+PERSON	John Dashwood
+PERSON	Lucy Steele
+PERSON	Mrs Ferrars
+PERSON	Mrs Ferrars
+PERSON	Edward
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Edward
+PERSON	Mrs Jennings
+PERSON	Edward
+PERSON	Morton
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Edward
+PERSON	John Dashwood
+PERSON	Robert
+PERSON	Edward
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	John
+PERSON	Edward
+ORGANIZATION	Fanny
+PERSON	Mrs Ferrars
+PERSON	Edward
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Jennings
+PERSON	Edward
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Edward
+PERSON	Marianne
+PERSON	Elinor
+LOCATION	Harley Street
+PERSON	Bartlett
+PERSON	Jennings
+LOCATION	Kensington Gardens
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne
+ORGANIZATION	Willoughbys
+PERSON	Mrs Jennings
+LOCATION	Gardens
+PERSON	Elinor
+PERSON	Mrs Jennings
+ORGANIZATION	Willoughbys
+PERSON	Edward
+PERSON	Steele
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Elinor Get
+PERSON	Mrs Clarke
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Steele
+PERSON	Mrs Jennings
+PERSON	Lady Middleton
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Ferrars
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Elinor Illustration
+PERSON	Godby
+PERSON	Ferrars
+PERSON	Morton
+PERSON	Lucy Steele
+PERSON	Sparks
+PERSON	Richard
+PERSON	Ferrars
+PERSON	Edward
+PERSON	Lucy
+PERSON	Lucy
+LOCATION	Harley Street
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Morton
+PERSON	Lucy
+PERSON	Mrs Richardson
+LOCATION	Kensington Gardens
+PERSON	Lucy
+PERSON	Edward
+PERSON	Richardsons
+PERSON	Elinor
+PERSON	La Miss Dashwood
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Martha Sharpe
+PERSON	Elinor
+PERSON	Steele
+LOCATION	Oxford
+LOCATION	No Pall Mall
+PERSON	Edward
+ORGANIZATION	Oxford
+PERSON	Edward
+PERSON	Elinor
+PERSON	Steele
+ORGANIZATION	Richardsons
+PERSON	Mrs Jennings
+PERSON	Lady Middleton
+PERSON	Mrs Jennings
+PERSON	Lady Middleton
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Mrs Richardson
+PERSON	Elinor
+PERSON	Edward
+PERSON	Lucy
+PERSON	Jennings
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Steele
+PERSON	Pratt
+PERSON	Betty
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Bartlett
+PERSON	Dashwood
+PERSON	Edward
+PERSON	Edward
+PERSON	Mrs Jennings
+PERSON	John
+PERSON	Palmer
+PERSON	Poor Anne
+PERSON	Mrs Jennings
+PERSON	John
+PERSON	Lady Middleton
+PERSON	Marianne I am etc
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Lucy Poor
+PERSON	Mrs Jennings
+PERSON	Lucy
+PERSON	Marianne
+PERSON	Barton
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+LOCATION	Cleveland
+PERSON	Mrs Jennings
+LOCATION	Charlotte
+PERSON	Dashwood
+PERSON	Palmer
+PERSON	Marianne
+ORGANIZATION	Cleveland
+LOCATION	Cleveland
+PERSON	Elinor
+LOCATION	Somersetshire
+PERSON	Elinor
+PERSON	Elinor
+LOCATION	Cleveland
+LOCATION	Bristol
+PERSON	Barton
+LOCATION	Cleveland
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Cleveland Elinor
+PERSON	Marianne
+PERSON	Barton
+PERSON	Mrs Jennings
+ORGANIZATION	Palmers
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Ferrars
+PERSON	Elinor
+PERSON	Ferrars
+PERSON	Ferrars
+LOCATION	Harley Street
+LOCATION	Delaford
+PERSON	Elinor
+PERSON	Edward
+PERSON	Mrs Jennings
+PERSON	Brandon
+PERSON	Edward
+PERSON	Edward
+PERSON	Brandon
+PERSON	Edward
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Ferrars
+LOCATION	Delaford
+PERSON	Ferrars
+PERSON	Mrs Jennings
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Brandon
+LOCATION	Delaford
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Lucy
+PERSON	Holborn
+PERSON	Lucy
+PERSON	Ferrars
+PERSON	Ferrars
+PERSON	Ferrars
+PERSON	Elinor
+PERSON	Jennings
+PERSON	Brandon
+PERSON	Ferrars
+LOCATION	Charlotte
+PERSON	Betty
+PERSON	Elinor
+PERSON	Edward
+PERSON	Edward
+PERSON	Mrs Jennings
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Mrs Jennings
+LOCATION	London
+LOCATION	Oxford
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Brandon
+LOCATION	Delaford
+PERSON	Edward
+PERSON	Brandon Yes
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Brandon
+PERSON	Edward
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Edward
+PERSON	Brandon
+LOCATION	St James Street
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Lucy And
+PERSON	Edward
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Ferrars
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Ferrars
+ORGANIZATION	Ferrars Illustration
+LOCATION	Barton
+PERSON	Lucy
+PERSON	Brandon
+LOCATION	Delaford Parsonage
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Edward
+PERSON	Brandon
+PERSON	Lucy
+PERSON	Bartlett
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+LOCATION	Delaford Parsonage
+PERSON	Elinor
+PERSON	Edward
+PERSON	Dashwood
+PERSON	Brandon
+LOCATION	Delaford
+PERSON	John Dashwood
+LOCATION	Berkeley Street
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	John Dashwood
+PERSON	Edward
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Elinor
+LOCATION	Berkeley Street
+PERSON	Fanny
+PERSON	Fanny
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Edward
+PERSON	Brandon
+LOCATION	Delaford
+ORGANIZATION	Edward Really Well
+PERSON	Brandon
+PERSON	Edward
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Edward
+PERSON	Brandon
+PERSON	Edward
+PERSON	Fanny
+PERSON	Elinor
+PERSON	Mrs Ferrars
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	John
+PERSON	Edward
+PERSON	Mrs Ferrars
+PERSON	Edward
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Robert
+PERSON	Morton Elinor
+PERSON	Morton
+PERSON	Edward
+PERSON	Robert
+PERSON	Robert
+PERSON	Elinor
+PERSON	John
+PERSON	Mrs Ferrars
+PERSON	Mrs Ferrars
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Robert Ferrars
+PERSON	John Dashwood
+PERSON	Fanny
+PERSON	Elinor
+PERSON	Robert
+PERSON	Edward
+PERSON	Elinor
+PERSON	John
+PERSON	Robert
+PERSON	Edward
+PERSON	Edward
+PERSON	John Smith
+PERSON	Mary Brown
+PERSON	Elinor
+PERSON	Edward
+PERSON	Dashwood
+PERSON	Edward
+PERSON	Poor Edward
+PERSON	Edward
+PERSON	Edward
+PERSON	John Dashwood
+PERSON	Elinor
+PERSON	Elinor
+LOCATION	Harley Street
+PERSON	Elinor
+PERSON	Barton
+PERSON	Brandon
+LOCATION	Cleveland
+ORGANIZATION	Fanny
+LOCATION	Norland
+PERSON	John
+PERSON	Elinor
+LOCATION	Delaford
+LOCATION	Delaford
+PERSON	Mrs Jennings
+PERSON	Lucy
+LOCATION	Hanover Square
+LOCATION	Berkeley Street
+LOCATION	Charlotte
+PERSON	Palmer
+PERSON	Brandon
+LOCATION	Cleveland
+PERSON	Marianne
+LOCATION	London
+LOCATION	Willoughby
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Willoughby
+PERSON	Barton
+PERSON	Marianne
+LOCATION	Somerset
+PERSON	Marianne
+ORGANIZATION	Cleveland Cleveland
+LOCATION	Lombardy
+PERSON	Marianne
+PERSON	Barton
+LOCATION	Combe Magna
+LOCATION	Charlotte
+ORGANIZATION	Combe Magna
+LOCATION	Cleveland
+ORGANIZATION	Palmers
+LOCATION	Charlotte
+PERSON	Marianne
+LOCATION	Cleveland
+PERSON	Mrs Palmer
+PERSON	Mrs Jennings
+PERSON	Middleton
+PERSON	Palmer
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Palmer
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Palmer
+PERSON	Mrs Jennings
+LOCATION	Charlotte
+PERSON	Elinor
+PERSON	Edward
+PERSON	Edward
+PERSON	Brandon
+LOCATION	Dorsetshire
+PERSON	Ferrars
+LOCATION	Delaford
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+ORGANIZATION	Palmers
+PERSON	Dashwood
+PERSON	Mrs Palmer
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Harris
+LOCATION	Charlotte
+PERSON	Palmer
+PERSON	Harris
+PERSON	Palmer
+PERSON	Jennings
+PERSON	Elinor
+LOCATION	Cleveland
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Palmer
+PERSON	Brandon
+PERSON	Brandon
+PERSON	Mrs Jennings
+LOCATION	Cleveland
+PERSON	Dashwood
+PERSON	Mrs Jennings
+PERSON	Palmer
+PERSON	Dashwood
+PERSON	Marianne
+LOCATION	Cleveland
+PERSON	Mrs Palmer
+PERSON	Palmer
+PERSON	Harris
+PERSON	Dashwood
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Mr Harris
+PERSON	Elinor
+LOCATION	Cleveland
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Barton
+LOCATION	London
+PERSON	Marianne
+PERSON	London Elinor
+PERSON	Marianne
+PERSON	Harris
+PERSON	Barton
+PERSON	Brandon
+PERSON	Dashwood Elinor
+PERSON	Harris
+PERSON	Brandon
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Harris
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Harris
+PERSON	Elinor He
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Charlotte
+PERSON	Harris
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Harris
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Mrs Jennings
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Mrs Jennings
+LOCATION	Willoughby Illustration
+PERSON	XLIV Elinor
+PERSON	Dashwood
+PERSON	Palmer
+PERSON	Palmer
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Willoughby
+LOCATION	Marlborough
+LOCATION	Marlborough
+PERSON	Elinor
+LOCATION	London
+LOCATION	Marlborough
+PERSON	Elinor
+LOCATION	Cleveland
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+LOCATION	Devonshire
+PERSON	Dashwood
+PERSON	Willoughby
+PERSON	Mrs Smith
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Mrs Smith
+PERSON	Willoughby
+LOCATION	Devonshire
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Mrs Smith
+LOCATION	Allenham
+ORGANIZATION	Devonshire
+PERSON	Elinor
+PERSON	Dashwood
+PERSON	Barton
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+LOCATION	London
+LOCATION	Miss Grey
+PERSON	Marianne
+LOCATION	Berkeley Street
+ORGANIZATION	Middletons
+PERSON	John
+PERSON	Marianne
+PERSON	Dashwood
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Sophia
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Ellisons
+PERSON	Sophia
+LOCATION	Devonshire
+PERSON	Marianne
+PERSON	Marianne Her
+PERSON	Madam
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Mrs Willoughby
+PERSON	Marianne
+ORGANIZATION	Combe Magna
+PERSON	Dashwood
+LOCATION	Drury Lane
+PERSON	John Middleton
+PERSON	Marianne Dashwood
+LOCATION	Cleveland
+PERSON	Mrs Jennings
+PERSON	John His
+PERSON	Elinor
+ORGANIZATION	Vanity
+PERSON	Willoughby
+LOCATION	Combe Magna
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Short
+PERSON	Willoughby
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Brandon
+PERSON	Mrs Willoughby
+PERSON	Brandon
+LOCATION	Barton
+PERSON	Mrs Dashwood
+PERSON	Marianne
+LOCATION	Cleveland
+PERSON	Careys
+PERSON	Margaret
+PERSON	Marianne
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Elinor It
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Marianne He
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne He
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Jennings
+ORGANIZATION	Middletons
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Brandon
+LOCATION	Delaford
+PERSON	Mrs Dashwood
+LOCATION	Barton
+PERSON	Elinor
+LOCATION	Delaford
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Palmer
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Eliza
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Barton
+PERSON	Mrs Jennings
+LOCATION	Cleveland
+PERSON	Brandon
+PERSON	Mrs Jennings
+PERSON	Mrs Dashwood
+PERSON	Mrs Dashwood
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Brandon
+LOCATION	Delaford
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Barton
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Willoughby
+PERSON	Margaret
+PERSON	John
+ORGANIZATION	Barton Cross
+LOCATION	Abbeyland
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+ORGANIZATION	Middletons
+ORGANIZATION	Steeles
+PERSON	John
+ORGANIZATION	Fanny
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Dashwood
+PERSON	Marianne Nothing
+PERSON	Brandon Had Mrs Dashwood
+PERSON	Willoughby
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Barton
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Willoughby
+PERSON	Eliza Williams
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Barton
+PERSON	Elinor
+PERSON	Edward She
+LOCATION	London
+PERSON	Marianne
+PERSON	John
+PERSON	Edward
+LOCATION	Oxford
+PERSON	Edward
+LOCATION	Exeter
+PERSON	Ferrars
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Elinor
+PERSON	Thomas
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Ferrars
+PERSON	Mr Ferrars
+PERSON	Thomas
+PERSON	Ferrars
+LOCATION	Exeter
+PERSON	Steele
+PERSON	Sally
+PERSON	Steele
+PERSON	Marianne
+PERSON	Ferrars
+PERSON	Thomas Yes ma
+PERSON	Ferrars
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Lucy Mrs Ferrars
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Edward
+PERSON	Pratt
+LOCATION	Plymouth Thomas
+PERSON	Elinor
+PERSON	Mrs Ferrars
+PERSON	Mrs Dashwood
+PERSON	Thomas
+PERSON	Marianne
+PERSON	Dashwood
+PERSON	Elinor
+PERSON	Margaret
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Elinor
+PERSON	Marianne She
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	XLVIII Elinor
+PERSON	Edward
+PERSON	Lucy
+PERSON	Lucy
+PERSON	Edward
+PERSON	Barton
+PERSON	Lucy
+LOCATION	Delaford Delaford
+PERSON	Lucy
+PERSON	Brandon
+PERSON	Mrs Jennings
+PERSON	In Edward
+PERSON	Elinor
+LOCATION	London
+PERSON	Brandon ma
+PERSON	Brandon
+PERSON	Brandon
+PERSON	Brandon
+PERSON	Edward She
+PERSON	Pratt
+PERSON	Marianne
+PERSON	Mrs Dashwood
+PERSON	Edward
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Elinor
+PERSON	Mrs Dashwood
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Mrs Ferrars
+LOCATION	Longstaple
+LOCATION	Longstaple
+PERSON	Elinor
+PERSON	Edward
+PERSON	Marianne
+PERSON	Robert
+ORGANIZATION	Ferrars Mrs Robert Ferrars
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Lucy Steele
+PERSON	Elinor
+PERSON	Dawlish Elinor
+PERSON	Edward
+PERSON	Dashwood
+PERSON	Edward
+PERSON	Barton
+PERSON	Elinor
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Pratt
+PERSON	Longstaple
+LOCATION	Oxford
+LOCATION	Longstaple
+PERSON	Lucy
+PERSON	Mrs Dashwood
+PERSON	Edward
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Edward
+PERSON	Edward
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Robert
+PERSON	Edward
+PERSON	Elinor
+PERSON	Robert
+LOCATION	Harley Street
+PERSON	Edward
+PERSON	Robert
+PERSON	Lucy
+LOCATION	Oxford
+LOCATION	London
+PERSON	Lucy
+PERSON	Elinor
+PERSON	Dawlish
+PERSON	LUCY FERRARS
+PERSON	Elinor
+PERSON	Edward
+PERSON	Elinor
+PERSON	Robert
+PERSON	Robert
+PERSON	Lucy
+PERSON	Robert
+PERSON	Edward
+LOCATION	Oxford
+PERSON	Lucy
+PERSON	Barton
+PERSON	Dashwood
+PERSON	Brandon
+PERSON	Lucy
+PERSON	Thomas
+PERSON	Elinor
+PERSON	Edward
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Edward
+PERSON	Lucy
+PERSON	Elinor
+LOCATION	Norland
+PERSON	Lucy
+LOCATION	Sussex
+PERSON	Elinor
+PERSON	Edward
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Edward
+PERSON	Elinor
+PERSON	Delaford
+PERSON	Mrs Dashwood
+PERSON	Edward
+PERSON	Elinor
+PERSON	Edward
+PERSON	Morton
+PERSON	Ferrars
+PERSON	Lucy Steele
+PERSON	Robert
+ORGANIZATION	Fanny About
+PERSON	Edward
+PERSON	Brandon
+PERSON	Mrs Dashwood
+PERSON	Barton
+PERSON	Edward
+PERSON	Brandon
+LOCATION	Delaford
+PERSON	Barton
+PERSON	Marianne
+PERSON	Lucy
+PERSON	Mrs Dashwood
+PERSON	Ferrars
+PERSON	Elinor
+PERSON	Mrs Jennings
+PERSON	Edward
+LOCATION	Oxford
+PERSON	Lucy
+PERSON	Nancy
+PERSON	Mrs Ferrars
+LOCATION	Plymouth
+PERSON	Lucy
+PERSON	Nancy
+LOCATION	Exeter
+PERSON	Mrs Burgess
+PERSON	Lucy
+PERSON	Edward
+PERSON	Barton
+PERSON	Marianne
+PERSON	Dashwood
+PERSON	Mrs Ferrars
+PERSON	Fanny
+PERSON	Robert
+PERSON	Lucy
+PERSON	Mrs Ferrars
+PERSON	Elinor
+PERSON	Lucy
+PERSON	Edward
+PERSON	Mrs Ferrars
+PERSON	Edward
+LOCATION	Oxford
+PERSON	Fanny
+PERSON	Mrs Ferrars
+PERSON	Edward
+PERSON	Robert
+PERSON	Elinor
+PERSON	Fanny
+LOCATION	London
+PERSON	Marianne
+PERSON	John
+PERSON	Fanny
+PERSON	Brandon
+PERSON	Barton
+LOCATION	Delaford
+PERSON	Edward
+PERSON	Edward
+PERSON	Edward
+PERSON	Robert
+PERSON	Edward
+PERSON	Mrs Ferrars
+PERSON	Dashwood
+PERSON	Morton
+PERSON	Morton
+PERSON	Dashwood
+PERSON	Edward
+PERSON	Elinor
+PERSON	Edward
+PERSON	Robert
+PERSON	Edward
+PERSON	Edward
+PERSON	Elinor
+PERSON	Mrs Ferrars
+PERSON	Edward
+PERSON	Brandon
+PERSON	Elinor
+PERSON	Elinor
+LOCATION	Barton
+PERSON	Mrs Jennings
+PERSON	Edward
+PERSON	Michaelmas
+PERSON	Elinor
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Mrs Ferrars
+ORGANIZATION	Sussex
+PERSON	John
+LOCATION	Delaford House
+PERSON	Brandon
+LOCATION	Dorsetshire
+LOCATION	Delaford Hanger
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Mrs Ferrars
+PERSON	Robert
+PERSON	Robert
+PERSON	Mrs Ferrars
+PERSON	Lucy
+PERSON	Robert
+PERSON	Bartlett
+PERSON	Lucy
+PERSON	Edward
+PERSON	Robert
+PERSON	Edward
+LOCATION	Dawlish
+PERSON	Mrs Ferrars
+PERSON	Lucy
+PERSON	Robert
+PERSON	Lucy
+PERSON	Robert
+PERSON	Lucy
+PERSON	Mrs Ferrars
+PERSON	Robert
+PERSON	Edward
+PERSON	Elinor
+ORGANIZATION	Fanny
+PERSON	Lucy
+PERSON	Robert
+PERSON	Lucy
+PERSON	Edward
+PERSON	Robert
+PERSON	Robert
+PERSON	Edward
+PERSON	Elinor
+PERSON	Barton
+PERSON	Mrs Dashwood
+LOCATION	Delaford
+PERSON	Marianne
+PERSON	Brandon
+PERSON	John
+PERSON	Marianne
+PERSON	Edward
+PERSON	Marianne
+PERSON	Marianne Dashwood
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Willoughby Willoughby
+PERSON	Mrs Smith
+PERSON	Marianne
+PERSON	Brandon
+PERSON	Marianne
+PERSON	Marianne
+PERSON	Mrs Brandon Mrs Dashwood
+LOCATION	Delaford
+PERSON	John
+PERSON	Mrs Jennings
+PERSON	Marianne
+PERSON	Margaret
+PERSON	Between Barton
+PERSON	Delaford
+PERSON	Elinor
+PERSON	Marianne
+PERSON	Jane Austen
+PERSON	Fritz Ohrenschall
+PERSON	Sankar Viswanathan
+LOCATION	United States
+LOCATION	United States
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg
+PERSON	Gutenberg
+PERSON	Gutenberg
+PERSON	Gutenberg
+PERSON	Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation the Foundation
+ORGANIZATION	PGLAF
+LOCATION	United States
+LOCATION	United States
+LOCATION	United States
+PERSON	Gutenberg
+PERSON	Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Gutenberg tm License
+LOCATION	United States
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Foundation
+LOCATION	United States
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg tm License
+PERSON	Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg License
+PERSON	Gutenberg
+LOCATION	United States
+ORGANIZATION	Project Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg tm License
+ORGANIZATION	Project Gutenberg tm License
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg tm License
+PERSON	Gutenberg
+ORGANIZATION	Plain Vanilla ASCII
+ORGANIZATION	Project Gutenberg tm License
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation Royalty
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+PERSON	Michael Hart
+ORGANIZATION	Project Gutenberg tm trademark Contact the Foundation
+ORGANIZATION	Project Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Foundation
+PERSON	Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Mission of Project Gutenberg tm Project Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+ORGANIZATION	Foundation
+ORGANIZATION	Project Gutenberg Literary Archive Foundation The Project Gutenberg Literary Archive Foundation
+LOCATION	Mississippi
+ORGANIZATION	Internal Revenue Service The Foundation
+ORGANIZATION	Project Gutenberg Literary Archive Foundation
+ORGANIZATION	Foundation
+LOCATION	Melan Dr S Fairbanks AK
+LOCATION	West Salt Lake City UT
+PERSON	Gregory B Newby
+ORGANIZATION	Project Gutenberg Literary Archive Foundation Project Gutenberg
+ORGANIZATION	IRS The Foundation
+LOCATION	United States
+LOCATION	United States
+ORGANIZATION	General Information About Project Gutenberg
+PERSON	Michael S Hart
+ORGANIZATION	Project Gutenberg
+PERSON	Gutenberg
+ORGANIZATION	Project Gutenberg Literary Archive Foundation

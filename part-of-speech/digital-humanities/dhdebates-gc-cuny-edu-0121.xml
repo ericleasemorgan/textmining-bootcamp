@@ -1,0 +1,19 @@
+<pos><sentence id="494">
+  <word wid="0" pos="NNS" lemma="contents">Contents</word>
+  <word wid="1" pos="IN" lemma="about">About</word>
+  <word wid="2" pos="NN" lemma="news">News</word>
+  <word wid="3" pos="NNS" lemma="cfp">CFPs</word>
+  <word wid="4" pos="NN" lemma="image">image</word>
+  <word wid="5" pos="CD" lemma="2016">2016</word>
+  <word wid="6" pos="NN" lemma="book">book</word>
+  <word wid="7" pos="NN" lemma="cover">cover</word>
+  <word wid="8" pos="CD" lemma="2016">2016</word>
+  <word wid="9" pos="NN" lemma="edition">Edition</word>
+  <word wid="10" pos="NN" lemma="image">image</word>
+  <word wid="11" pos="CD" lemma="2012">2012</word>
+  <word wid="12" pos="NN" lemma="book">book</word>
+  <word wid="13" pos="NN" lemma="cover">cover</word>
+  <word wid="14" pos="CD" lemma="2012">2012</word>
+  <word wid="15" pos="NN" lemma="edition">Edition</word>
+</sentence>
+</pos>

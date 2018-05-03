@@ -1,0 +1,258 @@
+
+
+
+
+
+
+
+
+	[image: ]
+		textmining.biz: 
+
+Text Mining Research in Montpellier (France)
+ 
+
+
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+Contact
+
+		
+
+
+	[image: ]
+
+
+	
+	[image: ]
+
+
+
+
+	
+
+	 
+
+
+UMR TETIS 
+
+AgroParisTech, Cirad, Irstea
+
+500, rue J.F. Breton 
+
+34093 Montpellier Cedex 5, France 
+
+
+
+	
+	[image: ]
+
+	[image: ]
+	[image: ]
+	
+
+	
+
+
+	
+
+	
+
+
+LIRMM
+
+ CNRS, Univ. Montpellier
+
+	860, rue de St Priest 
+
+	34095 Montpellier Cedex 5, France 
+
+	
+
+	
+	
+	[image: ] 
+
+	[image: ]
+	[image: ]
+	
+		
+
+	
+
+
+
+[image: Locations of visitors to this page]
+
+
+
+
+
+
+	
+
+	
+
+
+Presentation
+
+
+
+
+
+
+
+Text-mining refers to the process of deriving high-quality information from text. Typical text mining tasks include text categorization, text clustering, concept/entity extraction, production of granular taxonomies, sentiment analysis, document summarization, and entity relation modeling (i.e., learning relations between named entities).
+
+
+
+textmining.biz enumerates some research scientists in Montpellier (TETIS and LIRMM labs) working in text mining domain. A joint group with both laboratories will be proposed soon (see "ADVanced Analytics for data SciencE (Advanse)", contact:  Pascal Poncelet and Sandra Bringay).
+
+
+
+
+
+
+
+Staff
+
+
+
+
+• Mathieu Roche, Research scientist, TETIS, Cirad
+
+
+
+• Maguelonne Teisseire, Research scientist, TETIS, Irstea
+
+
+
+• Pascal Poncelet, Professor, LIRMM, Univ. Montpellier
+
+
+
+• Sandra Bringay,  Associate Professor,   LIRMM, Univ. Paul Valéry
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	
+News
+
+
+
+
+
+
+
+
+• Text-Mining and Agriculture 
+
+Description of AgroNLP projects (Natural Language Processing applied to AGRicultural dOmain)
+
+
+
+
+
+• BIRTHDAY project: BIg Data for Agriculture and biodiversitY 
+
+A research project in collaboration with Peru
+
+
+
+
+
+• SONGES project has been accepted - 2016-2018 
+
+Project supported by Languedoc Roussillon and European Union (FEDER)
+
+
+
+
+
+
+
+
+• 88milSMS: A corpus of authentic text messages (SMS) in French is available
+
+
+
+
+
+• BioTex: A term extraction software is available
+
+Contact: Juan Antonio Lossio-Ventura 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	
+	
+	
+
+
+Web design by Free Templates Online
+
+http://www.textmining.biz © 2015
+
+
+
+
+
+
+	
+
+
+

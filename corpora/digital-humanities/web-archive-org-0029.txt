@@ -1,0 +1,739 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome Guest. | Log In| Register | Membership Benefits
+
+
+
+
+
+
+[image: ]
+
+
+Intelligent Enterprise
+Better Insight for Business Decisions
+
+
+
+
+[image: Intelligent Enterprise - Better Insight for Business Decisions]
+
+
+
+
+[image: search Intelligent Enterprise]
+
+[image: ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RSS
+
+Webcasts
+
+Digital Library
+
+Subscribe
+
+Home
+
+
+
+
+
+
+
+
+	 BUSINESS INTELLIGENCE 
+	 ENTERPRISE APPLICATIONS 
+	 INFORMATION MANAGEMENT 
+	 PERFORMANCE MANAGEMENT 
+	 PROCESS MANAGEMENT 
+	 BLOGS 
+	EXPERTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+	[image: ]
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+Breakthrough Analysis, by Seth Grimes
+
+Seth Grimes is an analytics strategist with Washington DC based Alta Plana 
+Corporation. He consults on data management and analysis systems. 
+ 
+See More by Seth Grimes
+
+
+
+
+
+
+
+E-MAIL | 
+[image: Follow Us on Twitter]
+FOLLOW US
+
+
+
+[image: Share]
+
+
+
+
+
+
+
+
+Defining Text Analytics 
+
+[image: ]
+Posted by Seth Grimes
+
+Thursday, February 8, 2007
+
+10:37 AM
+
+
+
+I’ve been writing and speaking and consulting on text analytics for years. This work led to a recent call from Philip Russom, an analyst at the Data Warehousing Institute, late of Forrester, Giga, Hurwitz, and Intelligent Enterprise. Philip invited me to contribute an expert comment – my take on “text analytics” in six sentences or fewer – for a forthcoming TDWI report on BI search and text analytics.
+
+I failed. I took eight sentences – we’ll see if Philip cuts them down – and I thought I’d share the lot with you.
+
+
+
+[bookmark: more]
+Text analytics is technology and process both, a mechanism for knowledge discovery applied to documents, a means of finding value in text.
+
+Solutions mine documents and other forms of 'unstructured' data. They analyze linguistic structure and apply statistical and machine-learning techniques to discern entities (names, dates, places, terms) and their attributes as well as relationships, concepts, and even sentiments. They extract these 'features' to databases for further analysis and automate classification and processing of source documents. They exploit visualization for exploratory analysis of discovered information.
+
+Text analytics goes beyond search to turn documents into data. It extends Business Intelligence (BI) and data mining and brings analytical power to content management. Together, these complementary technologies have the potential to turn knowledge management into knowledge analytics.
+
+
+
+Does this capture the matter? I fear my definition is a bit grandiose. That would reflect my enthusiasm for text analytics. The technology, broadly or narrowly defined and still in an early adoption phase, has demonstrated potential to add value to many, diverse applications. Let me know your take. And if you’re a text-analytics researcher or vendor or practitioner, send me your predictions of “what’s next for text” for a white paper I’m writing for the 2007 instance of the Text Analytics Summit that I chair. (Top of my list is Question Answering, which I wrote about in a Breakthrough Analysis column last year.)
+
+Text analytics is about making human communications comprehensible to computers. However the field does develop, I know it will remain intriguing, a rewarding IT discipline to be involved in. 
+
+Technorati Profile
+
+
+[image: ]
+
+
+
+
+
+
+E-MAIL | 
+[image: Follow Us on Twitter]
+FOLLOW US
+
+
+
+[image: Share]
+
+
+
+
+
+
+
+
+[bookmark: comments]
+
+
+
+
+ 
+
+
+
+[image: ]
+
+
+
+This is a public forum. United Business Media and its affiliates are not responsible for and do not control what is posted herein. United Business Media makes no warranties or guarantees concerning any advice dispensed by its staff members or readers.
+[image: ]
+
+Community standards in this comment area do not permit hate language, excessive profanity, or other patently offensive language. Please be aware that all information posted to this comment area becomes the property of United Business Media LLC and may be edited and republished in print or electronic format as outlined in United Business Media's Terms of Service.
+[image: ]
+
+Important Note: This comment area is NOT intended for commercial messages or solicitations of business.
+[image: ]
+
+
+
+
+ 
+
+
+
+
+	[image: ]
+	
+
+
+
+
+Blog Channels
+
+
+
+[image: ]
+Cindi Howson on Business Intelligence
+
+
+
+[image: ] Tony Byrne on Content Management
+
+
+
+[image: ] Rajan Chandras on IT & Information Management
+
+
+
+[image: ]
+Seth Grimes on Analytics
+
+
+
+[image: ] In Context by Doug Henschen
+
+
+
+[image: ] Phil Kemelor on Web Analytics
+
+
+
+[image: ] Sandy Kemsley's Column Two
+
+
+
+[image: ] Nelson King
+ on Enterprise App Development 
+
+
+
+[image: ] David Linthicum
+ on Changing the Enterprise 
+
+
+
+[image: ] SharePoint TrendWatch
+ by Shawn Shell
+
+
+
+[image: ] Data Frontiers, by Curt Monash
+
+
+
+[image: ] Enterprise Architecture TrendWatch
+ by Kas Thomas
+
+
+
+[image: ] Alan Pelz-Sharpe on Content Management
+
+
+
+[image: ] Neil Raden on Business Intelligence 
+
+
+
+[image: ] Bruce Silver on Business Process Management
+
+
+
+[image: ]	
+STRATEGIC KNOWLEDGE, BY DAVE STODDER
+
+
+
+
+    [image: ] Subscribe to RSS feed of all blogs 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Archives
+
+	
+
+
+November 2009
+
+October 2009
+
+September 2009
+
+August 2009
+
+July 2009
+
+June 2009
+
+May 2009
+
+April 2009
+
+March 2009
+
+February 2009
+
+January 2009
+
+December 2008
+
+November 2008
+
+October 2008
+
+September 2008
+
+August 2008
+
+July 2008
+
+June 2008
+
+May 2008
+
+April 2008
+
+March 2008
+
+February 2008
+
+January 2008
+
+December 2007
+
+November 2007
+
+October 2007
+
+September 2007
+	
+	
+August 2007
+
+July 2007
+	
+June 2007
+ 
+May 2007
+
+April 2007
+
+March 2007
+
+February 2007
+
+January 2007
+
+December 2006
+
+November 2006
+
+October 2006
+
+August 2006
+
+July 2006
+
+June 2006
+
+May 2006
+
+April 2006
+
+March 2006
+
+February 2006
+
+January 2006
+
+December 2005
+
+November 2005
+
+October 2005
+
+September 2005
+
+August 2005
+
+July 2005
+
+June 2005
+
+April 2005
+
+March 2005
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+	[image: ]
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+[image: TechWeb]
+[image: The Global Leader In Technology Media]
+
+
+
+
+
+
+	
+
+InformationWeek Business Technology Network
+
+
+Advanced Trading
+
+Bank Systems & Technology
+
+Bank Systems & Technology Executive Summit
+
+bMighty.com
+
+Contentinople
+
+Dark Reading
+
+Dr. Dobbs
+
+InformationWeek
+
+InformationWeek 500
+
+InformationWeek 500 Conference
+
+InformationWeek Analytics
+
+InformationWeek Events
+
+InformationWeek Financial Services
+
+
+
+
+InformationWeek Global CIO
+
+InformationWeek Government
+
+InformationWeek Healthcare
+
+InformationWeek India
+
+InformationWeek Magazine
+
+Insurance & Technology
+
+Insurance & Technology Executive Summit
+
+Intelligent Enterprise
+
+Internet Evolution
+
+Network Computing
+
+No Jitter
+
+Plug into the Cloud
+
+Wall Street & Technology
+
+
+
+
+
+	
+[image: ]
+
+	
+
+Light Reading
+Communications Network
+
+Heavy Reading
+
+Light Reading
+
+Light Reading Asia
+
+Light Reading Insider
+
+Light Reading Live!
+
+Light Reading's Digital Cable News
+
+Light Reading's Ethernet Expo
+
+Pyramid Research
+
+TelcoTV
+
+Tower Technology Summit
+
+Unstrung
+
+
+
+	
+[image: ]
+
+	
+
+TechWeb
+Events Network
+
+Black Hat
+
+Cloud Connect
+
+Enterprise 2.0
+
+Gov 2.0 Expo
+
+Gov 2.0 Summit
+
+GTEC
+
+Interop
+
+VoiceCon
+
+Web 2.0 Expo
+
+Web 2.0 Summit
+
+
+
+	
+[image: ]
+
+	
+
+Most Popular
+
+ANTenna
+
+Bob Evan's Global CIO
+
+Cable Catchup
+
+David Berlind's Tech Radar
+
+Digital Life
+
+Enterprise 2.0 Blog
+
+Evil Bytes
+
+InformationWeek Analytics
+
+Interop Blog
+
+Jon Erickson's Blog
+
+Microsoft/Windows Blog
+
+Monkey Bidness
+
+Over the Air
+
+The Philter
+
+Valley Wonk
+
+Web 2.0 Blog
+
+Wolfe's Den
+
+
+
+
+
+
+
+
+
+	About TechWeb
+	Advertising Contacts
+	Become a Member / Membership Benefits
+	Contact Us
+
+
+	Feedback
+	Reprints
+	Technology Marketing Solutions
+	TechWeb Digital Library / White Papers
+	TechWeb.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	News
+	Business Intelligence
+	Enterprise Applications
+	Information Management
+	Performance Management
+	Process Management
+	White 
+Papers
+
+
+	About Us
+	Advertising Contacts
+	Technology Marketing Solutions
+	Blogosphere
+	Intelligent Enterprise Print Archive
+	Newsletters
+	Contact Us
+	Events
+	Awards
+	PR Info
+	Authors
+	TechWebCasts
+	Database Magazine Print Archive
+	Site Map
+
+
+
+
+	Privacy
+	Terms of Service
+	Copyright © 2009 United Business Media LLC 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+

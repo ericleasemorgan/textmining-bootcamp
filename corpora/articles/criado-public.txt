@@ -1,0 +1,932 @@
+
+
+
+
+
+
+
+	[image: Page Header]
+
+
+
+
+
+
+
+
+
+	
+							
+				
+	Open Journal Systems
+
+
+	Journal Help
+
+
+			User
+	
+												
+						Username	
+	Password	
+	 Remember me
+	
+
+
+				
+
+						
+
+
+	Journal Content
+
+	
+			
+													Search 
+
+					
+								
+	
+				Search Scope
+				
+
+				All
+Authors
+Title
+Abstract
+Index terms
+Full Text
+
+
+				
+	
+
+
+	
+
+
+	
+
+
+		Browse
+		By Issue
+	By Author
+	By Title
+	Other Journals
+
+
+	
+
+
+
+
+
+
+	Font Size
+	
+
+
+
+
+
+	Current Issue
+	
+	[image: Atom logo]
+	
+
+	
+	[image: RSS2 logo]
+	
+
+	
+	[image: RSS1 logo]
+
+
+
+
+
+	Article Tools
+			
+			[image: ] Abstract
+
+		
+
+				
+			[image: ] Print this article
+		
+
+				
+			[image: ] Indexing metadata
+
+		
+
+				
+			[image: ] How to cite item
+
+		
+
+							
+			[image: ]
+			Email this article (Login required)		
+
+				
+			[image: ]
+			Email the author (Login required)		
+
+		
+
+
+
+	
+					About The Authors
+			
+		
+	
+		J. Ignacio Criado
+		[image: orcid]		
+https://www.uam.es/Derecho/CriadoGrande,J.-Ignacio/1242659215015.htm?language=es&pid=1242658749433&title=Criado%20Grande,%20J.%20Ignacio
+				
+Universidad Autónoma de Madrid		
+Spain	
+
+
+	
+Associate professor in the Department of Political Science and International Relations, Universidad Autónoma de Madrid (Spain), and Research Fellow at Center for Technology in Government, State University of New York (SUNY at Albany)
+
+	
+
+	
+
+		
+	
+		Julián Villodre
+											
+
+
+	
+Ph.D. student and researcher in the Department of Political Science and International Relations, Universidad Autónoma de Madrid (Spain).
+
+	
+
+	
+	
+
+			
+
+			
+
+
+
+
+
+		Home
+	About
+	Login
+	Register
+	Search
+	Current
+	Archives
+	Announcements
+	SUBMISSIONS
+
+
+
+
+
+	Home >
+	Volume 23, Number 4 - 2 April 2018 >	Criado
+
+
+
+
+
+
+			
+
+
+
+
+
+[image: First Monday]
+
+
+
+
+
+
+[image: Public employees in social media communities: Exploring factors for internal collaboration using social network analysis by J. Ignacio Criado and Julian Villodre]
+
+
+
+
+
+
+[image: Abstract]
+This paper analyzes the interactions that public employees perform in social media communities, providing empirical evidence on the dynamics of internal collaboration. In general terms, this study responds to a rising interest in the study of social media communities as tools for co-production and innovation. In doing so, this paper asks the following research questions: How do interactions among public employees occur within a social media community? What factors determine the number of interactions in a public-sector specific social media community? For this purpose, our study analyzes NovaGob, the most active digital social media community of public sector innovation in Spain and Latin America. By using social network analysis (SNA), we provide evidence on the importance of formal and informal power in stimulating participation. Moreover, we show how interest and will to collaborate influences the number of interactions. Finally, this study uses a gender variable to discuss the possible existence of a second digital gender gap, which affects how public sector employees use these communities. This paper advances some conclusions about the behavior of public employees collaborating in social media communities, suggesting the need for future attention to inter-agency phenomenon.
+
+
+Contents
+
+Introduction
+
+Theoretical framework and hypotheses formulation
+
+Methods
+
+Data and results
+
+Findings and discussion
+
+Conclusions
+
+
+ 
+
+ 
+
+[bookmark: p1]Introduction
+
+
+During the past few years, there have been notable advances in the adoption of social media in the public sector. The rapid diffusion of these innovations, coupled with their highly disruptive potential (Criado, et al., 2017; Bannister and Connolly, 2014; Chun, et al., 2010), have generated great expectations, based on their capacity to help improving areas of transparency, collaboration and participation (Mergel, 2015; Bertot, et al., 2010). This paper explores one of these areas, internal collaboration among public employees, focusing on analyzing their interactions through social media communities, and studying factors that influence those interactions. This may help not only to understand how collaboration is generated, but also identify barriers to the use of digital social technologies in order to deliver innovation and collaboration in government.
+
+
+Internal collaboration has been boosted by transformations linked to social media generalization. The Web 2.0 philosophy, the expansion of open data, as well as a generalization of principles and values of transparency, participation and collaboration, would be converging to inspire a different way of understanding public management (Criado, 2016). This phenomenon, initially labelled as peer-to-peer government or wiki-oriented government (Kostakis, 2010) has begun to be framed under the name of smart governance (Gil-García, et al., 2016; Noveck, 2015), a new paradigm that would bring together ideas expressed on public participation (Charalabidis and Loukis, 2012), open government and creation of public value (Harrison, et al., 2012) and collaboration (Mergel, 2015). This new paradigm proposes the use of the “wisdom of the crowds” for the solution of public problems. It has, as defining elements, the use of new channels of communication based on social media communities, a focus on external collaboration and participation (Batagan, 2011), new forms of coordination in order to achieve public goals, a new smart decision-making policy process with peer participation and a renewed version of e-administration, capable of interacting “with the public online in the delivery of services and in fulfilling their predesignated mandates” [bookmark: 1a][1].
+
+
+Nevertheless, studies on internal collaboration using social media are still scarce. In a recent literature review, Medaglia and Zheng (2017) detected the need to increase and refine studies on user behaviour and collaboration. This gap is even more brutal in papers that study collaboration among public employees (Criado, et al., 2017). Few studies are highlighting how public empoyees are gradually starting informal and inter-agency collaborations through social media. We offer as one of the most outstanding examples the study of Mergel (2015), about public servant communities in GitHub, a social media community where individuals and organizations share code and make the process of developing public software a collaborative activity. Likewise, we should highlight the case of GovLoop (Sadeghi, et al., 2012), a social media community for English-speaking public employees, that favours discussion and networking opportunities between officials, journalists, contractors, consultants and scholars.
+
+
+This work aims at becoming — in an exploratory way — a first attempt to approach the process of collaboration and interaction in social media communities by public employees. Using social network analysis (SNA), this paper focus on NovaGob, a social media community recently mentioned as an international case study. With more than 12.000 registered public employees, it has become the most active digital community of public sector innovation in Spain and Latin American (GovLab, 2016). Using NovaGob as the main source for data, our study proposes as research questions the following:
+
+
+	RQ.1: How interactions between public employees occur within a social media community?
+RQ.2: What factors determine the number of interactions in a public-sector specific social media community?
+
+
+
+This paper is structured as follows. First, we focus on reviewing literature about internal collaboration and open collaboration, showing linkage to the smart governance paradigm. After that, the SNA methodology is presented, suitable for its capacity to address relational issues (Hennig, et al., 2013). After the operationalization of the variables, our study continues making a descriptive analysis of NovaGob, and delves into the exploratory analysis through two great debates that emerged in the early moments of the social network. Finally, the main findings are presented, offering conclusions about analysed data, and other ideas derived from a discussion of results.
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p2]Literature review and hypotheses formulation
+
+
+The concept of social media communities has been revolving around the terms of participation and collaboration. When we talk about collaboration in the public sector, we refer to the processes and mechanisms of involvement in the design, production, provision and evaluation of public services. As Liu and Zheng [bookmark: 2a][2] have pointed out, government agencies employ collaboration “to share public authorities, information and resources, to enhance capabilities, or to solve large-scale problems by making and implementing public policies together”. In that sense, collaboration will be different depending on where it occurs, under which culture and management conditions, or whether it is formally or voluntarily implemented (Liu and Zheng, 2015).
+
+
+Collaboration in the public sector has been strongly enhanced by social media. The capabilities of those technologies have increased the possibilities of collaboration, offering two-way interactive platforms that offer cross-boundary action, and networking possibilities for citizen co-production (Mergel, 2013), but also for interaction and co-production between public employees (Criado, et al., 2017; Mergel, 2015). In that sense, social media communities have made collaboration become “open” by enabling anyone to participate in the collaborative process regardless time and space, and to benefit from sharing profits (Forte and Lampe, 2013).
+
+
+Internal collaboration in the public sector
+
+
+Internal collaboration has been a desired goal to fight against the complexity of organizations and societies. Initially, terminology was channelled through inter-agency collaboration, as an optimistic way of displacing individualistic forms in the organization, unable to efficiently solve certain public problems (Hudson, et al., 1999). Collaboration is the driving motive for intergovernmental networks and it is a critical motivator in collaborative public management (Kapucu and Demiroz, 2011). As Chun, et al. (2011) noted, this kind of collaboration needs strong alignments between objectives, strategies, tasks, processes and knowledge resources.
+
+
+The emergence of social media communities has greatly facilitated collaboration. It is no longer the organizations, but public employees themselves who individually have the possibility to collaborate (Mergel, 2015). The case of GovLoop (Sadeghi, et al., 2012), proves the need raised by public employees to interact with each other not only to socialize, but to share good practices and ideas for the improvement of organizations and public services. This type of collaboration platforms, conceived as specialized social media (Yi, et al., 2013; Oliveira and Welch, 2013; Zheng and Zheng, 2014; Cumbie and Kar, 2015) are usually focused on public employees’ work. In many cases they include a certain openness to other sectors involved with the public sector, bringing those social media communities closer to open collaboration (Sadeghi, et al., 2012).
+
+
+Open collaboration in the public sector
+
+
+As a concept, open collaboration has recently been introduced in public management theories. Open collaboration refers to a system of production and innovation (Levine and Prietula, 2013). Open collaboration is a dynamic process by which public sector employees contribute adding value to a product or service (Mergel, 2015). This value creation occurs through open online environments characterized, as noted by Forte and Lampe (2013), by supporting the collective creation of a product or service presenting low barriers to entry and exit, and under the support characterized by high persistence and malleable structures. Unlike other production processes and collective innovation, such as crowdsourcing, where the public organization has a predominant role in setting tasks and objectives towards a non-expert volunteer community, usually participants who help in the process of problem-solving (Brabham, 2013; Mergel and Desouza, 2013), open collaboration occurs in a persistent interaction between public employees and citizens that together define both objectives and structures (Forte and Lampe, 2013). In open collaboration, opportunities to forge consensus and social innovation are the main pieces of this new collaborative experience (Forte and Lampe, 2013). Finally, as Mergel [bookmark: 3a][3] points outs, “open collaboration is usually not incentivized with monetary prize payments”.
+
+
+Diving into a new paradigm: Smart governance
+
+
+Taking into consideration innovation constraints faced by public employees, some initiatives have emerged, enabling collaboration processes. Efforts to overcome traditional barriers of time and space have been supported by some public employees (Mergel and Desouza, 2013), and have pinpointed the differences between private and public settings, and the problems of implementation of public policies derived from a lack of attention to these differences (Mergel and Desouza, 2013). A new paradigm named smart governance has encouraged many researchers to explore how networks, partnerships and other forms of interaction between different actors and organizations can serve to revitalize and incorporate new ideas in problem-solving (Gil-García, et al., 2016; Noveck, 2015; Sørensen and Torfing, 2012).
+
+
+As a paradigm, smart governance is based on the concept of collaboration as a mechanism for solving public problems. Under this framework, our governments and public administrations become platforms (Lathrop and Ruma, 2010), which operate through a more open state and a more flexible public sector (Criado, 2016). This process implies the promotion of innovation and collaboration processes, which increase the capacity of the public sector to solve problems by capturing external knowledge of its own employees and, ultimately, of citizens (Mergel, 2015; Clark, et al., 2013). In short, it implies a new way of understanding public management in a more pluralistic way and under new principles and values based on Web 2.0 philosophy and collaborative ethics.
+
+
+Smart governance pinpoints (a) the use of digital platforms, both for citizen participation, as well as internal and external collaboration within an organization; (b) a new managerial style, focused on innovative experts specialized in detecting and creating pubic value by using external collaborative knowledge; (c) defining citizens as co-producers; (d) an environment pervaded by the so-called “collaborative economy”; and finally, (e) a model of social interaction based upon a notion of “community” (Criado, 2016; Luna-Reyes and Gil-García, 2014; Chun, et al., 2010). However, this paradigm asks multiple questions, especially around collaboration. How will public employees collaborate, when we know that in many public administrations there are inflexible and highly routinized structures, insufficiently committed to innovation?
+
+
+The study of factors influencing interactions into a digital innovation community
+
+
+Scholars have tended to give different responses, depending on the entity analyzed, to the question of how interactions between public employees occur within social media communities. They have generally highlighted various interaction pathways, including connections among contacts of a contact list, within thematic groups, or in spaces such as blogs, wikis, forums or debates. In her study about the Github community, Mergel (2015) analyzed interactions between actors when developing public code through repositories, a group focused on sharing software. In the case of GovLoop, Sadeghi, et al. (2012) highlighted the work of public employees through groups and discussion forums, as main entities where interactions are conducted. Thus, one might expect that interactions occur in two distinct ways. On the one hand, by the “direct contact friend-list” of public employees in a network and, on the other, by using thematic groups.
+
+
+Leadership has proven to be a key element in maintaining network collaboration. Agranoff and McGuire [bookmark: 4a][4] emphasized that the leader “as craftsman elicits common goals, creates an atmosphere of trust, organizational brokers and individual contributions, and deploys energies in accord with some strategic plan”. In this sense, the leader becomes a central icon to maintain a cohesive network, being a powerful actor that coordinates processes, and encourages participation in these networks (Agranoff and McGuire, 2001). Leadership has also proved to be especially important in social media communities and open source projects (Hamel and Schweik, 2009) to maintain direction and coordinate participation, generate content and direct useful recruitments (Lev-On, 2017). This perspective has been partially maintained recently, and has been used by other studies, such as Liu and Zheng (2015), to evaluate collaboration between departments in public agencies. Thus, we argue that (H1) the number of interactions in a public-sector specific social media community depends on the power of a public employee.
+
+
+Another factor is the interest of professionals to make collaboration possible. Levine and Prietula (2013) described interest in collaboration as overcoming cost-benefit calculations. They developed a typology, placing actors as cooperators (altruistic highly motivated users), reciprocators (users involved to some extend but only insomuch that others are collaborating), and free riders (little interested, with significantly low contribution rate, and taking advantage of other efforts). We argue that (H2) the number of interactions in a public-sector specific social media community depends on the interest of public employees to collaborate.
+
+
+Finally, we address gender as a traditional factor of digital divide and predictor of differences in social media communities. Public administrators have made strong efforts to create inclusive work spaces (Andrews and Ashworth, 2014). Gender has deserved interest within e-government studies, relative to the conceptual impact of digital divide (Gil-García, et al., 2016; Arvidsson and Foka, 2015). Some have pointed out the growing access of women to digital services recently, outpacing access barriers. However, women have faced a second digital divide (Criado and Barrero, 2014), which would add new barriers not only to access but also type of use and intensity when interacting with social media. Consequently, we expect for public employees that (H3) the number of interactions in a public-sector specific social media community is gender based.
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p3]Methods
+
+
+This paper uses SNA to analyze the interactions between public employees in social media communities. As a research technique, SNA involves representations of networks and interactions to study social phenomena from a relational perspective (Hennig, et al., 2013). SNA has been widely used in social sciences, especially in sociological analysis, marketing and communications, as well as the study of actors and collective action (Hennig, et al., 2013). The public sector offers other examples, some focused on collaboration (Provan and Kenis, 2008; Rethemeyer and Hatmaker, 2008; Kapucu and Demiroz, 2011).
+
+
+SNA is based on graph theory concepts. In short, by using graphs we create a graphical representation and visualization of a network of actors and their interactions. To refer to these actors, this paper uses the term “node”. When we speak about edges, we are referring to the links between nodes. In the same way, our paper also uses the term “centrality”. Centrality, as Hennig, et al. (2013) have pointed out, refers to one of the first tasks when analyzing a network: to identify the relative importance of each actor. Centrality is a topological concept used to describe the relative positions of actors (Schneider and Bauer, 2016), and in social networks there are many ways of expressing that. This paper refers to “degree”, which expresses the activity of actors (Schneider and Bauer, 2016; Hennig, et al., 2013), through the connections (adjacencies) that these nodes receive. Degree, either by their external adjacencies (out-degree) or towards themselves (in-degree), is a centrality index and, in that sense, an indicator of the importance of actors (Hennig, et al., 2013). Since our article only analyzes input and output interactions, degree centrality is the preferred choice, not taking into account other types of centrality, such as betweeness (focused on intermediation).
+
+
+This paper presents NovaGob as a case study of a social media community specialized in the collaborations of public employees. At this point and following the case of GovLoop in the U.S. and Canada, NovaGob is the most successful social media community within Spanish-speaking countries in terms of a combination of relevance, activity, number of users and diffusion (GovLab, 2016). NovaGob is a social media community that allows public employees to interact through debates, blogs and wikis. The core interaction unit of this collaboration is carried out on thematic groups. In these thematic groups, activity is mainly conducted by “debates”, as entities that all community members are allowed to open or join. For the purpose of our study this analysis focuses on some of the most representative debates that appeared in the first stages of NovaGob.
+
+
+Fieldwork began in the NovaGob community, by extracting data through the use of SNA4Elgg. This Web plugin was run on a development subdomain of NovaGob community, based on a sample of 2,335 members and 90 groups (October 2014). Two databases, a unimodal (with the relationship, in terms of contacts, between members of the network), and a two-mode database (representing links between community members and thematic groups) were used. Both databases were also used to filter, inheriting certain attributes such as degree centrality, generating two other arrays of data for each of the analyzed debates. Graph analysis and visualization were performed using Gephi.
+
+
+This analytical approach may raise some ethical concerns. The “silent” nature of software for the analysis of digital communities avoids some potential ethical implications, such as the intrusiveness of surveys and interviews, that were traditionally used for SNA data collection (Hennig, et al., 2013). Others, such as stored data privacy, anonymity of the nodes or analysis of inclusion, remain as issues. Our data extraction and analysis have tried to follow ethical standards specified in the NovaGob Decalogue, ensuring the privacy of public employees by identifying them with a unique identifier (id), and avoiding the publication of account names or other personal and sensitive information.
+
+
+Operationalization of variables
+
+
+This paper uses the number of the interactions as a dependent variable. The analysis of interactions pins up the category “debates” and possible actions surrounding them. In NovaGob, a community member is allowed to open a debate and make it visible to the rest of the community. Likewise, any member can answer in a debate with two possibilities: (1) directly to the posted question; or (2) in response to other members. Thus, this article operationalises the dependant variable by taking into account three possible actions: (a) creation, (b) direct response and (c) response to members, identifying them through out-degree and in-degree perspectives.
+
+
+The first independent variable refers to the power and influence of individuals within the social media community. To facilitate an understanding of this variable, it is used as a basic centrality measure, degree centrality, which numerically represents the number of contacts that a particular member has in the contact list. This variable can be summarized with the notion that the more contacts you have, the more influential you have.
+
+
+The second independent variable is the interest that public employees have in collaborating within the social media community. The operationalization of this variable derives from typology offered by Levine and Prietula (2013) about three categories of members within an online community, based on the intensity of their participation. We can identify: the cooperator (has joined more than five thematic groups); the reciprocator (has joined a range from two to five groups); and the free rider (has only joined the group under study). These groups were identified taking into account the average of users linked to groups.
+
+
+Finally, the last independent variable entails “gender” of public employees, operationalized in a simple way using the nodal gender attribute (male or female). This independent variable is relevant as public sector organizations tend to assume equality in gender distribution of employees, as noted by data sources of international organizations (Organisation for Economic Co-operation and Development (OECD), 2016). However, it is not clear that numbers at work can also be reflected in terms of participation within social media communities. Hence, it was expected that female members have less activity within the social media community under consideration.
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p4]Data and results
+
+
+NovaGob is a social media community that allows public employees to collaborate and exchange knowledge. NovaGob facilitates public employees overcoming some of the traditional organizational boundaries and barriers of time and space (GovLab, 2016), creating a virtual, but real, space where public employees create content and creatively share in thematic groups, debates, blogs and wikis (GovLab, 2016). Starting with interactions created by contact lists, Figure 1 represents NovaGob as a contact network.
+
+
+ 
+
+[bookmark: fig1]
+	[image: Visualization of NovaGob community as a contact network]
+	 
+	Figure 1: Visualization of NovaGob community as a contact network.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+As a direct contact network (Figure 1 and Table 1), NovaGob fosters public employees’ connections with the option “add contact” and direct messaging tools available from their personal profiles (in the manner that LinkedIn and other general/horizontal social media networks facilitate this process). Each user can send a friend request to others, forming his or her own network, enabling communication channels and establishing a basis for digital collaboration. Figure 1 shows these contacts, with 2,335 nodes and 14,356 edges. The average contact list stands at around 12 contacts.
+
+
+ 
+
+[bookmark: tab1]
+	Table 1: NovaGob statistics as a contact network.
+	Total nodes (community members)	2,335
+	Total edges (interactions)	14,356
+	Average network degree (centrality)	12,296
+	Disconnected nodes	580
+	Number of contacts from the most popular node	1,616
+
+
+ 
+
+
+However, other users appear to be much more disconnected (nodes in the periphery). These professionals (a total of 580), appear to have no connections with others. The identification of these unconnected nodes, excluded from the network, as well as compliance and explanation of exclusion factors, are also vital to understand how interactions work in digital innovation communities, as networks are not only comprised by connected nodes but with disconnected vertex (Castells, 2013). However, this identification exceeds our current analysis.
+
+
+But NovaGob is not merely a network. It is a social media community. As a community, its members develop collaborative actions across different entities, including debates, blogs and wikis, developing multiple interactions through collective intelligence. Figure 2 and Table 2 show a visualization of membership through groups, and provide a general statistical overview of thematic groups.
+
+
+ 
+
+[bookmark: fig2]
+	[image: Graph showing membership of NovaGob community members to groups]
+	 
+	Figure 2: Graph showing membership of NovaGob community members to groups. Pink nodes correspond to members, while green nodes represent groups.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+Data analysis (in the moment of fieldwork), shows that a total number of 90 thematic groups with a membership of 945 community members comprises a rich network of public employees working collaboratively. The graph shows the most relevant groups by size (centrality), highlighting in blue the two groups that we will address later.
+
+
+ 
+
+[bookmark: tab2]
+	Table 2: Overall statistics from NovaGob thematic groups.
+	Total nodes (members and groups)	2,425
+	Number of member nodes	2,335
+	Number of group nodes	90
+	Edges (interactions through group membership)	3,775
+	Disconnected members (without membership to groups)	1,390
+	Connected members (with membership to groups)	945
+	Average network degree	7,251
+
+
+ 
+
+
+On the other hand, Table 3 gives an idea of the central groups on which community members are actively working within NovaGob. Indirectly, it advances information about the most important “hot topics” within the public sector. Here, open government, social networks in the public sector, smart cities or transparency, are among the most popular issues within the social network. Our research focuses on two debates belonging to two of this top groups (“social networks in the public sector” and “interest in transparency”).
+
+
+ 
+
+[bookmark: tab3]
+	Table 3: Top ten groups in NovaGob community (by degree centrality in memberships in the moment of analysis).
+	Group name	Degree centrality (memberships)
+	Open Government	176
+	Digital Social Networks in the Public Sector	176
+	Information and Documentation	172
+	Humour and Public Administration	166
+	Public Innovation: Theory and Practice	139
+	Group of the Latin-American Center for Developing Administration (Centro Latinoamericano de Administración para el Desarrollo, CLAD)	118
+	Smart Cities and Smart Public Administration	112
+	Training Civil Servants	111
+	Communication towards 2.0 Citizens 	110
+	Interest in Transparency	105
+
+
+ 
+
+
+Two debates for the practice of collaboration
+
+
+The first of the debates is about “profile of the community managers in the public sector”. This debate was created as a topic in the group “Digital Social Networks in the Public Sector”, and gained great interest among members of the group. The debate highlighted the importance that the role of community manager was gaining in public sector organizations, and how this role was fundamental to foster participation and collaboration within public administration networks. The debate received several responses (36), and had a total of 18 participants, becoming a hot topic within the community. Table 4 shows how the variables were operationalized. Our graph is based on these data.
+
+
+ 
+
+[bookmark: tab4]
+	Table 4: Operationalising variables for debate: “What profile should the community manager have in managing institutional digital social networks?”
+	ID	Degree (number of contacts)	(in-degree)	(out-degree)	Date creation	Group membership (interest)	Gender
+	44122	3	1	2	23/12/13	This group	Male
+	31989	16	5	3	2/12/13	This group	Male
+	29405	26	0	1	23/11/13	More than 5	Male
+	23326	33	0	1	6/11/13	This group	Female
+	21996	32	1	4	1/11/13	4 groups	Male
+	13322	21	1	1	9/10/13	This group	Male
+	13024	26	0	1	8/10/13	4 groups	Male
+	11677	39	0	1	4/10/13	3 groups	Female
+	8934	1469	2	1	18/9/13	4 groups	Female
+	6950	43	1	1	4/9/13	More than 5	Male
+	4605	13	0	1	27/8/13	2 groups	Male
+	4498	102	3	3	26/8/13	More than 5	Male
+	3501	41	1	1	20/8/13	2 groups	Male
+	2826	90	1	1	15/8/13	3 groups	Female
+	2164	132	3	7	6/8/13	3 groups	Female
+	1933	53	0	1	30/7/13	More than 5	Male
+	49	1616	1	3	19/5/13	More than 5	Male
+	43	358	0	4	17/5/13	More than 5	Male
+
+
+ 
+
+
+On the other hand, the second debate that we will discuss is the debate on “the definition of open government”. This debate was created inside the group about “Transparency”, and aimed at creating an operative and collaborative definition of open government, by incorporating different elements related to accountability, transparency, collaboration etc. The debate became very popular, with 37 responses, and 11 participants. Table 5 shows the operationalization of the variables for the SNA. These data were used to create the following graph.
+
+
+ 
+
+[bookmark: tab5]
+	Table 5: Operationalising variables for debate: “How do we define open government”
+	ID	Degree (number of contacts)	(in-degree)	(out-degree)	Date creation	Group membership (interest)	Gender
+	62337	7	1	2	10/2/14	This group	Male
+	13906	39	0	1	9/10/13	3 groups	Male
+	12797	15	2	4	8/10/13	2 groups	Male
+	8338	55	1	1	13/9/13	More than 5	Male
+	7457	52	1	3	6/9/13	3 groups	Male
+	4461	92	2	2	26/8/13	2 groups	Male
+	1829	84	4	4	27/7/13	More than 5	Female
+	1523	52	2	1	9/7/13	3 groups	Male
+	1020	127	1	1	11/6/13	More than 5	Male
+	881	452	7	11	5/6/13	More than 5	Male
+	192	108	1	1	23/5/13	More than 5	Male
+
+
+ 
+
+
+Results: What factors influence the interaction in a public-sector specific social media community?
+
+
+Our first hypothesis (H1) predicted that the number of interactions in a public-sector specific social media community depends on the power of each public employee within the social network. So this implies that the most powerful public employees in the network also had the highest number of interactions, leading the creation of debates, constantly interacting and ultimately coordinating exchanges within debates. As we can see in our next three figures, leadership of debates (as determined by number of interactions) has tended to correspond to the most powerful actors in the network (centrality degree, number of contacts). This leadership has tended to give a prominent role to the creators of debates, occasionally expanding to other actors, acting as co-leaders. In some cases, other actors have emerged with intensive interactions, despite lower overall power within the social network.
+
+
+This is the case of the debate on the role of the community manager (Figure 3). Here, despite the fact that id 43 (creator) demonstrated a great power within the network, accumulating, with id 2164, a high number of interactions, two other actors with reduced power (id 31989 and id 4498) came on the scene, stimulating even higher intensity, and greater bidirectional response to other users. Interestingly, the two most powerful public employees in the network (id 49 and id 8943) had a low number of interactions in comparison to other professionals. Finally, as expected, less powerful actors showed low number of interactions.
+
+
+ 
+
+[bookmark: fig3]
+	[image: Number of interactions depending on the power of public employees for the debate of the role of the community manager]
+	 
+	Figure 3: Number of interactions depending on the power of public employees for the debate of the role of the community manager. Larger nodes show a greater degree centrality (by number of contacts in the network). Coloured in purple, darker nodes correspond to powerful users.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+The debate about the definition of open government was very conclusive (Figure 4). The most powerful actor (id 881) initiated the debate, and monopolized a high number of interactions with constant bidirectional interactions with other public employees on the network. Another actor with an important interaction density was id 1829, who showed important levels of participation, with some bi-directionality, having less power than id 881. With some exceptions (id 1020), less powerful actors within the network presented lower number of interactions.
+
+
+ 
+
+[bookmark: fig4]
+	[image: Number of interactions depending on the power of public employees for the debate on the definition of open government]
+	 
+	Figure 4: Number of interactions depending on the power of public employees for the debate on the definition of open government. Larger nodes show a greater degree centrality (by number of contacts in the network). Coloured in purple, darker nodes correspond to powerful users.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+Our second hypotheses (H2) focuses on the question about the interest and will to collaborate of public employees within a public-sector specific social media community. Here, this study distinguished between co-operators (altruistic users with more interest in collaborating), reciprocators (cooperating if others do so) and free riders (non-altruistic, only interested in the final fruits of participation). With few exceptions, the results of our analysis confirm the existence of this typology of members within a collaborative network, illustrating the importance of will when establishing collaborative relations.
+
+
+The first debate about the role of the community manager reflects how the actors with higher number of interactions are often the most co-operators (id 43; id 49; and id 4498) (Figure 5). Reciprocators and free riders normally appear with lower densities at the bottom of the graph. The debate showed an intriguing exception (id 31989), classified as a free rider, while earning a large number of mentions (not cooperating, but requests for collaboration).
+
+
+ 
+
+[bookmark: fig5]
+	[image: Number of interactions depending on the power of public employees for the debate on the definition of open government]
+	 
+	Figure 5: Number of interactions depending on interest of public employees to collaborate (debate on the profile of community managers). In green, members marked as cooperators; in yellow, members marked as reciprocators; in orange, members marked as free riders. Node size is draw by degree centrality (by number of contacts).
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+Consequently, the debate on the definition of open government demonstrated co-operators as actors with higher number of interactions (Figure 6). Actors with id 881 and id 1829 represented the core of the bidirectional relationships within the debate. On the other hand, it was clear that lower number of interactions corresponded with free riders and reciprocators.
+
+
+ 
+
+[bookmark: fig6]
+	[image: Number of interactions depending on interest of public employees to collaborate (debate on the definition of open government]
+	 
+	Figure 6: Number of interactions depending on interest of public employees to collaborate (debate on the definition of open government). In green, members marked as cooperators; in yellow, members marked as reciprocators; in orange, members marked as free riders. Node size is draw by degree centrality (by number of contacts).
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+Finally, our last hypothesis (H3), which stated that the number of interactions was gender based, also seems to be verified. In both the debate on the CM profile (Figure 7) and the definition of open government (Figure 8), the presence of women was minimal and, in any case, very small in terms of number of interactions, showing evidence for a low presence of female participation among public employees.
+
+
+ 
+
+[bookmark: fig7]
+	[image: Number of interactions depending on gender of public employees (debate on the profile of the community manager)]
+	 
+	Figure 7: Number of interactions depending on gender of public employees (debate on the profile of the community manager). Green nodes reflect male public employees; orange coloured nodes reflect female public employees. Node size depends on degree centrality (by number of contacts in the network).
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+The debate on the profile of CMs illustrated greater participation of women. It is worth noting a great number of interactions for id 2164, highlighting bidirectionality, and also, albeit to a lesser extent, for id 8934, coinciding with an actor with a great centrality index within the network. Despite this evidence, the debate was dominated mainly by interactions between professionals (men). Female participation was not part of a gender silo, that is, female to female participation. Discussions on the definition of open government showed even lower participation of female public-sector employees, with id 1829, the only woman who took part in the debate, presenting a significant level of interaction.
+
+
+ 
+
+[bookmark: fig8]
+	[image: Number of interactions depending on gender of public employees (debate on open government)]
+	 
+	Figure 8: Number of interactions depending on gender of public employees (debate on open government). Green nodes reflect male public employees; orange coloured nodes reflect female employees. Node size depends on degree centrality (by number of contacts in the network).
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p5]Findings and discussion
+
+
+The use of SNA has allowed us to visualize how interactions and power behave when public employees participate within an existing social media community. This study identified the importance of interest and will in boosting collaborative activities. Gender was observed as an important variable, which we will study more closely in future research. This analysis is exploratory and require further empirical work.
+
+
+Finding 1: Leadership and power, between informal and formal power. The influence of certain public employees was fundamental for the promotion of debates and collaboration. Much creative activity was directed by a “debate owner”, leading us to think about their stimulating and coordinating roles on the network (Agranoff and McGuire, 2001; Lev-On, 2017). It seems evident that without certain members in the community to create and promote debates, the current levels of activity and engagement would be difficult to reach.
+
+
+Our study has shown that in some cases (debates) leadership may arise with a low degree centrality. Regarding SNA and the functioning of social networks, this may lead us to reappraise the appropriateness of measuring power by the number of contacts within a digital social media network. In some instances, public sector employees with low centrality may not be leaders in the digital network, but may be powerful actors outside the virtual world. In other words, this suggests that formal power relations remain important, even though the meritocratic informal community power was gaining ground as a mechanism to gain reputation and stimulate interactions.
+
+
+Finding 2: Presence of excluded members. The fact that a public sector employee was registered on a social media community did not automatically translate into participation. The analysis of the digital social network NovaGob confirmed a high number of registered public employees but, for unknown reasons, some of them did not participate, appearing as excluded from the network. As Castells (2013) pointed out, excluded members of a network are important in order to understand overall behaviour and interactions within the network.
+
+
+In our case study, one may emphasize that NovaGob presented lower levels of exclusion in comparison with non-specialized and more disseminate networks (i.e., Facebook or Twitter). Personal identity validation implied low rates of fake or fraudulent profiles within this community (GovLab, 2016). Being a specialized digital social community facilitated registration based on a public official’s specific interests, encouraging higher levels of interactions (Levine and Prietula, 2013).
+
+
+Finding 3: Importance of interest and will to do things. The results demonstrated the importance of having motivated and interested members cooperating within a digital community. As others have indicated (Levine and Prietula, 2013), greater interest should be reflected with higher levels of interactions in these communities. In our analysis, natural leaders were public employees classified as “cooperators”. On the other hand, a community member fitted within the typology of “free rider” — and who seemed to grab a number of interactions — showed the importance of formal leadership within a community. In other words, the intention to cooperate was a predictor of cooperation within a social media community. However, free-riding practices remain, leaving in the air the question about meritocratic practices in social media communities.
+
+
+Finding 4: Towards a second digital divide? The results about gender variable confirmed the existence of a second digital divide. Even with a lack of aggregate data, the analysis exhibited the existence of a “second gap” (Criado and Barrero, 2014) in the practices that female public sector employees develop within the NovaGob community. In all studied debates, even those in which female presence was more intense, their participation was comparatively lower than their male colleagues. In the debate on the role of community managers in the public sector, it earned higher attention from female public officials, probably because communication areas are traditionally linked to women in the public sector.
+
+
+Finally, in terms of gender and digital divide, there were low levels of use as well as low rates of registered women in debates. This behaviour suggests that we still retain certain exclusion mechanisms in collaboration practices, even in digital communities.
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p6]Conclusions
+
+
+This paper focused on the dynamics of collaboration within social media communities to provide, in an exploratory way, empirical evidence on the interactions and behaviour of public sector employees. These communities have become spaces where public sector employees co-produce with other colleagues and create public value. This paper discussed how interactions occur and what factors have an impact on behaviour. For this purpose, we  approached the NovaGob community using SNA, with the intention of explaining a variety of interactions. The results, though not confirmatory, show evidence of the importance of power of certain public sector employees in stimulating participation within these communities. Thus, this paper identified the importance of cooperating actors to facilitate collaboration. Finally, we discussed the possible existence of a second digital gender divide, affecting how female public officials use these communities.
+
+
+Data collected from the NovaGob community illustrated that, as in other specialized social media communities, civil servants experience two forms of interaction: direct contacts through a contact list, and collaborative work within group entities. It is in these groups where much open collaboration takes place. The data also indicated disconnection of some nodes, a phenomenon deserving further analysis.
+
+
+We were able to identify main actors within analysed debates. Filtered by their centrality and influence within discussions, some have been seen as fundamental for the cohesion and coordination of debates. Something similar occurred with interest shown by public professionals, reflecting that without a will of change it was difficult to include innovation and generate community. Finally, we noted a gender gap in the use of these networks, making it difficult for some professionals to access specific groups and debates.
+ 
+
+Future studies about collaboration among public employees will face certain challenges. Our results have shown low internal validity, and despite empirical evidence, these are exploratory and not confirmatory, leaving possible generalisations limited to the sample. Future studies should examine the complexity of interactions and verify to what extent interactions produce innovation, or if public employees learn something new through “collective intelligence”. In sum, the study of behaviour and collaboration among public employees in social media communities is in its infancy, requiring further research to tackle their implications in public agencies. [image: End of article]
+
+ 
+ 
+
+[bookmark: author]
+About the authors
+
+
+J. Ignacio Criado is an associate professor in the Department of Political Science and International Relations, Universidad Autónoma de Madrid (Spain), and Research Fellow at Center for Technology in Government, State University of New York (SUNY at Albany). He is director of NovaGob Lab.
+E-mail: ignacio [dot] criado [at] uam [dot] es
+Twitter: @jicriado
+
+
+Julián Villodre is a Ph.D. student and researcher in the Department of Political Science and International Relations, Universidad Autónoma de Madrid (Spain). He is a Researcher for NovaGob Lab.
+E-mail: julian [dot] villodrede [at] uam [dot] es
+Twitter: @VillodreJulian
+
+
+ 
+
+Acknowledgments
+
+
+This study was supported by the BBVA Foundation research project “Smart Governance of Digital Social Media in Local Governments within the European Union. Implementation Strategies, Success Factors and Public Service Models in Netherlands, Spain, Sweden, and United Kingdom (#SocialGovNet)”, and the research program S2015/HUM-3466 NEW TRUST-CM (Comunidad de Madrid and ESF).
+
+
+ 
+
+Notes
+
+
+[bookmark: 1]1. Rodríguez Bolivar and Meijer, 2016, p. 680.
+
+
+[bookmark: 2]2. Liu and Zheng, 2015, p. 2.
+
+
+[bookmark: 3]3. Mergel, 2015, p. 465.
+
+
+[bookmark: 4]4. Agranoff and McGuire, 2001, p. 314.
+
+
+ 
+
+References
+
+
+R. Agranoff and M. McGuire, 2001. “Big questions in public network management research,” Journal of Public Administration Research and Theory, volume 11, number 3, pp. 295–326.
+doi: https://doi.org/10.1093/oxfordjournals.jpart.a003504, accessed 11 March 2018.
+
+
+R. Andrews and R. Ashworth, 2014. “Representation and inclusion in public organizations: Evidence from the U.K. civil service,” Public Administration Review, volume 72, number 2, pp. 279–288.
+doi: https://doi.org/10.1111/puar.12308, accessed 11 March 2018.
+
+
+V. Arvidsson and A. Foka, 2015. “Digital gender: Perspective, phenomena, practice,” First Monday, volume 20, number 4, at http://firstmonday.org/article/view/5930/4430, accessed 11 March 2018.
+doi: http://dx.doi.org/10.5210/fm.v20i4.5930, accessed 11 March 2018.
+
+
+F. Bannister and R. Connolly, 2014. “ICT, public values and transformative government: A framework and programme for research,” Government Information Quarterly, volume 31, number 1, pp. 119–128.
+doi: https://doi.org/10.1016/j.giq.2013.06.002, accessed 11 March 2018.
+
+
+L. Batagan, 2011. “Smart cities and sustainability models,” Informatica Economică, volume 15, number 3, pp. 80–87, at http://revistaie.ase.ro/59.html, accessed 11 March 2018.
+
+
+J. Bertot, P. Jaeger and J. Grimes, 2010. “Using ICTs to create a culture of transparency: E-government and social media as openness and anti-corruption tools for societies,” Government Information Quarterly, volume 27 number 3, pp. 264–271.
+doi: https://doi.org/10.1016/j.giq.2010.03.001, accessed 11 March 2018.
+
+
+M. Castells, 2013. Communication power. Second edition. New York: Oxford University Press.
+
+
+Y. Charalabidis and E. Loukis, 2012. “Participative public policy making through multiple social media platforms utilization,” International Journal of Electronic Government Research, volume 8, number 3, pp. 78–97.
+doi: https://doi.org/10.4018/jegr.2012070105, accessed 11 March 2018.
+
+
+S. Chun, R. Sandoval and Y. Arens, 2011. “Public engagement and government collaboration: Theories, strategies and case studies,” Information Polity, volume 16, number 3, pp. 189–196.
+doi: https://doi.org/10.3233/IP-2011-0261, accessed 11 March 2018.
+
+
+S. Chun, S. Shulman, R. Sandoval and E. Hovy, 2010. “Government 2.0: Making connections between citizens, data and government,” Information Polity, volume 15, numbers 1–2, pp. 1–9.
+doi: https://doi.org/10.3233/IP-2010-0205, accessed 11 March 2018.
+
+
+B. Clark, J. Brudney and S. Jang, 2013. “Coproduction of government services and the new information technology: Investigating the distributional biases,” Public Administration Review, volume 73, number 5, pp. 687–701.
+doi: https://doi.org/10.1111/puar.12092, accessed 11 March 2018.
+
+
+J. Criado, 2016. “Gobernanza inteligente, innovación abierta y tecnologías sociales en unas administraciones públicas colaborativas. ¿Hacia un cambio de paradigma en la gestión pública?” In: J. Criado (editor). Nuevas tendencias en la gestión pública: Innovación abierta, gobernanza inteligente y tecnologías sociales en unas administraciones públicas colaborativas. Madrid:  Instituto Nacional de Administración Pública (INAP), pp. 22–48.
+
+
+J. Criado and D. Barrero, 2014. “Analyzing the digital divide and electronic government demand: An empirical research of the Spanish case,” In: M. Rodríguez-Bolivar (editor). Measuring E-government efficiency: The opinions of public administrators and other stakeholders. New York: Springer, pp. 213–232.
+doi: https://doi.org/10.1007/978-1-4614-9982-4_12, accessed 11 March 2018.
+
+
+J. Criado, F. Rojas-Martín and J. Gil-García, 2017. “Enacting social media success in local public administrations: An empirical analysis of organizational, institutional, and contextual factors,” International Journal of Public Sector Management, volume 30, number 1, pp. 31–47.
+doi: https://doi.org/10.1108/IJPSM-03-2016-0053, accessed 11 March 2018.
+
+
+B. Cumbie and B. Kar, 2015. “The role of social media in U.S. county governments: The strategic value of operational aimlessness,” International Journal of Electronic Government Research, volume 11, number 1, pp. 1–20.
+doi: https://doi.org/10.4018/IJEGR.2015010101, accessed 11 March 2018.
+
+
+A. Forte and C. Lampe, 2013. “Defining, understanding, and supporting open collaboration: Lessons from the literature,” American Behavioral Scientist, volume 57, number 5, pp. 535–547.
+doi: https://doi.org/10.1177/0002764212469362, accessed 11 March 2018.
+
+
+J. Gil-García, J. Zhang and G. Puron-Cid, 2016. “Conceptualizing smartness in government: An integrative and multi-dimensional view,” Government Information Quarterly, volume 33, number 3, pp. 524–534.
+doi: https://doi.org/10.1016/j.giq.2016.03.002, accessed 11 March 2018.
+
+
+GovLab, 2016. “NovaGob. Creating a community of Spanish speaking public employees across national and institutional borders” (10 February), at http://www.thegovlab.org/static/files/smarterstate/novagob.pdf, accessed 11 March 2016.
+
+
+M. Hamel and C. Schweik, 2009. “Open source collaboration: Two cases in the U.S. public sector,” First Monday, volume 14, number 1, at http://firstmonday.org/article/view/2313/2065, accessed 11 March 2018.
+doi: http://dx.doi.org/10.5210/fm.v14i1.2313, accessed 11 March 2018.
+
+
+T. Harrison, S. Guerrero, G. Burke, M. Cook, A. Cresswell, N. Helbig and J. Hrdinova, 2012. “Open government and e-government: Democratic challenges from a public value perspective,” Information Polity, volume 17, number 2, pp. 83–97.
+doi: http://dx.doi.org/10.3233/IP-2012-0269, accessed 11 March 2018.
+
+
+M. Hennig, U. Brandes, J. Pfeffer and I. Mergel, 2013. Studying social networks: A guide to empirical research. Frankfurt: Campus Verlag.
+
+
+B. Hudson, B. Hardy, M. Henwood and G. Wistow, 1999. “In pursuit of inter-agency collaboration in the public sector,” Public Management, volume 1, number 2, pp. 235–260.
+doi: https://doi.org/10.1080/14719039900000005, accessed 11 March 2018.
+
+
+N. Kapucu and F. Demiroz, 2011. “Measuring performance for collaborative public management using network analysis methods and tools,” Public Performance & Management Review, volume 34, number 4, pp. 549–579.
+doi: http://firstmonday.org/article/view/7413/6552, accessed 11 March 2018.
+
+
+D. Lathrop and L. Ruma (editors), 2010. Open government: Collaboration, transparency, and participation in practice. Cambridge, Mass.: O’Reilly Media.
+
+
+A. Lev-On, 2017. “Administrating social media: The significance of managers,” First Monday, volume 22, number 10, at https://doi.org/10.2753/PMR1530-9576340406, accessed 11 March 2018.
+doi: http://dx.doi.org/10.5210/fm.v22i110.7413, accessed 11 March 2018.
+
+
+S. Levine and M. Prietula, 2013. “Open collaboration for innovation: Principles and performance,” Organization Science, volume 25, number 5, pp. 1,414–1,433.
+doi: https://doi.org/10.1287/orsc.2013.0872, accessed 11 March 2018.
+
+
+X. Liu and L. Zheng, 2015. “Cross-departmental collaboration in one-stop service center for smart governance in China: Factors, strategies and effectiveness,” Government Information Quarterly.
+doi: https://doi.org/10.1016/j.giq.2015.12.001, accessed 11 October 2017.
+
+
+L. Luna-Reyes and J. Gil-García, 2014. “Digital government transformation and Internet portals: The co-evolution of institutions, technology, and organizations,” Government Information Quarterly, volume 31 number 4, pp. 545–555.
+doi: https://doi.org/10.1016/j.giq.2014.08.001, accessed 11 October 2017.
+
+
+R. Medaglia and L. Zheng, 2017. “Mapping government social media research and moving it forward: A framework and a research agenda,” Government Information Quarterly, volume 34, number 3, pp. 496–510.
+doi: https://doi.org/10.1016/j.giq.2017.06.001, accessed 11 October 2017.
+
+
+I. Mergel, 2015. “Open collaboration in the public sector: The case of social coding on GitHub,” Government Information Quarterly, volume 32, number 4, pp. 464–472.
+doi: https://doi.org/10.1016/j.giq.2015.09.004, accessed 11 October 2017.
+
+
+I. Mergel, 2013. “A framework for interpreting social media interactions in the public sector,” Government Information Quarterly, volume 30, number 4, pp. 327–334.
+doi: https://doi.org/10.1016/j.giq.2013.05.015, accessed 11 October 2017.
+
+
+I. Mergel and K. Desouza, 2013. “Implementing open innovation in the public sector: The case of Challenge.gov,” Public Administration Review, volume 73, number 6, pp. 882–890.
+doi: https://doi.org/10.1111/puar.12141, accessed 11 October 2017.
+
+
+B. Noveck, 2015. Smart citizens, smarter state: The technologies of expertise and the future of governing. Cambridge, Mass.: Harvard University Press.
+
+
+Organisation for Economic Co-operation and Development (OECD), 2016. “Background report: Conference on improving women’s access to leadership” (8 March), at https://www.oecd.org/daf/ca/OECD-Women-Leadership-2016-Report.pdf, accessed 9 January 2017.
+
+
+G. Oliveira and E. Welch, 2013. “Social media use in local government: Linkage of technology, task, and organizational context,” Government Information Quarterly, volume 30, number 4, pp. 397–405.
+doi: https://doi.org/10.1016/j.giq.2013.05.019, accessed 11 October 2017.
+
+
+K. Provan and P. Kenis, 2008. “Modes of network governance: Structure, management, and effectiveness,” Journal of Public Administration Research and Theory, volume 18, number 2, pp. 229–252.
+doi: https://doi.org/10.1093/jopart/mum015, accessed 11 October 2017.
+
+
+R. Rethemeyer and D. Hatmaker, 2008. “Network management reconsidered: An inquiry into management of network structures in public sector service provision,” Journal of Public Administration Research and Theory, volume 18, number 4, pp. 617–646.
+doi: https://doi.org/10.1093/jopart/mum027, accessed 11 October 2017.
+
+
+M. Rodr&iaute;guez Bolivar and A. Meijer, 2016. “Smart governance: Using a literature review and empirical analysis to build a research model,” Social Science Computer Review, volume 34, number 6, pp. 673–692.
+doi: https://doi.org/10.1177/0894439315611088, accessed 11 October 2017.
+
+
+L. Sadeghi, S. Ressler and A. Krzmarzick, 2012. “Using Web 2.0 to reconceptualize government: The case of GovLoop,” In: Information Resources Management Association (editor). Digital democracy: Concepts, methodologies, tools, and applications. Hershey, Pa: IGI Global, pp. 153–165.
+doi: https://doi.org/10.4018/978-1-4666-1740-7.ch091, accessed 11 October 2017.
+
+
+V. Schneider and J. Bauer, 2016. “A network science approach to the Internet,” In: J. Bauer and M. Latzer (editors). Handbook on the economics of the Internet. Cheltenham: Elgar, pp. 72–90.
+doi: http://dx.doi.org/10.4337/9780857939852.00011, accessed 12 March 2018.
+
+
+E. Sørensen and J. Torfing, 2012. “Collaborative innovation in the public sector,” Innovation Journal, volume 17, number 1, pp. 1–14, and at https://www.innovation.cc/volumes-issues/intro_eva_sorensen_torfing_17v1i1.pdf, accessed 12 March 2018.
+
+
+M. Yi, S. Oh and S. Kim, 2013. “Comparison of social media use for the U.S. and the Korean governments,” Government Information Quarterly, volume 30, number 3, pp. 310–317.
+doi: http://dx.doi.org/10.1016/j.giq.2013.01.004, accessed 12 March 2018.
+
+
+L. Zheng and T. Zheng, 2014. “Innovation through social media in the public sector: Information and interactions,” Government Information Quarterly, volume 31, supplement 1, pp. S106–S117.
+doi: http://dx.doi.org/10.1016/j.giq.2014.01.011, accessed 12 March 2018.
+
+
+ 
+
+
+
+
+Editorial history
+
+Received 2 March 2018; accepted 12 March 2018.
+
+
+
+
+
+[image: Creative Commons License]
+This paper is licensed under a Creative Commons Attribution 4.0 International License.
+
+
+Public employees in social media communities: Exploring factors for internal collaboration using social network analysis
+by J. Ignacio Criado and Julián Villodre.
+First Monday, Volume 23, Number 4 - 2 April 2018
+http://firstmonday.org/ojs/index.php/fm/article/view/8348/6661
+doi: http://dx.doi.org/10.5210/fm.v23i4.8348
+
+
+
+
+
+		
+
+		
+			
+					[image: Bookmark and Share]
+			
+			
+		
+
+	
+
+		
+
+
+
+
+
+
+
+
+A Great Cities Initiative of the University of Illinois at Chicago University Library.© First Monday, 1995-2018. ISSN 1396-0466.
+
+
+
+
+
+
+
+ 

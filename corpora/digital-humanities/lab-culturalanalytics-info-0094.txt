@@ -1,0 +1,399 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Logo (Home Page Only)
+
+
+
+
+Cultural Analytics Lab
+
+We use data science to analyse patterns in big cultural data. The lab is directed by Lev Manovich, a pioneer in the field of cultural analytics. 
+
+
+
+
+
+
+
+
+
+
+
+
+Logo and Side Nav
+
+
+
+
+
+Cultural Analytics Lab
+
+
+
+
+
+
+
+
+	News
+	About
+	Projects
+	Publications
+	People
+
+
+
+	Mailing List
+	Twitter
+	Flickr
+	RSS
+
+
+
+
+
+
+
+
+
+
+News
+
+
+The posts from 2018-2016 are on our archive site: 
+www.softwarestudies.com.
+
+
+
+
+
+Browse News Archive
+
+
+
+
+	
+January 2018
+
+	
+November 2017
+
+	
+September 2017
+
+	
+May 2017
+
+	
+March 2017
+
+	
+February 2017
+
+	
+October 2016
+
+	
+July 2016
+
+	
+May 2016
+
+	
+April 2016
+
+	
+August 2014
+
+	
+January 2013
+
+	
+February 2012
+
+	
+November 2010
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        
+14 November 2010
+
+
+          
+        
+
+
+
+
+
+
+
+
+
+[bookmark: 1768673327484383968]
+
+Exploring One Million Manga Pages with Supercomputers and HIPerSpace
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+[image: ]
+
+	
+Tweet
+
+
+
+
+
+
+	
+  [image: ]
+  
+ Figure 1. This visualization shows 1,074,790 unique pages from 883 distinct manga series from Japan, Korea and China. The series include both very popular long-running titles such as Naruto and One Piece and also many short-lived titles. The visualization maps the pages the pages according to some of their visual characteristics that were measured automatically on supercomputers at the U.S. National Department of Energy Research Center using custom software developed by Software Studies Initiative.(X-axis: standard deviation. Y-axis: entropy.) See a full size image with an extended description 
+on the project's Flickr page.
+
+
+	
+ Figure 2. Manga book.
+
+
+	
+  [image: ]
+  Close-up detail of Figure 1. See the full size image on Flickr. 
+
+ 
+	
+  [image: ]
+  Close-up detail of Figure 1. See the full size image on Flickr. 
+
+ 
+	
+  [image: ]
+   Figure 3. The visualization shows 800 consecutive pages from "Anatolia Story". Detail. See the full size image on Flickr. 
+
+ 
+	
+  [image: ]
+   Close-up detail of Figure 3. See the full size image on Flickr. 
+
+ 
+
+
+
+
+
+Authors
+ 
+Jeremy Douglass, William Huber, Lev Manovich, Tara Zepel
+
+
+Full Resolution Visualizations
+
+See the full resolution visualizations on Flickr.
+
+
+Articles
+
+	Jeremy Douglass, William Huber, Lev Manovich. "Understanding scanlation: how to read one million fan-translated manga pages." In Image and Narrative, winter 2011. [pdf 3 MB] 
+	Jeremy Douglass, Lev Manovich, Tara Zepel. "How to Compare One Million Images?" in David Berry, ed., Understanding Digital Humanities (Palgrave, 2012). 
+
+
+
+[bookmark: more]
+
+Description
+ 
+"The humanities with some heavy iron...compared to other scholarly attempts to analyze Japanese comics — well, *gasp, choke, Good Lord!* Lookah that thing! It’s like some terrifying splash panel from vintage EC comics." Bruce Sterling, a blog post about our Manga visualization, November 14, 2010, wired.com.
+
+
+As soon as new Manga books are published in Japan, fans buy them, scan the pages, translate the text into other languages, and distribute digital images of the translated pages via web sites. In the process, they also insert additional pages (group credits, commentaries, and original fan art). This process is referred to as “scanlation.” Until July 2010, the most popular online archive of the “scanlations” was OneManga.com. (It was also among most visited web sites in general - 300th in the U.S., and in the top 20 in Singapore and Malaysia.)
+
+
+In the Fall 2009, we downloaded 883 Manga series containing 1,074,790 unique pages from this site. We then used our custom software system running on a supercomputer at National Department of Energy Research Center (NERSC) to analyze visual features of these pages (funded by Humanities High Performance Award from NEH Digital Humanities Office.) To match the scale of the data, we are using 287 megapixel The Highly Interactive Parallelized Display Space (HIPerSpace) with a custom software for interactive exploration of large image sets developed between our lab (softwarestudies.com) and Gravity lab at Calit2.
+ 
+
+Visualization (Figure 3) shows our complete data set - 1 million Manga pages organized in 2D space according to their visual characteristics. The pages in the bottom part of the visualization are the most graphic (they have the least amount of detail). The pages in the upper right have lots of detail and texture. The pages with the highest contrast are on the right, while pages with the least contrast are on the left. In between these four extremes, we find every possible stylistic variation.
+
+
+ (Note: some of the pages - such as all covers - are in color. In order to be able to fit all pages into the largest possible image our software could render and save, we made this rendering in grey scale. Also note that because pages are rendered on top of each other, you don't actually see 1 million of distinct pages - the visualization shows a distribution of all pages with typical examples appearing on the top.)
+
+
+Data: 883 Manga series from the scanlation site OneManga.com. Total number of pages: 1,074,790.
+
+Mapping X axis: A mean of standard deviation of pixels’ grayscale values in a page. Y axis: A mean of entropy measured over all pixels’ grayscale values in a page.
+
+
+What do we learn from this visualization? It suggests that the very concept of style as it is normally employed becomes problematic then we start analyzing large cultural data sets. The concept assumes that we can partition a set of works into a small number of discrete categories. However, if we find a very large number of variations with very small differences between them (such as in this case of 1 million Manga pages), it is no longer possible to talk about "style" of these works. Instead, it is better to use visualization and/or mathematical models to describe the space of possible and realized variations.
+
+
+What about single manga titles? Is it meaningful to talk about a title's style? As we found out, often even a short title has such graphic variability that we also can't use "style" concept. Here is an example of such title ("Anatolia Story"). 879 pages are organized by brightness mean (X) and entropy (Y) (Figure 4).
+
+
+In these examples, manga pages are organized according to particular visual features. Taking into account other features and also higher-order attributes (content, composition, manga's visual conventions for rendering characters, their faces, backgrounds, etc.) may reveal the presence of distinct stylistic styles in the one million pages sample, and also show more stylistic coherence in individual manga titles. We are hoping to investigate these questions in near future.
+
+
+Links
+
+	 You can find a discussion of the initial results of our work with Manga data set in this research report: Style Space:  Analysis and Visualization of 1 million Manga pages  (06/2010). [key 56.6 MB]  [ppt 17.9 MB]
+	More manga and comics visualizations created by Software Studies Initiative (Flickr)
+	Daniel H. Pink. Japan, Ink: Inside the Manga Industrial Complex, Wired 10.22.07. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[bookmark: comments]
+
+
+
+
+
+
+
+
+
+
+        
+      
+
+
+
+
+Newer Post
+
+Home
+
+
+
+
+
+
+
+
+
+
+Footer
+
+
+
+    Cultural Analytics Lab
+
+    © 2008 - 2016 Software Studies Initiative and Cultural Analytics Lab
+
+
+
+
+
+    
+        	Flickr
+	RSS
+	Twitter
+	Facebook
+
+
+    
+
+
+
+
+    
+    
+
+    
+    
+        
+            
+                To subscribe to our mailing list, please enter your email address. (You can unsubscribe at any time.)
+
+                
+                    Email Address 
+                    
+                
+
+                
+                    
+
+                    
+
+                
+
+                
+                
+
+                
+
+            
+
+        
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+

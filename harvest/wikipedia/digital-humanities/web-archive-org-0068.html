@@ -1,0 +1,949 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head><script src="http://archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app43.us.archive.org';v.server_ms=424;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="http://web.archive.org/static/js/wbhack.js?v=1522452177.0" charset="utf-8"></script>
+
+<script type="text/javascript">
+__wbhack.init('http://web.archive.org/web');
+</script>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/static/css/banner-styles.css?v=1522452177.0" />
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/static/css/iconochive.css?v=1522452177.0" />
+
+<!-- End Wayback Rewrite JS Include --><link rel="shortcut icon" href="http://web.archive.org/web/20110820165207im_/http://nyupress.org/favicon.ico"/><title>
+	NYU Press -  Planned Obsolescence
+</title>
+	
+		<script type="text/javascript" src="http://web.archive.org/web/20110820165207js_/http://nyupress.org/lib/js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="http://web.archive.org/web/20110820165207js_/http://nyupress.org/lib/js/jquery.jcarousel.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20110820165207cs_/http://nyupress.org/lib/js/skins/ie7/skin.css"/><link rel="Stylesheet" type="text/css" href="http://web.archive.org/web/20110820165207cs_/http://nyupress.org/lib/css/main.css"/>
+	
+		<script type="text/javascript">		
+			function mycarousel_initCallback(carousel){
+				//if(carousel.size < 4)
+				//	carousel.wrap
+				var size = carousel.size;
+				//alert(size);
+			}
+
+		
+			jQuery(document).ready(function() {
+				jQuery('#ctl00_cphMain_caroselFeatures').jcarousel({
+					//wrap: 'circular',
+					scroll:4
+				});
+				
+				jQuery('#ctl00_cphMain_caroselAuthor').jcarousel({
+					//wrap: 'circular',
+					scroll:4
+				});
+				
+				jQuery('#ctl00_cphMain_caroselNew').jcarousel({
+					//wrap: 'null',
+					scroll:4,
+					initCallback: mycarousel_initCallback
+				});
+				
+				jQuery('#ctl00_cphMain_caroselBestSelling').jcarousel({
+					//wrap: 'circular',
+					scroll:4
+				});
+				
+				jQuery('#ctl00_cphMain_caroselForthComing').jcarousel({
+					//wrap: 'circular',
+					scroll:4
+				});
+				
+				jQuery('#ctl00_cphMain_caroselAwardWinners').jcarousel({
+					//wrap: 'circular',
+					scroll:4
+				});
+				
+				jQuery('#ctl00_cphMain_caroselCurrent').jcarousel({
+					//wrap: 'circular',
+					scroll:4
+				});
+				
+				jQuery('#ctl00_cphMain_caroselSubject').jcarousel({
+					//wrap: 'circular',
+					scroll:4
+				});
+			});
+			function DoFocus(fld) 
+			{
+				if (fld.value == fld.defaultValue)
+					fld.value = "";
+			}
+			
+			function swap(button, on){
+			
+				var pageNav;
+			
+				try{
+					var pageNavId = document.getElementById("pageNavId");
+					pageNav = pageNavId.value;
+				}
+				catch(err){}
+			
+				switch(button){
+					case "imgBooks":
+						if(pageNav != "books"){
+							var img = document.getElementById(button);			
+							
+							if(on == true)
+								img.src = "/lib/images/navBtnBooksOn.png";
+							else
+								img.src = "/lib/images/navBtnBooks.png";
+						}						
+						
+						var divBooksOn = document.getElementById("divBooksOn");
+						
+						if(on == true)
+							divBooksOn.style.display = "";						
+						else
+							divBooksOn.style.display = "none";						
+						
+						break;
+						
+					case "imgPartners":					
+						if(pageNav != "partners"){
+							var img = document.getElementById(button);
+							
+							if(on == true)
+								img.src = "/lib/images/navBtnPartnersOn.png";
+							else
+								img.src = "/lib/images/navBtnPartners.png";
+						}
+						
+						var divPartnersOn = document.getElementById("divPartnersOn");
+						
+						if(on == true)
+							divPartnersOn.style.display = "";						
+						else
+							divPartnersOn.style.display = "none";
+							
+						break;
+						
+					case "imgNews":
+						if(pageNav != "news"){
+							var img = document.getElementById(button);
+							
+							if(on == true)
+								img.src = "/lib/images/navBtnNewsOn.png";
+							else
+								img.src = "/lib/images/navBtnNews.png";
+						}
+						
+						var divNewsOn = document.getElementById("divNewsOn");
+						
+						if(on == true)
+							divNewsOn.style.display = "";						
+						else
+							divNewsOn.style.display = "none";
+						
+						break;
+						
+					case "imgAuthors":
+						if(pageNav != "authors"){
+							var img = document.getElementById(button);
+							
+							if(on == true)
+								img.src = "/lib/images/navBtnAuthorsOn.png";
+							else
+								img.src = "/lib/images/navBtnAuthors.png";
+						}
+						break;
+						
+					case "imgLogin":
+						var img = document.getElementById(button);
+						
+						if(on == true)
+							img.src = "/lib/images/btnLoginOn.png";
+						else
+							img.src = "/lib/images/btnLogin.png";
+						break;
+						
+					case "imgViewCart":
+						var img = document.getElementById(button);
+						
+						if(on == true)
+							img.src = "/lib/images/btnViewCartOn.png";
+						else
+							img.src = "/lib/images/btnViewCart.png";
+						break;
+						
+					case "imgCheckOut":
+						var img = document.getElementById(button);
+						
+						if(on == true)
+							img.src = "/lib/images/btnCheckoutOn.png";
+						else
+							img.src = "/lib/images/btnCheckout.png";
+						break;
+
+					default:
+						if(pageNav != "contact"){
+							var img = document.getElementById(button);
+							
+							if(on == true)
+								img.src = "/lib/images/navBtnContactOn.png";
+							else
+								img.src = "/lib/images/navBtnContact.png";
+						}
+						
+						var divContactOn = document.getElementById("divContactOn");
+						
+						if(on == true)
+							divContactOn.style.display = "";						
+						else
+							divContactOn.style.display = "none";
+						
+						break;
+				}
+			}
+			
+			function showDiv(on, display){
+				var pageNav;
+			
+				try{
+					var pageNavId = document.getElementById("pageNavId");
+					pageNav = pageNavId.value;
+				}
+				catch(err){}
+				
+				switch(display){
+					case "books":
+						if(pageNav != "books"){
+							var img = document.getElementById("imgBooks");			
+							
+							if(on == true)
+								img.src = "/lib/images/navBtnBooksOn.png";
+							else
+								img.src = "/lib/images/navBtnBooks.png";
+						}
+					
+						var divBooksOn = document.getElementById("divBooksOn");
+					
+						if(on == true)
+							divBooksOn.style.display = "";						
+						else
+							divBooksOn.style.display = "none";
+							
+						break;
+						
+					
+					case "news":
+						
+						if(pageNav != "news"){
+							var img = document.getElementById("imgNews");			
+							
+							if(on == true)
+								img.src = "/lib/images/navBtnNewsOn.png";
+							else
+								img.src = "/lib/images/navBtnNews.png";
+						}
+					
+						var divNewsOn = document.getElementById("divNewsOn");
+					
+						if(on == true)
+							divNewsOn.style.display = "";						
+						else
+							divNewsOn.style.display = "none";
+						
+						break;
+						
+						
+					case "contact":
+						
+						if(pageNav != "contact"){
+							var img = document.getElementById("imgContact");			
+							
+							if(on == true)
+								img.src = "/lib/images/navBtnContactOn.png";
+							else
+								img.src = "/lib/images/navBtnContact.png";
+						}
+					
+						var divContactOn = document.getElementById("divContactOn");
+					
+						if(on == true)
+							divContactOn.style.display = "";						
+						else
+							divContactOn.style.display = "none";
+						
+						break;
+						
+						
+						
+					case "partners":
+						
+						if(pageNav != "partners"){
+							var img = document.getElementById("imgPartners");			
+							
+							if(on == true)
+								img.src = "/lib/images/navBtnPartnersOn.png";
+							else
+								img.src = "/lib/images/navBtnPartners.png";
+						}
+					
+						var divPartnersOn = document.getElementById("divPartnersOn");
+					
+						if(on == true)
+							divPartnersOn.style.display = "";						
+						else
+							divPartnersOn.style.display = "none";
+						
+						break;
+						
+					
+					default:
+						break;
+				}
+			
+				
+			}
+			
+			function setButton(button){
+				switch(button){
+					case "imgBooks":
+						var img = document.getElementById(button);						
+						img.src = "/lib/images/navBtnBooksOn.png";
+
+						break;
+						
+					case "imgPartners":
+						var img = document.getElementById(button);
+						img.src = "/lib/images/navBtnPartnersOn.png";
+
+						break;
+						
+					case "imgNews":
+						var img = document.getElementById(button);
+						img.src = "/lib/images/navBtnNewsOn.png";
+
+						break;
+						
+					case "imgAuthors":
+						var img = document.getElementById(button);
+						img.src = "/lib/images/navBtnAuthorsOn.png";
+
+						break;
+
+					default:
+						var img = document.getElementById(button);
+						img.src = "/lib/images/navBtnContactOn.png";
+
+						break;
+				}
+			}
+		</script>
+	</head>
+	<body marginheight="0" marginwidth="0" leftmargin="0" topmargin="0">
+		<form name="aspnetForm" method="post" action="web-archive-org-0068.htm" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTgxNjMyNzM4MQ9kFgJmD2QWAgIDD2QWBAIFD2QWKAIBDw8WAh4EVGV4dAUENDk5OGRkAgkPDxYCHwAFFSBQbGFubmVkIE9ic29sZXNjZW5jZWRkAgsPDxYCHwAFNVB1Ymxpc2hpbmcsIFRlY2hub2xvZ3ksIGFuZCB0aGUgRnV0dXJlIG9mIHRoZSBBY2FkZW15ZGQCDQ8WAh8ABT88YSBocmVmPScvYXV0aG9ycy5hc3B4P2F1dGhvcklEPTI1MzQnPiBLYXRobGVlbiBGaXR6cGF0cmljazwvYT5kAg8PDxYCHwAFAzI1NmRkAhMPDxYCHwAFDk5vdmVtYmVyLCAyMDExZGQCFQ8PFgIfAAUNOTc4MDgxNDcyNzg3NGRkAhcPFgIfAAUxPGEgaHJlZj0nPGJyIC8+ICAgJyB0YXJnZXQ9J25ldyc+SW50cm9kdWN0aW9uPC9hPmQCGQ8WAh8ABTY8YSBocmVmPSc8YnIgLz4gICAnIHRhcmdldD0nbmV3Jz5UYWJsZSBvZiBDb250ZW50czwvYT5kAh0PDxYCHwAFBTc1LjAwZGQCHw8PFgIfAAUFQ2xvdGhkZAIhDw8WAh8ABewBPHNwYW4gc3R5bGU9J2ZvbnQtc2l6ZToxMy42NnB4O2NvbG9yOiM2NjY2NjY7Zm9udC1mYW1pbHk6YXJpYWw7Jz5hbHNvIGF2YWlsYWJsZSBpbjwvc3Bhbj4gPGEgaHJlZj0nYm9vay1kZXRhaWxzLmFzcHg/Ym9va0lkPTUwMDgnIHN0eWxlPSdmb250LXNpemU6MTMuNjZweDtjb2xvcjojNTcwNjhjO2ZvbnQtZmFtaWx5OmFyaWFsO3RleHQtZGVjb3JhdGlvbjpub25lO2ZvbnQtd2VpZ2h0OmJvbGQ7Jz5QYXBlcjwvYT5kZAInDxBkDxYBZhYBEAUZRS1ib29rIGVkaXRpb25zIGF2YWlsYWJsZQUCLTFnZGQCKQ8WAh4HVmlzaWJsZWcWAmYPZBYCAgEPFgIfAAXXATxhIGhyZWY9Jy9zdWJqZWN0cy5hc3B4P3N1YmplY3RJZD0yNiZib29rSWQ9NDk5OCc+TWVkaWEgU3R1ZGllczwvYT4sIDxhIGhyZWY9Jy9zdWJqZWN0cy5hc3B4P3N1YmplY3RJZD01NyZib29rSWQ9NDk5OCc+U2NpZW5jZSAmIFRlY2hub2xvZ3k8L2E+LCA8YSBocmVmPScvc3ViamVjdHMuYXNweD9zdWJqZWN0SWQ9MjQmYm9va0lkPTQ5OTgnPkN1bHR1cmFsIFN0dWRpZXM8L2E+ZAIvDxYCHwAF3w1BY2FkZW1pYyBpbnN0aXR1dGlvbnMgYXJlIGZhY2luZyBhIGNyaXNpcyBpbiBzY2hvbGFybHkgcHVibGlzaGluZyBhdCBtdWx0aXBsZSBsZXZlbHM6IHByZXNzZXMgYXJlIHN0cmVzc2VkIGFzIG5ldmVyIGJlZm9yZSwgbGlicmFyeSBidWRnZXRzIGFyZSBzcXVlZXplZCwgZmFjdWx0eSBhcmUgaGF2aW5nIGRpZmZpY3VsdHkgcHVibGlzaGluZyB0aGVpciB3b3JrLCBhbmQgcHJvbW90aW9uIGFuZCB0ZW51cmUgY29tbWl0dGVlcyBhcmUgZmFjaW5nIGEgcmFuZ2Ugb2YgbmV3IHdheXMgb2Ygd29ya2luZyB3aXRob3V0IGEgY2xlYXIgc2Vuc2Ugb2YgaG93IHRvIHVuZGVyc3RhbmQgYW5kIGV2YWx1YXRlIHRoZW0uJiMxNjA7IDxiciAvPjxiciAvPjxzcGFuIHN0eWxlPSJmb250LXN0eWxlOiBpdGFsaWM7Ij5QbGFubmVkIE9ic29sZXNjZW5jZTwvc3Bhbj4gaXMgYm90aCBhIHByb3ZvY2F0aW9uIHRvIHRoaW5rIG1vcmUgYnJvYWRseSBhYm91dCB0aGUgYWNhZGVteSYjODIxNztzIGZ1dHVyZSBhbmQgYW4gYXJndW1lbnQgZm9yIHJlY29uY2VpdmluZyB0aGF0IGZ1dHVyZSBpbiBtb3JlIGNvbW11bmFsbHktb3JpZW50ZWQgd2F5cy4gRmFjaW5nIHRoZXNlIGlzc3VlcyBoZWFkLW9uLCBLYXRobGVlbiBGaXR6cGF0cmljayBmb2N1c2VzIG9uIHRoZSB0ZWNobm9sb2dpY2FsIGNoYW5nZXPigJRlc3BlY2lhbGx5IGdyZWF0ZXIgdXRpbGl6YXRpb24gb2YgaW50ZXJuZXQgcHVibGljYXRpb24gdGVjaG5vbG9naWVzLCBpbmNsdWRpbmcgZGlnaXRhbCBhcmNoaXZlcywgc29jaWFsIG5ldHdvcmtpbmcgdG9vbHMsIGFuZCBtdWx0aW1lZGlh4oCUbmVjZXNzYXJ5IHRvIGFsbG93IGFjYWRlbWljIHB1Ymxpc2hpbmcgdG8gdGhyaXZlIGludG8gdGhlIGZ1dHVyZS4gQnV0IHNoZSBnb2VzIGZ1cnRoZXIsIGluc2lzdGluZyB0aGF0IHRoZSBrZXkgaXNzdWVzIHRoYXQgbXVzdCBiZSBhZGRyZXNzZWQgYXJlIHNvY2lhbCBhbmQgaW5zdGl0dXRpb25hbCBpbiBvcmlnaW4uJiMxNjA7JiMxNjA7IDxiciAvPjxiciAvPlNwcmluZ2luZyBmcm9tIG9yaWdpbmFsIHJlc2VhcmNoIGFzIHdlbGwgYXMgRml0enBhdHJpY2smIzgyMTc7cyBvd24gaGFuZHMtb24gZXhwZXJpbWVudHMgaW4gbmV3IG1vZGVzIG9mIHNjaG9sYXJseSBjb21tdW5pY2F0aW9uIHRocm91Z2ggTWVkaWFDb21tb25zLCB0aGUgZGlnaXRhbCBzY2hvbGFybHkgbmV0d29yayBzaGUgY28tZm91bmRlZCwgPHNwYW4gc3R5bGU9ImZvbnQtc3R5bGU6IGl0YWxpYzsiPlBsYW5uZWQgT2Jzb2xlc2NlbmNlPC9zcGFuPiBleHBsb3JlcyB0aGVzZSBhc3BlY3RzIG9mIHNjaG9sYXJseSB3b3JrLCBhcyB3ZWxsIGFzIGlzc3VlcyBzdXJyb3VuZGluZyB0aGUgcHJlc2VydmF0aW9uIG9mIGRpZ2l0YWwgc2Nob2xhcnNoaXAgYW5kIHRoZSBwbGFjZSBvZiBwdWJsaXNoaW5nIHdpdGhpbiB0aGUgc3RydWN0dXJlIG9mIHRoZSBjb250ZW1wb3JhcnkgdW5pdmVyc2l0eS4mIzE2MDsgV3JpdHRlbiBpbiBhbiBhcHByb2FjaGFibGUgc3R5bGUgZGVzaWduZWQgdG8gYnJpbmcgYWRtaW5pc3RyYXRvcnMgYW5kIHNjaG9sYXJzIGludG8gYSBjb252ZXJzYXRpb24sIDxzcGFuIHN0eWxlPSJmb250LXN0eWxlOiBpdGFsaWM7Ij5QbGFubmVkIE9ic29sZXNjZW5jZTwvc3Bhbj4gZXhwbG9yZXMgYm90aCBzeW1wdG9tIGFuZCBjdXJlIHRvIGVuc3VyZSB0aGF0IHNjaG9sYXJseSBjb21tdW5pY2F0aW9uIHdpbGwgcmVtYWluIHJlbGV2YW50IGluIHRoZSBkaWdpdGFsIGZ1dHVyZS4gPGJyIC8+ICAgZAIxDxYCHwAFuAM8YSBocmVmPSIvYXV0aG9ycy5hc3B4P0F1dGhvcklkPTI1MzQiPjwvYT48ZGl2PjxzdHJvbmc+S2F0aGxlZW4gRml0enBhdHJpY2s8L3N0cm9uZz4gaXMgUHJvZmVzc29yIG9mIE1lZGlhIFN0dWRpZXMgYXQgUG9tb25hIENvbGxlZ2UgYW5kIGZvdW5kaW5nIGVkaXRvciBvZiB0aGUgZGlnaXRhbCBzY2hvbGFybHkgbmV0d29yayBNZWRpYUNvbW1vbnMuIFNoZSBpcyB0aGUgYXV0aG9yIG9mIDxlbT5UaGUgQW54aWV0eSBvZiBPYnNvbGVzY2VuY2U6IFRoZSBBbWVyaWNhbiBOb3ZlbCBpbiB0aGUgQWdlIG9mIFRlbGV2aXNpb248L2VtPiBhbmQgaGFzIGJsb2dnZWQgYXQgUGxhbm5lZCBPYnNvbGVzY2VuY2Ugc2luY2UgMjAwMi48L2Rpdj48YSBocmVmPSIvYXV0aG9ycy5hc3B4P0F1dGhvcklkPTI1MzQiPlZpZXcgYWxsIGJvb2tzIGJ5IEthdGhsZWVuIEZpdHpwYXRyaWNrPC9hPmQCMw8WAh4LXyFJdGVtQ291bnRmZAI1DxYCHwBlZAI3DxYCHwBlZAI5DxYCHwJmZAIHD2QWBGYPFgIfAAXeCjx0YWJsZSBjbGFzcz0ndGJsU2lkZUJhcicgYm9yZGVyPScwJyBjZWxscGFkZGluZz0nMCcgY2VsbHNwYWNpbmc9JzAnPjx0cj48dGQ+PHRhYmxlIHN0eWxlPSdmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMy42NnB4O2ZvbnQtZmFtaWx5OkFyaWFsO3BhZGRpbmctbGVmdDo1cHg7cGFkZGluZy1yaWdodDo1cHg7JyB3aWR0aD0nMTAwJSc+PHRyPjx0ZCBzdHlsZT0naGVpZ2h0OjMwcHg7Y29sb3I6I2NjMDAwMDtib3JkZXItYm90dG9tOnNvbGlkO2JvcmRlci1ib3R0b20tY29sb3I6I2ZmZmZmZjtib3JkZXItYm90dG9tLXdpZHRoOjJweDsnPlF1aWNrIExpbmtzPC90ZD48L3RyPjx0cj48dGQgc3R5bGU9J2hlaWdodDozMHB4O2JvcmRlci1ib3R0b206c29saWQ7Ym9yZGVyLWJvdHRvbS1jb2xvcjojZmZmZmZmO2JvcmRlci1ib3R0b20td2lkdGg6MnB4Oyc+PGEgaHJlZj0naHR0cDovL255dXByZXNzLm9yZy9mb3ItYXV0aG9ycy5hc3B4JyBzdHlsZT0nY29sb3I6IzU1NTU1NTt0ZXh0LWRlY29yYXRpb246bm9uZTsnPkF1dGhvciBHdWlkZWxpbmVzPC9hPjwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSdoZWlnaHQ6MzBweDtib3JkZXItYm90dG9tOnNvbGlkO2JvcmRlci1ib3R0b20tY29sb3I6I2ZmZmZmZjtib3JkZXItYm90dG9tLXdpZHRoOjJweDsnPjxhIGhyZWY9J2h0dHA6Ly9ueXVwcmVzcy5vcmcvY29udGFjdC9leGFtLWNvcHkuYXNweCcgc3R5bGU9J2NvbG9yOiM1NTU1NTU7dGV4dC1kZWNvcmF0aW9uOm5vbmU7Jz5FeGFtIENvcHkgUmVxdWVzdHM8L2E+PC90ZD48L3RyPjx0cj48dGQgc3R5bGU9J2hlaWdodDozMHB4Oyc+PGEgaHJlZj0naHR0cDovL255dXByZXNzLm9yZy9zZXJpZXMuYXNweCcgc3R5bGU9J2NvbG9yOiM1NTU1NTU7dGV4dC1kZWNvcmF0aW9uOm5vbmU7Jz5Cb29rcyBpbiBTZXJpZXM8L2E+PC90ZD48L3RyPjwvdGFibGU+PC90ZD48L3RyPjx0cj48dGQ+PGhyIHN0eWxlPSdjb2xvcjojYmJiYmJiO2JhY2tncm91bmQtY29sb3I6I2JiYmJiYjtoZWlnaHQ6NXB4Oyc+PC90ZD48L3RyPjx0cj48dGQ+PHRhYmxlIGJvcmRlcj0nMCcgc3R5bGU9J2ZvbnQtZmFtaWx5OkFyaWFsO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEzLjY2cHg7cGFkZGluZy1sZWZ0OjVweDtwYWRkaW5nLXJpZ2h0OjVweDsnIHdpZHRoPScxMDAlJz48dHI+PHRkIGNvbHNwYW49JzInIHN0eWxlPSdoZWlnaHQ6MzBweDtjb2xvcjojY2MwMDAwO2JvcmRlci1ib3R0b206c29saWQ7Ym9yZGVyLWJvdHRvbS1jb2xvcjojYmJiYmJiO2JvcmRlci1ib3R0b20td2lkdGg6MnB4Oycgd2lkdGg9JzEwMCUnPlN1YnNjcmliZSB0byBPdXIgZS1OZXdzbGV0dGVyPC90ZD48L3RyPjx0cj48dGQgc3R5bGU9J3BhZGRpbmctdG9wOjhweDsnPmQCBA8WAh8ABc4OPC90ZD48L3RyPjwvdGFibGU+PC90ZD48L3RyPjx0cj48dGQ+PGhyIHN0eWxlPSdjb2xvcjojYmJiYmJiO2JhY2tncm91bmQtY29sb3I6I2JiYmJiYjtoZWlnaHQ6NXB4Oyc+PC90ZD48L3RyPjx0cj48dGQ+PHRhYmxlIGJvcmRlcj0nMCcgc3R5bGU9J2ZvbnQtc2l6ZToxMi43NXB4O2NvbG9yOiM1NTU1NTU7Zm9udC1mYW1pbHk6QXJpYWw7cGFkZGluZy1sZWZ0OjVweDtwYWRkaW5nLXJpZ2h0OjVweDsnIHdpZHRoPScxMDAlJzx0cj48dGQgd2lkdGg9JzEwMCUnPjxhIGhyZWY9J2h0dHA6Ly93d3cuZnJvbXRoZXNxdWFyZS5vcmcvJyB0YXJnZXQ9J25ldyc+PGltZyBzcmM9Jy9saWIvaW1hZ2VzL1NRLnBuZycgYm9yZGVyPScwJz48L2E+PC90ZD48L3RyPjwvdGFibGU+PC90ZD48L3RyPjx0cj48dGQ+PGhyIHN0eWxlPSdjb2xvcjojYmJiYmJiO2JhY2tncm91bmQtY29sb3I6I2JiYmJiYjtoZWlnaHQ6NXB4Oyc+PC90ZD48L3RyPjx0cj48dGQ+PHRhYmxlIGJvcmRlcj0nMCcgc3R5bGU9J2ZvbnQtc2l6ZToxMC45M3B4O2NvbG9yOiMzMzMzMzM7Zm9udC1mYW1pbHk6QXJpYWw7cGFkZGluZy1sZWZ0OjVweDtwYWRkaW5nLXJpZ2h0OjVweDsnIHdpZHRoPScxMDAlJzx0cj48dGQgc3R5bGU9J2hlaWdodDozMHB4O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEzLjY2cHg7Zm9udC1mYW1pbHk6QXJpYWw7Y29sb3I6I2NjMDAwMDsnIHdpZHRoPScxMDAlJz5SZWNlbnRseSBvbiBUd2l0dGVyPC90ZD48L3RyPjx0cj48dGQ+PGJyPjxzY3JpcHQgc3JjPSdodHRwOi8vd2lkZ2V0cy50d2ltZy5jb20vai8yL3dpZGdldC5qcyc+PC9zY3JpcHQ+PHNjcmlwdD5uZXcgVFdUUi5XaWRnZXQoe3ZlcnNpb246IDIsdHlwZTogJ3Byb2ZpbGUnLHJwcDogNCxpbnRlcnZhbDogNjAwMCx3aWR0aDoyNTAsaGVpZ2h0OiAzMDAsdGhlbWU6IHtzaGVsbDoge2JhY2tncm91bmQ6ICcjMzMzMzMzJyxjb2xvcjogJyNmZmZmZmYnfSx0d2VldHM6IHtiYWNrZ3JvdW5kOiAnI2VlZWVlZScsY29sb3I6ICcjNjY2NjY2OycsbGlua3M6ICcjNTcwNjhjJ319LGZlYXR1cmVzOiB7c2Nyb2xsYmFyOiBmYWxzZSxsb29wOiBmYWxzZSxsaXZlOiBmYWxzZSxoYXNodGFnczogdHJ1ZSx0aW1lc3RhbXA6IHRydWUsYXZhdGFyczogZmFsc2UsYmVoYXZpb3I6ICdhbGwnfX0pLnJlbmRlcigpLnNldFVzZXIoJ255dXByZXNzJykuc3RhcnQoKTs8L3NjcmlwdD48L3RkPjwvdHI+PC90YWJsZT48L3RkPjwvdHI+PHRyPjx0ZD48aHIgc3R5bGU9J2NvbG9yOiNiYmJiYmI7YmFja2dyb3VuZC1jb2xvcjojYmJiYmJiO2hlaWdodDo1cHg7Jz48L3RkPjwvdHI+PHRyPjx0ZD48dGFibGUgc3R5bGU9J3BhZGRpbmctbGVmdDo1cHg7cGFkZGluZy1yaWdodDo1cHg7JyB3aWR0aD0nMTAwJSc+PHRyPjx0ZCBjb2xzcGFuPScyJyBzdHlsZT0nZm9udC13ZWlnaHQ6Ym9sZDtmb250LXNpemU6MTMuNjZweDtmb250LWZhbWlseTpBcmlhbDtoZWlnaHQ6MzBweDtjb2xvcjojY2MwMDAwO2JvcmRlci1ib3R0b206c29saWQ7Ym9yZGVyLWJvdHRvbS1jb2xvcjojYmJiYmJiO2JvcmRlci1ib3R0b20td2lkdGg6MnB4Oyc+Rm9sbG93IE5ZVSBQcmVzczwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9J2h0dHA6Ly93d3cuZmFjZWJvb2suY29tL2Zyb210aGVzcXVhcmUnIHRhcmdldD0nbmV3Jz48aW1nIHNyYz0nL2xpYi9pbWFnZXMvaWNvbkZhY2Vib29rLnBuZycgYm9yZGVyPScwJz48L2E+PC90ZD48dGQgd2lkdGg9JzEwMCUnPjxhIGhyZWY9J2h0dHA6Ly90d2l0dGVyLmNvbS9ueXVwcmVzcycgdGFyZ2V0PSduZXcnPjxpbWcgc3JjPScvbGliL2ltYWdlcy9pY29uVHdpdHRlci5wbmcnIGJvcmRlcj0nMCc+PC9hPjwvdGQ+PC90cj48L3RhYmxlPjwvdGQ+PC90cj48L3RhYmxlPmQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgQFD2N0bDAwJGJ0blNlYXJjaAUXY3RsMDAkY3BoTWFpbiRidG5Hb29nbGUFFGN0bDAwJGNwaE1haW4kYnRuQnV5BSBjdGwwMCR1Y1NpZGVCYXIkYnRuU2lkZVN1YnNjcmliZRKM/Oyz0agQqOTMHvIYN9VUScQ5"/>
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCgLdvM67AgKo9PnjCwL9n+COAgKxw6SDDALB6ImCDAKan91yAu3yppMNAvqJw+AGAtG6qvkFArSk79ILYH6J2a5GEV7KGQKs83OKuj0/dtQ="/>
+			<table class="tblMainFont" cellpadding="0" cellspacing="0" border="0" align="center" style="width:960px;">
+				<tr>					
+					<td colspan="2" style="width:960px;">
+						<table cellpadding="0" cellspacing="0" border="0" style="padding-top:10px;">						
+							<tr valign="top">
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/default.aspx"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/NYUPLogo.png" border="0"></a></td>
+										</tr>
+									</table>
+								</td>
+								
+								<td align="right">
+									<table cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td align="right">
+												<table cellpadding="0" cellspacing="0" border="0">
+													<tr>
+														<td style="padding-right:10px;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/about/about.aspx" style="color:#333333;" class="hdrTopRightLink" onmouseover="this.style.color='#57068c'" onmouseout="this.style.color='#333333'">About NYU Press</a></td>
+												
+														<td style="padding-right:10px;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/affiliates.aspx" style="color:#333333;" class="hdrTopRightLink" onmouseover="this.style.color='#57068c'" onmouseout="this.style.color='#333333'"><b>Our Affiliates</b></a></td>
+														
+														<td style="padding-right:10px;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/contact/jobs.aspx" style="color:#333333;" class="hdrTopRightLink" onmouseover="this.style.color='#57068c'" onmouseout="this.style.color='#333333'"><b>Jobs</b></a></td>
+														
+														<td style="padding-right:5px;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/site-map.aspx" style="color:#333333;" class="hdrTopRightLink" onmouseover="this.style.color='#57068c'" onmouseout="this.style.color='#333333'"><b>Sitemap</b></a></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+										<tr>
+											<td>
+												<table cellpadding="0" cellspacing="0" border="0" style="padding-top:5px;">
+													<tr>
+														<!--<td style="padding-right:5px;"><a href="/login.aspx" onMouseOver="swap('imgLogin', true);" onMouseOut="swap('imgLogin', false);"><img src="/lib/images/btnLogin.png" border="0" name="imgLogin" id="imgLogin"></a></td>-->
+														
+														<td style="padding-right:6px;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/shopping-cart/shopping-cart.aspx" onmouseover="swap('imgViewCart', true);" onmouseout="swap('imgViewCart', false);"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/btnViewCart.png" border="0" name="imgViewCart" id="imgViewCart"></a></td>
+														
+														<td><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/shopping-cart/check-out.aspx" onmouseover="swap('imgCheckOut', true);" onmouseout="swap('imgCheckOut', false);"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/btnCheckout.png" border="0" name="imgCheckOut" id="imgCheckOut"></a></td>
+													</tr>
+												</table>
+											</td>											
+										</tr>
+									</table>
+								</td>
+							</tr>
+							
+							<tr valign="bottom">
+								<td>
+									<div style="position:relative;">
+									<table cellpadding="0" cellspacing="0" border="0">										
+										<tr>											
+											<td>
+												<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/search.aspx" onmouseover="swap('imgBooks', true);" onmouseout="swap('imgBooks', false);"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/navBtnBooks.png" border="0" name="imgBooks" id="imgBooks"></a>
+												<div id="divBooksOn" name="divBooksOn" onmouseover="showDiv(true, 'books');" onmouseout="showDiv(false, 'books');" style="position:absolute;background-color:#EEEEEE;z-index:150;width:193px;height:103px;top:72px;display:none;border-width:3px;border-color:#57068C;border-style:solid;">
+													<br>&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/subjects.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Subjects</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:175px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/series.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Series</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:175px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/sales.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Sales</a>
+												</div>
+											</td>
+											
+											
+											<td>
+												<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/partners/partners.aspx" onmouseover="swap('imgPartners', true);" onmouseout="swap('imgPartners', false);"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/navBtnPartners.png" border="0" name="imgPartners" id="imgPartners"></a>
+												<div id="divPartnersOn" name="divPartnersOn" onmouseover="showDiv(true, 'partners');" onmouseout="showDiv(false, 'partners');" style="position:absolute;background-color:#EEEEEE;z-index:150;width:250px;height:170px;top:72px;display:none;border-width:3px;border-color:#57068C;border-style:solid;">
+													<br>&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/partners/american-literatures-initiative.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">American Literatures Initiative</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:230px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/partners/early-american-places.aspx" target="new" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Early American Places</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:230px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/partners/SSRC.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">SSRC</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:230px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/partners/library-arabic-literature.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Library of Arabic Literature</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:230px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/partners/clay-sanskrit-library.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Clay Sanskrit Library</a>
+												</div>
+											</td>
+											
+											<td>
+												<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/news-events/news-events.aspx" onmouseover="swap('imgNews', true);" onmouseout="swap('imgNews', false);"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/navBtnNews.png" border="0" name="imgNews" id="imgNews"></a>
+												<div id="divNewsOn" name="divNewsOn" onmouseover="showDiv(true, 'news');" onmouseout="showDiv(false, 'news');" style="position:absolute;background-color:#EEEEEE;z-index:150;width:193px;height:170px;top:72px;display:none;border-width:3px;border-color:#57068C;border-style:solid;">
+													<br>&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/news-events/news-events.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">News &amp; Events</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:175px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://www.fromthesquare.org/" target="new" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Blog</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:175px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/news-events/events.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Events</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:175px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/news-events/awards.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Awards</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:175px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/news-events/conferences.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Conferences</a>
+												</div>
+											</td>
+											
+											
+											<td><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/for-authors.aspx" onmouseover="swap('imgAuthors', true);" onmouseout="swap('imgAuthors', false);"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/navBtnAuthors.png" border="0" name="imgAuthors" id="imgAuthors"></a></td>
+											
+											<td>
+												<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/contact/contact.aspx" onmouseover="swap('imgContact', true);" onmouseout="swap('imgContact', false);"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/navBtnContact.png" border="0" name="imgContact" id="imgContact"></a>
+												<div id="divContactOn" name="divContactOn" onmouseover="showDiv(true, 'contact');" onmouseout="showDiv(false, 'contact');" style="position:absolute;background-color:#EEEEEE;z-index:150;width:193px;height:200px;top:72px;display:none;border-width:3px;border-color:#57068C;border-style:solid;">
+													<br>&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/contact/contact.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Contact Us</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:175px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/contact/permissions.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Permissions</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:175px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/contact/reviews-media.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Reviews/Media</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:175px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/contact/customer-service.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Customer Service</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:175px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/contact/jobs.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Jobs</a>
+													&nbsp;&nbsp;&nbsp;<hr style="color:#bbbbbb;background-color:#bbbbbb;height:2px;width:175px">
+													&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20110820165207/http://nyupress.org/contact/exam-copy.aspx" style="font-size:13.66px;color:#555555;font-weight:bold;" onmouseover="this.style.color='#cc0000'" onmouseout="this.style.color='#555555'">Exam Copies</a>
+												</div>
+											</td>
+										</tr>
+									</table>									
+									</div>
+								</td>
+								
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0" style="padding-bottom:12px;">
+										<tr>
+											<td align="right" colspan="2" style="padding-right:7px;padding-bottom:5px;"><!--<a href="#" class="hdrTopRightLink">Advanced Search&nbsp;<img src="/lib/images/btnArrowSmall.png" border="0"></a>--></td>
+										</tr>
+										
+										<tr valign="top">
+											<td style="padding-right:10px;"><input name="ctl00$tbSearch" type="text" value="Search by Title, Author, or ISBN" id="ctl00_tbSearch" onfocus="DoFocus(this)" style="width:400px;background-color:#eeeeee;height:32px;"/></td>
+											
+											<td style="padding-left:5px;"><input type="image" name="ctl00$btnSearch" id="ctl00_btnSearch" text="Search" src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/btnArrow.png" border="0"/></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				
+				<tr valign="top">
+					<td style="width:650px;" valign="top">
+						<table cellpadding="0" cellspacing="0" border="0" style="width:616px;padding-right:40px;">
+							<tr valign="top">
+								<td>
+									<div id="divMainContent">
+										
+	<script>
+		setButton("imgBooks");
+	</script>
+
+	<input type="hidden" name="pageNavId" id="pageNavId" value="books"/>
+	<script>		
+		function searchKeyPress(e)
+        {
+			if (window.event) { e = window.event; }
+			if (e.keyCode == 13)
+			{
+				document.getElementById('ctl00_cphMain_btnGoogle').click();
+			}
+        }
+
+	
+		function setPage(row, button){				
+			var trDescription = document.getElementById("trDescription");
+			var trAuthors = document.getElementById("trAuthors");
+			var trReviews = document.getElementById("trReviews");
+			var trAudioVideo = document.getElementById("trAudioVideo");
+			var trEvents = document.getElementById("trEvents");
+			
+			trDescription.style.display = "none";
+			trAuthors.style.display = "none";
+			trReviews.style.display = "none";
+			trAudioVideo.style.display = "none";
+			trEvents.style.display = "none";
+			
+			var trSet = document.getElementById(row);
+			trSet.style.display = "";
+			
+			var hdPage = document.getElementById("hdPage");
+			hdPage.value = button;			
+			
+			var imgDescription = document.getElementById("imgDescription");
+			var imgBookAuthors = document.getElementById("imgBookAuthors");
+			var imgReviews = document.getElementById("imgReviews");
+			var imgAudioVideo = document.getElementById("imgAudioVideo");
+			var imgEvents = document.getElementById("imgEvents");
+			
+			imgDescription.src = "/lib/images/navSecDescription.png";
+			imgBookAuthors.src = "/lib/images/navSecAuthor.png";
+			imgReviews.src = "/lib/images/navSecReviews.png";
+			imgAudioVideo.src = "/lib/images/navSecAudioVideo.png";
+			imgEvents.src = "/lib/images/navSecEvents.png";
+			
+			var img = document.getElementById(button);
+			
+			switch(button){					
+				case "imgDescription":
+					img.src = "/lib/images/navSecDescriptionOn.png";
+					break;
+					
+				case "imgBookAuthors":
+					img.src = "/lib/images/navSecAuthorOn.png";
+
+					break;
+					
+				case "imgReviews":
+					img.src = "/lib/images/navSecReviewsOn.png";
+
+					break;
+					
+				case "imgAudioVideo":
+					img.src = "/lib/images/navSecAudioVideoOn.png";
+
+					break;
+
+				default:
+					img.src = "/lib/images/navSecEventsOn.png";
+
+					break;
+			}			
+		}
+		
+		function swapDetails(button, on){
+		
+			var hdPage = document.getElementById("hdPage");
+		
+			var img = document.getElementById(button);
+			switch(button){					
+				case "imgDescription":				
+					if(hdPage.value != button){					
+						if(on == true)
+							img.src = "/lib/images/navSecDescriptionOn.png";
+						else
+							img.src = "/lib/images/navSecDescription.png";
+					}
+					break;
+					
+				case "imgBookAuthors":
+					if(hdPage.value != button){
+						if(on == true)
+							img.src = "/lib/images/navSecAuthorOn.png";
+						else
+							img.src = "/lib/images/navSecAuthor.png";
+					}
+					break;
+					
+				case "imgReviews":
+					if(hdPage.value != button){
+						if(on == true)
+							img.src = "/lib/images/navSecReviewsOn.png";
+						else
+							img.src = "/lib/images/navSecReviews.png";
+					}
+					break;
+					
+				case "imgAudioVideo":
+					if(hdPage.value != button){
+						if(on == true)
+							img.src = "/lib/images/navSecAudioVideoOn.png";
+						else
+							img.src = "/lib/images/navSecAudioVideo.png";
+					}
+					break;
+					
+				case "imgEvents":
+					if(hdPage.value != button){
+						if(on == true)
+							img.src = "/lib/images/navSecEventsOn.png";
+						else
+							img.src = "/lib/images/navSecEvents.png";
+					}
+					break;
+
+				default:
+						img = document.getElementById("ctl00_cphMain_btnBuy");
+						
+						if(on == true)
+							img.src = "/lib/images/btnBuyOn.png";
+						else
+							img.src = "/lib/images/btnBuy.png";
+					break;
+			}
+		}
+	</script>
+
+	
+	<input type="hidden" id="hdPage" name="hdPage" value="imgDescription"/>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr><td>&nbsp;</td></tr>		
+		<tr>
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr valign="top">
+						<td style="padding-right:10px;">
+							<table border="0" cellpadding="0" cellspacing="0">	
+								<tr id="ctl00_cphMain_trBookImage">
+	<td><left><img src="http://web.archive.org/web/20110820165207im_/http://nyuconnexus.seisan.com/uploads/products/9780814727874/9780814727874_Full.jpg" style="border: 1px solid #808080; max-width:200px;"/></left></td>
+</tr>
+
+								
+								<tr valign="bottom">
+									<td style="padding-right:10px;"><input name="ctl00$cphMain$tbInsideSearch" type="text" value="Search Inside the Book" id="ctl00_cphMain_tbInsideSearch" tabindex="1" onfocus="DoFocus(this);" onkeypress="searchKeyPress(event);" style="width:200px;background-color:#eeeeee;height:30px;"/></td>
+									
+									<td><input type="image" name="ctl00$cphMain$btnGoogle" id="ctl00_cphMain_btnGoogle" tabindex="2" src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/btnArrowMiddle.png" border="0"/></td>
+								</tr>
+								
+								<tr>
+									<td colspan="2"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/google.png"/></td>
+								</tr>
+							</table>
+						</td>
+						
+						<td>
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<td colspan="2" style="font-size:21.86px;color:#333333;font-family:arial;font-weight:bold;"><span id="ctl00_cphMain_lblTitle"> Planned Obsolescence</span></td>
+								</tr>
+								
+								<tr>
+									<td colspan="2" style="font-size:16.4px;color:#333333;font-family:arial;font-weight:bold;"><span id="ctl00_cphMain_lblSubtitle">Publishing, Technology, and the Future of the Academy</span></td>
+								</tr>
+								
+								<tr>
+									<td colspan="2" style="font-size:14.58px;color:#57068c;font-family:arial;font-weight:bold;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/authors.aspx?authorID=2534"> Kathleen Fitzpatrick</a></td>
+								</tr>
+								
+								<tr><td colspan="2" colspan="2">&nbsp;</td></tr>
+								
+								<tr>
+									<td colspan="2" style="font-size:13.66px;color:#666666;font-family:arial;"><span id="ctl00_cphMain_lblPages">256</span> pages</td>
+								</tr>
+								
+								<tr>
+									<td colspan="2" style="font-size:13.66px;color:#666666;font-family:arial;"><span id="ctl00_cphMain_lblIllustrations"></span></td>
+								</tr>
+								
+								<tr>
+									<td colspan="2" colspan="2" style="font-size:13.66px;color:#666666;font-family:arial;"><span id="ctl00_cphMain_lblPubDate">November, 2011</span></td>
+								</tr>
+								
+								<tr>
+									<td colspan="2" style="font-size:13.66px;color:#666666;font-family:arial;">ISBN: <span id="ctl00_cphMain_lblISBN">9780814727874</span></td>
+								</tr>
+								
+								<tr><td colspan="2">&nbsp;</td></tr>
+								
+								<tr>
+									<td colspan="2" style="font-size:11.58px;color:#57068c;font-family:arial;font-weight:bold;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/books/&lt;br&#32;/&gt;" target="new">Introduction</a></td>
+								</tr>
+								
+								<tr>
+									<td colspan="2" style="font-size:11.58px;color:#57068c;font-family:arial;font-weight:bold;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/books/&lt;br&#32;/&gt;" target="new">Table of Contents</a></td>
+								</tr>
+								
+								<tr><td colspan="2">&nbsp;</td></tr>
+								
+								<tr>
+									<td colspan="2">
+										<span style="font-size:21.86px;color:#333333;font-family:arial;font-weight:bold;"><span id="ctl00_cphMain_lblPriceWas"></span>$<span id="ctl00_cphMain_lblPrice">75.00</span></span> <span style="font-size:13.66px;color:#666666;font-family:arial;"><span id="ctl00_cphMain_lblBinding">Cloth</span></span>
+									</td>
+								</tr>
+								
+								<tr>
+									<td colspan="2">
+										<span id="ctl00_cphMain_lblBindingsAvailable"><span style="font-size:13.66px;color:#666666;font-family:arial;">also available in</span> <a href="http://web.archive.org/web/20110820165207/http://nyupress.org/books/book-details.aspx?bookId=5008" style="font-size:13.66px;color:#57068c;font-family:arial;text-decoration:none;font-weight:bold;">Paper</a></span>
+									</td>
+								</tr>
+								
+								<tr>
+									<td colspan="2">
+										<span style="font-size:13.66px;color:#666666;font-family:arial;">click here for</span> <a id="ctl00_cphMain_btnExamCopy" href="javascript:__doPostBack('ctl00$cphMain$btnExamCopy','')" style="text-decoration:none;"><span style="font-size:13.66px;color:#57068c;font-family:arial;text-decoration:none;font-weight:bold;">exam copies</span></a>
+										<!--<span style="font-size:13.66px;color:#666666;font-family:arial;">&nbsp;and</span> <a href="#" style="font-size:13.66px;color:#57068c;font-family:arial;text-decoration:none;font-weight:bold;">permissions rights</a>--->
+									</td>
+								</tr>
+								
+								<tr><td>&nbsp;</td></tr>
+								
+								<tr>
+									<td style="padding-right:15px;">
+										<input type="image" name="ctl00$cphMain$btnBuy" id="ctl00_cphMain_btnBuy" onmouseover="swapDetails('imgBuy', true);" onmouseout="swapDetails('imgBuy', false);" text="Buy" src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/btnBuy.png" border="0"/>
+									</td>
+									
+									<td width="100%">
+										<!--<select name="ctl00$cphMain$ddlEBook" id="ctl00_cphMain_ddlEBook" style="color:#57068c;font-size:10.93px;">
+	<option value="-1">E-book editions available</option>
+
+</select>-->
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="2"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top:solid;border-top-color:#57068c;border-top-width:4px;">
+					<tr>
+						<td style="padding-right:5px;"><a href="javascript:setPage('trDescription', 'imgDescription');" onmouseover="swapDetails('imgDescription', true);" onmouseout="swapDetails('imgDescription', false);"><img id="imgDescription" name="imgDescription" src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/navSecDescriptionOn.png" border="0"></a></td>
+						<td style="padding-right:5px;"><a href="javascript:setPage('trAuthors', 'imgBookAuthors');" onmouseover="swapDetails('imgBookAuthors', true);" onmouseout="swapDetails('imgBookAuthors', false);"><img id="imgBookAuthors" name="imgBookAuthors" src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/navSecAuthor.png" border="0"></a></td>
+						<td style="padding-right:5px;"><a href="javascript:setPage('trReviews', 'imgReviews');" onmouseover="swapDetails('imgReviews', true);" onmouseout="swapDetails('imgReviews', false);"><img id="imgReviews" name="imgReviews" src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/navSecReviews.png" border="0"></a></td>
+						<td style="padding-right:5px;"><a href="javascript:setPage('trAudioVideo', 'imgAudioVideo');" onmouseover="swapDetails('imgAudioVideo', true);" onmouseout="swapDetails('imgAudioVideo', false);"><img id="imgAudioVideo" name="imgAudioVideo" src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/navSecAudioVideo.png" border="0"></a></td>
+						<td width="100%"><a href="javascript:setPage('trEvents', 'imgEvents');" onmouseover="swapDetails('imgEvents', true);" onmouseout="swapDetails('imgEvents', false);"><img id="imgEvents" name="imgEvents" src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/navSecEvents.png" border="0"></a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr><td colspan="2">&nbsp;</td></tr>
+		
+		<tr id="trDescription">
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">			
+					<tr id="ctl00_cphMain_trSubjects">
+	<td><span style="font-size:13.66px;color:#333333;font-family:arial;font-weight:bold;">Subjects:</span>&nbsp;<span style="font-size:13.66px;color:#57068c;font-family:arial;font-weight:bold;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/subjects.aspx?subjectId=26&amp;bookId=4998">Media Studies</a>, <a href="http://web.archive.org/web/20110820165207/http://nyupress.org/subjects.aspx?subjectId=57&amp;bookId=4998">Science &amp; Technology</a>, <a href="http://web.archive.org/web/20110820165207/http://nyupress.org/subjects.aspx?subjectId=24&amp;bookId=4998">Cultural Studies</a></span></td>
+</tr>
+
+					
+					
+					
+					<!--
+					<tr><td>&nbsp;</td></tr>
+					
+					<tr>
+						<td></td>
+					</tr>
+					-->
+					
+					<tr><td>&nbsp;</td></tr>
+					
+					<tr>
+						<td>Academic institutions are facing a crisis in scholarly publishing at multiple levels: presses are stressed as never before, library budgets are squeezed, faculty are having difficulty publishing their work, and promotion and tenure committees are facing a range of new ways of working without a clear sense of how to understand and evaluate them.&#160; <br/><br/><span style="font-style: italic;">Planned Obsolescence</span> is both a provocation to think more broadly about the academy&#8217;s future and an argument for reconceiving that future in more communally-oriented ways. Facing these issues head-on, Kathleen Fitzpatrick focuses on the technological changes—especially greater utilization of internet publication technologies, including digital archives, social networking tools, and multimedia—necessary to allow academic publishing to thrive into the future. But she goes further, insisting that the key issues that must be addressed are social and institutional in origin.&#160;&#160; <br/><br/>Springing from original research as well as Fitzpatrick&#8217;s own hands-on experiments in new modes of scholarly communication through MediaCommons, the digital scholarly network she co-founded, <span style="font-style: italic;">Planned Obsolescence</span> explores these aspects of scholarly work, as well as issues surrounding the preservation of digital scholarship and the place of publishing within the structure of the contemporary university.&#160; Written in an approachable style designed to bring administrators and scholars into a conversation, <span style="font-style: italic;">Planned Obsolescence</span> explores both symptom and cure to ensure that scholarly communication will remain relevant in the digital future. <br/>   </td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr id="trAuthors" style="display:none;">
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+						<td><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/authors.aspx?AuthorId=2534"></a><div><strong>Kathleen Fitzpatrick</strong> is Professor of Media Studies at Pomona College and founding editor of the digital scholarly network MediaCommons. She is the author of <em>The Anxiety of Obsolescence: The American Novel in the Age of Television</em> and has blogged at Planned Obsolescence since 2002.</div><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/authors.aspx?AuthorId=2534">View all books by Kathleen Fitzpatrick</a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr id="trReviews" style="display:none;">
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					
+				</table>
+			</td>
+		</tr>
+		
+		<tr id="trAudioVideo" style="display:none;">
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+						<td><b></b></td>
+						<td></td>
+					</tr>
+					
+					<tr><td>&nbsp;</td></tr>
+					
+					<tr>
+						<td><b></b></td>
+						<td></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr id="trEvents" style="display:none;">
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					
+				</table>
+			</td>
+		</tr>
+		
+		<!--
+		<tr>
+			<td><hr class="hrSeparator"></td>
+		</tr>
+		
+		<tr>
+			<td style="height:40px;" class="tdHdrPurple">Related Titles</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td style="padding-right:5px;">
+							<table border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td>image</td>
+								</tr>
+								
+								<tr>
+									<td style="font-size:10.93px;color:#333333;font-family:arial;font-weight:bold;">title</td>
+								</tr>
+								
+								<tr>
+									<td style="font-size:10.93px;color:#999999;font-family:arial;font-weight:bold;">author</td>
+								</tr>
+							</table>
+						</td>
+						
+						<td style="padding-right:5px;">
+							<table border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td>image</td>
+								</tr>
+								
+								<tr>
+									<td style="font-size:10.93px;color:#333333;font-family:arial;font-weight:bold;">title</td>
+								</tr>
+								
+								<tr>
+									<td style="font-size:10.93px;color:#999999;font-family:arial;font-weight:bold;">author</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		-->
+	</table>
+
+									</div>
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0" width="100%">
+										<tr>
+											<td><hr class="hrSeparator"></td>
+										</tr>
+										
+										<tr>
+											<td style="font-size:10.93px;font-family:arial;">Copyright &copy; 2010 NYU Press.  All rights reserved.  <a href="http://web.archive.org/web/20110820165207/http://nyupress.org/privacy.aspx">Legal</a> &amp; <a href="http://web.archive.org/web/20110820165207/http://nyupress.org/privacy.aspx">Privacy</a>. Design by Point Five, NY.  Developed by <a href="http://web.archive.org/web/20110820165207/http://www.seisan.com/"> Seisan.</a></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>						
+					</td>
+					
+					<td style="width:260px;">
+						<table cellpadding="0" cellspacing="0" border="0" style="width:260px;">
+							<tr>
+								<td><table class="tblSideBar" border="0" cellpadding="0" cellspacing="0"><tr><td><table style="font-weight:bold;font-size:13.66px;font-family:Arial;padding-left:5px;padding-right:5px;" width="100%"><tr><td style="height:30px;color:#cc0000;border-bottom:solid;border-bottom-color:#ffffff;border-bottom-width:2px;">Quick Links</td></tr><tr><td style="height:30px;border-bottom:solid;border-bottom-color:#ffffff;border-bottom-width:2px;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/for-authors.aspx" style="color:#555555;text-decoration:none;">Author Guidelines</a></td></tr><tr><td style="height:30px;border-bottom:solid;border-bottom-color:#ffffff;border-bottom-width:2px;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/contact/exam-copy.aspx" style="color:#555555;text-decoration:none;">Exam Copy Requests</a></td></tr><tr><td style="height:30px;"><a href="http://web.archive.org/web/20110820165207/http://nyupress.org/series.aspx" style="color:#555555;text-decoration:none;">Books in Series</a></td></tr></table></td></tr><tr><td><hr style="color:#bbbbbb;background-color:#bbbbbb;height:5px;"></td></tr><tr><td><table border="0" style="font-family:Arial;font-weight:bold;font-size:13.66px;padding-left:5px;padding-right:5px;" width="100%"><tr><td colspan="2" style="height:30px;color:#cc0000;border-bottom:solid;border-bottom-color:#bbbbbb;border-bottom-width:2px;" width="100%">Subscribe to Our e-Newsletter</td></tr><tr><td style="padding-top:8px;"><input name="ctl00$ucSideBar$tbNewsletterEmail" type="text" id="ctl00_ucSideBar_tbNewsletterEmail" onfocus="DoFocus(this)" value="Email Address" style="width:195px;font-size:13.66px;color:#57068c"/></td><td style="padding-top:8px;" align="left" width="100%"><input type="image" name="ctl00$ucSideBar$btnSideSubscribe" id="ctl00_ucSideBar_btnSideSubscribe" text="Subscribe" src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/btnArrowMiddle.png" border="0"/></td></tr></table></td></tr><tr><td><hr style="color:#bbbbbb;background-color:#bbbbbb;height:5px;"></td></tr><tr><td><table border="0" style="font-size:12.75px;color:#555555;font-family:Arial;padding-left:5px;padding-right:5px;" width="100%" <tr><td width="100%"><a href="http://web.archive.org/web/20110820165207/http://www.fromthesquare.org/" target="new"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/SQ.png" border="0"></a></td></tr></table></td></tr><tr><td><hr style="color:#bbbbbb;background-color:#bbbbbb;height:5px;"></td></tr><tr><td><table border="0" style="font-size:10.93px;color:#333333;font-family:Arial;padding-left:5px;padding-right:5px;" width="100%" <tr><td style="height:30px;font-weight:bold;font-size:13.66px;font-family:Arial;color:#cc0000;" width="100%">Recently on Twitter</td></tr><tr><td><br><script src="http://web.archive.org/web/20110820165207js_/http://widgets.twimg.com/j/2/widget.js"></script><script>new TWTR.Widget({version: 2,type: 'profile',rpp: 4,interval: 6000,width:250,height: 300,theme: {shell: {background: '#333333',color: '#ffffff'},tweets: {background: '#eeeeee',color: '#666666;',links: '#57068c'}},features: {scrollbar: false,loop: false,live: false,hashtags: true,timestamp: true,avatars: false,behavior: 'all'}}).render().setUser('nyupress').start();</script></td></tr></table></td></tr><tr><td><hr style="color:#bbbbbb;background-color:#bbbbbb;height:5px;"></td></tr><tr><td><table style="padding-left:5px;padding-right:5px;" width="100%"><tr><td colspan="2" style="font-weight:bold;font-size:13.66px;font-family:Arial;height:30px;color:#cc0000;border-bottom:solid;border-bottom-color:#bbbbbb;border-bottom-width:2px;">Follow NYU Press</td></tr><tr><td><a href="http://web.archive.org/web/20110820165207/http://www.facebook.com/fromthesquare" target="new"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/iconFacebook.png" border="0"></a></td><td width="100%"><a href="http://web.archive.org/web/20110820165207/http://twitter.com/nyupress" target="new"><img src="http://web.archive.org/web/20110820165207im_/http://nyupress.org/lib/images/iconTwitter.png" border="0"></a></td></tr></table></td></tr></table>
+</td>
+							</tr>							
+						</table>
+					</td>
+				</tr>
+				
+				<tr><td colspan="2">&nbsp;</td></tr>
+			</table>			
+		</form>
+	</body>
+	
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-3240623-1']);
+	  _gaq.push(['_setDomainName', '.nyupress.org']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'http://web.archive.org/web/20110820165207/https://ssl/' : 'http://web.archive.org/web/20110820165207/http://www/') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>	
+</html><!--
+     FILE ARCHIVED ON 16:52:07 Aug 20, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:20:02 Apr 11, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  LoadShardBlock: 299.968 (3)
+  esindex: 0.01
+  captures_list: 317.251
+  CDXLines.iter: 11.1 (3)
+  PetaboxLoader3.datanode: 197.186 (4)
+  exclusion.robots: 0.334
+  exclusion.robots.policy: 0.284
+  RedisCDXSource: 1.892
+  PetaboxLoader3.resolve: 41.226
+  load_resource: 90.592
+-->

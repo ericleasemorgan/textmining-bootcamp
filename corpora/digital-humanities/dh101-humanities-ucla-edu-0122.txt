@@ -1,0 +1,300 @@
+
+
+	
+		
+			Introduction to Digital Humanities
+
+			Concepts, Methods, and Tutorials for Students and Instructors
+
+		
+
+		
+			Menu
+			Skip to content
+				About
+	Credits
+	Contact & Feedback
+
+
+
+	1. Concepts & Readings
+	1A. Introduction
+	1B. Analysis of DH Projects
+	2A. HTML and Structured Data
+	2B. Classification Systems
+	3A. Ontologies and Metadata
+	3B. Data and Databases
+	4A. Database and Narrative
+	4B. Visualization
+	5A. Visualization (Continued)
+	5B. Data Mining and Text Analysis
+	6A. Text Encoding: Mark-up and TEI
+	6B. Distant Reading and Cultural Analytics
+	7A. Network Analysis
+	8A. GIS Analysis and Critical Issues
+	8B. Interface Theory and Practice
+	9A. Interface and Narrative
+	9B. Modelling Virtual Space
+	10A. Critical Issues
+	10B. Summary Issues
+
+
+
+	2. Tutorials
+	Exhibits
+		Omeka
+
+
+
+	Managing Data
+	Data Visualization
+		Tableau Public
+	Cytoscape
+
+
+
+	Text Analysis
+		ManyEyes
+	Voyant
+	WordSmith
+
+
+
+	Maps & Timelines
+		Neatline
+	GeoCommons
+
+
+
+	Wireframing
+	HTML & CSS
+
+
+
+	3. Student Projects
+	Final Project Description
+	Final Project Evaluation
+	Studio/Lab Schedule
+	Fall/2012
+	Case Study: Superficial Diversity on Abbot Kinney Blvd.
+	Case Study: Baltimore Signs Project
+	Case Study: The Triumphs and Pitfalls of Data Visualization as Narrative
+
+
+
+	4. Advanced Topics
+	GIS and Digital Mapping
+
+
+
+
+
+		
+
+			
+
+	
+	
+		
+
+							
+	
+		
+												1A. Introduction
+
+		
+
+		
+			(JDrucker 9/2013)
+
+Digital humanities is work at the intersection of digital technology and humanities disciplines. The term humanities was first used in the Renaissance by Italian scholars involved in the study (and recovery) of works of classical antiquity. The term emphasizes the shift from a medieval theo-centric world-view, to one in which “man [sic] is the measure of all things.” The humanities are the disciplines that focus on the arts, literature, music, dance, theater, architecture, philosophy, and other expressions of human culture. But what does the adjective “digital” refer to? And what are the implications of the term for work being done under this rubric?
+
+Since all acts of digitization are acts of remediation, understanding the identity of binary code, digital file formats, the migration of analogue materials, and the character of born-digital materials is essential to understanding digital environments. Networked conditions of exchange play another role in the development of digital humanities (and other digital) projects. Standards and practices established by communities form another crucial component of the technical infrastructure embodies cultural values.
+
+Common myths about the digital environment are that it is stable, even archival (e.g. permanent) and that it is “immaterial” (e.g. not instantiated in analogue reality). Every actual engagement with digital technology demonstrates the opposite.
+
+While binary code underpins all digital activity at the level of electrical circuits, the operation of digital environments depends on the ability of that code encode other symbolic systems. In other words, not code “in-itself” as 1’s and 0’s, but code in its capacity to encode instructions and information, is what makes computation so powerful. Computation is infinitely more powerful that calculation, which is simple mathematics (no matter how complex or sophisticate). Computation involves the manipulation of symbols through their representation in binary code. The possibilities are infinite. The benefits of being able to encode information, knowledge, artifacts, an other materials in digital format is always in tension with the liabilities—the loss of information from an analogue object, or, in the case of a born-digital artifact, its fragility to migration and upgrade.
+
+Activities
+
+a. Assessment instrument — please fill out terms you know and indicate those unfamiliar to you. You do NOT have to sign these. You’ll see the same sheet at the end of the quarter.
+
+b. Class structure, assignments, goals, outcomes . Topics: syllabus . Brief history/overview,  counting, sorting,  encoding, classifying, structuring,  repository building,  analysis, mining, display, remediation,  modelling
+
+c. Here is a list of digital humanities projects of various kinds which we will use as common points of reference throughout the course:
+
+1) Brain Pickings: http://www.brainpickings.org/index.php/2011/08/12/digital-humanities-7-important-digitization-projects/ 
+
+Projects: Republic of Letters, London, Darwin’s Library, Newton, Salem,  NYPL, Quixote
+
+2) Walt Whitman Archive: http://www.whitmanarchive.org/
+
+3) Roman Forum Project: http://dlib.etc.ucla.edu/projects/Forum
+
+4) Women Writers Project: http://www.wwp.brown.edu/
+
+5) Encyclopedia of Chicago: http://www.encyclopedia.chicagohistory.org/
+
+See also: http://commons.gc.cuny.edu/wiki/index.php/Sample_Projects
+
+http://digitalhumanitiesnow.org/category/featured/page/10/
+
+d. Some concepts/site with which to be familiar:
+
+Turing machines: http://plato.stanford.edu/entries/turing-machine/
+
+Turning machine simulator: http://morphett.info/turing/turing.html
+
+Binary code: http://www.theproblemsite.com/codes/binary.asp
+
+History of computing: http://www.computerhistory.org/timeline/
+
+Takeaway
+
+What is “digital” and what is “humanities”?
+
+Every act of moving humanistic material into digital formats is a mediation and/or a remediation into code with benefits and liabilities that arise from making “information” tractable in digital media.
+
+Readings for 1B:
+
+Dave Berry, “The Computational Turn,” Introduction
+
+www.culturemachine.net/index.php/cm/article/…/440/470‎
+
+Michael Kramer, “What Does Digital Humanities bring to the Table?”
+
+http://www.michaeljkramer.net/issuesindigitalhistory/blog/?p=862
+
+Alan Liu, “The State of the Digital Humanities”
+
+http://liu.english.ucsb.edu/the-state-of-the-digital-humanities-a-report-and-a-critique/
+
+ http://liu.english.ucsb.edu/the-meaning-of-the-digital-humanities/
+
+Study questions for 1B, answer ONE in one paragraph or page:
+
+	Relate Michael Kramer’s discussion of “evidence” and “argument” to a specific digital humanities project.
+	How is the “computational turn” described by Dave Berry evident in specific digital humanities projects?
+
+
+ 
+
+
+
+Copyright © 2014 - All Rights Reserved
+
+
+					
+
+		
+					
+	
+							
+		
+
+	
+
+
+
+			
+			
+				
+					Search for:
+					
+					
+				
+
+			
+Site Map
+			1. Concepts & Readings
+	1A. Introduction
+	1B. Analysis of DH Projects
+	2A. HTML and Structured Data
+	2B. Classification Systems
+	3A. Ontologies and Metadata
+	3B. Data and Databases
+	4A. Database and Narrative
+	4B. Visualization
+	5A. Visualization (Continued)
+	5B. Data Mining and Text Analysis
+	6A. Text Encoding: Mark-up and TEI
+	6B. Distant Reading and Cultural Analytics
+	7A. Network Analysis
+	8A. GIS Analysis and Critical Issues
+	8B. Interface Theory and Practice
+	9A. Interface and Narrative
+	9B. Modelling Virtual Space
+	10B. Summary Issues
+	10A. Critical Issues
+
+
+
+	2. Tutorials
+	Data Visualization
+		Cytoscape
+	Tableau Public
+
+
+
+	Exhibits
+		Omeka
+
+
+
+	HTML & CSS
+	Managing Data
+	Maps & Timelines
+		GeoCommons
+	Neatline
+
+
+
+	Text Analysis
+		ManyEyes
+	Voyant
+	WordSmith
+
+
+
+	Wireframing
+
+
+
+	3. Student Projects
+	Case Study: Baltimore Signs Project
+	Case Study: Superficial Diversity on Abbot Kinney Blvd.
+	Case Study: The Triumphs and Pitfalls of Data Visualization as Narrative
+	Fall/2012
+	Final Project Description
+	Final Project Evaluation
+	Studio/Lab Schedule
+
+
+
+	4. Advanced Topics
+	GIS and Digital Mapping
+
+
+
+	Contact & Feedback
+	Credits
+
+
+					[image: ] 
+Click above for a PDF download of the DH101 Course Book.
+
+				
+
+		
+
+	
+		
+						Proudly powered by WordPress
+		
+
+	
+
+
+
+
+

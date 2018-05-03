@@ -1,0 +1,22 @@
+Webliography
+============
+
+  * “AntConc.” Accessed March 17, 2018. http://www.laurenceanthony.net/software/antconc/.
+  * “BBEdit.” Accessed March 17, 2018. https://www.barebones.com/products/bbedit/.
+  * “DiRT Directory.” Accessed March 29, 2018. http://dirtdirectory.org/.
+  * “Distant & Scalable Reading.” Accessed March 17, 2018. http://dh.crc.nd.edu/sandbox/nlp-clients/home.html.
+  * “Finding and Preparing Text.” Accessed March 29, 2018. http://hermeneuti.ca/finding-preparing-text.
+  * “Log-Linear Part-Of-Speech Tagger.” Accessed March 17, 2018. https://nlp.stanford.edu/software/tagger.shtml.
+  * “MALLET.” Accessed March 17, 2018. http://mallet.cs.umass.edu/.
+  * “Named Entity Recognizer (NER).” Accessed March 17, 2018. https://nlp.stanford.edu/software/CRF-NER.shtml.
+  * “Natural Language Toolkit (NLTK).” Accessed March 17, 2018. http://www.nltk.org/.
+  * “Notepad++.” Accessed March 17, 2018. https://notepad-plus-plus.org/.
+  * “OpenRefine.” Accessed March 17, 2018. http://openrefine.org/.
+  * “Tableau Public.” Accessed March 17, 2018. https://public.tableau.com/s/.
+  * “Tapor Tools Prototype.” Accessed March 29, 2018. http://taporware.ualberta.ca/.
+  * “TextWrangler.” Accessed March 17, 2018. https://www.barebones.com/products/textwrangler/.
+  * “Tika.” Accessed March 17, 2018. http://tika.apache.org/.
+  * “Topic-Modeling-Tool.” Accessed March 20, 2018. https://github.com/senderle/topic-modeling-tool.
+  * “Voyant Facts.” Accessed March 29, 2018. http://hermeneuti.ca/node/16.
+  * “Voyant Tools.” Accessed March 17, 2018. http://voyant-tools.org/.
+

@@ -1,0 +1,1522 @@
+
+[The following is the full text of an essay published in differences 25.1 (2014) 
+
+as part of a special issue entitled In the Shadows of the Digital Humanities 
+
+edited by Ellen Rooney and Elizabeth Weed. Duke UP’s publishing 
+
+agreements allow authors to post the final version of their own work, but 
+
+not using the publisher’s PDF. The essay as you see it here is thus a PDF 
+
+that I created and formatted myself from the copy edited file I received 
+
+from the press; subscribers, of course, can also read it in the press’s 
+
+published form direct from the Duke UP site.  
+
+Other than accidentals of formatting and pagination this text should not 
+
+differ from the published one in any way. If there are discrepancies they 
+
+are likely the result of final copy edits just before printing—I’d appreciate 
+
+having them pointed out. These and other comments can be sent to 
+
+mgk@umd.edu. This article is copyright © 2014 Duke University Press.] 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+What Is “Digital Humanities,” and Why Are They Saying Such 
+
+Terrible Things about It? 
+
+Matthew Kirschenbaum 
+
+University of Maryland 
+
+I. 
+
+In the midst of the 2009 MLA Convention, Chronicle of Higher Education 
+
+blogger William Pannapacker wrote, “Amid all the doom and gloom [. . .] 
+
+one field seems to be alive and well: the digital humanities.  More than that: 
+
+Among all the contending subfields, the digital humanities seem like the first 
+
+‘next big thing’ in a long time, because the implications of digital technology 
+
+affect every field.”  Two years later Pannapacker titled his MLA Chronicle 
+
+column with the seemingly unnecessary interrogative “Digital Humanities 
+
+Triumphant?”    But would that more in life were so predictable as an 
+
+academic dialectic: in 2013, Pannapacker’s by-now anticipated convention 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+2 
+
+coverage centered on “The Dark Side of the Digital Humanities,” the special 
+
+session event from which this journal issue is derived. 
+
+I was not a participant on the panel, but I was in the crowded ballroom at the 
+
+Boston Sheraton.  The mood beforehand was festive, not contentious.  
+
+Everyone was expecting a good show from the A-list speakers assembled.  
+
+From somewhere up front the strains of the Star Wars Imperial March, made 
+
+tinny by a laptop speaker, were accompanied by scattered laughter.  
+
+Nonetheless, the issues raised and the charges leveled were of the most 
+
+serious order.  Richard Grusin, who had convened the session, built toward 
+
+an arresting summation: “I would assert that it is no coincidence that the 
+
+digital humanities has emerged as ‘the next big thing’ at the same moment 
+
+that the neoliberalization and corporatization of higher education has 
+
+intensified in the first decades of the twenty-first century.” 
+
+This short essay is not intended as a defense of digital humanities, not least 
+
+because I don’t think I disagree with Grusin, at least insofar as his 
+
+articulation of the institutional environment that surrounds digital humanities 
+
+is concerned.  (I work in a university too, I have eyes, I have ears.)  Yet next 
+
+big thing or no, when it comes to digital humanities we are still only ever 
+
+talking about someone’s or several someones’ work, the errors and 
+
+limitations of which, whatever they may be in their particulars, should require 
+
+no special forum or occasion for airing.  So let me say it at the outset: 
+
+everything produced by digital humanities—and I do mean every thing, every 
+
+written, scripted, coded, or fabricated thing—in whatever its guise or form, 
+
+medium or format, may be subject to criticism and critique on the basis of its 
+
+methods, assumptions, expressions, and outcomes.  All of that is completely 
+
+normative and part of the routine conduct of academic disciplines. 
+
+Yet in the last couple of years events that are not normative or routine have 
+
+occurred, and it is those events that we are addressing with this special 
+
+journal issue and that were addressed at the MLA special session.  These 
+
+events, I would maintain, concern not the papers, projects, and other 
+
+material pursuits of digital humanities—not the things of the digital 
+
+humanities—but rather the advent of a construct of a “digital humanities.” 
+
+Lest anyone think I am beginning with a semantic slip-slide, what I have just 
+
+asserted is not only uncontroversial, it is also unoriginal, echoing as it does 
+
+statements by the MLA session’s invited participants.  Wendy Chun, for 
+
+example, insisted: “But let me be clear, my critique is not directed at DH per se.  DH 
+
+projects have extended and renewed the humanities and revealed that the 
+
+kinds of critical thinking (close textual analysis) that the humanities have 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+3 
+
+always been engaged in is and has always been central to crafting technology 
+
+and society” (emphasis in original).  By this account, then, DH “projects” 
+
+have “extended and renewed” the humanities and have also helped 
+
+historicize its activities in ways Chun finds salutary.  Rita Raley, meanwhile, 
+
+commenting afterward on the response to the session (which unfolded in real 
+
+time on Twitter), is even more direct, noting: “[T]hough our roundtable 
+
+referred in passing to actually existing projects, collectives, and games that we 
+
+take to be affirmative and inspiring, the ‘digital humanities’ under analysis 
+
+was a discursive construction and, I should add, clearly noted as such 
+
+throughout” (my emphasis).  Whatever else we are talking about in this 
+
+special issue, then, whatever else the MLA session was addressing itself to, 
+
+and whatever else I am engaging in my contribution here, it is not the 
+
+material conduct of digital humanities or, if you prefer, “actually existing 
+
+projects,” an especially clarifying phrase to keep in mind.  It is, instead, and 
+
+still in Raley’s terms, a “discursive construction.” 
+
+I have written about the existence of such a construct before, in two previous 
+
+essays to which this, I suppose, contributes a third and final entry in an 
+
+unanticipated trilogy.  The first and most widely circulated of these, “What Is 
+
+Digital Humanities and What’s It Doing in English Departments?” began as 
+
+an assignment for a 2010 Association of Departments of English meeting 
+
+(hence the specificity of its address).  I opened it by enjoining anyone truly 
+
+interested in the first half of the titular question to Google it, or perhaps 
+
+consult Wikipedia.  At the time I was merely acting out my impatience, since 
+
+whatever else one could say about digital humanities, there had been no 
+
+shortage of writing seeking to define it and so, as I put it then, “Whoever 
+
+asks the question has not gone looking very hard for an answer.”  But my 
+
+real point wasn’t that Google or Wikipedia were the de facto authorities, but 
+
+rather that they offered convenient portals to layers of consensus that are 
+
+shaped, over time, by a community of interested persons.  In other words, 
+
+digital humanities was a construct, and the state of the construct could be more 
+
+or less effectively monitored by checking in on its self-representations in 
+
+aggregate.  (The remainder of the piece did some historical spadework, 
+
+excavating the actual origin of the term digital humanities and explaining why I 
+
+thought English departments had—again, historically—been especially 
+
+hospitable to its emergence.)  But while the essay historicizes and 
+
+characterizes DH, at no time does it actively define it; instead, in retrospect, 
+
+here is what I see as its most clearly spoken moment: 
+
+Digital humanities has also, I would propose, lately been galvanized by a group of 
+
+younger (or not so young) graduate students, faculty members (both tenure line and 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+4 
+
+contingent), and other academic professionals who now wield the label “digital 
+
+humanities” instrumentally amid an increasingly monstrous institutional terrain 
+
+defined by declining public support for higher education, rising tuitions, shrinking 
+
+endowments, the proliferation of distance education and the for-profit university, 
+
+and, underlying it all, the conversion of full-time, tenure-track academic labor to a 
+
+part-time adjunct workforce. 
+
+I don’t see this description of what I term a “monstrous” institutional terrain 
+
+differing substantially from Grusin’s view of where we are in the academy 
+
+today.  For several years thereafter, whenever asked to define digital 
+
+humanities, my response was thus to say “a term of tactical convenience.”  
+
+The contention that “DH” was usefully understood as a tactical term, then, 
+
+became the subject of the second of these two essays, a contention necessary 
+
+in order to, as I next wrote, “insist on the reality of circumstances in which it 
+
+[‘digital humanities’] is unabashedly deployed to get things done—‘things’ 
+
+that might include getting a faculty line or funding a staff position, 
+
+establishing a curriculum, revamping a lab, or launching a center” (“Digital” 
+
+415).  
+
+That second piece does some further historical work, examining in detail one 
+
+such tactical deployment of DH at one specific institution, and also, in a 
+
+separate section, attempting to delineate how “DH,” as a signifier, was 
+
+increasingly operationalized algorithmically on the network, actively 
+
+mobilized via hashtags and metadata.  This essay has been criticized by Brian 
+
+Lennon on the grounds that “tactical,” if read to follow de Certeau’s usage, 
+
+invokes an outsider position that DH can no longer (or indeed, ever) claim 
+
+the luxury of inhabiting; that DH is, rather, a strategic formation complicit 
+
+with the state, or at the very least, complicit with the aims of conniving deans 
+
+and administrators and foundation officers who are actively seeking to 
+
+dismantle the bare, ruined choirs of the professoriate.  As I previously 
+
+responded: “[F]or those of us who have [built] 
+
+centers/programs/curricula/what-have-you one proposal, one hire, one 
+
+lecture series, one grant, one server, one basement room at a time, the 
+
+institutional interiority and strategic complicity of digital humanities seems 
+
+perhaps equally unpersuasive” (Comment).  Be that as it may.  Why write a 
+
+third piece on the topic? 
+
+While questions about digital humanities did not originate with the 2013 
+
+MLA, that moment does seem to me to mark the onset of an increasingly 
+
+aggressive challenge that deserves recognition, and response.  Some elements 
+
+of that challenge, like the MLA session or this journal issue, assume 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+5 
+
+conventional shapes and forms that will be familiar to the uninitiated and 
+
+easily processed.  Others, like blog entries (perhaps with comments 
+
+appended), are also increasingly accepted as part of the space of our 
+
+conversations, a grey literature that requires only a link passed in an email or 
+
+on Facebook to access and assimilate.  Yet other maneuvers have unfolded in 
+
+more hermetic environments, largely inaccessible to outsiders, defined 
+
+especially by Twitter but more specifically by the interaction between Twitter 
+
+and other online services (including Facebook and blogs), the result being a 
+
+complex, always evolving ecology that rewards the 24/7 attention cycle.  This 
+
+particular discourse network is characterized by subtle layers of indirection 
+
+and innuendo (sometimes called “subtweets” for subliminal tweets, i.e., 
+
+oblique commentaries in which particular individuals may or may not 
+
+recognize themselves), a kind of social steganography (danah boyd’s term) 
+
+whose stratifications render individual agendas transparent to the initiated 
+
+and opaque to the neophyte.  While no one can be plugged in all the time, 
+
+for a number of the contributors to this issue, these discussions form a 
+
+normative part of their routines, an extension or facet of their critical 
+
+engagement over the course of a day as the feed refreshes and the 
+
+notifications chime.  (I pause for these details because online speech 
+
+denaturalizes the register of the discourse here; and I lay emphasis on them 
+
+to break down the dualism between the landscape of social media and 
+
+traditional venues of professional record, like a Duke University Press 
+
+journal.)  
+
+If you follow the right Twitter accounts, then, if you read the right blogs, if 
+
+you’re on the right lists, and if you’re included in the right backchannels . . . if 
+
+you do these things, you’ll be within your rights to wonder (all over again) 
+
+what digital humanities is anyway, and why on earth anyone would want it in 
+
+their English (or any other) department.   
+
+Herewith, then, are some of the terrible things of my title, hardly any of 
+
+which are exaggerated for effect: Digital humanities is a nest of big data 
+
+ideologues. Digital humanities digs MOOCs.  Digital humanities is an artifact 
+
+of the post-9/11 security and surveillance state (the NSA of the MLA).  Like 
+
+Johnny, digital humanities can’t  read.  Digital humanities doesn’t do theory.  
+
+Digital humanities never historicizes.  Digital humanities is complicit.  Digital 
+
+humanities is naive.  Digital humanities is hollow huckster boosterism.  
+
+Digital humanities is managerial.    Digital humanities is the academic import 
+
+of Silicon Valley solutionism (the term that is the shibboleth of bad-boy tech 
+
+critic Evgeny Morozov).  Digital humanities cannot abide critique.  Digital 
+
+humanities appeals to those in search of an oasis from the concerns of race, 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+6 
+
+class, gender, and sexuality.  Digital humanities does not inhale (easily the 
+
+best line of the bunch).  Digital humanities wears Google Glass.  Digital 
+
+humanities wears thick, thick glasses (guilty).  Perhaps most damning of all: 
+
+digital humanities is something separate from the rest of the humanities, 
+
+and—this is the real secret—digital humanities wants it that way.1 
+
+Terrible things indeed these are!  But while terrible can mean repugnant, the 
+
+etymology of the word (Greek treëin, “to tremble”) also encompasses that 
+
+which is terrific, by which we can mean possessed of great intensity (see also 
+
+contemporary French usage).  It is not then so inappropriate to be saying 
+
+“terrible” things about digital humanities at this particular moment, a 
+
+moment when the institutions we inhabit are indeed at the epicenter of 
+
+seismic shifts in attitude, means, and mission.  But we should be clear about 
+
+exactly what it is we are addressing with these terrible allegations: we are 
+
+(almost always) addressing and investing a construct, a construct that is 
+
+variously journalistic (note the straight line from Grusin’s MLA comments to 
+
+Pannapacker), administrative, algorithmic, and opportunistic (for which one 
+
+might read, yes, tactical).  Collectively, and above all else, it is discursive, as 
+
+Raley so astutely noted.  The very orthographic contours of “digital 
+
+humanities” have been subject to unprecedented scrutiny: not long ago, 
+
+William Germano, now Dean of Humanities and Social Sciences at Cooper-
+
+Union, pronounced upon “[t]he spectacular rise of ‘DH’ as the most 
+
+powerful digraph in the non-STEM academy.”  It is appropriate that 
+
+Germano, editor-in-chief for twenty years at Columbia University Press prior 
+
+to his Cooper-Union appointment, selects exactly the right term of art here.  
+
+The digraph “DH”—variously also dh/DH/D_H/#dh as well as 
+
+#transformdh and #dhpoco—is especially conspicuous on Twitter, where it 
+
+functions not only as economical shorthand but also, as I have noted 
+
+previously, as a hashtag—metadata—to be operationalized through search 
+
+engines, aggregators, and notification services.  The orthographic (and very 
+
+often orthogonal) tensions around digital humanities—is it the digital 
+
+humanities or just digital humanities, is it capitalized or not capitalized—are 
+
+further emblematic in this regard.  
+
+The agon par excellence of the construct is of course the question of 
+
+definition: what is digital humanities?  The insistence on the question is what 
+
+allows the construct to do its work, to function as a space of contest for 
+
+competing agendas.  But more importantly—and this is precisely where the 
+
+logic of the construct most readily reveals itself—there is no actual shortage 
+
+of definitions of digital humanities.  They are, by contrast, always latent and 
+
+very often explicit in every curriculum and program proposal, every search 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+7 
+
+committee charge and hiring brief, every grant application and book project 
+
+that sees fit to invoke the term.  The definitions may not align, indeed they 
+
+may at times prove inimical to one another.  But variegation is not the same 
+
+as absence or ineffability, and so we may conclude that the continued 
+
+insistence on definition is precisely what allows the construct to function as a 
+
+self-evident given, perpetuating itself through brute repetition and the 
+
+proliferation of localized, sometimes media-specific digraphic focalizers.  
+
+You may recall that the Construct was also the name given to the self-
+
+contained emulation of the Matrix in the Wachowskis’ films, the dojo where 
+
+Neo spars with Morpheus to hone his Kung Fu technique.  The construct in 
+
+this sense is overtly a place of ritualized (and dematerialized) contest.  This is 
+
+not incidental to the sense in which I use it here, literalizing the meaning of 
+
+the term beyond (I am sure) Raley’s intentions.  In the construct, the habitus 
+
+of social media disrupts the traditional comity of academic exchange.  Just as 
+
+Neo learns to bend—hack—the physics of his programmed reality, here one 
+
+bends collegial niceties in competition for hits, retweets, likes, and replies, the 
+
+very stuff—the Fu, in Internet parlance—of such odious reputation trackers 
+
+as Klout.  Indeed, we know that when this journal issue is published its 
+
+availability will be widely tweeted.  Brief excerpts from the essays (140 
+
+characters, remember) will circulate on Twitter.  Blog posts characterizing or 
+
+responding to the essays at greater length will appear; the essays themselves 
+
+may be uploaded to personal sites or institutional repositories by their 
+
+authors.  The authors and others will engage one another in the tweets and 
+
+blog comments.  All of this will happen over a course of days, weeks, and 
+
+months.  While the records of those responses will linger thereafter on the 
+
+Web, they will be mute remainders, mere husks, of the frisson, the serotonin- 
+
+and caffeine-fueled jags that propel real-time online exchange.  Only much 
+
+more slowly will these essays pass into the collected professional literature, 
+
+where they will be indexed, quoted, and referenced in the usual way.  This 
+
+issue on the dark side of the digital humanities is itself an artifact (an issue) of 
+
+the construct and will serve to sustain it, not least through (again) the cascade 
+
+of agonistic reductionism that will inevitably characterize those engaging it 
+
+through channels of metrical (that is, reputation-based) circulation on social 
+
+media. 
+
+Metrical, and often brutal.  Brutalism, or what some have dubbed the 
+
+rhetoric of contempt, like ex cathedra pronouncement and aphorism, is a 
+
+recognized online interactive mode, and the take-down is its consummate 
+
+expression as genre and form.  Such is in fact the signature style of Evgeny 
+
+Morozov, the caustic technology critic whose first book was titled The Net 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+8 
+
+Delusion: The Dark Side of Internet Freedom (2011).  Morozov, as much as the 
+
+dark sides of Star Wars or Pink Floyd, furnishes the referential framing for 
+
+the current debate. He enters the scene as one of the most visible and 
+
+vociferous critics of Silicon Valley, and indeed, “the Internet,” a 
+
+macroconstruct whose artifice he emphasizes by insisting on its embrace with 
+
+quotation marks.  The critique, honed on the whetstone of personal contact 
+
+and up-close immersion in the day-to-day doings of the technoratti (see, for 
+
+example, his 15,000 words on Tim O’Reilly in The Baffler), is aimed at 
+
+technological essentialism and technological determinism, and above all 
+
+idealism—what Morozov brands solutionism—which his second book, To Save 
+
+Everything Click Here, effectively demolishes.  As a break-out public 
+
+intellectual, Morozov is in his element online, cultivating an 
+
+uncompromising, acerbic persona (his Twitter bio reads simply: “There are 
+
+idiots.  Look around”).  The transposition to digital humanities by some of 
+
+his followers was predictable: DHers are themselves solutionists, pretenders 
+
+who arrive to fix the ills of the present-day academy with tools, apps, and the 
+
+rhetorical equivalent of TED talks, all driven by a naive (and duplicitous) 
+
+agenda that has its roots if not (yet) in an IPO then in the academic currency 
+
+of jobs, funding, and tenure. But this is poor critique and worse history, 
+
+suggesting, as it does, that the differences between venture capital and public 
+
+institutions are, quite literally, immaterial. Digital humanities in the United 
+
+States at least has its beginnings  not in California and not (for the most part) 
+
+on the Ivy campuses, but instead in mostly eastern land-grant institutions.  
+
+When a full documentary and archivally sound history of “digital humanities” 
+
+is written, it will have to take into account the idiosyncrasies of this particular 
+
+class of institution, and these will, I think, reveal a very different set of 
+
+contexts than Silicon Valley’s orchards, lofts, and technology parks.  
+
+Charges of brutalism and lack of civility are de facto subject to infinite 
+
+regress, for the very charges become the object of brutal ridicule, and the 
+
+cycle perpetuates.  But at some level it should be uncontroversial to observe 
+
+that many of the terrible things uttered about “digital humanities” as a 
+
+construct simply lack an elemental generosity, as if there were no critical (let 
+
+alone ethical) distinctions obtainable between data mining a corpus of 
+
+nineteenth-century fiction and data mining your telephone calling records, as 
+
+if those who “do” DH haven’t been educated in the same critical traditions 
+
+(indeed, sometimes in the same graduate programs) as their opponents, as if 
+
+those who do DH aren’t also politically committed and politically engaged, 
+
+and as if they don’t (as a result) typically find Morozov himself both amusing 
+
+and smart and profoundly uncontroversial.  (And you will not convince me 
+
+otherwise: here I unapologetically rely on my own stores of anecdote and 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+9 
+
+personal interaction, on conversations and relationships that go back in some 
+
+cases decades, to make these determinations.)  To indulge digital humanities 
+
+only ever as a construct and a site of contest is also thus to give in to a world 
+
+view that seems to me precisely neoliberal, precisely zero sum and 
+
+agonistic—disembodied, desocialized, and evacuated of materiality or 
+
+material history. 
+
+II.  
+
+I am finishing this essay in the weeks immediately following the conclusion 
+
+of the Digital Humanities 2013 conference, held in Lincoln, Nebraska.  
+
+DH13 was this year’s conference of record for the Alliance of Digital 
+
+Humanities Organizations (ADHO), first formed in 2005 as an 
+
+administrative entity shared by two scholarly associations, the predominantly 
+
+North American Association for Computing and the Humanities and the 
+
+predominantly European Association for Literary and Linguistic Computing, 
+
+which have themselves been holding joint conferences since 1989 and 
+
+individually since the early 1970s.  Today ADHO encompasses six 
+
+constituent organizations, also including the Canadian Society for Digital 
+
+Humanities / Société pour l'étude des médias interactifs (SDH-SEMI, now 
+
+SDH/SCHN), the Australasian Association for Digital Humanities  (aaDH), 
+
+centerNet: An International Network of Digital Humanities Centers, and the 
+
+Japanese Association for Digital Humanities (JADH).  I mention these 
+
+particulars to place two sets of facts before us: one, that digital humanities, 
+
+even in its current configuration (what Steve Ramsay has dubbed “DH Type 
+
+2”), has a history going back nearly a decade (and, as “humanities 
+
+computing,” much longer than that), and two, that digital humanities has 
+
+become thoroughly internationalized.  Indeed, an attendee at the 2013 
+
+conference might have heard papers such as “Uncovering the ‘Hidden 
+
+Histories’ of Computing in the Humanities 1949–1980: Findings and 
+
+Reflections on the Pilot Project” or “Authorship Problem[s] of Japanese 
+
+Early Modern Literatures in Seventeenth Century.”  Or else papers like “Are 
+
+Google’s Linguistic Prosthesis Biased toward Commercially More Interesting 
+
+Expressions? A Preliminary Study on the Linguistic Effects of 
+
+Autocompletion Algorithms” or “The Digitized Divide: Mapping Access to 
+
+Subscription-Based Digitized Resources” or “Against the Binary of Gender: 
+
+A Case for Considering the Many Dimensions of Gender in DH Teaching 
+
+and Research.”  
+
+While the conference is heavily attended by humanities faculty and graduate 
+
+students, it also includes significant representation from information studies, 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+10 
+
+computer science, and library and archives professionals, as well as the so-
+
+called alt-ac space.  Consequently, critical methods, assumptions, and 
+
+discourse networks do not always align, even within the same panel; for every 
+
+scrupulously written and carefully read paper citing Judith Butler or Bruno 
+
+Latour, there were slide decks with data sets, graphs, and bullet points. If 
+
+definition is the first great agon of the construct, inclusion and extent—
+
+who’s in, who’s out—is the second.  The stakes are obvious: when a federal 
+
+funding agency flies the flag of the digital humanities, one is incentivized to 
+
+brand their work as digital humanities.  When an R1 does a cluster hire in 
+
+digital humanities, one is incentivized to be on the market as a digital 
+
+humanist.  When a digital humanities center has institutional resources, one is 
+
+incentivized to seek to claim them by doing DH.  None of this is 
+
+disingenuous or cynical, nor can anyone who has looked in detail at the 
+
+history of academic disciplines think digital humanities is in any way 
+
+exceptional with regard to dependencies between its intellectual currency and 
+
+bottom-line ways and means. Yet we frequently ignore these institutionalized 
+
+realities in favor of an appeal to the “digital humanities” construct, as though 
+
+the construct (and not the institution) were the desired locus of our agency 
+
+and efficacy.  In fact, digital humanists are recognized in the same way as 
+
+individuals working in other fields: by doing work that is recognizable as 
+
+digital humanities.  
+
+My publishing in differences does not make me a scholar of feminist cultural 
+
+studies; were I to wish to have myself considered as such, though, I would 
+
+seek to publish in differences (and kindred venues), and I would develop my 
+
+work within a network of citations recognizable to the already active 
+
+participants who are publishing and speaking and teaching in that area with 
+
+the goal of being listened to by them.  In time, if my contributions had merit, 
+
+they might be taken up and cited by others and thus assimilated into an 
+
+ongoing conversation.  So it is with digital humanities: you are a digital 
+
+humanist if you are listened to by those who are already listened to as digital 
+
+humanists, and they themselves got to be digital humanists by being listened 
+
+to by others.  Jobs, grant funding, fellowships, publishing contracts, speaking 
+
+invitations—these things do not make one a digital humanist, though they 
+
+clearly have a material impact on the circumstances of the work one does to 
+
+get listened to.  Put more plainly, if my university hires me as a digital 
+
+humanist and if I receive a federal grant (say) to do such and such a thing 
+
+that is described as digital humanities and if I am then rewarded by my 
+
+department with promotion for having done it (not least because outside 
+
+evaluators whom my department is enlisting to listen to as digital humanists 
+
+have attested to its value to the digital humanities), then, well, yes, I am a 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+11 
+
+digital humanist.  Can you be a digital humanist without doing those things?  
+
+Yes, if you want to be, though you may find yourself being listened to less 
+
+unless and until you do some thing that is sufficiently noteworthy that 
+
+reasonable people who themselves do similar things must account for your 
+
+work, your thing, as part of the progression of a shared field of interest.  That 
+
+is what being a digital humanist is; it is almost all of what being a digital 
+
+humanist is.  And while the material particulars of the work may vary in 
+
+certain respects, including some very consequential respects, it is different 
+
+not at all from being a Victorianist or a feminist cultural studies scholar or a 
+
+scholar of Victorian feminist cultural studies. 
+
+Digital humanists don’t want to extinguish reading and theory and 
+
+interpretation and cultural criticism.  Digital humanists want to do their 
+
+work.  They want jobs and (if the job includes the opportunity for it) they 
+
+want tenure and promotion. They (often) want to teach.  They (often) want 
+
+to publish.  They want to be heard.  They want professional recognition and 
+
+stability, whether as contingent labor, ladder faculty, graduate students, or in 
+
+“alt-ac” settings.  In short, they want pretty much the same things that every 
+
+working academic wants, and the terrible truth is that they go about it in 
+
+more or less familiar ways that include teaching, publishing, and 
+
+administration.  Take, for example, Matthew Jockers, a collaborator and past 
+
+colleague of Franco Moretti, he who gave us the term distant reading: now 
+
+Jockers is on the English faculty at the University of Nebraska–Lincoln, an 
+
+institution that has developed an exceptionally strong capacity in digital 
+
+humanities (hence its hosting the recent conference).  If anybody is “in” DH, 
+
+surely it is Jockers.  He has recently published a book titled Macroanalysis: 
+
+Digital Methods and Literary History as part of the University of Illinois Press’s 
+
+Topics in the Digital Humanities series.  In one early chapter, over the span 
+
+of about a page, Jockers deploys a sequence of metaphors gleaned from strip 
+
+mining to articulate his work’s relation to the literary history of his subtitle:  
+
+ [W]hat is needed now is the equivalent of open-pit mining or hydraulicking. [. . 
+
+.] Close reading, traditional searching, will continue to reveal nuggets, while the 
+
+deeper veins lie buried beneath the mass of gravel layered above.  What are 
+
+required are the methods for aggregating and making sense out of both the nuggets 
+
+and the tailings [. . .] [to] exploit the trammel of computation to process, 
+
+condense, deform, and analyze the deeper strata from which these nuggets were 
+
+born, to unearth, for the first time, what these corpora really contain.  (9–10) 
+
+I am quoting selectively, and elsewhere Jockers develops his argument along 
+
+paths more subtle, perhaps more comfortable, than mountaintop removal.  
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+12 
+
+But that’s secondary to my point, which is that to receive even such passages 
+
+as these with the agonistic zero-sum view that the author seeks to somehow 
+
+eradicate traditional close reading and interpretation makes sense only in the 
+
+construct.  
+
+The facts, after all, are these: Jockers’s book was published in late 2012 with a 
+
+print run of such and such.  It will be bought by university libraries and some 
+
+number of individuals.  Some fewer number of those who bought it will read 
+
+it.  It will be reviewed in some number of venues, though the reviews will fall 
+
+off after the first few years as they always do.  Eventually (we do not know 
+
+when) it will go out of print.  It will be cited, by how many we do not yet 
+
+know.  It will be assigned, to how many classes we do not yet know.  It will 
+
+inspire some number of students, some fraction of whom may perhaps go to 
+
+Nebraska, to work with Jockers.   
+
+At some point the approaches in the book may pass out of fashion, and it 
+
+may thus appear dated or naive.  At some point the approaches may become 
+
+more widespread, in which case the book will appear prescient and wise.  
+
+Regardless, the book will do what almost all serious books do, albeit to 
+
+greater or lesser extents: contribute to a conversation.  Right now there is an 
+
+especially lively such conversation around how we read.  My colleague Lee 
+
+Konstantinou has been collecting the different modalities; besides close and 
+
+distant, his list includes also uncritical reading (Michael Warner), reparative 
+
+reading (Eve Sedgwick), generous reading (Timothy Bewes), disintegrated 
+
+reading (Rita Raley), surface reading (Sharon Best and Stephen Marcus; also 
+
+Heather Love), and the hermeneutics of situation (Chris Nealon and Jeffrey 
+
+Nealon).  Jockers’s interventions in Macroanalysis have precisely no chance of 
+
+displacing or discouraging any of these other modes of reading even if such 
+
+were his intent, which it manifestly is not.  Jockers does not wish for us all to 
+
+become text miners and for none of us to read symptomatically or 
+
+generously or reparatively; he likely wishes for more of us to mine texts (surely 
+
+that is a motive in writing the book), and then talk to those who read 
+
+reparatively and generously and closely (surely that is the motive in doing the 
+
+mining). None of this differs in any substantial way from the publication of a 
+
+special journal issue collecting papers from a group of scholars around an 
+
+intervention such as “surface reading,” for example.   
+
+Let me offer an example from another quarter.  Peter Robinson, who has 
+
+had a long and distinguished career as an editorial theorist and textual 
+
+scholar, has lately been giving papers in which he purports to explain “[w]hy 
+
+digital humanists should get out of textual scholarship.  And if they don't, 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+13 
+
+why we textual scholars should throw them out.”  Robinson’s argument is 
+
+predicated on the belief that digital humanists build tools and that textual 
+
+studies now more or less has all the tools it needs to go about its work, which 
+
+is that of making critical editions (electronic or otherwise).  He ends with 
+
+this: “We may use digital humanities to be better textual scholars, but we do 
+
+not pretend to be digital humanists.  In return, digital humanists might also 
+
+declare: we do digital humanities, and we try to help textual scholars to be 
+
+better textual scholars through digital humanities, but we do not pretend to 
+
+be textual scholars.”  There are many ways in which one might seek to 
+
+answer Robinson, starting with the assumption that digital humanities is 
+
+confined to the activity of tool building.  But we can also say this: Robinson’s 
+
+concluding statement is a catechism that makes sense only in the construct, 
+
+that virtual discursive space where Morpheus and Neo (who are both really 
+
+on the same side, remember) can battle without regard for bodies, history, or 
+
+physics.  Outside of the construct, Robinson’s statement has no sense, 
+
+indeed, no context.  It speaks to no body.  Why?  Because it presumes the 
+
+existence of entities called digital humanities (or for that matter textual 
+
+scholarship) that exist apart from the practices of the people who identify with 
+
+them.  (To be sure, there are exemplars of digital humanists who have no 
+
+great interest in textual scholarship just as there are textual scholars who have 
+
+no investments in the digital humanities—but these individual cases merely 
+
+reflect the reality of individual choices and careers, not the fractal coastlines 
+
+of some metadisciplinary geography exposed at low tide.)  
+
+Robinson is thus making a purely discursive move in a purely discursive 
+
+space.  Put more plainly, it is not as if one could sit in the audience and hear 
+
+his talk and say, “Yes, Robinson has this right, and so I will return to my 
+
+campus and dissociate digital humanities from textual scholarship forthwith.”  
+
+Indeed, Robinson himself clearly knows this, since the most tangible action 
+
+items in his paper refer to the material circumstances of scholarly production: 
+
+copyrights, costs, the quality of markup and metadata, and the 
+
+interoperability of tools.    In any case, Robinson’s positions would have 
+
+been unimaginable just a few years ago, before the first large-scale 
+
+deployments of the “digital humanities” construct.  Not because there are no 
+
+intellectual distinctions to be drawn between what digital humanities does 
+
+and what textual scholarship does, but rather because the number of actual 
+
+people—outside the construct—who would wish to concern themselves with 
+
+the things Robinson concerns himself with who do not also have a history 
+
+and identity in the “digital humanities” is nowadays vanishingly small.  
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+14 
+
+I have written as I have to suggest neither that all dark side critiques are 
+
+disingenuous nor that any questioning of “digital humanities” is universally 
+
+reducible to a construct.  Of course one should ask questions about any set 
+
+of disciplinary practices that have been as visible and prodigious as digital 
+
+humanities in recent years.  And the construct serves its purpose too; 
+
+reductionism is often nothing more (and nothing less) than a concession to 
+
+the limitations of the human capacity for attention. Indeed, the formation of 
+
+discursive constructs around areas of critical engagement is itself entirely 
+
+normative (see, for example, “New Historicism” or “Romanticism”); Brian 
+
+McHale once chose exactly that phrase—discursive construct—to 
+
+characterize “postmodernism” (4-5). Thus it is also not surprising that 
+
+“DHers” themselves have written innumerable statements which contribute 
+
+to the construct’s formation and perpetuation.  But it is also necessary and 
+
+appropriate to draw attention to what seems to me to be a recent and 
+
+particular and peculiarly conspicuous set of moves, those suggested by the 
+
+serial repetition of qualifying language seeking to establish discursive distance 
+
+between critiques of “digital humanities” as such and those addressed to 
+
+individual projects and productions.  Drawing attention to that move (I have 
+
+sought to do this typographically through my own use of quotation marks 
+
+around “digital humanities,” much as Morozov insists on “the Internet”) 
+
+ought to remind us of the limits of critique when critique is exercised 
+
+according to recognizable and repeatable (and procedural) stances.   So-called 
+
+“dark side” critiques could therefore productively probe the “digital 
+
+humanities” construct in relation to what we know of prior academic 
+
+discursive formations, an inquiry remarkably absent from those critiques to 
+
+date despite their own charges that “digital humanities” is not sufficiently 
+
+invested in its histories. Moreover, critiques of “digital humanities” can 
+
+ameliorate the construct (as opposed to indulging its brutal and metric 
+
+perpetuation) by acknowledging—historically, materially—that “digital 
+
+humanities” is in fact a diversified set of practices, one whose details and 
+
+methodologies responsible critique has a responsibility to understand and 
+
+engage. 
+
+Such I would dearly like to see, for it is needed not just by “digital 
+
+humanities” but by the constituencies of the humanities. Recent revelations 
+
+notwithstanding, we cannot proceed as though such suddenly public 
+
+phenomena as “metadata” or “data mining” are simply the calling cards of 
+
+the state. I know of at least one exemplar already at hand.  I am thinking of 
+
+Alan Liu’s essay “The Meaning of the Digital Humanities” in the March 2013 
+
+issue of PMLA.  Given the title, one could be forgiven for expecting the 
+
+usual bout with definitions and measures of inclusion.  But the essay offers 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+15 
+
+little in that regard.  It makes a remarkably novel move instead: a close 
+
+reading (if you will) of one particular digital humanities project, specifically, a 
+
+paper published out of Stanford University’s Literary Lab based on 
+
+experiments with computational analysis of a data corpus.  In focusing his 
+
+address on the research reported in this one paper, Liu hews very close to the 
+
+science and technology studies (STS) approach that I believe offers the best 
+
+basis for relevant critique of and in the digital humanities, a critique focused 
+
+around the illumination of the antecedents, assumptions, and material 
+
+dependencies of particular tools, methods, parentages of mentoring, and 
+
+institutional settings.  Digital humanities, after all, is sometimes said to suffer 
+
+from physics envy.  Let us, then, take that as it may be and avail ourselves of 
+
+a singularly powerful intellectual precedent for examining in close (yes, 
+
+microscopic) detail the material conditions of knowledge production in 
+
+scientific settings or configurations.  Let us read citation networks and 
+
+publication venues.  Let us examine the usage patterns around particular 
+
+tools.  Let us treat the recensio of data sets. 
+
+Liu gives us a more-than-passing glimpse of what all this may look like: he 
+
+undertakes to correspond, for example, with the managing editor of the 
+
+Historical Thesaurus of the Oxford English Dictionary (HTOED), a reference 
+
+whose data furnishes the main ingredient in what Liu terms an essential 
+
+“adjustment step” in the authors’ methodology.  Liu, a master reader, rightly 
+
+recognizes this as the crux of the narrative he is unspooling, and so he 
+
+follows the thread to the source in order to expose the implications of the 
+
+dependencies to the HTOED.  Liu further notes that the HTOED, though 
+
+historically “precomputational,” is not “pretechnological” and has in fact 
+
+been implemented and transposed through a series of online databases since 
+
+its origins in the 1960s; it thus (now) manifests a rich range of media 
+
+archaeological layers.  The essay succeeds not only because it offers up a 
+
+critique with which we may better see the contributions and limits of a 
+
+particular project but also because it is actively interested in—I would go so 
+
+far as to say fascinated by—digital humanities.  Liu, in short, seeks to give us 
+
+the digital humanities in action, and so he sites critique amid the evidentiary 
+
+details of data sets and databases and algorithms, as well literary historical 
+
+interpretation and disciplinary knowledge.2  
+
+In previous essays, I’ve described digital humanities as both a 
+
+“methodological outlook” (“What is”) and as a “tactical term” (“DH As/is”).  
+
+In closing, I will be as plain as I can be: we will never know what digital 
+
+humanities “is” because we don’t want to know nor is it useful for us to 
+
+know.  John Unsworth, who may well have written the foundational naming 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+16 
+
+document for digital humanities (given as a talk on May 25, 2001), introduced 
+
+digital humanities as a “concession” arrived at for want of other, different 
+
+terms.  From that very day, we were already in the construct, a concession that 
+
+exists to consolidate and propagate vectors of ambiguity, affirmation, and 
+
+dissent.3  Regardless, there is one thing that digital humanities ineluctably is: 
+
+digital humanities is work, somebody’s work, somewhere, some thing, always.  
+
+We know how to talk about work.  So let’s talk about this work, in action, 
+
+this actually existing work.4 
+
+Notes 
+
+1 This paragraph consolidates and paraphrases (but exaggerates hardly at all) a number of 
+
+ongoing discourses around digital humanities, principally online.  Those wishing to 
+
+reconstruct the particular sources that inspired me (which are by no means coextensive with 
+
+the totality of the “dark side” critique) are advised to consult the following.  For digital 
+
+humanities as big data ideology (and antitheoretical/historical/hermeneutical/critical), see 
+
+the 2012–13 Twitter feeds of David Golumbia and Brian Lennon.  See also the various 
+
+entries in the “digital humanities” category on Golumbia’s Uncomputing blog.   For digital 
+
+humanities and MOOCs, see (if only as a starting point) Grusin.  For digital humanities and 
+
+the post-9/11 surveillance state, see (esp.) Lennon on Twitter.  For digital humanities as 
+
+managerial see Allington.  For Morozov worship, see (again) Golumbia and Lennon 
+
+(Twitter).  “Digital humanities never once inhaled” is from Alan Liu’s trenchant essay, 
+
+“Where Is Cultural Criticism in the Digital Humanities?”  For an extensive discussion 
+
+around race, class, gender, sexuality, and disability—and the extent to which DH is or is not 
+
+a refuge from them all—see Smith and Koh and Risam, including comments.  Though this 
+
+accounting is not exhaustive, a reader who spends any length of time with these sources 
+
+(including also comments, replies, and the other dialogic features of online expression) will, I 
+
+think, see voiced most if not all of the “terrible things” I seek here to address. 
+
+2 Fred Gibbs, reacting to an earlier essay of Liu’s, has also delineated the need for such a 
+
+situated critique. He asserts, “digital humanities criticism needs to go beyond typical peer 
+
+review and inhabit a genre of its own-—a critical discourse, a kind of scholarship in its own 
+
+right.” 
+
+3 That mere definitions of digital humanities are commonplace and easy to come by—
+
+Ashgate has now devoted a reader to collecting them—only accentuates the point. See 
+
+Terras, Nyhan, and Vanhouette. 
+
+4 A number of wise friends commented on an initial draft of this essay. I am grateful to 
+
+them. 
+
+Works Cited 
+
+Allington, Daniel.  “The Managerial Humanities; or, Why the Digital Humanities Don’t 
+
+Exist.”  Weblog entry.  Daniel Allington.  31 Mar. 2013.  
+
+http://www.danielallington.net/2013/03/the-managerial-humanities-or-why-the-digital-
+
+humanities-dont-exist/. 
+
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+17 
+
+Chun, Wendy Hui Kyong.  “The Dark Side of Digital Humanities--Part 1.”  Center for 21st 
+
+Century Studies.  9 Jan. 2013.  http://www.c21uwm.com/2013/01/09/the-dark-side-of-the-
+
+digital-humanities-part-1/. 
+
+Germano, William (WmGermano).  “The spectacular rise of ‘DH’ as the most powerful 
+
+digraph in the non-STEM academy.”  19 Jan. 2013, 9:35 a. m.  Tweet. 
+
+Gibbs, Fred. “Critical Discourse in Digital Humanities.” Journal of Digital Humanities 1.1 
+
+(2011): http://journalofdigitalhumanities.org/1-1/critical-discourse-in-digital-humanities-by-
+
+fred-gibbs/ (accessed 10 October 2013). 
+
+Gold, Matthew, ed.  Debates in the Digital Humanities.  Minneapolis: U of Minnesota P, 
+
+2011. 
+
+Golumbia, David.  Uncomputing.  Weblog.  http://www.uncomputing.org/?cat=235 
+
+(accessed 1 October 2013). 
+
+---- (@dgolumbia).  Twitter. 
+
+Grusin, Richard.  “The Dark Side of Digital Humanities--Part 2.”  Center for 21st Century 
+
+Studies 9 Jan. 2013.  http://www.c21uwm.com/2013/01/09/the-dark-side-of-the-digital-
+
+humanities-part-2/. 
+
+Jockers, Matthew L.  Macroanalysis: Digital Methods and Literary History.  Urbana: U of 
+
+Illinois P, 2013. 
+
+Kirschenbaum, Matthew.  Comment on “Digital Humanities: Two Definitions.”  
+
+Uncomputing.  21 Jan. 2013.  http://www.uncomputing.org/?p=203&cpage=1#comment-
+
+2135. 
+
+----.  “Digital Humanities as/Is a Tactical Term.”  Gold 415–28. 
+
+----.  “What Is Digital Humanities and What’s It Doing in English Departments?” ADE 
+
+Bulletin 150 (2010).  http://mkirschenbaum.files.wordpress.com/2011/03/ade-final.pdf 
+
+(accessed Aug. 5, 2013. 
+
+Koh, Adeline, and Roopika Risam.  “Open Thread: The Digital Humanities as a Historical 
+
+‘Refuge” from Race/Class/Gender/Sexuality/Disability?”  Weblog entry.  Postcolonial 
+
+Digital Humanities.  10 May 2013.  http://dhpoco.org/blog/2013/05/10/open-thread-the-
+
+digital-humanities-as-a-historical-refuge-from-raceclassgendersexualitydisability/. 
+
+Konstantinou, Lee. Personal communication. 20 Jul. 2013, 8:46 p. m. 
+
+Lennon, Brian.  Comment on “Digital Humanities: Two Definitions.”  Uncomputing.  21 
+
+Jan. 2013.  http://www.uncomputing.org/?p=203&cpage=1#comment-2129. 
+
+---- (@cesgnal).  Twitter.   
+
+Liu, Alan.  “The Meaning of the Digital Humanities.” PMLA 128.2 (March 2013): 409–23. 
+
+http://journalofdigitalhumanities.org/1-1/critical-discourse-in-digital-humanities-by-fred-gibbs/
+http://journalofdigitalhumanities.org/1-1/critical-discourse-in-digital-humanities-by-fred-gibbs/
+
+
+Kirschenbaum, “What is ‘Digital Humanities,’ and Why Are They Saying Such Terrible 
+
+Things about It?” differences 25.1 (2014): 46-63. Copyright © 2014 Duke University Press. 
+
+ 
+
+18 
+
+----.  “Where Is Cultural Criticism in the Digital Humanities?” Gold, 2011. 
+
+McHale, Brian. Postmodernist Fiction. New York and London: Routledge, 1987. 
+
+Morozov, Evgeny.  The Net Delusion: The Dark Side of Internet Freedom.  New York: 
+
+PublicAffairs, 2011. 
+
+Pannapacker, William.  “The MLA and the Digital Humanities.”  Chronicle of Higher 
+
+Education 28 Dec. 2009.  http://chronicle.com/blogPost/The-MLAthe-Digital/19468/. 
+
+Raley, Rita.  “The Dark Side of Digital Humanities--Part 4.” Center for 21st Century Studies.  
+
+9 Jan. 2013.  http://www.c21uwm.com/2013/01/09/the-dark-side-of-the-digital-
+
+humanities-part-4/. 
+
+Ramsay, Stephen.  “DH Types One and Two.”  Weblog entry.  Stephen Ramsay.  5 May 
+
+2013. 
+
+Robinson, Peter.  “Why Digital Humanists Should Get Out of Textual Scholarship. And If 
+
+They Don't, Why We Textual Scholars Should Throw Them Out.”  Scholarly Digital 
+
+Editions 29 Jul. 2013.  http://scholarlydigitaleditions.blogspot.com/2013/07/why-digital-
+
+humanists-should-get-out-of.html. 
+
+Smith, Martha Nell.  “The Human Touch Software of the Highest Order: Revisiting Editing 
+
+as Interpretation.”  Textual Cultures: Texts, Contexts, Interpretation 2.1: 2007: 1–15. 
+
+Terras, Melissa, Julianne Nyhan, and Edward Vanhoutte, eds.  Defining Digital Humanities: 
+
+A Reader.  Farnham, Surrey: Ashgate, 2013. 
+
+Unsworth, John.  “A Master’s Degree in Digital Humanities: Part of the Media Studies 
+
+Program at the University of Virginia.”  2001 Congress of the Social Sciences and 
+
+Humanities.  Université Laval, Québec, Canada.  Lecture.  25 May 2001.  
+
+http://people.lis.illinois.edu/~unsworth/laval.html. 
+
+

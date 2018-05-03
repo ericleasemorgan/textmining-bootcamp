@@ -1,0 +1,1300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr" xml:lang="en">
+<head><script type="text/javascript">//<!--
+window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+//--></script><base href="" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	
+	
+	
+	
+	<script type="text/javascript" src="http://www.upress.umn.edu/++theme++ump.theme/js/jquery.cycle.min.js"></script>
+	<script src="https://use.typekit.net/kti4sek.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<!--[if lt IE 7]></base><![endif]--><title>Debates in the Digital Humanities — University of Minnesota Press</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta content=" &#13;Leading figures in the digital humanities explore the field’s rapid revolution&#13; " name="DC.description" /><meta content=" &#13;Leading figures in the digital humanities explore the field’s rapid revolution&#13; " name="description" /><meta content="text/plain" name="DC.format" /><meta content="Book" name="DC.type" /><meta content="Higher Education, Database, Networks, Digital humanities, Academia, 2016 Cultural Studies catalog, Archive" name="keywords" /><meta content="2016-09-12T11:32:15-05:00" name="DC.date.modified" /><meta content="Higher Education, Database, Networks, Digital humanities, Academia, 2016 Cultural Studies catalog, Archive" name="DC.subject" /><meta content="2011-11-15T10:52:34-05:00" name="DC.date.created" /><meta content="en" name="DC.language" /><link rel="stylesheet" type="text/css" media="screen" href="http://www.upress.umn.edu/portal_css/Sunburst%20Theme/reset-cachekey-3b58c798ae30c114561186fe5c807b75.css" /><style type="text/css" media="all">@import url(http://www.upress.umn.edu/portal_css/Sunburst%20Theme/resourcejquery-cachekey-30431a1d1c0e6d4c67db8b76afd6312b.css);</style><link rel="stylesheet" type="text/css" media="screen" href="http://www.upress.umn.edu/portal_css/Sunburst%20Theme/collective.js.jqueryui.custom.min-cachekey-9eef374292af3bc2185802670adfd880.css" /><link rel="stylesheet" type="text/css" media="screen" href="http://www.upress.umn.edu/portal_css/Sunburst%20Theme/authoring-cachekey-91969bdf6a044d26f481a73c7ef8d475.css" /><link rel="stylesheet" type="text/css" href="http://www.upress.umn.edu/portal_css/Sunburst%20Theme/mobile-cachekey-d0c4251140d8fc2cb4b6856ff3b1fbbd.css" /><link rel="stylesheet" type="text/css" href="http://www.upress.umn.edu/portal_css/Sunburst%20Theme/themeump.themecssplone-css-merged-minimal-cachekey-8e0fa327b96a97a1375ccfe5412ff73e.css" /><style type="text/css" media="all">@import url(http://www.upress.umn.edu/portal_css/Sunburst%20Theme/faceted_view.css);</style><!--[if IE]>    
+    
+    <link rel="stylesheet" type="text/css" href="http://www.upress.umn.edu/portal_css/Sunburst%20Theme/themeump.themecssie-cachekey-937f56c9dae39d07f3dcacd7a2243aa2.css" />
+        <![endif]--><style type="text/css" media="all">@import url(http://www.upress.umn.edu/portal_css/Sunburst%20Theme/PressRoom-cachekey-873312a988edf54d59945303f237ae2a.css);</style><link rel="stylesheet" type="text/css" media="all" href="http://www.upress.umn.edu/portal_css/Sunburst%20Theme/ploneCustom-cachekey-0c7dc18e4ce5de5acb9d049f15bce2b4.css" /><link rel="stylesheet" type="text/css" href="http://www.upress.umn.edu/portal_css/Sunburst%20Theme/themeump.themecssmobile-cachekey-f5c91bfad3896b4017d2b21472680f96.css" /><script type="text/javascript" src="http://www.upress.umn.edu/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-a321a8cc41b5b18758a5b1073a970df7.js"></script><script type="text/javascript" src="http://www.upress.umn.edu/portal_javascripts/Sunburst%20Theme/faceted_view.js"></script><script type="text/javascript" src="http://www.upress.umn.edu/portal_javascripts/Sunburst%20Theme/ump_extras-cachekey-ea6d4101d3617de9395b5d06cc621c2d.js"></script><script type="text/javascript" src="http://www.upress.umn.edu/portal_javascripts/Sunburst%20Theme/kss-bbb-cachekey-3a87d3475361b52c2b4ed3cc3641e09f.js"></script><link rel="canonical" href="www-upress-umn-edu-0011.htm" /><link rel="shortcut icon" type="image/x-icon" href="http://www.upress.umn.edu/favicon.ico" /><link rel="apple-touch-icon" href="http://www.upress.umn.edu/touch_icon.png" /><script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'mm/dd/yy'}));
+            }
+        });
+        </script><link rel="search" href="http://www.upress.umn.edu/@@search" title="Search this site" /><meta property="og:title" content="Debates in the Digital Humanities" /><meta property="og:url" content="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities" /><meta property="og:image" content="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/image_large" /><meta property="og:site_name" content="University of Minnesota Press" /><meta property="og:description" content=" &#13;Leading figures in the digital humanities explore the field’s rapid revolution&#13; " /><script type="text/javascript">
+      jq(function () {
+          jq('a.OverlayLink[rel]').overlay({fixed: true,
+                                        top: 'center',
+                                        left: 'center'}); 
+          jq('div.slide img').prepOverlay(
+                {subtype: 'image',
+                 urlmatch: 'image_.+$',
+                 urlreplace: 'image'});
+          jq('a.AJAXLoad').prepOverlay({subtype: 'ajax',
+                                        filter: '#content > *'});
+      });
+    </script><meta name="generator" content="Plone - http://plone.org" /></head>
+<body class="frame template-base_view portaltype-book site-Plone section-book-division subsection-books subsection-books-debates-in-the-digital-humanities userrole-anonymous"><p class="hiddenStructure">
+  <a accesskey="2" href="www-upress-umn-edu-0011.htm#content">Skip to content.</a> |
+
+  <a accesskey="6" href="www-upress-umn-edu-0011.htm#portal-globalnav">Skip to navigation</a>
+</p><p class="hiddenStructure">Personal tools</p><p class="hiddenStructure">Navigation</p><div class="body_wrapper">
+
+<div class="wrapper">
+	<div id="sidebar-wrapper">
+	<div id="sidebar">
+		<h1 id="logo"><a href="http://www.upress.umn.edu" title="University of Minnesota Press" accesskey="1">University of Minnesota Press</a></h1>
+		<div class="block nav">
+            
+                
+<div class="portletWrapper" data-portlethash="706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c6f6e650a636f6d696e672d736f6f6e" id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c6f6e650a636f6d696e672d736f6f6e"><div class="portletStaticText portlet-static-coming-soon"><p><a href="http://www.upress.umn.edu/book-division/collections/forthcoming-from-ump" class="internal-link" id="forthcoming-titles">Coming soon</a></p></div>
+
+</div>
+
+<div class="portletWrapper" data-portlethash="706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e" id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        Disciplines
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            
+            
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-american-studies">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/american-studies" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>American Studies</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-anthropology">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/anthropology" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Anthropology</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-architecture_and_design">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/architecture_and_design" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Architecture and Design</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-art_performance">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/art_performance" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Art and Performance</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-cultural_criticism">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/cultural_criticism" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Cultural Criticism</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-economics_business">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/economics_business" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Economics and Business</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-education_law">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/education_law" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Education and Law</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-environment">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/environment" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Environment</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-film_media">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/film_media" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Film and Media</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-geography">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/geography" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Geography</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-history">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/history" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>History</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-literature">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/literature" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Literature</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-minnesota-the-upper-midwest">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/minnesota-the-upper-midwest" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Minnesota and the Upper Midwest</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-native-american-and-indigenous-studies">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/native-american-and-indigenous-studies" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Native American and Indigenous Studies</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-political_science">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/political_science" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Political Science</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-psychology">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/psychology" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Psychology</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-sociology">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/sociology" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Sociology</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-theory_philosophy">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/theory_philosophy" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Theory and Philosophy</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+
+
+
+            
+        </div>
+	</div><!-- /sidebar -->
+	</div>
+	<div id="main">
+		<div id="header">
+			<div id="secondary_nav">
+				<ul>
+						
+						
+									
+				<li id="portaltab-index_html" class="plain"><a href="http://www.upress.umn.edu" title="">Home</a></li><li id="portaltab-current-catalogs" class="plain"><a href="http://www.upress.umn.edu/current-catalogs" title="Download PDFs and search through various subject catalogs from University of Minnesota Press. Most catalogs feature 30% off of all new trade, regional, and scholarly titles (please check expiration date before ordering).">Current Catalogs</a></li><li id="portaltab-blog" class="plain"><a href="http://www.uminnpressblog.com/" title="">Blog</a></li></ul>
+			</div><!-- /secondary_nav -->
+
+			<div id="cart_nav">
+				<ul>
+					<li class="first"><a href="https://cdcshoppingcart.uchicago.edu/Cart/Cart.aspx" class="view-cart">View Cart</a></li>				
+					<li class="last"><a href="https://cdcshoppingcart.uchicago.edu/Cart/AddressInfo.aspx" class="checkout">Checkout</a></li>				
+				</ul>
+			</div><div id="portal-personaltools-wrapper">
+
+<p class="hiddenStructure">Personal tools</p>
+
+
+
+
+
+</div><!-- /secondary_nav -->			
+			
+			<div id="primary_nav">
+				<ul>
+					
+					
+					
+					
+					
+					
+					
+				<li id="portaltab-about-us" class="plain"><a href="http://www.upress.umn.edu/about-us" title="About the University of Minnesota Press, including our history, current editorial program, community and organizational partners, and staff. ">About the Press</a></li><li id="portaltab-explore" class="plain"><a href="http://www.upress.umn.edu/explore" title="Search the University of Minnesota Press's wide-ranging catalog by combining your interest area selects among primary disciplines, secondary disciplines, and customized tags.">Explore Books</a></li><li id="portaltab-press" class="plain"><a href="http://www.upress.umn.edu/press" title="Learn about University of Minnesota Press upcoming author events, book awards, book reviews, Press news, key publicity and media contacts, presskits, and how to sign up for media alerts.">News &amp; Events</a></li><li id="portaltab-information" class="plain"><a href="http://www.upress.umn.edu/information" title="Find current information about University of Minnesota Press author guidelines, desk and exam copies, permission requests, sales representatives, e-books for libraries, media requests, job openings. ">Information</a></li><li id="portaltab-book-division" class="selected"><a href="http://www.upress.umn.edu/book-division" title="">Book Division</a></li><li id="portaltab-test-division" class="plain"><a href="http://www.upress.umn.edu/test-division" title="Minnesota Multiphasic Personality Inventory-2 (MMPI-2) and Restructured Form (MMPI-2-RF), Multidimensional Personality Questionnaire (MPQ), Schedule for Nonadaptive and Adaptive Personality-2 (SNAP-2), MMPI Workshops and Annual Symposium, MTDDA (Minnesota Test for Differential Diagnosis of Aphasia)">Test Division</a></li><li id="portaltab-journal-division" class="plain"><a href="http://www.upress.umn.edu/journal-division" title="">Journal Division</a></li></ul>
+			</div>
+			
+			<a class="trigger-mobile">Menu</a>
+			<div id="mobile-nav">
+				<div id="primary_nav_mobile" class="primary_nav">
+					<ul>
+						<li id="portaltab-about-us-mobile" class="plain"><a href="http://www.upress.umn.edu/about-us" title="About the University of Minnesota Press, including our history, current editorial program, community and organizational partners, and staff. ">About the Press</a></li>
+						<li id="portaltab-explore-mobile" class="plain"><a href="http://www.upress.umn.edu/explore" title="Search the University of Minnesota Press's wide-ranging catalog by combining your interest area selects among primary disciplines, secondary disciplines, and customized tags.">Explore Books</a></li>
+						<li id="portaltab-press-mobile" class="plain"><a href="http://www.upress.umn.edu/press" title="Learn about University of Minnesota Press upcoming author events, book awards, book reviews, Press news, key publicity and media contacts, presskits, and how to sign up for media alerts.">News &amp; Events</a></li>
+						<li id="portaltab-information-mobile" class="plain"><a href="http://www.upress.umn.edu/information" title="Find current information about University of Minnesota Press author guidelines, desk and exam copies, permission requests, sales representatives, e-books for libraries, media requests, job openings. ">Information</a></li>
+						<li id="portaltab-book-division-mobile" class="plain"><a href="http://www.upress.umn.edu/book-division" title="">Book Division</a></li>
+						<li id="portaltab-test-division-mobile" class="plain"><a href="http://www.upress.umn.edu/test-division" title="Minnesota Multiphasic Personality Inventory-2 (MMPI-2) and Restructured Form (MMPI-2-RF), Multidimensional Personality Questionnaire (MPQ), Schedule for Nonadaptive and Adaptive Personality-2 (SNAP-2), MMPI Workshops and Annual Symposium, MTDDA (Minnesota Test for Differential Diagnosis of Aphasia)">Test Division</a></li>
+						<li id="portaltab-journal-division" class="plain"><a href="http://www.upress.umn.edu/journal-division" title="">Journal Division</a></li>
+					</ul>
+				</div>
+				<div id="secondary_nav_mobile" class="secondary_nav">
+					<ul>
+						<li id="portaltab-index_html-mobile" class="selected"><a href="http://www.upress.umn.edu" title="">Home</a></li>
+						<li id="portaltab-current-catalogs-mobile" class="plain"><a href="http://www.upress.umn.edu/current-catalogs" title="Download PDFs and search through various subject catalogs from University of Minnesota Press. Most catalogs feature 30% off of all new trade, regional, and scholarly titles (please check expiration date before ordering).">Current Catalogs</a></li>
+						<li id="portaltab-blog-mobile" class="plain"><a href="http://www.uminnpressblog.com/" title="">Blog</a></li>
+					</ul>
+				</div><!-- /secondary_nav -->
+				<div id="cart_nav_mobile" class="cart_nav">
+					<ul>
+						<li class="first"><a href="https://cdcshoppingcart.uchicago.edu/Cart/Cart.aspx" class="view-cart">View Cart</a></li>
+						<li class="last"><a href="https://cdcshoppingcart.uchicago.edu/Cart/AddressInfo.aspx" class="checkout">Checkout</a></li>
+					</ul>
+					<dl class="actionMenu deactivated"></dl>
+				</div><!-- /cart_nav -->
+			</div>
+
+			<div id="search"><div id="portal-searchbox">
+
+    <form id="searchGadget_form" action="http://www.upress.umn.edu/@@search">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="searchGadget">Search Site</label>
+
+        <input name="SearchableText" type="text" size="18" title="Search Site" placeholder="Search Site" accesskey="4" class="searchField" id="searchGadget" />
+
+        <input class="searchButton" type="submit" value="Search" />
+
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/Plone/book-division/books/debates-in-the-digital-humanities" />
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+
+        <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://www.upress.umn.edu/@@search" accesskey="5">
+            Advanced Search…
+        </a>
+    </div>
+
+</div></div><!-- /search -->
+			
+			<div id="breadcrumbs"><div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="http://www.upress.umn.edu">Home</a>
+        <span class="breadcrumbSeparator">
+            /
+            
+        </span>
+    </span>
+    <span id="breadcrumbs-1" dir="ltr">
+        
+            <a href="http://www.upress.umn.edu/book-division">Book Division</a>
+            <span class="breadcrumbSeparator">
+                /
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-2" dir="ltr">
+        
+            <a href="http://www.upress.umn.edu/book-division/books">Books</a>
+            <span class="breadcrumbSeparator">
+                /
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-3" dir="ltr">
+        
+            
+            
+            <span id="breadcrumbs-current">Debates in the Digital Humanities</span>
+         
+    </span>
+
+</div></div><!-- /breadcrumbs -->
+		</div><!-- /header -->
+		<div id="viewlet-above-content">
+
+<div id="portlets-above" class="row">
+    
+        
+            <div class="cell AbovePortletManager6 width-full position-0">
+
+
+<div id="portletwrapper-436f6e74656e7457656c6c506f72746c6574732e41626f7665506f72746c65744d616e61676572360a636f6e746578740a2f506c6f6e650a6164642d74686973" class="portletWrapper kssattr-portlethash-436f6e74656e7457656c6c506f72746c6574732e41626f7665506f72746c65744d616e61676572360a636f6e746578740a2f506c6f6e650a6164642d74686973"><div class="portletStaticText portlet-static-add-this"><div class="share">
+<h2>Share</h2>
+
+<div class="addthis_toolbox addthis_default_style "><a class="addthis_button_email"></a> <a class="addthis_button_print"></a> <a class="addthis_button_twitter"></a> <a class="addthis_button_facebook"></a> <a class="addthis_counter addthis_bubble_style"></a></div>
+<script type="text/javascript">
+var addthis_config = {"data_track_clickback":true};
+</script>
+<script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4dc2c6f51ba7f0e8" type="text/javascript"></script>
+
+<script type="text/javascript">var addthis_config = {
+				          services_compact: 'email, print, facebok, twitter'
+				}
+</script>
+</div>
+</div>
+
+</div>
+
+</div> 
+
+        
+    
+</div>
+
+
+</div><dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl><dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl><div id="content" class="full">
+
+                            
+
+                            
+                        <h1>Debates in the Digital Humanities</h1> 
+                        <h2></h2>
+                        <div class="details"> 
+                                <div class="pub"><strong>2012</strong></div> •
+                                <div class="author">
+                                  
+                                  <div class="Contributors"><p>Matthew K. Gold, Editor</p></div>
+                                </div>
+                        </div><!-- .details -->
+ 
+                        <div id="slide_holder"> 
+                                <div id="overview" class="slide">
+                                  <img src="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/image_mini" alt="Debates in the Digital Humanities" title="Debates in the Digital Humanities" height="285" width="200" />
+                                  <div class="customCopy webCopy"><h3><a class="external-link" href="http://dhdebates.gc.cuny.edu/">OPEN ACCESS EDITION</a></h3>
+<p> </p>
+<p><b>Leading figures in the digital humanities explore the field’s rapid revolution</b></p>
+<p><i>Debates in the Digital Humanities</i> brings together leading figures in the field to explore its theories, methods, and practices and to clarify its multiple possibilities and tensions. Together, the essays suggest that the digital humanities is uniquely positioned to contribute to the revival of the humanities and academic life.</p>
+<blockquote class="pullquote">"Is there such a thing as ‘digital’ humanities? From statistical crunches of texts to new forms of online collaboration and peer review, it’s clear something is happening. This book is an excellent primer on the arguments over just how much is changing—and how much more ought to—in the way scholars study the humanities."<br /><b>—Clive Thompson, columnist for Wired and contributing writer for the New York Times Magazine</b></blockquote></div>
+                                  
+                                </div>
+                                <!-- /overview.slide --> 
+ 
+                                <div id="details" class="slide"> 
+                                        <!-- /full details content --> 
+                                        <div id="details-image">
+                                          <div id="details-image-box" class="image-box">
+                                            <img src="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/image_cover_medium" alt="Debates in the Digital Humanities" title="Debates in the Digital Humanities" height="210" width="147" />
+                                          </div>
+                                          <div id="details-tags">
+                                            <h3>Tags</h3>
+                                            <p>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c5=Education and Law">Education and Law</a><span>,</span>
+                                            </span>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c5=American Studies">American Studies</a><span>,</span>
+                                            </span>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c5=Cultural Criticism">Cultural Criticism</a><span>,</span>
+                                            </span>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c5=Film and Media">Film and Media</a><span>,</span>
+                                            </span>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c5=Theory and Philosophy">Theory and Philosophy</a><span>,</span>
+                                            </span>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c2=Higher Education">Higher Education</a><span>,</span>
+                                            </span>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c2=Database">Database</a><span>,</span>
+                                            </span>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c2=Networks">Networks</a><span>,</span>
+                                            </span>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c2=Digital humanities">Digital humanities</a><span>,</span>
+                                            </span>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c2=Academia">Academia</a><span>,</span>
+                                            </span>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c2=2016 Cultural Studies catalog">2016 Cultural Studies catalog</a><span>,</span>
+                                            </span>
+                                            <span>
+                                              <a href="http://www.upress.umn.edu/explore/#c2=Archive">Archive</a>
+                                            </span>
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div id="details-description"><p>&#13;Encompassing new technologies, research methods, and opportunities for collaborative scholarship and open-source peer review, as well as innovative ways of sharing knowledge and teaching, the digital humanities promises to transform the liberal arts—and perhaps the university itself. Indeed, at a time when many academic institutions are facing austerity budgets, digital humanities programs have been able to hire new faculty, establish new centers and initiatives, and attract multimillion-dollar grants.  </p>&#13;<p>Clearly the digital humanities has reached a significant moment in its brief history. But what sort of moment is it? <em>Debates in the Digital Humanities</em> brings together leading figures in the field to explore its theories, methods, and practices and to clarify its multiple possibilities and tensions. From defining what a digital humanist is and determining whether the field has (or needs) theoretical grounding, to discussions of coding as scholarship and trends in data-driven research, this cutting-edge volume delineates the current state of the digital humanities and envisions potential futures and challenges. At the same time, several essays aim pointed critiques at the field for its lack of attention to race, gender, class, and sexuality; the inadequate level of diversity among its practitioners; its absence of political commitment; and its preference for research over teaching.</p>&#13;<p>Together, the essays in <em>Debates in the Digital Humanities</em>—which will be published both as a printed book and later as an ongoing, open-access website—suggest that the digital humanities is uniquely positioned to contribute to the revival of the humanities and academic life.</p>&#13;<p>Contributors: Bryan Alexander, National Institute for Technology in Liberal Education; Rafael Alvarado, U of Virginia; Jamie “Skye” Bianco, U of Pittsburgh; Ian Bogost, Georgia Institute of Technology; Stephen Brier, CUNY Graduate Center; Daniel J. Cohen, George Mason U; Cathy N. Davidson, Duke U; Rebecca Frost Davis, National Institute for Technology in Liberal Education; Johanna Drucker, U of California, Los Angeles; Amy E. Earhart, Texas A&amp;M U; Charlie Edwards; Kathleen Fitzpatrick, Pomona College; Julia Flanders, Brown U; Neil Fraistat, U of Maryland; Paul Fyfe, Florida State U; Michael Gavin, Rice U; David Greetham, CUNY Graduate Center; Jim Groom, U of Mary Washington; Gary Hall, Coventry U, UK; Mills Kelly, George Mason U; Matthew Kirschenbaum, U of Maryland; Alan Liu, U of California, Santa Barbara; Elizabeth Losh, U of California, San Diego; Lev Manovich, U of California, San Diego; Willard McCarty, King’s College London; Tara McPherson, U of Southern California; Bethany Nowviskie, U of Virginia; Trevor Owens, Library of Congress; William Pannapacker, Hope College; Dave Parry, U of Texas at Dallas; Stephen Ramsay, U of Nebraska, Lincoln; Alexander Reid, SUNY at Buffalo; Geoffrey Rockwell, Canadian Institute for Research Computing in the Arts; Mark L. Sample, George Mason U; Tom Scheinfeldt, George Mason U; Kathleen Marie Smith; Lisa Spiro, National Institute for Technology in Liberal Education; Patrik Svensson, Umeå U; Luke Waltzer, Baruch College; Matthew Wilkens, U of Notre Dame; George H. Williams, U of South Carolina Upstate; Michael Witmore, Folger Shakespeare Library.&#13;</p></div>
+                                        
+                                        <div id="details-footer">
+                                             <p>&#13;$34.95 paper ISBN 978-0-8166-7795-5&#13;<br />$105.00 cloth ISBN 978-0-8166-7794-8&#13;<br />532 pages, 27 b&amp;w photos, 7 x 10, January 2012&#13;</p>
+                                             <div class="SeriesInfo">
+                                               <label>Series:</label>
+                                               <a class="SeriesLink" href="http://www.upress.umn.edu/book-division/series/debates-in-the-digital-humanities">Debates in the Digital Humanities</a>
+                                             </div>
+                                        </div>
+                                          
+                                </div> 
+                                
+                                <div id="author" class="slide"> 
+                                        <div id="author-image-box" class="image-box">
+                                          <img src="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/image_cover_medium" alt="Debates in the Digital Humanities" title="Debates in the Digital Humanities" height="210" width="147" />
+                                        </div>
+                                        <!-- /author biography content -->
+                                        <div class="author-bio"><p>&#13;Matthew K. Gold is associate professor of English and digital humanities at the Graduate Center of the City University of New York, where he is advisor to the Provost for digital initiatives and director of the GC Digital Scholarship Lab.&#13;<br />&#13;</p></div>
+                                </div>
+ 
+                                <div id="reviews" class="slide"> 
+                                  <div id="reviews-image-box" class="image-box">
+                                    <img src="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/image_cover_medium" alt="Debates in the Digital Humanities" title="Debates in the Digital Humanities" height="210" width="147" />
+                                  </div>
+                                  <!-- /.review --> 
+                                  <div class="review">
+                                    <div class="review-text"><p>&#13;Is there such a thing as ‘digital’ humanities? From statistical crunches of texts to new forms of online collaboration and peer review, it’s clear something is happening. This book is an excellent primer on the arguments over just how much is changing—and how much more ought to—in the way scholars study the humanities.&#13;</p></div>
+                                    <div class="review-source">—<p>&#13;Clive Thompson, columnist for <em>Wired</em> and contributing writer for the <em>New York Times Magazine</em>&#13;</p></div> 
+                                  </div>
+                                  <div class="review">
+                                    <div class="review-text"><p>&#13;I look forward to the day when anxieties about the disruptive nature of ‘digital humanities’ fade into memory and the innovative methods, theories, and approaches championed by those who have contributed to this valuable volume are respected across academia for their rigor and utility. This book will go a long way toward clarifying the debates within and about digital humanities.&#13;</p></div>
+                                    <div class="review-source">—<p>&#13;Siva Vaidhyanathan, author of <em>The Googlization of Everything—and Why We Should Worry</em>&#13;</p></div> 
+                                  </div>
+                                  <div class="review">
+                                    <div class="review-text"><p>&#13;[The book] reflects . . . the diversity, openness, and community spirit of the digital humanities.&#13;</p></div>
+                                    <div class="review-source">—<p>&#13;<em>Inside Higher Ed</em>&#13;</p></div> 
+                                  </div>
+                                  <div class="review">
+                                    <div class="review-text"><p>&#13;Though <em>Debates in the Digital Humanities</em> is well over 500 pages in length, there is no fat in it; all essays contain important information and concepts relating to DH.  Taken together, the book as a whole and every essay in it is a must-read for anyone who claims to be a digital humanist whether she or he works in theory, pedagogy, and/or practice.&#13;</p></div>
+                                    <div class="review-source">—<p>&#13;<em>Leonardo Reviews</em>&#13;</p></div> 
+                                  </div>
+                                  <div class="review">
+                                    <div class="review-text"><p>&#13;A substantial collection . . . [whose] contributors include most of the scholars who have been most prominent in the emergence of digital humanities over the past few years.&#13;</p></div>
+                                    <div class="review-source">—<p>&#13;<em>Times Literary Supplement</em>&#13;</p></div> 
+                                  </div>
+                                  <div class="review">
+                                    <div class="review-text"><p>&#13;The essays in Gold’s collection demonstrate the positive effects of a cross-fertilization of ideas, as the authors often refer to one another in their work. The result is an anthology that reads like a conversation—dynamic, capacious, and at times diffuse, but one that always returns to core concerns about the meaning, function, and future of this emerging field.&#13;</p></div>
+                                    <div class="review-source">—<p>&#13;<em>American Quarterly</em>&#13;</p></div> 
+                                  </div>
+                                  <div class="review">
+                                    <div class="review-text"><p>&#13;Provides not only a valuable primer for any newcomer interested in exploring digital humanities, but also a detailed exploration and critique. . . Gold has managed to balance the need to provide a detailed survey of the subject with an incisive look at the complexities inherent in both the ‘making’ aspect and the ‘thinking’ aspect of digital humanities.&#13;</p></div>
+                                    <div class="review-source">—<p>&#13;<em>Information, Communication &amp; Society</em>&#13;</p></div> 
+                                  </div>
+                                  <div class="review">
+                                    <div class="review-text"><p>&#13;This collection of some fifty articles and blog posts by leading scholars in the field, elegantly printed, provides a rich exploration by way of self-reflection on the field as it has emerged in academic departments in the humanities, particularly in English and History, in recent years.&#13;</p></div>
+                                    <div class="review-source">—<p>&#13;<em>The Key Reporter</em>&#13;</p></div> 
+                                  </div>
+                                  <div class="review">
+                                    <div class="review-text"><p>&#13;Gold’s anthology is absolutely the necessary starting point for those who want to catch up on debates in the field, learn about the history of digital humanities, and contemplate a future application to their art historical work. Gold should be highly commended, given that he gives us a book so far reaching but also honest about its moment. &#13;</p></div>
+                                    <div class="review-source">—<p>&#13;<em>Visual Resources</em>&#13;</p></div> 
+                                  </div><!-- /.review --> 
+                                </div> 
+ 
+                                <div id="toc" class="slide"> 
+                                  <div id="toc-image-box" class="image-box">
+                                    <img src="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/image_cover_medium" alt="Debates in the Digital Humanities" title="Debates in the Digital Humanities" height="210" width="147" />
+                                  </div>
+                                  <!-- /table of contents --> 
+                                  <div class="toc">
+                                    <p>&#13;Contents</p>&#13;<p>Introduction: The Digital Humanities Moment&#13;<br />Matthew K. Gold	</p>&#13;<p>Part I. Defining the Digital Humanities&#13;<br />1. What Is Digital Humanities and What’s It Doing in English Departments?&#13;<br />Matthew Kirschenbaum&#13;<br />2. The Humanities, Done Digitally&#13;<br />Kathleen Fitzpatrick&#13;<br />3. This Is Why We Fight: Defining the Values of the Digital Humanities&#13;<br />Lisa Spiro&#13;<br />4. Beyond the Big Tent&#13;<br />	Patrik Svensson</p>&#13;<p>Blog Posts&#13;<br />The Digital Humanities Situation&#13;<br />Rafael Alvarado&#13;<br />Where’s the Beef? Does Digital Humanities Have to Answer Questions?&#13;<br />Tom Scheinfeldt&#13;<br />Why Digital Humanities Is “Nice”&#13;<br />		Tom Scheinfeldt&#13;<br />An Interview with Brett Bobley&#13;<br />Michael Gavin and Kathleen Marie Smith&#13;<br />Day of DH: Defining the Digital Humanities</p>&#13;<p>Part II. Theorizing the Digital Humanities&#13;<br />5. Developing Things: Notes toward an Epistemology of Building in the Digital Humanities&#13;<br />Stephen Ramsay and Geoffrey Rockwell&#13;<br />6. Humanistic Theory and Digital Scholarship&#13;<br />Johanna Drucker&#13;<br />7. This Digital Humanities which Is Not One&#13;<br />Jamie “Skye” Bianco&#13;<br />8. A Telescope for the Mind?&#13;<br />Willard McCarty</p>&#13;<p>Blog Posts&#13;<br />Sunset for Ideology, Sunrise for Methodology?&#13;<br />	Tom Scheinfeldt&#13;<br />Has Critical Theory Run Out of Time for Data-Driven Scholarship?&#13;<br />	Gary Hall&#13;<br />There Are No Digital Humanities&#13;<br />	Gary Hall</p>&#13;<p>Part III. Critiquing the Digital Humanities&#13;<br />9. Why Are the Digital Humanities So White?, or, Thinking the Histories of Race and Computation&#13;<br />Tara McPherson&#13;<br />10. Hacktivism and the Humanities: Programming Protest in the Era of the Digital University&#13;<br />	Elizabeth Losh&#13;<br />11. Unseen and Unremarked On: Don DeLillo and the Failure of the Digital Humanities&#13;<br />	Mark L. Sample&#13;<br />12. Disability, Universal Design, and the Digital Humanities&#13;<br />	George H. Williams&#13;<br />13. The Digital Humanities and Its Users&#13;<br />	Charlie Edwards</p>&#13;<p>Blog Posts&#13;<br />Digital Humanities Triumphant?&#13;<br />	William Pannapacker&#13;<br />What Do Girls Dig?&#13;<br />	Bethany Nowviskie&#13;<br />The Turtlenecked Hairshirt&#13;<br />	Ian Bogost&#13;<br />Eternal September of the Digital Humanities&#13;<br />	Bethany Nowviskie</p>&#13;<p>Part IV. Practicing the Digital Humanities&#13;<br />14. Canons, Close Reading, and the Evolution of Method&#13;<br />Matthew Wilkens&#13;<br />15. Electronic Errata: Digital Publishing, Open Review, and the Futures of Correction&#13;<br />	Paul Fyfe&#13;<br />16. The Function of Digital Humanities Centers at the Present Time&#13;<br />	Neil Fraistat&#13;<br />17. Time, Labor, and “Alternate Careers” in Digital Humanities Knowledge Work&#13;<br />	Julia Flanders&#13;<br />18. Can Information Be Unfettered?:  Race and the New Digital Humanities Canon&#13;<br />	Amy E. Earhart</p>&#13;<p>Blog Posts&#13;<br />The Social Contract of Scholarly Publishing&#13;<br />	Daniel J. Cohen&#13;<br />Introducing Digital Humanities Now&#13;<br />	Daniel J. Cohen&#13;<br />Text: A Massively Addressable Object&#13;<br />	Michael Witmore&#13;<br />The Ancestral Text&#13;<br />	Michael Witmore</p>&#13;<p>Part V. Teaching the Digital Humanities&#13;<br />19. Digital Humanities and the “Ugly-Stepchildren” of American Higher Education&#13;<br />	Luke Waltzer&#13;<br />20. Graduate Education and the Ethics of the Digital Humanities&#13;<br />	Alexander Reid&#13;<br />21. Should Liberal Arts Campuses Do Digital Humanities?: Process and Products in the Small College World&#13;<br />	Bryan Alexander and Rebecca Frost Davis&#13;<br />22. Where’s the Pedagogy?: The Role of Teaching and Learning in the Digital Humanities&#13;<br />	Stephen Brier</p>&#13;<p>Blog Posts&#13;<br />Visualizing Millions of Words&#13;<br />	Mills Kelly&#13;<br />What’s Wrong with Writing Essays&#13;<br />	Mark L. Sample&#13;<br />Looking for Whitman: A Grand, Aggregated Experiment&#13;<br />	Matthew K. Gold and Jim Groom&#13;<br />The Public Course Blog: The Required Reading We Write Ourselves for the Course that Never Ends&#13;<br />	Trevor Owens</p>&#13;<p>Part VI. Envisioning the Future of the Digital Humanities&#13;<br />23. Digital Humanities As/Is a Tactical Term&#13;<br />	Matthew Kirschenbaum&#13;<br />24. The Digital Humanities or a Digital Humanism&#13;<br />	Dave Parry&#13;<br />25. The Resistance to Digital Humanities&#13;<br />	David Greetham&#13;<br />26. Beyond Metrics: Community Authorization and Open Peer Review&#13;<br />	Kathleen Fitzpatrick&#13;<br />27. Trending: The Promises and the Challenges of Big Social Data&#13;<br />	Lev Manovich&#13;<br />28. Humanities 2.0: Promise, Perils, Predictions&#13;<br />	Cathy N. Davidson&#13;<br />29. Where Is Cultural Criticism in the Digital Humanities?&#13;<br />	Alan Liu</p>&#13;<p>Acknowledgments</p>&#13;<p>&#13;</p>
+                                  </div><!-- toc --> 
+                                </div> 
+ 
+                                <div id="materials" class="slide">
+                                  <div id="materials-image-box" class="image-box">
+                                    <img src="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/image_cover_medium" alt="Debates in the Digital Humanities" title="Debates in the Digital Humanities" height="210" width="147" />
+                                  </div>
+                                  <div id="materials-text"><p><i> </i><a href="http://www.upress.umn.edu/book-division/images-1/other-images/ddh_infographic" class="internal-link"><img src="http://www.upress.umn.edu/book-division/images-1/other-images/ddh_infographic/image_cover_medium" alt="DDH_infographic" class="image-left" title="DDH_infographic" /></a></p>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<p><b><a href="http://www.upress.umn.edu/book-division/images-1/other-images/ddh_infographic" class="internal-link">Download an infographic.</a></b></p>
+<h3>-----</h3>
+<h3></h3>
+<h3>The University of Minnesota's Institute for Advanced Study has posted <a class="external-link" href="http://ias.umn.edu/2012/01/26/gold-matthew/"><span class="external-link"><b>video from <i>Debates in the Digital Humanities</i> editor Matt Gold's visit to campus.</b></span></a></h3>
+<p> </p>
+<p>-----</p>
+<p> </p>
+<p><b>UMP blog - <a class="external-link" href="http://www.uminnpressblog.com/2012/05/representation-and-digital-environment.html">Representation and the digital environment: Essential challenges for humanists. By Johanna Drucker.</a></b></p>
+<p> </p>
+<p><i>The basic challenge for humanists comes from adopting visualizations that don’t suit our fundamental epistemological values. Obviously humanism is not monolithic. But methods of statistical analysis and empirical observation are grafted onto the humanities, they were not created from within the traditions of textual analysis and study. Put simply, the distinction between humanistic and empirical methods is the difference between interpretation and scientific positivism. I have no quarrel with the latter, only with the ways visualization techniques from the natural and social sciences have been adopted for use in the humanities. The result is reductive, and in most instances, produces a reification of misinformation. Exceptions exist.</i></p>
+<p> </p>
+<p><a class="external-link" href="http://www.uminnpressblog.com/2012/05/representation-and-digital-environment.html"><b>Read the full article</b></a><i><br /></i></p></div>
+                                  <!-- /related materials --> 
+                                </div> 
+                                
+                        </div><!-- /slide_holder -->
+                        <div id="purchase">
+                          <h3>Purchase</h3>
+                          <div id="details-product-list">
+                            
+                              
+                              
+                            
+                            
+                              <div class="add-to-cart-link">
+                                <a href="https://cdcshoppingcart.uchicago.edu/Cart/Cart.aspx?ISBN=9780816677955&amp;PRESS=minnesota">
+                                <h3>Paperback</h3>
+                                <!--<p tal:content="string:ISBN ${prod/id}"></p>-->
+                                <p>$34.95</p>
+                                </a>
+                              </div>
+                              <div class="add-to-cart-button">
+                                <a href="https://cdcshoppingcart.uchicago.edu/Cart/Cart.aspx?ISBN=9780816677955&amp;PRESS=minnesota">
+                                <h3>Paperback</h3>
+                                <!--<p tal:content="string:ISBN ${prod/id}"></p>-->
+                                <p>$34.95</p>
+                                </a>
+                              </div>
+                            
+                            
+                              
+                              
+                            
+                            
+                              
+                              
+                            
+                            
+                              
+                              
+                            
+                          </div>
+                          <a id="ebooks-link" class="OverlayLink AJAXLoad" href="http://www.upress.umn.edu/information/buy-ebooks">About E-books</a>
+
+                          
+                        </div>
+
+ 
+                        <div id="slide_nav"> 
+                                <h3>About This Book</h3> 
+                                <ul> 
+                                        <li><a href="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/#" class="active">Overview</a></li> 
+                                        <li><a href="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/#">Full Details</a></li> 
+                                        <li><a href="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/#">Author Bio</a></li> 
+                                        <li><a href="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/#">Reviews</a></li> 
+                                        <li><a href="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/#">Table of Contents</a></li> 
+                                        <li><a href="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/#">Beyond the Book</a></li> 
+                                </ul> 
+                        </div> 
+ 
+                        <div id="related_pubs"> 
+                                <h3>Related Publications</h3> 
+                                <!-- /five related publications --> 
+                                <div>
+                                  
+                                    <a class="CoverImage" href="http://www.upress.umn.edu/book-division/books/comparative-textual-media">
+                                      <img src="http://www.upress.umn.edu/book-division/books/comparative-textual-media/@@images/cd1be6e6-7e3e-42a4-b905-ccb9c686d90f.jpeg" alt="Comparative Textual Media: Transforming the Humanities in the Postprint Era" title="Comparative Textual Media: Transforming the Humanities in the Postprint Era" height="145" width="94" />
+          
+                                    </a>
+                                    <a class="itemTitle" href="http://www.upress.umn.edu/book-division/books/comparative-textual-media">Comparative Textual Media</a>
+                                    <span class="subTitle">Transforming the Humanities in the Postprint Era</span>
+                                    <span class="description"> &#13;Proposes a new paradigm for the humanities by recognizing print as a medium within a comparative context&#13; </span>
+
+                                  
+                                </div>
+                                <div>
+                                  
+                                    <a class="CoverImage" href="http://www.upress.umn.edu/book-division/books/the-imperial-university">
+                                      <img src="http://www.upress.umn.edu/book-division/books/the-imperial-university/@@images/53b2bb86-0d36-4a34-8a0c-00400a600554.jpeg" alt="The Imperial University: Academic Repression and Scholarly Dissent" title="The Imperial University: Academic Repression and Scholarly Dissent" height="145" width="96" />
+          
+                                    </a>
+                                    <a class="itemTitle" href="http://www.upress.umn.edu/book-division/books/the-imperial-university">The Imperial University</a>
+                                    <span class="subTitle">Academic Repression and Scholarly Dissent</span>
+                                    <span class="description"> &#13;From the front lines of the war on academic freedom, linking the policing of knowledge to the relationship between universities, militarism, and neoliberalism&#13; &#13; </span>
+
+                                  
+                                </div>
+                                <div>
+                                  
+                                    <a class="CoverImage" href="http://www.upress.umn.edu/book-division/books/reading-writing-interfaces">
+                                      <img src="http://www.upress.umn.edu/book-division/books/reading-writing-interfaces/@@images/a4619dd9-4b07-4959-bf24-5fa0046c940d.jpeg" alt="Reading Writing Interfaces: From the Digital to the Bookbound" title="Reading Writing Interfaces: From the Digital to the Bookbound" height="145" width="94" />
+          
+                                    </a>
+                                    <a class="itemTitle" href="http://www.upress.umn.edu/book-division/books/reading-writing-interfaces">Reading Writing Interfaces</a>
+                                    <span class="subTitle">From the Digital to the Bookbound</span>
+                                    <span class="description"> &#13;Uncovers a lineage of writers and thinkers who have rebelled against the means of production &#13; &#13; </span>
+
+                                  
+                                </div>
+                                <div>
+                                  
+                                    <a class="CoverImage" href="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities-2016">
+                                      <img src="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities-2016/@@images/42141434-aa10-4120-9e5a-6d396beebca8.jpeg" alt="Debates in the Digital Humanities 2016" title="Debates in the Digital Humanities 2016" height="142" width="100" />
+          
+                                    </a>
+                                    <a class="itemTitle" href="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities-2016">Debates in the Digital Humanities 2016</a>
+                                    
+                                    <span class="description"> &#13;If the publication of Debates in the Digital Humanities in 2012 marked the “digital humanities moment,” this book—the first in a series of annual volumes—will chart the possibilities and tensions of the field as it grows.&#13; </span>
+
+                                  
+                                </div>
+                                <div>
+                                  
+                                    <a class="CoverImage" href="http://www.upress.umn.edu/book-division/books/deaf-gain">
+                                      <img src="http://www.upress.umn.edu/book-division/books/deaf-gain/@@images/62836419-76ab-43cc-be36-38f71c1deada.jpeg" alt="Deaf Gain: Raising the Stakes for Human Diversity" title="Deaf Gain: Raising the Stakes for Human Diversity" height="142" width="100" />
+          
+                                    </a>
+                                    <a class="itemTitle" href="http://www.upress.umn.edu/book-division/books/deaf-gain">Deaf Gain</a>
+                                    <span class="subTitle">Raising the Stakes for Human Diversity</span>
+                                    <span class="description"> &#13;Understanding deafness not as a disability but as a benefit and vital aspect of humanity’s diversity&#13; </span>
+
+                                  
+                                </div>
+                                <div>
+                                  
+                                    <a class="CoverImage" href="http://www.upress.umn.edu/book-division/books/digitize-this-book">
+                                      <img src="http://www.upress.umn.edu/book-division/books/digitize-this-book/@@images/b69e1056-4118-466a-8d13-b64a3f5a8e65.jpeg" alt="Digitize This Book!: The Politics of New Media, or Why We Need Open Access Now" title="Digitize This Book!: The Politics of New Media, or Why We Need Open Access Now" height="145" width="96" />
+          
+                                    </a>
+                                    <a class="itemTitle" href="http://www.upress.umn.edu/book-division/books/digitize-this-book">Digitize This Book!</a>
+                                    <span class="subTitle">The Politics of New Media, or Why We Need Open Access Now</span>
+                                    <span class="description"> &#13;How open access can transform academia for the better&#13; </span>
+
+                                  
+                                </div>
+                                <div>
+                                  
+                                    <a class="CoverImage" href="http://www.upress.umn.edu/book-division/books/open-your-eyes">
+                                      <img src="http://www.upress.umn.edu/book-division/books/open-your-eyes/@@images/81e0c8f3-76e9-493e-86a0-0a784979a31e.jpeg" alt="Open Your Eyes: Deaf Studies Talking" title="Open Your Eyes: Deaf Studies Talking" height="145" width="94" />
+          
+                                    </a>
+                                    <a class="itemTitle" href="http://www.upress.umn.edu/book-division/books/open-your-eyes">Open Your Eyes</a>
+                                    <span class="subTitle">Deaf Studies Talking</span>
+                                    <span class="description"> &#13;A landmark work on the history, future, and implications of deaf studies&#13; </span>
+
+                                  
+                                </div>
+                                <div>
+                                  
+                                    <a class="CoverImage" href="http://www.upress.umn.edu/book-division/books/from-a-to-a">
+                                      <img src="http://www.upress.umn.edu/book-division/books/from-a-to-a/@@images/4d75cff7-b496-4554-a217-2f03256d762b.jpeg" alt="From A to &lt;A&gt;: Keywords of Markup" title="From A to &lt;A&gt;: Keywords of Markup" height="145" width="94" />
+          
+                                    </a>
+                                    <a class="itemTitle" href="http://www.upress.umn.edu/book-division/books/from-a-to-a">From A to &lt;A&gt;</a>
+                                    <span class="subTitle">Keywords of Markup</span>
+                                    <span class="description"> &#13;Essays exploring the role of markup in contemporary discourse&#13; </span>
+
+                                  
+                                </div>
+                                <div>
+                                  
+                                    <a class="CoverImage" href="http://www.upress.umn.edu/book-division/books/making-things-international-1">
+                                      <img src="http://www.upress.umn.edu/book-division/books/making-things-international-1/@@images/bd2683cc-e7a6-4df0-bc0b-c93ad32485ea.jpeg" alt="Making Things International 1: Circuits and Motion" title="Making Things International 1: Circuits and Motion" height="142" width="100" />
+          
+                                    </a>
+                                    <a class="itemTitle" href="http://www.upress.umn.edu/book-division/books/making-things-international-1">Making Things International 1</a>
+                                    <span class="subTitle">Circuits and Motion</span>
+                                    <span class="description"> &#13;Considering the movements of things expands our notions of globalization&#13; </span>
+
+                                  
+                                </div>
+                        </div> 
+                        
+                        <div id="related_news"> 
+                                <h3>Related News &amp; Events</h3> 
+                                
+                                
+                                  <p><a class="BookRelatedLink OverlayLink" rel="#all-clips" href="http://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities/#">In the News</a></p>
+                                  <p><a href="http://www.upress.umn.edu/press/press-clips/debates-in-the-digital-humanities-featured-on-delicious.com">Debates in the Digital Humanities featured on Delicious.com</a></p>
+                                  <p><a href="http://www.upress.umn.edu/press/press-clips/leonardo-debates-in-the-digital-humanities">Leonardo: Debates in the Digital Humanities</a></p>
+                                  <p><a href="http://www.upress.umn.edu/press/press-clips/profhacker-summer-reading-guide-2012">ProfHacker Summer Reading Guide 2012</a></p>
+                                  <div class="OverlayDiv BookRelatedBox" id="all-clips">
+                                    <div class="OverlayContentWrapper">
+                                    <h2>All Related News</h2>
+                                    <div><p><a href="http://www.upress.umn.edu/press/press-clips/debates-in-the-digital-humanities-featured-on-delicious.com">Debates in the Digital Humanities featured on Delicious.com</a></p><p>Delicious.com features articles and posts surrounding Debates in the Digital Humanities.</p></div>
+                                    <div><p><a href="http://www.upress.umn.edu/press/press-clips/leonardo-debates-in-the-digital-humanities">Leonardo: Debates in the Digital Humanities</a></p><p>Leonardo reviews this volume edited by Matthew Gold: "Though Debates in the Digital Humanities is well over 500 pages in length, there is no fat in it; all essays contain important information and concepts relating to DH."</p></div>
+                                    <div><p><a href="http://www.upress.umn.edu/press/press-clips/profhacker-summer-reading-guide-2012">ProfHacker Summer Reading Guide 2012</a></p><p>DEBATES IN THE DIGITAL HUMANITIES featured among summer reading guide picks.
+</p></div>
+                                    <div><p><a href="http://www.upress.umn.edu/press/press-clips/inside-higher-ed-the-prison-house-of-data">Inside Higher Ed: The Prison-House of Data</a></p><p>Inside Higher Ed discusses the digital humanities and mentions DEBATES IN THE DIGITAL HUMANITIES, edited by Matt Gold. </p></div>
+                                    <div><p><a href="http://www.upress.umn.edu/press/press-clips/mind-your-p2019s-and-b2019s-the-digital-humanities-and-interpretation">Mind Your P’s and B’s: The Digital Humanities and Interpretation</a></p><p>Stanley Fish mentions DEBATES IN THE DIGITAL HUMANITIES in the New York Times.</p></div>
+                                    </div>
+                                  </div>
+                                
+                                
+                                
+                        </div>
+
+                        <div id="portlets-below" class="row">
+     
+     
+</div></div><!-- /content -->
+		<div id="right"></div><!-- /right -->
+
+	</div><!-- /main -->
+</div><!-- /.wrapper -->
+
+<div class="mobile block nav">
+            
+                
+<div class="portletWrapper" data-portlethash="706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c6f6e650a636f6d696e672d736f6f6e" id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c6f6e650a636f6d696e672d736f6f6e"><div class="portletStaticText portlet-static-coming-soon"><p><a href="http://www.upress.umn.edu/book-division/collections/forthcoming-from-ump" class="internal-link" id="forthcoming-titles">Coming soon</a></p></div>
+
+</div>
+
+<div class="portletWrapper" data-portlethash="706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e" id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        Disciplines
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            
+            
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-american-studies">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/american-studies" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>American Studies</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-anthropology">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/anthropology" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Anthropology</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-architecture_and_design">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/architecture_and_design" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Architecture and Design</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-art_performance">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/art_performance" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Art and Performance</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-cultural_criticism">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/cultural_criticism" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Cultural Criticism</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-economics_business">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/economics_business" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Economics and Business</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-education_law">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/education_law" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Education and Law</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-environment">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/environment" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Environment</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-film_media">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/film_media" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Film and Media</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-geography">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/geography" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Geography</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-history">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/history" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>History</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-literature">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/literature" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Literature</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-minnesota-the-upper-midwest">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/minnesota-the-upper-midwest" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Minnesota and the Upper Midwest</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-native-american-and-indigenous-studies">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/native-american-and-indigenous-studies" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Native American and Indigenous Studies</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-political_science">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/political_science" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Political Science</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-psychology">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/psychology" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Psychology</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-sociology">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/sociology" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Sociology</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-theory_philosophy">
+
+    
+
+
+        <a href="http://www.upress.umn.edu/disciplines/theory_philosophy" class="state-published navTreeFolderish contenttype-topic" title="">
+            
+            <span>Theory and Philosophy</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+
+
+
+            
+        </div>
+<div id="footer">
+<div class="wrapper">
+	<p>© <span id="copyright-years">2011-2016</span> University of Minnesota Press | <a href="http://www.privacy.umn.edu/">Privacy Policy</a> | The University of Minnesota is an equal opportunity educator and employer.</p>
+</div><!-- /.wrapper -->
+</div><!-- /footer -->
+<!--  initialize the slideshow when the DOM is ready --> 
+<script type="text/javascript"> 
+		$(document).ready(function() {
+			var viewwidth = $(window).width();
+			if(viewwidth > 767){
+			    $('#slide_holder').cycle({
+				    fx:     'scrollHorz', 
+				    speed:   700, 
+				    timeout: 0, 
+					pager:  '#slide_nav ul',
+					
+				    pagerAnchorBuilder: function(idx, slide) { 
+				        // return selector string for existing anchor 
+				        return '#slide_nav ul li:eq(' + idx + ') a'; 
+				    } 
+				});
+			}
+		});
+</script> 
+<script type="text/javascript" src="http://www.upress.umn.edu/++theme++ump.theme/js/ump.js"></script>
+
+<!-- google analytics and other JS tracking code goes here --><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24662383-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</div><script type="text/javascript">//<!--
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"8e0794b107","agent":"","transactionName":"Y1VRMhAFCxBSVEENWFofaQkSAVdMUVhaDxlERA==","applicationID":"4459457","errorBeacon":"bam.nr-data.net","applicationTime":1371}
+//--></script></body>
+</html>

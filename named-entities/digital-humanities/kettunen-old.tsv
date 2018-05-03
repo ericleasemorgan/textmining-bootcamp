@@ -1,0 +1,393 @@
+type	entity
+PERSON	Kimmo Kettunen
+ORGANIZATION	National Library of Finland Mikkeli Finland Eetu
+ORGANIZATION	University of Helsinki Helsinki Centre for Digital Humanities
+PERSON	Teemu Ruokolainen
+ORGANIZATION	National Library of Finland Mikkeli Finland
+PERSON	Juha Kuokkala
+ORGANIZATION	University of Helsinki Department of Modern Languages Helsinki Finland Laura L
+ORGANIZATION	Department of Linguistics and English Language Lancaster University UK Abstract Named Entity Recognition NER
+PERSON	Nadeau
+PERSON	Sekine
+ORGANIZATION	Digi
+ORGANIZATION	OCR
+PERSON	Kettunen
+ORGANIZATION	FIN CLARIN
+ORGANIZATION	Semantic Computing Research Group
+ORGANIZATION	Aalto University Three
+ORGANIZATION	Named Entity Recognition
+ORGANIZATION	National Library of Finland
+LOCATION	Finland
+PERSON	Kettunen
+ORGANIZATION	National Library s Digital Collections
+ORGANIZATION	Language Bank of Finland
+ORGANIZATION	FIN CLARIN
+ORGANIZATION	Korp
+ORGANIZATION	University of Gothenburg
+ORGANIZATION	FIN CLARIN
+ORGANIZATION	University of Helsinki
+ORGANIZATION	Cranfield
+ORGANIZATION	Digi
+ORGANIZATION	University of Tampere J
+ORGANIZATION	Digi
+LOCATION	Finland
+LOCATION	Finland
+ORGANIZATION	Digi
+PERSON	Marrero
+PERSON	Nadeau
+PERSON	Sekine
+PERSON	Nadeau
+PERSON	Sekine
+ORGANIZATION	Digi
+PERSON	Crane
+PERSON	Neudecker
+LOCATION	La Stampa
+PERSON	Cassidy Mac Kim
+ORGANIZATION	Named Entity Recognition
+ORGANIZATION	Digi
+ORGANIZATION	La Stampa
+PERSON	Mac Kim
+ORGANIZATION	La Stampa
+PERSON	McNamee
+LOCATION	La Stampa
+PERSON	McNamee
+PERSON	McNamee
+PERSON	Ehrmann
+ORGANIZATION	ARPA
+ORGANIZATION	Wikipedia
+PERSON	Neudecker
+PERSON	Kettunen
+PERSON	Kettunen
+PERSON	Nadeau
+PERSON	Sekine Nadeau
+PERSON	Sekine
+PERSON	Marrero
+PERSON	Marrero
+PERSON	Nadeau
+PERSON	Sekine
+PERSON	Marrero
+ORGANIZATION	OCR
+ORGANIZATION	NER Software
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	Stanford
+PERSON	Neudecker
+ORGANIZATION	Stanford NER
+ORGANIZATION	ARPA
+PERSON	Tkachenko
+ORGANIZATION	Inc Corp Institute
+PERSON	Lind
+PERSON	HFST Pmatch
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	Evaluation Data
+ORGANIZATION	Digi
+PERSON	Kettunen
+PERSON	Kettunen
+PERSON	Kettunen
+PERSON	Kettunen
+ORGANIZATION	OCR
+PERSON	Kettunen
+ORGANIZATION	Digi
+PERSON	Kettunen
+PERSON	Crane
+PERSON	Jones
+PERSON	Marrero
+LOCATION	Finland
+ORGANIZATION	Institute for the Languages of Finland the National Land Survey of Finland
+ORGANIZATION	Genealogical Society of Finland
+PERSON	Sami
+PERSON	Kettunen
+PERSON	Nadeau
+PERSON	Sekine
+ORGANIZATION	ARPA
+PERSON	Jansson
+PERSON	Jansson
+PERSON	Jansson
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+PERSON	Esa Juha Esa Juhani
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+LOCATION	Karelia
+LOCATION	Finland
+LOCATION	Soviet Union
+ORGANIZATION	ARPA
+LOCATION	New York
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+LOCATION	Tampere
+LOCATION	Helsinki
+ORGANIZATION	OCR
+LOCATION	Levenshtein
+ORGANIZATION	OCR
+ORGANIZATION	OCR
+ORGANIZATION	ARPA
+ORGANIZATION	Virtual International Authority File
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	Wikipedia Polyglot
+ORGANIZATION	ARPA
+ORGANIZATION	Wikipedia
+LOCATION	EU
+ORGANIZATION	University Centre for Corpus Research on Language UCREL
+ORGANIZATION	Lancaster University
+ORGANIZATION	USAS
+PERSON	Rayson
+ORGANIZATION	USAS
+PERSON	Piao
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	Connexor Ltd
+PERSON	Connexor
+ORGANIZATION	GPE
+PERSON	Connexor
+PERSON	Connexor
+PERSON	Connexor
+PERSON	Connexor
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	FST
+ORGANIZATION	LocGpl
+ORGANIZATION	OrgCrp
+ORGANIZATION	OrgCrp
+ORGANIZATION	OrgCrp
+ORGANIZATION	OrgCrp
+ORGANIZATION	Error Analysis of Results
+PERSON	Ehrmann
+PERSON	Ehrmann
+PERSON	Ehrmann
+LOCATION	Poibeau
+ORGANIZATION	ARPA
+LOCATION	Omorfi
+ORGANIZATION	OCR
+ORGANIZATION	OCR
+ORGANIZATION	ARPA
+ORGANIZATION	ARPA
+ORGANIZATION	OCR
+ORGANIZATION	OCR
+ORGANIZATION	OCR
+PERSON	Omorfi
+PERSON	Omorfi
+ORGANIZATION	OCR
+ORGANIZATION	Omorfi
+PERSON	Tuomaanp Hcikinp AleNander Hartifaincu Schvvindt
+ORGANIZATION	Telefooni
+LOCATION	Suomuzsalmi
+ORGANIZATION	ARPA
+ORGANIZATION	OCR
+PERSON	Aleksanterinkatu
+ORGANIZATION	Aleksanterink
+PERSON	Junttila Y Koskinen
+PERSON	Ehrmann
+PERSON	Ehrmann
+PERSON	Marttila Liuhala
+PERSON	Ketola
+ORGANIZATION	Stanford NER
+PERSON	Kettunen
+ORGANIZATION	ARPA
+PERSON	Kettunen
+ORGANIZATION	ARPA
+PERSON	Marrero
+PERSON	Miller
+PERSON	Alex
+PERSON	Burns
+ORGANIZATION	OCR
+PERSON	Alex
+PERSON	Burns
+PERSON	Packer
+PERSON	Packer
+PERSON	Miller
+PERSON	Miller
+PERSON	Rodriguez
+PERSON	Rodriguez
+ORGANIZATION	FIN CLARIN
+ORGANIZATION	OCR
+ORGANIZATION	Tesseract
+ORGANIZATION	OCR
+PERSON	Kettunen
+PERSON	Koistinen
+ORGANIZATION	OCR
+PERSON	Packer
+ORGANIZATION	METS
+PERSON	Nadeau
+ORGANIZATION	Stanford Named Entity Recognizer
+ORGANIZATION	Stanford NER
+ORGANIZATION	Stanford NER
+PERSON	Neudecker
+ORGANIZATION	OCR
+ORGANIZATION	ARPA
+PERSON	Kettunen
+LOCATION	Finland
+ORGANIZATION	Transformation of Public Discourse
+LOCATION	Finland
+PERSON	Heikki Kantola
+ORGANIZATION	Connexor Ltd
+PERSON	Kimmo Kettunen
+ORGANIZATION	Cranfield
+PERSON	Cyril W Cleverdon
+ORGANIZATION	Cranfield University
+ORGANIZATION	Lingpipe
+PERSON	Ehrmann
+PERSON	Ehrmann
+PERSON	Kettunen
+PERSON	ErikTjong Kim
+PERSON	Alex
+PERSON	Burns
+PERSON	Alex B
+PERSON	Burns
+PERSON	Bates
+ORGANIZATION	Behavioural Science Research Information Research
+PERSON	Bremer Laamanen
+PERSON	Bremer Laamanen
+PERSON	Crane
+PERSON	Jones
+PERSON	Jones
+ORGANIZATION	Virginia Banks An Evaluation of Named Entity Analysis
+ORGANIZATION	JCDL
+LOCATION	Chapel Hill North Carolina USA
+PERSON	Ehrmann
+PERSON	Ehrmann
+PERSON	Kaplan
+PERSON	Ehrmann
+PERSON	Ehrmann
+PERSON	Nouvel
+PERSON	Rosset
+PERSON	Mora
+PERSON	Trujillo
+ORGANIZATION	Digital Libraries Journal of Information Science Vol
+PERSON	Tuominen J Kauppinen
+PERSON	Sheth
+LOCATION	US
+PERSON	Tuominen J
+ORGANIZATION	Linked Data
+ORGANIZATION	Jagiellonian University amp Pedagogical University Krak
+PERSON	Kettunen
+ORGANIZATION	Query Expansion Approach Journal of the Association for Information Science and Technology
+PERSON	Kettunen
+PERSON	Kettunen
+PERSON	Kettunen
+PERSON	Kettunen
+ORGANIZATION	Basic Language Technology Tools and Means
+PERSON	Kettunen
+PERSON	Kettunen
+PERSON	Ruokolainen
+PERSON	Kettunen
+PERSON	Kettunen K Honkela T Lind
+ORGANIZATION	IFLA
+PERSON	Kettunen
+PERSON	Kettunen
+PERSON	Koistinen
+PERSON	Diachrony
+ORGANIZATION	Journal Collection
+LOCATION	Skadi
+ORGANIZATION	Baltic Perspective IOS Press
+PERSON	Koistinen
+PERSON	Koistinen
+PERSON	Kettunen
+ORGANIZATION	Improving Optical Character Recognition of Finnish Historical Newspapers
+ORGANIZATION	Antiqua Models
+PERSON	Niemi J Hardwick
+PERSON	Lind
+PERSON	Borin
+PERSON	Lind
+PERSON	Lind
+PERSON	Axelson
+PERSON	Drobac
+PERSON	Hardwick
+PERSON	Kuokkala J Niemi J Pirinen
+ORGANIZATION	NLP Tools
+LOCATION	Mahlow
+PERSON	Piotrowski
+LOCATION	Berlin
+PERSON	Lopresti
+ORGANIZATION	International Journal on Document Analysis and Recognition Vol
+PERSON	Piao S Rayson
+PERSON	Juntunen J P Nyk
+PERSON	Mac Kim
+PERSON	Cassidy
+ORGANIZATION	Proceedings of Australasian Language Technology Association Workshop
+PERSON	Manning
+ORGANIZATION	Manning C D Sch
+ORGANIZATION	Statistical Language Processing The MIT Press Cambridge Massachusetts Marrero
+PERSON	Marrero
+PERSON	Morato
+ORGANIZATION	Computer Standards amp Interfaces Vol
+PERSON	McNamee
+PERSON	McNamee
+PERSON	Mayfield
+ORGANIZATION	Text Johns Hopkins APL Technical Digest Vol
+PERSON	Miller
+PERSON	Miller
+PERSON	Boisen
+PERSON	Schwartz R Stone
+ORGANIZATION	OCR
+ORGANIZATION	Seattle WA
+PERSON	Nadeau
+PERSON	Sekine
+PERSON	Nadeau
+PERSON	Sekine
+ORGANIZATION	Named Entity Recognition in Historic Newspapers
+PERSON	Neudecker
+PERSON	Neudecker
+PERSON	Wilms
+PERSON	Faber
+PERSON	Veen
+ORGANIZATION	Digital Historic Newspapers
+ORGANIZATION	IFLA
+PERSON	Lutes J Stewart
+PERSON	Embley
+PERSON	Seppi
+PERSON	Jensen
+ORGANIZATION	Toronto ON Canada ACM
+PERSON	Piao
+PERSON	Piao S Rayson
+PERSON	Archer D Bianchi
+PERSON	Dayrell C El Haj M Jim
+PERSON	Kren
+PERSON	Nawab
+PERSON	Shafi
+LOCATION	Poibeau
+PERSON	Kervinen J Nivala A Kettunen
+PERSON	Rayson
+PERSON	Rayson
+PERSON	Archer D Piao
+PERSON	McEnery
+ORGANIZATION	NLP
+LOCATION	Lisbon Portugal
+PERSON	Rodriguez
+PERSON	Rodriguez K J Bryant
+PERSON	Blanke
+ORGANIZATION	Luszczynska M 2012 Comparison of Named Entity Recognition Tools
+LOCATION	Vienna
+ORGANIZATION	Named Entity Recognition in Digital Humanities Workshop
+ORGANIZATION	Helsinki
+PERSON	Linden
+ORGANIZATION	ACL Workshop on Statistical NLP
+PERSON	Tkachenko
+PERSON	Tkachenko
+PERSON	Laur
+ORGANIZATION	Browsing of Electronic Text International Journal of Human Computer Studies Vol
+PERSON	Urbano
+ORGANIZATION	Music Domain International Society for Music Information Retrieval Conference
+ORGANIZATION	Alliance of Digital Humanities Organizations Affiliated

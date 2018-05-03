@@ -1,0 +1,1306 @@
+
+    Skip to main content
+        
+  
+    
+      [image: Science Logo]    
+
+          
+        	Home
+	News
+	Journals
+	Topics
+	Careers
+
+      
+        
+                Search
+ 
+Search
+
+
+
+
+            
+        
+      
+      
+        
+        Toggle menu
+      
+    
+
+  
+
+
+
+
+        Search
+ 
+Search
+
+
+
+
+  
+
+
+
+
+
+  
+      
+    
+      
+    
+
+
+      
+    
+  
+        
+        
+  
+        
+      	Log in 
+	My account
+	Contact Us
+
+  
+
+  
+
+
+
+
+      
+    
+  
+        
+      [image: Magazine Cover]
+  
+
+
+
+  
+        
+      	Become a member
+ 	Renew my subscription
+	Sign up for newsletters
+
+
+
+  
+
+
+
+
+  
+
+    
+  
+    
+      
+        [image: Science Logo]        [image: AAAS Logo]      
+
+      .
+
+    
+
+          
+      
+    
+  
+        
+      	 Facebook
+	 Twitter
+	 Google+
+	 Rss
+
+  
+
+
+
+  
+        
+      	Authors
+	Members
+	Librarians
+	Advertisers
+
+  
+
+
+
+      
+    
+  
+        
+      	Home	Recent Videos
+	Latest Podcasts
+	Photo Galleries
+	Dance Your Ph.D. Contest
+	Data Stories Contest
+
+
+	News	Latest News
+	ScienceInsider
+	ScienceShots
+	Sifter
+	From the Magazine
+	About News
+	Quizzes
+
+
+	Journals	Science
+	Science Advances
+	Science Immunology
+	Science Robotics
+	Science Signaling
+	Science Translational Medicine
+	Science Partner Journals
+
+
+	Topics	All Topics
+	Special Issues
+	Custom Publishing
+
+
+	Careers	Articles
+	Find Jobs
+	Career Resources
+	Forum
+	For Employers
+	Employer Profiles
+	Graduate Programs
+	Booklets
+	Advertising Features
+	About Careers
+
+
+	  Search
+ 
+Search
+
+
+
+
+
+
+  
+
+
+      
+
+
+
+  
+
+
+
+          
+    
+    
+      
+  
+  
+    
+      
+  
+            
+          share        
+
+          
+      	
+	
+	
+
+  
+
+
+    
+
+    
+      
+  
+      
+  
+  
+    
+  
+        Research Article
+
+            
+Quantitative Analysis of Culture Using Millions of Digitized Books
+
+            
+      	Jean-Baptiste Michel1,2,3,4,5,*,†, 
+	Yuan Kui Shen2,6,7, 
+	Aviva Presser Aiden2,6,8, 
+	Adrian Veres2,6,9, 
+	Matthew K. Gray10, 
+	The Google Books Team10, 
+	Joseph P. Pickett11, 
+	Dale Hoiberg12, 
+	Dan Clancy10, 
+	Peter Norvig10, 
+	Jon Orwant10, 
+	Steven Pinker5, 
+	Martin A. Nowak1,13,14, 
+	Erez Lieberman Aiden1,2,6,14,15,16,17,*,†
+
+	[bookmark: aff-1]1Program for Evolutionary Dynamics, Harvard University, Cambridge, MA 02138, USA.
+
+	[bookmark: aff-2]2Cultural Observatory, Harvard University, Cambridge, MA 02138, USA.
+
+	[bookmark: aff-3]3Institute for Quantitative Social Sciences, Harvard University, Cambridge, MA 02138, USA.
+
+	[bookmark: aff-4]4Department of Psychology, Harvard University, Cambridge, MA 02138, USA.
+
+	[bookmark: aff-5]5Department of Systems Biology, Harvard Medical School, Boston, MA 02115, USA.
+
+	[bookmark: aff-6]6Laboratory-at-Large, Harvard University, Cambridge, MA 02138, USA.
+
+	[bookmark: aff-7]7Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA.
+
+	[bookmark: aff-8]8Harvard Medical School, Boston, MA, 02115, USA.
+
+	[bookmark: aff-9]9Harvard College, Cambridge, MA 02138, USA.
+
+	[bookmark: aff-10]10Google, Mountain View, CA 94043, USA.
+
+	[bookmark: aff-11]11Houghton Mifflin Harcourt, Boston, MA 02116, USA.
+
+	[bookmark: aff-12]12Encyclopaedia Britannica, Chicago, IL 60654, USA.
+
+	[bookmark: aff-13]13Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA 02138, USA.
+
+	[bookmark: aff-14]14Department of Mathematics, Harvard University, Cambridge, MA 02138, USA.
+
+	[bookmark: aff-15]15Broad Institute of Harvard and MIT, Harvard University, Cambridge, MA 02138, USA.
+
+	[bookmark: aff-16]16School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138, USA.
+
+	[bookmark: aff-17]17Harvard Society of Fellows, Harvard University, Cambridge, MA 02138, USA.
+
+
+	↵†To whom correspondence should be addressed. E-mail: jb.michel{at}gmail.com (J.-B.M.); erez{at}erez.com (E.L.A.)
+
+	
+↵* These authors contributed equally to this work.
+
+
+
+
+
+
+
+    
+
+    
+       See allHide authors and affiliations
+    
+
+      
+
+  
+    Science  14 Jan 2011:
+Vol. 331, Issue 6014, pp. 176-182
+DOI: 10.1126/science.1199644      
+
+
+
+Jean-Baptiste Michel
+Program for Evolutionary Dynamics, Harvard University, Cambridge, MA 02138, USA.Cultural Observatory, Harvard University, Cambridge, MA 02138, USA.Institute for Quantitative Social Sciences, Harvard University, Cambridge, MA 02138, USA.Department of Psychology, Harvard University, Cambridge, MA 02138, USA.Department of Systems Biology, Harvard Medical School, Boston, MA 02115, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+	For correspondence: jb.michel@gmail.comerez@erez.com
+
+
+Yuan Kui Shen
+Cultural Observatory, Harvard University, Cambridge, MA 02138, USA.Laboratory-at-Large, Harvard University, Cambridge, MA 02138, USA.Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+
+
+Aviva Presser Aiden
+Cultural Observatory, Harvard University, Cambridge, MA 02138, USA.Laboratory-at-Large, Harvard University, Cambridge, MA 02138, USA.Harvard Medical School, Boston, MA, 02115, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+
+
+Adrian Veres
+Cultural Observatory, Harvard University, Cambridge, MA 02138, USA.Laboratory-at-Large, Harvard University, Cambridge, MA 02138, USA.Harvard College, Cambridge, MA 02138, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+
+
+Matthew K. Gray
+Google, Mountain View, CA 94043, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+
+
+Google, Mountain View, CA 94043, USA.
+
+Joseph P. Pickett
+Houghton Mifflin Harcourt, Boston, MA 02116, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+
+
+Dale Hoiberg
+Encyclopaedia Britannica, Chicago, IL 60654, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+
+
+Dan Clancy
+Google, Mountain View, CA 94043, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+
+
+Peter Norvig
+Google, Mountain View, CA 94043, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+
+
+Jon Orwant
+Google, Mountain View, CA 94043, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+
+
+Steven Pinker
+Department of Systems Biology, Harvard Medical School, Boston, MA 02115, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+
+
+Martin A. Nowak
+Program for Evolutionary Dynamics, Harvard University, Cambridge, MA 02138, USA.Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA 02138, USA.Department of Mathematics, Harvard University, Cambridge, MA 02138, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+
+
+Erez Lieberman Aiden
+Program for Evolutionary Dynamics, Harvard University, Cambridge, MA 02138, USA.Cultural Observatory, Harvard University, Cambridge, MA 02138, USA.Laboratory-at-Large, Harvard University, Cambridge, MA 02138, USA.Department of Mathematics, Harvard University, Cambridge, MA 02138, USA.Broad Institute of Harvard and MIT, Harvard University, Cambridge, MA 02138, USA.School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138, USA.Harvard Society of Fellows, Harvard University, Cambridge, MA 02138, USA.
+	Find this author on Google Scholar
+	Find this author on PubMed
+	Search for this author on this site
+	For correspondence: jb.michel@gmail.comerez@erez.com
+
+
+
+
+  
+
+
+  
+  
+
+
+  
+        
+      	Article
+	Figures & Data
+	Info & Metrics
+	eLetters
+	 PDF
+
+  
+
+
+
+  
+      
+  
+  
+    [image: Loading]
+
+  
+    
+  
+        
+        You are currently viewing the abstract.
+
+View Full Text
+
+  
+            
+          Log in to view the full text        
+
+          
+        
+  
+      
+  
+  
+    via AAAS login  
+
+
+  
+  
+
+
+  
+      
+  
+  
+    
+  
+      
+  
+    AAAS login provides access to Science for AAAS members, and access to other journals in the Science family to users who have purchased individual subscriptions.
+
+          
+            
+	Become a AAAS member
+	Activate account
+	Add journals
+	Account help
+
+
+            
+
+
+
+
+  
+
+
+  
+  
+
+
+  
+      
+  
+  
+    
+  
+      
+  
+    Register for free to read this article
+
+
+As a service to the community, this article is available for free. Existing users log in.
+
+
+	Become a AAAS member
+	Account help
+
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+
+  
+      
+  
+  
+    Log in through your institution
+
+Log in via OpenAthens.
+
+
+  
+
+
+  
+  
+
+
+  
+      
+  
+  
+    Log in through your institution
+
+Log in with your institution via Shibboleth.
+
+
+  
+
+
+  
+  
+
+
+  
+        More options
+
+    
+  
+  
+    	Purchase digital access to this article
+
+Download and print this article for your personal scholarly, research, and educational use.
+	Purchase this issue in print
+
+Buy a single issue of Science for just $15 USD.
+  
+
+
+  
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+      
+  
+  
+    Abstract
+
+We constructed a corpus of digitized texts containing about 4% of all books ever printed. Analysis of this corpus enables us to investigate cultural trends quantitatively. We survey the vast terrain of ‘culturomics,’ focusing on linguistic and cultural phenomena that were reflected in the English language between 1800 and 2000. We show how this approach can provide insights about fields as diverse as lexicography, the evolution of grammar, collective memory, the adoption of technology, the pursuit of fame, censorship, and historical epidemiology. Culturomics extends the boundaries of rigorous quantitative inquiry to a wide array of new phenomena spanning the social sciences and the humanities.
+
+
+
+
+View Full Text
+  
+
+
+  
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+  
+  
+
+    
+        
+      
+
+  
+        
+        
+  
+      
+  
+  
+    
+      [image: Science: 331 (6014)]
+
+    
+        Science
+
+                Vol 331, Issue 6014
+14 January 2011 
+
+                	Table of Contents 
+	Print Table of Contents 
+	Advertising (PDF)
+	Classified (PDF)
+	Masthead (PDF)
+
+  
+
+
+  
+
+
+  
+  
+
+  
+
+
+
+  
+            
+          Article Tools        
+
+          
+        	
+  
+      
+  
+  
+     Email
+
+
+
+  
+    
+  
+      
+  
+  
+    
+ Thank you for your interest in spreading the word about Science.
+NOTE: We only request your email address so that the person you are recommending the page to knows that you wanted them to see it, and that it is not junk mail. We do not capture any email address.
+
+
+
+
+  Your Email
+ 
+
+
+
+  Your Name
+ 
+
+
+
+  Send To
+ 
+
+
+Enter multiple addresses on separate lines or separate them with commas.
+
+
+
+  You are going to email the following
+ Quantitative Analysis of Culture Using Millions of Digitized Books
+
+
+
+  Message Subject
+ (Your Name) has forwarded a page to you from Science
+
+
+
+  Message Body
+ (Your Name) thought you would like to see this page from the Science web site.
+
+
+
+  Your Personal Message
+ 
+
+
+
+
+
+
+
+
+Send Message
+
+  
+
+
+  
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+  
+  
+
+
+	
+  
+      
+  
+  
+     Download Powerpoint  
+
+
+  
+  
+
+
+	
+  
+      
+  
+  
+     Print  
+
+
+  
+  
+
+
+	
+  
+      
+  
+  
+     Save to my folders
+  User Name
+ 
+
+
+
+  Password
+ 
+
+
+
+ Remember my user name & password.
+
+
+
+Submit
+
+
+
+
+
+  
+
+
+  
+  
+
+
+	
+  
+      
+  
+  
+     Alerts
+
+
+  
+  
+      
+  
+  
+    Please log in to add an alert for this article.
+  
+
+
+  
+  
+
+
+
+  
+      
+  
+  
+    
+  Username
+ 
+
+Enter your Sciencemag.org username.
+
+
+
+  Password
+ 
+
+Enter the password that accompanies your username.
+
+
+
+
+Log in
+
+  
+
+
+  
+  
+
+
+
+  
+
+
+  
+  
+
+
+	
+  
+        
+
+    
+  
+  
+    
+  
+
+
+  
+  
+
+
+	
+  
+      
+  
+  
+     Citation tools
+
+
+  
+  
+      
+  
+  
+      
+  
+      
+    
+        
+Quantitative Analysis of Culture Using Millions of Digitized Books
+
+            By Jean-Baptiste Michel, Yuan Kui Shen, Aviva Presser Aiden, Adrian Veres, Matthew K. Gray, The Google Books Team, Joseph P. Pickett, Dale Hoiberg, Dan Clancy, Peter Norvig, Jon Orwant, Steven Pinker, Martin A. Nowak, Erez Lieberman Aiden
+
+            Science14 Jan 2011 : 176-182 
+
+                
+      Linguistic and cultural changes are revealed through the analyses of words appearing in books.
+
+
+    
+
+          
+
+
+  
+
+  
+  	      Citation Manager Formats
+
+        
+      	BibTeX
+	Bookends
+	EasyBib
+	EndNote (tagged)
+	EndNote 8 (xml)
+	Medlars
+	Mendeley
+	Papers
+	RefWorks Tagged
+	Ref Manager
+	RIS
+	Zotero
+
+    
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+  
+
+
+  
+  
+
+
+	
+  
+      
+  
+  
+      
+  
+      
+  
+  
+     Share  
+
+
+  
+  
+
+  
+  
+      
+  
+  
+    
+    
+        
+Quantitative Analysis of Culture Using Millions of Digitized Books
+
+            By Jean-Baptiste Michel, Yuan Kui Shen, Aviva Presser Aiden, Adrian Veres, Matthew K. Gray, The Google Books Team, Joseph P. Pickett, Dale Hoiberg, Dan Clancy, Peter Norvig, Jon Orwant, Steven Pinker, Martin A. Nowak, Erez Lieberman Aiden
+
+            Science14 Jan 2011 : 176-182 
+
+                
+      Linguistic and cultural changes are revealed through the analyses of words appearing in books.
+
+
+    
+
+          
+
+
+  
+
+
+  
+  
+
+
+  
+      
+  
+  
+    
+  
+    Share This Article:
+  
+  
+    
+  
+  
+    Copy
+  
+
+
+  
+
+
+  
+  
+
+
+  
+      
+  
+  
+    [image: CiteULike logo] [image: Connotea logo] [image: del.icio.us logo] [image: Digg logo] [image: Facebook logo] [image: Google logo] [image: Mendeley logo] [image: Reddit logo] [image: Twitter logo]
+  
+
+
+  
+  
+
+
+  
+
+
+  
+  
+
+
+
+  
+
+
+
+
+
+
+  
+            
+          Related Content        
+
+          
+      
+  
+
+
+
+  
+            
+          Similar Articles in:        
+
+          
+      
+  
+
+
+
+
+
+
+
+  
+            
+          Citing Articles in:        
+
+          
+      
+  
+
+
+
+    
+
+      
+
+
+
+  
+
+  
+
+
+    
+    
+  Science
+  
+  
+        
+      6 April 2018
+
+Vol 360, Issue 6384
+
+[image: Magazine Cover]
+  
+
+
+
+  
+        
+      	Feature
+
+  A delicate balance
+
+	Education
+
+  Testing international education assessments
+
+	Field Research
+
+  Revisiting a tragedy at Gombe
+
+	SCI COMMUN
+
+  News at a glance
+
+	Pollution
+
+  Microplastics research—from sink to source
+
+	Working Life
+
+  No one is an island
+
+
+Table of Contents
+  
+
+
+
+
+  
+        
+      
+  
+
+
+
+  
+
+  
+
+
+
+
+  
+      
+    
+      
+  	About us	Journals
+	Leadership
+	Team members
+	Work at AAAS
+
+
+	Advertise	Advertising kits
+	Custom publishing
+
+
+	For subscribers	Site license info
+	For members
+
+
+	International	Chinese
+	Japanese
+
+
+	Help	Access & subscriptions
+	Order a Single Issue
+	Reprints & permissions
+	Contact us
+	Accessibility
+
+
+	Stay Connected	 Facebook
+	 Twitter
+	 GooglePlus
+	 RSS Feeds
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+    
+      [image: Science/AAAS]    
+
+  
+
+      
+      
+    
+  
+      
+  
+  
+    
+  
+      
+  
+    © 2018 American Association for the Advancement of Science. All rights reserved. AAAS is a partner of HINARI, AGORA, OARE, CHORUS, CLOCKSS, CrossRef and COUNTER. Science ISSN 1095-9203.
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+
+  
+        
+      	Terms of Service
+	Privacy Policy
+	Contact Us
+
+  
+
+
+
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+  

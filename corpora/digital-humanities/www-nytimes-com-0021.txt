@@ -1,0 +1,911 @@
+
+    
+    
+
+    
+        
+            
+                
+                    NYTimes.com no longer supports Internet Explorer 9 or earlier. Please upgrade your browser.
+                    LEARN MORE »
+                
+            
+
+        
+
+    
+
+
+
+
+    
+    
+    
+        
+            Sections
+            
+                Home
+            
+            Search
+            Skip to content
+                        Skip to navigation
+                                    View mobile version
+                    
+
+        
+            
+                
+                    The New York Times
+                
+            
+
+            
+        
+
+                
+            Arts|Digital Keys for Unlocking the Humanities’ Riches
+
+        
+
+        
+            
+
+
+
+            
+
+
+
+
+
+            Search
+            
+                Subscribe Now
+                Log In
+                
+
+                                0
+                Settings
+            
+
+        
+
+    
+
+    
+    Close search
+    
+    Site Search Navigation
+
+    
+        
+            
+                                Search NYTimes.com
+                            
+
+            
+                                
+                
+                Clear this text input
+                
+                    
+
+                
+
+                Go
+            
+
+        
+
+    
+
+
+
+
+
+
+    
+
+
+            
+    
+        	
+                Loading...
+
+            
+
+
+        
+            
+                See next articles
+                
+                    
+
+                
+
+            
+            
+                See previous articles
+                
+                    
+
+                
+
+            
+        
+
+    
+
+
+
+
+        
+    Site Navigation
+
+
+
+
+    Site Mobile Navigation
+
+
+
+    
+
+    
+        
+    
+    Advertisement
+
+
+
+
+
+
+        
+        
+
+    
+
+
+                        
+    
+                                
+                            
+                    Supported by
+                    
+
+                
+
+                                        
+                                                                                            Arts
+                                                                            |                            Humanities 2.0                                                            
+
+                        			Digital Keys for Unlocking the Humanities’ Riches
+
+	                                                
+                                                                                                    
+
+By PATRICIA COHENNOV. 16, 2010
+
+
+
+                                    
+                        
+Continue reading the main story
+Share This Page
+
+Continue reading the main story
+
+
+
+
+                                                    
+
+                                            
+
+                                            
+
+        
+
+    
+
+    
+
+        
+    
+    
+        
+    Photo
+    
+            [image: ]
+            
+
+
+
+
+Martin K. Foys, a medievalist at Drew University, with a detail of an 11th-century map of the world.
+                        
+            Credit
+            James Leynse for The New York Times        
+            
+    
+
+A history of the humanities in the 20th century could be chronicled in “isms” — formalism, Freudianism, structuralism, postcolonialism — grand intellectual cathedrals from which assorted interpretations of literature, politics and culture spread.
+The next big idea in language, history and the arts? Data.
+Members of a new generation of digitally savvy humanists argue it is time to stop looking for inspiration in the next political or philosophical “ism” and start exploring how technology is changing our understanding of the liberal arts. This latest frontier is about method, they say, using powerful technologies and vast stores of digitized materials that previous humanities scholars did not have.
+These researchers are digitally mapping Civil War battlefields to understand what role topography played in victory, using databases of thousands of jam sessions to track how musical collaborations influenced jazz, searching through large numbers of scientific texts and books to track where concepts first appeared and how they spread, and combining animation, charts and primary documents about Thomas Jefferson’s travels  to create new ways to  teach history.
+This alliance of geeks and poets has generated exhilaration and also anxiety. The humanities, after all, deal with elusive questions of aesthetics, existence and meaning, the words that bring tears or the melody that raises goose bumps. Are these elements that can be measured?
+
+    
+    Advertisement
+
+
+
+Continue reading the main story
+
+
+“The digital humanities do fantastic things,” said the eminent Princeton historian Anthony Grafton. “I’m a believer in quantification. But I don’t believe quantification can do everything. So much of humanistic scholarship is about interpretation.”
+        Continue reading the main story
+    
+    
+    
+
+
+
+    
+    
+    Advertisement
+
+
+
+Continue reading the main story
+    
+
+
+
+
+
+
+    
+        “It’s easy to forget the digital media are means and not ends,” he added.
+Digital humanities scholars also face a more practical test: What knowledge can they produce that their predecessors could not? “I call it the ‘Where’s the beef?’ question said Tom Scheinfeldt, managing director of the Center for History and New Media at George Mason University.
+Hoping to find the “beef,” the National Endowment for the Humanities teamed up with the National Science Foundation and institutions in Canada and Britain last year to create the Digging Into Data Challenge, a grant program designed to push research in new directions.
+As Brett Bobley, director of the endowment’s office of digital humanities, explained, analyzing unprecedented amounts of data can reveal patterns and trends and raise unexpected questions for study. He offered the human genome project as an example of how an area of study can be transformed: “Technology hasn’t just made astronomy, biology and physics more efficient. It has let scientists do research they simply couldn’t do before.”
+Mr. Bobley said the emerging field of digital humanities is probably best understood as an umbrella term covering a wide range of activities, from online preservation and digital mapping to data mining and the use of geographic information systems.
+Some pioneering efforts began years ago, but most humanities professors remain unaware, uninterested or unconvinced that digital humanities has much to offer. Even historians, who have  used databases before, have been slow to embrace the trend. Just one of the nearly 300 main panels scheduled for next year’s annual meeting of the American Historical Association covers digital matters. Still, universities, professional associations and private institutions are increasingly devoting a larger slice of the pie to the field.
+“The humanities and social sciences are the emerging domains for using high-performance computers,” said Peter Bajcsy, a research scientist at the National Center for Supercomputing Applications at the University of Illinois, Urbana-Champaign.
+In Europe 10 nations have embarked on a large-scale project, beginning in March,  that plans to digitize arts and humanities data. Last  summer Google awarded $1 million to professors doing digital humanities research, and last year the National Endowment for the Humanities spent $2 million on digital projects.
+
+    Photo
+    
+            [image: ]
+            
+
+
+A digital project created by University of Virginia students allows users to examine Thomas Jefferson's life through primary documents. The map at right visualizes part of Jefferson's 1786 trip to England.
+                        
+            Credit
+            Bill Ferster and Scot French, University of Virginia        
+            
+    
+One of the endowment’s grantees is Dan Edelstein, an associate  professor of French and Italian at Stanford University who is charting the flow of ideas during the Enlightenment. The era’s great thinkers — Locke, Newton, Voltaire — exchanged tens of thousands of letters; Voltaire alone wrote more than 18,000.
+
+    
+    Advertisement
+
+
+
+Continue reading the main story
+
+
+“You could form an impressionistic sense of the shape and content of a correspondence, but no one could really know the whole picture,” said Mr. Edelstein, who, along with collaborators at Stanford and Oxford University in England, is using a geographic information system to trace the letters’ journeys.
+He continued: “Where were these networks going? Did they actually have the breadth that people would often boast about, or were they functioning in a different way? We’re able to ask new questions.”
+
+    Newsletter Sign Up
+
+    Continue reading the main story
+        
+        
+    
+    
+        
+            
+                Please verify you're not a robot by clicking the box.
+
+                Invalid email address. Please re-enter.
+
+                You must select a newsletter to subscribe to.
+
+            
+
+            
+                
+                Sign Up
+            
+
+        
+
+        
+            
+                
+            
+
+            
+                You agree to receive occasional updates and special offers for The New York Times's products and services.
+            
+
+        
+
+        
+
+    
+
+    
+        Thank you for subscribing.
+
+        An error has occurred. Please try again later.
+
+        You are already subscribed to this email.
+
+        View all New York Times newsletters.
+
+    
+
+    	See Sample
+	Manage Email Preferences
+	Not you?
+	Privacy Policy
+	Opt out or contact us anytime
+
+
+    
+
+
+
+
+One surprising revelation of the Mapping the Republic of Letters project was the paucity of exchanges between Paris and London, Mr. Edelstein said. The common narrative is that the Enlightenment started in England and spread to the rest of Europe. “You would think if England was this fountainhead of freedom and religious tolerance,” he said, “there would have been greater continuing interest there than what our correspondence map shows us.”
+Mr. Edelstein said that many of his senior colleagues view his work as whimsical, the result of playing with technological toys. But he argues such play can lead to discoveries.
+In Mr. Scheinfeldt’s view academia has moved into “a post-theoretical age.” This “methodological moment,” he said, is similar to the late 19th and early 20th centuries, when scholars were preoccupied with collating and cataloging the flood of information brought about by revolutions in communication, transportation and science. The practical issues of discipline building, of assembling an annotated bibliography, of defining the research agenda and what it means to be a historian “were the main work of a great number of scholars,” he said.
+Figuring out how to collect, house and connect more than 350 years of scholarship motivated Martin K. Foys, a medievalist at Drew University in Madison, N.J., to create a digital map of the Bayeux Tapestry, a gargantuan 11th-century embroidery displayed in a museum in Bayeux, France, that depicts the Battle of Hastings, when the Normans conquered England. At 224 feet long, about two-thirds the length of a football field, this tapestry is both a work of art and a historical document that mingles text and image.
+“It is almost impossible to study traditionally,” Mr. Foys said.  No one person could digest the work’s enormous amount of material, and no single printing could render it accurately, so Mr. Foys created a prize-winning digital version with commentary that scholars could scroll through. Such digital mapping has the potential to transform medieval studies, Mr. Foys said.
+His latest project, which he directs with Shannon Bradshaw, a computer scientist at Drew, and Asa Simon Mittman, an art historian from California State University, Chico, is an online network of medieval maps and texts that scholars can work on simultaneously. Once specific areas of maps are identified and tagged with information, it becomes possible to analyze and compare quantifiable data about images and sources, he explained, adding, “We have a whole new set of tools not dominated by the written word.”
+
+    
+    Advertisement
+
+
+
+Continue reading the main story
+
+
+The online network of maps is distinct from most scholarly endeavors in another respect: It is communal. The traditional model of the solitary humanities professor, toiling away in an archive or spending years composing a philosophical treatise or historical opus is replaced in this project with contributions from a global community of experts.
+“The ease with which a community can collaborate on the production of scholarship is something that is fundamentally changing the way we do our work,” said Mr. Foys, whose 2007 book, “Virtually Anglo-Saxon,” discusses the influence of technology on scholarship.
+
+
+Digital humanities is  so new that its practitioners are frequently surprised by what develops.
+When the collected published works of Abraham Lincoln were posted online a few years ago, the director of the Papers of Abraham Lincoln, Daniel W. Stowell, said he expected historians to be the most frequent visitors to his project’s site. But he was surprised to discover that the heaviest users were connected to Oxford University Press; editors of the Oxford English Dictionary had been searching the papers to track down the first appearance of particular words.
+“People will use this data in ways we can’t even imagine yet,” Mr. Stowell said, “and I think that is one of the most exciting developments in the humanities.”
+
+    
+                HUMANITIES 2.0: This is the first in a series about how digital tools are
+changing scholarship in history, literature and the arts.
+
+
+        
+        
+        A version of this article appears in print on November 17, 2010, on Page C1 of the New York edition with the headline: HUMANITIES 2.0: A New Enlightenment: Digital Keys to the Humanities’ Riches.   Order Reprints|  Today's Paper|Subscribe
+
+
+
+
+    
+
+    
+        Continue reading the main story
+    
+    
+    
+
+
+
+    
+    
+
+    We’re interested in your feedback on this page. Tell us what you think.
+
+
+
+
+
+    
+        
+    
+    
+                
+            Related Coverage
+
+        
+        	
+    
+
+        
+        
+                        
+                Mapping the Enlightenment
+                                    NOV. 16, 2010
+                                            
+
+        
+
+    
+
+
+	
+    
+
+        
+        
+                            ARTSBEAT BLOG 
+
+                        
+                Digitally Mapping the Republic of Letters
+                                    NOV. 16, 2010
+                                            
+
+        
+
+    
+
+
+
+
+    
+
+
+
+
+
+    
+    
+
+    	
+	
+	
+	
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+        Related Coverage
+
+    
+    
+        	
+    
+        
+                        
+                Mapping the Enlightenment
+                                    NOV. 16, 2010
+                                            
+
+        
+
+
+            
+
+
+	
+    
+        
+                            ARTSBEAT BLOG 
+
+                        
+                Digitally Mapping the Republic of Letters
+                                    NOV. 16, 2010
+                                            
+
+        
+
+
+            
+
+
+
+
+            
+
+
+
+
+
+
+    What's Next
+
+    
+        
+            Loading...
+
+        
+
+    
+
+
+
+
+
+
+           
+ 
+
+
+
+                    
+
+            
+            
+    
+        Go to Home Page »
+
+        
+            Site Index
+            
+                The New York Times
+            
+        
+
+        
+    
+
+    
+        Site Index Navigation
+
+        
+
+                                                        
+                    
+                        News
+
+                        	
+                                        World
+                                    
+	
+                                        U.S.
+                                    
+	
+                                        Politics
+                                    
+	
+                                        N.Y.
+                                    
+	
+                                        Business
+                                    
+	
+                                        Tech
+                                    
+	
+                                        Science
+                                    
+	
+                                        Health
+                                    
+	
+                                        Sports
+                                    
+	
+                                        Education
+                                    
+	
+                                        Obituaries
+                                    
+	
+                                        Today's Paper
+                                    
+	
+                                        Corrections
+                                    
+
+
+                    
+
+
+                                            
+                    
+                        Opinion
+
+                        	
+                                        Today's Opinion
+                                    
+	
+                                        Op-Ed Columnists
+                                    
+	
+                                        Editorials
+                                    
+	
+                                        Op-Ed Contributors
+                                    
+	
+                                        Letters
+                                    
+	
+                                        Sunday Review
+                                    
+	
+                                        Video: Opinion
+                                    
+
+
+                    
+
+
+                                            
+                    
+                        Arts
+
+                        	
+                                        Today's Arts
+                                    
+	
+                                        Art & Design
+                                    
+	
+                                        Books
+                                    
+	
+                                        Dance
+                                    
+	
+                                        Movies
+                                    
+	
+                                        Music
+                                    
+	
+                                        N.Y.C. Events Guide
+                                    
+	
+                                        Television
+                                    
+	
+                                        Theater
+                                    
+	
+                                        Video: Arts
+                                    
+
+
+                    
+
+
+                                            
+                    
+                        Living
+
+                        	
+                                        Automobiles
+                                    
+	
+                                        Crossword
+                                    
+	
+                                        Food
+                                    
+	
+                                        Education
+                                    
+	
+                                        Fashion & Style
+                                    
+	
+                                        Health
+                                    
+	
+                                        Jobs
+                                    
+	
+                                        Magazine
+                                    
+	
+                                        N.Y.C. Events Guide
+                                    
+	
+                                        Real Estate
+                                    
+	
+                                        T Magazine
+                                    
+	
+                                        Travel
+                                    
+	
+                                        Weddings & Celebrations
+                                    
+
+
+                    
+
+
+                                            
+                    
+                        Listings & More
+
+                        	
+                                        Reader Center
+                                    
+	
+                                        Classifieds
+                                    
+	
+                                        Tools & Services
+                                    
+	
+                                        N.Y.C. Events Guide
+                                    
+	
+                                        Multimedia
+                                    
+	
+                                        Photography
+                                    
+	
+                                        Video
+                                    
+	
+                                        NYT Store
+                                    
+	
+                                        Times Journeys
+                                    
+	
+                                        Subscribe
+                                    
+	
+                                        Manage My Account
+                                    
+	
+                                        NYTCo
+                                    
+
+
+                    
+
+
+                            
+            
+                
+Subscribe
+
+
+	Subscribe
+	
+        
+                    Home Delivery
+            
+	
+        
+                    Digital Subscriptions
+            
+	
+        
+        Crossword
+    
+
+
+
+	
+        Email Newsletters
+    
+	
+        Alerts
+    
+	
+                    Gift Subscriptions
+            
+	
+                    Group Subscriptions
+            
+	
+                    Education Rate
+            
+
+
+	
+        Mobile Applications
+    
+	
+                    Replica Edition
+            
+
+
+            
+
+
+        
+
+
+    
+
+
+
+            
+    
+        Site Information Navigation
+
+         	
+                
+                    © 2018 The New York Times Company
+
+	Home
+	Search
+	Accessibility concerns? Email us at accessibility@nytimes.com. We would love to hear from you.
+	Contact Us
+	Work With Us
+	Advertise
+	Your Ad Choices
+	Privacy
+	Terms of Service
+	Terms of Sale
+
+
+    
+    
+        Site Information Navigation
+
+        	Site Map
+	Help
+	Site Feedback
+	Subscriptions
+
+
+    
+
+        
+    
+    
+            
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

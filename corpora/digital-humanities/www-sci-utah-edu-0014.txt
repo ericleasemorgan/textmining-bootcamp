@@ -1,0 +1,182 @@
+
+	
+	
+	
+	
+		
+	
+	
+	
+      
+	    
+	      
+	        Toggle navigation
+	        
+	        
+	        
+	      
+	      
+	      POEMAGEA Visualization Tool in Support of Close Reading
+
+	    
+
+	    
+	    
+	      	
+	          Overview
+	        
+	
+	          Video
+	        
+	
+	          Downloads
+	        
+	
+	          Publications
+	        
+	
+	          Team
+	        
+	
+	          NEH 2016
+	        
+
+
+	   
+	  
+
+	
+	
+	
+	  
+        
+
+        Poemage is a visualization system for exploring the sonic topology of a poem. We define sonic topology as the complex structures formed via the interaction of sonic patterns — words connected through some sonic or linguistic resemblance —  across the space of the poem. Poemage was developed at the University of Utah as part of an ongoing, highly exploratory collaboration between data visualization experts and poets/poetry scholars. Additional details are provided in the companion paper .
+
+        [image: ]
+
+	
+    
+		Video
+
+        
+
+      
+
+	
+     
+		Downloads
+
+          
+
+          Poemage
+
+          Poemage is open source. Please check back periodically for updates.
+
+          Web version coming soon!
+
+           
+
+          Executables
+
+			Executables are no longer supported. Please check back soon for a web version of the tool.
+ If you would like to be notified when the web version is up and running, please send email to nina@cs.utah.edu.
+
+        
+        Source
+Poemage was developed using the Processing language (v 2.2.1). The source code is publicly available to run in the Processing environment. The code has been tested for Processing version 2.2.1
+
+       source
+
+
+       RhymeDesign
+
+       As part of this collaboration we have also developed a system, called RhymeDesign, for querying complex rhyme in a poem. RhymeDesign provides the back-end for Poemage. For more information about the system, and to download the application/source, please visit RhymeDesign.org .
+
+	   
+
+	
+     
+		Publications
+
+            	N. McCurdy, J. Lein, K. Coles, M. Meyer. Poemage: Visualizing the Sonic Topology of a Poem. IEEE Transactions on Visualization and Computer Graphics (Proceedings of InfoVis 2015), pages 439-448, January 2016.
+	K. Coles. Slippage, spillage, pillage, bliss: Close reading, uncertainty, and machines. Wester Humanities Review, pages 39–65, Fall 2014.
+	J. Lein. Sounding the surfaces: Computers, context, and poetic consequence. Wester Humanities Review, pages 84–109, Fall 2014.
+	N. McCurdy, V. Srikumar, and M. Meyer. Rhymedesign: A tool for analyzing sonic devices in poetry. In Proceedings of Computational Linguistics for Literature, 2015.
+
+
+          Selected Talks/Presentations
+
+            	N. McCurdy. “Making Poemage.” The Critical Visualization Event. GC, CUNY.  New York, NY. June, 2016
+	N. McCurdy. “The Poemage project: exploring the true value of computation to poetry scholarship.” DH U1: The First Utah Symposium on the Digital Humanities. Utah Valley University. Orem, UT. Feb. 2016.
+	K. Coles and N. McCurdy. Developing and Sustaining Collaborative Research in the Humanities. Panel Discussion. MLA2016. Austin, TX. Jan. 2016. 
+	K. Coles. “I Don’t Care About Data.” Data-Driven Research in the Social Sciences and Humanities—Increasing Research Potential through Interdisciplinary Working. Panel Discussion. “Round Three” Digging Into Data Challenge Conference. Glasgow, UK. Jan. 2016.
+	K. Coles. “Ghost (in the) Machine.” Melbourne. Oct. 2015. 
+	K. Coles. “Poetry and Exploration: In Motion in the Machine.” Canberra. Oct. 2015. 
+	N. McCurdy, J. Gonnering Lein, A. Hurtado. “Deep in Poetry: Improvisations in Tech, in Text, in Time.” IEEE VISAP2-15. Chicago, IL. Oct. 2015.
+	N. McCurdy. "Visualizing the Sonic Topology of a Poem.” IEEE VIS . Chicago, IL. Oct. 2015.
+	J. Gonnering Lein. Computers in my Classes: A Pedagogy Round-Table on Workshopping (With) the Digital. Panel Discussion. AWP2015. Minneapolis, MN. April 2015. 
+	N. McCurdy. “Visualizing the Sonic Topology of a Poem.” CRA-W Grad Cohort Workshop. San Francisco, CA. April 2015. Poster presentation. 
+	J. Lein. “Digital Humanities and Dickinson’s ‘Tell’: Recounting Poetic Encounter.” New Work on Dickinson: Flash Talks. Modern Language Association. Vancouver, BC Jan. 2015. 
+	 K. Coles and J. Lein. Turbulence and temporality: (re)visualizing poetic
+                time. Things my computer taught me about poems. In MLA2014. Chicago,
+                IL. Jan. 2014.
+
+
+		
+
+	
+    
+		The Team
+
+		  	Nina McCurdy, Doctoral Student. School of Computing, University of Utah.
+	Julie Gonnering Lein, Postdoctoral Fellow. Department of English, University of Utah.
+	Katharine Coles, Professor and Director of Creative Writing. Department of English, University of Utah.
+	Miriah Meyer,  Assistant Professor. School of Computing, University of Utah.
+
+
+		  
+          This work was funded in part by NSF grant IIS-1350896 and NEH grant HD-229002.
+
+          Please contact nina@cs.utah.edu with feedback.
+
+		
+
+	
+    
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 
+	
+	
+	
+	

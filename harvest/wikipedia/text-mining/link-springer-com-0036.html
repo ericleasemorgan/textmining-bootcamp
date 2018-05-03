@@ -1,0 +1,1316 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" class="no-js">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.5,user-scalable=yes">
+    <meta name="citation_publisher" content="Springer US"/>
+    <meta name="citation_title" content="A New Evolving Tree-Based Model with Local Re-learning for Document Clustering and Visualization"/>
+    <meta name="citation_doi" content="10.1007/s11063-017-9597-3"/>
+    <meta name="citation_language" content="en"/>
+    <meta name="citation_abstract_html_url" content="https://link.springer.com/article/10.1007/s11063-017-9597-3"/>
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/s11063-017-9597-3"/>
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007%2Fs11063-017-9597-3.pdf"/>
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/s11063-017-9597-3&amp;api_key="/>
+    <meta name="citation_firstpage" content="379"/>
+    <meta name="citation_lastpage" content="409"/>
+    <meta name="citation_author" content="Wui Lee Chang"/>
+    <meta name="citation_author_institution" content="Universiti Malaysia Sarawak"/>
+    <meta name="citation_author" content="Kai Meng Tay"/>
+    <meta name="citation_author_institution" content="Universiti Malaysia Sarawak"/>
+    <meta name="citation_author_email" content="kmtay@unimas.my"/>
+    <meta name="citation_author" content="Chee Peng Lim"/>
+    <meta name="citation_author_institution" content="Deakin University"/>
+    <meta name="dc.identifier" content="10.1007/s11063-017-9597-3"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" content="The Evolving tree (ETree) is a hierarchical clustering and visualization model that allows the number of clusters to grow and evolve with new data samples in an online learning manner. While many..."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="A New Evolving Tree-Based Model with Local Re-learning for Document Cl"/>
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/11063/46/2.jpg"/>
+    <meta name="twitter:image:alt" content="Content cover image"/>
+    <meta name="twitter:site" content="SpringerLink"/>
+    <meta name="twitter:description" content="The Evolving tree (ETree) is a hierarchical clustering and visualization model that allows the number of clusters to grow and evolve with new data samples in an online learning manner. While many..."/>
+    <meta name="citation_journal_title" content="Neural Processing Letters"/>
+    <meta name="citation_journal_abbrev" content="Neural Process Lett"/>
+    <meta name="citation_volume" content="46"/>
+    <meta name="citation_issue" content="2"/>
+    <meta name="citation_issn" content="1370-4621"/>
+    <meta name="citation_issn" content="1573-773X"/>
+    <meta name="citation_online_date" content="2017/02/06"/>
+    <meta name="citation_cover_date" content="2017/10/01"/>
+    <meta name="citation_article_type" content="Article"/>
+    <meta property="og:title" content="A New Evolving Tree-Based Model with Local Re-learning for Document Clustering and Visualization"/>
+    <meta property="og:type" content="Article"/>
+    <meta property="og:url" content="https://link.springer.com/article/10.1007/s11063-017-9597-3"/>
+    <meta property="og:image" content="https://static-content.springer.com/cover/journal/11063/46/2.jpg"/>
+    <meta property="og:site_name" content="SpringerLink"/>
+    <meta property="og:description" content="The Evolving tree (ETree) is a hierarchical clustering and visualization model that allows the number of clusters to grow and evolve with new data samples in an online learning manner. While many..."/>
+
+        <title>A New Evolving Tree-Based Model with Local Re-learning for Document Clustering and Visualization | SpringerLink</title>
+        <link rel="canonical" href="link-springer-com-0036.htm"/>
+        <link rel="shortcut icon" href="https://link.springer.com/springerlink-static/83600690/images/favicon/favicon.ico" />
+<link rel="icon" sizes="16x16 32x32 48x48" href="https://link.springer.com/springerlink-static/83600690/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16" type="image/png" href="https://link.springer.com/springerlink-static/83600690/images/favicon/favicon-16x16.png">
+<link rel="icon" sizes="32x32" type="image/png" href="https://link.springer.com/springerlink-static/83600690/images/favicon/favicon-32x32.png">
+<link rel="icon" sizes="48x48" type="image/png" href="https://link.springer.com/springerlink-static/83600690/images/favicon/favicon-48x48.png">
+<link rel="apple-touch-icon" href="https://link.springer.com/springerlink-static/83600690/images/favicon/app-icon-iphone@3x.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://link.springer.com/springerlink-static/83600690/images/favicon/ic_launcher_hdpi.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="https://link.springer.com/springerlink-static/83600690/images/favicon/app-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="https://link.springer.com/springerlink-static/83600690/images/favicon/app-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="https://link.springer.com/springerlink-static/83600690/images/favicon/app-icon-iphone@2x.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="https://link.springer.com/springerlink-static/83600690/images/favicon/ic_launcher_xxhdpi.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://link.springer.com/springerlink-static/83600690/images/favicon/app-icon-ipad@2x.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://link.springer.com/springerlink-static/83600690/images/favicon/app-icon-iphone@3x.png" />
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/springerlink-static/83600690/images/favicon/ic_launcher_xxhdpi.png">
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com/" />
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
+<link rel="dns-prefetch" href="https://google-analytics.com/" />
+<link rel="dns-prefetch" href="https://www.google-analytics.com/" />
+<link rel="dns-prefetch" href="https://www.googletagservices.com/" />
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/" />
+<link rel="dns-prefetch" href="https://static-content.springer.com/" />
+        <link rel="stylesheet" href="https://link.springer.com/springerlink-static/83600690/css/basic.css" media="screen">
+<link rel="stylesheet" href="https://link.springer.com/springerlink-static/83600690/css/styles.css" class="js-ctm" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+<link rel="stylesheet" href="https://link.springer.com/springerlink-static/83600690/css/print.css" media="print">
+
+
+            <script>
+        var dataLayer = [{
+                'GA Key':'UA-26408784-1',
+                'Features':["leaderboardadverts","abtesting"],
+                'Event Category':'Article',
+                'Open Access':'N',
+                'Labs':'Y',
+                'DOI':'10.1007\/s11063-017-9597-3',
+                'VG Wort Identifier':'pw-vgzm.415900-10.1007-s11063-017-9597-3',
+                'HasAccess':'N',
+                'Full HTML':'N',
+                'Has Body':'Y',
+                'Static Hash':'83600690',
+                'Has Preview':'N',
+                'user':{'license': {'businessPartnerID': [], 'businessPartnerIDString': ''}},
+                'content':{'type': 'article', 'category': {'pmc': {'primarySubject': 'Computer Science', 'primarySubjectCode': 'I', 'secondarySubjects': {'1': 'Artificial Intelligence (incl. Robotics)', '2': 'Complex Systems', '3': 'Computational Intelligence'}, 'secondarySubjectCodes': {'1': 'I21017', '2': 'P33000', '3': 'T11014'}}}},
+                'Access Type':'noaccess',
+                'Page':'article',
+                'Bpids':'',
+                'Bpnames':'',
+                'SubjectCodes':'SCI, SCI21017, SCP33000, SCT11014',
+                'Keywords':'Evolving tree, Textual documents, Clustering, Visualization, Local re-learning',
+                'Country':'US',
+                'Journal Id':'11063',
+                'Journal Title':'Neural Processing Letters',
+        }];
+    </script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?cache-busting=' + new Date().getTime() + '&id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WCF9Z9');</script>
+
+    </head>
+    <body>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <nav class="skip-to">
+    <a class="skip-to__link skip-to__link--article" href="link-springer-com-0036.htm#main-content">Skip to main content</a>
+</nav>
+        <div class="page-wrapper">
+            <noscript>
+    <div class="nojs-banner u-interface">
+        <p>This service is more advanced with JavaScript available, learn more at <a
+                href="http://activatejavascript.org" target="_blank" rel="noopener">http://activatejavascript.org</a>
+        </p>
+    </div>
+</noscript>
+                    <div id="leaderboard" class="leaderboard u-hide" data-component="SpringerLink.GoogleAds" data-namespace="leaderboard"></div>
+
+                <header id="header" class="header u-interface" role="banner">
+        <div class="header__content">
+            <div class="header__menu-container">
+                    <a id="logo" class="site-logo" href="https://link.springer.com/" title="Go to homepage">
+                <div class="u-screenreader-only">SpringerLink</div>
+    <svg class="site-logo__springer" width="148" height="30" role="img" aria-label="SpringerLink Logo">
+        <image width="148" height="30" alt="SpringerLink Logo" src="/springerlink-static/83600690/images/png/springerlink.png" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/springerlink-static/83600690/images/svg/springerlink.svg"></image>
+    </svg>
+
+    </a>
+
+
+                    <nav id="search-container" class="u-inline-block">
+                        <div class="search">
+                            <div class="search__content">
+                                <form class="u-form-single-input" action="https://link.springer.com/search" method="get" role="search">
+    <input aria-label="Search SpringerLink" name="query" type="text" autocomplete="off" value="" placeholder="Search SpringerLink">
+    <input class="u-hide-text" type="submit" value="Submit" title="Submit">
+    <svg class="u-vertical-align-absolute" width="13" height="13" viewBox="222 151 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"/>
+    </svg>
+</form>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <nav class="nav-container u-interface">
+    <div class="global-nav__wrapper">
+        <div class="search-button">
+            <a class="search-button__label" href="link-springer-com-0036.htm#search-container">
+                <span class="search-button__title">Search</span><svg width="12" height="12" viewBox="222 151 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+
+        <ul class="global-nav" data-component="SpringerLink.Menu" data-title="Navigation menu" data-text="Menu">
+            <li>
+                <a href="https://link.springer.com/">
+                    <span class="u-overflow-ellipsis">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://link.springer.com/contactus">
+                    <span class="u-overflow-ellipsis">Contact us</span>
+                </a>
+            </li>
+
+                <li class="global-nav__logged-out">
+                    <a class="test-login-link" href="https://link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs11063-017-9597-3">
+                        <span class="u-overflow-ellipsis">Log in</span>
+                    </a>
+                </li>
+
+        </ul>
+    </div> 
+</nav> 
+            </div>
+
+        </div>
+    </header>
+
+            
+
+            <main id="main-content" class="main-wrapper">
+                <div class="main-container uptodate-recommendations-off">
+                    <aside class="main-sidebar-left">
+                        <div class="main-sidebar-left__content">
+                            <div class="test-cover cover-image" itemscope>
+        <a class="test-cover-link" href="https://link.springer.com/journal/11063" title="Neural Processing Letters">
+            <img class="test-cover-image" src="https://static-content.springer.com/cover/journal/11063/46/2.jpg" alt="Neural Processing Letters" itemprop="image"/>
+        </a>
+
+</div>
+                        </div>
+                    </aside>
+                    <div class="main-body" data-role="NavigationContainer">
+                        
+
+
+                        <article class="main-body__content">
+                            <div xmlns="http://www.w3.org/1999/xhtml" class="FulltextWrapper"><div class="ArticleHeader main-context"><div id="enumeration" class="enumeration"><p><a href="https://link.springer.com/journal/11063" title="Neural Processing Letters"><span class="JournalTitle">Neural Processing Letters</span></a></p><p class="icon--meta-keyline-before"><span class="ArticleCitation_Year"><time datetime="2017-10">October 2017</time>, </span><span class="ArticleCitation_Volume">Volume 46, </span><a class="ArticleCitation_Issue" href="https://link.springer.com/journal/11063/46/2/page/1">Issue 2</a>,
+                       <span class="ArticleCitation_Pages"> pp 379–409</span><span class="u-inline-block u-ml-4"> | <a class="gtm-cite-link" href="link-springer-com-0036.htm#citeas">Cite as</a></span></p></div><div class="MainTitleSection"><h1 class="ArticleTitle" lang="en">A New Evolving Tree-Based Model with Local Re-learning for Document Clustering and Visualization</h1></div><div class="authors u-clearfix" data-component="SpringerLink.Authors"><ul class="u-interface u-inline-list authors__title" data-role="AuthorsNavigation"><li><span>Authors</span></li><li><a href="link-springer-com-0036.htm#authorsandaffiliations" class="gtm-tab-authorsandaffiliations">Authors and affiliations</a></li></ul><div class="authors__list" data-role="AuthorsList"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Wui Lee Chang</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Kai Meng Tay</span><span class="author-information"><span class="authors__contact"><a href="mailto:kmtay@unimas.my" title="kmtay@unimas.my" itemprop="email" class="gtm-email-author">Email author</a></span></span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Chee Peng Lim</span></li></ul></div></div><div class="main-context__container" data-component="SpringerLink.ArticleMetrics"><div class="main-context__column"><span><span class="test-render-category">Article</span></span><div class="article-dates" data-component="SpringerLink.ArticleDates"><div class="article-dates__entry"><span class="article-dates__label">First Online: </span><span class="article-dates__first-online"><time datetime="2017-02-06">06 February 2017</time></span></div><div class="article-dates__history"></div></div></div><div class="main-context__column">    <ul id="book-metrics" class="article-metrics u-sansSerif">
+            <li class="article-metrics__item">
+                     <span class="article-metrics__views">242</span>
+                     <span class="article-metrics__label">Downloads</span>
+            </li>
+    </ul>
+</div></div></div><section class="Abstract" id="Abs1" tabindex="-1" lang="en"><h2 class="Heading">Abstract</h2><p id="Par1" class="Para">The Evolving tree (ETree) is a hierarchical clustering and visualization model that allows the number of clusters to grow and evolve with new data samples in an online learning manner. While many hierarchical clustering models are available in the literature, ETree stands out because of its visualization capability. It is an enhancement of the Self-Organizing Map, a famous and useful clustering and visualization model. ETree organises the trained data samples in the form of a tree structure for better presentation and visualization especially for high-dimensional data samples. Even though ETree has been used in a number of applications, its use in textual document clustering and visualization is limited. In this paper, ETree is modified and deployed as a useful model for undertaking textual documents clustering and visualization problems. We introduce a new local re-learning procedure that allows the tree structure to grow and adapt to new features, i.e., new words from new textual documents. The performance of the proposed ETree model is evaluated with two (one benchmark and one real) document data sets. A number of key aspects of the proposed ETree model, which include its topology representation, learning time, as well as recall and precision rates, are evaluated. The results show that the proposed local re-learning procedure is useful for handling increasing number of features incrementally. In summary, this study contributes towards a modified ETree model and its use in a new domain, i.e., textual document clustering and visualization.</p></section><div class="KeywordGroup" lang="en"><h2 class="Heading">Keywords</h2><span class="Keyword">Evolving tree </span><span class="Keyword">Textual documents </span><span class="Keyword">Clustering </span><span class="Keyword">Visualization </span><span class="Keyword">Local re-learning </span></div><div class="note test-pdf-link" id="cobranding-and-download-availability-text"><div id="article_no_access_banner">This is a preview of subscription content, <a id="test-login-banner-link" href="https://link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs11063-017-9597-3">log in</a> to check access</div></div><div class="article-actions--inline" id="article-actions--inline" data-component="article-actions--inline"></div><section id="Notes" class="Section1 RenderAsSection1"><h2 class="Heading">Notes</h2><div class="content"><section><h3 class="Heading">Acknowledgements</h3><p class="SimplePara">To 2nd Regional Engineering Conference 2008 (EnCon 2008), and the organizing committee. Special thanks to Miss Liew Hui Chang who had helped during information collections and compilations. The authors had the permission to use the collection of abstracts from EnCon 2008, in which the authors would like to express gratitude for.</p></section></div></section><aside class="Appendix" id="App1"><section id="Sec22" tabindex="-1" class="Section1 RenderAsSection1"><h2 class="Heading">Appendix</h2><div class="content"><div id="Par66" class="Para">See Tables <span class="InternalRef"><a href="link-springer-com-0036.htm#Tab7">7</a></span>, <span class="InternalRef"><a href="link-springer-com-0036.htm#Tab8">8</a></span>, <span class="InternalRef"><a href="link-springer-com-0036.htm#Tab9">9</a></span>, and <span class="InternalRef"><a href="link-springer-com-0036.htm#Tab10">10</a></span>.<div id="Tab7" class="Table"><div class="Caption" lang="en"><div class="CaptionContent"><span class="CaptionNumber">Table 7</span> <p class="SimplePara">Textual documents mapped onto <span class="InlineEquation" id="IEq257">\(N_{81,14} \)</span> </p> </div></div><div class="u-scroll-horizontal"><table><colgroup><col class="tcol1 align-left" /><col class="tcol2 align-left" /><col class="tcol3 align-left" /><col class="tcol4 align-left" /><col class="tcol5 align-left" /><col class="tcol6 align-left" /></colgroup><thead><tr><th> <p class="SimplePara"> <em class="EmphasisTypeItalic ">i</em> </p> </th><th> <p class="SimplePara">Topics</p> </th><th> <p class="SimplePara">Places</p> </th><th> <p class="SimplePara">People</p> </th><th> <p class="SimplePara">Organizations</p> </th><th> <p class="SimplePara">Text</p> </th></tr></thead><tbody><tr><td> <p class="SimplePara">221</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">China Japan</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Worldbank</p> </td><td> <p class="SimplePara">China will receive loans totalling 390 mln dlrs from Japan and the World Bank for investment in new highways and port facilities. The Japan Overseas Economic Co–operation Fund is to provide 260 mln dlrs towards China”s plans to improve its road network, the official New China News Agency reported. A 130 mln dlr World Bank loan will be used to build 12 new berths incorporating container handling systems at the northeast China port of Tianjin, the agency said. It gave no details of the repayment terms of the loans. REUTER&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">1185</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Usa</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Norfolk Southern Corp said it entered into a joint venture with Sovran Financial Corp&amp;lt;SOVN&gt; to build the Sovran III Building, which will be renamed Norfolk Southern Tower. Norfolk Southern said it will locate its headquarters in the tower and occupy the 17th through 21st floors. It did not disclose the financial terms of the venture. The company said construction of the building adjacent to the Royster Building in downtown Norfolk begain in October 1986. Another story has been added to the original plans, making a 21–story tower. Reuter&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">5687</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Usa</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">The Federal Home Loan Bank Board said it voted to transfer one billion dlrs cash from the Federal Savings and Loan Insurance Corp (FSLIC) to the Dallas Federal Home Loan bank tomorrow to correct a collateral deficiency. The infusion was needed because the value of collateral behind FSLIC loans to savings and loan associations in the region had declined, an FHLBB official said. The official said that as a result, auditors of the Dallas bank, one of the 12 regional federal home loan banks, would be able to give an unqualified opinion on the bank’s condition. Reuter&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">6046</p> </td><td> <p class="SimplePara">Earn</p> </td><td> <p class="SimplePara">Usa</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">net 65 mln vs 57 mln year shr preferred 14.87 dlrs vs 12.51 dlrs shr common 236.77 dlrs vs 197.40 dlrs net 247 mln vs 208 mln NOTE: Federal Home Loan Mortgage Corp. FHLMC had 14,998,210 preferred shares outstanding in 1986 vs 14,998,379 in 1985, owned by about 3,000 member institutions of the 12 Federal Home Loan Banks. FHLMC also has 100,000 shares of common, owned by the Home Loan Banks. Reuter&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">6088</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Usa Mexico</p> </td><td> <p class="SimplePara">Petricioli</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Mexican Finance Minister Gustavo Petriccioli said Mexico will sign its 7.7 billion dlr commercial bank loan on Friday. Petriccioli, speaking to reporters after a visit to the World Bank, said the loan was currently 98.5 pct subscribed, a figure Treasury Secretary James Baker used in Congressional testimony yesterday. Reuter&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">6383</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Usa</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">The Federal Home Loan Bank Board said it put the Perpetual Savings Bank in Santa Ana, Calif., Into receivership because it was insolvent and replaced it with a new federally chartered Perpetual Savings Association. This is the 15th federal action assisting troubled U.S. Savings institutions this year. REUTER&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">6461</p> </td><td> <p class="SimplePara">Acq</p> </td><td> <p class="SimplePara">Usa</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">The Federal Home Loan Bank Board (FHLBB) announced today the replacement of a closed Santa Ana, Calif., savings bank in the 15th federal action assisting troubled U.S. savings institutions this year. The FHLBB said Perpetual Savings Bank in Santa Ana was put into receivorship because it was insolvent and was replaced by a new federally chartered Perpetual Savings Association. It said the savings bank’s insolvency “was a direct result of losses on speculative investments in real estate which were not supported by appraisals.” The FHLBB said it appointed Great American First Savings Bank&amp;lt;GTA&gt; of San Diego to manage Perpetual Savings. It said as of January 31, Perpetual had assets of 61.9 mln dlrs. Reuter&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">9846</p> </td><td> <p class="SimplePara">Earn</p> </td><td> <p class="SimplePara">Usa</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">The Federal Home Loan Bank Board said that it closed Equitable Savings and Loan Association of Fountain Valley, California, on Friday due to insolvency, amongst other complaints. The bank board said in a statement that Equitable’s insured deposits have been transfered to a unit of Buffalo–based Empire of America Federal Savings Bank&amp;lt;EOA&gt; in Woodland Hills, California. Consequently, Equitable’s offices will open as Empire branches today. Equitable had assets of 59.12 mln dlrs. Reuter&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">10005</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Usa</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">The Federal Home Loan Bank Board said it had closed Equitable Savings and Loan Association of Fountain Valley, Calif., and transferred its insured deposits to Empire of America–California, FSB, a federal savings bank in Woodland Hills, Calif. Equitable had assets of 59.12 mln dlrs. Empire is a subsidiary of Empire of America, FSB, Buffalo, N.Y., which has 9.1 billion dlrs in assets and 143 offices in five states. The former offices of Equitable will open as branches of Empire and Equitable’s depositors will have immediate access to their insured funds. Equitable was insolvent and had substantially dissipated assets and earnings, resulting in an unsafe and unsound condition to transact business, the bank board said. It was the seventh closing of a thrift in the nation this year and the first liquidation in California. The FHLBB said Equitable had deposits of 79.2 mln dlrs, all of which was insured except for about 300,000 dlrs. A spokeswoman for the board said information on the cost of the transfer to the Federal Savings and Loan Insurance Corp. was unavailable. Reuter&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">11005</p> </td><td> <p class="SimplePara">Earn</p> </td><td> <p class="SimplePara">Usa</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Equicor, Equitable HCA Corp, said that the company will likely attain revenues in excess of two billion dlrs in its first year of operations. The company, created last October with initial equity of 400 mln dlrs, is owned equally by the Equitable Life Assurance Society of the U.S. and Hospital Corp of America&amp;lt;HCA&gt;. Financial results for the first six months of the company’s operations were not disclosed. Equicor provides employee group plans to 1,500 corporations nationwide. It said it aims to double its marketshare in five years from the about 3.5 pct of the employee benefits industry it controls. Reuter&amp;#3;</p> </td></tr></tbody></table></div></div> <div id="Tab8" class="Table"><div class="Caption" lang="en"><div class="CaptionContent"><span class="CaptionNumber">Table 8</span> <p class="SimplePara">Textual documents mapped onto <span class="InlineEquation" id="IEq258">\(N_{82,14} \)</span> </p> </div></div><div class="u-scroll-horizontal"><table><colgroup><col class="tcol1 align-left" /><col class="tcol2 align-left" /><col class="tcol3 align-left" /><col class="tcol4 align-left" /><col class="tcol5 align-left" /><col class="tcol6 align-left" /></colgroup><thead><tr><th> <p class="SimplePara"> <em class="EmphasisTypeItalic ">i</em> </p> </th><th> <p class="SimplePara">Topics</p> </th><th> <p class="SimplePara">Places</p> </th><th> <p class="SimplePara">People</p> </th><th> <p class="SimplePara">Organizations</p> </th><th> <p class="SimplePara">Text</p> </th></tr></thead><tbody><tr><td> <p class="SimplePara">243</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Egypt Congo</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Representatives of nine African countries will meet here on March 11 to discuss the African debt crisis, the Chad political situation and other issues, Egypt’s Minister of State for Foreign Affairs, Boutros Boutros Ghali, said. He told reporters on his return from Ethiopia and Djibouti that the meeting and venue had been agreed by the Organisation of African Unity (OAU). He said Egypt, Zambia, Djibouti, Zaire, Uganda, Sierra Leone, Congo, Algeria and Mali would be represented. Foreign Ministry sources said Congo President Denis Sassou–Nguesso would chair the meeting. REUTER&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">201</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Italy</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Leaders of Italy’s five coalition parties have agreed to meet today to try to settle their differences which are mainly between Prime Minister Bettino Craxi’s Socialist Party and the majority Christian Democrats. Sources close to Deputy Prime Minister Arnaldo Forlani said Craxi told him he would announce his resignation next week, allowing negotiations on a new government leader. The conservative Christian Democrats demanded the meeting after Craxi said a pact agreed during a government crisis last August, under which he was to hand over the prime minister’s job next month, was unlikely to be fulfilled. Political sources said the Christian Democrats are likely to leave the coalition, which also includes Republicans, Social Democrats and Liberals, unless they get the prime minister’s job. They said Craxi’s plans to resign show he has decided to stick to the pact but talks on a leader, a government program and sharing of ministries will not be easy. They said there is dissent among the partners and that Forlani has been trying to mediate to avoid a crisis. They said the five are likely to begin talks tomorrow on whether formation of a new government is feasible or early elections are inevitable. Elections are not due until 1988. REUTER&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">1046</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Italy</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Socialist Prime Minister Bettino Craxi said his five party coalition government would resign. Craxi, Italy’s prime minister for a postwar record of 3–1/2 years, told the Senate (upper house) he would hand his and the government’s resignation to President Francesco Cossiga immediately after leaving the chamber. Craxi has been prime minister, at the head of two separate but identical five–party coalitions, since August 1983. Reuter&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">1094</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Italy</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Italian Prime Minister Bettino Craxi and his five–party coalition government have resigned, officials said. A statement from the Quirinal presidential palace said head of state Francesco Cossiga had reserved his decision on whether to accept the resignation, normal procedure when a government stands down. The statement said Cossiga had asked Craxi, who has been prime minister for a post–war record of three–and–a–half years, to continue to handle current government business. REUTER&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">1762</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Italy</p> </td><td> <p class="SimplePara">Cossiga</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">President Francesco Cossiga meets political leaders to discuss how to form a new government following the resignation of Prime Minister Bettino Craxi. Craxi’s Socialist Party has said it will not serve under Foreign Minister Giulio Andreotti, who has been prime minister five times previously and whom the majority Christian Democratic Party has said it wants to take on the job again. The Socialist Party, the second biggest in the outgoing five–party coalition, said it would accept only Ciriaco De Mita, Christian Democratic Party secretary, or the party’s president, Arnaldo Forlani, for the job of prime minister. Political sources said talks are likely to be difficult and could take several days due to rivalry between the two leading parties. In Craxi’s 3–1/2 years as prime minister, the Christian Democrats have become increasingly irritated at being denied the prime minister’s job. The sources said early general elections are likely unless agreement can be reached. Cossiga is due to meet former presidents before holding talks with party leaders, including the opposition Communists and the junior coalition members —- Republicans, Liberals and Social Democrats. After the consultations, Cossiga will name a prime minister–designate who will try to form a government. REUTER&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">2048</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Usa Japan</p> </td><td> <p class="SimplePara">Nakasone</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Commerce Secretary Malcolm Baldrige said he may recommend that the United States retaliate against Japan if the Japanese do not permit U.S. construction firms to participate in building the eight billion dlr Kansai airport. But he said he had a personal commitment from Japanese Prime Minister Yasuhiro Nakasone that US firms would have a chance at the work. “I think he will honor that commitment,” Baldrige told the Senate Appropriations subcommittee on commerce affairs.” He said one form of retaliation could be to curb Japanese firms’ two billion dlr construction work in the United States reuter&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">2862</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Italy</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Italian President Francesco Cossiga asked veteran Christian Democrat politician Giulio Andreotti to try to form a new government, officials said. They said Andreotti had reserved his reply on whether to accept the mandate, normal procedure until he has ascertained whether he can form a government. Cossiga nominated Andreotti, sole candidate of the majority Christian Democrats, despite stiff opposition from the Socialists of outgoing Prime Minister Bettino Craxi. REUTER&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara">4456</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Italy</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Italian Prime Minister designate Giulio Andreotti expressed cautious optimism about his chances of forming a government, amid concern by industrialists that a lengthy political crisis could cause economic damage. Andreotti today wound up his first round of political consultations aimed at finding a way out of the crisis. His Christian Democrats and the Socialists of outgoing premier Bettino Craxi, whose row caused last week’s collapse of the five–party coalition, remained deeply divided. Andreotti said he would spend the weekend considering the situation before a second round of consultations next week. Meanwhile Italy’s top industrialists expressed concern that a long drawn—out crisis, or continuing squabbling between the five coalition partners, could jeopardise the major economic progress made in three—and—a—half stable years under Craxi. Luigi Lucchini, president of the employers organisation Confindustria said in a speech yesterday, “What is certain is that a precarious political situation is damaging to the economy, to the objectives of companies, to competitivity.” His remarks were supported by Fiat chairman Giovanni Agnelli, who said in a radio interview that he hoped for a reconstruction of the coalition. REUTER&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara"> <strong class="EmphasisTypeBold ">8676</strong> </p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Italy</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Veteran politician Giulio Andreotti abandoned his attempts to form a government, putting Italy on course for early elections, political sources said. Christian Democrat Andreotti told President Francesco Cossiga he was unable to reconstruct the five–party coalition after two weeks of negotiations, they said. Reuter&amp;#3;</p> </td></tr><tr><td> <p class="SimplePara"> <strong class="EmphasisTypeBold ">9473</strong> </p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Italy</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">–</p> </td><td> <p class="SimplePara">Veteran politician Giulio Andreotti abandoned his attempts to form a government, putting Italy on course for early elections, political sources said. Christian Democrat Andreotti told President Francesco Cossiga he was unable to reconstruct the five–party coalition after two weeks of negotiations, they said. Reuter&amp;#3;</p> </td></tr></tbody></table></div></div> <div id="Tab9" class="Table"><div class="Caption" lang="en"><div class="CaptionContent"><span class="CaptionNumber">Table 9</span> <p class="SimplePara">Summary of textual documents mapped onto <span class="InlineEquation" id="IEq259">\(N_{4,2} \)</span> </p> </div></div><div class="u-scroll-horizontal"><table><colgroup><col class="tcol1 align-left" /><col class="tcol2 align-left" /><col class="tcol3 align-left" /></colgroup><thead><tr><th> <p class="SimplePara">Doc.</p> </th><th> <p class="SimplePara">Keywords</p> </th><th> <p class="SimplePara">Texts</p> </th></tr></thead><tbody><tr><td> <p class="SimplePara">1</p> </td><td> <p class="SimplePara">Fuzzy inference system; FMEA;</p> </td><td> <p class="SimplePara">A fuzzy inference system (fis) based failure mode and effect analysis (fmea) methodology is presented. fmea methodology was introduced as a formal and systematic procedure for evaluation of risk associated to potential failure modes in the 1960s. bowles and pel<span class="InlineEquation" id="IEq260"> <a href="https://static-content.springer.com/image/art%3A10.1007%2Fs11063-017-9597-3/MediaObjects/11063_2017_9597_IEq260_HTML.gif" target="_blank" rel="noopener"><span class="u-screenreader-only">Open image in new window</span><img src="https://static-content.springer.com/image/art%3A10.1007%2Fs11063-017-9597-3/MediaObjects/11063_2017_9597_IEq260_HTML.gif" alt="" /></a> </span>ez further proposed an fis based risk priority number (rpn) model as an alternative to the conventional rpn model [<span class="CitationRef"><a href="link-springer-com-0036.htm#CR1">1</a></span>]. the use of the fis based rpn in a semiconductor manufacturing process, i.e., underfill dispensing, is further reported</p> </td></tr><tr><td> <p class="SimplePara">98</p> </td><td> <p class="SimplePara">Fuzzy modeling; Monotonic property; FMEA; Occurrence score.</p> </td><td> <p class="SimplePara">Many real world engineering problems of interest revolve around a system that satisfied the monotonicity property between its input and output. thus, specific fuzzy model that preserves monotonicity constraints better approximates than the conventional fuzzy model. in the recent year, methods that improve the performance of fuzzy model that satisfy the monotonic constraints have been reported. in this paper, we investigate on the conditions for a single-input fuzzy model to fulfill the monotone output property using a derivative approach. from the derivation, a guideline on how the input membership functions should be tuned is provided. we demonstrate the use of the derived conditions with an application of fuzzy model to my proposed fuzzy occurrence model in failure mode and effect analysis (fmea) methodology. i construct the fuzzy occurrence model with information collected from a semiconductor manufacturing plant for flip chip ball grid array (fcbga) products. analysis and concluding remarks are then presented</p> </td></tr><tr><td> <p class="SimplePara">100</p> </td><td> <p class="SimplePara">Fuzzy modeling; Monotonic property; FMEA; Bowles fuzzy rpn model.</p> </td><td> <p class="SimplePara">This paper focuses on the modeling of a monotone multi-input fuzzy model. it can be viewed as a continuation from the part i, which focus on single-input fuzzy model. again, i try to investigate the use of derivative approach to find the conditions of a multi-input fuzzy model to fulfill the monotonous property. from the derivation, a guideline on how the input membership functions should be tuned is provided. we demonstrate the use of the derived conditions with an application of fuzzy model to bowles fuzzy rpn model in failure mode and effect analysis (fmea) methodology. in this paper, the fuzzy fmea model is conducted with information collected from a semiconductor manufacturing plant for flip chip ball grid array (fcbga) products. analysis and concluding remarks are then presented</p> </td></tr><tr><td> <p class="SimplePara">101</p> </td><td> <p class="SimplePara">Fuzzy logic; Context-aware system; FIS; Fuzzy owl</p> </td><td> <p class="SimplePara">In the context awareness, information would be retrieved, processed, shared, and reused in the maximum automatic way possible. our study in the context awareness application has shown that these are rarely a matter of true or false but rather procedures that require degrees of relatedness, similarity, or ranking. apart from the wealth of applications that are inherently imprecise, information itself is many times imprecise or uncertain. for example, temperature is “cold” “warm” “hot” and tourist is “low” “medium” “high” are examples of such concepts. dealing with such type of information would yield more realistic, intelligent and effective applications. in this paper we propose a fuzzy owl web ontology language, in order to be able to capture, and represent with such type of uncertain concepts</p> </td></tr><tr><td> <p class="SimplePara">159</p> </td><td> <p class="SimplePara">Qualitative technique; Semi-quantitative technique; Quantitative technique; Risk-based assessment; Risk analysis; Reliability method.</p> </td><td> <p class="SimplePara">Corrosion is a common form of degradation in pipelines that reduces both the static and cyclic strength of a pipeline. in the structural engineering field, metal corrosion is considered as one of the most dominant failure mechanisms that significantly affects the reliability of structure. this paper presents a methodology for the assessment of corrosion in pipelines known as risk-based assessment (rba). rba has been a topic of interest among structure owners and inspection vendors due to its great capability in ensuring pipeline safety and integrity as well as enhancing the cost effectiveness. rba is a systematic approach which aims to reduce the overall risk exposure by focusing on the areas of higher risk. this approach reduces the total scope of work and inspection costs in a structured and justifiable way. the paper reviews about three types of risk assessment techniques which are qualitative (q), semi-quantitative (sq) and quantitative risk assessment (qra). however, the paper mainly focused on qra which focusing on risk estimation (likelihood analysis and consequence analysis). this technique can be utilised to avoid unnecessary inspection and extend the inspection intervals based on the risks associated with the pipelines. therefore, inspection personnel can prioritise the inspection schedule on the high risk areas</p> </td></tr><tr><td> <p class="SimplePara">278</p> </td><td> <p class="SimplePara">External factors; Cause of the problems; Corrective action; Corporate performance.</p> </td><td> <p class="SimplePara">Construction industry as a sector that contribute 4–8% to gross domestic product (gdp) need to improve their ability both state own contractors and private contractors. with the improvement of ability, contruction company will able to compete in domestic and international. in order to improve company ability, construction company need as early as possible to make corrective action in form of control system toward factors that can influence successfullness of the company. Few factors that affected and be determined of company successfulness are: internal factors, external factors, and market forces. external factors are a factor that is out of stakeholders control and need to anticipate early. external factors commonly are dominated by government regulation which is giving legal aspect outside monetary aspect, material ability, project safety, low cost competitors, money depreciation, technological changes, natural disasters, lack of material and worker. The research objective discussed in this paper is to identify the corrective action of the problems arise in a construction company’s external factors that influence the company’s success performance. The methods used are literature studies and survey for identifying the problems and lesson learned corrective action. Analyses used in this research are statistical analysis and delphi method. the results show the corrective actions are implemented toward the cause of the problems by regarding its effects (as a risk factor) whether the highest risk or the lowest risk, and also considering that those corrective actions are preventive and anticipative actions in order to decrease the external problems in the construction company</p> </td></tr><tr><td> <p class="SimplePara">279</p> </td><td> <p class="SimplePara">Rusunawa; Build-operate-transfer; Investment; Risk</p> </td><td> <p class="SimplePara">To fulfil the needs of proper housing for public, the government have made some strategies that set on the national plan of mid term development year 2004–2009, the plan containing the availability of facility and infrastructure of low-budgeted housing area, in which one of the project is the construction of 60,000 units low-cost apartments (rusunawa) and 250,000 low cost leased apartment (rusunami) that dedicated for public with low income. The construction is involving private sector. the limited budget has pushed the government to persuade the private sector to involve on the construction project. one of the cooperation schemes that offered to the private sector is build-operate-transfer. this scheme is become an alternative to attract the private sector to involve on the construction project. however, build-operate-transfer scheme has an uncertainty on the investment return. Risk assessment should be made in order to the answer the uncertainty of investment return. identification and analysis of the risk factor is become the subject of this research that expected can be a consideration to the private sector in risk simulating and therefore can produce a clear picture on the opportunity and risk on the investment, this picture is expected can attract the private sector to join on the rusunawa investment. interpretation of identification on the research is carried out through analysis on stake holder and rank sorting with analytical hierarchy process (ahp) also regression analysis that applied to investment risk research. complicated bureaucracy, difficulties on licenses issuance, and uncontrollable inflation are identified as the significant risk factors that affect the rusunawa investment. this research is also expected can assist the government to attract the private sector in succeeding the public housing project</p> </td></tr></tbody></table></div></div> <div id="Tab10" class="Table"><div class="Caption" lang="en"><div class="CaptionContent"><span class="CaptionNumber">Table 10</span> <p class="SimplePara">Summary of textual documents mapped onto <span class="InlineEquation" id="IEq261">\(N_{5,2} \)</span> </p> </div></div><div class="u-scroll-horizontal"><table><colgroup><col class="tcol1 align-left" /><col class="tcol2 align-left" /><col class="tcol3 align-left" /></colgroup><thead><tr><th> <p class="SimplePara">Doc.</p> </th><th> <p class="SimplePara">Keywords</p> </th><th> <p class="SimplePara">Texts</p> </th></tr></thead><tbody><tr><td> <p class="SimplePara">3</p> </td><td> <p class="SimplePara">Curve synthesis; High quality curves; Spiral; Monotonic curvature curves.</p> </td><td> <p class="SimplePara">A planar curve called generalised log aesthetic curve segment (glac) has been proposed using the curve synthesis process with two types of formulation; <span class="InlineEquation" id="IEq262">\(\vert \)</span>Ñ-shift and <span class="InlineEquation" id="IEq263">\(\vert \)</span>Ê- shift. both methods were carried out by extending the formulation of generalized cornu spiral (gcs) in a similar manner to the log aesthetic curve (lac). the family of glac comprises of planar curves of high quality such as gcs, lac, clothoid, logarithmic spiral, circle involute and etc. the glac segment has an additional parameter to determine its shape as compared to gcs and lac segment, hence an extra constraint can be satisfied when shaping the glac segment. the final section of this paper shows some numerical examples</p> </td></tr><tr><td> <p class="SimplePara">13</p> </td><td> <p class="SimplePara">Wire electrical discharge machining; 304 stainless steel; Surface roughness; Tolerance; Machining time.</p> </td><td> <p class="SimplePara">Wire electrical discharge machining (wedm) is a process which has been implemented widely in various applications. it works very effectively in machining of difficultto- cut materials and alloys in die and aerospace industries with high dimensional accuracies. however, this capability is affected by the parameters being used for the cutting. the optimum selection of manufacturing conditions is very important in wire edm processes. this research presents a study on wedm on stainless steel 304 using mitsubishi ra 90 series. particularly, this study investigate the significance of several parameters including voltage gap, peak current, wire tension and wire speed toward the surface quality, tolerance and machining time. a two level full factorial design of experiment method was used to determine the significance of the parameters</p> </td></tr><tr><td> <p class="SimplePara">20</p> </td><td> <p class="SimplePara">Acoustic emission; Low speed bearing; Lubrication condition.</p> </td><td> <p class="SimplePara">This paper investigates the capability of acoustic emission technique in monitoring and accessing the lubrication condition in a low speed rolling element bearing (reb) operating with constant speed of 47 rpm. the rig consists of a motor/gearbox system, a test bearing (47 rpm) and a hydraulic cylinder ram. the bearing test rig employed for this study is a spherical roller bearing selected from a split cooper bearing and subjected to 1000 psi and 2000 psi load via a hydraulic cylinder ram. measurements have been carried out using of a physical acoustic corporation (pac) broad band ae transducer model wdi and the amplification is provided with by a pac pre-amplifier type 1220a. four simulations of various grease fillings up to full, a quarter full, half full capacity and dry condition have been carried out. the time domain parameters which have been utilized are rms and energy. the results of this study can be exploited to bring information from the lubrication condition to determine the suitable lubrication filling for the bearing. thus, the lubrication of the bearing can be improved and the lifetime of the bearing lengthen. it is expected that the properly lubricated bearing element will transmit more energy of ae signal compared to a poorly lubricated bearing, as there would be more contact between asperity points and lubricant. the results of the experiment indicate that the values of rms and energy are capable to distinguish various lubricant conditions in the bearing. the obtained results show that the rms and energy values increase with the increment of lubricant amount in the low speed bearing housing. this phenomenon is different from the results normally obtained in a high speed reb</p> </td></tr></tbody></table></div></div> </div></div></section></aside><section class="Section1 RenderAsSection1" id="Bib1" tabindex="-1"><h2 class="Heading">References</h2><div class="content"><ol class="BibliographyWrapper"><li class="Citation"><div class="CitationNumber">1.</div><div class="CitationContent" id="CR1">Rui X, Wunsch DC (2009) Clustering. Wiley, IEEE Press<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Clustering&amp;author=X.%20Rui&amp;author=DC.%20Wunsch&amp;publication_year=2009"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">2.</div><div class="CitationContent" id="CR2">Kohonen T (2001) Self-organizing maps, 3rd edn. Springer, Berlin<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1007/978-3-642-56927-2"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?0957.68097"><span><span>MATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Self-organizing%20maps&amp;author=T.%20Kohonen&amp;publication_year=2001"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">3.</div><div class="CitationContent" id="CR3">Kohonen T (1990) The self-organizing map. Proc IEEE 78(9):1464–1480<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/5.58325"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=The%20self-organizing%20map&amp;author=T.%20Kohonen&amp;journal=Proc%20IEEE&amp;volume=78&amp;issue=9&amp;pages=1464-1480&amp;publication_year=1990"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">4.</div><div class="CitationContent" id="CR4">Rauber A, Merkl D, Dittenbachm M (2002) The growing hierarchical self-organizing map: exploratory analysis of high-dimensional data. IEEE Trans Neural Netw 13(6):1331–1341<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TNN.2002.804221"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=The%20growing%20hierarchical%20self-organizing%20map%3A%20exploratory%20analysis%20of%20high-dimensional%20data&amp;author=A.%20Rauber&amp;author=D.%20Merkl&amp;author=M.%20Dittenbachm&amp;journal=IEEE%20Trans%20Neural%20Netw&amp;volume=13&amp;issue=6&amp;pages=1331-1341&amp;publication_year=2002"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">5.</div><div class="CitationContent" id="CR5">Carpenter GA, Grossberg S, Rosen DB (1991) ART 2-A: an adaptive resonance algorithm for rapid category learning and recognition. Neural Netw 4:493–504<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/0893-6080(91)90045-7"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=ART%202-A%3A%20an%20adaptive%20resonance%20algorithm%20for%20rapid%20category%20learning%20and%20recognition&amp;author=GA.%20Carpenter&amp;author=S.%20Grossberg&amp;author=DB.%20Rosen&amp;journal=Neural%20Netw&amp;volume=4&amp;pages=493-504&amp;publication_year=1991"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">6.</div><div class="CitationContent" id="CR6">Carpenter GA, Grossberg S, Markuzon N, Reynolds JH, Rosen DB (1992) Fuzzy ARTMAP: a neural network architecture for incremental supervised learning of analog multidimensional maps. IEEE Trans Neural Netw 3(5):698–713<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/72.159059"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Fuzzy%20ARTMAP%3A%20a%20neural%20network%20architecture%20for%20incremental%20supervised%20learning%20of%20analog%20multidimensional%20maps&amp;author=GA.%20Carpenter&amp;author=S.%20Grossberg&amp;author=N.%20Markuzon&amp;author=JH.%20Reynolds&amp;author=DB.%20Rosen&amp;journal=IEEE%20Trans%20Neural%20Netw&amp;volume=3&amp;issue=5&amp;pages=698-713&amp;publication_year=1992"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">7.</div><div class="CitationContent" id="CR7">Pal NR, Pal K, Keller JM, Bezdek JC (2005) A possibilistic fuzzy c-means clustering algorithm. IEEE Trans Fuzzy Syst 13(4):517–530<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TFUZZ.2004.840099"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20possibilistic%20fuzzy%20c-means%20clustering%20algorithm&amp;author=NR.%20Pal&amp;author=K.%20Pal&amp;author=JM.%20Keller&amp;author=JC.%20Bezdek&amp;journal=IEEE%20Trans%20Fuzzy%20Syst&amp;volume=13&amp;issue=4&amp;pages=517-530&amp;publication_year=2005"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">8.</div><div class="CitationContent" id="CR8">Kanungo T, Mount DM, Nethanyahu NS, Piatko CD, Silverman R, Wu AY (2002) An efficient k-means clustering algorithm: analysis and implementation. IEEE Trans Pattern Anal Mach Intell 24(7):881–892<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TPAMI.2002.1017616"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=An%20efficient%20k-means%20clustering%20algorithm%3A%20analysis%20and%20implementation&amp;author=T.%20Kanungo&amp;author=DM.%20Mount&amp;author=NS.%20Nethanyahu&amp;author=CD.%20Piatko&amp;author=R.%20Silverman&amp;author=AY.%20Wu&amp;journal=IEEE%20Trans%20Pattern%20Anal%20Mach%20Intell&amp;volume=24&amp;issue=7&amp;pages=881-892&amp;publication_year=2002"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">9.</div><div class="CitationContent" id="CR9">Xu C, Tao D, Xu C (2015) Multi-view self-paced learning for clustering. In: Proceedings of 24th international conference on artificial intelligence, pp 3974–3980<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Xu%20C%2C%20Tao%20D%2C%20Xu%20C%20%282015%29%20Multi-view%20self-paced%20learning%20for%20clustering.%20In%3A%20Proceedings%20of%2024th%20international%20conference%20on%20artificial%20intelligence%2C%20pp%203974%E2%80%933980"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">10.</div><div class="CitationContent" id="CR10">Arora R, Gupta MR, Kapila A, Fazel M (2013) Similarity-based clustering by left-stochastic matrix factorization. Mach Learn Res 14(1):1715–1746<span class="Occurrences"><span class="Occurrence OccurrenceAMSID"><a class="gtm-reference" data-reference-type="MathSciNet" target="_blank" rel="noopener" href="http://www.ams.org/mathscinet-getitem?mr=3104493"><span><span>MathSciNet</span></span></a></span><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?1317.68142"><span><span>MATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Similarity-based%20clustering%20by%20left-stochastic%20matrix%20factorization&amp;author=R.%20Arora&amp;author=MR.%20Gupta&amp;author=A.%20Kapila&amp;author=M.%20Fazel&amp;journal=Mach%20Learn%20Res&amp;volume=14&amp;issue=1&amp;pages=1715-1746&amp;publication_year=2013"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">11.</div><div class="CitationContent" id="CR11">Hsu CC, Lin SH, Tai WS (2011) Apply extended self-organizing map to cluster and classify mixed-type data. Neurocomputing 74(18):3832–3842<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.neucom.2011.07.014"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Apply%20extended%20self-organizing%20map%20to%20cluster%20and%20classify%20mixed-type%20data&amp;author=CC.%20Hsu&amp;author=SH.%20Lin&amp;author=WS.%20Tai&amp;journal=Neurocomputing&amp;volume=74&amp;issue=18&amp;pages=3832-3842&amp;publication_year=2011"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">12.</div><div class="CitationContent" id="CR12">Tai WS, Hsu CC, Chen JC (2010) A mixed-type self-organizing map with a dynamic structure. In: International conference on neural networks, pp 1–8<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Tai%20WS%2C%20Hsu%20CC%2C%20Chen%20JC%20%282010%29%20A%20mixed-type%20self-organizing%20map%20with%20a%20dynamic%20structure.%20In%3A%20International%20conference%20on%20neural%20networks%2C%20pp%201%E2%80%938"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">13.</div><div class="CitationContent" id="CR13">Matharage S, Alahakoon D, Rajapakse J, Huang P (2011) Fast growing self-organizing map for text clustering. In: Lecturer notes computer science, neural information processing, 7063, pp 406–415<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Matharage%20S%2C%20Alahakoon%20D%2C%20Rajapakse%20J%2C%20Huang%20P%20%282011%29%20Fast%20growing%20self-organizing%20map%20for%20text%20clustering.%20In%3A%20Lecturer%20notes%20computer%20science%2C%20neural%20information%20processing%2C%207063%2C%20pp%20406%E2%80%93415"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">14.</div><div class="CitationContent" id="CR14">Kuo RJ, Wang CF, Chen ZY (2012) Integration of growing self-organizing and continuous genetic algorithm for grading lithium-ion battery cells. Appl Soft Comput 8(12):2012–2022<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.asoc.2012.01.018"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Integration%20of%20growing%20self-organizing%20and%20continuous%20genetic%20algorithm%20for%20grading%20lithium-ion%20battery%20cells&amp;author=RJ.%20Kuo&amp;author=CF.%20Wang&amp;author=ZY.%20Chen&amp;journal=Appl%20Soft%20Comput&amp;volume=8&amp;issue=12&amp;pages=2012-2022&amp;publication_year=2012"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">15.</div><div class="CitationContent" id="CR15">Huang SY, Tsaih RH (2012) The prediction approach with growing hierarchical self-organizing map. In: International conference on neural networks, pp 1–7<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Huang%20SY%2C%20Tsaih%20RH%20%282012%29%20The%20prediction%20approach%20with%20growing%20hierarchical%20self-organizing%20map.%20In%3A%20International%20conference%20on%20neural%20networks%2C%20pp%201%E2%80%937"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">16.</div><div class="CitationContent" id="CR16">Hosseini HS (2011) Binary tree time adaptive self-organizing map. Neurocomputing 74(11):1823–1839<span class="Occurrences"><span class="Occurrence OccurrenceAMSID"><a class="gtm-reference" data-reference-type="MathSciNet" target="_blank" rel="noopener" href="http://www.ams.org/mathscinet-getitem?mr=2841803"><span><span>MathSciNet</span></span></a></span><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.neucom.2010.07.037"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Binary%20tree%20time%20adaptive%20self-organizing%20map&amp;author=HS.%20Hosseini&amp;journal=Neurocomputing&amp;volume=74&amp;issue=11&amp;pages=1823-1839&amp;publication_year=2011"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">17.</div><div class="CitationContent" id="CR17">Allahyar A, Yazdi HS, Harati A (2015) Constrained semi-supervised growing self-organizing map. Neurocomputing 147:456–471<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.neucom.2014.06.039"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Constrained%20semi-supervised%20growing%20self-organizing%20map&amp;author=A.%20Allahyar&amp;author=HS.%20Yazdi&amp;author=A.%20Harati&amp;journal=Neurocomputing&amp;volume=147&amp;pages=456-471&amp;publication_year=2015"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">18.</div><div class="CitationContent" id="CR18">Pakkanen J, Iivarinen J, Oja E (2006) The evolving tree-analysis and applications. IEEE Trans Neural Netw 17(3):591–603<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TNN.2006.873294"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=The%20evolving%20tree-analysis%20and%20applications&amp;author=J.%20Pakkanen&amp;author=J.%20Iivarinen&amp;author=E.%20Oja&amp;journal=IEEE%20Trans%20Neural%20Netw&amp;volume=17&amp;issue=3&amp;pages=591-603&amp;publication_year=2006"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">19.</div><div class="CitationContent" id="CR19">Pakkanen J, Iivarinen J, Oja E (2004) The evolving tree: a novel self-organizing network for data analysis. Neural Process Lett 20(33):199–211<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1007/s11063-004-2156-8"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=The%20evolving%20tree%3A%20a%20novel%20self-organizing%20network%20for%20data%20analysis&amp;author=J.%20Pakkanen&amp;author=J.%20Iivarinen&amp;author=E.%20Oja&amp;journal=Neural%20Process%20Lett&amp;volume=20&amp;issue=33&amp;pages=199-211&amp;publication_year=2004"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">20.</div><div class="CitationContent" id="CR20">Fabrizio S (2005) Text cetegorization. In: Alessandro Z (ed) Text mining and its applications. WIT Press, Southampton, pp 109–129<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Text%20cetegorization&amp;author=S.%20Fabrizio&amp;pages=109-129&amp;publication_year=2005"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">21.</div><div class="CitationContent" id="CR21">Fabrizio S (2002) Machine learning in automated text categorization. ACM Comput Surv 34(1):1–47<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1145/505282.505283"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Machine%20learning%20in%20automated%20text%20categorization&amp;author=S.%20Fabrizio&amp;journal=ACM%20Comput%20Surv&amp;volume=34&amp;issue=1&amp;pages=1-47&amp;publication_year=2002"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">22.</div><div class="CitationContent" id="CR22">Lagus K, Kaski S, Kohonen T (2004) Mining massive document collections by the WEBSOM method. Inf Sci 163(1):135–156<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.ins.2003.03.017"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Mining%20massive%20document%20collections%20by%20the%20WEBSOM%20method&amp;author=K.%20Lagus&amp;author=S.%20Kaski&amp;author=T.%20Kohonen&amp;journal=Inf%20Sci&amp;volume=163&amp;issue=1&amp;pages=135-156&amp;publication_year=2004"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">23.</div><div class="CitationContent" id="CR23">Kaski S, Honkela T, Lagus K, Kohonen T (1998) WEBSOM: self-organizing maps of document collections. Neurocomputing 21(1):101–117<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/S0925-2312(98)00039-3"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?0917.68059"><span><span>MATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=WEBSOM%3A%20self-organizing%20maps%20of%20document%20collections&amp;author=S.%20Kaski&amp;author=T.%20Honkela&amp;author=K.%20Lagus&amp;author=T.%20Kohonen&amp;journal=Neurocomputing&amp;volume=21&amp;issue=1&amp;pages=101-117&amp;publication_year=1998"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">24.</div><div class="CitationContent" id="CR24">Lewis DD (1998) Naïve Bayes at forty: the independence as assumption in information retrieval. Lect Notes Comp Sci 1398:4–15<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1007/BFb0026666"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Na%C3%AFve%20Bayes%20at%20forty%3A%20the%20independence%20as%20assumption%20in%20information%20retrieval&amp;author=DD.%20Lewis&amp;journal=Lect%20Notes%20Comp%20Sci&amp;volume=1398&amp;pages=4-15&amp;publication_year=1998"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">25.</div><div class="CitationContent" id="CR25">Hotho A, Maedche A, Staab S (2002) Ontology-based text document clustering. KI 16(4):48–54<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Ontology-based%20text%20document%20clustering&amp;author=A.%20Hotho&amp;author=A.%20Maedche&amp;author=S.%20Staab&amp;journal=KI&amp;volume=16&amp;issue=4&amp;pages=48-54&amp;publication_year=2002"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">26.</div><div class="CitationContent" id="CR26">Witten IH, Frank E, Hall MA (2011) Data mining: practical machine learning tools and techniques, 3rd edn. Morgan Kaufmann, Burlington<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Data%20mining%3A%20practical%20machine%20learning%20tools%20and%20techniques&amp;author=IH.%20Witten&amp;author=E.%20Frank&amp;author=MA.%20Hall&amp;publication_year=2011"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">27.</div><div class="CitationContent" id="CR27">Dhillon IS (2001) Co-clustering documents and words using bipartite spectral graph partitioning. In: Proceedings of 7th international conference on knowledge discovery data mining, pp 269–274<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Dhillon%20IS%20%282001%29%20Co-clustering%20documents%20and%20words%20using%20bipartite%20spectral%20graph%20partitioning.%20In%3A%20Proceedings%20of%207th%20international%20conference%20on%20knowledge%20discovery%20data%20mining%2C%20pp%20269%E2%80%93274"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">28.</div><div class="CitationContent" id="CR28">Liu Y, Loh HT, Sun A (2009) Imbalanced text classification: a term weighting approach. Expert Syst Appl 36(1):690–701<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.eswa.2007.10.042"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Imbalanced%20text%20classification%3A%20a%20term%20weighting%20approach&amp;author=Y.%20Liu&amp;author=HT.%20Loh&amp;author=A.%20Sun&amp;journal=Expert%20Syst%20Appl&amp;volume=36&amp;issue=1&amp;pages=690-701&amp;publication_year=2009"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">29.</div><div class="CitationContent" id="CR29">Wold S, Esbensen K, Geladi P (1987) Principal component analysis. Chemom Intell Lab Syst 2(1–3):37–52<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/0169-7439(87)80084-9"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Principal%20component%20analysis&amp;author=S.%20Wold&amp;author=K.%20Esbensen&amp;author=P.%20Geladi&amp;journal=Chemom%20Intell%20Lab%20Syst&amp;volume=2&amp;issue=1%E2%80%933&amp;pages=37-52&amp;publication_year=1987"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">30.</div><div class="CitationContent" id="CR30">Ye J, Li Q (2004) LDA/QR: an efficient and effective dimension reduction algorithm and its theoretical foundation. Pattern Recognit 37(4):851–854<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.patcog.2003.08.006"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=LDA%2FQR%3A%20an%20efficient%20and%20effective%20dimension%20reduction%20algorithm%20and%20its%20theoretical%20foundation&amp;author=J.%20Ye&amp;author=Q.%20Li&amp;journal=Pattern%20Recognit&amp;volume=37&amp;issue=4&amp;pages=851-854&amp;publication_year=2004"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">31.</div><div class="CitationContent" id="CR31">Roweis ST, Saul LK (2000) Nonlinear dimensionality reduction by locally linear embedding. Science 290(5500):2323–2326<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1126/science.290.5500.2323"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Nonlinear%20dimensionality%20reduction%20by%20locally%20linear%20embedding&amp;author=ST.%20Roweis&amp;author=LK.%20Saul&amp;journal=Science&amp;volume=290&amp;issue=5500&amp;pages=2323-2326&amp;publication_year=2000"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">32.</div><div class="CitationContent" id="CR32">Belkin M, Niyogi P (2003) Laplacian eigenmaps for dimensionality reduction and data representation. Neural Comput 15(6):1373–1396<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1162/089976603321780317"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?1085.68119"><span><span>MATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Laplacian%20eigenmaps%20for%20dimensionality%20reduction%20and%20data%20representation&amp;author=M.%20Belkin&amp;author=P.%20Niyogi&amp;journal=Neural%20Comput&amp;volume=15&amp;issue=6&amp;pages=1373-1396&amp;publication_year=2003"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">33.</div><div class="CitationContent" id="CR33">Yu J, Tao D, Wang M (2012) Adaptive hypergraph learning and its application in image classification. IEEE Trans Image Process 21(7):3262–3272<span class="Occurrences"><span class="Occurrence OccurrenceAMSID"><a class="gtm-reference" data-reference-type="MathSciNet" target="_blank" rel="noopener" href="http://www.ams.org/mathscinet-getitem?mr=2946675"><span><span>MathSciNet</span></span></a></span><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TIP.2012.2190083"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Adaptive%20hypergraph%20learning%20and%20its%20application%20in%20image%20classification&amp;author=J.%20Yu&amp;author=D.%20Tao&amp;author=M.%20Wang&amp;journal=IEEE%20Trans%20Image%20Process&amp;volume=21&amp;issue=7&amp;pages=3262-3272&amp;publication_year=2012"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">34.</div><div class="CitationContent" id="CR34">Yu J, Hong R, Wang M, You J (2014) Image clustering based on sparse patch alignment framework. Pattern Recognit 47(11):3512–3519<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.patcog.2014.05.002"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Image%20clustering%20based%20on%20sparse%20patch%20alignment%20framework&amp;author=J.%20Yu&amp;author=R.%20Hong&amp;author=M.%20Wang&amp;author=J.%20You&amp;journal=Pattern%20Recognit&amp;volume=47&amp;issue=11&amp;pages=3512-3519&amp;publication_year=2014"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">35.</div><div class="CitationContent" id="CR35">Tao D, Tang X, Li X, Wu X (2006) Asymmetric bagging and random subspace for support vector machines-based relevance feedback in image retrieval. IEEE Trans Pattern Anal Mach Intell 28(7):1088–1099<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TPAMI.2006.134"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Asymmetric%20bagging%20and%20random%20subspace%20for%20support%20vector%20machines-based%20relevance%20feedback%20in%20image%20retrieval&amp;author=D.%20Tao&amp;author=X.%20Tang&amp;author=X.%20Li&amp;author=X.%20Wu&amp;journal=IEEE%20Trans%20Pattern%20Anal%20Mach%20Intell&amp;volume=28&amp;issue=7&amp;pages=1088-1099&amp;publication_year=2006"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">36.</div><div class="CitationContent" id="CR36">Yu J, Rui Y, Tao D (2014) Click prediction for web image reranking using multimodal sparse coding. IEEE Trans Image Process 23(5):2019–2032<span class="Occurrences"><span class="Occurrence OccurrenceAMSID"><a class="gtm-reference" data-reference-type="MathSciNet" target="_blank" rel="noopener" href="http://www.ams.org/mathscinet-getitem?mr=3208983"><span><span>MathSciNet</span></span></a></span><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TIP.2014.2311377"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Click%20prediction%20for%20web%20image%20reranking%20using%20multimodal%20sparse%20coding&amp;author=J.%20Yu&amp;author=Y.%20Rui&amp;author=D.%20Tao&amp;journal=IEEE%20Trans%20Image%20Process&amp;volume=23&amp;issue=5&amp;pages=2019-2032&amp;publication_year=2014"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">37.</div><div class="CitationContent" id="CR37">Tao D, Li X, Wu X, Maybank SJ (2007) General tensor discriminant analysis and gabor features for gait recognition. IEEE Trans Pattern Anal Mach Intell 29(10):1700–1715<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TPAMI.2007.1096"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=General%20tensor%20discriminant%20analysis%20and%20gabor%20features%20for%20gait%20recognition&amp;author=D.%20Tao&amp;author=X.%20Li&amp;author=X.%20Wu&amp;author=SJ.%20Maybank&amp;journal=IEEE%20Trans%20Pattern%20Anal%20Mach%20Intell&amp;volume=29&amp;issue=10&amp;pages=1700-1715&amp;publication_year=2007"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">38.</div><div class="CitationContent" id="CR38">Luo Y, Tao D, Ramamohanarao K, Xu C, Wen Y (2015) Tensor canonical correlation analysis for multi-view dimension reduction. IEEE Trans Knowl Data Eng 27(11):3111–3124<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TKDE.2015.2445757"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Tensor%20canonical%20correlation%20analysis%20for%20multi-view%20dimension%20reduction&amp;author=Y.%20Luo&amp;author=D.%20Tao&amp;author=K.%20Ramamohanarao&amp;author=C.%20Xu&amp;author=Y.%20Wen&amp;journal=IEEE%20Trans%20Knowl%20Data%20Eng&amp;volume=27&amp;issue=11&amp;pages=3111-3124&amp;publication_year=2015"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">39.</div><div class="CitationContent" id="CR39">Luo Y, Tang J, Yan J, Xu C, Chen Z (2014) Pre-trained multi-view word embedding using two-side neural network. In: Proceedings of 28th AAAI conference, pp 1982–1988<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Luo%20Y%2C%20Tang%20J%2C%20Yan%20J%2C%20Xu%20C%2C%20Chen%20Z%20%282014%29%20Pre-trained%20multi-view%20word%20embedding%20using%20two-side%20neural%20network.%20In%3A%20Proceedings%20of%2028th%20AAAI%20conference%2C%20pp%201982%E2%80%931988"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">40.</div><div class="CitationContent" id="CR40">Moore BC (1981) Principle component analysis in linear systems: controllability, observability, and model reduction. IEEE Trans Automat Control 26(1):17–32<span class="Occurrences"><span class="Occurrence OccurrenceAMSID"><a class="gtm-reference" data-reference-type="MathSciNet" target="_blank" rel="noopener" href="http://www.ams.org/mathscinet-getitem?mr=609248"><span><span>MathSciNet</span></span></a></span><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TAC.1981.1102568"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?0464.93022"><span><span>MATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Principle%20component%20analysis%20in%20linear%20systems%3A%20controllability%2C%20observability%2C%20and%20model%20reduction&amp;author=BC.%20Moore&amp;journal=IEEE%20Trans%20Automat%20Control&amp;volume=26&amp;issue=1&amp;pages=17-32&amp;publication_year=1981"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">41.</div><div class="CitationContent" id="CR41">Bingham E, Mannila H (2001) Random projection in dimensionality reduction: applications to image and text data. In: Proceedings of 7th international conference on knowledge discovery data mining, pp 245–250<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Bingham%20E%2C%20Mannila%20H%20%282001%29%20Random%20projection%20in%20dimensionality%20reduction%3A%20applications%20to%20image%20and%20text%20data.%20In%3A%20Proceedings%20of%207th%20international%20conference%20on%20knowledge%20discovery%20data%20mining%2C%20pp%20245%E2%80%93250"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">42.</div><div class="CitationContent" id="CR42">Sammon JW (1969) A nonlinear mapping for data structure analysis. IEEE Trans Comput 18(5):401–409<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/T-C.1969.222678"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20nonlinear%20mapping%20for%20data%20structure%20analysis&amp;author=JW.%20Sammon&amp;journal=IEEE%20Trans%20Comput&amp;volume=18&amp;issue=5&amp;pages=401-409&amp;publication_year=1969"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">43.</div><div class="CitationContent" id="CR43">Kohonen T, Kaski S, Lagus K, Salojarvi J, Honkela J, Paatero V, Saarela A (2000) Self organization of a massive document collection. IEEE Trans Neural Netw 11(3):574–586<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/72.846729"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Self%20organization%20of%20a%20massive%20document%20collection&amp;author=T.%20Kohonen&amp;author=S.%20Kaski&amp;author=K.%20Lagus&amp;author=J.%20Salojarvi&amp;author=J.%20Honkela&amp;author=V.%20Paatero&amp;author=A.%20Saarela&amp;journal=IEEE%20Trans%20Neural%20Netw&amp;volume=11&amp;issue=3&amp;pages=574-586&amp;publication_year=2000"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">44.</div><div class="CitationContent" id="CR44">Bourgeois N, Cottrell M, Deruelle B, Lamasse S, Letremy P (2015) How to improve robustness in Kohonen maps and display additional information in factorial analysis: application to text mining. Neurocomputing 147:120–135<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.neucom.2013.12.057"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=How%20to%20improve%20robustness%20in%20Kohonen%20maps%20and%20display%20additional%20information%20in%20factorial%20analysis%3A%20application%20to%20text%20mining&amp;author=N.%20Bourgeois&amp;author=M.%20Cottrell&amp;author=B.%20Deruelle&amp;author=S.%20Lamasse&amp;author=P.%20Letremy&amp;journal=Neurocomputing&amp;volume=147&amp;pages=120-135&amp;publication_year=2015"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">45.</div><div class="CitationContent" id="CR45">Liu Y, Wang X, Wu C (2008) ConSOM: a conceptional self-organizing map model for text clustering. Neurocomputing 71(4):857–862<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.neucom.2007.03.006"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=ConSOM%3A%20a%20conceptional%20self-organizing%20map%20model%20for%20text%20clustering&amp;author=Y.%20Liu&amp;author=X.%20Wang&amp;author=C.%20Wu&amp;journal=Neurocomputing&amp;volume=71&amp;issue=4&amp;pages=857-862&amp;publication_year=2008"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">46.</div><div class="CitationContent" id="CR46">Lughofer E (2011) Evolving fuzzy systems-methodologies, advanced concepts and applications, 1st edn. Springer, Berlin<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1007/978-3-642-18087-3"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?1216.68013"><span><span>MATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolving%20fuzzy%20systems-methodologies%2C%20advanced%20concepts%20and%20applications&amp;author=E.%20Lughofer&amp;publication_year=2011"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">47.</div><div class="CitationContent" id="CR47">Kim HJ, Kim JU, Ra YG (2005) Boosting Naïve Bayes text classification using uncertainty-based selective sampling. Neurocomputing 67(4):403–410<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.neucom.2004.09.003"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Boosting%20Na%C3%AFve%20Bayes%20text%20classification%20using%20uncertainty-based%20selective%20sampling&amp;author=HJ.%20Kim&amp;author=JU.%20Kim&amp;author=YG.%20Ra&amp;journal=Neurocomputing&amp;volume=67&amp;issue=4&amp;pages=403-410&amp;publication_year=2005"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">48.</div><div class="CitationContent" id="CR48">Pan SJ, Yang Q (2010) A survey on transfer learning. IEEE Trans Knowl Data Eng 22(10):1345–1359<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TKDE.2009.191"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20survey%20on%20transfer%20learning&amp;author=SJ.%20Pan&amp;author=Q.%20Yang&amp;journal=IEEE%20Trans%20Knowl%20Data%20Eng&amp;volume=22&amp;issue=10&amp;pages=1345-1359&amp;publication_year=2010"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">49.</div><div class="CitationContent" id="CR49">Bezdek JC, Keller J, Krisnapuram R, Pal NR (1999) Fuzzy models and algorithms for pattern recognition and image processing. Kluwer, Dordrecht<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1007/b106267"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?0998.68138"><span><span>MATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Fuzzy%20models%20and%20algorithms%20for%20pattern%20recognition%20and%20image%20processing&amp;author=JC.%20Bezdek&amp;author=J.%20Keller&amp;author=R.%20Krisnapuram&amp;author=NR.%20Pal&amp;publication_year=1999"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">50.</div><div class="CitationContent" id="CR50">Chang WL, Tay KM, Lim CP (2014) A new evolving tree for text document clustering and visualization. In: Soft computing in industrial applications, Springer, pp 141–151<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Chang%20WL%2C%20Tay%20KM%2C%20Lim%20CP%20%282014%29%20A%20new%20evolving%20tree%20for%20text%20document%20clustering%20and%20visualization.%20In%3A%20Soft%20computing%20in%20industrial%20applications%2C%20Springer%2C%20pp%20141%E2%80%93151"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">51.</div><div class="CitationContent" id="CR51">Chang WL, Tay KM, Lim CP (2013) Enhancing an evolving tree-based text document visualization model with fuzzy <span class="InlineEquation" id="IEq264">\(c\)</span>-means clustering. In: IEEE international conference fuzzy, pp 1–6<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Chang%20WL%2C%20Tay%20KM%2C%20Lim%20CP%20%282013%29%20Enhancing%20an%20evolving%20tree-based%20text%20document%20visualization%20model%20with%20fuzzy%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%24%24c%24%24%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20c%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-means%20clustering.%20In%3A%20IEEE%20international%20conference%20fuzzy%2C%20pp%201%E2%80%936"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">52.</div><div class="CitationContent" id="CR52">The Reuters-21578, Distribution 1.0 test collection is available from <span class="ExternalRef"><a target="_blank" rel="noopener" href="http://www.daviddlewis.com/resources/testcollections/reuters21578"><span class="RefSource">http://www.daviddlewis.com/resources/testcollections/reuters21578</span></a></span>
+                        <span class="Occurrences"></span></div></li><li class="Citation"><div class="CitationNumber">53.</div><div class="CitationContent" id="CR53">Porter MF (1980) An algorithm for suffix stripping. Program Electron Lib 14(3):130–137<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=An%20algorithm%20for%20suffix%20stripping&amp;author=MF.%20Porter&amp;journal=Program%20Electron%20Lib&amp;volume=14&amp;issue=3&amp;pages=130-137&amp;publication_year=1980"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">54.</div><div class="CitationContent" id="CR54">The Default English Stop-words List is available from <span class="ExternalRef"><a target="_blank" rel="noopener" href="http://www.ranks.nl/resources/stopwords.html"><span class="RefSource">http://www.ranks.nl/resources/stopwords.html</span></a></span>
+                        <span class="Occurrences"></span></div></li><li class="Citation"><div class="CitationNumber">55.</div><div class="CitationContent" id="CR55">Debole F, Sebastiani F (2005) An analysis of the relative hardness of Rueters-21578 subsets. J Am Soc Inf Sci Technol 56(6):584–586<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1002/asi.20147"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=An%20analysis%20of%20the%20relative%20hardness%20of%20Rueters-21578%20subsets&amp;author=F.%20Debole&amp;author=F.%20Sebastiani&amp;journal=J%20Am%20Soc%20Inf%20Sci%20Technol&amp;volume=56&amp;issue=6&amp;pages=584-586&amp;publication_year=2005"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">56.</div><div class="CitationContent" id="CR56">Yang Y, Liu X (1999) A re-examination of text categorization methods. In: Proceedings of the 22nd annual international ACM SIGIR conference on Research and development in information retrieval, pp 42–49<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Yang%20Y%2C%20Liu%20X%20%281999%29%20A%20re-examination%20of%20text%20categorization%20methods.%20In%3A%20Proceedings%20of%20the%2022nd%20annual%20international%20ACM%20SIGIR%20conference%20on%20Research%20and%20development%20in%20information%20retrieval%2C%20pp%2042%E2%80%9349"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">57.</div><div class="CitationContent" id="CR57">King A (2012) Online k-means clustering of nonstationary data. Prediction Project Report<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=King%20A%20%282012%29%20Online%20k-means%20clustering%20of%20nonstationary%20data.%20Prediction%20Project%20Report"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">58.</div><div class="CitationContent" id="CR58">Lin YS, Jiang JY, Lee SJ (2014) A similarity measure for text classification and clustering. IEEE Trans Knowl Data Eng 26(7):1575–1590<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TKDE.2013.19"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20similarity%20measure%20for%20text%20classification%20and%20clustering&amp;author=YS.%20Lin&amp;author=JY.%20Jiang&amp;author=SJ.%20Lee&amp;journal=IEEE%20Trans%20Knowl%20Data%20Eng&amp;volume=26&amp;issue=7&amp;pages=1575-1590&amp;publication_year=2014"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">59.</div><div class="CitationContent" id="CR59">Nagwani NK (2015) A comment on “a similarity measure for text classification and clustering”. IEEE Trans Knowl Data Eng 27(9):2589–2590<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TKDE.2015.2451616"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20comment%20on%20%E2%80%9Ca%20similarity%20measure%20for%20text%20classification%20and%20clustering%E2%80%9D&amp;author=NK.%20Nagwani&amp;journal=IEEE%20Trans%20Knowl%20Data%20Eng&amp;volume=27&amp;issue=9&amp;pages=2589-2590&amp;publication_year=2015"><span><span>Google Scholar</span></span></a></span></span></div></li></ol></div></section><section class="Section1 RenderAsSection1"><h2 class="Heading" id="copyrightInformation">Copyright information</h2><div class="ArticleCopyright content"><div class="ArticleCopyright">© Springer Science+Business Media New York 2017</div></div></section><section id="authorsandaffiliations" class="Section1 RenderAsSection1"><h2 class="Heading">Authors and Affiliations</h2><div class="content authors-affiliations u-interface"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Wui Lee Chang</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Kai Meng Tay</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul><span class="author-information"><span class="author-information__contact u-icon-before icon--email-before"><a href="mailto:kmtay@unimas.my" title="kmtay@unimas.my" itemprop="email" class="gtm-email-author">Email author</a></span></span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Chee Peng Lim</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-2">2</li></ul></li></ul><ol class="test-affiliations"><li class="affiliation" data-test="affiliation-1" data-affiliation-highlight="affiliation-1" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">1.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">Faculty of Engineering</span><span itemprop="name" class="affiliation__name">Universiti Malaysia Sarawak</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span itemprop="addressRegion" class="affiliation__city">Kota Samarahan</span><span itemprop="addressCountry" class="affiliation__country">Malaysia</span></span></span></li><li class="affiliation" data-test="affiliation-2" data-affiliation-highlight="affiliation-2" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">2.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">Institute for Intelligent Systems Research and Innovation</span><span itemprop="name" class="affiliation__name">Deakin University</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span itemprop="addressRegion" class="affiliation__city">Geelong</span><span itemprop="addressCountry" class="affiliation__country">Australia</span></span></span></li></ol></div></section></div>
+                        </article>
+                        <aside class="section section--collapsible" id="AboutThisContent">
+    <h2 class="section__heading" id="aboutcontent">About this article</h2>
+    <div class="section__content bibliographic-information">
+                <div id="crossMark" class="crossmark">
+            <a data-crossmark="10.1007%2Fs11063-017-9597-3" class="gtm-crossmark" target="_blank" rel="noopener" href="https://crossmark.crossref.org/dialog/?doi=10.1007%2Fs11063-017-9597-3" title="Verify currency and authenticity via CrossMark">
+                <span class="u-screenreader-only">CrossMark</span>
+                <svg class="CrossMark" id="crossmark-icon" width="57" height="81">
+                    <image width="57" height="81" alt="Verify currency and authenticity via CrossMark" src="/springerlink-static/83600690/images/png/crossmark.png" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/springerlink-static/83600690/images/svg/crossmark.svg"></image>
+                </svg>
+            </a>
+        </div>
+
+        <div class="crossmark__adjacent">
+            <dl class="citation-info u-highlight-target u-mb-16" id="citeas">
+    <dt class="test-cite-heading">
+        Cite this article as:
+    </dt>
+    <dd id="citethis-text">Chang, W.L., Tay, K.M. & Lim, C.P. Neural Process Lett (2017) 46: 379. https://doi.org/10.1007/s11063-017-9597-3</dd>
+</dl>
+                <ul class="bibliographic-information__list bibliographic-information__list--inline">
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title"><abbr title="Digital Object Identifier">DOI</abbr></span>
+            <span class="bibliographic-information__value u-overflow-wrap" id="doi-url">https://doi.org/10.1007/s11063-017-9597-3</span>
+        </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Publisher Name</span>
+                <span class="bibliographic-information__value" id="publisher-name">Springer US</span>
+            </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Print ISSN</span>
+                <span class="bibliographic-information__value" id="print-issn">1370-4621</span>
+            </li>
+            <li class="bibliographic-information__item ">
+                <span class="bibliographic-information__title">Online ISSN</span>
+                <span class="bibliographic-information__value" id="electronic-issn">1573-773X</span>
+            </li>
+
+        
+    </ul>
+
+            <ul class="bibliographic-information__list">
+        <li class="bibliographic-information__item">
+            <a id="about-journal" class="bibliographic-information__misc-links gtm-about-this"
+               title="Visit Springer.com for information about this article&#39;s journal"
+               href="https://www.springer.com/journal/11063/about">About this journal</a>
+        </li>
+            <li class="bibliographic-information__item">
+                <a id="reprintsandpermissions-link" class="u-external" target="_blank" rel="noopener" href="https://s100.copyright.com/AppDispatchServlet?publisherName&#x3D;SpringerNature&amp;orderBeanReset&#x3D;true&amp;orderSource&#x3D;SpringerLink&amp;author&#x3D;Wui+Lee+Chang%2C+Kai+Meng+Tay%2C+Chee+Peng+Lim&amp;issueNum&#x3D;2&amp;contentID&#x3D;10.1007%2Fs11063-017-9597-3&amp;openAccess&#x3D;false&amp;endPage&#x3D;409&amp;publicationDate&#x3D;2017&amp;startPage&#x3D;379&amp;volumeNum&#x3D;46&amp;title&#x3D;A+New+Evolving+Tree-Based+Model+with+Local+Re-learning+for+Document+Clustering+and+Visualization&amp;imprint&#x3D;Springer+Science%2BBusiness+Media+New+York&amp;publication&#x3D;1370-4621" title="Visit RightsLink for information about reusing this article">Reprints and Permissions</a>
+            </li>
+</ul>
+
+        </div>
+      
+      
+          
+    </div>
+</aside>
+
+                        <div class="section section--collapsible uptodate-recommendations gtm-recommendations">
+    <h2 class="uptodate-recommendations__title section__heading gtm-recommendations__title" id="uptodaterecommendations">Personalised recommendations</h2>
+    <div class="section__content">
+        <div class="uptodate-recommendations__container">
+             <link rel="uptodate-inline" href="https://link.springer.com/springerlink-static/83600690/css/recommendations.css"/>
+        </div>
+    </div>
+</div>
+                        
+
+    <div class="sticky-banner sticky-banner--buybox u-interface u-js-screenreader-only" aria-hidden="true" data-component="SpringerLink.StickyBanner" data-namespace="hasLink">
+        <div class="sticky-banner__container">
+                <div class="citations" data-component="SV.Dropdown" data-namespace="citationsSticky">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">article</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="link-springer-com-0036.htm#citeas" class="gtm-cite-dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="https://citation-needed.springer.com/v2/references/10.1007/s11063-017-9597-3?format=refman&amp;flavour=citation"
+               title="Download this article&#39;s citation as a .RIS file" class="gtm-export-citation" data-gtmlabel="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="https://citation-needed.springer.com/v2/references/10.1007/s11063-017-9597-3?format=endnote&amp;flavour=citation"
+               title="Download this article&#39;s citation as a .ENW file" class="gtm-export-citation" data-gtmlabel="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="https://citation-needed.springer.com/v2/references/10.1007/s11063-017-9597-3?format=bibtex&amp;flavour=citation"
+               title="Download this article&#39;s citation as a .BIB file" class="gtm-export-citation" data-gtmlabel="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                
+
+
+
+                <div class="sticky-banner__buybox-link sticky-banner__buybox-link--sticky">
+        <a href="link-springer-com-0036.htm#buy" class="gtm-buybox-anchor">
+            Buy options
+        </a>
+    </div>
+
+        </div>
+    </div>
+
+
+                    </div>
+                    <aside class="main-sidebar-right u-interface">
+                        <div data-role="sticky-wrapper">
+                            <div class="main-sidebar-right__content u-composite-layer" data-component="SpringerLink.StickySidebar">
+                                <div class="article-actions" id="article-actions">
+                                    <h2 class="u-screenreader-only">Actions</h2>
+
+                                        <div id="buy">
+                                            
+
+<style type="text/css">
+    .buybox {
+        margin: 16px 0 0;
+        position: relative;
+    }
+    .buybox {
+        font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-size: 1.4rem;
+    }
+    .buybox {
+        zoom: 1;
+    }
+    .buybox:after,
+    .buybox:before {
+        content: '';
+        display: table;
+    }
+    .buybox:after {
+        clear: both;
+    }
+    /*---------------------------------*/
+    .buybox .buybox__header {
+        border: 1px solid #b3b3b3;
+        border-bottom: 0;
+        padding: 8px;
+        position: relative;
+        background-color: #f2f2f2;
+    }
+    .buybox__header .buybox__login {
+        font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-size: 1.4rem;
+        letter-spacing: .017em;
+        display: inline-block;
+        line-height: 1.2;
+        padding: 0;
+    }
+    .buybox__header .buybox__login:before {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: perspective(1px) translateY(-50%);
+        transform: perspective(1px) translateY(-50%);
+        content: '\A';
+        width: 34px;
+        height: 34px;
+        left: 10px;
+    }
+    /*---------------------------------*/
+    .buybox .buybox__body {
+        padding: 0;
+        padding-bottom: 16px;
+        position: relative;
+        text-align: center;
+        background-color: #fcfcfc;
+        border: 1px solid #b3b3b3;
+    }
+    /******/
+    .buybox__body .buybox__section {
+        padding: 16px 12px 0 12px;
+        text-align: left;
+    }
+    .buybox__section .buybox__buttons {
+        text-align: center;
+        width: 100%;
+    }
+    /********** mycopy buybox specific **********/
+    .buybox.mycopy__buybox .buybox__body {
+        background-color: transparent;
+    }
+    .buybox.mycopy__buybox .buybox__section .buybox__buttons {
+        border-top: 0;
+        padding-top: 0;
+    }
+    /******/
+    .buybox__section:nth-child(2) .buybox__buttons {
+        border-top: 1px solid #b3b3b3;
+        padding-top: 20px;
+    }
+    .buybox__buttons .buybox__buy-button {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 6px 12px;
+        max-width: 180px
+    }
+    .buybox__buttons .buybox__price {
+        white-space: nowrap;
+        text-align: center;
+        font-size: larger;
+        padding-top: 6px;
+    }
+    .buybox__section .buybox__meta {
+        letter-spacing: 0;
+        padding-top: 12px;
+    }
+    .buybox__section .buybox__meta:only-of-type {
+        padding-top: 0;
+        position: relative;
+        bottom: 6px;
+    }
+    /********** mycopy buybox specific **********/
+    .buybox.mycopy__buybox .buybox__section .buybox__meta {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /******/
+    .buybox__meta .buybox__product-title {
+        display: inline;
+        font-weight: bold;
+    }
+    .buybox__meta .buybox__list {
+        line-height: 1.3;
+    }
+    .buybox__meta .buybox__list li {
+        position: relative;
+        padding-left: 1em;
+        list-style: none;
+        margin-bottom: 5px;
+    }
+    .buybox__meta .buybox__list li:before {
+        font-size: 1em;
+        content: '\2022';
+        float: left;
+        position: relative;
+        top: .1em;
+        font-family: serif;
+        font-weight: 600;
+        text-align: center;
+        line-height: inherit;
+        color: #666;
+        width: auto;
+        margin-left: -1em;
+    }
+    .buybox__meta .buybox__list li:last-child {
+        margin-bottom: 0;
+    }
+    /********** chapter buybox specific **********/
+    .buybox.chapter__buybox .buybox__section .buybox__meta {
+        border-top: 1px solid #d3d3d3;
+        padding-top: 12px;
+    }
+    .buybox.chapter__buybox .buybox__section .buybox__buy-ebook {
+        margin-bottom: 12px;
+    }
+    /******/
+    /*---------------------------------*/
+    .buybox .buybox__footer {
+        border: 1px solid #b3b3b3;
+        border-top: 0;
+        padding: 8px;
+        position: relative;
+        border-style: dashed;
+        line-height: 1.3;
+    }
+    .buybox .deepdyve {
+        display: none;
+        text-align: left;
+        margin: 8px 12px 0 12px;
+        padding-top: 5px;
+        border-top: 1px solid #d3d3d3;
+    }
+    /*-----------------------------------------------------------------*/
+    @media screen and (min-width: 460px) and (max-width: 1074px) {
+        .buybox__body .buybox__section {
+            display: inline-block;
+            vertical-align: top;
+            padding: 12px 12px;
+            padding-bottom: 0;
+            text-align: left;
+            width: 48%;
+        }
+        .buybox__body .buybox__section {
+            padding-top: 16px;
+            padding-left: 0;
+        }
+        .buybox__section:nth-of-type(2) .buybox__meta {
+            border-left: 1px solid #d3d3d3;
+            padding-left: 28px;
+        }
+        .buybox__section:nth-of-type(2) .buybox__buttons {
+            border-top: 0;
+            padding-top: 0;
+            padding-left: 16px ;
+        }
+        .buybox__buttons .buybox__buy-button {
+        }
+        /********** article buybox specific **********/
+        .buybox.article__buybox .buybox__section:nth-of-type(2) {
+            margin-top: 16px;
+            padding-top: 0;
+        }
+        .buybox.article__buybox .buybox__section:nth-of-type(2) .buybox__meta {
+            margin-top: 40px;
+            padding-top: 0;
+            padding-bottom: 45px;
+        }
+        .buybox.article__buybox .buybox__section:nth-of-type(2) .buybox__meta:only-of-type {
+            margin-top: 8px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+        /********** mycopy buybox specific **********/
+        .buybox.mycopy__buybox .buybox__section:first-child {
+            width: 69%;
+            padding-left: 12px ;
+        }
+        .buybox.mycopy__buybox .buybox__section:last-child {
+            width: 29%;
+        }
+        /********** chapter buybox specific **********/
+        .buybox.chapter__buybox .buybox__body {
+            display: flex;
+            align-items: stretch;
+            padding-left: 12px;
+            padding-top: 12px;
+        }
+        .buybox.chapter__buybox .buybox__section .buybox__meta {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            border-top: 0;
+            padding-top: 0;
+        }
+        /******/
+    }
+    /*-----------------------------------------------------------------*/
+    @media screen and (max-width: 459px) {
+        /********** mycopy buybox specific **********/
+        .buybox.mycopy__buybox .buybox__body {
+            padding-bottom: 5px;
+        }
+        .buybox.mycopy__buybox .buybox__section:last-child {
+            text-align: center;
+            width: 100%;
+        }
+        .buybox.mycopy__buybox .buybox__buttons {
+            display: inline-block;
+            width: 150px ;
+        }
+        /******/
+    }
+    /*-----------------------------------------------------------------*/
+</style>
+
+<div class="buybox article__buybox" data-webtrekkTrackId="196033507532344" data-webtrekkContentId="SL-article">
+    <div class="buybox__header">
+        <span class="buybox__login">Log in to check access</span>
+    </div>
+    <div class="buybox__body">
+        <div class="buybox__section">
+            <div class="buybox__buttons">
+                <form class="buybox__form" action="https://checkout.springer.com/checkout/add?wt_mc=ThirdParty.SpringerLink.3.EPR653.AbstractPage_Article-new" method="POST">
+                    
+                        <input type="hidden" name="type" value="article"/>
+                    
+                        <input type="hidden" name="doi" value="10.1007/s11063-017-9597-3"/>
+                    
+                        <input type="hidden" name="isxn" value="1573-773X"/>
+                    
+                        <input type="hidden" name="contenttitle" value="A New Evolving Tree-Based Model with Local Re-learning for Document Clustering and Visualization"/>
+                    
+                        <input type="hidden" name="copyrightyear" value="2017"/>
+                    
+                        <input type="hidden" name="year" value="2017"/>
+                    
+                        <input type="hidden" name="authors" value="Wui Lee Chang, Kai Meng Tay, Chee Peng Lim"/>
+                    
+                        <input type="hidden" name="title" value="Neural Processing Letters"/>
+                    
+                        <input type="hidden" name="mac" value="a06696a4744803fb6ff0d0f973212c79"/>
+                    
+                        <input type="hidden" name="returnurl" value="http://link.springer.com/article/10.1007/s11063-017-9597-3"/>
+                    
+                    <button
+                        class="buybox__buy-button c-button c-button--blue"
+                        data-product-id="10.1007/s11063-017-9597-3_A New Evolving Tree-Based Model wi"
+                        data-tracking-category="ppv"
+                        data-eCommerceParam_11="article-page"
+                        data-gtm="buybox__buy-button">
+                        <span class="buybox__buy" data-gtm="buybox__buy-button">Buy (PDF)</span>
+                    </button>
+                    <div class="buybox__price" data-gtm="buybox__buy-button">
+                        USD&nbsp;39.95
+                    </div>
+                </form>
+            </div>
+        
+            <div class="buybox__meta">
+                <ul class="buybox__list">
+                    <li>Unlimited access to the full article</li>
+                    <li>Instant download</li>
+                    <li>Include local sales tax if applicable</li>
+                </ul>
+            </div>
+        </div>
+        
+            <div class="buybox__section">
+                <div class="buybox__buttons">
+                    <a
+                    href="http://www.springer.com/11063?wt_mc=ThirdParty.SpringerLink.3.EPR653.ArticlePage_journal"
+                    class="buybox__buy-button c-button c-button--blue"
+                    data-gtm="buybox__buy-button-subscription">
+                        <span class="buybox__buy" data-gtm="buybox__buy-button">Subscribe to Journal</span>
+                    </a>
+                </div>
+                <div class="buybox__meta">
+                    Get Access to
+                    <div class="buybox__product-title">Neural Processing Letters</div>
+                    for the whole of 2018
+                </div>
+            </div>
+        
+        
+<div id="deepdyve" class="deepdyve">
+    <a id="deepdyve-link" href="link-springer-com-0036.htm#" target="deepdyve">Rent this article via DeepDyve</a>
+</div>
+<script type="text/javascript">
+    function deepDyveResponse(data) {
+        if(data.status === "ok") {
+            document.getElementById("deepdyve").style.display = "inline-block";
+            document.getElementById("deepdyve-link").setAttribute("href", data.url);
+        }
+    }
+    var script = document.createElement('script');
+    script.src = "//www.deepdyve.com/rental-link?docId=10.1007/s11063-017-9597-3&journal=1573-773X&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse";
+    document.body.appendChild(script);
+</script>
+    </div>
+    <div class="buybox__footer">
+        <a class="js-buybox__inst-sub-link" data-gtm="buybox__inst-sub-link" href="http://www.springer.com/gp/shop/subscriptions?wt_mc=ThirdParty.SpringerLink.3.EPR653.ArticlePage_Institutional-customers">
+            Learn about institutional subscriptions</a>
+    </div>
+</div>
+
+<script>
+(function () {
+    var forEach = function (array, callback, scope) {
+        for (var i = 0; i < array.length; i++) {
+            callback.call(scope, i, array[i]);
+        }
+    };
+
+    var trackDomain = 'springergmbh01.webtrekk.net';
+    var domain = 'link.springer.com';
+    var loadEventSent = false;
+
+    var buyboxRoot = document.getElementsByClassName('buybox')[0];
+    var webtrekkTrackId = buyboxRoot.getAttribute('data-webtrekkTrackId');
+    var webtrekkContentId = buyboxRoot.getAttribute('data-webtrekkContentId');
+
+    function LinkTrack(webtrekkTrackId) {
+        if (!webtrekkTrackId) return;
+
+        var data = {
+            trackDomain: trackDomain,
+            trackId: webtrekkTrackId,
+            domain: domain,
+            contentId: 'springer_com.buybox',
+            customSessionParameter: {
+                2: getBusinessPartnerIds()
+            }
+        };
+
+        if (!window.webtrekkV3 && console) {
+            console.log('No webtrekk found.', data);
+            return;
+        }
+
+        return new webtrekkV3(data);
+    }
+
+    function Track(product, webtrekkTrackId, eCommerceParam_11, action) {
+        if (!product) return;
+
+        var data = {
+            trackDomain: trackDomain,
+            trackId: webtrekkTrackId,
+            domain: domain,
+            contentId: webtrekkContentId,
+            product: product.id,
+            productStatus: action,
+            productCategory: {
+                1: product.trackingCategory
+            },
+            customEcommerceParameter: {
+                9: domain,
+                11: eCommerceParam_11
+            },
+            customSessionParameter: {
+                2: getBusinessPartnerIds()
+            }
+        };
+
+        if (!window.webtrekkV3 && console) {
+            console.log('No webtrekk found.', data);
+            return;
+        }
+
+        return new webtrekkV3(data);
+    }
+
+    function track(trackingConfig) {
+        return function(payload) {
+            if (!trackingConfig) return
+            if (payload) {
+                trackingConfig.sendinfo(payload)
+            } else {
+                trackingConfig.sendinfo()
+            }
+            return true
+        }
+    }
+
+    function trackAddToCart(trackingConfig) {
+        return track(trackingConfig)()
+    }
+
+    function trackOnLoad(trackingConfig) {
+        if (loadEventSent) return;
+        loadEventSent = true;
+        return track(trackingConfig)()
+    }
+
+    function trackSubscription(trackingConfig) {
+        return track(trackingConfig)({linkId: 'inst. subscription info'})
+    }
+
+    function trackDeepDyve(trackingConfig) {
+        return track(trackingConfig)({linkId: 'Rent Article'})
+    }
+
+    function getBusinessPartnerIds() {
+        var businessPartnerIDs = [];
+        try {
+            var ids = window.dataLayer[0]["user"]["license"]["businessPartnerID"];
+            if(ids && ids.length) businessPartnerIDs = ids;
+        } catch(e) {}
+        return businessPartnerIDs.join(";");
+    }
+
+    var bindClickLinkHandle = function (link) {
+        if (!link) return;
+
+        link.addEventListener('click', function (event) {
+            trackSubscription(LinkTrack(webtrekkTrackId));
+        });
+    };
+
+    var bindLoadButtonHandle = function (button) {
+        if (!button) return;
+
+        var productId = button.getAttribute('data-product-id');
+        var trackingCategory = button.getAttribute('data-tracking-category');
+        var eCommerceParam_11 = button.getAttribute('data-eCommerceParam_11');
+
+        window.addEventListener('load', function (event) {
+            trackOnLoad(Track({
+                id: productId,
+                trackingCategory: trackingCategory
+            }, webtrekkTrackId, eCommerceParam_11, 'view'));
+        });
+    };
+
+    var bindClickButtonHandle = function (button) {
+        if (!button) return;
+
+        var productId = button.getAttribute('data-product-id');
+        var trackingCategory = button.getAttribute('data-tracking-category');
+        var eCommerceParam_11 = button.getAttribute('data-eCommerceParam_11');
+
+        button.addEventListener('click', function (event) {
+            trackAddToCart(Track({
+                id: productId,
+                trackingCategory: trackingCategory
+            }, webtrekkTrackId, eCommerceParam_11, 'add'));
+        });
+    };
+
+    var buyButtons = document.getElementsByClassName('buybox__buy-button');
+    forEach(buyButtons, function (index, button) {
+        bindLoadButtonHandle(button);
+        bindClickButtonHandle(button);
+    });
+
+    var sublinks = document.getElementsByClassName('js-buybox__inst-sub-link');
+    forEach(sublinks, function (index, link) {
+        bindClickLinkHandle(link);
+    });
+
+    var bindDeepDyveClickHandle = function (link) {
+        if (!link) return
+
+        link.addEventListener('click', function (event) {
+            trackDeepDyve(LinkTrack(webtrekkTrackId))
+        })
+    }
+
+    var deepDyveLink = document.getElementById('deepdyve-link')
+    bindDeepDyveClickHandle(deepDyveLink)
+})();
+</script>
+
+                                        </div>
+
+                                    <div class="u-js-hide u-js-show-two-col">
+                                        
+
+
+
+                                            <div class="citations" data-component="SV.Dropdown" data-namespace="citations">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">article</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="link-springer-com-0036.htm#citeas" class="gtm-cite-dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="https://citation-needed.springer.com/v2/references/10.1007/s11063-017-9597-3?format=refman&amp;flavour=citation"
+               title="Download this article&#39;s citation as a .RIS file" class="gtm-export-citation" data-gtmlabel="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="https://citation-needed.springer.com/v2/references/10.1007/s11063-017-9597-3?format=endnote&amp;flavour=citation"
+               title="Download this article&#39;s citation as a .ENW file" class="gtm-export-citation" data-gtmlabel="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="https://citation-needed.springer.com/v2/references/10.1007/s11063-017-9597-3?format=bibtex&amp;flavour=citation"
+               title="Download this article&#39;s citation as a .BIB file" class="gtm-export-citation" data-gtmlabel="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                                            
+
+
+
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                                <div class="skyscraper-ad u-hide" data-component="SpringerLink.GoogleAds" data-namespace="skyscraper"></div>
+
+                        </div>
+                    </aside>
+                </div>
+            </main>
+            <section class="banner banner--cookies-policy u-js-hide u-composite-layer" data-component="SpringerLink.CookiePolicy">
+    <div class="banner__content u-interface">
+        <h2 class="u-screenreader-only">Cookies</h2>
+        <span class="banner__cookie-text">We use cookies to improve your experience with our site.</span>
+        <a class="banner__link banner__link--cookie" href="https://link.springer.com/termsandconditions#cookies">More information</a>
+
+        <form class="banner__form" action="https://link.springer.com/acceptcookies" method="POST">
+            <button class="u-link-like banner__right-ui">Accept</button>
+        </form>
+    </div>
+</section>
+
+                <footer class="footer u-interface">
+        <div class="footer__aside-wrapper">
+            <div class="footer__content">
+                <div class="footer__aside">
+                    <p class="footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                                <div class="footer__edition" data-component="SpringerLink.EditionSwitcher">
+                                    <h3 class="u-hide" data-role="button-dropdown__title" data-btn-text="Switch between Academic &#38; Corporate Edition">Switch Edition</h3>
+                                    <ul data-role="button-dropdown__content">
+                                        <li class="selected"><a href="https://link.springer.com/siteEdition/link" id="siteedition-academic-link">Academic Edition</a></li>
+                                        <li><a href="https://link.springer.com/siteEdition/rd" id="siteedition-corporate-link">Corporate Edition</a></li>
+                                    </ul>
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__content">
+            <ul class="footer__nav">
+                <li>
+                    <a href="https://link.springer.com/">Home</a>
+                </li>
+                <li>
+                    <a href="https://link.springer.com/impressum">Impressum</a>
+                </li>
+                <li>
+                    <a href="https://link.springer.com/termsandconditions">Legal information</a>
+                </li>
+                <li>
+                    <a href="https://link.springer.com/accessibility" class="gtm-footer-accessibility">Accessibility</a>
+                </li>
+                <li>
+                    <a id="contactus-footer-link" href="https://link.springer.com/contactus">Contact us</a>
+                </li>
+            </ul>
+            <a class="parent-logo"
+               target="_blank" rel="noopener"
+               href="https://www.springernature.com/"
+               title="Go to Springer Nature">
+                <span class="u-screenreader-only">Springer Nature</span>
+                <svg width="125" height="12">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src="/springerlink-static/83600690/images/png/springernature.png"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="/springerlink-static/83600690/images/svg/springernature.svg">
+                    </image>
+                </svg>
+            </a>
+
+            <p class="footer__copyright">&copy; 2017 Springer International Publishing AG. Part of <a target="_blank" rel="noopener" href="https://www.springernature.com/">Springer Nature</a>.</p>
+
+                <p class="footer__user-access-info">
+                    <span>Not logged in</span>
+                    <span>Not affiliated</span>
+                    <span>99.65.190.47</span>
+                </p>
+        </div>
+    </footer>
+
+        </div>
+          <script type="text/javascript">
+    (function() {
+        document.addEventListener('readystatechange', function () {
+            if (document.readyState === 'complete') {
+                var linkEl = document.querySelector('.js-ctm');
+                if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+                    var scriptMathJax = document.createElement('script');
+                    scriptMathJax.async = true;
+                    scriptMathJax.src = '/springerlink-static/83600690/js/mathJax.js';
+                    var s0 = document.getElementsByTagName('script')[0];
+                    s0.parentNode.insertBefore(scriptMathJax, s0);
+                }
+            }
+        });
+    })();
+</script>
+
+<script type="text/javascript">
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        var scriptsList = [];
+        var polyfillFeatures = '';
+
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            (function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement);
+            
+            window.SpringerLink = window.SpringerLink || {};
+            window.SpringerLink.staticLocation = '/springerlink-static/83600690';
+            
+            polyfillFeatures = 'default,fetch,Promise,Object.setPrototypeOf,Object.entries,Number.isInteger,MutationObserver,startsWith';
+            
+            scriptsList = [
+                'https://cdnjs.cloudflare.com/ajax/libs/airbrake-js/1.0.7/client.min.js',
+                window.SpringerLink.staticLocation + '/js/jquery-3.3.1.min.js',
+                window.SpringerLink.staticLocation + '/js/mustache-2.3.0.min.js',
+                'https://cdn.polyfill.io/v2/polyfill.js?features=' + polyfillFeatures,
+                window.SpringerLink.staticLocation + '/js/main.js'
+            ];
+
+            scriptsList.forEach(function(script) {
+                var tag = document.createElement('script');
+                
+                tag.async = false;
+                tag.src = script;
+
+                document.body.appendChild(tag);
+            });
+        }
+    })();
+</script>
+
+<script>
+
+   function viewport() {
+        if (document.documentElement.clientWidth < 620) {
+            size = 'small';
+        }
+        else if(document.documentElement.clientWidth < 1075 ) {
+            size = 'medium';
+        }
+        else {
+            size = 'wide';
+        }
+        return size;
+    };
+
+    function reportForMouseEvents(linkCssSelectors, nolardUrl, experiment, abgroup) {
+        var counter = 0;
+        linkCssSelectors.forEach(function(cssSelector) {
+            $('body').delegate(cssSelector, 'click', function() {
+                if(counter == 0) {
+                    reportConversion(nolardUrl, experiment, abgroup);
+                    counter++;
+                }
+            });
+        });
+    };
+
+    function reportConversion(nolardUrl, experiment, abgroup) {
+        $.ajax({ url: nolardUrl + '/convert/' + experiment + '/' + abgroup });
+    };
+
+    function reportForMouseEvent(linkCssSelector, nolardUrl, experiment, abgroup) {
+        var counter = 0;
+        var elem = document.querySelector(linkCssSelector)
+
+        if (elem.addEventListener) {
+            elem.addEventListener("click", function(e) {
+                if(counter == 0) {
+                    reportConversion(nolardUrl, experiment, abgroup);
+                    counter++;
+                }
+            });
+        } else  {
+            elem.attachEvent("click", function(e) {
+                if(counter == 0) {
+                    reportConversion(nolardUrl, experiment, abgroup);
+                    counter++;
+                }
+            });
+        }
+    };
+
+    function reportParticipation(nolardUrl, experiment, abgroup, participations) {
+        if (participations)
+            participations.push(experiment + '/' + abgroup)
+
+        var xhr = new XMLHttpRequest()
+        xhr.open('GET', nolardUrl + '/participate/' + experiment + '/' + abgroup);
+        xhr.send();
+    };
+
+        function recordCurrentExperiment() {
+            var participations = [];
+            if (document.querySelector('#reprintsandpermissions-bottom-link') !== null) {
+                reportParticipation('https://ab-reporting.live.cf.public.springer.com', 'bunsen-article-reprints-permissions-location', 'featureoff', participations);
+                reportForMouseEvent('#reprintsandpermissions-bottom-link', 'https://ab-reporting.live.cf.public.springer.com', 'bunsen-article-reprints-permissions-location', 'featureoff');
+            } else if(document.querySelector('#reprintsandpermissions-top-link') !== null) {
+                reportParticipation('https://ab-reporting.live.cf.public.springer.com', 'bunsen-article-reprints-permissions-location', 'featureon', participations);
+                reportForMouseEvent('#reprintsandpermissions-top-link', 'https://ab-reporting.live.cf.public.springer.com', 'bunsen-article-reprints-permissions-location', 'featureon');
+            }
+            return participations;
+        };
+
+</script>
+
+<script>
+    window.onload = function() {
+    var linkEl = document.querySelector('.js-ctm');
+
+
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+          var bookProductType = dataLayer[0].content && dataLayer[0].content.book && dataLayer[0].content.book.bookProductType
+          var hasBody = dataLayer[0]['Has Body'] == 'Y';
+          var userHasAccess = dataLayer[0]['HasAccess'] == 'Y';
+          var liveOrStatic = dataLayer[0].content && dataLayer[0].content.version
+
+          // Baseline reference work page
+          var isReferenceWork = window.location.pathname.startsWith('/referencework/');
+          var isReferenceWorkEntry = window.location.pathname.startsWith('/referenceworkentry/');
+          var isEncOrDict = bookProductType == 'Encyclop(a)edia' || bookProductType == 'Dictionary';
+
+          // Baseline static reference work entry page pdf download
+          if (isReferenceWorkEntry && isEncOrDict && $('.test-rwepdf-link').length) {
+            reportParticipation('https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwepage-enc-pdf-download', 'baseline');
+            reportForMouseEvents(['.test-rwepdf-link'], 'https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwepage-enc-pdf-download', 'baseline');
+          }
+          if (isReferenceWorkEntry && !isEncOrDict && $('.gtm-pdf-link').length) {
+            reportParticipation('https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwepage-nonenc-pdf-download', 'baseline');
+            reportForMouseEvents(['.gtm-pdf-link'], 'https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwepage-nonenc-pdf-download', 'baseline');
+
+            if (($('.test-bookpdf-link').length || $('.test-bookepub-link').length)) {
+                reportParticipation('https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwpage-nonenc-book-download', 'baseline');
+                reportForMouseEvents(['.test-bookpdf-link', 'test-bookepub-link'], 'https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwpage-nonenc-book-download', 'baseline');
+            }
+          }
+
+          // Baseline static reference work page pdf download
+          if (isReferenceWork && isEncOrDict && ($('.test-bookpdf-link').length || $('.test-bookepub-link').length)) {
+            reportParticipation('https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwpage-enc-book-download', 'baseline');
+              reportForMouseEvents(['.test-bookpdf-link', 'test-bookepub-link'], 'https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwpage-enc-book-download', 'baseline');
+          }
+
+          if (isReferenceWork && !isEncOrDict) {
+            if (($('.test-bookpdf-link').length || $('.test-bookepub-link').length)) {
+                reportParticipation('https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwpage-nonenc-book-download', 'baseline');
+                reportForMouseEvents(['.test-bookpdf-link', 'test-bookepub-link'], 'https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwpage-nonenc-book-download', 'baseline');
+            }
+
+            if ($('.test-book-toc-download-link').length) {
+                reportParticipation('https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwpage-nonenc-pdf-download', 'baseline');
+                reportForMouseEvents(['.test-book-toc-download-link'], 'https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwpage-nonenc-pdf-download', 'baseline');
+            }
+          }
+
+          // Baseline static rwe page fulltext html view with access
+          if (isReferenceWorkEntry && isEncOrDict && hasBody) {
+            reportParticipation('https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwepage-enc-html-download', 'baseline');
+            if (userHasAccess)
+                reportConversion('https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwepage-enc-html-download', 'baseline');
+          }
+          if (isReferenceWorkEntry && !isEncOrDict && hasBody) {
+            reportParticipation('https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwepage-nonenc-html-download', 'baseline');
+            if (userHasAccess)
+                reportConversion('https://ab-reporting.live.cf.public.springer.com', 'bunsen-'+liveOrStatic+'-rwepage-nonenc-html-download', 'baseline');
+          }
+      }
+
+   };
+
+</script>
+
+<script class="kxct" data-id="KDqyaFZ_" data-timing="async" data-version="3.0" type="text/javascript">
+ window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+ (function(){
+   var k=document.createElement('script');k.type='text/javascript';k.async=true;
+   k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/KDqyaFZ_.js';
+   var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+ }());
+</script>
+
+<script>
+    window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+    (function(){
+        function retrieve(n){
+            var m, k='kx'+n;
+            if (window.localStorage) {
+                return window.localStorage[k] || "";
+            } else if (navigator.cookieEnabled) {
+                m = document.cookie.match(k+'=([^;]*)');
+                return (m && unescape(m[1])) || "";
+            } else {
+                return '';
+            }
+        }
+        Krux.user = retrieve('user');
+        Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+    })();
+</script>
+
+    <script type="text/javascript">
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function() {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+                    '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
+    <script type="text/javascript" id="googletag-push">
+        
+            var adSlot = '270604982/springerlink/11063/article';
+        
+
+        var definedSlots = [
+                {slot: [728, 90], containerName: 'doubleclick-leaderboard-ad'},
+                {slot: [160, 600], containerName: 'doubleclick-ad'},
+        ];
+
+        googletag.cmd.push(function() {
+                googletag.pubads().setTargeting("doi","10.1007-s11063-017-9597-3");
+                googletag.pubads().setTargeting("kwrd",["Evolving_tree","Textual_documents","Clustering","Visualization","Local_re-learning"]);
+                googletag.pubads().setTargeting("pmc",["I","I21017","P33000","T11014"]);
+                googletag.pubads().setTargeting("BPID",["1"]);
+                googletag.pubads().setTargeting("edition","academic");
+                googletag.pubads().setTargeting("sucode","Computer Science");
+                googletag.pubads().setTargeting("eissn","1573-773X");
+                googletag.pubads().setTargeting("pissn","1370-4621");
+                googletag.pubads().setTargeting("ksg",Krux.segments);
+                googletag.pubads().setTargeting("kuid",Krux.uid);
+                googletag.pubads().setTargeting("logged","N");
+            googletag.pubads().enableSingleRequest();
+            googletag.pubads().enableAsyncRendering();
+            googletag.enableServices();
+        });
+    </script>
+
+
+        
+        <span id="chat-widget" class="u-hide"></span>
+        
+    </body>
+</html>

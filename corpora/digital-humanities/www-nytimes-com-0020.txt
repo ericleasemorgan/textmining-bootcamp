@@ -1,0 +1,874 @@
+
+    
+    
+
+    
+        
+            
+                
+                    NYTimes.com no longer supports Internet Explorer 9 or earlier. Please upgrade your browser.
+                    LEARN MORE »
+                
+            
+
+        
+
+    
+
+
+
+
+    
+    
+    
+        
+            Sections
+            
+                Home
+            
+            Search
+            Skip to content
+                        Skip to navigation
+                                    View mobile version
+                    
+
+        
+            
+                
+                    The New York Times
+                
+            
+
+            
+        
+
+                
+            Books|In 500 Billion Words, New Window on Culture
+
+        
+
+        
+            
+
+
+
+            
+
+
+
+
+
+            Search
+            
+                Subscribe Now
+                Log In
+                                                0
+                Settings
+            
+
+        
+
+    
+
+    
+    Close search
+    
+    Site Search Navigation
+
+    
+        
+            
+                                Search NYTimes.com
+                            
+
+            
+                                
+                
+                Clear this text input
+                
+                    
+
+                
+
+                Go
+            
+
+        
+
+    
+
+
+
+
+
+
+    
+
+
+            
+    
+        	
+                Loading...
+
+            
+
+
+        
+            
+                See next articles
+                
+                    
+
+                
+
+            
+            
+                See previous articles
+                
+                    
+
+                
+
+            
+        
+
+    
+
+
+
+
+        
+    Site Navigation
+
+
+
+
+    Site Mobile Navigation
+
+
+
+    
+
+    
+        
+    
+    Advertisement
+
+
+
+
+
+
+        
+        
+
+    
+
+
+                        
+    
+                                
+                            
+                    Supported by
+                    
+
+                
+
+                                        
+                                                                                            Books
+                                                                            |                            Humanities 2.0                                                            
+
+                        			In 500 Billion Words, New Window on Culture
+
+	                                                
+                                                                                                    
+
+By PATRICIA COHENDEC. 16, 2010
+
+
+
+                                    
+                        
+Continue reading the main story
+Share This Page
+
+Continue reading the main story
+
+
+
+
+                                                                                                
+
+                                            
+
+        
+
+    
+
+    
+
+        
+    
+    
+        With little fanfare, Google has made a mammoth database culled from nearly 5.2 million digitized books available to the public for free downloads and online searches, opening a new landscape of possibilities for research and education in the humanities.
+The digital storehouse, which comprises words and short phrases as well as a year-by-year count of how often they appear, represents the first time a data set of this magnitude and searching tools are at the disposal of Ph.D.’s, middle school students and anyone else who likes to spend time in front of a small screen. It consists of the 500 billion words contained in books published between 1500 and 2008 in English, French, Spanish, German, Chinese and Russian.
+The intended audience is scholarly, but a simple online tool allows anyone with a computer to plug in a string of up to five words and see a graph that charts the phrase’s use over time — a diversion that can quickly become as addictive as the habit-forming game Angry Birds.
+With a click you can see that “women,” in comparison with “men,” is rarely mentioned until the early 1970s, when feminism gained a foothold. The lines eventually cross paths about 1986.
+
+    
+    Advertisement
+
+
+
+Continue reading the main story
+
+
+You can also learn that Mickey Mouse and Marilyn Monroe don’t get nearly as much attention in print as Jimmy Carter; compare the many more references in English than in Chinese to “Tiananmen Square” after 1989; or follow the ascent of “grilling” from the late 1990s until it outpaced “roasting” and “frying” in 2004.
+        Continue reading the main story
+    
+
+    
+    
+
+
+
+
+    
+    
+    Advertisement
+
+
+
+Continue reading the main story
+    
+
+
+
+
+
+
+    
+        “The goal is to give an 8-year-old the ability to browse cultural trends throughout history, as recorded in books,” said Erez Lieberman Aiden, a junior fellow at the Society of Fellows at Harvard. Mr. Lieberman Aiden and Jean-Baptiste Michel, a postdoctoral fellow at Harvard, assembled the data set with Google and spearheaded a research project to demonstrate how vast digital databases can transform our understanding of language, culture and the flow of ideas.
+Their study, to be published in the journal Science on Friday, offers a tantalizing taste of the rich buffet of research opportunities now open to literature, history and other liberal arts professors who may have previously avoided quantitative analysis. Science is taking the unusual step of making the paper available online to nonsubscribers.
+“We wanted to show what becomes possible when you apply very high-turbo data analysis to questions in the humanities,” said Mr. Lieberman Aiden, whose expertise is in applied mathematics and genomics. He called the method “culturomics.”
+
+    Photo
+    
+            [image: ]
+            
+
+
+
+
+Jean-Baptiste Michel and Erez Lieberman are co-authors of a Science paper coming about “culturomics.”
+                        
+            Credit
+            Kris Snibbe/Harvard University        
+            
+    
+The data set can be downloaded, and users can build their own search tools.
+Working with a version of the data set that included Hebrew and started in 1800, the researchers measured the endurance of fame, finding that written references to celebrities faded twice as quickly in the mid-20th century as they did in the early 19th. “In the future everyone will be famous for 7.5 minutes,” they write.
+Looking at inventions, they found technological advances took, on average, 66 years to be adopted by the larger culture in the early 1800s and only 27 years between 1880 and 1920.
+They tracked the way eccentric English verbs that did not add “ed” at the end for past tense (i.e., “learnt”) evolved to conform to the common pattern (“learned”). They figured that the English lexicon has grown by 70 percent to more than a million words in the last 50 years and they demonstrated how dictionaries could be updated more rapidly by pinpointing newly popular words and obsolete ones.
+Steven Pinker, a linguist at Harvard who collaborated on the Science paper’s section about language evolution, has been studying changes in grammar and past tense forms for 20 years.
+
+    
+    Advertisement
+
+
+
+Continue reading the main story
+
+
+“When I saw they had this database, I was quite energized,” he said. “There is so much ignorance. We’ve had to speculate what might have happened to the language.”
+The information about verb changes “makes the results more convincing and more complete,” Mr. Pinker added. “What we report in this paper is just the beginning.”
+
+    Newsletter Sign Up
+
+    Continue reading the main story
+        
+        
+    
+    
+        
+            
+                Please verify you're not a robot by clicking the box.
+
+                Invalid email address. Please re-enter.
+
+                You must select a newsletter to subscribe to.
+
+            
+
+            
+                
+                Sign Up
+            
+
+        
+
+        
+            
+                
+            
+
+            
+                You agree to receive occasional updates and special offers for The New York Times's products and services.
+            
+
+        
+
+        
+
+    
+
+    
+        Thank you for subscribing.
+
+        An error has occurred. Please try again later.
+
+        You are already subscribed to this email.
+
+        View all New York Times newsletters.
+
+    
+
+    	See Sample
+	Manage Email Preferences
+	Not you?
+	Privacy Policy
+	Opt out or contact us anytime
+
+
+    
+
+
+
+
+Despite the frequent resistance to quantitative analysis in some corners of the humanities, Mr. Pinker said he was confident that the use of this and similar tools would “become universal.”
+Reactions from humanities scholars who quickly reviewed the article were more muted. “In general it’s a great thing to have,” Louis Menand, an English professor at Harvard, said, particularly for linguists. But he warned that in the realm of cultural history, “obviously some of the claims are a little exaggerated.” He was also troubled that, among the paper’s 13 named authors, there was not a single humanist involved.
+“There’s not even a historian of the book connected to the project,” Mr. Menand noted.
+Alan Brinkley, the former provost at Columbia and a professor of American history, said it was too early to tell what the impact of word and phrase searches would be. “I could imagine lots of interesting uses, I just don’t know enough about what they’re trying to do statistically,” he said.
+
+    Photo
+    
+            [image: ]
+            
+
+            Credit
+            The New York Times        
+            
+    
+Aware of concerns raised by humanists that the essence of their art is a search for meaning, Mr. Michel and Mr. Lieberman Aiden emphasized that culturomics simply provided information. Interpretation remains essential.
+“I don’t want humanists to accept any specific claims — we’re just throwing a lot of interesting pieces on the table,” Mr. Lieberman Aiden said. “The question is: Are you willing to examine this data?”
+Mr. Michel and Mr. Lieberman Aiden first started their research in 2004 on irregular verbs. Google Books did not exist then, and they had to scrutinize stacks of Anglo-Saxon texts page by page. The process took 18 months.
+“We were exhausted,” Mr. Lieberman Aiden said. That painstaking work “was a total Hail Mary pass; we could have collected this data set and proved nothing.”
+
+    
+    Advertisement
+
+
+
+Continue reading the main story
+
+
+Then they read about Google’s plan to create a digital library and store of every book ever published and recognized that it could revolutionize their research. They approached Peter Norvig, the director of research at Google, about using the collection to do statistical analyses.
+“He realized this was a great opportunity for science and for Google,” Mr. Michel said. “We spent the next four years dealing with the many, many complicated issues that arose,” including legal complications and computational constraints. (A proposed class-action settlement pertaining to copyright and compensation brought by writers and publishers as a result of Google’s digitization plans is pending in the courts.) Google says the culturomics project raises no copyright issue because the books themselves, or even sections of them, cannot be read.
+So far, Google has scanned more than 11 percent of the entire corpus of published books, about two trillion words. The data analyzed in the paper contains about 4 percent of the corpus.
+The warehouse of words makes it possible to analyze cultural influences statistically in a way previously not possible. Cultural references tend to appear in print much less frequently than everyday words, said Mr. Michel, whose expertise is in applied math and systems biology. An accurate picture needs a huge sample. Checking if “sasquatch” has infiltrated the culture requires a supply of at least a billion words a year, he said.
+As for culturomics? In 20 years, type the word into an updated version of the database and see what happens.
+
+    
+                Humanities 2.0: 
+Articles in this series examine
+how digital tools are changing
+scholarship in history, literature
+and the arts.
+
+
+        
+        
+        A version of this article appears in print on December 17, 2010, on Page A3 of the New York edition with the headline: HUMANITIES 2.0; In 500 Billion Words, New Window on Culture.   Order Reprints|  Today's Paper|Subscribe
+
+
+
+
+    
+
+    
+        Continue reading the main story
+    
+    
+    
+
+
+
+    
+    
+
+    We’re interested in your feedback on this page. Tell us what you think.
+
+
+
+
+
+    
+        
+    
+    
+                
+            Related Coverage
+
+        
+        	
+    
+
+                    
+                [image: ]
+                
+
+            
+
+        
+        
+                            HUMANITIES 2.0 
+
+                        
+                Victorian Literature, Statistically Analyzed With New Process
+                                    DEC. 3, 2010
+                                            
+
+        
+
+    
+
+
+
+
+    
+
+
+
+
+
+    
+    
+
+    	
+	
+	
+	
+
+
+
+
+
+    
+
+
+
+
+    
+        Related Coverage
+
+    
+    
+        	
+    
+        
+                            HUMANITIES 2.0 
+
+                        
+                Victorian Literature, Statistically Analyzed With New Process
+                                    DEC. 3, 2010
+                                            
+
+        
+
+
+                    
+                [image: ]
+                
+
+            
+
+            
+
+
+
+
+            
+
+
+
+
+
+
+    What's Next
+
+    
+        
+            Loading...
+
+        
+
+    
+
+
+
+
+
+
+           
+ 
+
+
+
+                    
+
+            
+            
+    
+        Go to Home Page »
+
+        
+            Site Index
+            
+                The New York Times
+            
+        
+
+        
+    
+
+    
+        Site Index Navigation
+
+        
+
+                                                        
+                    
+                        News
+
+                        	
+                                        World
+                                    
+	
+                                        U.S.
+                                    
+	
+                                        Politics
+                                    
+	
+                                        N.Y.
+                                    
+	
+                                        Business
+                                    
+	
+                                        Tech
+                                    
+	
+                                        Science
+                                    
+	
+                                        Health
+                                    
+	
+                                        Sports
+                                    
+	
+                                        Education
+                                    
+	
+                                        Obituaries
+                                    
+	
+                                        Today's Paper
+                                    
+	
+                                        Corrections
+                                    
+
+
+                    
+
+
+                                            
+                    
+                        Opinion
+
+                        	
+                                        Today's Opinion
+                                    
+	
+                                        Op-Ed Columnists
+                                    
+	
+                                        Editorials
+                                    
+	
+                                        Op-Ed Contributors
+                                    
+	
+                                        Letters
+                                    
+	
+                                        Sunday Review
+                                    
+	
+                                        Video: Opinion
+                                    
+
+
+                    
+
+
+                                            
+                    
+                        Arts
+
+                        	
+                                        Today's Arts
+                                    
+	
+                                        Art & Design
+                                    
+	
+                                        Books
+                                    
+	
+                                        Dance
+                                    
+	
+                                        Movies
+                                    
+	
+                                        Music
+                                    
+	
+                                        N.Y.C. Events Guide
+                                    
+	
+                                        Television
+                                    
+	
+                                        Theater
+                                    
+	
+                                        Video: Arts
+                                    
+
+
+                    
+
+
+                                            
+                    
+                        Living
+
+                        	
+                                        Automobiles
+                                    
+	
+                                        Crossword
+                                    
+	
+                                        Food
+                                    
+	
+                                        Education
+                                    
+	
+                                        Fashion & Style
+                                    
+	
+                                        Health
+                                    
+	
+                                        Jobs
+                                    
+	
+                                        Magazine
+                                    
+	
+                                        N.Y.C. Events Guide
+                                    
+	
+                                        Real Estate
+                                    
+	
+                                        T Magazine
+                                    
+	
+                                        Travel
+                                    
+	
+                                        Weddings & Celebrations
+                                    
+
+
+                    
+
+
+                                            
+                    
+                        Listings & More
+
+                        	
+                                        Reader Center
+                                    
+	
+                                        Classifieds
+                                    
+	
+                                        Tools & Services
+                                    
+	
+                                        N.Y.C. Events Guide
+                                    
+	
+                                        Multimedia
+                                    
+	
+                                        Photography
+                                    
+	
+                                        Video
+                                    
+	
+                                        NYT Store
+                                    
+	
+                                        Times Journeys
+                                    
+	
+                                        Subscribe
+                                    
+	
+                                        Manage My Account
+                                    
+	
+                                        NYTCo
+                                    
+
+
+                    
+
+
+                            
+            
+                
+Subscribe
+
+
+	Subscribe
+	
+        
+                    Home Delivery
+            
+	
+        
+                    Digital Subscriptions
+            
+	
+        
+        Crossword
+    
+
+
+
+	
+        Email Newsletters
+    
+	
+        Alerts
+    
+	
+                    Gift Subscriptions
+            
+	
+                    Group Subscriptions
+            
+	
+                    Education Rate
+            
+
+
+	
+        Mobile Applications
+    
+	
+                    Replica Edition
+            
+
+
+            
+
+
+        
+
+
+    
+
+
+
+            
+    
+        Site Information Navigation
+
+         	
+                
+                    © 2018 The New York Times Company
+
+	Home
+	Search
+	Accessibility concerns? Email us at accessibility@nytimes.com. We would love to hear from you.
+	Contact Us
+	Work With Us
+	Advertise
+	Your Ad Choices
+	Privacy
+	Terms of Service
+	Terms of Sale
+
+
+    
+    
+        Site Information Navigation
+
+        	Site Map
+	Help
+	Site Feedback
+	Subscriptions
+
+
+    
+
+        
+    
+    
+            
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

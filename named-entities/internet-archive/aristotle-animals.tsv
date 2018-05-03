@@ -1,0 +1,691 @@
+type	entity
+PERSON	RICHARD CRESSWELL
+LOCATION	LONDON
+PERSON	WILLIAM CLOWES
+PERSON	Aristotle
+PERSON	Schneider
+PERSON	Taylor
+PERSON	Camus
+PERSON	Strack
+PERSON	Aristotle
+PERSON	Schneider
+PERSON	Aristotle
+PERSON	Smith
+PERSON	Alexander
+PERSON	Aristotle
+PERSON	Alexander
+LOCATION	East
+LOCATION	Athens
+LOCATION	Greece
+LOCATION	Asia
+LOCATION	India
+LOCATION	Egypt
+LOCATION	Assyria
+PERSON	Pythagoras
+LOCATION	Crotona
+PERSON	Aristotle
+PERSON	Agrigentum
+LOCATION	Persia
+LOCATION	East
+PERSON	Ctesias
+LOCATION	Persia
+LOCATION	India
+LOCATION	India
+PERSON	Aristotle
+PERSON	Schneider
+PERSON	Strack
+PERSON	Kiilb
+PERSON	Liddell
+PERSON	Scott
+PERSON	Bell
+PERSON	Spratt
+PERSON	Owen
+ORGANIZATION	Index
+PERSON	Aristotle
+PERSON	Aristotle
+PERSON	Aristotle
+PERSON	Viii
+PERSON	Aristotle
+PERSON	Aristotle
+ORGANIZATION	Cephalopods
+ORGANIZATION	Marseilles
+ORGANIZATION	Palinurus Spiny Lobster
+LOCATION	Ethiopia
+PERSON	Strack
+ORGANIZATION	Herodotus
+LOCATION	Syria
+ORGANIZATION	VIII
+PERSON	Long
+LOCATION	Lophuri
+ORGANIZATION	XIV
+LOCATION	Euboea
+LOCATION	Naxos
+PERSON	Nylghau Liddel
+PERSON	Scott
+ORGANIZATION	Stag
+ORGANIZATION	Cameleopard Schneider
+LOCATION	Illyria Paeonia
+ORGANIZATION	Antelope Oryx
+LOCATION	Pseonia
+LOCATION	Thebes
+LOCATION	Egypt
+PERSON	Chia
+PERSON	Young
+ORGANIZATION	Mursena
+PERSON	Raia
+PERSON	Raia
+PERSON	Murgena
+LOCATION	TX
+ORGANIZATION	Carp
+ORGANIZATION	Falco
+ORGANIZATION	Falco
+PERSON	Stags
+ORGANIZATION	Squalus
+LOCATION	Bolba
+LOCATION	Sycine
+LOCATION	Lacerta
+ORGANIZATION	Shark
+ORGANIZATION	Falco
+ORGANIZATION	Syennesis
+ORGANIZATION	Diogenes
+ORGANIZATION	Apollonia
+LOCATION	Apollonia
+LOCATION	Crete
+PERSON	Aristotle
+PERSON	Diogenes
+ORGANIZATION	Polybus
+PERSON	Btomach
+ORGANIZATION	THEEE
+LOCATION	Phrygia
+LOCATION	Caria
+LOCATION	Antandria
+PERSON	Homer
+PERSON	Leontine
+LOCATION	Sicily
+PERSON	Bullock
+PERSON	Pat
+ORGANIZATION	Eta
+LOCATION	Lemnos
+ORGANIZATION	Lemnos
+LOCATION	Sicily
+LOCATION	Phasis
+LOCATION	Epirus
+LOCATION	Epirus
+PERSON	Pyrrhus
+PERSON	Herodotus
+PERSON	Ctesias
+ORGANIZATION	Herodotus
+PERSON	Owen
+PERSON	Owen
+PERSON	Kohler
+PERSON	Aristotle
+PERSON	Owen
+PERSON	Todd
+ORGANIZATION	Cephalopoda
+ORGANIZATION	Leach Owen
+ORGANIZATION	Leach Owen
+ORGANIZATION	Argonauta
+ORGANIZATION	Nautilus Pompilius Owen V IV
+ORGANIZATION	Bell
+ORGANIZATION	Crustacea
+ORGANIZATION	Lobster
+ORGANIZATION	Prawns Crabs Shrimp Perhaps Prawn
+ORGANIZATION	Marine
+ORGANIZATION	Purpura
+ORGANIZATION	Whelk
+ORGANIZATION	Ascidians
+ORGANIZATION	Actiniae
+ORGANIZATION	Chafer
+ORGANIZATION	Phalangium Cancroides Linn Schneider
+ORGANIZATION	Locust
+ORGANIZATION	Salmo Fario Stracfy
+ORGANIZATION	Mullet
+ORGANIZATION	Perca Labrax
+ORGANIZATION	Scomber
+ORGANIZATION	Voice
+ORGANIZATION	Trigla Lyra
+ORGANIZATION	Trigla
+ORGANIZATION	Pleuronectes Lingua
+ORGANIZATION	AYE
+PERSON	Eirst
+LOCATION	Phoenicia
+PERSON	Simonides
+LOCATION	Jupiter
+PERSON	Stesichorus
+PERSON	Pat
+LOCATION	Arabia
+LOCATION	Sigeum
+LOCATION	Lectum
+ORGANIZATION	Caria
+ORGANIZATION	interior
+ORGANIZATION	Star Ssli
+LOCATION	Malea
+LOCATION	Hellespont
+LOCATION	Sigeum
+ORGANIZATION	Athos Fishermen
+PERSON	Pamphila
+ORGANIZATION	Plateos
+LOCATION	Cyprus
+PERSON	XXIII
+LOCATION	Cyrene
+LOCATION	Syria
+ORGANIZATION	Cinex
+LOCATION	Gyrene
+LOCATION	Egypt
+ORGANIZATION	Dumestes Pellio
+ORGANIZATION	Falco
+LOCATION	Egypt
+LOCATION	Syracuse
+ORGANIZATION	Numida Meleagris
+LOCATION	Egypt
+PERSON	Bryson
+LOCATION	Athene
+ORGANIZATION	Sardine
+LOCATION	Athens
+LOCATION	India
+LOCATION	Crete
+LOCATION	Epirus
+LOCATION	Ethiopia
+PERSON	Lacedremon
+PERSON	Homer
+ORGANIZATION	VI
+PERSON	XXIII
+LOCATION	Syria
+LOCATION	Phoenicia
+LOCATION	Athens
+PERSON	Arctu
+LOCATION	Argiuusa
+LOCATION	Asia
+PERSON	Alcibiades
+LOCATION	Europe
+PERSON	Latona
+PERSON	Delos
+LOCATION	Syria
+LOCATION	Persia
+ORGANIZATION	Mustek
+LOCATION	Crotona
+LOCATION	Egypt
+LOCATION	Greece
+LOCATION	Egypt
+LOCATION	Sicily
+ORGANIZATION	Twins
+LOCATION	Dicsea
+ORGANIZATION	Chil dren
+ORGANIZATION	Chil
+PERSON	Aristotle
+PERSON	Aristotle
+PERSON	Aristotle Schneider
+PERSON	Aristotle
+ORGANIZATION	OXEN
+LOCATION	Epirus
+LOCATION	Scythia
+LOCATION	Egypt
+LOCATION	Strymon
+LOCATION	Crete
+LOCATION	Bistonis
+LOCATION	Adriatic
+PERSON	Mosi
+LOCATION	Bosphorus
+LOCATION	Nineveh
+ORGANIZATION	IB
+PERSON	XXIII
+ORGANIZATION	Phrensy
+LOCATION	Milesia
+LOCATION	Cephalenia
+LOCATION	Poroselene
+LOCATION	Bceotia
+LOCATION	Lebadian
+LOCATION	Ithaca
+LOCATION	Sicily
+LOCATION	Gyrene
+LOCATION	Libya
+LOCATION	India
+LOCATION	Ked Sea
+LOCATION	Syria
+LOCATION	Libya
+PERSON	Homer
+LOCATION	Scythia
+LOCATION	Egypt
+LOCATION	Greece
+LOCATION	Illy ria Thrace
+LOCATION	Epirus
+LOCATION	Scythia
+LOCATION	Arabia
+LOCATION	Libya
+LOCATION	Europe
+LOCATION	Asia
+LOCATION	Europe
+LOCATION	Asia
+LOCATION	Europe
+LOCATION	Libya
+LOCATION	Libya
+LOCATION	Gyrene
+LOCATION	Caria
+LOCATION	Libya
+LOCATION	Italy
+LOCATION	India
+LOCATION	Egypt
+PERSON	Liddell
+PERSON	Scott
+LOCATION	Crete
+ORGANIZATION	Perhaps Aconite
+PERSON	Brison
+LOCATION	Libya
+PERSON	Homer
+LOCATION	Cylleue
+LOCATION	Arcadia
+LOCATION	Lydia
+LOCATION	Egypt
+LOCATION	Egypt
+LOCATION	Pelusium
+LOCATION	Pelusium
+LOCATION	Egypt
+LOCATION	Pharsalus Athens
+LOCATION	Peloponnesus
+ORGANIZATION	Priam
+LOCATION	Scythia
+LOCATION	Thrace
+LOCATION	Cedropolis
+ORGANIZATION	MARINE
+LOCATION	Paeonia
+LOCATION	Mount Messapius
+PERSON	Ma
+LOCATION	Scythia
+LOCATION	Tarentum Caria
+LOCATION	Caria
+LOCATION	Italy
+ORGANIZATION	Sirius
+LOCATION	Asia
+PERSON	Luce
+PERSON	Schneider
+PERSON	Alcmaeon
+PERSON	Crotona Dionysius
+LOCATION	Heracleum
+PERSON	Bryson
+PERSON	Ctesias
+PERSON	Cnidos Herodotus
+PERSON	Abdera Anaxagoras
+PERSON	Clazomene Empedocles
+PERSON	Aristotle
+ORGANIZATION	Herodotus
+LOCATION	Boeo
+PERSON	Antoninus Literalis
+LOCATION	Ovid
+ORGANIZATION	Antoninus
+LOCATION	Ovid
+PERSON	Aristotle
+PERSON	Scylax
+LOCATION	Earth
+PERSON	Aristotle
+LOCATION	Asia
+LOCATION	India
+PERSON	Alexander
+LOCATION	Asiatic
+LOCATION	Greece
+PERSON	Aristotle
+PERSON	Alexander
+PERSON	Aristotle
+LOCATION	Asia
+LOCATION	India
+PERSON	Alexander
+ORGANIZATION	St Croix
+PERSON	Alexander
+PERSON	Aristotle
+ORGANIZATION	Philip King of Macedon
+PERSON	Alex
+PERSON	Phythodotus
+ORGANIZATION	Archon
+PERSON	Athens Aristotle
+LOCATION	Athens
+LOCATION	Athens
+PERSON	Pliny
+PERSON	Aristotle
+PERSON	Pliny
+PERSON	Aristotle
+PERSON	Alexander
+PERSON	Alexander
+PERSON	Aristotle
+LOCATION	Ephesus
+PERSON	Alexander
+LOCATION	Ephesus
+PERSON	Aristotle
+LOCATION	Athens
+PERSON	Aristotle
+PERSON	Aristotle
+PERSON	Pliny viii
+PERSON	Alexander the Great
+PERSON	Aristotle
+LOCATION	Asia
+LOCATION	Greece
+PERSON	Alexander
+PERSON	Elian
+PERSON	Philip
+PERSON	Alexander Having
+PERSON	Aristotle
+PERSON	Nichomachus
+PERSON	Philip
+ORGANIZATION	Plato
+LOCATION	Macedonia
+PERSON	Alexander
+PERSON	Aristotle
+LOCATION	Philippi
+ORGANIZATION	Plato
+PERSON	Philip
+PERSON	Aristotle
+LOCATION	Athens
+PERSON	Elian
+PERSON	Philip
+ORGANIZATION	Plato
+PERSON	Aristotle
+PERSON	Alexander
+PERSON	Perigonius
+ORGANIZATION	Elian
+PERSON	Henr Schulzius
+PERSON	Alexander
+PERSON	Aristotle
+PERSON	Aristotle
+LOCATION	Asia
+PERSON	Aristotle
+PERSON	Aristotle
+PERSON	Aristotle
+PERSON	Philip
+PERSON	Alexander
+PERSON	Alexander
+PERSON	Aristotle
+LOCATION	Athens
+PERSON	Pliny
+PERSON	Alexander
+ORGANIZATION	Plutarch
+LOCATION	Eustathius
+PERSON	Alexander
+PERSON	Alexander
+PERSON	Aristotle
+PERSON	Philip
+PERSON	Alexander
+PERSON	Aristotle
+PERSON	Aristotle
+PERSON	Philip
+PERSON	Alex
+PERSON	Aristotle
+PERSON	Antigonus Carystius
+PERSON	Pliny
+PERSON	Diogenes Laertius
+PERSON	Pliny
+PERSON	Aristotle
+PERSON	Aristotle
+PERSON	Aristotle
+LOCATION	Greece
+PERSON	Aristotle
+LOCATION	Greece
+LOCATION	Sicily
+LOCATION	Gelo
+PERSON	Hiero
+LOCATION	Greece
+ORGANIZATION	Plato
+PERSON	Gorgias
+LOCATION	Heind
+PERSON	Athenseus
+PERSON	Mitha
+PERSON	Epicharmus
+PERSON	Athenseus
+PERSON	Jena
+PERSON	Epicharmus
+PERSON	Clearchus Solensis
+PERSON	Aristotle
+LOCATION	Greece
+PERSON	Ennius For Ennius
+PERSON	Aristotle
+PERSON	Carmina Hedypathetica
+PERSON	Apulegius
+PERSON	Archestratus
+PERSON	Aristotle
+PERSON	Diodorus Aspen
+PERSON	Stratonicus
+PERSON	Diodorus Aspendius
+PERSON	Stratonicus
+PERSON	Aristotle
+PERSON	Demosthenes
+LOCATION	Athenseus
+PERSON	Demosthenes
+PERSON	Aristotle
+PERSON	Athenseus
+PERSON	Dorio
+PERSON	Xenocrates
+LOCATION	Sicily
+ORGANIZATION	Eagle
+ORGANIZATION	Aquila
+PERSON	Falco
+LOCATION	Atherina
+PERSON	Spratt
+LOCATION	Egypt
+PERSON	Jerboa
+LOCATION	Egypt
+PERSON	Strack
+LOCATION	Ethiopia
+LOCATION	Ethiopia
+PERSON	Marinus Strack
+ORGANIZATION	Murex
+PERSON	Spratt
+ORGANIZATION	Eta
+LOCATION	Crete
+PERSON	Strack Scolopax Galli
+PERSON	Strack
+PERSON	Strack
+PERSON	Bostrichus Strack
+ORGANIZATION	Tetigonia Strack Acridium
+PERSON	Schneider Aici
+ORGANIZATION	Aquila
+PERSON	Strack
+PERSON	Strack Motacilla
+ORGANIZATION	Natica ATI GUI
+ORGANIZATION	Ursus Arctus
+LOCATION	Italy
+PERSON	Strack Schneider
+LOCATION	Talpa
+LOCATION	Bceoti
+LOCATION	Lebadin
+LOCATION	Lybia
+LOCATION	Egypt
+PERSON	Strack
+PERSON	Scott
+ORGANIZATION	Bari
+PERSON	Baric
+LOCATION	Lwdell
+PERSON	Scott
+PERSON	Raia
+LOCATION	Cyrene
+PERSON	Leach
+ORGANIZATION	Bos Urus Bison
+PERSON	Strack
+LOCATION	Epirus
+LOCATION	Epirus
+PERSON	Strack
+ORGANIZATION	Ardeagrus
+PERSON	Strack
+PERSON	Gobius Gozo Stracfc
+PERSON	Muraena
+LOCATION	Ithaca
+LOCATION	Egypt
+LOCATION	Lake Bolba
+PERSON	Strack
+ORGANIZATION	Cervus Elaphus
+PERSON	Leach Owen
+PERSON	Myoxus Avella
+ORGANIZATION	Elephas Indicus
+PERSON	Liddell
+PERSON	Scott Centriscus
+ORGANIZATION	Upupa Epops
+PERSON	Perca
+PERSON	Blenny Forbes
+LOCATION	Sprutt
+LOCATION	Spratt
+ORGANIZATION	Forbes
+PERSON	Squalus Zygaena Strack
+ORGANIZATION	Pinnotheres
+LOCATION	Syria
+ORGANIZATION	Cannabina
+PERSON	Strack
+PERSON	Strack
+PERSON	Falco
+ORGANIZATION	Mustela
+PERSON	Strack
+PERSON	Strack
+PERSON	Strack
+LOCATION	Egypt
+LOCATION	Egypt
+PERSON	Schneider
+ORGANIZATION	KaXAiwi
+PERSON	Strack
+ORGANIZATION	Bell
+LOCATION	Strombi
+PERSON	Schneider
+PERSON	Spratt
+PERSON	Strack
+ORGANIZATION	Ktvi
+ORGANIZATION	Kipicot
+PERSON	Falco
+PERSON	Scott
+ORGANIZATION	Falco
+PERSON	Kiffffa Jay Corvus
+PERSON	Picus
+PERSON	Strack
+PERSON	Trout Salmo Fario Strack
+PERSON	Picus
+PERSON	Colym
+ORGANIZATION	Corvus Corax
+PERSON	Kopa
+ORGANIZATION	Triton
+PERSON	Schneider
+ORGANIZATION	KOTTV
+PERSON	Labrus Merula Ko Xtag
+PERSON	Limneea Planorbis
+LOCATION	Squilla
+PERSON	Strack Penseus
+ORGANIZATION	Kpa
+PERSON	Kpioc Ovis
+LOCATION	Egypt
+ORGANIZATION	Crocodilus Niloticus
+LOCATION	Egypt
+ORGANIZATION	Krie Pecten
+PERSON	Liudett
+PERSON	Scott
+PERSON	Cyprinus Carpio
+ORGANIZATION	Palaemon Squilla
+ORGANIZATION	Pagurus
+PERSON	Scaliger
+PERSON	Perca Labrax Basse
+PERSON	Sterna
+PERSON	Kaia Batis
+ORGANIZATION	AeW Lion Felis Leo
+LOCATION	Europe
+PERSON	Rosemary
+ORGANIZATION	Auy Lynx Felis Lynx
+LOCATION	Aranea
+ORGANIZATION	Trigla Lyra
+PERSON	Maia Squinado
+PERSON	Spratt
+ORGANIZATION	Aquila
+ORGANIZATION	Falco
+LOCATION	Guinea
+ORGANIZATION	Apismellifica
+PERSON	Scarus
+PERSON	Muia
+PERSON	Musca
+LOCATION	Muraena
+PERSON	Strack
+ORGANIZATION	Formica
+ORGANIZATION	Mus Citillus Schneider
+PERSON	Balsena
+LOCATION	Taba
+ORGANIZATION	Raia Torpedo
+ORGANIZATION	Nautilus Pompilius
+PERSON	Anas Boschas
+ORGANIZATION	Vespertiiio
+PERSON	Columba
+ORGANIZATION	Salpa
+ORGANIZATION	Equus Asinus
+PERSON	Egi
+LOCATION	Epirus
+PERSON	Raia
+LOCATION	Tonga
+PERSON	Strack
+ORGANIZATION	Antilope Oryx
+PERSON	Spratt
+LOCATION	Ethiopia
+LOCATION	Egypt
+LOCATION	Lybia Boa
+PERSON	Pagurus Bernhardi
+PERSON	Felis Panthera
+PERSON	Lex
+PERSON	Strack
+PERSON	Tetrao Perdix
+ORGANIZATION	IlfpioTf pd House
+ORGANIZATION	Columba
+ORGANIZATION	Falco
+ORGANIZATION	Falco
+PERSON	Picus
+ORGANIZATION	Aquila
+PERSON	Spratt
+PERSON	Owen
+ORGANIZATION	Hopfyvpa Murex
+PERSON	Spratt
+LOCATION	Algee
+PERSON	Strack
+PERSON	Spratt
+PERSON	Strack
+PERSON	Ovis
+LOCATION	Epirus
+PERSON	Cervus Capriolus
+PERSON	Squatina Strack
+ORGANIZATION	Pti
+PERSON	Lutra Luteola Strack
+PERSON	Strack Sparus Salpa
+PERSON	Strack
+ORGANIZATION	Salmo Saurus
+PERSON	Spratt
+PERSON	Lepisma Strack
+PERSON	Strack
+PERSON	Spratt
+PERSON	Strack
+PERSON	Strack
+PERSON	Strack
+PERSON	Sparus Maiua Strack
+LOCATION	Lybia
+LOCATION	Motacilla Atri
+PERSON	Strack Sylvia
+LOCATION	Libya
+PERSON	Schneider
+PERSON	Spratt
+PERSON	Strack
+PERSON	Strack
+PERSON	Strack
+LOCATION	Milesia
+PERSON	Owen
+PERSON	Strack
+PERSON	Spratt
+PERSON	Strack
+PERSON	Strack
+PERSON	Sylvia
+PERSON	Schneider
+LOCATION	Mount Athos
+PERSON	Ye
+LOCATION	Poeonia
+PERSON	Buffon
+ORGANIZATION	Lernea
+PERSON	Sylvia Pho
+PERSON	Bufo
+PERSON	Faber Strack
+LOCATION	Lacerta
+PERSON	Strack
+PERSON	Mugil
+PERSON	Spratt
+LOCATION	Perca
+ORGANIZATION	Europaea
+PERSON	Anas
+PERSON	Anas
+PERSON	Strack
+PERSON	Strack
+PERSON	Strack
+ORGANIZATION	Pulex
+PERSON	Rectnv
+LOCATION	CALIFORNIA UBRARY

@@ -1,0 +1,1204 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Expires" content="Tue, 01 Jan 2000 12:12:12 GMT">
+
+<meta http-equiv="Pragma" content="no-cache">
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>TheEnglishCollection.com: American Literature</title>
+<meta name="description" content="The free educational portal subpage listing resources for American Literature">
+<meta name="keywords" content="American literature, United States literature, novel, short story, poet, poem, verse, colonial literature, Anne Bradstreet, Mercy Otis Warren, Washington Irving, Nathaniel Hawthorne, Herman Melville,  Edgar Allan Poe, James Fennimore Cooper, Harriet Beecher Stowe, Emerson, Thoreau, Walt Whitman, Longfellow, Stephen Crane, William Dean Howells, Upton Sinclair, Theodore Dreiser, Jack London, Henry James, Hemingway, Dos Passos, Fitzgerald, Langston Hughes, Dorothy Parker, H.L. Mencken, John Steinbeck, Eugene O'Neill, Allen Ginsberg, William S. Burroughs, Jack Kerouac, Saul Bellow, J.D. Salinger, Norman Mailer, Philip Roth, Don Delillo, Gore Vidal, Toni Morrison, Alice Walker, Mark Twain, William Faulkner, Tennessee Williams, Harper Lee, Moby Dick, Huckleberry Finn, Tom Sawyer, Glass Menagerie, Streetcar Named Desire, ">
+
+<link href="http://engelsklenker.com/backend/css/css.css" rel="stylesheet" type="text/css" />
+
+<link href="http://engelsklenker.com/menu-stylesheet.css" rel="stylesheet" type="text/css" />
+
+<SCRIPT TYPE="text/javascript">
+
+<!--
+
+function popup(mylink, windowname)
+
+{
+
+if (! window.focus)return true;
+
+var href;
+
+if (typeof(mylink) == 'string')
+
+   href=mylink;
+
+else
+
+   href=mylink.href;
+
+window.open(href, windowname, 'width=318,height=150,scrollbars=yes');
+
+return false;
+
+}
+
+//-->
+
+</SCRIPT>
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+function makeObject()
+
+{ 
+
+	var xmlHttp;
+
+	try
+
+	{
+
+		// Firefox, Opera 8.0+, Safari 
+
+		xmlHttp=new XMLHttpRequest(); 
+
+	}
+
+	catch (e)
+
+	{    
+
+		// Internet Explorer
+
+		try
+
+		{  
+
+			xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+
+		}
+
+		catch (e)
+
+		{
+
+			try
+
+			{        
+
+				xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+
+			}
+
+			catch (e)
+
+			{    
+
+				alert("Your browser does not support AJAX!");
+
+				return false;
+
+			}
+
+		}
+
+	}
+
+	return xmlHttp;
+
+}
+
+
+
+/*
+
+// OLD Function. If above not working we can use this hided
+
+function makeObject()
+
+{
+
+	var xmlHttp; 
+
+	var browser = navigator.appName; 
+
+	if(browser == "Microsoft Internet Explorer")
+
+	{
+
+		xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+
+	}
+
+	else
+
+	{
+
+		xmlHttp = new XMLHttpRequest();
+
+	}
+
+	return xmlHttp;
+
+
+
+}
+
+*/
+
+var requestAuthor = makeObject();
+
+function getAuthor(age_id)
+
+{
+
+   
+
+	document.getElementById('resourceID').style.display = "none";
+
+	document.getElementById('authorID').style.display = "block";	
+
+	var pageName= "us_author_display.php?age_id="+age_id;
+
+	//var pageName = "author_display.php";
+
+	requestAuthor.open('get',pageName);
+
+	requestAuthor.onreadystatechange = parseInfoAuthor; 
+
+	requestAuthor.send('');
+
+	
+
+}
+
+function parseInfoAuthor()
+
+{
+
+	var msg=document.getElementById('authorID');
+
+
+
+	//alert(requestAuthor.responseText);
+
+	if(requestAuthor.readyState == 1)
+
+	{			
+
+		msg.innerHTML="<img src="http://engelsklenker.com/backend/ajax-loader.gif">";
+
+		//msg.Hide();
+
+	}
+
+	if(requestAuthor.readyState == 4)
+
+	{ 
+
+		msg.innerHTML=requestAuthor.responseText;
+
+
+
+	}
+
+}
+
+
+
+var requestResource = makeObject();
+
+
+
+function getResource(auth_id)
+
+{
+
+
+
+   document.getElementById('resourceID').style.display = "block";
+
+   document.getElementById('authorID').style.display = "block";	
+
+   var pageName= "us_resource_display.php?auth_id="+auth_id;
+
+ //var pageName = "resource_display.php";
+
+	requestResource.open('get',pageName);
+
+	requestResource.onreadystatechange = parseInfoResource; 
+
+	requestResource.send('');
+
+	
+
+}
+
+function parseInfoResource()
+
+{
+
+	var msg=document.getElementById('resourceID');
+
+
+
+	//alert(requestResource.responseText);
+
+	if(requestResource.readyState == 1)
+
+	{			
+
+		msg.innerHTML="<img src="http://engelsklenker.com/backend/ajax-loader.gif">";
+
+		//msg.Hide();
+
+	}
+
+	if(requestResource.readyState == 4)
+
+	{ 
+
+		msg.innerHTML=requestResource.responseText;
+
+
+
+	}
+
+}
+
+
+
+function refresh()
+
+{
+
+	document.location='us_resource.php';
+
+	//editwindow.moveTo(400,200);
+
+}
+
+
+
+
+
+function showhide(x)
+
+{
+
+	if(eval("document.getElementById('"+x+"').style.display")=='')
+
+	{
+
+		eval("document.getElementById('"+x+"').style.display ='none'")
+
+	}
+
+	else
+
+	{
+
+		eval("document.getElementById('"+x+"').style.display =''")
+
+	}
+
+}
+
+function over_effect(e,state)
+
+{
+
+	if (document.all)
+
+		source4=event.srcElement
+
+	else if (document.getElementById)
+
+		source4=e.target
+
+	if (source4.className=="menulines")
+
+		source4.style.borderStyle=state
+
+	else
+
+	{
+
+		while(source4.tagName!="TABLE")
+
+		{
+
+			source4=document.getElementById? source4.parentNode : source4.parentElement
+
+			if (source4.className=="menulines")
+
+				source4.style.borderStyle=state
+
+		}
+
+	}
+
+}
+
+</script>
+
+<table width="867" border="0" align="center" cellpadding="0" cellspacing="0">
+
+  <tr>
+
+    <td width="138" bgcolor="white" bordercolor="maroon" bordercolordark="maroon" bordercolorlight="maroon"><p align="center" style="line-height:100%; margin-top:0; margin-bottom:0;"><font
+
+             color="black">&nbsp;</font><font face="Windsor" color="black"><b>The </b></font></p>
+
+      <p align="center" style="line-height:100%; margin-top:0; margin-bottom:0;"><font
+
+             face="Windsor" color="black"><b>Englishcollection </b></font></p>
+
+      <p align="center" style="line-height:100%; margin-top:0; margin-bottom:0;"><font
+
+             face="Bering" color="black">&nbsp;
+
+        <script language="JavaScript" type="text/javascript">
+
+var mydate=new Date()
+
+
+
+var year=mydate.getYear()
+
+
+
+if (year < 1000)
+
+
+
+year+=1900
+
+
+
+var day=mydate.getDay()
+
+
+
+var month=mydate.getMonth()
+
+
+
+var daym=mydate.getDate()
+
+
+
+if (daym<10)
+
+
+
+daym="0"+daym
+
+
+
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+
+
+
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+
+
+
+document.write("<small><font color='000000' face='Times New Roman'><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"</b></font></small>")
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                </script>
+
+      </font></p></td>
+
+    <td align="right" valign="top"><script>
+
+function showOpen(x,y)
+
+{
+
+document.getElementById('openspan').innerHTML="<strong>Open search</strong>";
+
+document.getElementById('listedspan').innerHTML="Listed sites";
+
+eval("document.getElementById('"+x+"').style.display ='block'")
+
+eval("document.getElementById('"+y+"').style.display ='none'")
+
+}
+
+function showListed(x,y)
+
+{
+
+document.getElementById('listedspan').innerHTML="<strong>Listed sites</strong>";
+
+document.getElementById('openspan').innerHTML="Open search";
+
+eval("document.getElementById('"+x+"').style.display ='none'")
+
+eval("document.getElementById('"+y+"').style.display ='block'")
+
+}
+
+</script>
+
+      <table width="75%" border="0" align="right" cellpadding="0" cellspacing="0">
+
+        <tr>
+
+          <td align="left" style="vertical-align:top; height:30pix;font-family:Arial, Helvetica, sans-serif;font-size:11px;font-weight:normal;color:#0080C0;padding-left:5px;"><span onclick="showListed('search1','search2')" id="listedspan" style="cursor:pointer"><strong>Listed sites</strong></span> | <span id="openspan" onclick="showOpen('search1','search2')" style="cursor:pointer">Open search</span></td>
+
+        </tr>
+
+        <tr>
+
+          <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+
+            <tr>
+
+              <td id="search1" style="display:none;padding-left:30pix" align="left"><form name="mainform" method="get" action="http://www.theenglishcollection-database.com/english-search.php" id="mainform">
+
+                <input type="hidden" name="path" />
+
+                <input type="hidden" name="refine" value="0" />
+
+                <input type="hidden" name="template_demo" value="phpdig.html" />
+
+                <input type="hidden" name="result_page" value="english-search.php" />
+
+                <input type="hidden" name="site" />
+
+                <input type="text" name="query_string" maxlength="50" size="40" style="background:#ffffff;border:1px solid #3399cc;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;color:#3399cc;font-weight:normal;" />
+
+                <input type="submit" name="opensearch" value="Search" style="background:#ffffff;border:1px solid #3399cc;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;color:#3399cc;font-weight:bold;" />
+
+                <br />
+
+                Search: Humanities audio &amp; video
+
+                <input type="radio" name="option" value="any" />
+
+                or
+
+                <input type="radio" name="option" value="start" checked="checked" />
+
+                and
+
+                <input type="radio" name="option" value="exact" />
+
+                phrase
+
+              </form></td>
+
+            </tr>
+
+            <tr>
+
+              <td id="search2" style="display:block;padding-left:30pix" align="left"><form action="http://www.engelsklenker.com/english-search.php" method="get" name="form1" id="form1">
+
+                <input style="background:#ffffff;border:1px solid #3399cc;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;color:#3399cc;font-weight:normal;" type="text" maxlength="100" size="40" name="search_term" id="search_term"/>
+
+                <input type="submit" name="listedsites" value="Search" style="background:#ffffff;border:1px solid #3399cc;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;color:#3399cc;font-weight:bold;" />
+
+                <br />
+
+                Search:
+
+                <input name="hislit" type="radio" value="History" />
+
+                History
+
+                <input name="hislit" type="radio" value="Literature" checked="checked" />
+
+                Literature
+
+              </form></td>
+
+            </tr>
+
+          </table></td>
+
+        </tr>
+
+      </table></td>
+
+    <td width="145" align="center" valign="middle" style="border-width:1px; border-color:white; border-style:solid;"><p style="line-height:100%; margin-top:0; margin-bottom:0;"><a href="http://engelsklenker.com/facebook.htm" onclick="return popup(this, 'Facebook')"><img src="http://engelsklenker.com/images/facebookLogo.jpg"
+
+ width="92" height="15" border="0" alt="facebook" /></a></p>
+
+    <p style="line-height:100%; margin-top:0; margin-bottom:0;"><a href="http://engelsklenker.com/facebook.htm" onclick="return popup(this, 'Facebook')"><font face="Verdana" size="2">Join us on Facebook</font></a></p></td>
+
+  </tr>
+
+  <tr>
+
+    <td colspan="3" align="center" bordercolor="maroon" bordercolorlight="maroon" bordercolordark="maroon" bgcolor="white">&nbsp;</td>
+
+  </tr>
+
+</table>
+
+<table width="867" border="0" align="center" cellpadding="0" cellspacing="0">
+
+  <tr>
+
+    <td width="138" align="left" valign="top"><table width="138" border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td align="center" valign="top" class="menu-middle-bg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+          <tr>
+
+            <td height="32" align="left" valign="middle" class="menu-top-bg"><a href="http://engelsklenker.com/index.php" target="_parent" class="menu-link">Welcome</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/british_history_resource.php" target="_parent" class="menu-link">British history </a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/british_irish_resource.php" target="_parent" class="menu-link">British/Irish literature</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/britisk_styresett.htm" target="_parent" class="menu-link">British government </a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/british_region_resource.php" target="_parent" class="menu-link">British regions</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/britiske_medier.htm" target="_parent" class="menu-link">British media</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/british_empire_history_resource.php" target="_parent" class="menu-link">The British Empire</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/us_history_resource.php" target="_parent" class="menu-link">US history</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="engelsklenker-com-0029.htm" target="_parent" class="menu-link">US literature</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/amerikansk_styrsett.htm" target="_parent" class="menu-link">US government</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/us_region_resource.php" target="_parent" class="menu-link">US regions</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/amerikanske_medier.htm" target="_parent" class="menu-link">US media</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/discussion.htm" target="_parent" class="menu-link">Ask questions</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/contact.htm" target="_parent" class="menu-link">Contact</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu"><a href="http://engelsklenker.com/our_shop.htm" target="_parent" class="menu-link">Our shop</a></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="left" valign="middle" class="menu1"><a href="http://www.engelsklenker.com/english-search-widget-code.php" target="_parent" class="menu-link">Get our free search box!</a></td>
+
+          </tr>
+
+        </table></td>
+
+      </tr>
+
+      <tr>
+
+        <td height="32" align="left" valign="top" class="menu-bottom-bg">&nbsp;</td>
+
+      </tr>
+
+    </table></td>
+
+    <td align="left" valign="top">
+
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+        <tr>
+
+          <td style="padding:1px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+            <tr>
+
+              <td height="25" align="left" valign="middle"  bgcolor="#000000" style="padding-left:3px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                <tr>
+
+                  <td class="mainheadtext">US Literature </td>
+
+                  </tr>
+
+                </table></td>
+
+              </tr>
+
+            <tr>
+
+              <td height="25" align="left" valign="top" bgcolor="#FFFFFF" class="leftbg" style="padding:6px;">
+
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                  <tr>
+
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                      <tr>
+
+                        <td width="113" align="left" valign="top" onclick="getAuthor('1')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1600-us.gif" alt="1400" width="113" height="109" /></td>
+
+                        <td width="113" align="left" valign="top" onclick="getAuthor('2')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1776-us.gif" alt="1600" width="113" height="109" /></td>
+
+                        <td width="113" align="left" valign="top" onclick="getAuthor('3')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1830-us1.gif" width="113" height="109" /></td>
+
+                        <td width="113" align="left" valign="top" onclick="getAuthor('4')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1830-us2.gif" width="113" height="109" /></td>
+
+                        <td width="113" align="left" valign="top" onclick="getAuthor('5')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1830-us3.gif" width="113" height="109" /></td>
+
+                        <td width="113" align="left" valign="top" onclick="getAuthor('6')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1870-us.gif" width="113" height="109" /></td>
+
+                        <td align="left" valign="top" ><img src="http://engelsklenker.com/backend/admin-images/1890-arrow.gif" width="9" height="109" /></td>
+
+                        </tr>
+
+                      
+
+                      </table></td>
+
+                    </tr>
+
+                  <tr>
+
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                      
+
+                      <tr>
+
+                        <td width="93" rowspan="2" align="left" valign="top" onclick="getAuthor('7')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1914-us.gif" width="93" height="120" /></td>
+
+                        <td width="93" rowspan="2" align="left" valign="top" onclick="getAuthor('8')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1920-us.gif" width="93" height="120" /></td>
+
+                        <td width="93" rowspan="2" align="left" valign="top" onclick="getAuthor('9')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1925-us.gif" width="93" height="120" /></td>
+
+                        <td width="93" rowspan="2" align="left" valign="top" onclick="getAuthor('10')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1929-us.gif" width="93" height="120" /></td>
+
+                        <td width="93" rowspan="2" align="left" valign="top" onclick="getAuthor('11')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1950-us.gif" width="93" height="120" /></td>
+
+                        <td width="93" rowspan="2" align="left" valign="top" onclick="getAuthor('12')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/1950-us1.gif" width="93" height="120" /></td>
+
+                        <td width="120" align="left" valign="top" onclick="getAuthor('13')" style="cursor:pointer"><img src="http://engelsklenker.com/backend/admin-images/southern-literature.gif" width="120" height="68" /></td>
+
+                        <td rowspan="2" align="left" valign="top">&nbsp;</td>
+
+                        </tr>
+
+                      <tr>
+
+                        <td align="left" valign="top" style="cursor:pointer" onclick="refresh()"><img src="http://engelsklenker.com/backend/admin-images/resources.gif" width="120" height="52" /></td>
+
+                        </tr>
+
+                      </table></td>
+
+                    </tr>
+
+  </table>		</td>
+
+              </tr>
+
+          </table></td>
+
+        </tr>
+
+        <tr>
+
+          <td id="authorID">
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+              <tr>
+
+                <td width="9" align="left" valign="top"><img src="http://engelsklenker.com/backend/admin-images/table-01.gif" width="9" height="34" /></td>
+
+                <td valign="middle" class="tabletop-01"><div class="tablehead"><strong>Resources</strong></div></td>
+
+                <td width="9" align="left" valign="top"><img src="http://engelsklenker.com/backend/admin-images/table-03.gif" width="9" height="34" /></td>
+
+              </tr>
+
+              <tr>
+
+                <td align="left" valign="top" class="tabletop-03">&nbsp;</td>
+
+                <td class="tablebodyspace"><table width="100%" border="0" cellspacing="1" cellpadding="3">
+
+                  <tr>
+
+                    <td width="84%" height="20" bgcolor="#bbfefe"><strong>Resources</strong></td>
+
+                    <td width="8%" bgcolor="#bbfefe"><strong>Format</strong></td>
+
+                    <td width="8%" bgcolor="#bbfefe"><strong>Time</strong></td>
+
+                    </tr>
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.learner.org/resources/series57.html#program_descriptions" title="AnnenbergCPB: Voices and Visions, a tv series about American literature (Press the icons to the right, log in and watch for free)">AnnenbergCPB: Voices and Visions, a tv series about American literature (Press the icons to the right, log in and watch for free)</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">Media Player Video</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">13 X 1 hour</td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.learner.org/resources/series164.html" title="AnnenbergCPB: American Passages, a tv series about American literature (Press the icons to the right, log in and watch for free)">AnnenbergCPB: American Passages, a tv series about American literature (Press the icons to the right, log in and watch for free)</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">Media Player Video</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">16 X 29 min</td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.mercurytheatre.info/" title="Orson Welles' Mercury Theatre">Orson Welles' Mercury Theatre</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">mp3</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">30 X 1 hour</td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.the-underdogs.org/game.php?name=Theatre+of+The+Imagination" title="The Underdog.org: download 5 hours of Orson Welles radioplays">The Underdog.org: download 5 hours of Orson Welles radioplays</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">quicktime</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">5 hours</td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://newportvintagebooks.com/otr/drama/otr_lux_radio_theatre.htm" title="Newportvitangebooks.com: Lux radio Theater">Newportvitangebooks.com: Lux radio Theater</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">mp3</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">20 X 1 hour</td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.quietplease.org/index.php?section=listepisodes" title="Quietplease.org: 106 radioplays online">Quietplease.org: 106 radioplays online</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">mp3</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">106 X 30 min</td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.archive.org/details/TheaterGuildontheAir" title="Archive.org: Theater Guild on the Air">Archive.org: Theater Guild on the Air</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">mp3</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">20 x 30 min</td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.archive.org/details/Lux02" title="Archive.org: Lux Radio Theatre">Archive.org: Lux Radio Theatre</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">mp3</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">20 x 1 hour</td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.otr.net/?p=nbcu" title="otr.net: NBC University Theater">otr.net: NBC University Theater</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">real audio</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">20 X 1 hour</td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://r.searchhippo.com/r3.php?i=1&q=thoreau&u=http%3A%2F%2Fwww.americanwriters.org%2F" title="AmericanWriters.org: online documentary series on american literature">AmericanWriters.org: online documentary series on american literature</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">real video</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">hundreds of hours</td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.nobel.se/literature/educational/radio/index.html" title="nobel.se: Nobel lectures">nobel.se: Nobel lectures</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">real audio</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.pulitzer.org/" title="Pulitzer.org">Pulitzer.org</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://wiredforbooks.org/" title="Wired for Books">Wired for Books</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">real audio</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.poets.org/page.php/prmID/361" title="Poetry.org: Academy of American Poets">Poetry.org: Academy of American Poets</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">real audio</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.theatervoice.com/the_archive/" title="Theatervoice.com: interview archive">Theatervoice.com: interview archive</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">mp3</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.laurable.com/index.html" title="Laurable.com">Laurable.com</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">mp3</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.anthology.org/Event_ARS.html" title="anthology.org: reading series">anthology.org: reading series</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.theatlantic.com/unbound/poetry/soundings/" title="Atlantic online soundings index">Atlantic online soundings index</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">real audio</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.radiolovers.com/" title="Radiolovers.com: free old time radio">Radiolovers.com: free old time radio</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">real audio</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://researchchannel.org/program/displayseries.asp?collid=186" title="Researchchannel.org: The Writer's Tale, interviews with writers">Researchchannel.org: The Writer's Tale, interviews with writers</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">any format</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.poetspath.com/apg/apgls99_00.html" title="Poethspath.com: lectures about Carl Sandburg, Kenneth Rexroth, Susan Howe, Wallace Stevens, William Carlos Williams, & Robert Creeley, Gertrude Stein, Jaime de Angulo">Poethspath.com: lectures about Carl Sandburg, Kenneth Rexroth, Susan Howe, Wallace Stevens, William Carlos Williams, & Robert Creeley, Gertrude Stein, Jaime de Angulo</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">real video</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.uctv.tv/series/index.asp?subject=hum" title="University of California series Voices">University of California series Voices</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">real video</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.archive.org/details/StudioOne" title="archive.org: "Studio one" radio drama">archive.org: "Studio one" radio drama</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">mp3</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd"></td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  <tr>
+
+                    <td valign="top" bgcolor="#e9fdfd" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px;"><a target="_blank" href="http://www.archive.org/search.php?query=Honors%20English%2010%20AND%20mediatype%3Aaudio%20AND%20collection%3Aopensource_audio" title="Archive.org: lecture on American literature">Archive.org: lecture on American literature</a></td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">mp3</td>
+
+                    <td valign="top" class="fttext" bgcolor="#e9fdfd">20 x 1 hour</td>
+
+                    </tr>
+
+                  
+
+                  
+                  
+
+                  </table></td>
+
+                <td align="left" valign="top" class="tabletop-02">&nbsp;</td>
+
+              </tr>
+
+              <tr>
+
+                <td align="left" valign="top"><img src="http://engelsklenker.com/backend/admin-images/table-06.gif" width="9" height="15" /></td>
+
+                <td class="tabletop-04">&nbsp;</td>
+
+                <td align="left" valign="top"><img src="http://engelsklenker.com/backend/admin-images/table-08.gif" width="9" height="15" /></td>
+
+              </tr>
+
+            </table>  </td>
+
+        </tr>
+
+        <tr>
+
+          <td id="resourceID">  </td>
+
+        </tr>
+
+  </table>
+
+</td>
+
+  </tr>
+
+</table>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,196 @@
+skip navigationLibrary of Congress
+Authorities & Vocabularies
+
+[image: Library of Congress]
+	Ask a Librarian
+	Digital Collections
+	Library Catalogs
+
+
+
+	      Search
+	      GO
+
+	    
+
+
+
+The Library of Congress > Linked Data Service
+Digital humanities
+
+From Library of Congress Subject Headings
+
+	Details
+	Visualization
+	Suggest Terminology
+
+Digital humanities
+
+
+
+	URI(s)
+	http://id.loc.gov/authorities/subjects/sh2008122106
+	info:lc/authorities/sh2008122106
+	http://id.loc.gov/authorities/sh2008122106#concept
+
+
+	Instance Of
+	MADS/RDF Topic
+	MADS/RDF Authority
+	SKOS Concept [image: Offsite link]
+
+
+	Scheme Membership(s)
+	Library of Congress Subject Headings
+
+
+	Collection Membership(s)
+	LCSH Collection - Authorized Headings
+	LCSH Collection - General Collection
+
+
+	Variants
+	[image: us: ] Humanities--Information technology
+
+
+
+	Broader Terms
+	[image: us: ] Humanities
+
+
+
+	Earlier Established Forms
+	Humanities--Data processing
+
+
+
+	Sources
+
+
+			
+	found: Work cat.: Computer in den Geisteswissenschaften, c1989. 
+
+
+
+				found: In the shadows of the digital humanities, c2014: p. iv (the contributors to this issue approach the digital humanities from radically different perspectives)
+
+
+
+				found: Crompton, Constance. Doing digital humanities, 2016 t.p. (digital humanities)
+
+
+
+				found: Oxford dictionaries, viewed Jan. 25, 2016 (Digital humanities: An academic field concerned with the application of computational tools and methods to traditional humanities disciplines such as literature, history, and philosophy)
+
+
+
+				found: Getty art and architecture thesaurus, Jan. 25, 2016 (Digital humanities:Research, study, teaching, publication, and other dissemination of information in the humanities that is mediated through digital technology. It is an evolving area of study using computing technologies to investigate questions and areas of research that are both traditional and new to the humanities)
+
+
+
+				found: Flanders, Julia. Encyclopedia of library and information science, 3rd ed., 2011 digital humanities article abstract (Digital humanities is a recent and rapidly evolving field. It includes the range of activities and projects associated with the use of digital technologies for humanities research)
+
+
+	Change Notes
+
+
+			
+	2008-04-25: new
+
+
+
+				2016-05-11: revised
+
+
+
+	Alternate Formats
+	RDF/XML (MADS and SKOS)
+	N-Triples (MADS and SKOS)
+	JSON (MADS/RDF and SKOS/RDF)
+	MADS - RDF/XML
+	MADS - N-Triples
+	MADS/RDF - JSON
+	SKOS - RDF/XML
+	SKOS - N-Triples
+	SKOS - JSON
+	MADS/XML
+	MARC/XML
+
+
+
+
+
+
+	      
+
+
+Suggest terminology
+
+The LC Linked Data Service welcomes any suggestions you might have about terminology used for a given heading or concept.
+Would you like to suggest a change to this heading?
+	Digital humanities
+
+
+Please provide your name, email, and your suggestion so that we can begin assessing any terminology changes.
+
+Fields denoted with an asterisk (*) are required.
+
+		
+* Name
+
+
+* E-mail
+
+
+* Suggested terminology
+I recommend changing the terminology for http://id.loc.gov/authorities/subjects/sh2008122106 from "Digital humanities" to:
+
+
+
+* How many floors does a one-story house have?
+
+
+
+
+	      
+Privacy policy
+
+
+
+
+Connect with the Library
+All ways to connect
+
+Find Us On
+[image: Facebook]   [image: Twitter]   [image: YouTube]   [image: Flickr]
+Subscribe & Comment
+	RSS & E-Mail
+	Blogs
+
+
+Download & Play
+	Podcasts
+	Webcasts
+	iTunesU (external link)
+
+
+Questions
+	Ask a Librarian
+	Contact Us
+
+
+
+About |
+            Press |
+            Jobs |
+            Donate
+Inspector General |
+            Legal |
+            Accessibility |
+            External Link Disclaimer |
+            USA.gov
+Speech Enabled
+
+
+
+

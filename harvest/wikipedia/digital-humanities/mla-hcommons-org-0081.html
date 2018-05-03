@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="msapplication-tap-highlight" content="no"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="pingback" href="https://mla.hcommons.org/xmlrpc.php" />
+		<!-- BuddyPress and bbPress Stylesheets are called in wp_head, if plugins are activated -->
+		<title>MLA Commons &#8211; An online community for MLA members</title>
+
+<style type='text/css'>
+.a11y-toolbar ul li button {
+	font-size: 1.2em !important;
+}
+</style><link rel='dns-prefetch' href='https://cdnjs.cloudflare.com/' />
+<link rel='dns-prefetch' href='https://use.typekit.net/' />
+<link rel='dns-prefetch' href='https://maxcdn.bootstrapcdn.com/' />
+<link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="MLA Commons &raquo; Feed" href="https://mla.hcommons.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MLA Commons &raquo; Comments Feed" href="https://mla.hcommons.org/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mla.hcommons.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='hc-auth-css-css'  href='https://hcommons.org/app/plugins/hc-auth/includes/css/hc-auth.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='https://hcommons.org/app/plugins/siteorigin-panels/css/front.css?ver=2.4.25' type='text/css' media='all' />
+<link rel='stylesheet' id='swa-css-css'  href='https://hcommons.org/app/plugins/buddypress-sitewide-activity-widget/assets/swa.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='humanities-commons-css'  href='https://hcommons.org/app/plugins/humanities-commons/assets/css/main.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='select2_css-css'  href='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css?ver=022316' type='text/css' media='all' />
+<link rel='stylesheet' id='mla_academic_interests_select2_css-css'  href='https://hcommons.org/app/plugins/mla-academic-interests/assets/css/select2_init.css?ver=120415-1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpa-style-css'  href='https://hcommons.org/app/plugins/wp-accessibility/css/wpa-style.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ui-font.css-css'  href='https://hcommons.org/app/plugins/wp-accessibility/toolbar/fonts/css/a11y-toolbar.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ui-a11y.css-css'  href='https://hcommons.org/app/plugins/wp-accessibility/toolbar/css/a11y.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ui-fontsize.css-css'  href='https://hcommons.org/app/plugins/wp-accessibility/toolbar/css/a11y-fontsize.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='hc-suggestions-css'  href='https://hcommons.org/app/plugins/hc-suggestions/public/css/hc-suggestions.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mashsb-styles-css'  href='https://hcommons.org/app/plugins/mashsharer/assets/css/mashsb.min.css?ver=3.4.7' type='text/css' media='all' />
+<style id='mashsb-styles-inline-css' type='text/css'>
+.mashsb-count {color:#cccccc;}
+        [class^="mashicon-"], .onoffswitch-label, .onoffswitch2-label, .onoffswitch {
+            border-radius: 4px;
+        }@media only screen and (min-width:568px){.mashsb-buttons a {min-width: 177px;}}
+</style>
+<link rel='stylesheet' id='sow-button-base-css'  href='https://hcommons.org/app/plugins/so-widgets-bundle/widgets/button/css/style.css?ver=1.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-slider-slider-css'  href='https://hcommons.org/app/plugins/so-widgets-bundle/css/slider/slider.css?ver=1.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='humcore_deposits_css-css'  href='https://hcommons.org/app/plugins/humcore/css/deposits.css?ver=011818' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='boss-main-global-css'  href='https://hcommons.org/app/themes/boss/css/main-global.css?ver=2.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='boss-main-desktop-css'  href='https://hcommons.org/app/themes/boss/css/main-desktop.css?ver=2.2.2' type='text/css' media='screen and (min-width: 481px)' />
+<link rel='stylesheet' id='boss-main-mobile-css'  href='https://hcommons.org/app/themes/boss/css/main-mobile.css?ver=2.2.2' type='text/css' media='screen and (max-width: 480px)' />
+<link rel='stylesheet' id='header-style-2-css'  href='https://hcommons.org/app/themes/boss/css/header-style-2.css?ver=2.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='d4p-bbattachments-css-css'  href='https://hcommons.org/app/plugins/gd-bbpress-attachments/css/gd-bbpress-attachments.css?ver=2.5_b2157_free' type='text/css' media='all' />
+<link rel='stylesheet' id='hc-styles-css'  href='https://hcommons.org/app/plugins/hc-styles/css/badges.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-boss_options-css'  href='https://fonts.googleapis.com/css?family=Pacifico%3A400%7CLato%3A400%7CArchivo+Narrow%3A400%2C700%7CSource+Sans+Pro%3A700&#038;subset=latin&#038;ver=1479910874' type='text/css' media='all' />
+<link rel='stylesheet' id='boss-child-custom-css'  href='https://hcommons.org/app/themes/boss-child/css/mla.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='bp_event_organiser_css-css'  href='https://hcommons.org/app/plugins/bp-event-organiser/assets/css/bp-event-organiser.css?ver=4.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_Confirm = {"are_you_sure":"Are you sure?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-core/js/confirm.js?ver=2.9.3'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress-sitewide-activity-widget/assets/swa.js?ver=4.9.2'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-core/js/widget-members.js?ver=2.9.3'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-core/js/jquery-query.js?ver=2.9.3'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-core/js/vendor/jquery-cookie.js?ver=2.9.3'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-core/js/vendor/jquery-scroll-to.js?ver=2.9.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_DTheme = {"accepted":"Accepted","close":"Close","comments":"comments","leave_group_confirm":"Are you sure you want to leave this group?","mark_as_fav":"Favorite","my_favs":"My Favorites","rejected":"Rejected","remove_fav":"Remove Favorite","show_all":"Show all","show_all_comments":"Show all comments for this thread","show_x_comments":"Show all comments (%d)","unsaved_changes":"Your profile has unsaved changes. If you leave the page, the changes will be lost.","view":"View"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-templates/bp-legacy/js/buddypress.js?ver=2.9.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpApiSettings = {"nonce":"700dc44d9a"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/hc-suggestions/public/js/hc-suggestions.js?ver=4.9.2'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/so-widgets-bundle/js/jquery.cycle.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/so-widgets-bundle/js/slider/jquery.slider.min.js?ver=1.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var settings_general_req = {"user":{"data":{},"ID":0,"caps":[],"cap_key":null,"roles":[],"allcaps":[],"filter":null},"nonce":"418d917dd6"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss-child/js/boss-child.js?ver=1'></script>
+<script type='text/javascript' src='https://use.typekit.net/bgx6tpq.js'></script>
+<script type='text/javascript'>
+try{Typekit.load();}catch(e){};
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/modernizr.min.js?ver=2.7.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var translation = {"only_mobile":"","comment_placeholder":"Your Comment...","view_desktop":"View as Desktop","view_mobile":"View as Mobile"};
+var BuddyBossOptions = {"select_label":"Show:","post_in_label":"Post in:","tpl_url":"https:\/\/hcommons.org\/app\/themes\/boss","child_url":"https:\/\/hcommons.org\/app\/themes\/boss-child","user_profile":null,"days":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"bb_cover_photo_failed_upload":"Error uploading cover photo.","bb_cover_photo_failed_refresh":"Error refreshing cover photo.","bb_cover_photo_remove_title":"Remove cover photo.","bb_cover_photo_refresh_title":"Get a random cover photo"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/buddyboss.js?ver=2.2.2'></script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/social-learner.js?ver=2.2.2'></script>
+<link rel='https://api.w.org/' href='https://mla.hcommons.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mla.hcommons.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://mla.hcommons.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.2" />
+<link rel="canonical" href="mla-hcommons-org-0081.htm" />
+<link rel='shortlink' href='mla-hcommons-org-0081.htm' />
+<link rel="alternate" type="application/json+oembed" href="https://mla.hcommons.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmla.hcommons.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://mla.hcommons.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmla.hcommons.org%2F&#038;format=xml" />
+<script type="text/javascript">
+                /* <![CDATA[ */
+                var gdbbPressAttachmentsInit = {
+                    max_files: 4                };
+                /* ]]> */
+        </script>
+	<script type="text/javascript">var ajaxurl = 'https://mla.hcommons.org/wp-admin/admin-ajax.php';</script>
+
+
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','gaplusu');
+
+                                                            gaplusu('create', 'UA-37482664-1', 'auto');
+                    
+                                        
+                    gaplusu('send', 'pageview');
+                
+                                    gaplusu('create', 'UA-37482664-4', 'auto', {'name': 'single'});
+
+                                        
+                    gaplusu('single.send', 'pageview');
+                            </script>
+
+		<style type="text/css">.so-widget-sow-image-default-3f547a15eaaa .sow-image-container .so-widget-image {
+  display: block;
+  max-width: 100%;
+  
+  height: auto;
+}.so-widget-sow-button-flat-3467331ce1a9 .ow-button-base {
+  zoom: 1;
+}
+.so-widget-sow-button-flat-3467331ce1a9 .ow-button-base:before {
+  content: '';
+  display: block;
+}
+.so-widget-sow-button-flat-3467331ce1a9 .ow-button-base:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.so-widget-sow-button-flat-3467331ce1a9 .ow-button-base a {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1em;
+  padding: 1em 2em;
+  background: #0077dd;
+  color: #FFFFFF !important;
+  border: 1px solid #0077dd;
+  border-width: 1px 0;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  border-radius: 0.25em;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+.so-widget-sow-button-flat-3467331ce1a9 .ow-button-base a .sow-icon-image,
+.so-widget-sow-button-flat-3467331ce1a9 .ow-button-base a [class^="sow-icon-"] {
+  margin: -0.1em 0.75em -0.2em -0.75em;
+}
+.so-widget-sow-button-flat-3467331ce1a9 .ow-button-base a:visited,
+.so-widget-sow-button-flat-3467331ce1a9 .ow-button-base a:active,
+.so-widget-sow-button-flat-3467331ce1a9 .ow-button-base a:hover {
+  color: #FFFFFF !important;
+}
+.so-widget-sow-button-flat-3467331ce1a9 .ow-button-base a.ow-button-hover:hover {
+  background: #0082f1;
+  border-bottom-color: #0074d8;
+  color: #ffffff;
+}.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper {
+  padding: 30px 20px 30px 20px;
+  max-width: 1280px;
+  height: 283px;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h1,
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h2,
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h3,
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h4,
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h5,
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h6 {
+  line-height: 1.375em;
+  color: #FFFFFF;
+  text-shadow: 0 2px 2px rgba(0,0,0,0);
+  margin: 0.1em 0;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h1 {
+  font-size: 30px;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h2 {
+  font-size: 25.5px;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h3 {
+  font-size: 21px;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h4 {
+  font-size: 18px;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h5 {
+  font-size: 15px;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h6 {
+  font-size: 12px;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper p {
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  margin: 1em 0;
+  font-size: 16px;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper .sow-hero-buttons {
+  margin-top: 3em;
+  padding-bottom: 0.2em;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper .sow-hero-buttons .so-widget-sow-button {
+  display: inline-block;
+  margin: 0 6px;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base .sow-slider-pagination li a {
+  background: #FFFFFF;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base .sow-slide-nav {
+  font-size: 25px;
+}
+.so-widget-sow-hero-default-ffaa56d9c3d8 .sow-slider-base .sow-slide-nav a {
+  color: #FFFFFF;
+}</style><style type="text/css" media="all" id="siteorigin-panels-grids-wp_head">/* Layout 238 */ #pgc-238-0-0 { width:35.827% } #pgc-238-0-1 { width:35.64% } #pgc-238-0-2 { width:28.533% } #pg-238-0 .panel-grid-cell { float:left } #pl-238 .panel-grid-cell .so-panel { margin-bottom:30px } #pl-238 .panel-grid-cell .so-panel:last-child { margin-bottom:0px } #pg-238-0 { margin-left:-15px;margin-right:-15px } #pg-238-0 .panel-grid-cell { padding-left:15px;padding-right:15px } #panel-238-0-2-0 > .panel-widget-style , #panel-238-0-2-1 > .panel-widget-style , #panel-238-0-2-4 > .panel-widget-style { padding:20px } @media (max-width:780px){ #pg-238-0 .panel-grid-cell { float:none;width:auto } #pgc-238-0-0 , #pgc-238-0-1 { margin-bottom:30px } #pl-238 .panel-grid , #pl-238 .panel-grid-cell {  } #pl-238 .panel-grid .panel-grid-cell-empty { display:none } #pl-238 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style>		<style type="text/css" id="wp-custom-css">
+			/* Features Widget */
+
+.sow-icon-image[style] {
+	border-radius: 0.5em;
+	font-size: 1em !important;
+}		</style>
+		</head>
+
+	
+	<body class="home-page bp-legacy home page-template-default page page-id-238 admin-bar no-customize-support society-mla siteorigin-panels siteorigin-panels-home  single-author is-desktop bp-active left-menu-open no-js" data-logo="1" data-inputs="1" data-rtl="false" data-header="2">
+
+			<!--
+	BuddyBoss Mobile Init
+	/////////////////////
+	-->
+	<div id="mobile-check"></div><!-- #mobile-check -->
+	<script type="text/JavaScript">//<![CDATA[
+		(function(){var c=document.body.className;c=c.replace(/no-js/,'js');document.body.className=c;})();
+		$=jQuery.noConflict();
+		//]]></script>
+	
+		<div id="scroll-to"></div>
+
+		<header id="masthead" class="site-header" data-infinite="on">
+
+			<div class="header-wrap">
+				<div class="header-outher">
+					<div class="header-inner">
+							<div class="left-col">
+
+		<div class="table">
+
+			<div class="header-links">
+				
+					<!-- Menu Button -->
+					<a href="mla-hcommons-org-0081.htm#" class="menu-toggle icon" id="left-menu-toggle" title="Menu">
+						<i class="fa fa-bars"></i>
+					</a><!--.menu-toggle-->
+
+				
+			</div><!--.header-links-->
+
+                        
+	        <div class="header-navigation">
+					<ul>
+<li>
+					<p></p>
+</li>
+					</ul>
+        </div>
+    
+    
+    <div id="titlebar-search">
+    <form role="search" method="get" id="searchform" class="searchform" action="mla-hcommons-org-0081.htm">
+    <div class="search-wrapper">
+        <label class="screen-reader-text" for="s">Search for:</label>
+        <input type="text" value="" name="s" id="s" placeholder="Search">
+        <button type="submit" id="searchsubmit" title="Search"><i class="fa fa-search"></i></button>
+        <button id="search-close"><i class="fa fa-close"></i></button>
+    </div>
+</form>
+
+        <a href="mla-hcommons-org-0081.htm#" id="search-open" class="header-button" title="Search"><i class="fa fa-search"></i></a>
+    </div><!-- #titlebar-search-->
+
+    
+            		</div>
+
+	</div><!--.left-col-->
+													
+<div class="right-col">
+
+        <div class="table">
+    
+	
+		
+            <!-- Woocommerce Notification for guest users-->
+            
+						                                <div class="table-cell">
+                                                            <a href="https://registry.hcommons.org/registry/co_petitions/start/coef:160" class="register screen-reader-shortcut">Register</a>
+                    
+                    <a href="https://mla.hcommons.org/wp-login.php?action=shibboleth" class="login">Log In</a>
+                                </div>
+                
+			
+		 <!-- if ( is_user_logged_in() ) -->
+
+	</div><!--.left-col-inner/.table-->
+
+</div><!--.left-col-->
+					</div><!-- .header-inner -->
+				</div><!-- .header-wrap -->
+			</div><!-- .header-outher -->
+
+			<div id="mastlogo">
+				
+<div id="logo" class="logo-container">
+
+	<h2 class="site-title">
+
+			<a href="https://hcommons.org" rel="home">
+				<img width="54" height="55" src="https://hcommons.org/app/uploads/2016/11/hc_55.png" class="boss-logo small" alt="" />		</a>
+		<a href="mla-hcommons-org-0081.htm" rel="home">
+			<img width="105" height="55" src="https://hcommons.org/app/uploads/2016/11/mla_55.png" class="boss-logo large" alt="" />		</a>
+
+	</h2>
+
+</div>
+				<p class="site-description">An online community for MLA members</p>
+			</div><!-- .mastlogo -->
+
+		</header><!-- #masthead -->
+
+		
+		<div id="mobile-header" class="table with-adminbar">
+
+	<!-- Toolbar for Mobile -->
+	<div class="mobile-header-outer table-cell">
+
+		<div class="mobile-header-inner table">
+
+			<!-- Custom menu trigger button -->
+			<div id="custom-nav-wrap" class="btn-wrap">
+				<a href="mla-hcommons-org-0081.htm#" id="custom-nav" class="sidebar-btn fa fa-bars"></a>
+			</div>
+
+			
+					<div id="mobile-logo" class="table-cell">
+						<a href="mla-hcommons-org-0081.htm" title="MLA Commons" rel="home">
+							<img class="large" src="https://hcommons.org/app/uploads/2016/11/mla_55.png" alt="MLA Commons">
+						</a>
+					</div>
+
+				
+			<!-- Profile menu trigger button -->
+			
+				<div id="profile-nav-wrap" class="btn-wrap">
+					<a href="mla-hcommons-org-0081.htm#" id="profile-nav" class="sidebar-btn fa fa-user table-cell"><span id="ab-pending-notifications-mobile" class="pending-count no-alert"></span></a>
+				</div>
+
+					</div>
+
+	</div>
+
+</div><!-- #mobile-header -->
+		<!-- #panels closed in footer-->
+		<div id="panels" class="with-adminbar">
+
+			<!-- Left Panel -->
+			<div id="left-panel" class="menu-panel">
+
+	<div id="left-panel-inner">
+
+		<div id="scroll-area">
+
+			<div id="nav-menu" class="menu-hcommons-menu-container"><ul id="menu-hcommons-menu" class="menu"><li id="menu-item-1012281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012281"><a href="https://mla.hcommons.org/activity/" class="fa-comments">News Feed</a></li>
+<li id="menu-item-1012278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012278"><a href="https://mla.hcommons.org/members/" class="fa-users">Members</a></li>
+<li id="menu-item-1012277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012277"><a href="https://mla.hcommons.org/groups/" class="fa-cubes">Groups and Forums</a></li>
+<li id="menu-item-1012280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012280"><a href="https://mla.hcommons.org/sites/" class="fa-wordpress">Sites and Blogs</a></li>
+<li id="menu-item-1012279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012279"><a href="https://mla.hcommons.org/core/" class="fa-cogs">CORE Repository</a></li>
+<li id="menu-item-1012283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1012283"><a href="https://support.mla.hcommons.org" class="fa-question">Help</a></li>
+<li id="menu-item-1012282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012282"><a href="https://mla.hcommons.org/publications/" class="fa-star">MLA Online Publications</a></li>
+<li id="menu-item-1012284" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1012284"><a href="https://www.mla.org" class="fa-bookmark">mla.org</a></li>
+<li id="menu-item-1012285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1012285"><a href="https://mla.hcommons.org/societies/" class="fa-university">HC Societies</a>
+<div class='sub-menu-wrap'><ul class="sub-menu">
+	<li id="menu-item-1012286" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1012286"><a href="https://hcommons.org" >HC</a></li>
+	<li id="menu-item-1012287" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1012287"><a href="https://ajs.hcommons.org" >AJS</a></li>
+	<li id="menu-item-1012288" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1012288"><a href="https://aseees.hcommons.org" >ASEEES</a></li>
+	<li id="menu-item-1015057" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1015057"><a href="http://caa.hcommons.org" >CAA</a></li>
+</ul></div>
+</li>
+</ul></div>
+			<!-- Adminbar -->
+			<div class="bp_components mobile">
+						<div  >
+							
+						<div   aria-label="Toolbar" tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-bp-login">		</li></ul>			</div>
+					</div>
+
+		
+				
+				<!-- Register/Login links for logged out users -->
+				
+											<a href="https://registry.hcommons.org/registry/co_petitions/start/coef:160" class="register-link screen-reader-shortcut">Register</a>
+					
+					<a href="https://mla.hcommons.org/wp-login.php?action=shibboleth" class="login-link screen-reader-shortcut">Login</a>
+
+								
+							</div>
+
+		</div><!--scroll-area-->
+
+	</div><!--left-panel-inner-->
+
+</div><!--left-panel-->			<!-- Left Mobile Menu -->
+			<div id="mobile-menu" class="menu-panel">
+
+	<div id="mobile-menu-inner" data-titlebar="none">
+
+		<div id="nav-menu" class="menu-hcommons-menu-container"><ul id="menu-hcommons-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012281"><a href="https://mla.hcommons.org/activity/" class="fa-comments">News Feed</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012278"><a href="https://mla.hcommons.org/members/" class="fa-users">Members</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012277"><a href="https://mla.hcommons.org/groups/" class="fa-cubes">Groups and Forums</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012280"><a href="https://mla.hcommons.org/sites/" class="fa-wordpress">Sites and Blogs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012279"><a href="https://mla.hcommons.org/core/" class="fa-cogs">CORE Repository</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1012283"><a href="https://support.mla.hcommons.org" class="fa-question">Help</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012282"><a href="https://mla.hcommons.org/publications/" class="fa-star">MLA Online Publications</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1012284"><a href="https://www.mla.org" class="fa-bookmark">mla.org</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1012285"><a href="https://mla.hcommons.org/societies/" class="fa-university">HC Societies</a>
+<div class='sub-menu-wrap'><ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1012286"><a href="https://hcommons.org" >HC</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1012287"><a href="https://ajs.hcommons.org" >AJS</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1012288"><a href="https://aseees.hcommons.org" >ASEEES</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1015057"><a href="http://caa.hcommons.org" >CAA</a></li>
+</ul></div>
+</li>
+</ul></div>
+	</div>
+
+</div> <!-- #mobile-menu -->
+			<div id="right-panel">
+				<div id="right-panel-inner">
+					<div id="main-wrap"> <!-- Wrap for Mobile content -->
+						<div id="inner-wrap"> <!-- Inner Wrap for Mobile content -->
+
+							
+							<div id="page" class="hfeed site">
+								<div id="main" class="wrapper">
+<!-- Frontpage Slider -->
+
+
+		<div class="page-full-width">
+		
+		<div id="primary" class="site-content">
+
+			<div id="content" role="main">
+
+				
+											
+	<article id="post-238" class="post-238 page type-page status-publish hentry">
+		
+		<header class="entry-header ">
+			<h1 class="entry-title "></h1>
+		</header>
+
+		<div class="entry-content">
+			<div id="pl-238"><div class="panel-grid" id="pg-238-0" ><div class="panel-grid-cell" id="pgc-238-0-0" ><div class="so-panel widget widget_black-studio-tinymce widget_black_studio_tinymce panel-first-child" id="panel-238-0-0-0" data-index="0"><div class="textwidget"><h3><img class="aligncenter wp-image-9588 size-full" src="https://hcommons.org/app/uploads/2015/11/MLA_commons_1line_transparent.png" alt="MLA Commons logo" width="350" height="55" />Welcome to <em>MLA Commons</em>, the scholarly network for MLA members. Discover the latest <a href="https://mla.hcommons.org/core">open-access scholarship and teaching materials</a>, join <a href="https://mla.hcommons.org/groups">language and literature discussion groups</a>, build a <a href="https://mla.hcommons.org/sites">WordPress Web site</a> for a class or conference—or to showcase your own work—and grow your readership by <a href="https://mla.hcommons.org/core">uploading materials to CORE</a>, our open-access repository.</h3>
+</div></div><div class="so-panel widget widget_black-studio-tinymce widget_black_studio_tinymce" id="panel-238-0-0-1" data-index="1"><div class="hide-if-logged-out panel-widget-style" ><h3 class="widget-title">What Would You Like to Do?</h3><div class="textwidget"><p><a class="btn long" href="https://mla.hcommons.org/members/me"><i class="fa fa-user"></i> Create or edit your profile</a></p>
+<p><a class="btn long" href="https://mla.hcommons.org/groups/"><i class="fa fa-comments"></i>  Join a special-interest group</a></p>
+<p><a class="btn long" href="https://mla.hcommons.org/sites/create/"><i class="fa fa-globe"></i>  Create a Web site or blog</a></p>
+<p><a class="btn long" href="https://mla.hcommons.org/deposits/item/new/"><i class="fa fa-share-alt"></i>  Upload your work to our repository</a></p>
+<p><a class="btn long" href="https://mla.hcommons.org/members/"><i class="fa fa-user"></i>  View member activity</a></p>
+<p><a class="btn long" href="https://mla.hcommons.org/core/"><i class="fa fa-folder"></i>  Discover Open Access scholarship</a></p>
+<p><a class="btn long" href="https://support.hcommons.org"><i class="fa fa-info"></i>  Get help</a></p>
+</div></div></div><div class="so-panel widget widget_rss panel-last-child" id="panel-238-0-0-2" data-index="2"><div style="background-color:#ffffff;" class="panel-widget-style" ><h3 class="widget-title"><a class="rsswidget" href="https://news.mla.hcommons.org/feed/"><img class="rss-widget-icon" style="border:0" width="14" height="14" src="https://mla.hcommons.org/wp-includes/images/rss.png" alt="RSS" /></a> <a class="rsswidget" href="https://news.mla.hcommons.org/">News from the MLA</a></h3><ul><li><a class='rsswidget' href='https://news.mla.hcommons.org/2018/04/09/mla-members-receive-2018-guggenheim-award/'>MLA Members Receive 2018 Guggenheim Award</a></li><li><a class='rsswidget' href='https://news.mla.hcommons.org/2018/03/19/mla-opposes-cuts-to-academic-programs-in-wisconsin/'>MLA Opposes Cuts to Academic Programs in Wisconsin</a></li><li><a class='rsswidget' href='https://news.mla.hcommons.org/2018/02/26/new-mla-report-documents-trends-in-language-study/'>New MLA Report Documents Trends in Language Study</a></li><li><a class='rsswidget' href='https://news.mla.hcommons.org/2018/02/15/apply-for-an-mla-bibliography-fellowship-by-1-april-3/'>Apply for an MLA Bibliography Fellowship by 1 April</a></li><li><a class='rsswidget' href='https://news.mla.hcommons.org/2018/02/08/mla-bibliography-expands-its-online-course-offerings/'>MLA Bibliography Expands Its Online Course Offerings</a></li></ul></div></div></div><div class="panel-grid-cell" id="pgc-238-0-1" ><div class="so-panel widget widget_sow-hero panel-first-child" id="panel-238-0-1-0" data-index="3"><div class="so-widget-sow-hero so-widget-sow-hero-default-ffaa56d9c3d8 so-widget-fittext-wrapper"><div class="sow-slider-base " style="display: none"><ul class="sow-slider-images" data-settings="{&quot;pagination&quot;:true,&quot;speed&quot;:800,&quot;timeout&quot;:3000,&quot;swipe&quot;:true}">		<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #cc0033;background-image: url(https://hcommons.org/app/uploads/2015/04/library.jpeg)" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<h1>2017 Top Ten</h1><h2>MLA members' most downloaded works from CORE last year</h2>			</div>
+		</div>
+				</li>
+				<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #727272;cursor: pointer;" data-url="{&quot;url&quot;:&quot;\/deposits\/item\/mla:267\/&quot;,&quot;new_window&quot;:true}" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<p> </p><p>1. Geraldine Heng</p><h3><span>The Invention of Race in the European Middle Ages I: Race Studies, Modernity, and the Middle Ages</span></h3><p>Article</p><p>Downloaded 589 times in 2017</p>			</div>
+		</div>
+		<div class="sow-slider-image-overlay sow-slider-image-cover" style="background-image: url(https://hcommons.org/app/uploads/2012/12/MedHartHunt-1.jpg);opacity: 0.4"  ></div>		</li>
+				<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #333333;cursor: pointer;" data-url="{&quot;url&quot;:&quot;\/deposits\/item\/mla:705\/&quot;,&quot;new_window&quot;:true}" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<p><span> </span></p><p><span>2. Laura Green<br /></span></p><h3><span>Hall of Mirrors: Radclyffe Hall's <em>The Well of Loneliness</em> and Modernist Fictions of Identity</span></h3><p>Article</p><p>Downloaded 529 times in 2017</p>			</div>
+		</div>
+		<div class="sow-slider-image-overlay sow-slider-image-cover" style="background-image: url(https://hcommons.org/app/uploads/2012/12/Abandoned_guardhouse_in_flooded_parking_lot_Tanjung_Mas_Harbour_Semarang.jpg);opacity: 0.4"  ></div>		</li>
+				<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #727272;cursor: pointer;" data-url="{&quot;url&quot;:&quot;\/deposits\/item\/mla:217\/&quot;,&quot;new_window&quot;:true}" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<p> </p><p>3. Douglas E. Green</p><h3>On "The Coddling of the American Mind"</h3><p>Opinion piece</p><p>Downloaded 490 times in 2017</p>			</div>
+		</div>
+		<div class="sow-slider-image-overlay sow-slider-image-cover" style="background-image: url(https://hcommons.org/app/uploads/2012/12/flag-1463478__340.jpg);opacity: 0.4"  ></div>		</li>
+				<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #333333;cursor: pointer;" data-url="{&quot;url&quot;:&quot;\/deposits\/item\/mla:93\/&quot;,&quot;new_window&quot;:false}" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<p> </p><p>4. Marisa Verna</p><h3><span>Étude sur le symbolisme<br /></span></h3><p>Translated book collection</p><p>Downloaded 453 times in 2017</p>			</div>
+		</div>
+		<div class="sow-slider-image-overlay sow-slider-image-cover" style="background-image: url(https://hcommons.org/app/uploads/2012/12/symbolisme.jpg);opacity: 0.4"  ></div>		</li>
+				<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #727272;cursor: pointer;" data-url="{&quot;url&quot;:&quot;\/deposits\/item\/hc:10321\/&quot;,&quot;new_window&quot;:true}" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<p> </p><p>5. Michael Bérubé</p><h3>Why Teach Literature?</h3><p>Conference paper</p><p>Downloaded 308 times in 2017</p>			</div>
+		</div>
+		<div class="sow-slider-image-overlay sow-slider-image-cover" style="background-image: url(https://hcommons.org/app/uploads/2014/06/9438755028_b00d964ae1_b.jpg);opacity: 0.4"  ></div>		</li>
+				<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #333333;cursor: pointer;" data-url="{&quot;url&quot;:&quot;\/deposits\/item\/mla:931\/&quot;,&quot;new_window&quot;:true}" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<p> </p><p>6. Cristina León Alfar</p><h3>'Blood will have blood:' Power, Performance, and Lady Macbeth's Gender Trouble</h3><p>Article</p><p>Downloaded 221 times in 2017</p><p> </p>			</div>
+		</div>
+		<div class="sow-slider-image-overlay sow-slider-image-cover" style="background-image: url(https://hcommons.org/app/uploads/2013/04/curtain.png);opacity: 0.4"  ></div>		</li>
+				<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #333333;cursor: pointer;" data-url="{&quot;url&quot;:&quot;\/deposits\/item\/mla:279\/&quot;,&quot;new_window&quot;:false}" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<p> </p><p>7. Suzanne England</p><h3><em>Driving Miss Daisy</em> as Memory Theatre</h3><p>Article</p><p>Downloaded 215 times in 2017</p>			</div>
+		</div>
+		<div class="sow-slider-image-overlay sow-slider-image-cover" style="background-image: url(https://hcommons.org/app/uploads/2014/06/8197868606_161834d373_b-e1403279127878.jpg);opacity: 0.4"  ></div>		</li>
+				<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #333333;cursor: pointer;" data-url="{&quot;url&quot;:&quot;\/deposits\/item\/mla:945\/&quot;,&quot;new_window&quot;:false}" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<p>8. Carl Gelderloos</p><h3><span>Simply Reproducing Reality – Brecht, Benjamin, and Renger-Patzsch on Photography</span></h3><p>Article</p><p>Downloaded 199 times in 2017</p>			</div>
+		</div>
+		<div class="sow-slider-image-overlay sow-slider-image-cover" style="background-image: url(https://hcommons.org/app/uploads/2012/12/camera.jpg);opacity: 0.4"  ></div>		</li>
+				<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #333333;cursor: pointer;" data-url="{&quot;url&quot;:&quot;\/deposits\/item\/hc:14797\/&quot;,&quot;new_window&quot;:false}" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<p>9. Roger Whitson</p><h3><span>DTC 375: Languages, Text, and Technology<br /></span></h3><p>Syllabus</p><p>Downloaded 194 times in 2017</p>			</div>
+		</div>
+		<div class="sow-slider-image-overlay sow-slider-image-cover" style="background-image: url(https://hcommons.org/app/uploads/2013/11/226843996_d718308ec7_o.jpg);opacity: 0.4"  ></div>		</li>
+				<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #333333;cursor: pointer;" data-url="{&quot;url&quot;:&quot;\/deposits\/item\/mla:375\/&quot;,&quot;new_window&quot;:false}" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<p> </p><p>10. James Gifford</p><h3><span>Introduction to <em>Pied Piper of Lovers</em></span></h3><p>Book chapter</p><p>Downloaded 179 times in 2017</p>			</div>
+		</div>
+		<div class="sow-slider-image-overlay sow-slider-image-cover" style="background-image: url(https://hcommons.org/app/uploads/2012/12/PiedPiper.jpg);opacity: 0.4"  ></div>		</li>
+		</ul>				<ol class="sow-slider-pagination">
+											<li><a href="mla-hcommons-org-0081.htm#" data-goto="0">1</a></li>
+											<li><a href="mla-hcommons-org-0081.htm#" data-goto="1">2</a></li>
+											<li><a href="mla-hcommons-org-0081.htm#" data-goto="2">3</a></li>
+											<li><a href="mla-hcommons-org-0081.htm#" data-goto="3">4</a></li>
+											<li><a href="mla-hcommons-org-0081.htm#" data-goto="4">5</a></li>
+											<li><a href="mla-hcommons-org-0081.htm#" data-goto="5">6</a></li>
+											<li><a href="mla-hcommons-org-0081.htm#" data-goto="6">7</a></li>
+											<li><a href="mla-hcommons-org-0081.htm#" data-goto="7">8</a></li>
+											<li><a href="mla-hcommons-org-0081.htm#" data-goto="8">9</a></li>
+											<li><a href="mla-hcommons-org-0081.htm#" data-goto="9">10</a></li>
+											<li><a href="mla-hcommons-org-0081.htm#" data-goto="10">11</a></li>
+									</ol>
+
+				<div class="sow-slide-nav sow-slide-nav-next">
+					<a href="mla-hcommons-org-0081.htm#" data-goto="next" data-action="next">
+						<em class="sow-sld-icon-thin-right"></em>
+					</a>
+				</div>
+
+				<div class="sow-slide-nav sow-slide-nav-prev">
+					<a href="mla-hcommons-org-0081.htm#" data-goto="previous" data-action="prev">
+						<em class="sow-sld-icon-thin-left"></em>
+					</a>
+				</div>
+				</div></div></div><div class="hc-suggestions-widget widget"><h3 class="widget-title">Recently on the Commons</h3><p class="widget-description">Log in and add academic interests to your profile to get personalized recommendations about people, groups, and open-access scholarship of interest!</p><ul><li><a href="mla-hcommons-org-0081.htm#hc-suggestions-tab-user">Members</a></li><li><a href="mla-hcommons-org-0081.htm#hc-suggestions-tab-bp_group">Groups</a></li><li><a href="mla-hcommons-org-0081.htm#hc-suggestions-tab-humcore_deposit">Scholarship</a></li></ul><div id="hc-suggestions-tab-user" data-hc-suggestions-query="" data-hc-suggestions-type="user"></div><div id="hc-suggestions-tab-bp_group" data-hc-suggestions-query="" data-hc-suggestions-type="bp_group"></div><div id="hc-suggestions-tab-humcore_deposit" data-hc-suggestions-query="" data-hc-suggestions-type="humcore_deposit"></div><script>jQuery( hc_suggestions.init )</script></div></div><div class="panel-grid-cell" id="pgc-238-0-2" ><div class="so-panel widget widget_black-studio-tinymce widget_black_studio_tinymce panel-first-child" id="panel-238-0-2-0" data-index="6"><div class="membersite panel-widget-style" style="background-color:#ffffff;" ><div class="textwidget"><h1 style="text-align: center;">Site: <a href="http://connect.mla.hcommons.org">Connected Academics</a></h1>
+<p><a href="https://connect.mla.hcommons.org"><img class="aligncenter wp-image-1015600 size-large" src="https://hcommons.org/app/uploads/2012/12/Screen-Shot-2017-11-03-at-11.05.01-AM-1024x855.png" alt="CA screenshot" width="625" height="522" /></a><br /> <a class="btn default long"     href="https://mla.hcommons.org/sites"><i class="fa fa-wordpress"></i> More Sites</a></p>
+</div></div></div><div class="so-panel widget widget_black-studio-tinymce widget_black_studio_tinymce" id="panel-238-0-2-1" data-index="7"><div class="membersite panel-widget-style" style="background-color:#ffffff;" ><div class="textwidget"><h1 style="text-align: center;">Group: <a href="https://mla.hcommons.org/groups/2018-mla-convention/">2018 MLA Convention</a></h1>
+<p><a href="https://mla.hcommons.org/groups/2018-mla-convention/"><img class="aligncenter wp-image-1015599 size-thumbnail" src="https://hcommons.org/app/uploads/2012/12/59b19ae9cae79-bpfull-150x150.jpg" alt="MLA2018 logo" width="150" height="150" /></a></p>
+<p> </p>
+<p><a class="btn default long"     href="https://mla.hcommons.org/groups"><i class="fa fa-cubes"></i> More Groups</a></p>
+</div></div></div><div class="so-panel widget widget_rss" id="panel-238-0-2-2" data-index="8"><h3 class="widget-title"><a class="rsswidget" href="http://mlaresources.mla.hcommons.org/feed/"><img class="rss-widget-icon" style="border:0" width="14" height="14" src="https://mla.hcommons.org/wp-includes/images/rss.png" alt="RSS" /></a> <a class="rsswidget" href="https://mlaresources.mla.hcommons.org/">Announcements of General Interest</a></h3><ul><li><a class='rsswidget' href='https://mlaresources.mla.hcommons.org/2018/03/19/critical-multilingualism-studies/'>CRITICAL MULTILINGUALISM STUDIES</a></li><li><a class='rsswidget' href='https://mlaresources.mla.hcommons.org/2018/03/12/label-me-latina-o/'>LABEL ME LATINA/O</a></li><li><a class='rsswidget' href='https://mlaresources.mla.hcommons.org/2018/03/12/attending-to-the-complexity-of-identity-and-interaction-in-language-education/'>ATTENDING TO THE COMPLEXITY OF IDENTITY AND INTERACTION IN LANGUAGE EDUCATION</a></li><li><a class='rsswidget' href='https://mlaresources.mla.hcommons.org/2018/03/12/xavier-review/'>XAVIER REVIEW</a></li><li><a class='rsswidget' href='https://mlaresources.mla.hcommons.org/2018/02/20/doris-lessing-studies-alternative-domesticities-in-the-works-of-doris-lessing/'>DORIS LESSING STUDIES: ALTERNATIVE DOMESTICITIES IN THE WORKS OF DORIS LESSING</a></li><li><a class='rsswidget' href='https://mlaresources.mla.hcommons.org/2018/02/12/open-cultural-studies/'>OPEN CULTURAL STUDIES</a></li><li><a class='rsswidget' href='https://mlaresources.mla.hcommons.org/2018/01/29/palgrave-handbook-of-theatre-and-race/'>PALGRAVE HANDBOOK OF THEATRE AND RACE</a></li><li><a class='rsswidget' href='https://mlaresources.mla.hcommons.org/2018/01/02/the-comparatist-pessimism/'>THE COMPARATIST: PESSIMISM</a></li><li><a class='rsswidget' href='https://mlaresources.mla.hcommons.org/2017/11/13/lincoln-humanities-journal/'>Lincoln Humanities Journal</a></li><li><a class='rsswidget' href='https://mlaresources.mla.hcommons.org/2017/10/10/open-cultural-studies-black-womanhood-in-popular-culture/'>Open Cultural Studies: Black Womanhood in Popular Culture</a></li></ul></div><div class="so-panel widget widget_eo_event_list_widget EO_Event_List_Widget" id="panel-238-0-2-3" data-index="9"><h3 class="widget-title">Upcoming Events</h3>
+
+	<ul  class="eo-events eo-events-widget" > 
+
+		
+			
+			<li class="eo-event-cat-annual-meeting eo-event-future eo-multi-day eo-all-day" >
+				<a href="https://mla.hcommons.org/events/event/51st-annual-italian-american-studies-conference-thursday-october-18-through-saturday-october-20-2018/">51st Annual Italian American Studies Conference Thursday, October 18 through Saturday, October 20, 2018</a> on 18 October 2018			</li>
+
+		
+	</ul>
+
+</div><div class="so-panel widget widget_black-studio-tinymce widget_black_studio_tinymce panel-last-child" id="panel-238-0-2-4" data-index="10"><div class="core panel-widget-style" style="background-color:#ffffff;" ><div class="textwidget"><p><a href="http://style.mla.org"><img class="size-medium wp-image-1011965 aligncenter" src="https://hcommons.org/app/uploads/2016/10/handbook-image.jpg" alt="handbook image" width="150" height="150" /></a></p>
+<h3 style="text-align: center;"><a href="https://style.mla.org/">MLA Style Center</a></h3>
+</div></div></div></div></div></div>					</div><!-- .entry-content -->
+
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+
+	</article><!-- #post -->
+					
+					
+
+				
+                <div class="pagination-below">
+					                </div>
+
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+		
+	</div><!-- .page-left-sidebar -->
+
+	</div><!-- #main .wrapper -->
+
+</div><!-- #page -->
+
+</div> <!-- #inner-wrap -->
+
+</div><!-- #main-wrap (Wrap For Mobile) -->
+
+<footer id="colophon" role="contentinfo">
+
+	
+	<div class="footer-inner-top">
+		<div class="footer-inner widget-area">
+
+							<div class="footer-widget">
+					<aside id="text-25" class="widget widget_text"><h4 class="widgettitle">Contact Us</h4>			<div class="textwidget"><a href="https://www.mla.org">Modern Language Association</a><br />
+85 Broad Street, suite 500<br/>
+New York, NY 10004<br/>
+<br>On the Web:</span> <a href="https://www.mla.org">mla.org</a></br>
+<br>E-mail: <a href="mailto:commons@mla.org" class="email">commons@mla.org</a><br />
+<br>Phone: 646 576-5151</div>
+		</aside>				</div><!-- .footer-widget -->
+			
+							<div class="footer-widget">
+					<aside id="text-24" class="widget widget_text"><h4 class="widgettitle">FAQ</h4>			<div class="textwidget"><a href="https://support.mla.hcommons.org/category/email/">How do I set e-mail notifications?</a></li></br>
+<a href="https://support.mla.hcommons.org/category/core/">What is <em>CORE</em>?</a></br>
+<a href="https://support.mla.hcommons.org/2016/04/07/what-can-mla-commons-do-for-my-forum/">What can the <em>Commons</em> do for my forum?</a></br><a href="https://support.mla.hcommons.org/category/comments/">Why do unwanted characters appear in my post, comment, or page?</a></br>
+<a href="https://support.mla.hcommons.org/faq/"><strong>More FAQ</strong></a>
+</div>
+		</aside>				</div><!-- .footer-widget -->
+			
+							<div class="footer-widget">
+					<aside id="text-13" class="widget widget_text"><h4 class="widgettitle">User Guides and Support</h4>			<div class="textwidget"><a href="https://support.mla.hcommons.org/getting-started/">Getting Started</em></a>
+<br></br>
+<a href="https://support.mla.hcommons.org/guides/groups/">Groups on the <em>Commons</em></a>
+<br></br>
+<a href="https://support.mla.hcommons.org/guides/sites/">Sites, Blogs, and WordPress</a>
+<br></br>
+<a href="https://support.mla.hcommons.org/">More <em>MLA Commons</em> Support</div>
+		</aside>				</div><!-- .footer-widget -->
+			
+							<div class="footer-widget">
+					<aside id="sow-image-3" class="widget widget_sow-image"><div class="so-widget-sow-image so-widget-sow-image-default-3f547a15eaaa">
+
+<div class="sow-image-container">
+<a href="mla-hcommons-org-0081.htm" >	<img src="https://hcommons.org/app/uploads/2016/10/cropped-cropped-commons-logo-square-large.png" width="512" height="512" srcset="https://hcommons.org/app/uploads/2016/10/cropped-cropped-commons-logo-square-large.png 512w, https://hcommons.org/app/uploads/2016/10/cropped-cropped-commons-logo-square-large-150x150.png 150w, https://hcommons.org/app/uploads/2016/10/cropped-cropped-commons-logo-square-large-300x300.png 300w, https://hcommons.org/app/uploads/2016/10/cropped-cropped-commons-logo-square-large-200x200.png 200w, https://hcommons.org/app/uploads/2016/10/cropped-cropped-commons-logo-square-large-270x270.png 270w, https://hcommons.org/app/uploads/2016/10/cropped-cropped-commons-logo-square-large-192x192.png 192w, https://hcommons.org/app/uploads/2016/10/cropped-cropped-commons-logo-square-large-180x180.png 180w, https://hcommons.org/app/uploads/2016/10/cropped-cropped-commons-logo-square-large-32x32.png 32w" title="cropped-cropped-commons-logo-square-large.png"  class="so-widget-image"/>
+</a></div>
+
+</div></aside>				</div><!-- .footer-widget -->
+			
+		</div><!-- .footer-inner -->
+	</div><!-- .footer-inner-top -->
+
+
+	<div class="footer-inner-bottom">
+
+		<div class="footer-inner">
+			
+	<div class="footer-credits footer-credits-single">
+		<span style="font-family: proxima-nova, Helvetica, sans-serif; font-size: 10px; text-align: center; text-transform: uppercase;">COPYRIGHT © 2016 <em>HUMANITIES COMMONS</em>. </span><span style="color: #eeeeeee; font-family: proxima-nova, Helvetica, sans-serif; font-size: 10px; text-align: center; text-transform: uppercase;">BASED ON <a href="http://commonsinabox.org/">COMMONS IN A BOX</a>.</span><br style="box-sizing: border-box; color: #ffffff; font-family: proxima-nova, Helvetica, sans-serif; font-size: 10px; text-align: center; text-transform: uppercase;" /><a style="box-sizing: border-box; text-decoration: none; color: #aaaaaa; transition: color 0.1s linear; font-family: proxima-nova, Helvetica, sans-serif; font-size: 10px; text-align: center; text-transform: uppercase;" href="https://mla.hcommons.org/terms/">TERMS OF SERVICE</a><span style="color: #ffffff; font-family: proxima-nova, Helvetica, sans-serif; font-size: 10px; text-align: center; text-transform: uppercase;"> • </span><a style="box-sizing: border-box; text-decoration: none; color: #aaaaaa; transition: color 0.1s linear; font-family: proxima-nova, Helvetica, sans-serif; font-size: 10px; text-align: center; text-transform: uppercase;" href="https://mla.hcommons.org/privacy/">PRIVACY POLICY</a><span style="color: #ffffff; font-family: proxima-nova, Helvetica, sans-serif; font-size: 10px; text-align: center; text-transform: uppercase;"> • </span><a style="box-sizing: border-box; text-decoration: none; color: #aaaaaa; transition: color 0.1s linear; font-family: proxima-nova, Helvetica, sans-serif; font-size: 10px; text-align: center; text-transform: uppercase;" href="https://mla.hcommons.org/guidelines/">GUIDELINES FOR PARTICIPATION</a>	</div>
+
+				<div id="footer-links">
+
+	
+	
+	<div id="footer-icons">
+
+		<ul class="social-icons">
+								<li>
+						<a class="link-twitter" title="twitter" href="http://humcommons" target="_blank">
+							<span></span>
+						</a>
+					</li>
+							</ul>
+
+	</div>
+
+	
+	
+		<form id="switch-mode" name="switch-mode" method="post">
+			<input type="submit" value="View as Desktop" tabindex="1" id="switch_submit" name="submit" />
+			<input type="hidden" id="switch_mode" name="switch_mode" value="desktop" />
+			<input type="hidden" id="switcher_nonce_field" name="switcher_nonce_field" value="c6af426ad3" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
+
+	
+</div>		</div><!-- .footer-inner -->
+
+	</div><!-- .footer-inner-bottom -->
+
+	
+</footer><!-- #colophon -->
+</div><!-- #right-panel-inner -->
+</div><!-- #right-panel -->
+
+</div><!-- #panels -->
+
+		<script>
+			if (jq.cookie('bp-groups-status')) {
+				jq('.filter-type select').val(jq.cookie('bp-groups-type'));
+			}
+			jq('.filter-type select').change( function() {
+
+				if ( jq('.item-list-tabs li.selected').length )
+					var el = jq('.item-list-tabs li.selected');
+				else
+					var el = jq(this);
+
+				var css_id = el.attr('id').split('-');
+				var object = css_id[0];
+				var scope = css_id[1];
+				var status = jq(this).val();
+				var filter = jq('select#groups-order-by-type').val();
+				var search_terms = '';
+
+				jq.cookie('bp-groups-type',status,{ path: '/' });
+
+				if ( jq('.dir-search input').length )
+					search_terms = jq('.dir-search input').val();
+
+				bp_filter_request( object, filter, scope, 'div.' + object, search_terms, 1, jq.cookie('bp-' + object + '-extras') );
+
+				return false;
+
+			});
+		</script>
+					<script type="text/javascript">
+				if (jq.cookie('bp-groups-status')) {
+					jq('.filter-status select').val(jq.cookie('bp-groups-status'));
+			}
+			jq('.filter-status select').change( function() {
+
+				if ( jq('.item-list-tabs li.selected').length )
+					var el = jq('.item-list-tabs li.selected');
+				else
+					var el = jq(this);
+
+				var css_id = el.attr('id').split('-');
+				var object = css_id[0];
+				var scope = css_id[1];
+				var status = jq(this).val();
+				var filter = jq('select#groups-order-by').val();
+				var search_terms = '';
+
+				jq.cookie('bp-groups-status',status,{ path: '/' });
+
+				if ( jq('.dir-search input').length )
+					search_terms = jq('.dir-search input').val();
+
+				bp_filter_request( object, filter, scope, 'div.' + object, search_terms, 1, jq.cookie('bp-' + object + '-extras') );
+
+				return false;
+
+			});
+			</script>
+		<div class="buddyboss-bp-legacy page-title">
+    <header class="entry-header">
+      <h1 class="entry-title">
+              </h1>
+    </header>
+</div><div class="buddyboss-bp-legacy item-header"><div id="item-header-avatar">
+  <a href="mla-hcommons-org-0081.htm">
+
+    
+  </a>
+</div><!-- #item-header-avatar -->
+
+<div id="item-header-content">
+
+  <h2 class="user-nicename">@</h2>
+  <span class="activity">Not recently active</span>
+
+  
+</div><!-- #item-header-content -->
+
+<div id="item-buttons" class="profile">
+
+  
+</div><!-- #item-buttons -->
+</div>
+<script type='text/javascript'>
+//<![CDATA[
+(function( $ ) { 'use strict';
+	var insert_a11y_toolbar = '<!-- a11y toolbar -->';
+	insert_a11y_toolbar += '<div class=" a11y-toolbar ltr">';
+	insert_a11y_toolbar += '<ul class="a11y-toolbar-list">';insert_a11y_toolbar += '<li class="a11y-toolbar-list-item"><button type="button" class="a11y-toggle-contrast toggle-contrast" id="is_normal_contrast" aria-pressed="false"><span class="offscreen">Toggle High Contrast</span><span class="aticon aticon-adjust" aria-hidden="true"></span></button></li>';insert_a11y_toolbar += '<li class="a11y-toolbar-list-item"><button type="button" class="a11y-toggle-grayscale toggle-grayscale" id="is_normal_color" aria-pressed="false"><span class="offscreen">Toggle Grayscale</span><span class="aticon aticon-tint" aria-hidden="true"></span></button></li>';insert_a11y_toolbar += '<li class="a11y-toolbar-list-item"><button type="button" class="a11y-toggle-fontsize toggle-fontsize" id="is_normal_fontsize" aria-pressed="false"><span class="offscreen">Toggle Font size</span><span class="aticon aticon-font" aria-hidden="true"></span></button></li>';
+	insert_a11y_toolbar += '</ul>';
+	insert_a11y_toolbar += '</div>';
+	insert_a11y_toolbar += '<!-- // a11y toolbar -->';
+	$( document ).find( 'body' ).prepend( insert_a11y_toolbar );
+}(jQuery));
+//]]>
+</script><script type='text/javascript' src='https://hcommons.org/app/plugins/hc-auth/includes/js/hc-auth.js?ver=1.0'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/admin-bar.min.js?ver=4.9.2'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/bbpress/templates/default/js/editor.js?ver=2.5.14-6684'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/comment-reply.min.js?ver=4.9.2'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js?ver=022316'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/mla-academic-interests/assets/js/select2_init.js?ver=022316'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/wp-accessibility/toolbar/js/jquery.scrollto.min.js?ver=1.4.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var a11y_stylesheet_path = "https:\/\/hcommons.org\/app\/plugins\/wp-accessibility\/toolbar\/css\/a11y-contrast.css";
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/wp-accessibility/toolbar/js/a11y.js?ver=1.0'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/wp-accessibility/js/longdesc.button.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mashsb = {"shares":"0","round_shares":"1","animate_shares":"0","dynamic_buttons":"0","share_url":"https:\/\/mla.hcommons.org\/","title":"","image":null,"desc":"Welcome to MLA Commons, the scholarly network for MLA members. Discover the latest open-access scholarship and teaching materials, join language and literature discussion groups, build a WordPress Web site for a class or conference\u2014or to \u2026","hashtag":"humcommons","subscribe":"content","subscribe_url":"","activestatus":"1","singular":"1","twitter_popup":"1","refresh":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/mashsharer/assets/js/mashsb.min.js?ver=3.4.7'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/humcore/js/search.js?ver=011718'></script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/idangerous.swiper.js?ver=1.9.2'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/jquery/ui/progressbar.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var heartbeatSettings = {"ajaxurl":"https:\/\/mla.hcommons.org\/wp-admin\/admin-ajax.php","interval":"5"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/heartbeat.min.js?ver=4.9.2'></script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/ui-scripts/selectboxes.js?ver=1.1.7'></script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/ui-scripts/fitvids.js?ver=1.1'></script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/ui-scripts/jquery.cookie.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/ui-scripts/superfish.js?ver=1.7.4'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/ui-scripts/imagesloaded.pkgd.js?ver=3.1.8'></script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/ui-scripts/resize.js?ver=1.1'></script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/jquery.growl.js?ver=1.2.4'></script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/boss/js/slider/slick.min.js?ver=1.1.2'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/gd-bbpress-attachments/js/gd-bbpress-attachments.js?ver=2.5_b2157_free'></script>
+<script type='text/javascript' src='https://mla.hcommons.org/wp-includes/js/wp-embed.min.js?ver=4.9.2'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/so-widgets-bundle/js/sow.jquery.fittext.min.js?ver=1.2'></script>
+
+<script type='text/javascript'>
+//<![CDATA[
+(function( $ ) { 'use strict';
+	
+	
+	
+	$('input,a,select,textarea,button').removeAttr('tabindex');
+	
+}(jQuery));
+//]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07b903c47d","applicationID":"43324364","transactionName":"MVdQZhBTD0tQAUwLWAgdc1EWWw5WHgRKDVkSH0JTBVc=","queueTime":0,"applicationTime":243,"atts":"HRBTEFhJHEU=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

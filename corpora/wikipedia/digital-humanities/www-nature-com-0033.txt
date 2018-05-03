@@ -1,0 +1,741 @@
+
+
+    
+    
+        Skip to main content
+    
+
+
+
+
+
+
+    
+        
+            
+                We use cookies to improve your experience with our site.
+                    
+                        Accept and close
+                    
+                     | More
+                        info.
+
+            
+
+        
+
+    
+
+
+
+
+
+
+    
+        
+            
+                
+    
+        
+            
+                [image: Advertisement]
+        
+
+    
+
+
+            
+        
+
+    
+
+
+
+
+Thank you for visiting nature.com. You are using a browser version with
+    limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off
+    compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site
+    without styles and JavaScript.
+
+
+
+    
+     
+         
+             
+                 	nature.com
+	nature
+	editorials
+	article
+
+
+             
+        
+
+         
+        A Nature Research Journal
+
+        
+     
+
+
+
+
+    
+    
+        
+            
+                
+                    
+                        
+                            
+										
+											Menu
+										
+                            
+                                [image: Nature][image: ]
+
+                        
+
+                    
+
+                    
+                        
+                            
+										
+											Search
+										
+                            
+                            
+                                
+										
+											E-alert
+										
+                                
+                            
+                            
+                                
+										
+											Submit
+										
+                                
+                            
+                              
+            
+                My Account
+            
+    
+    
+            
+                Login
+            
+    
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+    
+    	[image: ]
+	Altmetric: 14
+	Citations: 2
+	
+                    More detail
+                
+
+
+
+                            
+                                Editorial
+                                
+                            
+
+                            
+                            Poetry in motion
+
+                            
+                            
+                              
+                            
+                            
+                            
+                        
+
+                    
+                    
+    	Arts
+
+
+
+                    
+    
+
+
+
+                    
+                        A quantitative approach to the humanities enriches research.
+
+
+
+
+                        
+                            The Oscar-winning 1989 film Dead Poets Society is an unabashedly exuberant story that appeals to the Lord Byron in each of us. Robin Williams plays a charismatic English teacher at a conservative US prep school in the 1950s and, in one scene, gets his impressionable students to read a lesson from a poetry textbook aloud. The worth of a poem, they read, should be measured on two axes: its artistic perfection and its importance. As the schoolboys start to map out graphs in their notebooks, Williams cuts them off. “Excrement,” he announces — that's what he thinks of the mathematical approach. A poem must be felt, not figured. He orders the boys to tear the page out of the textbook. “We're not laying pipe,” he says. “We're talking about poetry.”
+
+It is hard to disagree with the spirit of that moment. We should all be passionate about our academic interests, and daring enough to rip up hidebound rules that govern them. But the scene's explicit disdain for quantitative analysis of text is as out of date as it is wrong. These days, it is the humanities scholars who equip themselves with quantitative skills who are most able to sound their 'barbaric yawps' over the roofs of the world, as Williams urged his students to do.
+
+As the News Feature on page 436 shows, the field of digital humanities is flourishing, led by scientists such as those behind the innovative Google n-grams viewer, which can be used to track the frequencies of words and phrases as they appear in 4% of the books ever published. Whether mapping the transmission of Voltaire's letters across Europe, finding structural patterns in music across cultures or tracking the evolution of irregular verbs through time, these digital humanists have plenty to say. And they have the data to back it up.
+
+That is not to say that traditional approaches in the humanities will be disappearing any time soon, or that careful, interpretive readings by experienced scholars are as arbitrary as the learning-by-feeling espoused by Dead Poets Society. But digitization is marching on, and in all subjects, researchers who have their ears to the ground, rather than their heads in the sand, can hear the approaching drums. Every day, more and more of the media that make up both historical and contemporary culture are being converted to electronica.
+
+It seems just a matter of time before the humanities, like the social sciences before them, wholeheartedly embrace scientific methodology. And that should be reason to rejoice, not remonstrate. As Williams implored his young charges: carpe diem. Seize the day.
+
+
+                        
+                        Rights and permissions
+To obtain permission to re-use content from this article visit RightsLink.
+
+
+Authors
+
+
+
+                        
+                        
+                        Comments
+By submitting a comment you agree to abide by our Terms and Community Guidelines. If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.
+
+
+
+                        
+                        
+                        
+
+                        
+
+                        
+
+                        
+                    
+
+                
+
+
+                
+                    
+                        
+                            Article Tools
+	PDF
+	Tools
+
+
+Tools
+	PDF
+	Print
+
+Share
+	Twitter
+	Facebook
+
+
+
+
+                        
+
+                        
+                        
+                        
+                            
+                                
+                                Article Information
+	Journal
+	Nature 474, 420 (23 June 2011)
+	DOI
+	doi:10.1038/474420b
+	Citation
+	Download Citation
+	Published
+	22 June 2011
+
+
+
+
+                                
+                            
+
+                        
+
+                    
+
+                
+
+
+                
+                    
+    
+        
+            
+                [image: Advertisement]
+        
+
+    
+
+
+                
+
+            
+        
+
+    
+
+
+
+
+
+    
+        
+            Menu
+
+            
+                
+                    
+                        
+                            
+                                
+                                    Nature
+                                
+
+                            
+
+                            
+    
+        	
+                    Current Issue
+                
+	
+                    Browse Issues
+                
+	
+                    News & Comment
+                
+	
+                    Research
+                
+	
+                    Browse Articles
+                
+	
+                    Browse Subjects
+                
+	
+                    About the Journal
+                
+	
+                    For Authors
+                
+	
+                    For Referees
+                
+	
+                    Specials & Supplements
+                
+	
+                    Podcasts
+                
+	
+                    Videos
+                
+	
+                    History of Nature
+                
+	
+                    Awards
+                
+
+
+    
+
+
+                        
+
+                    
+
+                
+
+            
+
+
+            
+                
+                    
+                        
+                            
+                                
+                                    Journals A-Z
+                                        Journals A-Z
+                                
+
+                            
+
+                            
+                                	
+                                        Nature
+                                    
+	
+                                        Nature Communications
+                                    
+	
+                                        Nature Protocols
+                                    
+	
+                                        Review journals
+                                    
+	
+                                        Scientific Reports
+                                    
+	
+                                        View all journals
+                                    
+
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+            
+                
+                    
+                        
+                            
+                                
+                                    All Subjects
+                                    All Subjects
+                                
+
+                            
+
+                            
+                                	
+                                        Biological Sciences
+                                    
+	
+                                            Earth & Environmental Sciences
+                                    
+	
+                                        Health Sciences
+                                    
+	
+                                        Physical Sciences
+                                    
+	
+                                            Scientific Community & Society
+                                    
+	
+                                        View all subjects
+                                    
+
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+            
+                
+                    
+                        
+                            
+                                
+                                    nature.com
+                                    nature.com
+                                
+
+                            
+
+                            
+                                	
+                                            Subscriptions
+                                    
+	
+                                           Authors & Referees
+                                    
+	
+                                            Librarians
+                                    
+	
+                                            Advertisers
+                                    
+	
+                                            Press
+                                    
+	
+                                            About
+                                    
+
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+    
+
+
+
+
+
+    
+        
+            Search
+
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                            
+                                                Search Nature.com
+                                                
+                                            
+
+                                        
+
+                                        
+                                            
+                                                advanced
+                                            
+                                        
+                                    
+
+                                
+
+                                
+                                    
+                                        Search
+                                    
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+    
+
+
+
+
+
+
+    
+        
+
+            Nature
+
+            ISSN 1476-4687 (online)
+
+            
+        
+
+
+        
+
+
+        
+    nature.com sitemap
+
+
+    
+        
+            For authors and referees
+
+            	Guide to Authors
+	Guide to Referees
+	Editorial policies
+	Language editing
+	Scientific editing
+	Reprints &
+                    permissions
+
+
+        
+
+        
+            For readers
+
+            	Journals A-Z
+	Subject Pages
+	Protocol Exchange
+	Blogs
+	Podcasts
+	Webcasts
+	Subscriptions
+	Mobile apps
+	RSS
+
+
+        
+
+        
+            For librarians
+
+            	Account administration
+	Site licenses
+	Catalogs
+	Print subscriptions
+	Pay per view
+	Open access
+	Promotion tools
+	Public interfaces
+	User guides 
+	Library relations
+	Publisher collaborations
+
+
+        
+
+        
+            Careers and events
+
+            	Natureconferences
+	Natureevents
+	Naturejobs.com
+
+
+        
+
+        
+            Regional websites
+
+            	Natureasia
+	Nature China
+	Nature India
+	Nature Japan
+	Nature Korea
+	Nature Middle
+                    East
+
+
+        
+
+        
+            Nature Research
+
+            	About us
+	Work for us
+	Help
+	Contact us
+	Privacy Policy
+	Use of cookies
+	Legal notice
+	Accessibility statement
+	Terms & Conditions
+	Partners
+
+
+        
+
+        
+            For advertisers
+
+            	Advertising
+                    options
+	Journal
+                    audience
+	Event advertising
+	Job posts
+	Contact
+                    representative
+
+
+        
+
+        
+            For press
+
+            	Press site
+	Press room
+	Contact press office
+
+
+        
+
+    
+
+    
+        [image: Springer Nature]
+        © 2018 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+    [image: ]
+    [image: ]
+
+
+
+
+
+[image: ]

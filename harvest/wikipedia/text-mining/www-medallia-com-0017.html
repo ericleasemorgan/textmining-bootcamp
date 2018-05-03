@@ -1,0 +1,758 @@
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Text Analytics | Social Data Mining & Textual Analysis by Medallia</title>
+	<meta name="keywords" content="Text Analytics | Social Data Mining &amp; Textual Analysis by Medallia , Medallia , " />
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<link rel="shortcut icon" href="https://www.medallia.com/wp-content/themes/medallia-2017/images/med_favicon.png">
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="index" title="Medallia" href="https://www.medallia.com/" />
+	<link rel="pingback" href="https://www.medallia.com/xmlrpc.php" />
+	<link rel="alternate" type="application/rss+xml" title="Medallia" href="https://www.medallia.com/feed/" />
+	<link rel="alternate" type="application/atom+xml" title="Medallia" href="https://www.medallia.com/feed/atom/" />
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PXLZ5K9');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- typekit -->
+	<link rel="stylesheet" href="https://use.typekit.net/zxn1cck.css">
+
+	
+	<link rel="stylesheet" type="text/css" media="all" href="https://www.medallia.com/wp-content/themes/medallia-2017/style.css?v=2018040521" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+	
+	
+	
+<!-- This site is optimized with the Yoast SEO plugin v7.0.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Medallia&#039;s text analytics solution aggregates unstructured customer experience data, such as reviews and comments, into a structured data CEM dashboard."/>
+<link rel="canonical" href="www-medallia-com-0017.htm" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Use Text Analytics to Transform Customer Feedback Into Data" />
+<meta property="og:description" content="Medallia Experience Cloud aggregates unstructured customer experience data, such as reviews and social comments, into a structured data CEM dashboard. Our text analytics solution uses machine learning to automatically analyze text feedback, so you can understand what matters most to your customers." />
+<meta property="og:url" content="/platform/text-analytics/" />
+<meta property="og:site_name" content="Medallia" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Aggregate unstructured customer experience data into a CEM dashboard. Medallia&#039;s text analytics solution automatically analyzes text feedback, so you can understand what matters most to your customers." />
+<meta name="twitter:title" content="Use Text Analytics to Transform Customer Feedback Into Data" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='https://s.w.org/' />
+<script type='text/javascript' src='https://www.medallia.com/wp-content/themes/medallia-2017/js/jquery.js?ver=4.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.medallia.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.medallia.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://www.medallia.com/?p=23111' />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+			
+	<script src="https://www.medallia.com/wp-content/themes/medallia-2017/js/velocity.min.js"></script>
+	<script src="https://www.medallia.com/wp-content/themes/medallia-2017/js/jquery.waypoints.min.js"></script>
+	<script src="https://www.medallia.com/wp-content/themes/medallia-2017/js/list.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+
+	<!-- <script src="/wp-content/themes/medallia-2017/js/lib.min.js"></script> -->
+	<script src="https://www.medallia.com/wp-content/themes/medallia-2017/js/init.js"></script>
+
+	<!-- EU Cookie -->
+	<script src="https://www.medallia.com/wp-content/themes/medallia-2017/js/eu-cookie.js"></script>
+
+	<!-- Qordoba -->
+	<script src="https://qcdn.qordoba.com/qordoba-latest.min.js"></script>
+	<script src="https://www.medallia.com/wp-content/themes/medallia-2017/js/qordoba-medallia.js"></script>
+	
+
+	<!--End Qordoba-->
+
+
+	</head>
+
+<body class="page-template page-template-page-non-digital-feature page-template-page-non-digital-feature-php page page-id-23111 page-child parent-pageid-23585 page-text-analytics">
+
+		<script src="https://app-sj08.marketo.com/js/forms2/js/forms2.min.js"></script>
+	<script type="text/javascript">
+	$.ajax({
+	url: '//munchkin.marketo.net/munchkin.js',
+	dataType: 'script',
+	cache: true,
+	success: function() {
+		Munchkin.init('669-VLQ-276');
+	}
+	});
+	</script>
+
+
+  	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXLZ5K9"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<div id="goss"></div>
+		<header>
+		<div class="inner">
+			<div id="mob-nav-show" class="hidden">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>
+
+			<menu class="cf header-nav" id="primary-nav">
+				<div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-23591" class="parent-platform menu-item menu-item-type-post_type menu-item-object-page menu-item-23591"><a href="https://www.medallia.com/what-we-do/">What We Do</a></li>
+<li id="menu-item-23589" class="parent-features menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-23589"><a href="https://www.medallia.com/platform/">Platform</a></li>
+<li id="menu-item-23590" class="parent-solutions menu-item menu-item-type-post_type menu-item-object-page menu-item-23590"><a href="https://www.medallia.com/solutions/">Solutions</a></li>
+</ul></div>			</menu>
+			<menu class="cf header-nav" id="secondary-nav">
+				<div class="menu-secondary-main-container"><ul id="menu-secondary-main" class="menu"><li id="menu-item-23593" class="parent-institute menu-item menu-item-type-custom menu-item-object-custom menu-item-23593"><a href="https://www.medallia.com/institute/">Institute</a></li>
+<li id="menu-item-30735" class="parent-company menu-item menu-item-type-post_type menu-item-object-page menu-item-30735"><a href="https://www.medallia.com/company/">Company</a></li>
+</ul></div>									<a class="cta cta-prpl" id="demo-request" href="www-medallia-com-0017.htm#">Request a Demo</a>
+								<div class="header-lang hidden">
+					<i class="ionicons ion-ios-world-outline"></i> <br /><span id="curr-header-lang">EN</span>
+					<div id="header-lang-options" class="header-lang-options">
+						
+						<div id="eng" class="lang curr-lang">English</div>
+						
+					</div>
+				</div>
+			</menu>
+			<div id="logo">
+				<a href="https://www.medallia.com/">
+										<img class="color-logo trans-05" src="https://www.medallia.com/wp-content/themes/medallia-2017/images/logo-color.svg" alt="Medallia Logo">
+										
+						<img class="gray-logo hidden trans-05" src="https://www.medallia.com/wp-content/themes/medallia-2017/images/logo-gray.svg" alt="Medallia Logo">
+					
+						
+				</a>
+			</div>
+							<a class="cta cta-prpl hidden" id="mob-demo-request" href="www-medallia-com-0017.htm#">Request a Demo</a>
+					</div>	
+		
+				
+		<div class="mega-menu menu-solutions">
+			<div class="inner">
+				<div class="float33">
+					<h6>Solutions</h6>
+					<p>Our platform preconfigured by role and by industries to meet your needs.</p>
+											<a class="cta cta-blue" href="https://www.medallia.com/solutions">Learn More</a>
+									</div>
+				<div class="float66">
+					<div class="float50"><h6 class="menu-title">Roles</h6><div class="menu-roles-container"><ul id="menu-roles" class="menu"><li id="menu-item-27830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27830"><a href="https://www.medallia.com/solutions/account-management/">Account Management</a></li>
+<li id="menu-item-27831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27831"><a href="https://www.medallia.com/solutions/contact-centers/">Contact Centers</a></li>
+<li id="menu-item-27832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27832"><a href="https://www.medallia.com/solutions/cx-professionals/">CX Professionals</a></li>
+<li id="menu-item-27833" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27833"><a href="https://www.medallia.com/solutions/digital/">Digital</a></li>
+<li id="menu-item-27834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27834"><a href="https://www.medallia.com/solutions/location-based-operations/">Location-Based Operations</a></li>
+<li id="menu-item-27835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27835"><a href="https://www.medallia.com/solutions/people-culture/">People &#038; Culture</a></li>
+<li id="menu-item-27836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27836"><a href="https://www.medallia.com/solutions/research-insights/">Research &#038; Insights</a></li>
+</ul></div></div><div class="left"><h6 class="menu-title">Industries</h6><div class="menu-industries-container"><ul id="menu-industries" class="menu"><li id="menu-item-27837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27837"><a href="https://www.medallia.com/solutions/automotive/">Automotive</a></li>
+<li id="menu-item-27838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27838"><a href="https://www.medallia.com/solutions/b2b/">B2B</a></li>
+<li id="menu-item-27840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27840"><a href="https://www.medallia.com/solutions/hospitality/">Hospitality</a></li>
+<li id="menu-item-32385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32385"><a href="https://www.medallia.com/solutions/insurance/">Insurance</a></li>
+<li id="menu-item-27841" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27841"><a href="https://www.medallia.com/solutions/public-sector/">Public Sector</a></li>
+<li id="menu-item-27842" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27842"><a href="https://www.medallia.com/solutions/retail/">Retail</a></li>
+<li id="menu-item-27839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27839"><a href="https://www.medallia.com/solutions/retail-banking/">Retail Banking</a></li>
+<li id="menu-item-27843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27843"><a href="https://www.medallia.com/solutions/telecommunications/">Telecommunications</a></li>
+</ul></div></div>				
+				</div>
+			</div>
+		</div>	
+
+		
+		<div class="mega-menu menu-institute">
+			<div class="inner">
+				<div class="float33">
+					<h6>Institute</h6>
+					<p>Thought leadership, education and events from Medallia.</p>
+											<a class="cta cta-blue" href="https://www.medallia.com/institute">Learn More</a>
+									</div>
+				<div class="float66">
+					<div class="float50"><li id="menu-item-31679" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31679"><a class="mega-a" href="https://www.medallia.com/institute/">Thought Leadership</a></li><p class="mega-p">Your source for the latest CX research, insights and resources.</p></div><div class="left"><div class="menu-institute-other-container"><ul id="menu-institute-other" class="menu"><li id="menu-item-27963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27963"><a href="https://www.medallia.com/institute/resource-library/">Resource Library</a></li>
+<li id="menu-item-27964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27964"><a href="https://www.medallia.com/events/">Events</a></li>
+<li id="menu-item-30812" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30812"><a href="http://institute.medallia.com">Training and Certification</a></li>
+</ul></div></div>				
+				</div>
+			</div>
+		</div>	
+
+		
+		<div class="mega-menu menu-company">
+			<div class="inner">
+				<div class="float33">
+					<h6>Company</h6>
+					<p>Find out about Medallia, our customers, partners and more.</p>
+											<a class="cta cta-blue" href="https://www.medallia.com/company">Learn More</a>
+									</div>
+				<div class="float66">
+					<div class="menu-company-container"><ul id="menu-company" class="menu"><li id="menu-item-32009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32009"><a href="https://www.medallia.com/company/">About Medallia</a></li>
+<li id="menu-item-27965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27965"><a href="https://www.medallia.com/blog/">Blog</a></li>
+<li id="menu-item-27966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27966"><a href="https://www.medallia.com/customers/">Customers</a></li>
+<li id="menu-item-27967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27967"><a href="https://www.medallia.com/careers/">Careers</a></li>
+<li id="menu-item-27968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27968"><a href="https://www.medallia.com/leadership/">Leadership</a></li>
+<li id="menu-item-27970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27970"><a href="https://www.medallia.com/press-room/">Press Room</a></li>
+<li id="menu-item-27971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27971"><a href="https://www.medallia.com/partners/">Partners</a></li>
+<li id="menu-item-29664" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29664"><a href="https://www.medallia.com/services/">Services</a></li>
+<li id="menu-item-31849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31849"><a href="https://www.medallia.com/contact-us/">Contact Us</a></li>
+</ul></div>				
+				</div>
+			</div>
+		</div>	
+
+
+<script>
+jQuery(function(){
+	var $ = jQuery.noConflict();
+	
+	// $('.menu-platform').remove();
+	$('.menu-features').appendTo('.parent-features');
+	$('.menu-solutions').appendTo('.parent-solutions');
+	$('.menu-institute').appendTo('.parent-institute');
+	$('.menu-company').appendTo('.parent-company');
+	
+});
+</script>
+
+		
+		<div class="mobile-menu-container shadow">
+	<div class="mobile-menu-header">
+		<div class="close">
+			<img class="" src="https://www.medallia.com/wp-content/themes/medallia-2017/images/mobile-menu-close.svg" width="25px" alt="close">
+		</div>
+		<a class="mobile-logo" href="https://www.medallia.com/">
+			<img class="gray-logo" src="https://www.medallia.com/wp-content/themes/medallia-2017/images/logo-gray.svg" width="161px" alt="Medallia Logo">
+		</a>
+	</div>
+	<ul>
+		<li class="mobile-menu-item">
+			<p class="parent-menu no-sub-menu"><a href="https://www.medallia.com/what-we-do">What We Do</a></p>
+		</li>
+		<li class="mobile-menu-item">
+			<p class="parent-menu no-sub-menu"><a href="https://www.medallia.com/platform/">Platform</a></p>
+		</li>
+		<li class="mobile-menu-item">
+			<p class="parent-menu">Roles</p>
+			<div class="menu-roles-container"><ul id="menu-roles-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27830"><a href="https://www.medallia.com/solutions/account-management/">Account Management</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27831"><a href="https://www.medallia.com/solutions/contact-centers/">Contact Centers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27832"><a href="https://www.medallia.com/solutions/cx-professionals/">CX Professionals</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27833"><a href="https://www.medallia.com/solutions/digital/">Digital</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27834"><a href="https://www.medallia.com/solutions/location-based-operations/">Location-Based Operations</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27835"><a href="https://www.medallia.com/solutions/people-culture/">People &#038; Culture</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27836"><a href="https://www.medallia.com/solutions/research-insights/">Research &#038; Insights</a></li>
+</ul></div>		</li>
+		
+	</ul>
+	<ul>
+		<li class="mobile-menu-item">
+			<p class="parent-menu">Industries</p>
+			<div class="menu-industries-container"><ul id="menu-industries-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27837"><a href="https://www.medallia.com/solutions/automotive/">Automotive</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27838"><a href="https://www.medallia.com/solutions/b2b/">B2B</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27840"><a href="https://www.medallia.com/solutions/hospitality/">Hospitality</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32385"><a href="https://www.medallia.com/solutions/insurance/">Insurance</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27841"><a href="https://www.medallia.com/solutions/public-sector/">Public Sector</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27842"><a href="https://www.medallia.com/solutions/retail/">Retail</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27839"><a href="https://www.medallia.com/solutions/retail-banking/">Retail Banking</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27843"><a href="https://www.medallia.com/solutions/telecommunications/">Telecommunications</a></li>
+</ul></div>		</li>
+		<li class="mobile-menu-item">
+			<p class="parent-menu">Institute</p>
+			<div class="menu-institute-other-container"><ul id="menu-institute-other-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27963"><a href="https://www.medallia.com/institute/resource-library/">Resource Library</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27964"><a href="https://www.medallia.com/events/">Events</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30812"><a href="http://institute.medallia.com">Training and Certification</a></li>
+</ul></div>		</li>
+		<li class="mobile-menu-item">
+			<p class="parent-menu">Company</p>
+			<div class="menu-company-container"><ul id="menu-company-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32009"><a href="https://www.medallia.com/company/">About Medallia</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27965"><a href="https://www.medallia.com/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27966"><a href="https://www.medallia.com/customers/">Customers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27967"><a href="https://www.medallia.com/careers/">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27968"><a href="https://www.medallia.com/leadership/">Leadership</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27970"><a href="https://www.medallia.com/press-room/">Press Room</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27971"><a href="https://www.medallia.com/partners/">Partners</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29664"><a href="https://www.medallia.com/services/">Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31849"><a href="https://www.medallia.com/contact-us/">Contact Us</a></li>
+</ul></div>		</li>
+	</ul>
+	<a href="https://www.medallia.com/contact-us" class="cta cta-prpl">Request a Demo</a>
+	<div class="cf">
+		<div id="mobile-feedback">Feedback</div>
+		<div id="mobile-lang-select">
+			<i class="ionicons ion-ios-world-outline"></i> <span class="mobil-curr-lang">English (US)</span>
+			<div class="mobile-langs hidden">
+				<div id="m-de" class="lang">Deutch</div>
+				<div id="m-en" class="lang curr-lang">English</div>
+				<div id="m-fr" class="lang">Francais</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+
+
+<script>
+jQuery(function(){
+	var $ = jQuery.noConflict();
+
+	$('#menu-institute-other-1').prepend('<li class="menu-item"><a href="https://www.medallia.com/institute/">Thought Leadership</a></li>')
+	
+	$(document).on('click', '.mobile-menu-item', function(){
+		var el = $(this);
+		$('.mobile-menu-item').not(el).removeClass('active');
+		el.toggleClass('active');
+	});
+	
+});
+</script>
+	
+	</header>
+	
+	<div id="eu-cookie">
+		<div class="close"><i class="icon ion-close"></i></div>
+		<div class="eu-notice"><p><strong>COOKIE NOTICE</strong></p>
+<p>This web site uses cookies for marketing, analytics, and to enhance user experience.  To change your cookie setings or find out more, see the “Cookies: Website” portion of our privacy policy here.</p></div>
+		<div class="lang-ops"><p><strong>LANGUAGE OPTIONS</strong></p>
+<p>You are current viewing our French site, would you like to go to our English site?</p></div>
+	</div>
+
+
+	<div id="header-cta-demo" class="">
+		<div class="inner">
+			<div class="main-contact">
+				<form class="contact-form">
+	<div class="cf">
+		<div class="float33 form-left">
+			<input class="ft-first-name" type="text" name="FirstName" placeholder="First Name">
+			<input class="ft-last-name" type="text" name="LastName" placeholder="Last Name">
+			<input class="ft-email" type="text" name="Email" placeholder="email">
+			<input class="ft-company" type="text" name="Company" placeholder="Company">
+		</div>
+		<div class="float33 form-mid">
+			<input class="ft-title" type="text" name="Title" placeholder="Title">
+			<div class="ft-select z2">
+				<div class="ft-job-role select-val">Job Role</div>
+				<div class="select-options hidden">
+					<div class="option" data-val="Customer Experience">Customer Experience</div>
+					<div class="option" data-val="Account Management">Account Management</div>
+					<div class="option" data-val="Contact Center">Contact Center</div>
+					<div class="option" data-val="Digital & eCommerce">Digital & eCommerce</div>
+					<div class="option" data-val="Retail/Front-Line Operations">Retail/Front-Line Operations</div>
+					<div class="option" data-val="People & Culture">People & Culture</div>
+					<div class="option" data-val="Marketing & Operations">Marketing & Operations</div>
+					<div class="option" data-val="Research and Insights">Research and Insights</div>
+					<div class="option" data-val="Other">Other</div>
+				</div>
+			</div>
+			<input class="ft-phone" type="text" name="Phone" placeholder="Phone Number">
+			<div class="ft-select z1">
+				<div class="ft-inquiry-type select-val">Inquiry Type</div>
+				<div class="select-options hidden">
+					<div class="option" data-val="Request a Demo">Request a Demo</div>
+					<div class="option" data-val="Support">Support</div>
+					<div class="option" data-val="Partner">Partner</div>
+					<div class="option" data-val="Press">Press</div>
+					<div class="option" data-val="I need help accessing or completing a survey.">I need help accessing or completing a survey.</div>
+					<div class="option" data-val="Other">Other</div>
+				</div>
+			</div>
+		</div>
+		<div class="float33 form-right">
+			<textarea class="ft-message" rows="9" placeholder="Message"></textarea>
+		</div>
+	</div>
+	<div class="cf">
+		<div class="float75">
+		<input class="agree left" type="checkbox">
+			<div class="left agreement-lang">
+				<p class="agree-text">YES, I agree to receive, via email, information about Medalllia solutions and success stories that show how industry-leading companies improve the customer experience and increase revenue. Read our Privacy Policy in the footer below.</p>
+				<p class="clear" ><a class="foot-privacy-link" href="https://www.medallia.com/privacy-policy/"><em>Read our Privacy Policy</em></a></p>
+			</div>
+		</div>
+		<input class="ft-submit" type="submit" value="Send">
+	</div>
+	<div class="error"></div>
+</form>
+<div class="contact-conf">
+	<div class="vertical-middle">
+		<h3>Thank You</h3>
+		<p>Your message has been received and we will contact you shortly.</p>
+	</div>
+</div>
+
+<script>
+	jQuery(document).ready(function(){
+		var $ = jQuery.noConflict();
+		$('#header-cta-demo').find('.ft-inquiry-type').text('Request a Demo');
+		$('#header-cta-demo').find('.ft-inquiry-type').next('.select-options').remove();
+			
+		
+	});
+</script>			</div>
+		</div>
+		<div class="close"><i class="icon ion-close-round"></i></div>	
+	</div>
+	<script>
+		var demoFormID = '';
+		var currDomain = document.domain;
+		if(_.includes(currDomain, 'fr.medallia')){
+			demoFormID = '2266';
+		} else if(_.includes(currDomain, 'de.medallia')){
+			demoFormID = '2267';
+		} else {
+			demoFormID = '2057'; //www.medallia.com
+		}
+		MktoForms2.loadForm('//app-sj08.marketo.com', '669-VLQ-276', demoFormID);
+		(function($){ 
+			setTimeout(function() {
+				$('<form id="mktoForm_'+demoFormID+'" style="display:none"></form>').insertAfter('header');
+				$('#header-cta-demo').find('.contact-form').attr('data-formid',demoFormID);
+			}, 1000);
+		})(jQuery);
+	</script>
+	
+<script>
+
+jQuery(function(){
+	var $ = jQuery.noConflict();
+	$(document)
+	.on('click','#demo-request',function(){
+		var isIE11 = /Trident.*rv[ :]*11\./.test(navigator.userAgent);
+		if(isIE11){
+			window.location.href = '/contact-us/'
+		} else {
+			$('#header-cta-demo').toggleClass('active');
+		}
+	})
+	.on('click','#header-cta-demo .close',function(){
+		$('#header-cta-demo').removeClass('active');
+	})
+	.on('click','#mob-nav-show',function(){
+		$('.mobile-menu-container').addClass('active');
+		$('html').addClass('no-scroll');
+	})
+	.on('click','.mobile-menu-header .close',function(){
+		$('.mobile-menu-container').removeClass('active');
+		$('html').removeClass('no-scroll');
+	})
+	.on('tap','#mob-nav-show',function(){
+		$('.mobile-menu-container').addClass('active');
+		$('html').addClass('no-scroll');
+	})
+	.on('tap','.mobile-menu-header .close',function(){
+		$('.mobile-menu-container').removeClass('active');
+		$('html').removeClass('no-scroll');
+	});
+
+});
+</script>
+<div class="content">
+		<div id="bottom-blade" class="z3">
+		<img src="https://www.medallia.com/wp-content/uploads/2017/08/ta_blade_base-2.png">	
+	</div>
+			<div id="top-blade" class="z3">
+			<img src="https://www.medallia.com/wp-content/uploads/2017/08/ta_blade_top-1.png">		
+		</div>
+		
+	<div class="digital-feature-hero">
+		<div class="inner cf">
+			<div class="float50 feat-hero-text">
+				<h1>Text<br />
+Analytics</h1>
+<p>Turn Every Word Into Insight &amp; Action</p>
+			</div>
+		</div>
+	</div>
+	<div class="angled-right-up digital-sub-hero adelle">
+		<div class="inner text-center">
+										<p>"Using [Medallia's] data insights and feedback, we’ve been able to galvanize the company around a strategy that meets our customers' demands.”
+</p>
+				<p class="quoter-info">Dave Berman, President, <a style="z-index:2; color:#fff; text-decoration:underline;" href="www-medallia-com-0017.htm#">RingCentral</a></p>
+						
+		</div>
+	</div>
+
+	<div class="non-digital-callouts">
+		<div class="digital-callout text-center shadow">
+			<h4>Whitepaper</h4>
+<h3>Text Analytics Is The CMO’s Secret Weapon</h3>
+<p>6 ways to boost marketing effectiveness with text analytics.</p>
+				
+			<p><a class="cta cta-green" href="https://www.medallia.com/resource/text-analytics-cmos-secret-weapon/">Download Now</a></p>
+		</div>
+	</div>
+
+		<div class="feature-topics">
+					<div class="section-intro text-center">
+			<h2>Transform text feedback into smarter actions</h2>
+<p>Customers broadcast valuable feedback about your business through surveys, social media, review sites and countless other channels. The problem is, much of this feedback is in written form. It’s unstructured, disorganized and hard to analyze at scale. Medallia Text Analytics uses machine and human learning to automatically analyze text feedback, so you can understand what matters most to your customers and what you can do about it.</p>
+							
+				<a class="arrow-link" href="www-medallia-com-0017.htm#" rel="vimeo" data-vim="241222961">See Text Analytics in Action</a>
+					
+			</div>
+								<div class="feature-topic">
+			<div class="inner cf" style="height: 600px;">
+				<div class="float50 right topic-image">
+					<img src="https://www.medallia.com/wp-content/uploads/2018/03/ta_illio_1.png">
+				</div>
+				<div class="float50 left-text">
+					<div class="vertical-middle">
+						<h2>Understand how customers feel … at scale</h2>
+<p>Medallia transforms text from billions of surveys, social media reactions, reviews, emails, agent notes and more into actionable insights widely accessible across an organization.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+						<div class="feature-topic">
+			<div class="inner cf" style="height: 550px;">
+				<div class="float50  topic-image">
+					<img src="https://www.medallia.com/wp-content/uploads/2016/02/ta_illio_themes.png">
+				</div>
+				<div class="float50 right-text">
+					<div class="vertical-middle">
+						<h2>Uncover trends before they’re trending</h2>
+<p>Our Theme Discovery Engine uses machine learning algorithms to automatically detect new issues and trends as they arise, eliminating blind spots and highlighting unexpected problems.</p>
+<p>Medallia Text Analytics automatically constructs thousands of clusters of related themes, so you can dive deep into what’s truly driving customer loyalty.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+						<div class="feature-topic">
+			<div class="inner cf" style="height: 550px;">
+				<div class="float50 right topic-image">
+					<img src="https://www.medallia.com/wp-content/uploads/2016/02/ta_sentiment_topicimpact.png">
+				</div>
+				<div class="float50 left-text">
+					<div class="vertical-middle">
+						<h2>Get your priorities in order</h2>
+<p>Quantify the impact of recurring topics on customer loyalty metrics with Medallia’s Impact Score. Sort performance by line of business, location, customer segment and more to enable deep analysis. Make smarter decisions and quickly prioritize corrections that will have the largest impact.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+						<div class="feature-topic">
+			<div class="inner cf" style="height: 600px;">
+				<div class="float50  topic-image">
+					<img src="https://www.medallia.com/wp-content/uploads/2017/08/cxprof-illio-2.png">
+				</div>
+				<div class="float50 right-text">
+					<div class="vertical-middle">
+						<h2>Analytics for everyone</h2>
+<p>Personalized reports, intuitive workflows, and topic-based alerts empower every employee, from the C-suite to the frontline, to take action on the root cause of customer issues. Get the right insights to the right person, no matter the market, location, or language.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			</div>
+			<div class="feature-resources angled-down-right">
+		<div class="inner cf">
+			<h2 class="white">Related Resources</h2>
+			<div class="related-resources">
+								<div class="related-resource">
+					<h4>Brochure</h4>
+					<h3>Medallia Text Analytics</h3>
+					<p>Identify new trends, understand customer needs, and prioritize action with Medallia Text Analytics.
+</p>
+					<p><a href="https://www.medallia.com/resource/text-analytics-solution-brochure/" >Learn more</a></p>
+				</div>
+								<div class="related-resource">
+					<h4>Whitepaper</h4>
+					<h3>The Big Story Behind Your Big Data</h3>
+					<p>Six practices for making an impact with Text Analytics. 
+
+</p>
+					<p><a href="https://www.medallia.com/resource/the-big-story-behind-your-big-data/" >Learn more</a></p>
+				</div>
+								<div class="related-resource">
+					<h4>Webinar</h4>
+					<h3>Transforming Your Business with Unstructured Customer Feedback</h3>
+					<p>Learn how Sunrise Communications is using text analytics to transform its business.
+</p>
+					<p><a href="https://www.medallia.com/resource/transforming-business-unstructured-customer-feedback-featuring-sunrise-communications/" >Watch now</a></p>
+				</div>
+							</div>
+		</div>
+	</div>
+	
+<!--#content-->
+</div>
+<script>
+jQuery(function(){
+	var $ = jQuery.noConflict();
+	$('#top-blade,#bottom-blade').addClass('move');
+	$('.feature-tile').waypoint(function(){
+		$(this.element).addClass('active');
+	},{offset: 'bottom-in-view',triggerOnce:true});
+	
+});
+</script>
+
+
+<div id="contact-footer" class="contact-wrap z1">
+	<section class="main-contact">
+		<div id="contact-closer"><i class="icon ion-close-round"></i></div>
+		<div class="inner cf">
+							<h2 class="text-center white">We want to hear from you</h2>
+						<form class="contact-form">
+	<div class="cf">
+		<div class="float33 form-left">
+			<input class="ft-first-name" type="text" name="FirstName" placeholder="First Name">
+			<input class="ft-last-name" type="text" name="LastName" placeholder="Last Name">
+			<input class="ft-email" type="text" name="Email" placeholder="email">
+			<input class="ft-company" type="text" name="Company" placeholder="Company">
+		</div>
+		<div class="float33 form-mid">
+			<input class="ft-title" type="text" name="Title" placeholder="Title">
+			<div class="ft-select z2">
+				<div class="ft-job-role select-val">Job Role</div>
+				<div class="select-options hidden">
+					<div class="option" data-val="Customer Experience">Customer Experience</div>
+					<div class="option" data-val="Account Management">Account Management</div>
+					<div class="option" data-val="Contact Center">Contact Center</div>
+					<div class="option" data-val="Digital & eCommerce">Digital & eCommerce</div>
+					<div class="option" data-val="Retail/Front-Line Operations">Retail/Front-Line Operations</div>
+					<div class="option" data-val="People & Culture">People & Culture</div>
+					<div class="option" data-val="Marketing & Operations">Marketing & Operations</div>
+					<div class="option" data-val="Research and Insights">Research and Insights</div>
+					<div class="option" data-val="Other">Other</div>
+				</div>
+			</div>
+			<input class="ft-phone" type="text" name="Phone" placeholder="Phone Number">
+			<div class="ft-select z1">
+				<div class="ft-inquiry-type select-val">Inquiry Type</div>
+				<div class="select-options hidden">
+					<div class="option" data-val="Request a Demo">Request a Demo</div>
+					<div class="option" data-val="Support">Support</div>
+					<div class="option" data-val="Partner">Partner</div>
+					<div class="option" data-val="Press">Press</div>
+					<div class="option" data-val="I need help accessing or completing a survey.">I need help accessing or completing a survey.</div>
+					<div class="option" data-val="Other">Other</div>
+				</div>
+			</div>
+		</div>
+		<div class="float33 form-right">
+			<textarea class="ft-message" rows="9" placeholder="Message"></textarea>
+		</div>
+	</div>
+	<div class="cf">
+		<div class="float75">
+		<input class="agree left" type="checkbox">
+			<div class="left agreement-lang">
+				<p class="agree-text">YES, I agree to receive, via email, information about Medalllia solutions and success stories that show how industry-leading companies improve the customer experience and increase revenue. Read our Privacy Policy in the footer below.</p>
+				<p class="clear" ><a class="foot-privacy-link" href="https://www.medallia.com/privacy-policy/"><em>Read our Privacy Policy</em></a></p>
+			</div>
+		</div>
+		<input class="ft-submit" type="submit" value="Send">
+	</div>
+	<div class="error"></div>
+</form>
+<div class="contact-conf">
+	<div class="vertical-middle">
+		<h3>Thank You</h3>
+		<p>Your message has been received and we will contact you shortly.</p>
+	</div>
+</div>
+
+<script>
+	jQuery(document).ready(function(){
+		var $ = jQuery.noConflict();
+		$('#header-cta-demo').find('.ft-inquiry-type').text('Request a Demo');
+		$('#header-cta-demo').find('.ft-inquiry-type').next('.select-options').remove();
+			
+		
+	});
+</script>		</div>	
+	</section>	
+</div>
+<footer class="">
+		<div class="get-in-touch  ">
+		<a id="open-contact" class="arrow-link" href="https://www.medallia.com/contact-us/">Get in Touch</i></a>
+	</div>
+	<div class="inner cf">
+					<div class="cf upper-footer">
+				<div class="cf foot-link-groups">
+					<div class="float25 footer-lang">
+						<div class="language-selector">
+							<i class="ionicons ion-ios-world-outline"></i> <span id="current-language">English (US)</span>
+							<div id="lang-options" class="lang-options">
+								
+								<div id="eng" class="lang curr-lang">English</div>
+								
+							</div>
+						</div>
+						<ul class="cf social-links">
+							<li class="left"><a href="http://www.linkedin.com/company/49697?trk=tyah&trkInfo=tas%3Amedallia" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+							<li class="left"><a href="https://twitter.com/medallia" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
+							<li class="left"><a href="https://www.facebook.com/MedalliaInc" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook-square fa-stack-1x fa-inverse"></i></span></a></li>
+							<li class="left"><a href="https://www.medallia.com/blog/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-rss fa-stack-1x fa-inverse"></i></span></a></li>
+						</ul>
+					</div>
+					<div id="cx-menu" class="float25">
+						<h3>CX 101</h3>
+						<menu class="cf">
+							<div class="menu-cx-101-container"><ul id="menu-cx-101" class="menu"><li id="menu-item-31296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31296"><a href="https://www.medallia.com/net-promoter-score/">Net Promoter Score <sup>®</sup></a></li>
+<li id="menu-item-31297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31297"><a href="https://www.medallia.com/voice-of-the-customer/">Voice of the Customer</a></li>
+<li id="menu-item-31298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31298"><a href="https://www.medallia.com/cem-software/">CEM Software</a></li>
+<li id="menu-item-31299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31299"><a href="https://www.medallia.com/customer-experience-management/">Customer Experience Management</a></li>
+<li id="menu-item-31300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31300"><a href="https://www.medallia.com/customer-retention/">Customer Retention</a></li>
+</ul></div>						</menu>
+					</div>
+					<div id="ft-cx-platform" class="float25">
+						<h3>CX Platform</h3>
+						<menu class="cf">
+							<div class="menu-cx-platform-container"><ul id="menu-cx-platform" class="menu"><li id="menu-item-31303" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-23111 current_page_item menu-item-31303"><a href="www-medallia-com-0017.htm">Text Analytics</a></li>
+<li id="menu-item-31304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31304"><a href="https://www.medallia.com/platform/admin-suite/">Admin Suite</a></li>
+<li id="menu-item-31305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31305"><a href="https://www.medallia.com/platform/ask-now/">Ask Now</a></li>
+<li id="menu-item-31306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31306"><a href="https://www.medallia.com/platform/integration-layer/">Integration Layer</a></li>
+<li id="menu-item-31307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31307"><a href="https://www.medallia.com/platform/insights-suite/">Insights Suite</a></li>
+<li id="menu-item-31308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31308"><a href="https://www.medallia.com/platform/mobile/">Mobile</a></li>
+<li id="menu-item-31309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31309"><a href="https://www.medallia.com/platform/voices/">Voices</a></li>
+<li id="menu-item-31310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31310"><a href="https://www.medallia.com/platform/promote/">Promote</a></li>
+</ul></div>						</menu>  
+					</div>
+					<div id="ft-learn-more" class="float25">
+						<h3>Learn More</h3>
+						<menu class="cf">
+							<div class="menu-learn-more-container"><ul id="menu-learn-more" class="menu"><li id="menu-item-31440" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31440"><a href="https://www.medallia.com/company/">About Medallia</a></li>
+<li id="menu-item-31442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31442"><a href="https://www.medallia.com/leadership/">Leadership</a></li>
+<li id="menu-item-31443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31443"><a href="https://www.medallia.com/customers/">Customers</a></li>
+<li id="menu-item-42285" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42285"><a href="https://www.medallia.com/partners/">Partners</a></li>
+<li id="menu-item-31444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31444"><a href="https://www.medallia.com/services/">Services</a></li>
+<li id="menu-item-31941" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31941"><a href="https://www.medallia.com/events/">Events</a></li>
+<li id="menu-item-31510" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31510"><a href="http://institute.medallia.com">Training &#038; Certification</a></li>
+<li id="menu-item-31445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31445"><a href="https://www.medallia.com/press-room/">Press</a></li>
+<li id="menu-item-31441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31441"><a href="https://www.medallia.com/careers/">Careers</a></li>
+<li id="menu-item-31449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31449"><a href="https://www.medallia.com/contact-us/">Contact Us</a></li>
+</ul></div>						</menu> 
+					</div>
+				</div>
+			</div>
+			
+		<div class="footer-logo text-center">
+			<img src="https://www.medallia.com/wp-content/themes/medallia-2017/images/white-medallia-logo.png" width="190px">
+		</div>
+					<div class="lower-footer text-center">
+			<ul id="languages_list"></ul>
+				<p>Copyright &copy; 2018. Medallia Inc. All rights reserved.</p>
+				<div class="menu-legal-footer-nav-container"><ul id="menu-legal-footer-nav" class="menu"><li id="menu-item-28432" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28432"><a href="https://www.medallia.com/terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-26963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26963"><a href="https://www.medallia.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-28433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28433"><a href="https://www.medallia.com/security/">Security</a></li>
+<li id="menu-item-26964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26964"><a href="https://www.medallia.com/medallia-environmental-policy/">Environmental Policy</a></li>
+</ul></div>				<p>&copy; Medallia®, the Medallia logo, and the names and marks associated with Medallia’s products are trademarks of Medallia and/or its affiliates. Net Promoter, Net Promoter Score and NPS are registered trademarks of Bain & Company, Inc., Fred Reichheld and Satmetrix Systems, Inc. All other trademarks are the property of their respective owners.</p>
+			</div>
+		 	</div><!-- inner -->
+</footer>
+
+<div id="vid-modal" class="hidden"></div>
+<div id="dark-fade" class="hidden"></div>
+<script type='text/javascript' src='https://www.medallia.com/wp-includes/js/wp-embed.min.js?ver=4.9.1'></script>
+<!-- Medallia Digital -->
+<script type="text/javascript" src="https://nebula-cdn.kampyle.com/wu/262205/onsite/embed.js" async></script>
+</body></html>

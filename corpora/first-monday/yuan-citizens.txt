@@ -1,0 +1,1003 @@
+
+
+
+
+
+
+
+	[image: Page Header]
+
+
+
+
+
+
+
+
+
+	
+							
+				
+	Open Journal Systems
+
+
+	Journal Help
+
+
+			User
+	
+												
+						Username	
+	Password	
+	 Remember me
+	
+
+
+				
+
+						
+
+
+	Journal Content
+
+	
+			
+													Search 
+
+					
+								
+	
+				Search Scope
+				
+
+				All
+Authors
+Title
+Abstract
+Index terms
+Full Text
+
+
+				
+	
+
+
+	
+
+
+	
+
+
+		Browse
+		By Issue
+	By Author
+	By Title
+	Other Journals
+
+
+	
+
+
+
+
+
+
+	Font Size
+	
+
+
+
+
+
+	Current Issue
+	
+	[image: Atom logo]
+	
+
+	
+	[image: RSS2 logo]
+	
+
+	
+	[image: RSS1 logo]
+
+
+
+
+
+	Article Tools
+			
+			[image: ] Abstract
+
+		
+
+				
+			[image: ] Print this article
+		
+
+				
+			[image: ] Indexing metadata
+
+		
+
+				
+			[image: ] How to cite item
+
+		
+
+							
+			[image: ]
+			Email this article (Login required)		
+
+				
+			[image: ]
+			Email the author (Login required)		
+
+		
+
+
+
+	
+					About The Authors
+			
+		
+	
+		Qianli Yuan
+											
+
+
+	
+Ph.D. student in the Department of Public Administration and Policy, Rockefeller College of Public Affairs and Policy, University at Albany, SUNY.
+
+	
+
+	
+
+		
+	
+		Mila Gascó
+											
+
+
+	
+Research Associate Professor in the Department of Public Administration and Policy, Rockefeller College of Public Affairs and Policy and the Associate Research Director in the Center for Technology in Government, both at the University at Albany, SUNY.
+
+	
+
+	
+	
+
+			
+
+			
+
+
+
+
+
+		Home
+	About
+	Login
+	Register
+	Search
+	Current
+	Archives
+	Announcements
+	SUBMISSIONS
+
+
+
+
+
+	Home >
+	Volume 23, Number 4 - 2 April 2018 >	Yuan
+
+
+
+
+
+
+			
+
+
+
+
+
+[image: First Monday]
+
+
+
+
+
+
+[image: Citizens' use of microblogging and government communication during emergencies: A case study on water contamination in Shanghai by Qianli Yuan and Mila Gasco]
+
+
+
+
+
+
+[image: Abstract]
+This study explored how citizens and governments used microblogging for communication during the water contamination incident in Shanghai, China. Based on analysis of both citizen and government microblogging posts, this study showed citizens can use microblogging to engage in the emergency response in four different ways, while governments mainly applied a push strategy for communication. Although public organizations showed a weak sign of using a pull strategy, the overall misalignment in the use of microblogging limited its benefits as an interactive platform where additional network collaboration can be developed. This study contributes to understanding how citizens actually use microblogging during an emergency and how governments adapt to the observed users’ behavior over time. Further research is needed to explore how governments can use pull or networked strategy to maximize the benefits of microblogging.
+
+
+Contents
+
+Introduction
+
+Literature review
+
+Research design
+
+Findings
+
+Discussion
+
+Conclusion
+
+
+ 
+
+ 
+
+[bookmark: p1]Introduction
+
+
+Social media has been increasingly used by both governments and citizens to create opportunities for participation and collaboration in China. Microblogging, a platform allowing users to post short messages and small pieces of digital content like pictures, video, or audio on the Internet that frequently maintain and instantly update target audiences on their activities, opinions, and status (Barnes, et al., 2010), has become particularly popular among citizens since it allows them to exchange information among a wide-range of Internet users, enabling “many-to-many” interactive networks (Bertot, et al., 2012). Compared to other social media platforms, microblogging is used more frequently, given its characteristics: immediacy, ubiquity, portability, simplicity, and availability. In addition, it makes access to messages open for the public at large, who can read them via either desktop computers or mobile devices (Kwon, et al., 2014). Its main attributes also allow for more reciprocity as well as for targeting specific users [bookmark: 1a][1].
+
+
+Although there are several microblogging platforms in the world, Twitter is the most popular one. However, its use is blocked in China where, as a result, domestic microblogs, like Weibo.com, are on the rise (Ma, 2013). Like Twitter, they allow users to post instant messages of a maximum of 140 characters, which can sometimes contain hyperlinks, pictures, or videos for original content. Users can read, respond, or share microblogs posted by other users. They use hashtags # and mentions @ to make messages more likely to be found by people who are interested in them. Recent years have witnessed the increasing use of Weibo.com microblogging for citizens to communicate with governments: currently, 59.3 percent of Chinese Internet users have a microblogging account (Ma, 2013) [bookmark: 2a][2].
+
+
+The main features of microblogging have made it the favorite tool to use in a variety of natural and man-made crisis situations, from hurricanes, earthquakes, and floods to the riots that took place in 2011 in the United Kingdom and the aftermath of the 2013 Boston Marathon bombings (Gascó, et al., 2017; Blum, et al., 2014; Fugate, 2011). Microblogging can afford efficient and widespread information distribution as well as information collection to improve situational awareness (Wukich, 2015). Further, its use during emergencies represents a shift in crisis communication from mere information transmission to interaction between organizations and the public (Gascó, et al., 2017). As Wukich (2015) phrases it, “the public becomes a much more active and potentially empowered participant in the event, as opposed to a passive receiver of responder-produced messages” [bookmark: 3a][3].
+
+
+The literature has echoed this trend and has addressed the use of microblogging by first responders during emergencies. Yet, only a few studies have focused on the use of microblogging by citizens (Gascó, et al., 2017; Mergel, 2014; Chatfield, et al., 2013; Meijer, 2014). We believe it is an important topic because it may show how citizens actually engage with first responders and public organizations during emergencies. Comparing citizens’ and public organizations’ use of microblogging allows us to further explore plausible links between public opinions and government communication.
+
+
+Our paper addresses this gap by studying the use of microblogging, and particularly of Weibo.com, by citizens and governments during a water contamination emergency in Shanghai, China. We focus on Weibo.com as this fast-paced short-messaging service is the most used in China and, therefore, the most frequently adopted platform by governmental agencies and citizens alike for different events, including crises and emergency situations. The following research questions have guided our study: (1) How do citizens use microblogging to communicate and participate online during an emergency? (2) How do public agencies use microblogging for communication with citizens during an emergency?
+
+
+The remainder of this paper is as follows: the first section reviews the current literature on microblogging in the public sector and, particularly, in emergency management. Next, a detailed description of the research design is provided. In the following sections, we describe and discuss our main findings on citizens’ use of microblogging during different phases of the water contamination incident. Finally, we present our most important conclusions, providing evidence of new approaches to the use of microblogging by citizens during emergency situations.
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p2]Literature review
+
+
+Social media applications, like Facebook, Twitter, YouTube, LinkedIn, and wikis, have been widely accepted by governmental agencies around the world as information and communication channels (Mergel, 2013a; Warren, et al., 2014; Zheng, 2013). Among them, microblogging sites, like Twitter, have shown great potential regarding information sharing and public participation in emergency management (Wukich and Mergel, 2016; Reuter, et al., 2012). Microblogging offers citizens a broad channel to communicate with authorities and to be actively involved in an emergency (Alexander, 2014; Latonero and Shklovski, 2011). At the same time, it offers important advantages to public organizations as large-scale communication tools (Hughes, et al., 2014; Yates and Paquette, 2011). However, previous studies concluded that social media is differently used by citizens and governmental agencies (Reuter, et al., 2012; Houston, et al., 2014; Prentice and Huffman, 2008). Thus, this section reviews usage of social media by both governments and citizens parties during emergencies.
+
+
+In her work, Mergel (2013a; 2013b) identifies three possible strategies regarding social media use by governmental agencies: representation, involvement, and networking. The first one is a communication strategy that suggests that governments have to be represented in all potential interaction channels. Its objective is to reach audiences in those social spaces they frequent on a daily basis using a press-release style that seeks for no interaction. According to Mergel, the resulting social media tactic can be described as a “push strategy”, “where minimal additional resources are invested into tailoring the content specifically for social media channels on active bidirectional interactions” [bookmark: 4a][4].
+
+
+The engagement strategy suggests that governments and public administrations realize that their audiences want to interact with them in a more natural and informal style instead of reading governmental reports or official memoranda. Mergel (2013b), who refers to this strategy as a “pull strategy”, states that it promotes bilateral interactions: “the engagement strategy goes beyond mere broadcasting of information to the public. Instead, agencies are actively trying to encourage their audiences to co-create and share content in different formats with them. The engagement strategy in many ways uses social media applications for their initially intended purposes to connect users with each other” [bookmark: 5a][5]. Finally, the networking strategy focuses on listening to citizens. This way of proceeding allows public administrations to absorb comments and to gain valuable perspectives about citizens’ feelings or the issues they worry about. It is a highly interactive and bidirectional strategy, which also allows users to reuse government information and knowledge (that is, the content of social media). In sum, in Mergel’s (2013b) words: “a networking tactic of a social media strategy therefore does not necessarily only include active interactions with the public, instead it can be seen as an enhanced interaction of the public with the content an agency is producing and a snowballing of the content through the audiences’ own networks” [bookmark: 6a][6].
+
+
+Several studies argue that governments follow both push and pull strategies in their use of social media, although push strategies, and particularly one-to-many push strategies, are more prominent (Mergel, 2013b; Reuter, et al., 2016; Houston, et al., 2014). As a result, public organizations mainly use social media, particularly microblogging, as a “broadcasting” tool to disseminate critical information like warnings, alerts, and suggestions (Sutton, et al., 2013; Bennett, 2014; Bruns, et al., 2012). By providing broader accessibility and lower costs for rapid information dissemination (Keim and Noji, 2011), social media enables public organizations to reach a wide range of people affected by disasters (Díaz, et al., 2014; Tucker, et al., 2012) and to disseminate customized information (Latonero and Shklovski, 2011; Tseng, et al., 2011).
+
+
+Wukich (2015) referred to this strategy of using social media during emergency as one of the three strategies: information dissemination. The other two additional strategies were monitoring of real-time data to accrue situational awareness and engaging the public in conversations or the coordination of actions, including crowdsourcing. While one of these uses may be more prominent depending on the situation, Wukich (2015) suggested that practitioners might maximize outcomes by using all three strategies in concert and thus implement a wider three-step strategy: “all three strategies complement each other and enable emergency managers to effectively augment traditional communication practices” [bookmark: 7a][7].
+
+
+These three uses of microblogging in emergency management have been well documented (Heverin and Zach, 2010). For example, Landwehr and Carley (2014) showed the use of Twitter by the Portland branch of the National Incident Management Organization (NIMO) during the 2011 Shadow Lake fire to gain situational awareness about fire risk and updated messages to address citizens’ needs. Sutton, et al. (2013) also showed that emergency managers can engage with citizens by using replies, mentions, or hashtags to encourage citizen-generated content and open dialogue. Miorandi and Maggi (2014) found that the public collaborated with governmental agencies, provided language translation, and drew the disaster area map through social media platforms. In doing so, social media became an “interactive platform” for crowdsourcing to connect with citizens and to integrate information from both governments and citizens (Mergel, 2014).
+
+
+Despite wide research about the potential of social media use by governments during emergency events, few studies have discussed citizens’ communication and behavior on microblogging platforms. The few which did described citizens’ behavior as information “milling” that helped them to assess risks to their own lives (Mergel, 2014; Liu, et al., 2010; Purohit, et al., 2014). In this respect, citizens used social media as an information source to seek out information that might help them understand emergencies (Palen and Liu, 2007; Tseng, et al., 2011). Social media, therefore, might bridge the information gaps of traditional media reports and reduce the plight of the affected public due to a lack of information (Alexander, 2014).
+
+
+In addition, citizens may use microblogging to timely convey first-hand information to both first responders and other citizens (Sutton, et al., 2008). Information conveyed to governmental agencies often includes evaluation of their emergency responses and actions, which helps them adapt response strategies (Alexander, 2014; Reuter, et al., 2012). When citizens address that information to other citizens, a bottom-up citizen-led network can emerge to timely assist each other in emergencies (Poblet, et al., 2014; Alexander, 2014; Palen and Liu, 2007). As Sutton, et al. (2008) showed sharing doubts, showing support, and confirming critical situation on a microblogging platform raises awareness on the event and creates an online community which contributes to addressing those issues.
+
+
+Citizen-generated content on social media may contribute to first responders’ more informed decisions and may provide a more targeted response to the situation (Purohit, et al., 2013; Eismann, et al., 2016; Palen, et al., 2010; Díaz, et al., 2014). Actually, public organizations are starting to recognize the value of citizen-generated content and social media and to incorporate it as a necessary instrument in the emergency response (Díaz, et al., 2014; Hughes, 2014). This may result in a change of the citizens’ role during crises: an evolution from a passive service receiver (Branicki and Agyei, 2015) to a network member (Panagiotopoulos, et al., 2013) who can become an active and responsible agent capable of contributing to emergency response (Ginige, et al., 2014).
+
+
+However, analyzing and using citizen-generated information may face two challenges. On one hand, microblogging platforms are usually owned by third parties outside the public-sector ecosystem. This may result in a high level of uncertainty due to unexpected changes in the platforms and uncontrollable cybersecurity risks. Public organizations also need to deal with emergent citizen behaviors characterized by the constant change of opinions and messages, which often cause difficulties in both social media policies and government organizational structures (Kavanaugh, et al., 2012; Mergel and Bretschneider, 2013). Further, inaccurate information disseminated by citizens may result in spreading viral rumors and false information (Starbird and Palen, 2011), which requires the ability to separate key information from noise and to connect citizens to right response actions (Wukich and Mergel, 2016; Hughes, et al., 2014).
+
+
+These challenges show how important it is to understand how citizens actually use microblogging platforms during emergencies and how that use offers a tool for first responders and governmental agencies to improve decisions and consequent impact of crisis responses. Governments need to adapt to the observed users’ behaviors within microblogging platforms. Our study aims at shedding light on this unexplored topic by answering the following questions:
+
+
+	(1) How do citizens use microblogging to communicate and participate online during emergencies?
+(2) How do governmental agencies use microblogging to communicate with citizens?
+
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p3]Research design
+
+
+To investigate citizens’ and governments’ use of social media during emergency situations, we examine an illustrative case of a water contamination incident in Shanghai that took place in 2013. Case studies are suitable to answer descriptive, exploratory or explanatory questions about in-depth understanding of “real-life” contexts. They provide the flexibility to explore complex and relatively unstructured and infrequent phenomena. This leaves room for unexpected interesting findings that can form the basis for specific hypotheses to be tested in future research (Yin, 2014; Bennett and Elman, 2007).
+
+
+Case background
+
+
+On 4 March 2013, a citizen spotted a few dead pig bodies on the upstream of the Huangpu River in Shanghai and posted his finding on Weibo.com. The original post was followed by huge media coverage. The incident caught citizens’ attention and more citizens posted on Weibo.com. It raised great public concern since the Huangpu River is the main water source for the residents in Shanghai and everyone had a stake in water safety. Therefore, such an event triggered a wide-ranged public reaction and led to a strong desire for public participation on the microblogging platform.
+
+
+On 9 March, the Shanghai municipal government launched a systematic emergency response. While reinforcing field cleaning, the local government of Shanghai, along with the governments of Jiaxing and Zhejiang, started to locate the source of contamination. After a three-day investigation, the three governments came up with inconsistent results. The local government of Shanghai identified Jiaxing as the source of the water contamination, while both the governments of Jiaxing and Zhejiang denied this accusation. The absence of conclusive explanations led, later, on to a wide-ranged online discussion on the cause of the incident and the effectiveness of the governmental response.
+
+
+Multiple government microblogging accounts started to post official messages to inform citizens about the incident investigation and the field cleaning process. They posted information about the numbers of dead pigs and about how the investigation was progressing. Seven government microblogging accounts engaged in this process.
+
+
+The contamination incident became more visible when the central government began to intervene. On 16 March, a group of inspectors from the Department of Agriculture arrived in Shanghai and Jiaxing to conduct further investigations. Results confirmed that Jiaxing was the source of the water contamination. The governments of Jiaxing and Zhejiang were required to take responsibility to control the amount of water contamination. On 24 March, the Shanghai municipal government announced the end of the emergency response and switched to routine operations on water quality control and contamination monitoring. The following table shows the four stages we identified in this water contamination incident.
+
+
+ 
+
+[bookmark: tab1]
+	Table 1: The evolution of the water contamination incident.
+	Stage	Initial stage	Early stage	Later stage	End
+	Date	4 March — 8 March	9 March — 16 March	16 March — 24 March	25 March — 28 March
+	Incident	Many dead pigs suddenly appeared in the Shanghai Huangpu River.	Shanghai started to implement a comprehensive plan of emergency response.	The central government intervened.
+Multiple government agencies participated in the emergency response.	Shanghai announced that the field cleaning in the Huangpu River was completed.
+
+
+ 
+
+
+During this emergency incident, citizens used microblogging to express their opinions on water contamination and emergency response based on the information from Weibo.com, governmental announcements, and media reports. Citizens collected and disseminated information on a continuous basis to share their own opinions and assessments about the emergency. At the same time, governmental agencies (Songjiang District government, Shanghai Municipal, Shanghai Department of Agriculture, Shanghai Bureau of Water and Sea, Shanghai Police Department, Jiaxing City Government, and Jiaxing Environmental Protection Agency) used their microblogging accounts to post official messages about this incident. In total, 94 messages were posted from seven microblogging accounts within a month.
+
+
+Data collection
+
+
+Microblogging data was collected in two phases. First, we started by collecting and analyzing 1,834 messages posted by citizens between 4 March and 28 March on Weibo.com. Second, we collected official microblogging messages by searching the accounts of seven governmental agencies who participated in the emergency response.
+
+
+During the initial data collection, we searched for messages containing “water contamination in Shanghai”, “dead pigs in Shanghai”, “dead pigs on the Huangpu River”, and “public safety emergency in Shanghai”. The search found 34,500 results, which included, amongst other, citizens’ microblogging posts, forwarded posts, news bulletins by news agencies, and announcements by other private sector organizations. In order to obtain a comprehensive picture of citizens’ use of microblogging, this study focused on microblogging messages posted by individual citizens that expressed their own opinions and comments. We therefore excluded those messages posted by organizations and excluded forwarded messages, as they did not contain new information. This led to a set of 1,834 citizen microblogging posts stored in the custom database that showed citizens’ behaviors on Weibo.com. Next to the original microblogging text, we stored the timestamp of when the message was posted (day and time), and the handle of the microblogging user.
+ 
+
+During the second phase, the same key terms were applied to search messages in the seven official accounts of governmental agencies, shown in Table 2. Eventually, we found seven government microblogging accounts that, together, posted 94 official messages about the water contamination incident between 4–28 March. Those official microblogging posts were also stored in the custom database with timestamps and users’ information.
+ 
+
+ 
+
+[bookmark: tab2]
+	Table 2: Official government microblogging accounts.
+	Agency	Official account	Number of posts
+	Shanghai Municipal	“Shanghai Broadcast” (上海发布)	16
+	Shanghai Department of Agriculture	“Shanghai Agriculture Broadcast” (上海三农发布)	17
+	Shanghai Bureau of Water and Sea	“Shanghai Water and Sea Broadcast” (上海水务海洋发布)	30
+	Shanghai Police Department	“Shanghai Railway Policy Department Broadcast” (上海铁警发布)	14
+	Songjiang District government	“Shanghai Songjiang Broadcast” (上海松江发布)	7
+	Jiaxing City government	“Jiaxing Broadcast Official” (嘉兴第九区官方)	6
+	Jiaxing Environmental Protection Agency	“Jiaxing Environmental Protection” (嘉兴环境保护)	4
+
+
+ 
+
+
+Data analysis
+
+
+To understand both citizens’ reactions and government communication, we coded citizen posts and government posts separately on their content. Each of the 1,834 citizen posts and 94 government posts was coded manually by two different researchers using a set of pre-defined codes from the existing literature on social media (Wukich, 2015; Liu, 2016) [bookmark: 8a][8]. Additional codes on social media during emergency situations emerged during the analysis process. Those codes were later categorized and their meaning was evaluated by the researchers, following a grounded theory approach (Charmaz and Belgrave, 2015). At this stage of conceptualization, the collected data was broken down into separate sections according to different points of view and was labeled considering both its content and the pre-defined codes.
+
+
+The analysis generated 576 open codes for citizen posts. Codes with similar meanings were later collapsed, combined, or integrated, resulting in 356 codes. These codes were further organized into categories according to the themes they covered. Eventually, 17 categories were identified that covered eight topics. For government posts, 234 open codes were created, and nine categories were eventually identified (see Appendix). Those categories were non-exclusive since a few posts were labeled by more than one code.
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p4]Findings
+
+
+We next report the results of our research and look into the use of microblogging by both citizens and governments. We conclude that citizens used microblogging to express their own opinions in four different ways. At the same time, the analysis of governments’ posts shows that public organizations changed the content of their messages over time.
+
+
+Citizens’ use of microblogging
+
+
+We identified four different ways in which citizens used microblogging to engage in this incident: 1) to express their safety concerns; 2) to deliberate on the cause of the emergency; 3) to provide suggestions; and, 4) to make assessments of the emergency response. The microblogging platform became a channel for citizens to address concerns and to share their opinions with public organizations and with fellow citizens.
+
+
+Expressing safety concerns
+
+
+First, citizens expressed their safety concerns due to the great uncertainty brought by the incident. Citizens mainly worried about two safety issues: water safety and food safety. Since the Huangpu River is one of the main sources of drinking water in Shanghai, water safety became the focus of public safety concerns. Another focus of citizens’ concerns was pork food safety, which was about pork food products made from dead pigs. Figure 1 shows that, within 72 hours, 20.73 percent of the citizens were worried about water safety and 10.98 percent were concerned about pork food safety. As the incident evolved, the demand for field response decreased while concerns about the source of water contamination increased. This increase probably resulted from inconclusive government explanations about the origin of the emergency. Later, concerns about accountability became the fourth concern as citizens started to ask about entities that needed to be held responsible for this incident. By the end, most of the citizens (24.19 percent) were concerned about pig farming safety.
+
+
+ 
+
+[bookmark: fig1]
+	[image: Evolution of citizens' concerns on microblogging]
+	 
+	Figure 1: Evolution of citizens’ concerns on microblogging.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+Deliberating on the origin of the emergency
+
+
+During the incident, citizens were confused by inconclusive explanations about the source of contamination that the governments of Shanghai and Jiaxing provided. They, therefore, used microblogging to discuss the origin of water contamination and explored several options. Some citizens argued that farmers illegal dumping of dead pigs in the upstream area was one of the causes that led to water contamination. Many citizens shared this view, based on the news about how the labels of some dead pigs showed they were raised and cultivated in the farms in Jiaxing City. “I think there has been pig disease in Jiaxing since January. Some farmers just dumped those dead pigs into the river.” [bookmark: 9a][9] “Nowadays, so many immoral merchants. They dared to dump those pigs into the river. My judgment: these pigs are from Jiaxing!” [bookmark: 10a][10]
+
+
+Other citizens argued that poor management of pig agriculture in Jiaxing was the root of the water contamination incident behind illegal dumping. Citizens wanted the government of Jiaxing to take responsibility for the crisis since it failed to effectively execute the policies regarding dead animal disposal. Ineffective surveillance and regulation of pig agriculture could not prevent farmers from illegally disposing of the bodies. “I am concerned about why there are so many dead pigs. Is there any hidden information?” [bookmark: 11a][11] “From the beginning, due to limitations in regulation, water safety in the downstream area could not be fully guaranteed.” [bookmark: 12a][12]
+
+
+Providing suggestions
+
+
+Citizens used Weibo.com to also provide suggestions and recommendations on how to address the crisis. Governmental agencies were first suggested to increase resources to speed up the cleaning process. Figure 2 shows that 7.32 percent of the online citizens strongly suggested that more resources (including personnel) had to be allocated to speed up the cleaning process and to reduce the contamination in the Huangpu River. To protect water safety, public agencies were suggested to enhance real-time monitoring of water quality. By the end of the incident, 4.84 percent of the citizens mentioned water safety control and it was the only suggestion during the final stage. Another important recommendation had to do with controlling the source of water contamination. About 15.85 percent of citizens suggested governments focusing on inhibiting dead pig dumping in the upper reaches by punishing illegal farmers. “Recovery is not the key. It is a temporary solution. The key is to crack down on the source and shut down the illegal pig farms” [bookmark: 13a][13], “governmental agencies should investigate and put a heavy penalty on agricultural enterprises which committed a crime.” [bookmark: 14a][14]
+
+
+ 
+
+[bookmark: fig2]
+	[image: Public suggestions on microblogging]
+	 
+	Figure 2: Public suggestions on microblogging.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+Assessing emergency response
+
+
+During this incident, citizens provided feedback and assessment on emergency response through microblogging based on their own understanding and feelings. Overall, public feedback to government emergency response changed from positive to negative. Initially, citizens expected governments, as main responsible entities for emergency response, to deal with the emergency effectively. However, as the incident evolved, they continued to question the efficiency and effectiveness of the government response. At the beginning, 16.87 percent of the citizens provided suggestions and appealed to governmental agencies for more response actions. By the end of the incident, about 51.61 percent of the citizens criticized government information release, accountability, and on-site investigation; about 32.26 percent of the citizens questioned the authenticity of government statements and the effectiveness of government response. They gradually felt disappointed at the governments’ ability and less than 10 percent of the citizens continued to provide recommendations.
+
+
+The focus of citizens’ criticism changed over time. At the beginning, about 17.07 percent of the public stated that the field cleaning-up had been ineffective to reduce water contamination. Yet, this criticism on field response decreased, as the local government of Shanghai announced it would initiate a systematic emergency response. However, criticism regarding water quality, food safety, accountability, and the origin of the contamination increased over time, indicating the public’s dissatisfaction with how the government released information, challenging both information authenticity and transparency of government. Further, the lack of accountability was an issue of great concern and about 9.50 percent of the citizens referred to it. Although questions about the origin of the contamination and the way information being disclosed de-escalated over time, complaints about accountability did not.
+
+
+ 
+
+[bookmark: fig3]
+	[image: Public assessment of emergency response]
+	 
+	Figure 3: Public assessment of emergency response.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+Government communication through microblogging
+
+
+Both the governments of Shanghai and Jiaxing communicated with citizens through their official microblogging accounts. As the incident evolved, the number of official posts increased to address various issues about the water contamination crisis and emergency response actions. The content of those posts also evolved as the incident unfolded and covered main public concerns mentioned earlier. Yet, we identified a delay in government communication: public organizations posted later in time in comparison to citizens.
+
+
+Government microblogging posts over time
+
+
+The first official message was posted at 2:00 p.m. on 4 March from the microblogging account “Jiaxing Environment Protection”. It shortly stated: “Have dispatched staff to check”. This official message was not followed by other official posts until 8 March when another government microblogging account “Shanghai Railway Policy Department Broadcast” posted an official announcement about the water contamination incident. Other two official accounts — “Shanghai Songjiang Broadcast” and “Shanghai Agriculture Broadcast” — forwarded this message later that day.
+
+
+	“[A lot of dead pigs appeared in the Huangpu River] Recently, many dead pigs appeared in the area of the Huangpu River protected for drinking water source. The contamination came from the illegal pig farms from the upper stream area according to the preliminary investigation. Up until the 5th, the relevant agencies have collected 45 pig corpses. To avoid harm to drinking water quality, the relevant agencies will further put effort into contamination cleaning and water quality inspection. http://t.cn/zYnTZDy”
+
+
+
+In the beginning, governmental agencies posted only six messages before they initiated a systematic response plan. The number of official posts increased gradually as their emergency response actions unfolded until the end of the incidents. Governmental agencies posted most microblogging messages (62 posts) during the later stage. In comparison to the number of citizens’ posts over time, governments posted fewer official messages in the early stage. They also started to post later in time. The mismatch between the incident evolution and the evolution of the numbers of posts shows a certain delay in starting online communication addressed to citizens.
+
+
+ 
+
+[bookmark: fig4]
+	[image: Numbers of government and citizen microblogging posts over time]
+	 
+	Figure 4: Numbers of government and citizen microblogging posts over time.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+Government microblogging content
+
+
+The content of government official microblogging posts also evolved over time. During the early stage, the content of government official posts mainly covered issues about field response (37.74 percent), pork food quality inspection (22.64 percent), and water quality monitoring (22.64 percent). Other issues covered but with less emphasis were the investigation about the origin of the crisis (11.32 percent) and pig farming (5.66 percent). Yet, Figure 5 shows that only a small part of the content of the governments’ posts coincided with the content posted by citizens (including both public concerns and suggestions). Some 13.90 percent of the citizens criticized governments’ accountability, yet none of the official posts during the early stage touched on that issue. This mismatch in terms of content between government and citizen posts may indicate that, during the early stage, governmental agencies were not really addressing citizens’ concerns and were not really promoting bilateral interactions. Instead, they were reaching audiences using microblogging as a press release tool.
+
+
+ 
+
+[bookmark: fig5]
+	[image: Content of government and citizen posts during the early stage]
+	 
+	Figure 5: Content of government and citizen posts during the early stage.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+During the later stage, the official microblogging messages were posted in a more systematic way. The content of government posts covered field responses (28.79 percent), investigation of the origin of the crisis (26.89 percent), and accountability (15.53 percent). Figure 6 shows that the content of government posts was more aligned with the content of citizens’ posts in later stages. This increasing coincidence may imply that governmental agencies started to look for a certain bilateral interaction with citizens by addressing their concerns and suggestions. Posts about the origin of the crisis and accountability increased while posts about pork food quality inspection decreased. In focusing on the former topics, governments showed a delayed but real interest in addressing citizens’ concerns. Yet, there was still a gap between citizens’ focus and governments’ posts. For example, during this later stage, only 11.74 percent of government posts addressed water quality issues (in comparison to 23.22 percent of citizen posts). Compared to the previous stage, governmental agencies seemed to adjust the focus of their messages.
+
+
+ 
+
+[bookmark: fig6]
+	[image: Content of government and citizen posts during the later stage]
+	 
+	Figure 6: Content of government and citizen posts during the later stage.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+Formats of government microblogging
+
+
+The way content was posted on the microblogging platform showed little interaction with citizens, indicating the use of a push strategy (see Discussion). In addition, Table 3 shows that over 70 percent of the government posts exceeded the 140 characters limitation. Those posts usually provided a hyperlink to another Web site or to a PDF file containing detailed information about water quality, progress on field response, source of the contamination, and accountability issues. Governmental agencies followed one typical template for official summaries and messages: “[Title] + agencies names + response actions”. They compiled all government response actions into a long Web page or PDF file with little effort to integrate the information. These posts were less interactive and only a few of them highlighted issues or concerns brought up by citizens, such as water quality and the origin of the crisis.
+
+
+ 
+
+[bookmark: tab3]
+	Table 3: Format of government microblogging.
+	Type of microblogs	Description	Frequency	Percentage
+	Text microblogs	Microblogs that contains only text of 140 characters	17	18.08%
+	Microblogs with photos	Microblogs that include both text and pictures from crisis scene	9	9.57%
+	Microblogs with Web site links	Microblogs that include links to other Web sites with government reports 	37	39.36%
+	Long microblogs with PDF files	Microblogs that include a link to a PDF file with full information	31	32.98%
+
+
+ 
+
+
+In addition, governmental agencies used official language to write those messages. They used technical vocabulary to describe the incident. For instance, information regarding water quality in the government posts often included “residual chlorine”, “turbidity”, and “total number of bacteria”. Also, posts about pig disease inspection included the word “porcine circovirus”. Although governmental agencies were accustomed to those terms in their daily operations, those words and phrases made less sense to ordinary citizens with little background knowledge. In this regard, official microblogging posts did not make emergency response information more understandable, disseminating information in a less interactive way.
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p5]Discussion
+
+
+The main objective of this article was to examine how citizens and governmental agencies used microblogging during a water contamination incident in Shanghai, China. Regarding citizens, we have identified four different ways of engaging in the crisis through microblogging: 1) expressing public concerns; 2) providing suggestions; 3) deliberating on the cause of the incident; and, 4) assessing emergency response. As previous work has shown, citizens actively expressed their feelings and opinions through microblogging and participated in the emergency response processes, engaging in a “milling” process (Palen and Liu, 2007; Tseng, et al., 2011; Mergel, 2014).
+
+
+During the water contamination incident in Shanghai, citizens’ messages were not only addressed to public organizations but also to peer citizens (Currie, 2009), indicating the existence of an incipient rhetorical arena (Frandsen and Johansen, 2017; Coombs and Holladay, 2014) where crisis responses emanate from different types of actors, including the public. In Coombs and Holladay’s (2014) words:
+
+
+	“The rhetorical arena considers the voices of any actors trying to communicate about the crisis as crisis communicators. From this perspective, multiple voices can attempt to influence crisis publics, not just the one, organizational voice. A rhetorical arena opens around a crisis. Various actors enter into this arena by engaging in communication about a crisis or potential crisis.” [bookmark: 15a][15]
+
+
+
+Further, the use of the microblogging platform (Weibo.com in this case) resulted in a digital environment where peer discussion or a “many-to-many” model co-existed, rather than replaced, the “one-to-many” model encouraged by traditional media (Wukich and Mergel, 2015).
+
+
+However, and despite the potential to increase situational awareness, citizens in this incident did not play a role as active information providers (Poblet, et al., 2014; Branicki and Agyei, 2015). Most of their posts included citizens’ subjective feelings and opinions about the incident instead of specific, more objective, information related to the situation. It is worth, though, to note that feelings about the crisis were quite similar and reflected citizens’ main concerns, suggestions, and evaluation during the duration of the incident. We believe that this specific content is the result of citizens that were not directly affected by the water contamination nor had sufficient access to the effected area (Díaz, et al., 2014). They had, therefore, little first-hand information and were less capable of contributing to situational awareness. In any case, citizens’ opinions and feelings showed what their concerns and insights about the water contamination incident were and what they wanted emergency response to focus on. Citizens became evaluators that provided feedbacks to first responders, turning Weibo.com into a bottom-up channel (Purohit, et al., 2013; Reuter, et al., 2012).
+
+
+Regarding public organizations’ use of the microblogging platform, we observe a push strategy. The objective of such a strategy is to reach audiences in those social spaces frequently on a daily basis, other than traditional ones. According to Mergel (2013b), in a push strategy, minimal additional resources are invested into tailoring content specifically for social media channels on active bidirectional interactions. This push strategy was predominant during the early stage of the crisis, although the content of government posts was somewhat more coincident with public concerns and suggestions in a later stage, suggesting the presence of an incipient pull or engagement strategy (Mergel, 2013a; 2013b), that is, one that promotes bilateral interactions.
+
+
+Still, the “one-to-many” approach was the one adopted by public organizations over the course of the crisis (Sutton, et al., 2013; Bennett, 2014). In this respect, both the governments of Shanghai and Jiaxing had an online presence and used their official accounts to broadcast emergency information to citizens. They chose less interactive formats with technical vocabulary making Weibo.com a top-down communication channel between citizens and government organizations. As a result, despite citizens’ use of the microblogging platform in the water contamination incident, public organizations considered them as mere passive receivers of information and hardly provided a direct response to public opinions (Branicki and Agyei, 2015), particularly at the beginning of the crisis. We, therefore, argue that this misalignment in the use of Weibo.com limited the benefits of microblogging as an interactive platform, reproducing a top-down relationship with no room for additional network collaboration (Panagiotopoulos, et al., 2013).
+
+
+Surprisingly, as previously noticed, towards the end of the crisis, there were weak signs of a pull strategy and governments started to include some content that addressed citizens’ concerns and needs of information (Hughes, 2014; Latonero and Shklovski, 2011). We conclude that these slight changes may show not only a change in the communication strategy and use of Weibo.com but also, in the potential influence of citizens’ messages on government communication strategies. Further research is needed to exactly explore how and to what extent citizens’ interaction on the microblogging platform resulted in an improved and more targeted online communication strategy (Díaz, et al., 2014; Tseng , et al., 2011; Jennex, 2010; Ginige, et al., 2014).
+
+
+Finally, our study shows that there are still many challenges that need to be addressed in the use of microblogging by both citizens and public organizations during emergency situations (Wukich and Mergel, 2016; Hughes, et al., 2014). We have already referred to the misalignment in the use of Weibo.com. Further, it was not easy for governmental agencies to analyze citizen posts in real time, since their content included feelings and opinions, which were highly unstructured and constantly changing. Previous works have already referred to this challenge, which is even more difficult to overcome when a traditional top-down communication approach is adopted (Kavanaugh, et al., 2012). In this regard, governmental agencies should improve their capacity for data mining to detect public opinions, locate and identify citizen concerns, and further adapt to the observed user behavior within a given microblogging platform (Hughes, et al., 2014). Lastly, our findings seem to suggest a lack of coordination amongst governmental agencies in sending homogeneous messages, as suggested by Pechta, et al. (2010) and Wukich and Steinberg (2013), which should be further explored in future studies.
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p6]Conclusion
+
+
+Our study on the water contamination incident in Shanghai China explored two research questions. We showed that citizens used microblogging to engage during the emergency in four different ways, while government organizations mainly applied a push strategy on the microblogging platform. Although there were weak signs of a pull strategy used by public organizations, the misalignment between public organizations’ and citizens’ use of social media in resolving the crisis limited the benefits of microblogging as a bidirectional communication channel. Further, it generate doubt over its potential to become a networked platform where all actors can produce and reuse online information and knowledge contributing to an emergency.
+
+
+Our findings have a number of practical implications. On one hand, microblogging is not just another communication channel. Despite its benefits, it adds complexity to crisis management and requires crisis responders to further explain their actions online. Microblogging changes the ecosystem of communication and governmental agencies should be aware of the need to manage crises both off-line and online. On the other hand, our study shows that changing concerns of citizens throughout a crisis will find their expression on social media. Using the combination of sentiment and content analysis, channels such as Weibo.com are therefore excellent indicators for changes in the type of concerns and information requirements that enable governments to adjust communication strategies and to address more accurate and needs-oriented messages. Finally, our findings make evident the need to further unleash the full potential of microblogging, and social media generally speaking, during emergency situations by both citizens and governmental agencies, going beyond communication and enhancing coordination and collaboration. The creation of a community around an incident, which could foster collaboration and peer-to-peer communications (rather than top-down or bottom-up strategies), could be an interesting idea that deserves further attention.
+  
+
+In addition to the latter, our results raise questions that need further research. On one hand, what explains the limited and uncoordinated use of microblogging by public organizations? Many works studying government use of social media around the globe show, as our study, that the predominant strategy is the push strategy. What hinders transition, then, to a pull or networked strategy? On the other, how can public organizations change to maximize the benefits of using microblogging? Or, in other words, how can the content gap be addressed? Finally, how far our observations also hold for other forms of crises and other social media platforms are questions that require further attention. [image: End of article]
+
+ 
+ 
+
+[bookmark: author]
+About the authors
+
+
+Qianli Yuan is a Ph.D. student in the Department of Public Administration and Policy, Rockefeller College of Public Affairs and Policy, University at Albany, SUNY. His research focuses on open innovation, open government data, and co-production through social media. Qianli Yuan obtained his Master’s degree of public administration at the School of International Relations and Public Affairs, Fudan University in China.
+E-mail: qlyuan1990 [at] outlook [dot] com
+
+
+Mila Gascó is a Research Associate Professor in the Department of Public Administration and Policy, Rockefeller College of Public Affairs and Policy and the Associate Research Director in the Center for Technology in Government, both at the University at Albany, SUNY. Before joining the University at Albany, Dr. Gascó served as a senior researcher at the Institute of Governance and Public Management (currently known as ESADEgov — Center for Public Governance) and the Institute of Innovation and Knowledge Management, both at ESADE Business & Law School in Spain. Prior to that, she was a senior analyst at the International Institute on Governance of Catalonia and a professor in the Rovira Virgili University and the Pompeu Fabra University, both in Spain.
+E-mail: mgasco [at] ctg [dot] albany [dot] edu
+
+
+ 
+
+Acknowledgments
+
+
+We want to thank multiple funding agencies for their generous support that made this research possible: China National Social Science Foundation (Project ID: 11CGL091); Shanghai Science and Technology Commission (Project ID: 11CGL091).
+
+
+ 
+
+Notes
+
+
+[bookmark: 1]1. Kommers and Isaias, 2012, p. 193.
+
+
+[bookmark: 2]2. In May 2017, Weibo.com reached 340 million active monthly users (http://www.bbc.com/news/technology-39947442).
+
+
+[bookmark: 3]3. Wukich, 2015, p. 132.
+
+
+[bookmark: 4]4. Mergel, 2013b, p. 128.
+
+
+[bookmark: 5]5. Ibid.
+
+
+[bookmark: 6]6. Mergel, 2013b, p. 129.
+
+
+[bookmark: 7]7. Wukich, 2015, p. 284.
+
+
+[bookmark: 8]8. Following Procter, et al. (2013), we decided to manually analyze and classify posts. The authors argue that automated sentiment analysis is not yet sufficiently reliable to be used as a substitute for human interpretation of message content. Hence, as Procter, et al. (2013) did, our methodology combines in ways that are complementary techniques that make use of relatively unsophisticated computational tools with conventional qualitative methods for media analysis.
+
+
+[bookmark: 9]9. “阿玉liyujing： 黄浦江上游漂来千头死猪 据报道嘉兴从1月起就瘟猪， 死了万头猪。有的养殖户就把猪扔到江里，顺流而下来到上海” (the original post in Chinese)
+
+
+[bookmark: 10]10.   “真假使徒：现在没良心的商贩越来越多，尽然直接把死猪倒进江中。经初步判断，这些死猪是从上游浙江一带漂流过来的“ (the original post in Chinese)
+
+
+[bookmark: 11]11. “生活鑫动力：其实我关心的是到底什么原因导致实然有这么多的猪死于非命？ 有什么瘾情没有?” (the original post in Chinese)
+
+
+[bookmark: 12]12. “洪华敏Simon： 而从根源看，由于监管范围有限，处于下游的水源地环境无法得到彻底保证。” (the original post in Chinese)
+
+
+[bookmark: 13]13. “挚爱灬宝贝丿唯一的丶信仰: 打捞不是关键，治标不治本，要打击源头，把非法养殖场关了才行，难道就没想过为什么有这么多的死猪嘛?” (the original post in Chinese)
+
+
+[bookmark: 14]14. “光说个这个有用吗？哪个企业扔的死猪，对于污染环境的企业，遗害一方的不良企业主就应重罚重判，象这样的企业罚款罚的他开不了张得了” (the original post in Chinese)
+
+
+[bookmark: 15]15. Coombs and Holladay, 2014, p. 42.
+
+
+ 
+
+References
+
+
+David E. Alexander, 2014. “Social media in disaster risk reduction and crisis management,” Science and Engineering Ethics, volume 20, number 3, pp. 717–733.
+doi: https://doi.org/10.1007/s11948-013-9502-z, accessed 14 March 2018.
+
+
+Stuart J. Barnes, Martin Böhringer, Christian Kurze, and Jacqueline Stietzel, 2010. “Towards an understanding of social software: The case of Arinia,” HICSS ’10: Proceedings of the 2010 43rd Hawaii International Conference on System Sciences, pp. 1–9.
+doi: https://doi.org/10.1109/HICSS.2010.406, accessed 14 March 2018.
+
+
+Andrew Bennett and Colin Elman, 2007. “Case study methods in the international relations subfield,” Comparative Political Studies, volume 40, number 2, pp. 170–195.
+doi: https://doi.org/10.1177/0010414006296346, accessed 14 March 2018.
+
+
+DeeDee M. Bennett, 2014. “How do emergency managers use social media platforms?” Journal of Emergency Management, volume 12, number 3, pp. 251–256, and at http://www.wmpllc.org/ojs-2.4.2/index.php/jem/article/view/374, accessed 14 March 2018.
+doi: http://dx.doi.org/10.5055/jem.2014.0178, accessed 14 March 2018.
+
+
+John Carlo Bertot, Paul T. Jaeger, and Justin M. Grimes, 2012. “Promoting transparency and accountability through ICTs, social media, and collaborative e–government,” Transforming Government: People, Process and Policy, volume 6, number 1, pp. 78–91.
+doi: https://doi.org/10.1108/17506161211214831, accessed 14 March 2018.
+
+
+Jeffrey R. Blum, Alexander Eichhorn, Severin Smith, Michael Sterle-Contala, and Jeremy R. Cooperstock, 2014. “Real-time emergency response: Improved management of real-time information during crisis situations,” Journal on Multimodal User Interfaces, volume 8, number 2, pp. 161–173.
+doi: https://doi.org/10.1007/s12193-013-0139-7, accessed 14 March 2018.
+
+
+Layla J. Branicki and Doreen A. Agyei, 2015. “Unpacking the impacts of social media upon crisis communication and city evacuation,” In: John Preston, Jane M Binner, Layla Branicki, Tobias Galla, Nick Jones, James King, Magdalini Kolokitha, and Michalis Smyrnakis (editors). City evacuations: An interdisciplinary approach. Berlin: Springer-Verlag, pp 21–37.
+doi: https://doi.org/10.1007/978-3-662-43877-0_2, accessed 14 March 2018.
+
+
+Axel Bruns, Jean Burgess, Kate Crawford, and Frances Shaw, 2012. “qldfloods and @ QPSMedia: Crisis communication on Twitter in the 2011 South East Queensland floods,” Methodology, at https://eprints.qut.edu.au/48241/, accessed 14 March 2018.
+
+
+Kathy Charmaz and Linda Liska Belgrave, 2015. “Grounded theory,” In: George Ritzer (editor). Blackwell Encyclopedia of Sociology. Hoboken, N.J.: Wiley-Blackwell.
+doi: http://dx.doi.org/10.1002/9781405165518.wbeosg070.pub2, accessed 14 March 2018.
+
+
+Akemi Takeoka Chatfield, Hans J. (Jochen) Scholl, and Uuf Brajawidagda, 2013. “Tsunami early warnings via Twitter in government: Net-savvy citizens’ co-production of time-critical public information services,” Government Information Quarterly, volume 30, number 4, pp. 377–386.
+doi: https://doi.org/10.1016/j.giq.2013.05.021, accessed 14 March 2018.
+
+
+W. Timothy Coombs and Sherry Jean Holladay, 2014. “How publics react to crisis communication efforts: Comparing crisis response reactions across sub-arenas,” Journal of Communication Management, volume 18, number 1, pp. 40–57.
+doi: https://doi.org/10.1108/JCOM-03-2013-0015, accessed 14 March 2018.
+
+
+Donya Currie, 2009. Special report: Expert round table on social media and risk communication during times of crisis: Strategic challenges and opportunities. Washington D.C.: American Public Health Association.
+
+
+Paloma Díaz, Ignacio Aedo, and Sergio Herranz, 2014. “Citizen participation and social technologies: Exploring the perspective of emergency organizations,” In: Chihab Hanachi, Frédérick Bénaben, and François Charoy (editors). Information systems for crisis response and management in Mediterranean countries. Lecture Notes in Business Information Processing (LNBIP), volume 196. Berlin: Springer-Verlag, pp. 85–97.
+doi: https://doi.org/10.1007/978-3-319-11818-5_8, accessed 14 March 2018.
+
+
+Kathrin Eismann, Oliver Posegga, and Kai Fischbach, 2016. “Collective behaviour, social media, and disasters: A systematic literature review,” ECIS Proceedings, at http://aisel.aisnet.org/ecis2016_rp/104/, accessed 14 March 2018.
+
+
+Finn Frandsen and Winni Johansen, 2017. Organizational crisis communication: A multivocal approach. Thousand Oaks, Calif.: Sage.
+
+
+Craig Fugate, 2011. “Understanding the power of social media as a communication tool in the aftermath of disasters,” Hearing before the Ad Hoc Subcommittee on Disaster Recovery and Intergovernmental Affairs of the Committee on Homeland Security and Governmental Affairs, United States Senate, 112th Congress, First Session (5 May), at https://www.gpo.gov/fdsys/pkg/CHRG-112shrg67635/content-detail.html, accessed 14 March 2018.
+
+
+Mila Gascó, Petra Saskia Bayerl, Sebastian Denef, and Babak Akhgar, 2017. “What do citizens communicate about during crises? Analyzing Twitter use during the 2011 UK riots,” Government Information Quarterly, volume 34, number 4, pp. 635–645.
+doi: https://doi.org/10.1016/j.giq.2017.11.005, accessed 14 March 2018.
+
+
+Athula Ginige, Luca Paolino, Marco Romano, Monica Sebillo, Genoveffa Tortora, and Giuliana Vitiello, 2014. “Information sharing among disaster responders — An interactive spreadsheet-based collaboration approach,” Computer Supported Cooperative Work (CSCW), volume 23, numbers 4–6, pp. 547–583.
+doi: https://doi.org/10.1007/s10606-014-9207-0, accessed 14 March 2018.
+
+
+Thomas Heverin and Lisl Zach, 2010. “Microblogging for crisis communication: Examination of Twitter use in response to a 2009 violent crisis in the Seattle-Tacoma, Washington area,” Proceedings of the Seventh International ISCRAM Conference, pp. 1–5.
+
+
+J. Brian Houston, Joshua Hawthorne, Mildred F. Perreault, Eun Hae Park, Marlo Goldstein Hode, Michael R. Halliwell, Sarah E. Turner McGowen, Rachel Davis, Shivani Vaid, Jonathan A. McElderry, and Stanford A. Griffith, 2014. “Social media and disasters: A functional framework for social media use in disaster planning, response, and research,” Disasters, volume 39, number 1, pp. 1–22.
+doi: https://doi.org/10.1111/disa.12092, accessed 14 March 2018.
+
+
+Amanda L. Hughes, 2014. “Participatory design for the social media needs of emergency public information officers,” Proceedings of the Eleventh International ISCRAM (Information Systems for Crisis Response and Management) Conference, pp. 727–736, and at http://iscramlive.org/ISCRAM2014/papers/p90.pdf, accessed 14 March 2018.
+
+
+Amanda L. Hughes, Lise A.A. St. Denis, Leysia Palen, and Kenneth M. Anderson, 2014. “Online public communications by police & fire services during the 2012 Hurricane Sandy,” CHI ’14: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, pp. 1,505–1,514.
+doi: https://doi.org/10.1145/2556288.2557227, accessed 14 March 2018.
+
+
+Murray E. Jennex, 2010. “Implementing social media in crisis response using knowledge management,” International Journal of Information Systems for Crisis Response and Management, volume 2, number 4, pp. 20–32.
+doi: https://doi.org/10.4018/jiscrm.2010100102, accessed 14 March 2018.
+
+
+Andrea L. Kavanaugh, Edward A. Fox, Steven D. Sheetz, Seungwon Yang, Lin Tzy Li, Donald J. Shoemaker, Apostol Natsev, and Lexing Xie, 2012. “Social media use by government: From the routine to the critical,” Government Information Quarterly, volume 29, number 4, pp. 480–491.
+doi: https://doi.org/10.1016/j.giq.2012.06.002, accessed 14 March 2018.
+
+
+Peter M. Landwehr and Kathleen M. Carley, 2014. “Social media in disaster relief: Usage patterns, data mining tools, and current research directions,” In: Wesley W. Chu (editor). Data mining and knowledge discovery for big data: Methodologies, challenges and opportunities. Studies in Big Data (SBD), volume 1. Berlin: Springer-Verlag, pp. 225–257.
+doi: https://doi.org/10.1007/978-3-642-40837-3_7, accessed 14 March 2018.
+
+
+Mark Latonero and Irina Shklovski, 2011. “Emergency management, Twitter, and social media evangelism,” International Journal of Information Systems for Crisis Response and Management, volume 3, number 4, pp. 196–212.
+doi: https://doi.org/10.4018/jiscrm.2011100101, accessed 14 March 2018.
+
+
+Shuhua Monica Liu, 2016. “Chinese netizens’ collective deliberation on bystander controversies and the role of micro-blogging,” dg.o ’16: Proceedings of the 17th International Digital Government Research Conference on Digital Government Research, pp. 425–434.
+doi: https://doi.org/10.1145/2912160.2912181, accessed 14 March 2018.
+
+
+Sophia B. Liu, Anahi Ayala Iacucci, and Patrick Meier, 2010. “Ushahidi Haiti and Chile: Next generation crisis mapping,” American Congress on Surveying and Mapping (ACSM), Bulletin 246.
+
+
+Liang Ma, 2013. “The diffusion of government microblogging: Evidence from Chinese municipal police bureaus,” Public Management Review, volume 15, number 2, pp. 288–309.
+doi: https://doi.org/10.1080/14719037.2012.691010, accessed 14 March 2018.
+
+
+Albert Jacob Meijer, 2014. “New media and the coproduction of safety: An empirical analysis of Dutch practices,” American Review of Public Administration, volume 44, number 1, 1 pp. 17–34.
+doi: https://doi.org/10.1177/0275074012455843, accessed 14 March 2018.
+
+
+Ines Mergel, 2014. “Social media practices in local emergency management: Results from central New York,” Syracuse University, Institute of National Security and Counterterrorism, Moynihan Institute of Global Affairs, at http://sotechem.syr.edu/wp-content/uploads/2014/11/SoTechEM_Executive_Report-mwedit111914.pdf, accessed 14 March 2018.
+
+
+I. Mergel, 2013a. “A framework for interpreting social media interactions in the public sector,” Government Information Quarterly, volume 30, number 4, pp. 327–334.
+doi: https://doi.org/10.1016/j.giq.2013.05.015, accessed 11 October 2017.
+
+
+Ines Mergel, 2013b. “Social media adoption and resulting tactics in the U.S. federal government,” Government Information Quarterly, volume 30, number 2, pp. 123–130.
+doi: https://doi.org/10.1016/j.giq.2012.12.004, accessed 14 March 2018.
+
+
+Ines Mergel and Stuart Bretschneider, 2013. “A three-stage adoption process for social media use in government,” Public Administration Review, volume 73, number 3, pp. 390–400.
+doi: https://doi.org/10.1111/puar.12021, accessed 14 March 2018.
+
+
+Daniele Miorandi and Lorenzo Maggi, 2014. “‘Programming’ social collective intelligence,” Technology and Society Magazine, volume 33, number 3, pp. 55–61.
+doi: https://doi.org/10.1109/MTS.2014.2345206, accessed 14 March 2018.
+
+
+Leysia Palen and Sophia B. Liu, 2007. “Citizen communications in crisis: Anticipating a future of ICT-supported public participation,” CHI ’07: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, pp. 727–736.
+doi: https://doi.org/10.1145/1240624.1240736, accessed 14 March 2018.
+
+
+Leysia Palen, Kenneth M. Anderson, Gloria Mark, James Martin, Douglas Sicker, Martha Palmer, and Dirk Grunwald, 2010. “A vision for technology-mediated support for public participation & assistance in mass emergencies & disasters,” ACM-BCS ’10: Proceedings of the 2010 ACM-BCS Visions of Computer Science Conference, article number 8.
+
+
+Panagiotis Panagiotopoulos, Julie Barnett, and Laurence Brooks, 2013. “Social media and government responsiveness: The case of the UK food standards agency,” In: Maria A. Wimmer, Marijn Janssen, and Hans J. Scholl (editors). Electronic government. Berlin: Springer-Verlag, pp. 310–321.
+doi: https://doi.org/10.1007/978-3-642-40358-3_26, accessed 14 March 2018.
+
+
+Laura E. Pechta, Dale C. Brandenburg, and Matthew W. Seeger, 2010. “Understanding the dynamics of emergency communication: Propositions for a four-channel model,” Journal of Homeland Security and Emergency Management, volume 7, number 1.
+doi: https://doi.org/10.2202/1547-7355.1671, accessed 14 March 2018.
+
+
+Marta Poblet, Esteban García-Cuesta, and Pompeu Casanovas, 2014. “Crowdsourcing tools for disaster management: A review of platforms and methods,” In: Pompeu Casanovas, Ugo Pagallo, Monica Palmirani, and Giovanni Sartor (editors). AI approaches to the complexity of legal systems. Lecture Notes in Computer Science (LNCS), volume 8929. Berlin: Springer-Verlag, pp. 261–274.
+doi: https://doi.org/10.1007/978-3-662-45960-7_19, accessed 14 March 2018.
+
+.
+Sara Prentice and Ethan Huffman, 2008. “Social media’s new role in emergency management: Emergency management and robotics for hazardous environments,” Idaho National Laboratory (INL/CON-07-13552), at https://inldigitallibrary.inl.gov/sites/sti/sti/3931947.pdf, accessed 14 March 2018.
+
+
+Rob Procter, Farida Vis, and Alex Voss, 2013. “Reading the riots on Twitter: methodological innovation for the analysis of big data,” International Journal of Social Research Methodology, volume 16, number 3, pp. 197–214.
+doi: https://doi.org/10.1080/13645579.2013.774172, accessed 14 March 2018.
+
+
+Hemant Purohit, Andrew Hampton, Valerie L. Shalin, Amit P. Sheth, John Flach, and Shreyansh Bhatt, 2013. “What kind of #conversation is Twitter? Mining #psycholinguistic cues for emergency coordination,” Computers in Human Behavior, volume 29, number 6, pp. 2,438–2,447.
+doi: https://doi.org/10.1016/j.chb.2013.05.007, accessed 14 March 2018.
+
+
+Christian Reuter, Alexandra Marx, and Volkmar Pipek, 2012. “Crisis management 2.0: Towards a systematization of social software use in crisis situations,” International Journal of Information Systems for Crisis Response and Management, volume 4, number 1, pp. 1–16.
+doi: https://doi.org/10.4018/jiscrm.2012010101, accessed 14 March 2018.
+
+
+Christian Reuter, Thomas Ludwig, Marc-André Kaufhold, and Thomas Spielhofer, 2016. “Emergency services’ attitudes towards social media: A quantitative and qualitative survey across Europe,” International Journal of Human-Computer Studies, volume 95, pp. 96–111.
+doi: https://doi.org/10.1016/j.ijhcs.2016.03.005, accessed 14 March 2018.
+
+
+Kate Starbird and Leysia Palen, 2011. “Voluntweeters: Self-organizing by digital volunteers in times of crisis,” CHI ’11: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, pp. 1,071–1,080.
+doi: https://doi.org/10.1145/1978942.1979102, accessed 14 March 2018.
+
+
+Jeannette Sutton, Leysia Palen, and Irina Shlovski, 2008. “Backchannels on the front lines: Emergent uses of social media in the 2007 Southern California wildfires,” Proceedings of the Fifth ISCRAM (Information Systems for Crisis Response and Management) Conference, pp. 624–632.
+
+
+Jeannette Sutton, Emma Spiro, Carter Butts, Sean Fitzhugh, Britta Johnson, and Matt Greczek, 2013. “Tweeting the spill: Online informal communications, social networks, and conversational microstructures during the Deepwater Horizon oilspill,” International Journal of Information Systems for Crisis Response and Management, volume 5, number 1, pp. 58–76.
+doi: https://doi.org/10.4018/jiscrm.2013010104, accessed 14 March 2018.
+
+
+Shu-Fen Tseng, Wei-Chu Chen, and Chien-Liang Chi, 2011. “Online social media in a disaster event: Network and public participation,” In: Hocine Cherifi, Jasni Mohamad Zain, and Eyas El-Qawasmeh (editors). Digital information and communication technology and its applications. Communications in Computer and Information Science (CCIS), volume 167. Berlin: Springer-Verlag, pp. 256–264.
+doi: https://doi.org/10.1007/978-3-642-22027-2_22, accessed 14 March 2018.
+
+
+S. Tucker, V. Lanfranchi, N. Ireson, A. Sosa, G. Burel, and F. Ciravegna, 2012. “‘Straight to the information I need’: Assessing collational interfaces for emergency response,” Proceedings of the Ninth international ISCRAM (Information Systems for Crisis Response and Management) Conference, at http://www.iscramlive.org/ISCRAM2012/proceedings/164.pdf, accessed 14 March 2018.
+
+
+Anne Marie Warren, Ainin Sulaiman, and Noor Ismawati Jaafar, 2014. “Social media effects on fostering online civic engagement and building citizen trust and trust in institutions,” Government Information Quarterly, volume 31, number 2, pp. 291–301.
+doi: https://doi.org/10.1016/j.giq.2013.11.007, accessed 14 March 2018.
+
+
+Clayton Wukich, 2015. “Social media use in emergency management,” Journal of Emergency Management, volume 13, number 4, pp. 281–294, and at http://www.wmpllc.org/ojs-2.4.2/index.php/jem/article/view/200/0, accessed 14 March 2018.
+doi: http://dx.doi.org/10.5055/jem.2015.0242, accessed 14 March 2018.
+
+
+Clayton Wukich and Ines Mergel, 2016. “Reusing social media information in government,” Government Information Quarterly, volume 33, number 2, pp. 305–312.
+doi: http://dx.doi.org/10.1016/j.giq.2016.01.011, accessed 14 March 2018.
+
+
+Clayton Wukich and Alan Steinberg, 2013. “Nonprofit and public sector participation in self-organizing information networks: Twitter hashtag and trending topic use during disasters,” Risk, Hazards, & Crisis in Public Policy, volume 4, number 2, pp. 83–109.
+doi: http://dx.doi.org/10.1002/rhc3.12036, accessed 14 March 2018.
+
+
+Dave Yates and Scott Paquette, 2011. “Emergency knowledge management and social media technologies: A case study of the 2010 Haitian earthquake,” International Journal of Information Management, volume 31, number 1, pp. 6–13.
+doi: https://doi.org/10.1016/j.ijinfomgt.2010.10.001, accessed 14 March 2018.
+
+
+Robert K. Yin, 2014. Case study research: Design and methods. Fifth edition. Thousand Oaks, Calif.: Sage.
+
+
+Lei Zheng, 2013. “Social media in Chinese government: Drivers, challenges and capabilities,” Government Information Quarterly, volume 30, number 4, pp. 369–376.
+doi: https://doi.org/10.1016/j.giq.2013.05.017, accessed 14 March 2018.
+
+
+ 
+
+[bookmark: app]
+Appendix: Coding categories and topics
+
+
+ 
+
+[bookmark: tab4]
+	Table 4: Citizens’ posts code category.
+	Topic	Code category	Example
+	Water safety	Suggestions on water safety control	Although there is little influence on water quality, future impact is still uncertain. Hope government can keep water clean.
+	Questions about water quality	More than ten thousand dead pigs in the Huangpu River. How can government say water quality is the same as, if not better than, late year?
+	Inquiry about water quality	What about water quality monitoring? How to improve water quality?
+	Concern about water safety	Shanghai citizens need to pay special attention to water safety.
+	Source of contamination	Questions about the source	They admitted dead pigs were from Jiaxing and because of cold weather yesterday, however they refuse to admit today. How confusing!
+	Inquiry about the source	Governments are all about field response and cleaning. How about where those dead pigs come from? How many are there in the source? Do governments of Shanghai and Jiaxing begin to investigate?
+	Pig farming	Reflection on pig farming management	This is a huge production scandal. Where are the pigs from? More importantly, have local governments fulfilled responsibility to manage and supervise pig farming industry?
+	Questions about pig epidemic disease	Are those pigs dead, because of certain disease?
+	Food safety	Concern about food safety	Shanghai citizens need to be careful about pork products. I suggest everyone do not eat pork in the near future.
+	Field response	Suggestions on field response	Very scary! Speed up the cleaning process and build precautions.
+	Criticism on slow government field response	Government is wasting time and energy to do just cleaning without controlling the source.
+	Investigation	Suggestions on government investigation	Government need to find who is dumping dead pigs. Where are those public agencies responsible for that?
+	Criticism on unclear government investigation	Governments’ explanation is clear about why so many dead pigs appeared.
+	Information disclosure	Criticism on public information disclosure	They are talking about nonsense in the official posts.
+	Accountability	Suggestions on accountability	It is a temporary solution. The key is to crack down on the source and shut down the illegal pig farms.
+	Criticism on government insufficient accountability	So many government agencies, so many public employees, yet there is no effective supervision and management. Why do they have to wait to act after something bad happened?
+	Inquiry about accountability	Can “most of the pigs were dead because of cold weather” be sufficient to explain the cause? Who needs to be held accountable?
+
+
+ 
+
+
+ 
+
+[bookmark: tab5]
+	Table 5: Government posts code category.
+	Topic	Code category	Example
+	Water safety	Water quality monitoring	According to current reports from Environment Protection Agency and Department of Water, there is no pollution in the drinking water.
+	Source of contamination	Investigation on the source of dead pigs	The contamination came from the illegal pig farms from the upper stream area according to the preliminary investigation.
+	Investigation on the cause of death	The pigs were dead because of cold weather, not pig disease.
+	Pig farming	Pig disease inspection	The positive rate of porcine circovirus virus was detected from a sample, and all the other samples were negative. According to reports, porcine circovirus disease does not belong to zoonotic disease.
+	Pig farming information	The Zhejiang Provincial Department of Agriculture has said that no swine fever in Zhejiang, more than frozen to death.
+	Food safety	Pork food quality inspection	A special inspection on the supermarket, farmers market, pork retail shop has been carried out. At present, did not find the source of unknown pig products listed on sale.
+	Field response	Progress on dead pig collection	By 3 p.m., 809 pigs were collected from the Huangpu River.
+	Progress on dead pig elimination	The city in recent days stepped up to carry out dead pig collection and harmless disposal in the upper reaches of the Huangpu River.
+	Accountability	Penalty on those who are responsible	Eight pig farmers, indicated by ear tags, were given the following punishment of 3,000 yuan.
+
+
+ 
+
+
+
+
+Editorial history
+
+Received 2 March 2018; accepted 14 March 2018.
+
+
+
+
+
+[image: Creative Commons License]
+This paper is licensed under a Creative Commons Attribution 4.0 International License.
+
+
+Citizens’ use of microblogging and government communication during emergencies: A case study on water contamination in Shanghai
+by Qianli Yuan and Mila Gascó.
+First Monday, Volume 23, Number 4 - 2 April 2018
+http://firstmonday.org/ojs/index.php/fm/article/view/8367/6662
+doi: http://dx.doi.org/10.5210/fm.v23i4.8367
+
+
+
+
+
+		
+
+		
+			
+					[image: Bookmark and Share]
+			
+			
+		
+
+	
+
+		
+
+
+
+
+
+
+
+
+A Great Cities Initiative of the University of Illinois at Chicago University Library.© First Monday, 1995-2018. ISSN 1396-0466.
+
+
+
+
+
+
+
+ 

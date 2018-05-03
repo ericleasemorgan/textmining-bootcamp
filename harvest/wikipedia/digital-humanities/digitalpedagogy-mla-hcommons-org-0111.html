@@ -1,0 +1,1300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if IE 6]>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="ie6">
+<![endif]-->
+<!--[if IE 7]>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="ie7">
+<![endif]-->
+<!--[if IE 8]>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="ie8">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!--<![endif]-->
+
+<head profile="http://gmpg.org/xfn/11">
+
+<!-- title -->
+<title>Digital Pedagogy in the Humanities | MLA Commons</title>
+
+<!-- meta -->
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Concepts, Models, and Experiments" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+<!-- pingbacks -->
+<link rel="pingback" href="https://digitalpedagogy.mla.hcommons.org/xmlrpc.php" />
+
+<!--[if IE 6]>
+<script type='text/javascript'>
+/* <![CDATA[ */
+// set this before wp_head()
+var cp_msie6 = 1;
+/* ]]> */
+</script>
+<![endif]-->
+
+<!-- wp_head -->
+<title>Digital Pedagogy in the Humanities | Concepts, Models, and Experiments</title>
+<link rel='dns-prefetch' href='https://cdnjs.cloudflare.com/' />
+<link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Digital Pedagogy in the Humanities &raquo; Feed" href="https://digitalpedagogy.mla.hcommons.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Digital Pedagogy in the Humanities &raquo; Comments Feed" href="https://digitalpedagogy.mla.hcommons.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Digital Pedagogy in the Humanities &raquo; Welcome Comments Feed" href="https://digitalpedagogy.mla.hcommons.org/welcome/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/digitalpedagogy.mla.hcommons.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bp-legacy-css-css'  href='https://hcommons.org/app/plugins/buddypress/src/bp-templates/bp-legacy/css/buddypress.css?ver=2.9.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='humanities-commons-css'  href='https://hcommons.org/app/plugins/humanities-commons/assets/css/main.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='select2_css-css'  href='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css?ver=022316' type='text/css' media='all' />
+<link rel='stylesheet' id='mla_academic_interests_select2_css-css'  href='https://hcommons.org/app/plugins/mla-academic-interests/assets/css/select2_init.css?ver=120415-1' type='text/css' media='all' />
+<link rel='stylesheet' id='cp_jquery_ui_base-css'  href='https://hcommons.org/app/plugins/commentpress-core/commentpress-core/assets/css/jquery.ui.css?ver=3.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='hc-styles-css'  href='https://hcommons.org/app/plugins/hc-styles/css/badges.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cp_layout_css-css'  href='https://hcommons.org/app/plugins/commentpress-core/themes/commentpress-theme/assets/css/screen-default.min.css?ver=3.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='cp_webfont_css-css'  href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' type='text/css' media='all' />
+<link rel='stylesheet' id='cp_colours_css-css'  href='https://hcommons.org/app/plugins/commentpress-core/themes/commentpress-theme/assets/css/colours-01.min.css?ver=3.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://digitalpedagogy.mla.hcommons.org/wp-includes/css/dashicons.min.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cp_print_css-css'  href='https://hcommons.org/app/plugins/commentpress-core/themes/commentpress-theme/assets/css/print.min.css?ver=3.9.8' type='text/css' media='print' />
+<link rel='stylesheet' id='cpchild_css-css'  href='https://hcommons.org/app/themes/commentpress-mla-digitalpedagogy/assets/css/style-overrides.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-jquery-ui-dialog-css'  href='https://digitalpedagogy.mla.hcommons.org/wp-includes/css/jquery-ui-dialog.min.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bp_event_organiser_css-css'  href='https://hcommons.org/app/plugins/bp-event-organiser/assets/css/bp-event-organiser.css?ver=4.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-core/js/confirm.js?ver=2.9.3'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-core/js/widget-members.js?ver=2.9.3'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-core/js/jquery-query.js?ver=2.9.3'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-core/js/vendor/jquery-cookie.js?ver=2.9.3'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-core/js/vendor/jquery-scroll-to.js?ver=2.9.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_DTheme = {"accepted":"Accepted","close":"Close","comments":"comments","leave_group_confirm":"Are you sure you want to leave this group?","mark_as_fav":"Favorite","my_favs":"My Favorites","rejected":"Rejected","remove_fav":"Remove Favorite","show_all":"Show all","show_all_comments":"Show all comments for this thread","show_x_comments":"Show all comments (%d)","unsaved_changes":"Your profile has unsaved changes. If you leave the page, the changes will be lost.","view":"View"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/buddypress/src/bp-templates/bp-legacy/js/buddypress.js?ver=2.9.3'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/jquery.form.min.js?ver=4.2.1'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CommentpressSettings = {"cp_comments_open":"y","cp_permalink":"https:\/\/digitalpedagogy.mla.hcommons.org\/","cp_wp_adminbar":"n","cp_bp_adminbar":"n","cp_wp_adminbar_height":"28","cp_wp_adminbar_expanded":"0","cp_tinymce":"1","cp_is_mobile":"0","cp_is_touch":"0","cp_touch_testing":"0","cp_is_tablet":"0","cp_tinymce_version":"4","cp_promote_reading":"0","cp_special_page":"0","cp_cookie_path":"\/","cp_multipage_page":"0","cp_toc_chapter_is_page":"1","cp_show_subpages":"1","cp_default_sidebar":"toc","cp_js_scroll_speed":"800","cp_min_page_width":"447","cp_textblock_meta":"1","cp_page_nav_enabled":"1","cp_do_not_parse":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/commentpress-core/commentpress-core/assets/js/jquery.commentpress.min.js?ver=3.9.8'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/commentpress-core/commentpress-core/assets/js/jquery.scrollTo.js?ver=3.9.8'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/commentpress-core/commentpress-core/assets/js/jquery.biscuit.js?ver=3.9.8'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/commentpress-core/commentpress-core/assets/js/jquery.wrap-selection.min.js?ver=3.9.8'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/commentpress-core/commentpress-core/assets/js/jquery.highlighter.min.js?ver=3.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CommentpressTextSelectorSettings = {"popover_textblock":"<span class=\"popover-holder\"><div class=\"popover-holder-inner\"><div class=\"popover-holder-caret\"><\/div><div class=\"popover-holder-btn-left\"><span class=\"popover-holder-btn-left-comment\">Comment<\/span><span class=\"popover-holder-btn-left-quote\">Quote & Comment<\/span><\/div><div class=\"popover-holder-btn-right\">\u00d7<\/div><\/div><\/span>","popover_comment":"<span class=\"comment-popover-holder\"><div class=\"popover-holder-inner\"><div class=\"popover-holder-caret\"><\/div><div class=\"popover-holder-btn-left\"><span class=\"comment-popover-holder-btn-left-quote\">Quote<\/span><\/div><div class=\"popover-holder-btn-right\">\u00d7<\/div><\/div><\/span>","localisation":{"dialog_title":"Are you sure?","dialog_content":"You have not yet submitted your comment. Are you sure you want to discard it?","dialog_yes":"Discard","dialog_no":"Keep","backlink_text":"Back"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/commentpress-core/commentpress-core/assets/js/jquery.texthighlighter.min.js?ver=3.9.8'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/commentpress-core/themes/commentpress-theme/assets/js/cp_js_common.min.js?ver=3.9.8'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/commentpress-core/commentpress-core/assets/js/jquery.commentform.min.js?ver=3.9.8'></script>
+<script type='text/javascript' src='https://hcommons.org/app/themes/commentpress-mla-digitalpedagogy/assets/js/cp-custom.js?ver=4.9.2'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/droppable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CommentpressAjaxSettings = {"cpajax_live":"0","cpajax_ajax_url":"https:\/\/digitalpedagogy.mla.hcommons.org\/wp-admin\/admin-ajax.php","cpajax_spinner_url":"https:\/\/hcommons.org\/app\/plugins\/commentpress-core\/commentpress-ajax\/assets\/images\/loading.gif","cpajax_current_time":"2018-04-11 02:21:06","cpajax_comment_count":"0","cpajax_post_id":"158","cpajax_lang":["Loading...","Please enter your name.","Please enter your email address.","Please enter a valid email address.","Please enter your comment.","Your comment has been added.","AJAX error!","Are you sure?","Are you sure you want to assign the comment and its replies to the textblock? This action cannot be undone.","Submitting...","Please wait while the comments are reassigned. The page will refresh when this has been done.","Comment","Comments"],"cpajax_comment_refresh_interval":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/commentpress-core/commentpress-ajax/assets/js/cp-ajax-comments.min.js?ver=3.9.8'></script>
+<link rel='https://api.w.org/' href='https://digitalpedagogy.mla.hcommons.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://digitalpedagogy.mla.hcommons.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://digitalpedagogy.mla.hcommons.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.2" />
+<link rel="canonical" href="digitalpedagogy-mla-hcommons-org-0111.htm" />
+<link rel='shortlink' href='digitalpedagogy-mla-hcommons-org-0111.htm' />
+<link rel="alternate" type="application/json+oembed" href="https://digitalpedagogy.mla.hcommons.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdigitalpedagogy.mla.hcommons.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://digitalpedagogy.mla.hcommons.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdigitalpedagogy.mla.hcommons.org%2F&#038;format=xml" />
+
+	<script type="text/javascript">var ajaxurl = 'https://digitalpedagogy.mla.hcommons.org/wp-admin/admin-ajax.php';</script>
+
+
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','gaplusu');
+
+                                                            gaplusu('create', 'UA-37482664-1', 'auto');
+                    
+                                        
+                    gaplusu('send', 'pageview');
+                
+                            </script>
+
+		
+<style type="text/css">
+
+#book_header
+{
+	background-color: #2c2622;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+#title h1,
+#title h1 a
+{
+	color: #eeeeee;
+}
+
+#book_header #tagline
+{
+	color: #eeeeee;
+}
+
+</style>
+	
+
+
+<!-- IE stylesheets so we can override anything -->
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="https://hcommons.org/app/plugins/commentpress-core/themes/commentpress-theme/assets/css/ie6.css" media="screen" />
+<![endif]-->
+<!--[if gte IE 7]>
+<link rel="stylesheet" type="text/css" href="https://hcommons.org/app/plugins/commentpress-core/themes/commentpress-theme/assets/css/ie7.css" media="screen" />
+<![endif]-->
+
+	<!-- TypeKit Embed Code --> 
+		<script type="text/javascript" src="https://use.typekit.net/wed8osd.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!-- End TypeKit Embed Code --> 
+
+</head>
+
+
+
+<body class="home-page bp-legacy home page-template-default page page-id-158 cp_sidebar_toc commentable not-groupblog blogtype-0 tinymce-4 society-mla no-js">
+
+
+
+<a class="skip" href="digitalpedagogy-mla-hcommons-org-0111.htm#content">Skip to Content</a>
+<span class="off-left"> | </span>
+<a class="skip" href="digitalpedagogy-mla-hcommons-org-0111.htm#toc_list">Skip to Table of Contents</a><!-- /skip_links -->
+
+
+
+<div id="book_header">
+	
+	<div id="titlewrap">
+ 
+ <a href="https://mla.hcommons.org" id="logowrap"><img src="https://hcommons.org/app/themes/commentpress-mla-digitalpedagogy/assets/images/mla-commons-logo.png" alt="Return to the MLA Commons" /></a>
+				<div id="page_title">
+		<div id="title"><h1><a href="digitalpedagogy-mla-hcommons-org-0111.htm" title="Home">Digital Pedagogy in the Humanities</a></h1></div>
+		<div id="tagline">Concepts, Models, and Experiments</div>
+		</div>
+	</div>
+	
+	<div id="book_search">
+		<!-- searchform.php -->
+<form method="get" id="searchform" action="digitalpedagogy-mla-hcommons-org-0111.htm">
+
+<label for="s">Search for:</label>
+
+<input type="text" value="" name="s" id="s" />
+
+<input type="submit" id="searchsubmit" value="Search" />
+
+</form>
+
+	</div><!-- /book_search -->
+	
+	<!-- user_links.php -->
+
+<div id="user_links">
+
+<ul>
+<li><a id="btn_login" class="button" class="css_btn" href="https://digitalpedagogy.mla.hcommons.org/wp-login.php?action=shibboleth">Log in</a></li>
+</ul>
+</div>
+
+<!-- /user_links.php -->
+
+
+
+	
+</div><!-- /book_header -->
+
+
+
+<div id="header">
+
+	<!-- navigation.php -->
+
+<div id="book_nav">
+
+
+
+<div id="book_nav_wrapper">
+
+
+
+<div id="cp_book_nav">
+
+<ul>
+			
+<li class="alignright"><a href="https://digitalpedagogy.mla.hcommons.org/description/" id="next_page" class="css_btn" title="Next page">Next page</a> </li>
+		</ul>
+		<div id="cp_book_info"><p>Welcome</p></div>
+	
+</div><!-- /cp_book_nav -->
+
+
+
+<ul id="nav">
+	<li><a href="https://mla.hcommons.org/" id="btn_home" class="css_btn" title="Site Home Page">Site Home Page</a></li><li><a href="digitalpedagogy-mla-hcommons-org-0111.htm" id="btn_cover" class="css_btn" title="Title Page">Title Page</a></li><li><a href="https://digitalpedagogy.mla.hcommons.org/general-comments/" id="btn_general" class="css_btn" title="General Comments">General Comments</a></li>
+<li><a href="https://digitalpedagogy.mla.hcommons.org/all-comments/" id="btn_allcomments" class="css_btn" title="All Comments">All Comments</a></li>
+<li><a href="https://digitalpedagogy.mla.hcommons.org/comments-by-commenter/" id="btn_members" class="css_btn" title="Comments by Commenter">Comments by Commenter</a></li>
+<li><a href="digitalpedagogy-mla-hcommons-org-0111.htm" id="btn_blog" class="css_btn" title="Blog">Blog</a></li>
+<li><a href="digitalpedagogy-mla-hcommons-org-0111.htm" id="btn_archive" class="css_btn" title="Blog Archive">Blog Archive</a></li>
+</ul>
+
+
+
+<ul id="minimiser_trigger">
+	<li><a href="digitalpedagogy-mla-hcommons-org-0111.htm#" id="btn_header_min" class="css_btn" title="Minimise Header">Minimise Header</a></li>
+</ul>
+
+
+
+</div><!-- /book_nav_wrapper -->
+
+
+
+</div><!-- /book_nav -->
+
+
+
+
+</div><!-- /header -->
+
+
+
+
+
+
+<div id="container">
+
+
+
+
+
+<!-- page.php -->
+
+<div id="wrapper">
+
+
+
+<div id="main_wrapper" class="clearfix">
+
+
+
+<div id="page_wrapper">
+
+
+
+<div id="content">
+
+
+
+
+
+
+<div class="post" id="post-158">
+
+
+
+		<h2 class="post_title"><a href="digitalpedagogy-mla-hcommons-org-0111.htm">Welcome</a></h2>
+
+
+
+		<div class="search_meta" style="display: none;">
+		<img alt='' src='https://hcommons.org/app/uploads/avatars/160/5a20a1912fbfa-bpthumb.jpg' srcset='https://hcommons.org/app/uploads/avatars/160/5a20a191180e7-bpfull.jpg 2x' class='avatar avatar-32 photo' height='32' width='32' />
+		<cite class="fn"><a href="https://mla.hcommons.org/members/agibson/">Angela Gibson</a></cite>
+
+		<p><a href="digitalpedagogy-mla-hcommons-org-0111.htm">Thursday, July 2nd, 2015</a></p>
+
+			</div>
+
+
+
+	<p class="textblock" id="textblock-pWttoprsfeDPiHCMaEaccorrpahsdbMLA"><span class="para_marker"><a class="textblock_permalink" id="pWttoprsfeDPiHCMaEaccorrpahsdbMLA" href="digitalpedagogy-mla-hcommons-org-0111.htm#pWttoprsfeDPiHCMaEaccorrpahsdbMLA" title="Permalink for paragraph 1">&para; <span>1</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="digitalpedagogy-mla-hcommons-org-0111.htm#pWttoprsfeDPiHCMaEaccorrpahsdbMLA" title="Leave a comment on paragraph 1">Leave a comment on paragraph 1</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+Welcome to the open peer-review site for <em>Digital Pedagogy in the Humanities: Concepts, Models, and Experiments</em>, a curated collection of reusable and remixable pedagogical artifacts for humanities scholars in development by the Modern Language Association.</p>
+<p class="textblock" id="textblock-pEketysotrcotsicbaepdpwbcapcatptsasaspelpswdfccpahTaaalrmffrTcpuCCBNltecerop"><span class="para_marker"><a class="textblock_permalink" id="pEketysotrcotsicbaepdpwbcapcatptsasaspelpswdfccpahTaaalrmffrTcpuCCBNltecerop" href="digitalpedagogy-mla-hcommons-org-0111.htm#pEketysotrcotsicbaepdpwbcapcatptsasaspelpswdfccpahTaaalrmffrTcpuCCBNltecerop" title="Permalink for paragraph 2">&para; <span>2</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="digitalpedagogy-mla-hcommons-org-0111.htm#pEketysotrcotsicbaepdpwbcapcatptsasaspelpswdfccpahTaaalrmffrTcpuCCBNltecerop" title="Leave a comment on paragraph 2">Leave a comment on paragraph 2</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+Each keyword entry that you see on the right column of this site is curated by an experienced practitioner of digital pedagogy, who briefly contextualizes a pedagogical concept and then provides ten supporting artifacts, such as syllabi, prompts, exercises, lesson plans, and student work drawn from courses, classrooms, and projects across the humanities. These artifacts are annotated and accompanied by lists of related materials for further reading. The collection is published under a Creative Commons BY-NC license to encourage circulation, editing, and repurposing by other practitioners.</p>
+<p class="textblock" id="textblock-pEfkwctpwicupprNbaibtWiytrtareotewwffawrpaaleWcopcf"><span class="para_marker"><a class="textblock_permalink" id="pEfkwctpwicupprNbaibtWiytrtareotewwffawrpaaleWcopcf" href="digitalpedagogy-mla-hcommons-org-0111.htm#pEfkwctpwicupprNbaibtWiytrtareotewwffawrpaaleWcopcf" title="Permalink for paragraph 3">&para; <span>3</span></a></span>
+<span class="commenticonbox"><a class="para_permalink has_comments" href="digitalpedagogy-mla-hcommons-org-0111.htm#pEfkwctpwicupprNbaibtWiytrtareotewwffawrpaaleWcopcf" title="Leave a comment on paragraph 3">Leave a comment on paragraph 3</a> <small class="comment_count" title="There is 1 comment written for this paragraph">1</small></span>
+Eventually, fifty keywords will compose the project, which is currently undergoing public peer review. New keywords will be added in batches throughout 2016. We invite you to read through and respond to each of these entries, and we welcome feedback from a wide range of practitioners at all levels of experience. When commenting on keywords, please consider the following:</p>
+<ol class="textblock" id="textblock-olCocssItrcDabifpcSapDkpabrsAtawtamgtsbaAwspfsiiedpw" start="0"><li class="list_commenticon"><span class="para_marker"><a class="textblock_permalink" id="olCocssItrcDabifpcSapDkpabrsAtawtamgtsbaAwspfsiiedpw" href="digitalpedagogy-mla-hcommons-org-0111.htm#olCocssItrcDabifpcSapDkpabrsAtawtamgtsbaAwspfsiiedpw" title="Permalink for paragraph 4">&para; <span>4</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="digitalpedagogy-mla-hcommons-org-0111.htm#olCocssItrcDabifpcSapDkpabrsAtawtamgtsbaAwspfsiiedpw" title="Leave a comment on paragraph 4">Leave a comment on paragraph 4</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+</li>
+<li>Clarity of curator&#8217;s statement: Is the curator&#8217;s rationale clear? Do the artifacts below it fulfill the promises of the curatorial statement?</li>
+<li>Selection and presentation of artifacts: Does the keyword provide a broad range of sample artifacts? Are those artifacts annotated well? Are there any major gaps that should be addressed?</li>
+<li>Applicability: Does the keyword provide a wide range of starting points for a scholar interested in engaging in digital pedagogy work?</li>
+</ol>
+<p class="textblock" id="textblock-pWamcwhyljtMabpoeCc"><span class="para_marker"><a class="textblock_permalink" id="pWamcwhyljtMabpoeCc" href="digitalpedagogy-mla-hcommons-org-0111.htm#pWamcwhyljtMabpoeCc" title="Permalink for paragraph 5">&para; <span>5</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="digitalpedagogy-mla-hcommons-org-0111.htm#pWamcwhyljtMabpoeCc" title="Leave a comment on paragraph 5">Leave a comment on paragraph 5</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+While anyone may comment, we hope you&#8217;ll join the MLA and become part of the <em>Commons</em> community.</p>
+<p class="textblock" id="textblock-pTyiafyfPvoahhtcpihfqatp"><span class="para_marker"><a class="textblock_permalink" id="pTyiafyfPvoahhtcpihfqatp" href="digitalpedagogy-mla-hcommons-org-0111.htm#pTyiafyfPvoahhtcpihfqatp" title="Permalink for paragraph 6">&para; <span>6</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="digitalpedagogy-mla-hcommons-org-0111.htm#pTyiafyfPvoahhtcpihfqatp" title="Leave a comment on paragraph 6">Leave a comment on paragraph 6</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+Thank you in advance for your feedback. Please visit our <a href="https://digitalpedagogy.mla.hcommons.org/how-to-comment">how to comment</a> page if you have further questions about the process.</p>
+
+
+
+	
+
+
+	
+
+
+	<div class="running_header_bottom">Page <span class="page_num_bottom">1</span></div>
+
+
+</div><!-- /post -->
+
+
+
+
+
+
+</div><!-- /content -->
+
+
+
+</div><!-- /page_wrapper -->
+
+
+
+</div><!-- /main_wrapper -->
+
+
+
+</div><!-- /wrapper -->
+
+
+
+<!-- sidebar.php -->
+
+<div id="sidebar">
+
+<div id="sidebar_inner">
+
+
+
+<ul id="sidebar_tabs">
+
+<li id="toc_header" class="sidebar_header">
+<h2><a href="digitalpedagogy-mla-hcommons-org-0111.htm#toc_sidebar">Contents</a></h2>
+</li>
+<li id="comments_header" class="sidebar_header">
+<h2><a href="digitalpedagogy-mla-hcommons-org-0111.htm#comments_sidebar">Comments</a></h2>
+<span id="cp_minimise_all_comments" title="Minimise all Comment Sections"></span></li>
+
+	<li id="activity_header" class="sidebar_header">
+	<h2><a href="digitalpedagogy-mla-hcommons-org-0111.htm#activity_sidebar">Activity</a></h2>
+	<span id="cp_minimise_all_activity" title="Minimise all Activity Sections"></span>	</li>
+	
+</ul>
+
+
+
+<!-- comments_sidebar.php -->
+
+<div id="comments_sidebar" class="sidebar_container no_comments">
+
+
+
+<div class="sidebar_header">
+
+<h2>Comments</h2>
+
+</div>
+
+
+
+<div class="sidebar_minimiser">
+
+
+
+
+<!-- comments_by_para.php -->
+
+<div class="sidebar_contents_wrapper">
+
+
+
+<div class="comments_container">
+
+
+
+
+<h3 id="para_heading-"><a class="comment_block_permalink" title="Permalink for comments on the whole Page" href="digitalpedagogy-mla-hcommons-org-0111.htm#para_heading-"><span class="cp_comment_num">1</span> <span class="cp_comment_word">Comment</span> on <span class="source_block">the whole Page</span></a></h3>
+
+<div id="para_wrapper-" class="paragraph_wrapper">
+
+<ol class="commentlist">
+
+
+<li id="li-comment-2722" class="comment even thread-even depth-1">
+<div class="comment-wrapper">
+<div id="comment-2722">
+
+
+
+<div class="comment-identifier">
+
+<img alt='' src='https://secure.gravatar.com/avatar/6def4e819c515c97be3d1d773b52d82a?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/6def4e819c515c97be3d1d773b52d82a?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+
+<cite class="fn">Www.Bbkshopping.com</cite>
+<a class="comment_permalink" href="digitalpedagogy-mla-hcommons-org-0111.htm#comment-2722" title="Permalink for this comment"><span class="comment_permalink_copy"></span>November 20, 2017 at 9:12 pm</a>
+
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p><em>Comment awaiting moderation</em></p>
+
+</div><!-- /comment-content -->
+
+
+
+
+
+
+
+</div><!-- /comment-2722 -->
+</div><!-- /comment-wrapper -->
+</li><!-- #comment-## -->
+</ol>
+
+<div class="reply_to_para" id="reply_to_para-">
+<p><a class="reply_to_para" href="https://digitalpedagogy.mla.hcommons.org/?replytopara#respond" onclick="return addComment.moveFormToPara( '', '', '158' )">Leave a comment on the whole Page</a></p>
+</div>
+
+</div>
+
+
+
+<h3 id="para_heading-pWttoprsfeDPiHCMaEaccorrpahsdbMLA" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 1" href="digitalpedagogy-mla-hcommons-org-0111.htm#para_heading-pWttoprsfeDPiHCMaEaccorrpahsdbMLA"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 1</span></a></h3>
+
+<div id="para_wrapper-pWttoprsfeDPiHCMaEaccorrpahsdbMLA" class="paragraph_wrapper no_comments">
+
+<div class="reply_to_para" id="reply_to_para-1">
+<p><a class="reply_to_para" href="https://digitalpedagogy.mla.hcommons.org/?replytopara=1#respond" onclick="return addComment.moveFormToPara( '1', 'pWttoprsfeDPiHCMaEaccorrpahsdbMLA', '158' )">Leave a comment on paragraph 1</a></p>
+</div>
+
+</div>
+
+
+
+<h3 id="para_heading-pEketysotrcotsicbaepdpwbcapcatptsasaspelpswdfccpahTaaalrmffrTcpuCCBNltecerop" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 2" href="digitalpedagogy-mla-hcommons-org-0111.htm#para_heading-pEketysotrcotsicbaepdpwbcapcatptsasaspelpswdfccpahTaaalrmffrTcpuCCBNltecerop"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 2</span></a></h3>
+
+<div id="para_wrapper-pEketysotrcotsicbaepdpwbcapcatptsasaspelpswdfccpahTaaalrmffrTcpuCCBNltecerop" class="paragraph_wrapper no_comments">
+
+<div class="reply_to_para" id="reply_to_para-2">
+<p><a class="reply_to_para" href="https://digitalpedagogy.mla.hcommons.org/?replytopara=2#respond" onclick="return addComment.moveFormToPara( '2', 'pEketysotrcotsicbaepdpwbcapcatptsasaspelpswdfccpahTaaalrmffrTcpuCCBNltecerop', '158' )">Leave a comment on paragraph 2</a></p>
+</div>
+
+</div>
+
+
+
+<h3 id="para_heading-pEfkwctpwicupprNbaibtWiytrtareotewwffawrpaaleWcopcf"><a class="comment_block_permalink" title="Permalink for comments on paragraph 3" href="digitalpedagogy-mla-hcommons-org-0111.htm#para_heading-pEfkwctpwicupprNbaibtWiytrtareotewwffawrpaaleWcopcf"><span class="cp_comment_num">1</span> <span class="cp_comment_word">Comment</span> on <span class="source_block">paragraph 3</span></a></h3>
+
+<div id="para_wrapper-pEfkwctpwicupprNbaibtWiytrtareotewwffawrpaaleWcopcf" class="paragraph_wrapper">
+
+<ol class="commentlist">
+
+
+<li id="li-comment-2431" class="comment even thread-even depth-1">
+<div class="comment-wrapper">
+<div id="comment-2431">
+
+
+
+<div class="comment-identifier">
+
+<img alt='' src='https://secure.gravatar.com/avatar/4047975595040a88699da8ffbcca4eca?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/4047975595040a88699da8ffbcca4eca?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+
+<cite class="fn">Vimala Pasupathi</cite>
+<a class="comment_permalink" href="digitalpedagogy-mla-hcommons-org-0111.htm#comment-2431" title="Permalink for this comment"><span class="comment_permalink_copy"></span>August 8, 2017 at 10:36 am</a>
+
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p><em>Comment awaiting moderation</em></p>
+
+</div><!-- /comment-content -->
+
+
+
+
+
+
+
+</div><!-- /comment-2431 -->
+</div><!-- /comment-wrapper -->
+</li><!-- #comment-## -->
+</ol>
+
+<div class="reply_to_para" id="reply_to_para-3">
+<p><a class="reply_to_para" href="https://digitalpedagogy.mla.hcommons.org/?replytopara=3#respond" onclick="return addComment.moveFormToPara( '3', 'pEfkwctpwicupprNbaibtWiytrtareotewwffawrpaaleWcopcf', '158' )">Leave a comment on paragraph 3</a></p>
+</div>
+
+</div>
+
+
+
+<h3 id="para_heading-olCocssItrcDabifpcSapDkpabrsAtawtamgtsbaAwspfsiiedpw" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 4" href="digitalpedagogy-mla-hcommons-org-0111.htm#para_heading-olCocssItrcDabifpcSapDkpabrsAtawtamgtsbaAwspfsiiedpw"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 4</span></a></h3>
+
+<div id="para_wrapper-olCocssItrcDabifpcSapDkpabrsAtawtamgtsbaAwspfsiiedpw" class="paragraph_wrapper no_comments">
+
+<div class="reply_to_para" id="reply_to_para-4">
+<p><a class="reply_to_para" href="https://digitalpedagogy.mla.hcommons.org/?replytopara=4#respond" onclick="return addComment.moveFormToPara( '4', 'olCocssItrcDabifpcSapDkpabrsAtawtamgtsbaAwspfsiiedpw', '158' )">Leave a comment on paragraph 4</a></p>
+</div>
+
+</div>
+
+
+
+<h3 id="para_heading-pWamcwhyljtMabpoeCc" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 5" href="digitalpedagogy-mla-hcommons-org-0111.htm#para_heading-pWamcwhyljtMabpoeCc"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 5</span></a></h3>
+
+<div id="para_wrapper-pWamcwhyljtMabpoeCc" class="paragraph_wrapper no_comments">
+
+<div class="reply_to_para" id="reply_to_para-5">
+<p><a class="reply_to_para" href="https://digitalpedagogy.mla.hcommons.org/?replytopara=5#respond" onclick="return addComment.moveFormToPara( '5', 'pWamcwhyljtMabpoeCc', '158' )">Leave a comment on paragraph 5</a></p>
+</div>
+
+</div>
+
+
+
+<h3 id="para_heading-pTyiafyfPvoahhtcpihfqatp" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 6" href="digitalpedagogy-mla-hcommons-org-0111.htm#para_heading-pTyiafyfPvoahhtcpihfqatp"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 6</span></a></h3>
+
+<div id="para_wrapper-pTyiafyfPvoahhtcpihfqatp" class="paragraph_wrapper no_comments">
+
+<div class="reply_to_para" id="reply_to_para-6">
+<p><a class="reply_to_para" href="https://digitalpedagogy.mla.hcommons.org/?replytopara=6#respond" onclick="return addComment.moveFormToPara( '6', 'pTyiafyfPvoahhtcpihfqatp', '158' )">Leave a comment on paragraph 6</a></p>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- comment_form.php -->
+
+
+
+
+<div id="respond_wrapper">
+
+
+
+<div id="respond">
+
+
+
+<div class="cancel-comment-reply">
+	<p><a rel="nofollow" id="cancel-comment-reply-link" href="digitalpedagogy-mla-hcommons-org-0111.htm#respond" style="display:none;">Cancel</a></p>
+</div>
+
+
+
+<h4 id="respond_title">Leave a Comment</h4>
+
+
+	
+		<form action="https://digitalpedagogy.mla.hcommons.org/wp-comments-post.php" method="post" id="commentform">
+
+		<fieldset id="author_details">
+
+			<legend class="off-left">Your details</legend>
+
+			
+				<p><label for="author"><small>Name <span class="req">(required)</span></small></label><br />
+				<input type="text" name="author" id="author" value="" size="30" aria-required="true" /></p>
+
+				<p><label for="email"><small>Mail (will not be published) <span class="req">(required)</span></small></label><br />
+				<input type="text" name="email" id="email" value="" size="30" aria-required="true" /></p>
+
+				<p class="author_not_logged_in"><label for="url"><small>Website</small></label><br />
+				<input type="text" name="url" id="url" value="" size="30" /></p>
+
+			
+		</fieldset>
+
+		<fieldset id="comment_details">
+
+			<legend class="off-left">Your comment</legend>
+
+			<label for="comment" class="off-left">Comment</label>
+			<div id="wp-comment-wrap" class="wp-core-ui wp-editor-wrap html-active"><link rel='stylesheet' id='editor-buttons-css'  href='https://digitalpedagogy.mla.hcommons.org/wp-includes/css/editor.min.css?ver=4.9.2' type='text/css' media='all' />
+<div id="wp-comment-editor-container" class="wp-editor-container"><div id="qt_comment_toolbar" class="quicktags-toolbar"></div><textarea class="wp-editor-area" rows="10" cols="40" name="comment" id="comment"></textarea></div>
+</div>
+
+
+		</fieldset>
+
+		
+		<input type='hidden' name='comment_post_ID' value='158' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+<input type="hidden" name="text_signature" value="" id="text_signature" />
+<input type="hidden" name="page" value="1" />
+
+		
+		<p id="respond_button"><input name="submit" type="submit" id="submit" value="Submit Comment" /></p>
+
+		<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="6419e94153" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="200"/></p>
+		</form>
+
+		
+
+
+
+</div><!-- /respond -->
+
+
+
+</div><!-- /respond_wrapper -->
+
+
+
+
+
+
+
+
+
+</div><!-- /comments_container -->
+
+
+
+</div><!-- /sidebar_contents_wrapper -->
+
+
+
+
+</div><!-- /sidebar_minimiser -->
+
+
+
+</div><!-- /comments_sidebar -->
+
+
+
+<!-- toc_sidebar.php -->
+
+<div id="toc_sidebar" class="sidebar_container">
+
+
+
+<div class="sidebar_header">
+
+<h2>Table of Contents</h2>
+
+</div>
+
+
+
+<div class="sidebar_minimiser">
+
+<div class="sidebar_contents_wrapper">
+
+<ul id="toc_list">
+
+	<li class="page"><a href="digitalpedagogy-mla-hcommons-org-0111.htm">Welcome</a></li><li class="page"><a href="https://digitalpedagogy.mla.hcommons.org/description/">Description</a></li><li class="page"><a href="https://digitalpedagogy.mla.hcommons.org/how-to-comment/">How to Comment</a></li><li class="page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/">Keywords</a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/access/">Access (George H. Williams) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/affect/">Affect (Elizabeth Losh) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/annotation/">Annotation (Paul Schacht) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/archive/">Archive (Lauren Coats and Gabrielle Dean) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/assessment/">Assessment (J. Elizabeth Clark) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/authorship/">Authorship (Augusta Rohrbach) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/blogging/">Blogging (Diane K. Jakacki) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/classroom/">Classroom (Joyce R. Walker) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/code/">Code (Lauren Klein) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/collaboration/">Collaboration (Amanda Licastro, Katina Rogers, and Danica Savonick) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/community/">Community (Bridget Draxler and Jon Winet) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/community-college/">Community College (Anne B. McGrail, Dominique Zino, Jaime Cardenas, and Bethany Holmstrom) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/curation/">Curation (Julia Flanders) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/design/">Design (Jennifer Sheppard and Kristin L. Arola) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/diaspora/">Diaspora (Jessica Marie Johnson) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/digital-divides/">Digital Divides (Annemarie Perez) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/disability/">Disability (Melanie Yergeau) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/eportfolio/">ePortfolio (Kathleen Blake Yancey) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/failure/">Failure (Brian Croxall and Quinn Warnick) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/fiction/">Fiction (Chris Forster) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/fieldwork/">Fieldwork (Colette Colligan and Michelle Levy) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/futures/">Future(s) (André Carrington) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/gaming/">Gaming (Amanda Phillips) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/gender/">Gender (Anne Cong-Huyen) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/hacking/">Hacking (William J. Turkel) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/hashtag/">Hashtag (Marisa Parham) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/history/">History (Shawn Graham) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/hybrid/">Hybrid (Jesse Stommel) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/indigenous/">Indigenous (David Gaertner, Karyn Recollet, Elizabeth LaPensée) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/information/">Information (Tanya E. Clement and Daniel Carter) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/interface/">Interface (Kathi Inman Berens) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/intersectionality/">Intersectionality (Roopika Risam) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/iteration/">Iteration (Annette Vee) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/labor/">Labor (Spencer D.C. Keralis) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/language-learning/">Language Learning (Ana Oskoz) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/makerspaces/">Makerspaces (David M. Rieder and Jessica Elam-Handloff) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/mapping/">Mapping (Diana S. Sinton) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/multimodal/">Multimodal (Virginia Kuhn) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/network/">Network (Maha Bali and Mia Zamora) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/online/">Online (Amy Collier) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/open/">Open (Michael Roy) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/play/">Play (Mark Sample) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/poetry/">Poetry (Chuck Rybak) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/praxis/">Praxis (Bethany Nowviskie, Jeremy Boggs, and J. K. Purdom Lindblad) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/professionalization/">Professionalization (Jennifer Guiliano) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/project-management/">Project Management (Lynne Siemens) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/prototype/">Prototype (Stan Ruecker, Celso Scaletsky, Guilherme Meyer, Chiara Del Gaudio, Piotr Michura, and Gerry Derksen) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/public/">Public (Jeffrey W. McClurken) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/queer/">Queer (Edmond Y. Chang) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/race/">Race (Adeline Koh) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/reading/">Reading (Rachel Sagner Buurma) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/remix/">Remix (Kim Middleton) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/rhetoric/">Rhetoric (Douglas Eyman) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/sexuality/">Sexuality (Alexis Lothian) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/social-justice/">Social Justice (Toniesha Taylor) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/sound/">Sound (Steph Ceraso) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/storytelling/">Storytelling (Bryan Alexander) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/text-analysis/">Text Analysis (Natalie M. Houston) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/video/">Video (Daniel Anderson and Jason Loan) </a></li><li class="child-page"><a href="https://digitalpedagogy.mla.hcommons.org/keywords/visualization/">Visualization (Stéfan Sinclair and Geoffrey Rockwell) </a></li></ul>
+	
+</div><!-- /sidebar_contents_wrapper -->
+
+</div><!-- /sidebar_minimiser -->
+
+
+
+</div><!-- /toc_sidebar -->
+
+
+
+<!-- activity_sidebar.php -->
+
+<div id="activity_sidebar" class="sidebar_container">
+
+
+
+<div class="sidebar_header">
+
+<h2>Activity</h2>
+
+</div>
+
+
+
+<div class="sidebar_minimiser">
+
+<div class="sidebar_contents_wrapper">
+
+<div class="comments_container">
+
+
+
+
+
+
+<h3 class="activity_heading">Recent Comments in this Document</h3>
+
+<div class="paragraph_wrapper all_comments_output">
+
+<ol class="comment_activity">
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+<img alt='' src='https://secure.gravatar.com/avatar/50b8441f1c0190ffe91eceef87dcc114?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/50b8441f1c0190ffe91eceef87dcc114?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+<cite class="fn">Polina Vinogradova</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/language-learning/#comment-1909">February 8, 2017 at 12:24 pm</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>Ana, when you write &#8220;reject a negative identity,&#8221; do you mean negative self-view or view of themselves? It might be useful to clarify this as some identity scholars argue that we don&#8217;t have multiple identities, but rather multiple layers and aspects of our identities.</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/language-learning/#comment-1909">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+<img alt='' src='https://secure.gravatar.com/avatar/c776b3faf912ffb6f93e71695f19819a?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c776b3faf912ffb6f93e71695f19819a?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+<cite class="fn">Philippe Seminet</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/language-learning/#comment-1907">February 7, 2017 at 6:53 pm</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>One further artifact that might fit the bill nicely with what you have provided below, even though it has been around for a decade or more, is the use of Second Life for language learning purposes, as this short piece in Omniglot attests: <a href="http://www.omniglot.com/language/articles/secondlife.php" rel="nofollow">http://www.omniglot.com/language/articles/secondlife.php</a></p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/language-learning/#comment-1907">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+<img alt='' src='https://secure.gravatar.com/avatar/50b8441f1c0190ffe91eceef87dcc114?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/50b8441f1c0190ffe91eceef87dcc114?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+<cite class="fn">Polina Vinogradova</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/language-learning/#comment-1906">February 7, 2017 at 6:51 pm</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>Ana, you certainly make a clear connection between communicative competence and the availability of digital tools for language learning in paragraph 6. But I am wondering if it might be useful to redefine communicative competence here adding multiliteracies component (the ability to critically interpret and convey multimodal messages). There seems to be a bit of a disconnect here right now between the definition of communicative competence that language learning relies on and further discussion of resourcefulness and usefulness of digital tools. I think it would strengthen the argument.</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/language-learning/#comment-1906">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+<img alt='' src='https://secure.gravatar.com/avatar/c776b3faf912ffb6f93e71695f19819a?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c776b3faf912ffb6f93e71695f19819a?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+<cite class="fn">Philippe Seminet</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/language-learning/#comment-1905">February 7, 2017 at 6:49 pm</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>While I agree on the whole with the move beyond linguistic elements given the awesome technology available (great artifacts provided in this piece!), I do find problematic the notion that language-learning is not about grammar. While true for L1, I don&#8217;t see why you&#8217;d avoid explaining past tenses in L2 without referring to how it&#8217;s done in L1. Why not use that resource? Yes, the goal is communication, but grammar provides the shorthand whereby you can more readily communicate the desired meaning.</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/language-learning/#comment-1905">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+<img alt='' src='https://secure.gravatar.com/avatar/b50c3d6e74cb6bc0cca695202f9f276e?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/b50c3d6e74cb6bc0cca695202f9f276e?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+<cite class="fn">Kathryn Tomasek</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/curation/#comment-1904">February 7, 2017 at 3:45 pm</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>Hi Julia,</p>
+<p>Thank you for including us as an example. Beyond that, I appreciate the variety of examples offered here, since they offer an idea of the range of possibilities with regard to disciplines and tools that might be used in curation assignments. I also appreciate the range of educational levels covered in the examples.</p>
+<p>&nbsp;</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/curation/#comment-1904">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+<img alt='' src='https://secure.gravatar.com/avatar/c5375aa581ea48bbc8c29d425ec30650?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c5375aa581ea48bbc8c29d425ec30650?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+<cite class="fn">John Martin</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/labor/#comment-1903">February 7, 2017 at 3:39 pm</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>I could see this being taught alongside Melville&#8217;s &#8220;The Paradise of Bachelors and the Tartarus of Maids&#8221; or Laurel Thatcher Ulrich&#8217;s <em>A Midwife&#8217;s Tale</em> in a course devoted to the history of unseen women&#8217;s labor.</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/labor/#comment-1903">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+<img alt='' src='https://secure.gravatar.com/avatar/9449f3b8f65873ef62a073ffecc57124?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/9449f3b8f65873ef62a073ffecc57124?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+<cite class="fn">Truett Cates</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/language-learning/#comment-1902">February 7, 2017 at 3:35 pm</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>perhaps better than &#8220;pure linguistic&#8221; would be &#8220;simply morphological&#8221;. since there is no aspect of language not included in &#8220;linguistic.&#8221;</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/language-learning/#comment-1902">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+<img alt='' src='https://secure.gravatar.com/avatar/c5375aa581ea48bbc8c29d425ec30650?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c5375aa581ea48bbc8c29d425ec30650?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+<cite class="fn">John Martin</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/authorship/#comment-1901">February 7, 2017 at 3:30 pm</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>This might also be paired with a visit from a Copyright Librarian or other staff member with special expertise in current copyright law, author&#8217;s rights, publisher agreements, etc., to allow students to put these discussions into a contemporary setting that might be relevant to those who wish to author or publish their own works.</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/authorship/#comment-1901">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+<img alt='' src='https://secure.gravatar.com/avatar/c5375aa581ea48bbc8c29d425ec30650?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c5375aa581ea48bbc8c29d425ec30650?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+<cite class="fn">John Martin</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/authorship/#comment-1899">February 7, 2017 at 3:23 pm</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>I&#8217;d be curious to hear more about how this complicating and questioning of the notion of &#8220;authorship&#8221; also impacts the notion of &#8220;authority.&#8221;  This is the only paragraph that overtly mentions them together, but in moving away from the notion of the individual genius composing in isolation towards (or back to) more collective, collaborative, and even unintentional or multi-intentional forms of authorship, what are the implications for literary or interpretive authority?</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/authorship/#comment-1899">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+<img alt='' src='https://secure.gravatar.com/avatar/c5375aa581ea48bbc8c29d425ec30650?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c5375aa581ea48bbc8c29d425ec30650?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' />
+<cite class="fn">John Martin</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/labor/#comment-1898">February 7, 2017 at 12:56 pm</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>Do any of the resources below, or the possible assignments using these resources, attempt to measure the actual economic value or impact of digital labor? While this is probably a fluid and relative value, is it possible for students to look at various ways of measuring and attributing economic value, either in terms of &#8220;fair wages&#8221; or just being able to articulate such value when dealing with institutions, funding agencies, grant applications, budgeting, etc.?</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="https://digitalpedagogy.mla.hcommons.org/keywords/labor/#comment-1898">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+</ol><!-- /comment_activity -->
+
+
+</div>
+
+
+		<h3 class="activity_heading">Recently Active Members</h3>
+
+		<div class="paragraph_wrapper active_members_output">
+
+		<ul class="item-list cp-recently-active">
+
+		
+			<li>
+
+				<div class="item-avatar">
+					<a href="https://mla.hcommons.org/members/mridleyelmes/"><img src="https://hcommons.org/app/uploads/avatars/6518/5a5235cc64366-bpthumb.jpg" class="avatar user-6518-avatar avatar-50 photo" width="50" height="50" alt="Profile picture of Melissa Ridley Elmes" /></a>
+				</div>
+
+				<div class="item">
+
+					<div class="item-title">
+						<a href="https://mla.hcommons.org/members/mridleyelmes/">Melissa Ridley Elmes</a>
+					</div>
+
+					<div class="item-meta"><span class="activity">active 13 minutes ago</span></div>
+
+				</div>
+
+				<div class="clear"></div>
+
+			</li>
+
+		
+		</ul>
+
+		</div>
+
+	
+
+
+	
+		<h3 class="activity_heading">Who's Online</h3>
+
+		<div class="paragraph_wrapper online_members_output">
+
+		<ul class="item-list cp-online-members">
+
+		
+			<li>
+
+				<div class="item-avatar">
+					<a href="https://mla.hcommons.org/members/mridleyelmes/"><img src="https://hcommons.org/app/uploads/avatars/6518/5a5235cc64366-bpthumb.jpg" class="avatar user-6518-avatar avatar-50 photo" width="50" height="50" alt="Profile picture of Melissa Ridley Elmes" /></a>
+				</div>
+
+				<div class="item">
+
+					<div class="item-title">
+						<a href="https://mla.hcommons.org/members/mridleyelmes/">Melissa Ridley Elmes</a>
+					</div>
+
+					<div class="item-meta"><span class="activity">active 13 minutes ago</span></div>
+
+				</div>
+
+				<div class="clear"></div>
+
+			</li>
+
+		
+		</ul>
+
+		</div>
+
+	
+
+	
+
+
+
+
+
+
+</div><!-- /comments_container -->
+
+</div><!-- /sidebar_contents_wrapper -->
+
+</div><!-- /sidebar_minimiser -->
+
+
+
+</div><!-- /activity_sidebar -->
+
+
+
+
+
+
+</div><!-- /sidebar_inner -->
+
+</div><!-- /sidebar -->
+
+
+
+
+
+
+<!-- footer.php -->
+
+<div id="footer" class="clearfix">
+
+<div id="footer_inner">
+
+	
+			<p><strong>Modern Language Association</strong><br>
+			85 Broad Street, suite 500<br>
+			New York, NY 10004-2434</p>
+
+			
+</div><!-- /footer_inner -->
+
+</div><!-- /footer -->
+
+
+
+</div><!-- /container -->
+
+
+
+<div id="hcommons-network-footer" style="background-color: white;color: black;line-height: 3em;position: relative;text-align: center;width: 100%;z-index: 100">This site is part of the MLA network on <em><a href="https://hcommons.org">Humanities Commons</a></em>. <a href="https://mla.hcommons.org/sites">Explore other sites on this network</a> or <a href="https://mla.hcommons.org">register to build your own</a>.</div><script>jQuery(".cp_sidebar_toc #hcommons-network-footer").appendTo("#footer").css({"line-height": "2em"});</script><p class="hidden_page_url">Source: https://hcommons.org/</p><script type='text/javascript' src='https://hcommons.org/app/plugins/akismet/_inc/form.js?ver=3.3'></script>
+<link rel='stylesheet' id='open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='commentpress-editor-css-css'  href='https://digitalpedagogy.mla.hcommons.org/wp-admin/css/edit.css?version=4.9.2&#038;ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='buttons-css'  href='https://digitalpedagogy.mla.hcommons.org/wp-includes/css/buttons.min.css?ver=4.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js?ver=022316'></script>
+<script type='text/javascript' src='https://hcommons.org/app/plugins/mla-academic-interests/assets/js/select2_init.js?ver=022316'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/wp-embed.min.js?ver=4.9.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/quicktags.min.js?ver=4.9.2'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/wp-a11y.min.js?ver=4.9.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpLinkL10n = {"title":"Insert\/edit link","update":"Update","save":"Add Link","noTitle":"(no title)","noMatchesFound":"No results found.","linkSelected":"Link selected.","linkInserted":"Link inserted."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/wplink.min.js?ver=4.9.2'></script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://digitalpedagogy.mla.hcommons.org/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+
+		<script type="text/javascript">
+		tinyMCEPreInit = {
+			baseURL: "https://digitalpedagogy.mla.hcommons.org/wp-includes/js/tinymce",
+			suffix: ".min",
+						mceInit: {},
+			qtInit: {'comment':{id:"comment",buttons:"strong,em,ul,ol,li,link,close"}},
+			ref: {plugins:"",theme:"modern",language:""},
+			load_ext: function(url,lang){var sl=tinymce.ScriptLoader;sl.markDone(url+'/langs/'+lang+'.js');sl.markDone(url+'/langs/'+lang+'_dlg.js');}
+		};
+		</script>
+				<script type="text/javascript">
+		var ajaxurl = "https://digitalpedagogy.mla.hcommons.org/wp-admin/admin-ajax.php";
+		( function() {
+			var init, id, $wrap;
+
+			if ( typeof tinymce !== 'undefined' ) {
+				if ( tinymce.Env.ie && tinymce.Env.ie < 11 ) {
+					tinymce.$( '.wp-editor-wrap ' ).removeClass( 'tmce-active' ).addClass( 'html-active' );
+					return;
+				}
+
+				for ( id in tinyMCEPreInit.mceInit ) {
+					init = tinyMCEPreInit.mceInit[id];
+					$wrap = tinymce.$( '#wp-' + id + '-wrap' );
+
+					if ( ( $wrap.hasClass( 'tmce-active' ) || ! tinyMCEPreInit.qtInit.hasOwnProperty( id ) ) && ! init.wp_skip_init ) {
+						tinymce.init( init );
+
+						if ( ! window.wpActiveEditor ) {
+							window.wpActiveEditor = id;
+						}
+					}
+				}
+			}
+
+			if ( typeof quicktags !== 'undefined' ) {
+				for ( id in tinyMCEPreInit.qtInit ) {
+					quicktags( tinyMCEPreInit.qtInit[id] );
+
+					if ( ! window.wpActiveEditor ) {
+						window.wpActiveEditor = id;
+					}
+				}
+			}
+		}());
+		</script>
+				<div id="wp-link-backdrop" style="display: none"></div>
+		<div id="wp-link-wrap" class="wp-core-ui" style="display: none" role="dialog" aria-labelledby="link-modal-title">
+		<form id="wp-link" tabindex="-1">
+		<input type="hidden" id="_ajax_linking_nonce" name="_ajax_linking_nonce" value="8273298104" />		<h1 id="link-modal-title">Insert/edit link</h1>
+		<button type="button" id="wp-link-close"><span class="screen-reader-text">Close</span></button>
+		<div id="link-selector">
+			<div id="link-options">
+				<p class="howto" id="wplink-enter-url">Enter the destination URL</p>
+				<div>
+					<label><span>URL</span>
+					<input id="wp-link-url" type="text" aria-describedby="wplink-enter-url" /></label>
+				</div>
+				<div class="wp-link-text-field">
+					<label><span>Link Text</span>
+					<input id="wp-link-text" type="text" /></label>
+				</div>
+				<div class="link-target">
+					<label><span></span>
+					<input type="checkbox" id="wp-link-target" /> Open link in a new tab</label>
+				</div>
+			</div>
+			<p class="howto" id="wplink-link-existing-content">Or link to existing content</p>
+			<div id="search-panel">
+				<div class="link-search-wrapper">
+					<label>
+						<span class="search-label">Search</span>
+						<input type="search" id="wp-link-search" class="link-search-field" autocomplete="off" aria-describedby="wplink-link-existing-content" />
+						<span class="spinner"></span>
+					</label>
+				</div>
+				<div id="search-results" class="query-results" tabindex="0">
+					<ul></ul>
+					<div class="river-waiting">
+						<span class="spinner"></span>
+					</div>
+				</div>
+				<div id="most-recent-results" class="query-results" tabindex="0">
+					<div class="query-notice" id="query-notice-message">
+						<em class="query-notice-default">No search term specified. Showing recent items.</em>
+						<em class="query-notice-hint screen-reader-text">Search or use up and down arrow keys to select an item.</em>
+					</div>
+					<ul></ul>
+					<div class="river-waiting">
+						<span class="spinner"></span>
+					</div>
+ 				</div>
+ 			</div>
+		</div>
+		<div class="submitbox">
+			<div id="wp-link-cancel">
+				<button type="button" class="button">Cancel</button>
+			</div>
+			<div id="wp-link-update">
+				<input type="submit" value="Add Link" class="button button-primary" id="wp-link-submit" name="wp-link-submit">
+			</div>
+		</div>
+		</form>
+		</div>
+		
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07b903c47d","applicationID":"43324364","transactionName":"MVdQZhBTD0tQAUwLWAgdc1EWWw5WHhJZBVI=","queueTime":0,"applicationTime":318,"atts":"HRBTEFhJHEU=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+
+
+</html>

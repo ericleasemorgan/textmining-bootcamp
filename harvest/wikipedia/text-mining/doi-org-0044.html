@@ -1,0 +1,1277 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article"
+      class="no-js">
+
+
+
+<head prefix="og: http://ogp.me/ns#">
+  <title>Getting Started in Text Mining</title>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="http://journals.plos.org/ploscompbiol/resource/compiled/asset_HNYVKJYGO7M6YQSK5QZIJH2IXNNASRPV.css" />
+
+  <!-- allows for  extra head tags -->
+
+
+<!-- hello -->
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600">
+
+<link media="print" rel="stylesheet" type="text/css"  href="http://journals.plos.org/ploscompbiol/resource/css/print.css"/>
+    <script type="text/javascript">
+        var siteUrlPrefix = "/ploscompbiol/";
+    </script>
+<script src="http://journals.plos.org/ploscompbiol/resource/compiled/asset_SC5JIUGEUPR4P4P6VBUINUVOVUSU3NRY.js"></script>
+
+  <link rel="shortcut icon" href="http://journals.plos.org/ploscompbiol/resource/img/favicon.ico" type="image/x-icon"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+
+
+
+
+  <link rel="canonical" href="doi-org-0044.htm" />
+
+
+
+  <meta name="keywords" content="Text mining,Breast cancer,Genetic causes of cancer,Biologists,Fats,Software engineering,Database searching,Scientists" />
+
+
+<meta name="citation_doi" content="10.1371/journal.pcbi.0040020"/>
+<meta name="citation_author" content="K. Bretonnel Cohen"/>
+<meta name="citation_author" content="Lawrence Hunter"/>
+
+<meta name="citation_title" content="Getting Started in Text Mining"/>
+<meta itemprop="name" content="Getting Started in Text Mining"/>
+<meta name="citation_journal_title" content="PLOS Computational Biology"/>
+<meta name="citation_journal_abbrev" content="PLOS Computational Biology"/>
+<meta name="citation_date" content="Jan 25, 2008"/>
+<meta name="citation_firstpage" content="e20"/>
+<meta name="citation_issue" content="1"/>
+<meta name="citation_volume" content="4"/>
+<meta name="citation_issn" content="1553-7358"/>
+<meta name="citation_publisher" content="Public Library of Science"/>
+
+  <meta name="citation_pdf_url" content="http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.0040020&type=printable">
+
+  <meta name="citation_article_type" content="Message from ISCB">
+
+<meta name="dc.identifier" content="10.1371/journal.pcbi.0040020" />
+
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ploscompbiol"/>
+    <meta name="twitter:title" content="Getting Started in Text Mining" />
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0040020"/>
+<meta property="og:title" content="Getting Started in Text Mining"/>
+
+<meta name="citation_reference" content="citation_title=Integrating text mining with data mining.;citation_author=Ng See-Kiong;citation_publication_date=2006;citation_publisher=Artech House"/>    
+<meta name="citation_reference" content="citation_title=A literature network of high-throughput analysis of gene expression.;citation_author=T-K Jenssen;citation_author=A Lægreid;citation_author=J Komorowski;citation_author=E Hovig;citation_journal_title=Nat Genet;citation_volume=28;citation_number=28;citation_first_page=21;citation_last_page=28;citation_publication_date=2001;"/>    
+<meta name="citation_reference" content="citation_title=Automatic extraction of biological information from scientific text: Protein–protein interactions.;citation_author=C Blaschke;citation_author=MA Andrade;citation_author=C Ouzounis;citation_author=A Valencia;citation_first_page=60;citation_last_page=67;citation_publication_date=1999;citation_publisher=AAAI Press"/>    
+<meta name="citation_reference" content="citation_title=Natural language processing and systems biology.;citation_author=KB Cohen;citation_author=L Hunter;citation_publication_date=2004;citation_publisher=Springer Verlag"/>    
+<meta name="citation_reference" content="citation_title=Constructing biological knowledge bases by extracting information from text sources.;citation_author=M Craven;citation_author=J Kumlein;citation_first_page=77;citation_last_page=86;citation_publication_date=1999;citation_publisher=AAAI Press"/>    
+<meta name="citation_reference" content="citation_title=A resource for constructing customized test suites for molecular biology entity identification systems.;citation_author=KB Cohen;citation_author=L Tanabe;citation_author=S Kinoshita;citation_author=L Hunter;citation_first_page=1;citation_last_page=8;citation_publication_date=2004;citation_publisher=Association for Computational Linguistics"/>    
+<meta name="citation_reference" content="citation_title=Literature mining and database annotation of protein phosphorylation using a rule-based system.;citation_author=ZZ Hu;citation_author=M Narayanaswamy;citation_author=KE Ravikumar;citation_author=K Vijay-Shanker;citation_author=CH Wu;citation_journal_title=Bioinformatics;citation_volume=21;citation_number=21;citation_first_page=2759;citation_last_page=2765;citation_publication_date=2005;"/>    
+<meta name="citation_reference" content="citation_title=Natural language processing for online applications: Text retrieval, extraction, and classification. 2nd edition;citation_author=P Jackson;citation_author=I Moulinier;citation_publication_date=2007;citation_publisher=John Benjamins Publishing Company"/>    
+<meta name="citation_reference" content="citation_title=Speech and language processing: An introduction to natural language processing, computational linguistics and speech recognition;citation_author=D Jurafsky;citation_author=JH Martin;citation_publication_date=2000;citation_publisher=Prentice Hall"/>    
+<meta name="citation_reference" content="citation_title=Biomedical language processing: What&amp;apos;s beyond PubMed?;citation_author=L Hunter;citation_author=KB Cohen;citation_journal_title=Mol Cell;citation_volume=21;citation_number=21;citation_first_page=589;citation_last_page=594;citation_publication_date=2006;"/>    
+<meta name="citation_reference" content="citation_title=Text mining for biology and medicine;citation_author=S Ananiadou;citation_author=J McNaught;citation_publication_date=2006;citation_publisher=Artech House"/>    
+<meta name="citation_reference" content="citation_title=Information retrieval: A health and biomedical perspective. 2nd edition;citation_author=WR Hersh;citation_publication_date=2002;citation_publisher=Springer"/>    
+<meta name="citation_reference" content="citation_title=Biomedical text mining;citation_author=H Shatkay;citation_author=M Craven;citation_publication_date=2007;citation_publisher=MIT Press"/>    
+
+
+<!-- DoubleClick overall ad setup script -->
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<!-- DoubleClick ad slot setup script -->
+
+  <script id="doubleClickSetupScript" type='text/javascript'>
+    googletag.cmd.push(function() {
+  googletag.defineSlot('/75507958/PCOMPBIO_728x90_ATF', [728, 90], 'div-gpt-ad-1458247671871-0').addService(googletag.pubads());
+  googletag.defineSlot('/75507958/PCOMPBIO_160x600_BTF', [160, 600], 'div-gpt-ad-1458247671871-1').addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    });
+  </script>
+
+
+
+<script type="text/javascript">
+    var WombatConfig = WombatConfig || {};
+    WombatConfig.resourcePath = "/ploscompbiol/resource/";
+    WombatConfig.imgPath = "/ploscompbiol/resource/img/";
+    WombatConfig.journalKey = "PLoSCompBiol";
+    WombatConfig.figurePath = "/ploscompbiol/article/figure/image";
+    WombatConfig.figShareInstitutionString = "plos";
+    WombatConfig.doiResolverPrefix = "http://dx.plos.org/";
+</script>
+
+<script type="text/javascript">
+  var WombatConfig = WombatConfig || {};
+  WombatConfig.metrics = WombatConfig.metrics || {};
+  WombatConfig.metrics.referenceUrl      = "http://lagotto.io/plos";
+  WombatConfig.metrics.googleScholarUrl  = "http://scholar.google.com/scholar";
+  WombatConfig.metrics.googleScholarCitationUrl  = WombatConfig.metrics.googleScholarUrl + "?hl=en&lr=&q=";
+  WombatConfig.metrics.crossrefUrl  = "http://www.crossref.org";
+</script><script src="http://code.jquery.com/jquery-2.1.4.min.js" ></script>
+<script>window.jQuery || document.write('<script src="http://journals.plos.org/ploscompbiol/resource/js/vendor/jquery-2.1.4.min.js""><\/script>')</script>
+
+          <script type="text/javascript" src="https://widgets.figshare.com/static/figshare.js"></script>
+
+
+
+
+
+
+
+
+
+
+<!--For Google Tag manager to be able to track site information  -->
+<script>
+
+  dataLayer = [{
+    'mobileSite': 'false',
+    'desktopSite': 'true'
+  }];
+
+</script>
+
+</head>
+
+
+
+<body class="article ploscompbiol">
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-TP26BH"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP26BH');</script>
+
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-MQQMGF"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MQQMGF');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<header>
+
+  <div id="topslot" class="head-top">
+
+<div class="center">
+<div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-0' style='width:728px; height:90px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-0'); });
+    </script>
+  </div>
+</div>
+  </div>
+
+  <div id="user" class="nav">
+    <ul class="nav-user">
+
+
+
+
+      <li ><a href="http://www.plos.org">plos.org</a></li>
+
+
+        <li ><a href="https://community.plos.org/registration/new">create account</a></li>
+
+
+          <li class="highlighted"><a href="http://journals.plos.org/ploscompbiol/user/secure/login?page=%2Fploscompbiol%2Farticle%3Fid%3D10.1371%2Fjournal.pcbi.0040020">sign in</a></li>
+
+    </ul>
+  </div>
+  <div id="pagehdr">
+
+    <nav class="nav-main">
+
+
+
+
+<h1 class="logo">
+  <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology</a>
+</h1>
+
+<section class="top-bar-section"> 
+
+<ul class="nav-elements">
+
+
+
+  <li class="menu-section-header has-dropdown " id="browse">
+    <span class="menu-section-header-title">  Browse </span>
+
+    <ul class="menu-section dropdown "
+        id="browse-dropdown-list">
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/issue" >Current Issue</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/volume" >Journal Archive</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/collections" >Collections</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/find-and-read-articles" >Find and Read Articles</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+    <li class="multi-col-parent menu-section-header has-dropdown" id="publish">
+    Publish
+      <div class="dropdown mega ">
+        <ul class="multi-col" id="publish-dropdown-list">
+
+  <li class="menu-section-header " id="submissions">
+    <span class="menu-section-header-title">  Submissions </span>
+
+    <ul class="menu-section "
+        id="submissions-dropdown-list">
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/getting-started" >Getting Started</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/presubmission-inquiries" >Presubmission Inquiries</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/submission-guidelines" >Submission Guidelines</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/figures" >Figures</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/tables" >Tables</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/supporting-information" >Supporting Information</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/latex" >LaTeX</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/other-article-types" >Other Article Types</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/revising-your-manuscript" >Revising Your Manuscript</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/submit-now" >Submit Now</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="policies">
+    <span class="menu-section-header-title">  Policies </span>
+
+    <ul class="menu-section "
+        id="policies-dropdown-list">
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/best-practices-in-research-reporting" >Best Practices in Research Reporting</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/human-subjects-research" >Human Subjects Research</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/animal-research" >Animal Research</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/competing-interests" >Competing Interests</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/disclosure-of-funding-sources" >Disclosure of Funding Sources</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/licenses-and-copyright" >Licenses and Copyright</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/data-availability" >Data Availability</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/materials-and-software-sharing" >Materials and Software Sharing</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/ethical-publishing-practice" >Ethical Publishing Practice</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/authorship" >Authorship</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/downloads-and-translations" >Downloads and Translations</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="manuscript-review-and-publication">
+    <span class="menu-section-header-title">  Manuscript Review and Publication </span>
+
+    <ul class="menu-section "
+        id="manuscript-review-and-publication-dropdown-list">
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/editorial-and-peer-review-process" >Editorial and Peer Review Process</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/reviewer-guidelines" >Guidelines for Reviewers</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/guidelines-for-editors" >Guidelines for Editors</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/accepted-manuscripts" >Accepted Manuscripts</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/corrections-and-retractions" >Corrections and Retractions</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/comments" >Comments</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/article-level-metrics" >Article-Level Metrics</a>
+  </li>
+
+    </ul>
+
+  </li>
+        </ul>
+      </div>
+    </li>
+
+
+
+  <li class="menu-section-header has-dropdown " id="about">
+    <span class="menu-section-header-title">  About </span>
+
+    <ul class="menu-section dropdown "
+        id="about-dropdown-list">
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/journal-information" >Journal Information</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/editors-in-chief" >Editors-in-Chief</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/editorial-board" >Editorial Board</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/publishing-information" >Publishing Information</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/publication-fees" >Publication Fees</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/press-and-media" >Press and Media</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/ploscompbiol/s/contact" >Contact</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+      <li id="navsearch" class="head-search">
+
+
+    <form name="searchForm" action="http://journals.plos.org/ploscompbiol/search" method="get">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="search-contain">
+          <input id="search" type="text" name="q" placeholder="Search" required/>
+          <button id="headerSearchButton" type="submit"><span class="search-icon"></span></button>
+        </div>
+      </fieldset>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol"/>
+    </form>
+
+    <a id="advSearch"
+       href="http://journals.plos.org/ploscompbiol/search">
+      advanced search
+    </a>
+
+
+
+
+      </li>
+
+      </ul>     
+      </section>  
+    </nav>
+  </div>
+
+</header><main> <div class="set-grid">
+
+<header class="title-block">
+
+
+
+<script type="text/javascript">
+  var COUNTER_HOST = "http://counter.plos.org/api/v1.0/stats/totals/doi";
+</script>
+
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "http://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "http://alm.plos.org/api/v5/articles";
+</script>
+
+<ul id="almSignposts" class="signposts">
+  <li id="loadingMetrics">
+    <p>Loading metrics</p>
+  </li>
+</ul>
+
+<script type="text/template" id="signpostsGeneralErrorTemplate">
+  <li id="metricsError">Article metrics are unavailable at this time. Please try again later.</li>
+</script>
+
+<script type="text/template" id="signpostsNewArticleErrorTemplate">
+  <li></li><li></li><li id="tooSoon">Article metrics are unavailable for recently published articles.</li>
+</script>
+
+<script type="text/template" id="signpostsTemplate">
+    <li id="almSaves">
+      <%= s.numberFormat(saveCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="http://journals.plos.org/ploscompbiol/article/metrics?id=10.1371/journal.pcbi.0040020#savedHeader">Save</a>
+        <p class="saves-tip" data-js-tooltip-hover="target"><a href="http://journals.plos.org/ploscompbiol/article/metrics?id=10.1371/journal.pcbi.0040020#savedHeader">Total Mendeley and CiteULike bookmarks.</a></p>
+      </div>
+    </li>
+
+    <li id="almCitations">
+      <%= s.numberFormat(citationCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="http://journals.plos.org/ploscompbiol/article/metrics?id=10.1371/journal.pcbi.0040020#citedHeader">Citation</a>
+        <p class="citations-tip" data-js-tooltip-hover="target"><a href="http://journals.plos.org/ploscompbiol/article/metrics?id=10.1371/journal.pcbi.0040020#citedHeader">Paper's citation count computed by Scopus.</a></p>
+      </div>
+    </li>
+
+    <li id="almViews">
+      <%= s.numberFormat(viewCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="http://journals.plos.org/ploscompbiol/article/metrics?id=10.1371/journal.pcbi.0040020#viewedHeader">View</a>
+        <p class="views-tip" data-js-tooltip-hover="target"><a href="http://journals.plos.org/ploscompbiol/article/metrics?id=10.1371/journal.pcbi.0040020#viewedHeader">Sum of PLOS and PubMed Central page views and downloads.</a></p>
+      </div>
+    </li>
+
+    <li id="almShares">
+      <%= s.numberFormat(shareCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="http://journals.plos.org/ploscompbiol/article/metrics?id=10.1371/journal.pcbi.0040020#discussedHeader">Share</a>
+        <p class="shares-tip" data-js-tooltip-hover="target"><a href="http://journals.plos.org/ploscompbiol/article/metrics?id=10.1371/journal.pcbi.0040020#discussedHeader">Sum of Facebook and Twitter activity.</a></p>
+      </div>
+    </li>
+</script>
+
+    <div class="article-meta">
+
+<div class="classifications">
+  <p class="license-short" id="licenseShort">Open Access</p>
+
+<div class="article-type" >
+  <p class="article-type-tooltip" id="artType">Message from ISCB</p>
+</div>
+
+
+</div>
+
+
+    </div>
+    <div class="article-title-etc">
+
+
+
+<div class="title-authors">
+  <h1 id="artTitle"><?xml version="1.0" encoding="UTF-8"?>Getting Started in Text Mining</h1>
+
+<ul class="author-list clearfix"  data-js-tooltip="tooltip_container" id="author-list">
+
+
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="0" class="author-name" >
+K. Bretonnel Cohen <span class="email">  </span>,</a>    <div id="author-meta-0" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p id="authCorresponding-0"> <span class="email">*</span>To whom correspondence should be addressed. E-mail: <a href="mailto:kevin.cohen@gmail.com">kevin.cohen@gmail.com</a></p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose0"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  
+  
+>
+   <span data-author-id="1" class="author-name no-author-data" >
+Lawrence Hunter</span></li>
+
+</ul>
+
+</div>
+
+
+<div id="floatTitleTop" data-js-floater="title_author" class="float-title">
+  <div class="set-grid">
+    <div class="float-title-inner">
+      <h1><?xml version="1.0" encoding="UTF-8"?>Getting Started in Text Mining</h1>
+
+<ul id="floatAuthorList" data-js-floater="floated_authors">
+
+  <li data-float-index="1">K. Bretonnel Cohen,&nbsp;
+
+  </li>
+  <li data-float-index="2">Lawrence Hunter
+
+  </li>
+
+</ul>
+
+
+
+    </div>
+    <div class="logo-close" id="titleTopCloser">
+      <img src="http://journals.plos.org/ploscompbiol/resource/img/logo.plos.95.png" alt="PLOS" />
+      <div class="close-floater" title="close">x</div>
+    </div>
+  </div>
+</div>
+
+      <ul class="date-doi">
+        <li id="artPubDate">Published: January 25, 2008</li>
+        <li id="artDoi">
+<a   href="https://doi.org/10.1371/journal.pcbi.0040020">https://doi.org/10.1371/journal.pcbi.0040020</a>
+        </li>
+      </ul>
+
+    </div>
+  <div>
+
+  </div>
+</header>
+
+  <section class="article-body">
+
+
+
+<ul class="article-tabs">
+
+        <li class="tab-title active" id="tabArticle">
+          <a href="doi-org-0044.htm" class="article-tab-1">Article</a>
+      </li>
+
+
+            <li class="tab-title " id="tabAuthors">
+          <a href="http://journals.plos.org/ploscompbiol/article/authors?id=10.1371/journal.pcbi.0040020" class="article-tab-2">Authors</a>
+      </li>
+
+
+        <li class="tab-title " id="tabMetrics">
+          <a href="http://journals.plos.org/ploscompbiol/article/metrics?id=10.1371/journal.pcbi.0040020" class="article-tab-3">Metrics</a>
+      </li>
+
+        <li class="tab-title " id="tabComments">
+          <a href="http://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.0040020" class="article-tab-4">Comments</a>
+      </li>
+
+        <li class="tab-title " id="tabRelated">
+          <a href="http://journals.plos.org/ploscompbiol/article/related?id=10.1371/journal.pcbi.0040020" class="article-tab-5">Related Content</a>
+      </li>
+
+</ul>
+
+    <div class="article-container">
+
+
+<div id="nav-article">
+  <ul class="nav-secondary">
+
+    <li class="nav-comments" id="nav-comments">
+      <a href="http://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.0040020">Reader Comments (0)</a>
+    </li>
+
+    <li class="nav-media" id="nav-media" data-doi="10.1371/journal.pcbi.0040020">
+      <a href="http://journals.plos.org/ploscompbiol/article/related?id=10.1371/journal.pcbi.0040020">
+        Media Coverage <span id="media-coverage-count"></span>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+<div id="figure-lightbox-container"></div>
+
+<script id="figure-lightbox-template" type="text/template">
+  <div id="figure-lightbox" class="reveal-modal full" data-reveal aria-hidden="true"
+       role="dialog">
+    <div class="lb-header">
+      <h1 id="lb-title"><%= articleTitle %></h1>
+
+      <div id="lb-authors">
+        <% authorList.split(',').forEach(function (author) { %>
+        <span><%= author.trim() %></span>
+        <% }) %>
+      </div>
+
+      <div class="lb-close" title="close">&nbsp;</div>
+    </div>
+    <div class="img-container">
+      <div class="loader"> <i class="fa-spinner"></i> </div>
+      <img class="main-lightbox-image" src="doi-org-0044.htm"/>
+      <aside id="figures-list">
+        <% figureList.each(function (ix, figure) { %>
+        <div class="change-img" data-doi="<%= figure.getAttribute('data-doi') %>">
+          <img class="aside-figure" src="http://journals.plos.org/ploscompbiol/article/figure/image?size=inline&amp;id=&lt;%=&#32;figure.getAttribute('data-doi')&#32;%&gt;" />
+        </div>
+        <% }) %>
+        <div class="dummy-figure">
+        </div>
+      </aside>
+    </div>
+    <div id="lightbox-footer">
+
+      <div id="btns-container" class="lightbox-row <% if(figureList.length <= 1) { print('one-figure-only') } %>">
+        <div class="fig-btns-container reset-zoom-wrapper left">
+          <span class="fig-btn reset-zoom-btn">Reset zoom</span>
+        </div>
+        <div class="zoom-slider-container">
+          <div class="range-slider-container">
+            <span id="lb-zoom-min"></span>
+            <div class="range-slider round" data-slider data-options="start: 20; end: 200; initial: 20;">
+              <span class="range-slider-handle" role="slider" tabindex="0"></span>
+              <span class="range-slider-active-segment"></span>
+              <input type="hidden">
+            </div>
+            <span id="lb-zoom-max"></span>
+          </div>
+        </div>
+        <% if(figureList.length > 1) { %>
+        <div class="fig-btns-container">
+          <span class="fig-btn all-fig-btn"><i class="icon icon-all"></i> All Figures</span>
+          <span class="fig-btn next-fig-btn"><i class="icon icon-next"></i> Next</span>
+          <span class="fig-btn prev-fig-btn"><i class="icon icon-prev"></i> Previous</span>
+        </div>
+        <% } %>
+      </div>
+      <div id="image-context">
+      </div>
+    </div>
+  </div>
+</script>
+
+<script id="image-context-template" type="text/template">
+  <div class="footer-text">
+    <div id="figure-description-wrapper">
+      <div id="view-more-wrapper" style="<% descriptionExpanded? print('display:none;') : '' %>">
+        <span id="figure-title"><%= title %></span>
+        <p id="figure-description">
+          <%= description %>&nbsp;&nbsp;
+        </p>
+        <span id="view-more">show more<i class="icon-arrow-right"></i></span>
+
+      </div>
+      <div id="view-less-wrapper" style="<% descriptionExpanded? print('display:inline-block;') : '' %>" >
+        <span id="figure-title"><%= title %></span>
+        <p id="full-figure-description">
+          <%= description %>&nbsp;&nbsp;
+          <span id="view-less">show less<i class="icon-arrow-left"></i></span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="show-context-container">
+    <a class="btn show-context" href="http://journals.plos.org/ploscompbiol/&lt;%=&#32;showInContext(strippedDoi)&#32;%&gt;">Show in Context</a>
+  </div>
+  <div id="download-buttons">
+    <h3>Download:</h3>
+    <div class="item">
+      <a href="http://journals.plos.org/ploscompbiol/article/figure/image?size=original&amp;download=&amp;id=&lt;%=&#32;doi&#32;%&gt;" title="original image">
+        <span class="download-btn">TIFF</span>
+      </a>
+      <span class="file-size"><%= fileSizes.original %></span>
+    </div>
+    <div class="item">
+      <a href="http://journals.plos.org/ploscompbiol/article/figure/image?size=large&amp;download=&amp;id=&lt;%=&#32;doi&#32;%&gt;" title="large image">
+        <span class="download-btn">PNG</span>
+      </a>
+      <span class="file-size"><%= fileSizes.large %></span>
+    </div>
+    <div class="item">
+      <a href="http://journals.plos.org/ploscompbiol/article/figure/powerpoint?id=&lt;%=&#32;doi&#32;%&gt;" title="PowerPoint slide">
+        <span class="download-btn">PPT</span>
+      </a>
+    </div>
+
+  </div>
+</script>
+      <div class="article-content">
+
+
+
+
+
+
+
+
+
+
+        <div class="article-text" id="artText">
+        
+
+
+
+
+
+
+<div class="articleinfo"><p><strong>Citation: </strong>Cohen KB, Hunter L (2008) Getting Started in Text Mining. PLoS Comput Biol 4(1):
+           e20.
+        
+        https://doi.org/10.1371/journal.pcbi.0040020</p><p><strong>Editor: </strong>Olga Troyanskaya, Princeton University, United States of America</p><p><strong>Published: </strong> January 25, 2008</p><p><strong>Copyright: </strong> © 2008  Cohen and Hunter. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong> The authors received no specific funding for this article.</p><p><strong>Competing interests: </strong>  The authors have declared that no competing interests exist.</p></div>
+
+
+
+
+<a id="article1.body1.p1" name="article1.body1.p1" class="link-target"></a><p><img src="http://journals.plos.org/ploscompbiol/article/file?type=thumbnail&amp;id=info:doi/10.1371/journal.pcbi.0040020.ICSB_logo" class="inline-graphic"></p>
+
+<div id="section1" class="section toc-section"><a id="s1" name="s1" data-toc="s1" class="link-target" title="Introduction"></a><h2>Introduction</h2><a id="article1.body1.sec1.p1" name="article1.body1.sec1.p1" class="link-target"></a><p><strong>Text mining</strong> is the use of automated methods for exploiting the enormous amount of knowledge available in the biomedical literature. There are at least as many motivations for doing text mining work as there are types of bioscientists. Model organism database curators have been heavy participants in the development of the field due to their need to process large numbers of publications in order to populate the many data fields for every gene in their species of interest. Bench scientists have built biomedical text mining applications to aid in the development of tools for interpreting the output of high-throughput assays and to improve searches of sequence databases (see [<a href="doi-org-0044.htm#pcbi-0040020-b001" class="ref-tip">1</a>] for a review). Bioscientists of every stripe have built applications to deal with the dual issues of the double-exponential growth in the scientific literature over the past few years and of the unique issues in searching PubMed/MEDLINE for genomics-related publications. A surprising phenomenon can be noted in the recent history of biomedical text mining: although several systems have been built and deployed in the past few years—Chilibot, Textpresso, and PreBIND (see <a href="doi-org-0044.htm#pcbi-0040020-se001">Text S1</a> for these and most other citations), for example—the ones that are seeing high usage rates and are making productive contributions to the working lives of bioscientists have been built not by text mining specialists, but by bioscientists. We speculate on why this might be so below.</p>
+<a id="article1.body1.sec1.p2" name="article1.body1.sec1.p2" class="link-target"></a><p>Three basic types of approaches to text mining have been prevalent in the biomedical domain. <strong>Co-occurrence</strong>–based methods do no more than look for concepts that occur in the same unit of text—typically a sentence, but sometimes as large as an abstract—and posit a relationship between them. (See [<a href="doi-org-0044.htm#pcbi-0040020-b002" class="ref-tip">2</a>] for an early co-occurrence–based system.) For example, if such a system saw that <em>BRCA1</em> and <em>breast cancer</em> occurred in the same sentence, it might assume a relationship between breast cancer and the BRCA1 gene. Some early biomedical text mining systems were co-occurrence–based, but such systems are highly error prone, and are not commonly built today. In fact, many text mining practitioners would not consider them to be text mining systems at all. Co-occurrence of concepts in a text is sometimes used as a simple baseline when evaluating more sophisticated systems; as such, they are nontrivial, since even a co-occurrence–based system must deal with variability in the ways that concepts are expressed in human-produced texts. For example, <em>BRCA1</em> could be referred to by any of its alternate symbols—<em>IRIS, PSCP, BRCAI, BRCC1,</em> or <em>RNF53</em> (or by any of their many spelling variants, which include <em>BRCA1, BRCA-1,</em> and <em>BRCA 1</em>)—or by any of the variants of its full name, viz. <em>breast cancer 1, early onset</em> (its official name per Entrez Gene and the Human Gene Nomenclature Committee), as <em>breast cancer susceptibility gene 1,</em> or as the latter's variant <em>breast cancer susceptibility gene-1.</em> Similarly, <em>breast cancer</em> could be referred to as <em>breast cancer, carcinoma of the breast,</em> or <em>mammary neoplasm.</em> These variability issues challenge more sophisticated systems, as well; we discuss ways of coping with them in <a href="doi-org-0044.htm#pcbi-0040020-se001">Text S1</a>.</p>
+<a id="article1.body1.sec1.p3" name="article1.body1.sec1.p3" class="link-target"></a><p>Two more common (and more sophisticated) approaches to text mining exist: rule-based or knowledge-based approaches, and statistical or machine-learning-based approaches. The variety of types of rule-based systems is quite wide. In general, <strong>rule-based systems</strong> make use of some sort of knowledge. This might take the form of general knowledge about how language is structured, specific knowledge about how biologically relevant facts are stated in the biomedical literature, knowledge about the sets of things that bioscientists talk about and the kinds of relationships that they can have with one another, and the variant forms by which they might be mentioned in the literature, or any subset or combination of these. (See [<a href="doi-org-0044.htm#pcbi-0040020-b003" class="ref-tip">3</a>] for an early rule-based system, and [<a href="doi-org-0044.htm#pcbi-0040020-b004" class="ref-tip">4</a>] for a discussion of rule-based approaches to various biomedical text mining tasks.) At one end of the spectrum, a simple rule-based system might use hard-coded patterns—for example, <em>&lt;gene&gt; plays a role in &lt;disease&gt;</em> or <em>&lt;disease&gt; is associated with &lt;gene&gt;</em>—to find explicit statements about the classes of things in which the researcher is interested. At the other end of the spectrum, a rule-based system might use sophisticated linguistic and semantic analyses to recognize a wide range of possible ways of making assertions about those classes of things. It is worth noting that useful systems have been built using technologies at both ends of the spectrum, and at many points in between. In contrast, <strong>statistical</strong> or <strong>machine-learning–based</strong> systems operate by building classifiers that may operate on any level, from labelling part of speech to choosing syntactic parse trees to classifying full sentences or documents. (See [<a href="doi-org-0044.htm#pcbi-0040020-b005" class="ref-tip">5</a>] for an early learning-based system, and [<a href="doi-org-0044.htm#pcbi-0040020-b004" class="ref-tip">4</a>] for a discussion of learning-based approaches to various biomedical text mining tasks.)</p>
+<a id="article1.body1.sec1.p4" name="article1.body1.sec1.p4" class="link-target"></a><p>Rule-based and statistical systems each have their advantages and disadvantages. For example, rule systems are often assumed (not necessarily correctly) to take a significant amount of time to develop. Statistical systems typically require large amounts of expensive-to-get labelled training data. In practice, statistical and rule-based systems can be fruitfully combined. For example, a statistical system that classifies documents as to whether or not they are relevant to the subject of genetic variation in mouse genes might use the output of a rule-based mutation recognizer as one of its feature extractors. Many systems also employ an initial statistical processing step, followed by rule-based post-processing.</p>
+<a id="article1.body1.sec1.p5" name="article1.body1.sec1.p5" class="link-target"></a><p>A primary problem that either type of system must deal with is the issue of <strong>ambiguity</strong>: the existence of multiple relationships between language and meanings or categories. Ambiguity exists at every level of linguistic structure, from the part of speech of words to subtle issues in pragmatics. A common example of ambiguity in genomics text is related to gene names and symbols. Consider the string <em>fat</em>: is it an adjective, or a noun? Either part of speech is entirely plausible in biomedical texts, and PubMed returns almost 112 K hits for that single-word query (and more than 13 K even if we try to restrict the query to genomics by including the disjunction (<em>gene OR genetic OR genetics</em>). This ambiguity is relatively easy to resolve, but <em>fat</em> also turns out to be the name or symbol of a number of different genes—humans, mice, rats, <em>Drosophila</em>, zebrafish, chickens, <span class="genus-species">M. mulatta</span>, and two Lactobacilli have at least one gene whose name, official symbol, or alias is <em>fat.</em> Even if the species whose gene is being referred to can be determined, the ambiguity may still not be resolved—in humans, <em>fat</em> is the official symbol of Entrez Gene entry 2195 and an alternate symbol for Entrez Gene entry 948. The distinction is not trivial. The former is a cadhedrin, and is associated with tumor suppression and with bipolar disorder, while the latter is a thrombospondin receptor associated with atherosclerosis, platelet glycoprotein deficiency, hyperlipidemia, and insulin resistance, to name just a few phenotypes. These ambiguities are not trivial: if your analysis is wrong, you miss or erroneously extract information on relations between molecular biology and human disease.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="s2" name="s2" data-toc="s2" class="link-target" title="The First Steps: Defining Goals and Examining Data"></a><h2>The First Steps: Defining Goals and Examining Data</h2><a id="article1.body1.sec2.p1" name="article1.body1.sec2.p1" class="link-target"></a><p>Text mining systems can easily be as complex as any applications built in computational biology—Figure 2 at <a href="http://compbio.uchsc.edu/Hunter_lab/Cohen/Hunter_Cohen_Molecular_Cell.pdf">http://compbio.uchsc.edu/Hunter_lab/Cohen/Hunter_Cohen_Molecular_Cell.pdf</a> [<a href="doi-org-0044.htm#pcbi-0040020-b010" class="ref-tip">10</a>] shows the levels of analysis that might be built into a representative system—and good software engineering practices can be crucial in building them successfully. An important first step is to define the desired behavior of the system. For example, consider a system that aims to extract gene/disease relations from text. Is the intended output meant for human consumption, or is it to be the input to some later automatic processing step? Is the intended input intended to be fields from a database (e.g., GeneRIFs from Entrez Gene or SUMMARY fields from Swiss-Prot), abstracts, or full-text journal articles? Each presents its own challenges and opportunities. Is the intended output lists of genes and diseases? If so, should the system make it possible to click through to the full texts from which a given gene/disease pair was extracted? Is it enough to simply output the text strings that were found in the text, or must the output be in the form of database identifiers (e.g., Entrez Gene IDs and OMIM IDs for our gene/disease example) if it is to be truly useful? Specifying these requirements early may make it possible to avoid any number of false paths in the development process.</p>
+<a id="article1.body1.sec2.p2" name="article1.body1.sec2.p2" class="link-target"></a><p>Another important early step is potentially time-consuming, but of great importance: sitting down with a large set of potential inputs and examining them by hand. Scientists without linguistic training are often amazed at the range of linguistic possibilities for expressing even the most apparently simple biological concepts. <strong>Four hours spent with a pile of articles and a highlighter may forestall many unpleasant surprises.</strong></p>
+<a id="article1.body1.sec2.p3" name="article1.body1.sec2.p3" class="link-target"></a><p>Another important early consideration is the question of how you will evaluate your system. One basic issue arises immediately: will you be evaluating your system with an eye toward publishing a paper on it, or will you be evaluating it purely to determine its suitability for external use? For purposes of publication, the standard paradigm is to evaluate your performance on a <em>corpus</em>—a body of textual data that has been marked up with the correct answers for some task. A large number of these, suitable for a variety of different purposes, can be found at <a href="http://compbio.uchsc.edu/ccp/corpora">http://compbio.uchsc.edu/ccp/corpora</a>. Recent CASP-like shared task challenges in text mining have produced a number of datasets for evaluating performance on more complex tasks, such as the assignment of Gene Ontology codes to proteins, or the detection and classification of protein–protein interactions.</p>
+<a id="article1.body1.sec2.p4" name="article1.body1.sec2.p4" class="link-target"></a><p>For evaluation of suitability for internal use, the best paradigm might not be the publishing-oriented corpus-based one, but rather a test suite built on the principles of software engineering and structured software testing. [<a href="doi-org-0044.htm#pcbi-0040020-b006" class="ref-tip">6</a>] describes a methodology for doing this for a gene mention system, and discusses the advantages and disadvantages of both approaches to system evaluation. A third approach—post-hoc judging of system outputs—will often suffice for publication, but is often not practical for system development since it cannot be repeated quickly and frequently.</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="s3" name="s3" data-toc="s3" class="link-target" title="Conclusions"></a><h2>Conclusions</h2><a id="article1.body1.sec3.p1" name="article1.body1.sec3.p1" class="link-target"></a><p>In the introduction, we pointed out that all or most of the demonstrably useful biomedical text mining systems have been built not by text mining specialists, but by computational biologists. Why might this be? Although this has not been systematically investigated, we speculate that it is related to cultural differences between the two groups. Text mining specialists are more likely to build systems that are likely to get them published in computational linguistics conferences. Such systems are not domain-dependent, are usable for a wide variety of tasks, and, if fashionable, rely more on statistical approaches than on knowledge sources. In contrast, computational biologists do not hesitate to build systems that are extremely domain-specific, that do not attempt more than a single highly relevant task (e.g., the RLIMS-P system [<a href="doi-org-0044.htm#pcbi-0040020-b007" class="ref-tip">7</a>], which targets assertions about phosphorylation and nothing else), and that are not dogmatic about avoiding knowledge-based approaches. Ultimately, biologists seem to be better at one of the crucial first steps identified above: defining the goals of the system, and not hesitating to define those goals based on utility, rather than on presumed publishability in the computational linguistics literature. The key to exploiting this ability for the purpose of building a better text mining system is for the computational biologist to pay particular attention to that initial step. None of this is meant to make the claim that there is no role for computational linguists in biomedical text mining, but rather that at this time there seem to be clear roles for each. Text mining specialists continue to excel at building system components and designing datasets for evaluation; computational biologists currently appear to be much better at producing useful task definitions. Perhaps the most fruitful approaches are characterized by combined efforts that leverage the abilities of each type of scientist.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="s4" name="s4" data-toc="s4" class="link-target" title="Further Reading"></a><h2>Further Reading</h2><a id="article1.body1.sec4.p1" name="article1.body1.sec4.p1" class="link-target"></a><p><a href="doi-org-0044.htm#pcbi-0040020-se001">Text S1</a> provides coverage of additional technical issues in system design and construction, and includes a number of helpful references. Additionally, text mining and natural language processing have a long history outside of the bioscience world, and have produced a sizable literature that is well worth the computational biologist's attention. [<a href="doi-org-0044.htm#pcbi-0040020-b008" class="ref-tip">8</a>] is an excellent starting point. [<a href="doi-org-0044.htm#pcbi-0040020-b009" class="ref-tip">9</a>] is the standard reference work, and is a good second step. For bioscience-specific text mining, there are a number of review papers and three useful book-length treatments. [<a href="doi-org-0044.htm#pcbi-0040020-b004" class="ref-tip">4</a>] takes a task-based approach to text mining, and lists a number of additional tools for most of the tasks mentioned in this short tutorial. [<a href="doi-org-0044.htm#pcbi-0040020-b010" class="ref-tip">10</a>] describes the state of the art, and lists a number of computational-biologist–built applications that provide good examples of high-utility systems. [<a href="doi-org-0044.htm#pcbi-0040020-b011" class="ref-tip">11</a>] is a collection of chapters on a wide variety of aspects of biomedical text mining. [<a href="doi-org-0044.htm#pcbi-0040020-b012" class="ref-tip">12</a>] focusses on document retrieval, but also contains stimulating coverage of a number of related topics in text mining. Finally, [<a href="doi-org-0044.htm#pcbi-0040020-b013" class="ref-tip">13</a>] provides an in-depth treatment of statistical approaches to biomedical text mining.</p>
+</div>
+
+<div id="section5" class="section toc-section"><a id="s5" name="s5" data-toc="s5" class="link-target" title="Supporting Information"></a><h2>Supporting Information</h2><div class="figshare_widget" doi="10.1371/journal.pcbi.0040020"></div><div class="supplementary-material"><a name="pcbi-0040020-se001" id="pcbi-0040020-se001" class="link-target"></a><h3 class="siTitle title-small"><a href="http://journals.plos.org/ploscompbiol/article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pcbi.0040020.sd001">Text S1. </a>Getting Started in Text Mining: Supplementary Materials</h3><p class="siDoi"><a href="https://doi.org/10.1371/journal.pcbi.0040020.sd001">https://doi.org/10.1371/journal.pcbi.0040020.sd001</a></p><a id="article1.body1.sec5.supplementary-material1.caption1.p1" name="article1.body1.sec5.supplementary-material1.caption1.p1" class="link-target"></a><p class="postSiDOI">(DOC 59 KB).</p>
+</div></div>
+
+
+
+
+
+<div class="section toc-section"><a id="ack" name="ack" data-toc="ack" title="Acknowledgments" class="link-target"></a><h2>Acknowledgments</h2>
+<a id="article1.back1.ack1.p1" name="article1.back1.ack1.p1" class="link-target"></a><p>Alex Morgan (Stanford University) provided valuable insight into the computational biologist's perspective on text mining. Bob Carpenter (Alias-i) provided a large amount of helpful information, clarified a number of points related to LingPipe, and pointed out many controversial issues in the text. William A. Baumgartner, Jr., (Center for Computational Pharmacology's Biomedical Text Mining Group) provided helpful feedback and discussion. Lynne Fox (Denison Library) assisted with terminological examples.</p>
+</div><div class="toc-section"><a id="references" name="references" class="link-target" data-toc="references" title="References"></a><h2>References</h2><ol class="references"><li id="ref1"><span class="order">1.
+            </span><a name="pcbi-0040020-b001" id="pcbi-0040020-b001" class="link-target"></a>See-Kiong Ng (2006)  Integrating text mining with data mining. In:  Ananiadou S, McNaught J, editors. Text mining for biology and biomedicine. Boston/London: Artech House.  <ul class="find-nolinks"></ul></li><li id="ref2"><span class="order">2.
+            </span><a name="pcbi-0040020-b002" id="pcbi-0040020-b002" class="link-target"></a>Jenssen T-K, Lægreid A, Komorowski J, Hovig E (2001) A literature network of high-throughput analysis of gene expression. Nat Genet  28: 21–28.  <ul class="reflinks"><li><a href="doi-org-0044.htm#" data-author="Jenssen" data-cit="JenssenT-KL%C3%A6greidAKomorowskiJHovigE2001A%20literature%20network%20of%20high-throughput%20analysis%20of%20gene%20expression.Nat%20Genet282128" data-title="A%20literature%20network%20of%20high-throughput%20analysis%20of%20gene%20expression." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=A+literature+network+of+high-throughput+analysis+of+gene+expression.+Jenssen+2001" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref3"><span class="order">3.
+            </span><a name="pcbi-0040020-b003" id="pcbi-0040020-b003" class="link-target"></a>Blaschke C, Andrade MA, Ouzounis C, Valencia A (1999) Automatic extraction of biological information from scientific text: Protein–protein interactions. Proceedings of the Seventh International Conference on Intelligent Systems for Molecular Biology. Menlo Park (California): AAAI Press. pp. 60–67. <ul class="find-nolinks"></ul></li><li id="ref4"><span class="order">4.
+            </span><a name="pcbi-0040020-b004" id="pcbi-0040020-b004" class="link-target"></a>Cohen KB, Hunter L (2004)  Natural language processing and systems biology. In:  Dubitzky W, Pereira F, editors. Artificial intelligence and systems biology. Berlin: Springer Verlag.  <ul class="find-nolinks"></ul></li><li id="ref5"><span class="order">5.
+            </span><a name="pcbi-0040020-b005" id="pcbi-0040020-b005" class="link-target"></a>Craven M, Kumlein J (1999) Constructing biological knowledge bases by extracting information from text sources. Proceedings of the Seventh International Conference on Intelligent Systems for Molecular Biology. Menlo Park (California): AAAI Press. pp. 77–86. <ul class="find-nolinks"></ul></li><li id="ref6"><span class="order">6.
+            </span><a name="pcbi-0040020-b006" id="pcbi-0040020-b006" class="link-target"></a>Cohen KB, Tanabe L, Kinoshita S, Hunter L (2004) A resource for constructing customized test suites for molecular biology entity identification systems. Proceedings of BioLINK 2004. Boston, Massachusetts, United States: Association for Computational Linguistics. pp. 1–8. Linking biological literature, ontologies, and databases: Tools for users. <ul class="find-nolinks"></ul></li><li id="ref7"><span class="order">7.
+            </span><a name="pcbi-0040020-b007" id="pcbi-0040020-b007" class="link-target"></a>Hu ZZ, Narayanaswamy M, Ravikumar KE, Vijay-Shanker K, Wu CH (2005) Literature mining and database annotation of protein phosphorylation using a rule-based system. Bioinformatics  21: 2759–2765.  <ul class="reflinks"><li><a href="doi-org-0044.htm#" data-author="Hu" data-cit="HuZZNarayanaswamyMRavikumarKEVijay-ShankerKWuCH2005Literature%20mining%20and%20database%20annotation%20of%20protein%20phosphorylation%20using%20a%20rule-based%20system.Bioinformatics2127592765" data-title="Literature%20mining%20and%20database%20annotation%20of%20protein%20phosphorylation%20using%20a%20rule-based%20system." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Literature+mining+and+database+annotation+of+protein+phosphorylation+using+a+rule-based+system.+Hu+2005" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref8"><span class="order">8.
+            </span><a name="pcbi-0040020-b008" id="pcbi-0040020-b008" class="link-target"></a>Jackson P, Moulinier I (2007) Natural language processing for online applications: Text retrieval, extraction, and classification. 2nd edition. Herndon (Virginia): John Benjamins Publishing Company.   <ul class="find-nolinks"></ul></li><li id="ref9"><span class="order">9.
+            </span><a name="pcbi-0040020-b009" id="pcbi-0040020-b009" class="link-target"></a>Jurafsky D, Martin JH (2000) Speech and language processing: An introduction to natural language processing, computational linguistics and speech recognition. Lebanon (Indiana): Prentice Hall.   <ul class="find-nolinks"></ul></li><li id="ref10"><span class="order">10.
+            </span><a name="pcbi-0040020-b010" id="pcbi-0040020-b010" class="link-target"></a>Hunter L, Cohen KB (2006) Biomedical language processing: What's beyond PubMed? Mol Cell  21: 589–594.  <ul class="reflinks"><li><a href="doi-org-0044.htm#" data-author="Hunter" data-cit="HunterLCohenKB2006Biomedical%20language%20processing%3A%20What%27s%20beyond%20PubMed%3FMol%20Cell21589594" data-title="Biomedical%20language%20processing%3A%20What%26apos%3Bs%20beyond%20PubMed%3F" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Biomedical+language+processing%3A+What%26apos%3Bs+beyond+PubMed%3F+Hunter+2006" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref11"><span class="order">11.
+            </span><a name="pcbi-0040020-b011" id="pcbi-0040020-b011" class="link-target"></a>Ananiadou S, McNaught J (2006) Text mining for biology and medicine. Boston/London: Artech House.   <ul class="find-nolinks"></ul></li><li id="ref12"><span class="order">12.
+            </span><a name="pcbi-0040020-b012" id="pcbi-0040020-b012" class="link-target"></a>Hersh WR (2002) Information retrieval: A health and biomedical perspective. 2nd edition. New York: Springer.   <ul class="find-nolinks"></ul></li><li id="ref13"><span class="order">13.
+            </span><a name="pcbi-0040020-b013" id="pcbi-0040020-b013" class="link-target"></a>Shatkay H, Craven M (2007) Biomedical text mining. Cambridge (Massachusetts): MIT Press.   <ul class="find-nolinks"></ul></li></ol></div>
+
+
+
+          <div class="ref-tooltip">
+             <div class="ref_tooltip-content">
+
+             </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    </section>
+    <aside class="article-aside">
+
+
+<!--[if IE 9]>
+<style>
+.dload-xml {margin-top: 38px}
+</style>
+<![endif]-->
+<div class="dload-menu">
+  <div class="dload-pdf">
+    <a href="http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.0040020&amp;type=printable"
+       id="downloadPdf" target="_blank">Download PDF</a>
+  </div>
+  <div data-js-tooltip-hover="trigger" class="dload-hover">&nbsp;
+    <ul class="dload-xml" data-js-tooltip-hover="target">
+      <li><a href="http://journals.plos.org/ploscompbiol/article/citation?id=10.1371/journal.pcbi.0040020"
+             id="downloadCitation">Citation</a></li>
+      <li><a href="http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.0040020&amp;type=manuscript"
+             id="downloadXml">XML</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="aside-container">
+
+<div class="print-article" id="printArticle" data-js-tooltip-hover="trigger">
+
+  Print
+  <ul class="print-options" data-js-tooltip-hover="target">
+    <li>
+        <a href="doi-org-0044.htm#" onclick="window.print(); return false;" class="preventDefault" id="printBrowser" title="Print
+        Article">Print article</a>
+    </li>
+
+
+
+
+<li>
+<a title="Odyssey Press" href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&amp;page=0&amp;journal=3&amp;doi=10.1371%2Fjournal.pcbi.0040020&amp;volume=&amp;issue=&amp;title=Getting%20Started%20in%20Text%20Mining&amp;author_name=K.%20Bretonnel%20Cohen%2C%20Lawrence%20Hunter&amp;start_page=1&amp;end_page=3">EzReprint  </a>
+</li>
+
+  </ul>
+</div>
+<div class="share-article" id="shareArticle" data-js-tooltip-hover="trigger">
+  Share
+  <ul data-js-tooltip-hover="target" class="share-options" id="share-options">
+
+<li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.0040020" id="shareReddit" target="_blank" title="Submit to Reddit"><img src="http://journals.plos.org/ploscompbiol/resource/img/icon.reddit.16.png" width="16" height="16" alt="Reddit">Reddit</a></li>
+
+<li><a href="https://plus.google.com/share?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.0040020" id="shareGoogle" target="_blank" title="Share on Google+"><img src="http://journals.plos.org/ploscompbiol/resource/img/icon.gplus.16.png" width="16" height="16" alt="Google+">Google+</a></li>
+
+<li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.0040020"  id="shareStumble" target="_blank" title="Add to StumbleUpon"><img src="http://journals.plos.org/ploscompbiol/resource/img/icon.stumble.16.png" width="16" height="16" alt="StumbleUpon">StumbleUpon</a></li>
+
+<li><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.0040020&t=Getting Started in Text Mining" id="shareFacebook" target="_blank" title="Share on Facebook"><img src="http://journals.plos.org/ploscompbiol/resource/img/icon.fb.16.png" width="16" height="16" alt="Facebook">Facebook</a></li>
+
+
+
+
+<li><a href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.0040020&title=Getting Started in Text Mining&summary=Checkout this article I found at PLOS"  id="shareLinkedIn" target="_blank" title="Add to LinkedIn"><img src="http://journals.plos.org/ploscompbiol/resource/img/icon.linkedin.16.png" width="16" height="16" alt="LinkedIn">LinkedIn</a></li>
+
+<li><a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.0040020&title=Getting Started in Text Mining"  id="shareCiteULike" target="_blank" title="Add to CiteULike"><img src="http://journals.plos.org/ploscompbiol/resource/img/icon.cul.16.png" width="16" height="16" alt="CiteULike">CiteULike</a></li>
+
+<li><a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.0040020"  id="shareMendeley" target="_blank" title="Add to Mendeley"><img src="http://journals.plos.org/ploscompbiol/resource/img/icon.mendeley.16.png" width="16" height="16" alt="Mendeley">Mendeley</a></li>
+
+<li><a href="https://www.pubchase.com/library?add_aid=10.1371/journal.pcbi.0040020&source=plos"  id="sharePubChase" target="_blank" title="Add to PubChase"><img src="http://journals.plos.org/ploscompbiol/resource/img/icon.pc.16.png" width="16" height="16" alt="PubChase">PubChase</a></li>
+
+  <li><a href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.0040020&text=%23PLOSCompBio%3A%20Getting Started in Text Mining" target="_blank" title="share on Twitter" id="twitter-share-link"><img src="http://journals.plos.org/ploscompbiol/resource/img/icon.twtr.16.png" width="16" height="16" alt="Twitter">Twitter</a></li>
+
+<li><a href="http://journals.plos.org/ploscompbiol/article/email?id=10.1371/journal.pcbi.0040020" id="shareEmail" title="Email this article"><img src="http://journals.plos.org/ploscompbiol/resource/img/icon.email.16.png" width="16" height="16" alt="Email">Email</a></li>
+
+  </ul>
+</div></div>
+
+
+ <!-- Crossmark 2.0 widget -->
+<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+<a data-target="crossmark"><img width="150" src="http://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_BW_horizontal.svg"></a>
+<!-- End Crossmark 2.0 widget -->
+
+
+
+
+<div class="related-articles-container">
+  <h3>
+Related PLOS Articles
+</h3>
+  <ul>
+      <li>
+        <a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000411">
+<?xml version="1.0" encoding="UTF-8"?>Getting Started in Text Mining: Part Two        </a>
+      </li>
+  </ul>
+</div>
+
+
+
+
+<div class="aside-container">
+  <h3>Included in the Following Collection</h3>
+  <ul id="collectionList">
+    <li>
+        <a href="http://collections.plos.org/textmining">Text Mining</a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="skyscraper-container">
+  <div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-1' style='width:160px; height:600px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-1'); });
+    </script>
+  </div>
+</div>
+
+
+
+
+<div class="subject-areas-container">
+  <h3>Subject Areas <div id="subjInfo">?</div>
+    <div id="subjInfoText">
+        <p>For more information about PLOS Subject Areas, click
+          <a href="http://journals.plos.org/ploscompbiol/s/help-using-this-site#loc-subject-areas">here</a>.</p>
+      <span class="inline-intro">We want your feedback.</span> Do these Subject Areas make sense for this article? Click the target next to the incorrect Subject Area and let us know. Thanks for your help!
+
+
+    </div>
+  </h3>
+  <ul id="subjectList">
+      <li>
+              <a class="taxo-term" title="Search for articles about Text mining"
+                 href="http://journals.plos.org/ploscompbiol/search?filterSubjects=Text+mining&amp;filterJournals=PLoSCompBiol&amp;q=">Text mining</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Text mining"><p class="taxo-explain">Is the Subject Area <strong>"Text mining"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Breast cancer"
+                 href="http://journals.plos.org/ploscompbiol/search?filterSubjects=Breast+cancer&amp;filterJournals=PLoSCompBiol&amp;q=">Breast cancer</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Breast cancer"><p class="taxo-explain">Is the Subject Area <strong>"Breast cancer"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Genetic causes of cancer"
+                 href="http://journals.plos.org/ploscompbiol/search?filterSubjects=Genetic+causes+of+cancer&amp;filterJournals=PLoSCompBiol&amp;q=">Genetic causes of cancer</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Genetic causes of cancer"><p class="taxo-explain">Is the Subject Area <strong>"Genetic causes of cancer"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Biologists"
+                 href="http://journals.plos.org/ploscompbiol/search?filterSubjects=Biologists&amp;filterJournals=PLoSCompBiol&amp;q=">Biologists</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Biologists"><p class="taxo-explain">Is the Subject Area <strong>"Biologists"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Fats"
+                 href="http://journals.plos.org/ploscompbiol/search?filterSubjects=Fats&amp;filterJournals=PLoSCompBiol&amp;q=">Fats</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Fats"><p class="taxo-explain">Is the Subject Area <strong>"Fats"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Software engineering"
+                 href="http://journals.plos.org/ploscompbiol/search?filterSubjects=Software+engineering&amp;filterJournals=PLoSCompBiol&amp;q=">Software engineering</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Software engineering"><p class="taxo-explain">Is the Subject Area <strong>"Software engineering"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Database searching"
+                 href="http://journals.plos.org/ploscompbiol/search?filterSubjects=Database+searching&amp;filterJournals=PLoSCompBiol&amp;q=">Database searching</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Database searching"><p class="taxo-explain">Is the Subject Area <strong>"Database searching"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Scientists"
+                 href="http://journals.plos.org/ploscompbiol/search?filterSubjects=Scientists&amp;filterJournals=PLoSCompBiol&amp;q=">Scientists</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Scientists"><p class="taxo-explain">Is the Subject Area <strong>"Scientists"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+  </ul>
+</div>
+<div id="subjectErrors"></div>
+
+
+<div class="twitter-container">
+  <h3>Archived Tweets</h3>
+  <ul id="tweetList">
+
+  </ul>
+  <div class="load-more">Load more <span></span></div>
+  <div class="view-all"><a href="http://alm.plos.org/works/doi.org/10.1371/journal.pcbi.0040020?source_id=twitter">View all tweets</a>
+  </div>
+</div>
+
+<script type="text/template" id="twitterModuleItemTemplate">
+  <% _.each(items, function(item) { %>
+    <li>
+      <div class="tweet-info">
+        <a href="http://twitter.com/<%= item.user %>">
+          <span class="imgholder">
+            <img class="imgLoad" src="http://journals.plos.org/ploscompbiol/&lt;%=&#32;item.user_profile_image&#32;%&gt;">
+          </span>
+          <div class="tweetDate"><%= item.created_at %></div>
+          <div class="tweetUser">
+            <strong><%= item.user_name %></strong>
+            <span>@<%= item.user %></span>
+          </div>
+        </a>
+      </div>
+      <div class="tweetText">
+        <%= item.text %>
+      </div>
+      <div id="tweetActions">
+        <a class="tweet-reply" href="https://twitter.com/intent/tweet?in_reply_to<%= item.id %>&amp;text=@<%= item.user %>">
+          <div>&nbsp;</div> Reply
+        </a>
+        <a class="tweet-retweet" href="https://twitter.com/intent/retweet?tweet_id=<%= item.id %>">
+          <div>&nbsp;</div> Retweet
+        </a>
+        <a class="tweet-favorite" href="https://twitter.com/intent/favorite?tweet_id=<%= item.id %>">
+          <div>&nbsp;</div> Favorite
+        </a>
+      </div>
+    </li>
+  <% }); %>
+</script>
+
+    </aside>
+  </div>
+
+
+
+
+</main>
+
+<footer id="pageftr">
+  <div class="row">
+    <div class="brand-column">
+
+      <img src="http://journals.plos.org/ploscompbiol/resource/img/logo-plos-footer.png" alt="PLOS" class="logo-footer"/>
+      <p class="nav-special">
+
+&nbsp;
+<!--
+  Webapp build:  3.6.7 at 20180402 by teamcity, commit: 
+  Service build: 2.4.5 at 20180327 by teamcity, commit: 
+  Enabled dev features: []
+  -->
+      </p>
+
+<ul class="nav-aux">
+  <li><a href="https://www.plos.org/privacy-policy" id="ftr-privacy">Privacy Policy</a></li>
+  <li><a href="https://www.plos.org/terms-of-use" id="ftr-terms">Terms of Use</a></li>
+  <li><a href="https://www.plos.org/advertise/" id="ftr-advertise">Advertise</a></li>
+  <li><a href="https://www.plos.org/media-inquiries" id="ftr-media">Media Inquiries</a></li>
+</ul>
+    </div>
+    <div class="link-column">
+
+<p class="nav-special"><a href="https://www.plos.org/publications/journals/">Publications</a></p>
+
+<div class="nav">
+  <ul>
+    <li><a href="http://journals.plos.org/plosbiology/" id="ftr-bio">PLOS Biology</a></li>
+    <li><a href="http://journals.plos.org/plosmedicine/" id="ftr-med">PLOS Medicine</a></li>
+    <li><a href="http://journals.plos.org/ploscompbiol/" id="ftr-compbio">PLOS Computational Biology</a></li>
+    <li><a href="http://currents.plos.org" id="ftr-cur">PLOS Currents</a></li>
+    <li><a href="http://journals.plos.org/plosgenetics/" id="ftr-gen">PLOS Genetics</a></li>
+    <li><a href="http://journals.plos.org/plospathogens/" id="ftr-path">PLOS Pathogens</a></li>
+    <li><a href="http://journals.plos.org/plosone/" id="ftr-one">PLOS ONE</a></li>
+    <li><a href="http://journals.plos.org/plosntds/" id="ftr-ntds">PLOS Neglected Tropical Diseases</a></li>
+  </ul>
+</div>
+    </div>
+    <div class="link-column">
+
+<div class="nav nav-special">
+  <p><a href="https://www.plos.org" id="ftr-home">plos.org</a></p>
+
+  <p><a href="http://blogs.plos.org" id="ftr-blog">Blogs</a></p>
+
+  <p><a href="http://collections.plos.org" id="ftr-collections">Collections</a></p>
+
+  <p><a href="http://journals.plos.org/ploscompbiol/feedback" id="ftr-feedback">Send us feedback</a></p>
+  <p><a href="http://journals.plos.org/ploscompbiol/s/help-using-this-site"
+        id="ftr-help">Help using this site</a></p>
+  <p><a href="http://journals.plos.org/ploscompbiol/lockss-manifest" id="ftr-lockss">LOCKSS</a></p>
+
+<p class="footer-non-profit-statement">PLOS is a nonprofit 501(c)(3) corporation, #C2354500, and is based in San Francisco, California, US</p></div>    </div>
+  </div>
+
+
+</footer>
+
+
+
+
+<script type="text/javascript">
+  var ArticleData = {
+    doi: '10.1371/journal.pcbi.0040020',
+    title: '<article-title xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Getting Started in Text Mining<\/article-title>',
+    date: 'Jan 25, 2008'
+  };
+</script>
+
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "http://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "http://alm.plos.org/api/v5/articles";
+</script>
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "http://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "http://alm.plos.org/api/v5/articles";
+</script>
+
+
+
+
+
+
+<script type="text/javascript" async src="http://platform.twitter.com/widgets.js"></script>
+
+
+
+
+
+<!-- This file should be loaded before the renderJs, to avoid conflicts with the FigShare, that implements the MathJax also. -->
+
+<!--  mathjax configuration options  -->
+<!-- more can be found at http://docs.mathjax.org/en/latest/ -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  "HTML-CSS": {
+    scale: 100,
+    availableFonts: ["STIX","TeX"],
+    preferredFont: "STIX",
+    webFont: "STIX-Web",
+    linebreaks: { automatic: false }
+  },
+  jax: ["input/MathML", "output/HTML-CSS"]
+});
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+
+<script src="http://journals.plos.org/ploscompbiol/resource/compiled/asset_ET4M3A7JG3O4BVSOEBOSM7ZC7W7HWNRI.js"></script>
+<div class="reveal-modal-bg"></div>
+</body>
+</html>

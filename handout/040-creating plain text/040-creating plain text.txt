@@ -1,0 +1,47 @@
+
+
+Creating a plain text version of a corpus with Tika
+===================================================
+
+It is imperative to create plain text versions of corpus items.
+
+Text mining can not be done without plain text data. This means HTML files need to be rid of markup. It means PDF files need to have been "born digitally" or they need to have been processed with optical character recognition (OCR), and then the underlying text needs to be extracted. Word processor files need to converted to plain text, and the result saved accordingly. The days of plain o' ASCII text files need to be forgotten. Instead, the reader needs to embrace Unicode, and whenever possible, make sure characters in the text files are encoded as UTF-8. With UTF-8 encoding, one gets all of the nice accent marks so foreign to United States English, but one also gets all of the pretty emoticons increasingly sprinkling our day-to-day digital communications. Moreover, the data needs to be as "clean" as possible. When it comes to OCR, do not fret too much. Given the large amounts of data the reader will process, "bad" OCR (OCR with less than 85% accuracy) can still be quite effective. 
+
+Converting harvested data into plain text used to be laborious as well as painful, but then a Java application called Apache Tika came on the scene. [1] Tika comes in two flavors: application and server. The application version can take a single file as input, and it can output metadata as well as any underlying text. The application can also work in batch mode taking a directory as input and saving the results to a second directory. Tika's server version is much more expressive, more powerful, and very HTTP-like, but it requires more "under the hood" knowledge to exploit to its fullest potential.
+
+For the sake of this workshop, versions of the Tika application and Tika server are included in the distribution, and they have been saved in the lib directory with the names tika-desktop.jar and tika-server.jar. The reader can run the desktop/GUI version of the Tika application by merely double-clicking on it. The result will be a dialog box.
+
+[INSERT IMAGES HERE]
+
+
+Drag a PDF (or just about any) file on to the window, and Tika will extract the underlying text. To use the command-line interface, something like this could be run to output the help text:
+
+  $ java -jar ./lib/tika-desktop.jar --help
+  
+  > java -jar .\lib\tika-desktop.jar --help
+
+And then something like these commands to process a single file or a whole directory of files:
+
+  $ java -jar ./lib/tika-desktop.jar -t <filename>
+  $ java -jar ./lib/tika-desktop.jar -t -i <input directory> -o <output directory>
+
+  > java -jar .\lib\tika-desktop.jar -t <filename>
+  > java -jar .\lib\tika-desktop.jar -t -i <input directory> -o <output directory>
+
+Try transforming a few files individually as well as in batch. What does the output look like? To what degree is it readable? To what degree has the formatting been lost? Text mining does not take formatting into account, so there is no huge loss in this regard.
+
+Without some sort of scripting, the use of Tika to convert harvested data into plain text can still be tedious. Consequently, the whole of the workshop's harvested data has been pre-processed with a set of Perl and bash scripts (which probably won't work on Windows computers unless some sort of Linux shell has been installed):
+
+  $ ./bin/tika-server.sh - runs Tika in server mode on TCP port 8080, and waits patiently for incoming connections
+  $ ./bin/tika-client.pl - takes a file as input, sends it to the server, and returns the plain text while handling the HTTP magic in the middle
+  $ ./bin/file2txt.sh - a front-end to the second script taking a file and directory name as input, transforming the file into plain text, and saving the result with the same name but in the given directory and with a .txt extension
+  
+The entirety of the harvested data has been transformed into plain text for the purposes of this workshop. ("Well, almost all.") The result has been saved in the folder/directory named "corpus". Peruse the corpus directory. Compare & contrast its contents with the contents of the harvest directory. Can you find any ommisions, and if so, then can you guess why/how they occurred? 
+
+[1] Tika - http://tika.apache.org
+
+--
+Eric Lease Morgan
+April 25, 2018
+
+

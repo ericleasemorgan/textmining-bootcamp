@@ -1,0 +1,324 @@
+
+
+
+
+
+dh+lib
+
+
+where the digital humanities and librarianship meet
+
+
+
+	About
+	About dh+lib
+	2012 dh+lib survey results
+	Editor-at-Large Instructions
+	Editor-at-Large Sign Up
+
+
+
+	Features
+	Digital Humanities In the Library / Of the Library: A dh+lib Special Issue
+	Data Praxis Series
+	dh+lib Mini-Series
+	Scene Reports Series
+	Scene Reports
+
+
+
+
+
+
+	dh+lib Review
+	CFP
+	Event
+	Jobs
+	Opportunity
+	Post
+	Resource
+	Recommended
+	What Are You Reading?
+
+
+
+	Resources
+	dh+lib Registry
+	Readings
+	Library Research Guides
+	TEI + digital literacy : recommended readings
+
+
+
+	Calendar
+
+
+
+
+
+
+
+
+
+	 
+	dh+lib
+	Features
+	Digital Humanities in the Research Commons: Precedents & Prospects
+
+
+
+
+
+
+
+
+« Previous
+
+Next »
+
+
+
+
+Digital Humanities in the Research Commons: Precedents & Prospects
+
+
+
+30 Jan 2014  | Features
+Tags: information commons · management
+
+
+
+
+
+
+Editor’s note
+
+dh+lib is pleased to feature a mini-series of three posts from Donald Beagle, currently the Director of Library Services at Belmont Abbey College. In his seminal 1999 article, “Conceptualizing an Information Commons,” Beagle applied the Strategic Alignment management theory, developed for information technology, to Information Commons, a term which then referenced both integrated online library search environments and physical library facilities “specifically designed to organize workspace and service delivery around the integrated digital environment” (82).1 Beagle is a leader in the theory and practice of library commons, which provide an approach and framing to libraries’ integration of new modes of information discovery, use, and sharing; as a reviewer of Beagle’s 2006 Information Commons Handbook wrote: “Although not the inventor of the information commons, Beagle is a pioneer in the development of the concept and is perhaps the best-known name in the field.”2
+
+The concept of the information commons has been transformative in research libraries, particularly around the provision of services for undergraduates. In this series, Beagle unearths a personal history behind his theories and, in so doing, seeks to reconnect the commons movement to the research and collaboration needs of faculty and graduate students. He identifies influences to this approach, describing his experience leading the Charleston Multimedia Project, an early digital project based in a public library, along with collaborations and conversations with hypertext theorists Michael Joyce and Jay David Bolter. He also theorizes on prospects for the research commons to serve dh in libraries. As Beagle writes in his introduction, below, the posts were prompted by Trevor Muñoz’s 2013 dh+lib post, which commented on similarities between the information commons and library dh service models.  
+
+What is an information commons (IC), and what relevance does it hold for dh? In a history of ICs, Elizabeth Milewicz inclusively characterizes the concept’s emphasis: “… to provide a collaborative, conversational space that brings together technology, services, tools, and resources to support teaching and learning and encourage innovative ideas” (3).3 She observes: “The information commons visibly and functionally incorporates networked computer resources and collaborative work environments into libraries’ missions” (5). The commons, then, has direct implications for how dh work is framed and undertaken in libraries– and for the administrative approach needed to evolve services to support digital scholarship.
+
+-Sarah Potvin, dh+lib co-editor 
+
+Introduction
+
+Trevor Muñoz, in his dh+lib blog post “In Service: A Further Provocation on Digital Humanities Research in Libraries,” carries forward an important discussion about library management models with the potential to support the incubation of digital humanities. Muñoz points out that my first articles on the “Information Commons” (IC) credit the influence of a management model called Strategic Alignment, imported from private sector enterprise information technology planning.4 Connecting IC to ongoing DH endeavors, Muñoz describes a DH center service model as “a very close translation of the ‘information commons’ idea to the realm of digital humanities.” My guest post here is not a rebuttal to Muñoz, because I agree with much of his commentary, but an attempt to provide further background and clarification.
+
+I viewed Strategic Alignment from the beginning as vehicle to develop more sophisticated commons models for graduate student research and faculty knowledge creation needs, including DH
+
+
+
+As formal assessments of first-generation IC facilities have begun to accumulate since the late 1990s – early 2000s, (such as Sherman’s at North Carolina State University; Fuller’s at the University of Connecticut, etc.), it has became clear that these ICs are: 1) remarkably popular and successful, sometimes increasing library doorcounts by 50% or more, but yet have remained 2) most heavily used by undergraduates, while graduate students and faculty tend to migrate elsewhere.5 This could lead to an understandable misperception that I employed Strategic Alignment to start IC development at the University of North Carolina-Charlotte (UNCC) in 1997 exclusively to help meet the tech needs of undergraduates. In reality, I viewed Strategic Alignment from the beginning as vehicle to develop more sophisticated commons models for graduate student research and faculty knowledge creation needs, including DH.
+
+In 1995-96, I coordinated an ambitious digital humanities project with collaborating faculty, graduate students, and independent scholars by way of an Apple Library of Tomorrow grant.  The success of that project propelled me to UNCC in 1997, where my initial focus was frankly along the path of least resistance. The fastest way to get change moving in a large university library, in my opinion, is to solve an identifiable and immediately urgent need. In 1997 at UNCC, this meant better IT and media support for undergraduate students. But this was never intended to be the end-point of that UNCC initiative.
+
+my choice of Strategic Alignment to initiate the IC model was shaped from the outset by my plan to later extend it to establish a Research Commons that would draw upon my earlier experience producing a DH project
+
+
+
+My goal in these posts is to discuss how my choice of Strategic Alignment to initiate the IC model was shaped from the outset by my plan to later extend it to establish a Research Commons that would draw upon my earlier experience producing a DH project. I also will discuss how this vision was shaped by my conversations with early hypertext theorists Michael Joyce and Jay David Bolter. I believed then (and now) that faculty researchers and early adopters like Joyce and Bolter faced campus-wide and library-specific challenges in pursuing leading-edge projects, and that my 1990s experience as a library manager developing DH in collaboration with faculty, graduate students, and interagency scholars offered a valuable perspective on how libraries might be repositioned to help incubate and shape DH projects in the future.
+
+Links to posts:
+
+Part 1: The Charleston Multimedia Project: A DH Public Library Case Study
+
+Part 2: Towards a Learning Commons: The Influence of Hypertext Theorists of the 1980s-90s
+
+Part 3: The Research Commons in 2014 and Beyond
+
+ 
+
+
+
+
+	 Beagle, Donald. “Conceptualizing an Information Commons.” The Journal of Academic Librarianship. Vol. 25, No. 2 (March 1999): 82-89. ↵
+	 Seal, Robert A. “Review of The Information Commons Handbook.” portal: Library and the Academy. Vol. 7, No. 3 (2007): 389-90. ↵
+	 Milewicz, Elizabeth J. “Origin and Development of the Information Commons in Academic Libraries,” in A Field Guide to the Information Commons. Edited by Charles Forrest and Martin Halbert. (Lanham, MD: Scarecrow Press, 2009): 1-17. ↵
+	 Beagle, “Conceptualizing an Information Commons.” ↵
+	 See Sherman, Stephen C. “A User-centered Evaluation of the North Carolina State University Libraries Learning Commons.” Master’s Paper for the M.S. in L.S degree. (April 2008). 74 pages. UNC Masters Papers; Fuller, Kate. “Learning Commons @ UConn Assessment Report.” Completed in fulfillment of the requirements of ILS-580 at Southern Connecticut State University. (Fall 2009). See also: Harvey & Lindstrom: “LibQUAL+® and the Information Commons Initiative at Buffalo State College: 2003 to 2009.” Evidence Based Library and Information Practice. Vol. 8, No. 2 (2013). ↵
+
+
+
+
+
+Donald Beagle
+Graduated Oakland University [English & Linguistics] 1975; University of Michigan [Library & Information Science] 1977. Formerly Head of Main Library, Charleston County Public Library, (SC) 1989-1996; Associate Library Director & Head of the Information Commons, University of North Carolina--Charlotte, (NC) 1997-1999; Director of Library Services, Belmont Abbey College (NC), 2000-current.
+	More Posts
+
+
+
+
+
+
+
+
+
+
+« Previous
+
+Next »
+
+
+
+
+
+
+
+
+
+
+Get Involved
+	Contact Us
+	Contribute
+	Suggest a feed
+
+
+			Tweets by @DHandLib
+
+
+
+				Recent Posts
+			
+POST: Evaluating Digital Humanities Beyond the Tenure Track Parts 1 and 2
+
+	
+RESOURCE: Hacking heritage: understanding the limits of online access
+
+	
+RESOURCE:  Shifting to Data Savvy: The Future of Data Science In Libraries
+
+	
+CFP: Access, Control, and Dissemination in Digital Humanities
+
+	
+EVENT: Emory Digital Humanities Symposium: DH for the Study and Teaching of South Asia
+
+
+
+Archives
+		Archives
+Select Month
+ April 2018 
+ March 2018 
+ February 2018 
+ January 2018 
+ December 2017 
+ November 2017 
+ October 2017 
+ September 2017 
+ August 2017 
+ July 2017 
+ June 2017 
+ May 2017 
+ April 2017 
+ March 2017 
+ February 2017 
+ January 2017 
+ December 2016 
+ November 2016 
+ October 2016 
+ September 2016 
+ August 2016 
+ July 2016 
+ June 2016 
+ May 2016 
+ April 2016 
+ March 2016 
+ February 2016 
+ January 2016 
+ December 2015 
+ November 2015 
+ October 2015 
+ September 2015 
+ August 2015 
+ July 2015 
+ June 2015 
+ May 2015 
+ April 2015 
+ March 2015 
+ February 2015 
+ January 2015 
+ December 2014 
+ November 2014 
+ October 2014 
+ September 2014 
+ August 2014 
+ July 2014 
+ June 2014 
+ May 2014 
+ April 2014 
+ March 2014 
+ February 2014 
+ January 2014 
+ December 2013 
+ November 2013 
+ October 2013 
+ September 2013 
+ August 2013 
+ July 2013 
+ June 2013 
+ May 2013 
+ April 2013 
+ March 2013 
+ February 2013 
+ January 2013 
+ December 2012 
+ November 2012 
+
+
+Editor-At-Large Corner
+
+	Instructions
+	Log in
+
+
+
+dh+lib Registry
+
+	University of Tennessee – Knoxville
+	University of Toronto Scarborough
+	University of Scranton
+	University of New Mexico
+	University of Virginia
+	Loyola University New Orleans
+	Washington State University
+	Ohio State University
+	New York University
+	Rutgers, The State University of New Jersey
+	Indiana University-Purdue University Indianapolis
+	Vanderbilt University
+	Virginia Commonwealth University
+	McMaster University
+	The Five Colleges of Ohio
+	Indiana University Bloomington
+	University of Idaho
+	Bryn Mawr College
+	University of Oklahoma
+	Northeastern University
+
+
+
+
+
+
+
+
+
+	Contact Us
+	Contribute
+	Submission Guidelines
+	Rights + Permissions
+
+
+dh+lib is a project of the ACRL Digital Humanities Interest Group | ISSN 2380-1255 (online)
+
+	
+
+
+
+
+
+
+
+

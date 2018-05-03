@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Introduction to Digital Humanities | Concepts, Methods, and Tutorials for Students and Instructors</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://dh101.humanities.ucla.edu/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://dh101.humanities.ucla.edu/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Introduction to Digital Humanities &raquo; Feed" href="http://dh101.humanities.ucla.edu/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Introduction to Digital Humanities &raquo; Comments Feed" href="http://dh101.humanities.ucla.edu/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/dh101.humanities.ucla.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.6"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentytwelve-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='http://dh101.humanities.ucla.edu/wp-content/themes/twentytwelve-child/style.css?ver=4.8.6' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='http://dh101.humanities.ucla.edu/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://dh101.humanities.ucla.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://dh101.humanities.ucla.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://dh101.humanities.ucla.edu/index.php?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dh101.humanities.ucla.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dh101.humanities.ucla.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.6" />
+<link rel="canonical" href="dh101-humanities-ucla-edu-0123.htm" />
+<link rel='shortlink' href='dh101-humanities-ucla-edu-0123.htm' />
+<link rel="alternate" type="application/json+oembed" href="http://dh101.humanities.ucla.edu/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fdh101.humanities.ucla.edu%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://dh101.humanities.ucla.edu/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fdh101.humanities.ucla.edu%2F&#038;format=xml" />
+</head>
+
+<body class="home page-template-default page page-id-2 page-parent custom-font-enabled single-author">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="dh101-humanities-ucla-edu-0123.htm" title="Introduction to Digital Humanities" rel="home">Introduction to Digital Humanities</a></h1>
+			<h2 class="site-description">Concepts, Methods, and Tutorials for Students and Instructors</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle">Menu</button>
+			<a class="assistive-text" href="dh101-humanities-ucla-edu-0123.htm#content" title="Skip to content">Skip to content</a>
+			<div class="menu-menu-1-container"><ul id="menu-menu-1" class="nav-menu"><li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-has-children menu-item-12"><a href="dh101-humanities-ucla-edu-0123.htm">About</a>
+<ul  class="sub-menu">
+	<li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="http://dh101.humanities.ucla.edu/?page_id=289">Credits</a></li>
+	<li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a href="http://dh101.humanities.ucla.edu/?page_id=309">Contact &#038; Feedback</a></li>
+</ul>
+</li>
+<li id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11"><a href="http://dh101.humanities.ucla.edu/?page_id=8">1. Concepts &#038; Readings</a>
+<ul  class="sub-menu">
+	<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="http://dh101.humanities.ucla.edu/?page_id=13">1A. Introduction</a></li>
+	<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://dh101.humanities.ucla.edu/?page_id=15">1B. Analysis of DH Projects</a></li>
+	<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://dh101.humanities.ucla.edu/?page_id=20">2A. HTML and Structured Data</a></li>
+	<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://dh101.humanities.ucla.edu/?page_id=33">2B. Classification Systems</a></li>
+	<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="http://dh101.humanities.ucla.edu/?page_id=35">3A. Ontologies and Metadata</a></li>
+	<li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="http://dh101.humanities.ucla.edu/?page_id=93">3B. Data and Databases</a></li>
+	<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="http://dh101.humanities.ucla.edu/?page_id=37">4A. Database and Narrative</a></li>
+	<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="http://dh101.humanities.ucla.edu/?page_id=40">4B. Visualization</a></li>
+	<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://dh101.humanities.ucla.edu/?page_id=46">5A. Visualization (Continued)</a></li>
+	<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="http://dh101.humanities.ucla.edu/?page_id=48">5B. Data Mining and Text Analysis</a></li>
+	<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="http://dh101.humanities.ucla.edu/?page_id=60">6A. Text Encoding: Mark-up and TEI</a></li>
+	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="http://dh101.humanities.ucla.edu/?page_id=62">6B. Distant Reading and Cultural Analytics</a></li>
+	<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="http://dh101.humanities.ucla.edu/?page_id=64">7A. Network Analysis</a></li>
+	<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="http://dh101.humanities.ucla.edu/?page_id=66">8A. GIS Analysis and Critical Issues</a></li>
+	<li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="http://dh101.humanities.ucla.edu/?page_id=68">8B. Interface Theory and Practice</a></li>
+	<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="http://dh101.humanities.ucla.edu/?page_id=70">9A. Interface and Narrative</a></li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="http://dh101.humanities.ucla.edu/?page_id=72">9B. Modelling Virtual Space</a></li>
+	<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a href="http://dh101.humanities.ucla.edu/?page_id=74">10A. Critical Issues</a></li>
+	<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="http://dh101.humanities.ucla.edu/?page_id=76">10B. Summary Issues</a></li>
+</ul>
+</li>
+<li id="menu-item-270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-270"><a href="http://dh101.humanities.ucla.edu/?page_id=100">2. Tutorials</a>
+<ul  class="sub-menu">
+	<li id="menu-item-276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-276"><a href="http://dh101.humanities.ucla.edu/?page_id=102">Exhibits</a>
+	<ul  class="sub-menu">
+		<li id="menu-item-277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-277"><a href="http://dh101.humanities.ucla.edu/?page_id=104">Omeka</a></li>
+	</ul>
+</li>
+	<li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279"><a href="http://dh101.humanities.ucla.edu/?page_id=148">Managing Data</a></li>
+	<li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-271"><a href="http://dh101.humanities.ucla.edu/?page_id=151">Data Visualization</a>
+	<ul  class="sub-menu">
+		<li id="menu-item-269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-269"><a href="http://dh101.humanities.ucla.edu/?page_id=163">Tableau Public</a></li>
+		<li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><a href="http://dh101.humanities.ucla.edu/?page_id=165">Cytoscape</a></li>
+	</ul>
+</li>
+	<li id="menu-item-283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-283"><a href="http://dh101.humanities.ucla.edu/?page_id=153">Text Analysis</a>
+	<ul  class="sub-menu">
+		<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="http://dh101.humanities.ucla.edu/?page_id=169">ManyEyes</a></li>
+		<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="http://dh101.humanities.ucla.edu/?page_id=172">Voyant</a></li>
+		<li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="http://dh101.humanities.ucla.edu/?page_id=182">WordSmith</a></li>
+	</ul>
+</li>
+	<li id="menu-item-280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-280"><a href="http://dh101.humanities.ucla.edu/?page_id=155">Maps &#038; Timelines</a>
+	<ul  class="sub-menu">
+		<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="http://dh101.humanities.ucla.edu/?page_id=198">Neatline</a></li>
+		<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="http://dh101.humanities.ucla.edu/?page_id=184">GeoCommons</a></li>
+	</ul>
+</li>
+	<li id="menu-item-287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-287"><a href="http://dh101.humanities.ucla.edu/?page_id=157">Wireframing</a></li>
+	<li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267"><a href="http://dh101.humanities.ucla.edu/?page_id=178">HTML &#038; CSS</a></li>
+</ul>
+</li>
+<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-257"><a href="http://dh101.humanities.ucla.edu/?page_id=203">3. Student Projects</a>
+<ul  class="sub-menu">
+	<li id="menu-item-306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306"><a href="http://dh101.humanities.ucla.edu/?page_id=238">Final Project Description</a></li>
+	<li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-307"><a href="http://dh101.humanities.ucla.edu/?page_id=236">Final Project Evaluation</a></li>
+	<li id="menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-308"><a href="http://dh101.humanities.ucla.edu/?page_id=240">Studio/Lab Schedule</a></li>
+	<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="http://dh101.humanities.ucla.edu/?page_id=207">Fall/2012</a></li>
+	<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a href="http://dh101.humanities.ucla.edu/?page_id=209">Case Study: Superficial Diversity on Abbot Kinney Blvd.</a></li>
+	<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="http://dh101.humanities.ucla.edu/?page_id=230">Case Study: Baltimore Signs Project</a></li>
+	<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="http://dh101.humanities.ucla.edu/?page_id=216">Case Study: The Triumphs and Pitfalls of Data Visualization as Narrative</a></li>
+</ul>
+</li>
+<li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-255"><a href="http://dh101.humanities.ucla.edu/?page_id=242">4. Advanced Topics</a>
+<ul  class="sub-menu">
+	<li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-256"><a href="http://dh101.humanities.ucla.edu/?page_id=244">GIS and Digital Mapping</a></li>
+</ul>
+</li>
+</ul></div>		</nav><!-- #site-navigation -->
+
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+							
+	<article id="post-2" class="post-2 page type-page status-publish hentry">
+		<header class="entry-header">
+												<h1 class="entry-title">About</h1>
+		</header>
+
+		<div class="entry-content">
+			<div class="page" title="Page 5">
+<div class="layoutArea">
+<p class="column">Based on the Introduction to Digital Humanities (DH101) course at UCLA, taught by Johanna Drucker (with David Kim) in 2011 and 2012, this online coursebook (and related collection of resources) is meant to provide introductory materials to digital approaches relevant to a wide range of disciplines. The lessons and tutorials assume no prior knowledge or experience and are meant to introduce fundamental skills and critical issues in digital humanities.</p>
+<p class="column"><strong>Concepts &amp; Readings</strong> section resembles a DH101 syllabus, each topic is presented as a lesson plan. Concepts are discussed broadly in order to make connections between critical ideas, hands-on activities, readings and relevant examples. These lesson plans contain lots of individual <strong>exercises</strong> to be done in class that allow the students to become familiar with the most basic aspects of digital production (html + css, design mockup, metadata schema, etc.). These in-class assignments are geared towards fostering the understanding of the concepts introduced in the lessons: seeing how ‘structured data’ works in digital environments; working with classification and descriptive standards; learning to “read” websites; thinking about the epistemological implications of data-driven analysis and spatio-temporal representations; and, most broadly, recognizing both the ‘hidden’ labor and the intellectual, subjective process of representing knowledge in digital forms. Assignments often only require text editors, commonly available (or free) software, writing and critical engagement and collaboration.</p>
+<p class="column">The <strong>Tutorial</strong> section focuses on tools used in the course. These tutorials are meant to serve as basic introductions with commentaries that relate their usage to the concepts covered in the lectures. The exhibits, text analysis, data visualization, maps &amp; timelines, wireframing and html are required individual components of the final project. Students become familiar with all of these digital approaches throughout the course in the weekly lab/studio sessions, but they are also asked to delve further into a few areas in consultation with the lab instructor to choose the right tools for the types of analysis and presentation they have in mind. The goal is not only the successful implementation of the tools, but also the recognition of their possibilities and limitations during the process.</p>
+<p class="column">Using the cumulative and collaborative final project model of DH101, the <strong>Student Projects</strong> section represents one approach of incorporating all of the above for a more substantial and ‘packaged’ undergraduate project. The process begins with a research topic chosen by the student(s), and the group develops subtopics and the required components, culminating as the “scholarly resource site” that provides useful introduction for the topic. This section also contains suggestions for evaluation and expected time/labor for completion.</p>
+<p class="column">In compiling these ideas and resources from DH101, we emphasize the flexibility of these concepts and methods for instruction for any course with varying levels of engagement with digital tools. We hope to also continue to add other approaches as they emerge. We invite suggestions and submissions from instructors and students, including syllabi, tutorials, and case studies.</p>
+<p class="column">These materials are authored. If you use them, please cite them as you would any other publication. They are freely available for use, but if you cut, paste, and incorporate them into your own lessons, be sure to include a link and citation of this resource. If you would like to change, correct, or add to anything in this coursebook, please contact us. We would like to keep this current and useful.</p>
+<p class="column"><strong>Johanna Drucker, </strong><strong>2013</strong></p>
+</div>
+</div>
+					</div><!-- .entry-content -->
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="dh101-humanities-ucla-edu-0123.htm">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></aside><aside id="pages-2" class="widget widget_pages"><h3 class="widget-title">Site Map</h3>		<ul>
+			<li class="page_item page-item-8 page_item_has_children"><a href="http://dh101.humanities.ucla.edu/?page_id=8">1. Concepts &#038; Readings</a>
+<ul class='children'>
+	<li class="page_item page-item-13"><a href="http://dh101.humanities.ucla.edu/?page_id=13">1A. Introduction</a></li>
+	<li class="page_item page-item-15"><a href="http://dh101.humanities.ucla.edu/?page_id=15">1B. Analysis of DH Projects</a></li>
+	<li class="page_item page-item-20"><a href="http://dh101.humanities.ucla.edu/?page_id=20">2A. HTML and Structured Data</a></li>
+	<li class="page_item page-item-33"><a href="http://dh101.humanities.ucla.edu/?page_id=33">2B. Classification Systems</a></li>
+	<li class="page_item page-item-35"><a href="http://dh101.humanities.ucla.edu/?page_id=35">3A. Ontologies and Metadata</a></li>
+	<li class="page_item page-item-93"><a href="http://dh101.humanities.ucla.edu/?page_id=93">3B. Data and Databases</a></li>
+	<li class="page_item page-item-37"><a href="http://dh101.humanities.ucla.edu/?page_id=37">4A. Database and Narrative</a></li>
+	<li class="page_item page-item-40"><a href="http://dh101.humanities.ucla.edu/?page_id=40">4B. Visualization</a></li>
+	<li class="page_item page-item-46"><a href="http://dh101.humanities.ucla.edu/?page_id=46">5A. Visualization (Continued)</a></li>
+	<li class="page_item page-item-48"><a href="http://dh101.humanities.ucla.edu/?page_id=48">5B. Data Mining and Text Analysis</a></li>
+	<li class="page_item page-item-60"><a href="http://dh101.humanities.ucla.edu/?page_id=60">6A. Text Encoding: Mark-up and TEI</a></li>
+	<li class="page_item page-item-62"><a href="http://dh101.humanities.ucla.edu/?page_id=62">6B. Distant Reading and Cultural Analytics</a></li>
+	<li class="page_item page-item-64"><a href="http://dh101.humanities.ucla.edu/?page_id=64">7A. Network Analysis</a></li>
+	<li class="page_item page-item-66"><a href="http://dh101.humanities.ucla.edu/?page_id=66">8A. GIS Analysis and Critical Issues</a></li>
+	<li class="page_item page-item-68"><a href="http://dh101.humanities.ucla.edu/?page_id=68">8B. Interface Theory and Practice</a></li>
+	<li class="page_item page-item-70"><a href="http://dh101.humanities.ucla.edu/?page_id=70">9A. Interface and Narrative</a></li>
+	<li class="page_item page-item-72"><a href="http://dh101.humanities.ucla.edu/?page_id=72">9B. Modelling Virtual Space</a></li>
+	<li class="page_item page-item-76"><a href="http://dh101.humanities.ucla.edu/?page_id=76">10B. Summary Issues</a></li>
+	<li class="page_item page-item-74"><a href="http://dh101.humanities.ucla.edu/?page_id=74">10A. Critical Issues</a></li>
+</ul>
+</li>
+<li class="page_item page-item-100 page_item_has_children"><a href="http://dh101.humanities.ucla.edu/?page_id=100">2. Tutorials</a>
+<ul class='children'>
+	<li class="page_item page-item-151 page_item_has_children"><a href="http://dh101.humanities.ucla.edu/?page_id=151">Data Visualization</a>
+	<ul class='children'>
+		<li class="page_item page-item-165"><a href="http://dh101.humanities.ucla.edu/?page_id=165">Cytoscape</a></li>
+		<li class="page_item page-item-163"><a href="http://dh101.humanities.ucla.edu/?page_id=163">Tableau Public</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-102 page_item_has_children"><a href="http://dh101.humanities.ucla.edu/?page_id=102">Exhibits</a>
+	<ul class='children'>
+		<li class="page_item page-item-104"><a href="http://dh101.humanities.ucla.edu/?page_id=104">Omeka</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-178"><a href="http://dh101.humanities.ucla.edu/?page_id=178">HTML &#038; CSS</a></li>
+	<li class="page_item page-item-148"><a href="http://dh101.humanities.ucla.edu/?page_id=148">Managing Data</a></li>
+	<li class="page_item page-item-155 page_item_has_children"><a href="http://dh101.humanities.ucla.edu/?page_id=155">Maps &#038; Timelines</a>
+	<ul class='children'>
+		<li class="page_item page-item-184"><a href="http://dh101.humanities.ucla.edu/?page_id=184">GeoCommons</a></li>
+		<li class="page_item page-item-198"><a href="http://dh101.humanities.ucla.edu/?page_id=198">Neatline</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-153 page_item_has_children"><a href="http://dh101.humanities.ucla.edu/?page_id=153">Text Analysis</a>
+	<ul class='children'>
+		<li class="page_item page-item-169"><a href="http://dh101.humanities.ucla.edu/?page_id=169">ManyEyes</a></li>
+		<li class="page_item page-item-172"><a href="http://dh101.humanities.ucla.edu/?page_id=172">Voyant</a></li>
+		<li class="page_item page-item-182"><a href="http://dh101.humanities.ucla.edu/?page_id=182">WordSmith</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-157"><a href="http://dh101.humanities.ucla.edu/?page_id=157">Wireframing</a></li>
+</ul>
+</li>
+<li class="page_item page-item-203 page_item_has_children"><a href="http://dh101.humanities.ucla.edu/?page_id=203">3. Student Projects</a>
+<ul class='children'>
+	<li class="page_item page-item-230"><a href="http://dh101.humanities.ucla.edu/?page_id=230">Case Study: Baltimore Signs Project</a></li>
+	<li class="page_item page-item-209"><a href="http://dh101.humanities.ucla.edu/?page_id=209">Case Study: Superficial Diversity on Abbot Kinney Blvd.</a></li>
+	<li class="page_item page-item-216"><a href="http://dh101.humanities.ucla.edu/?page_id=216">Case Study: The Triumphs and Pitfalls of Data Visualization as Narrative</a></li>
+	<li class="page_item page-item-207"><a href="http://dh101.humanities.ucla.edu/?page_id=207">Fall/2012</a></li>
+	<li class="page_item page-item-238"><a href="http://dh101.humanities.ucla.edu/?page_id=238">Final Project Description</a></li>
+	<li class="page_item page-item-236"><a href="http://dh101.humanities.ucla.edu/?page_id=236">Final Project Evaluation</a></li>
+	<li class="page_item page-item-240"><a href="http://dh101.humanities.ucla.edu/?page_id=240">Studio/Lab Schedule</a></li>
+</ul>
+</li>
+<li class="page_item page-item-242 page_item_has_children"><a href="http://dh101.humanities.ucla.edu/?page_id=242">4. Advanced Topics</a>
+<ul class='children'>
+	<li class="page_item page-item-244"><a href="http://dh101.humanities.ucla.edu/?page_id=244">GIS and Digital Mapping</a></li>
+</ul>
+</li>
+<li class="page_item page-item-309"><a href="http://dh101.humanities.ucla.edu/?page_id=309">Contact &#038; Feedback</a></li>
+<li class="page_item page-item-289"><a href="http://dh101.humanities.ucla.edu/?page_id=289">Credits</a></li>
+		</ul>
+		</aside><aside id="text-2" class="widget widget_text">			<div class="textwidget"><a href= http://dh101.humanities.ucla.edu/wp-content/uploads/2014/09/IntroductionToDigitalHumanities_Textbook.pdf><img src="http://dh101.humanities.ucla.edu/wp-content/uploads/2014/09/IntroductionToDigitalHumanities_Textbook-Cover-e1410279644935.png"> </a>
+<i>Click above for a PDF download of the DH101 Course Book.<i></div>
+		</aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+						<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type='text/javascript' src='http://dh101.humanities.ucla.edu/wp-content/themes/twentytwelve/js/navigation.js?ver=20140711'></script>
+<script type='text/javascript' src='http://dh101.humanities.ucla.edu/wp-includes/js/wp-embed.min.js?ver=4.8.6'></script>
+</body>
+</html>

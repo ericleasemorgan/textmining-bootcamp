@@ -1,0 +1,1167 @@
+		
+
+		
+
+		
+			
+			
+
+
+
+
+digital humanities
+(Q1026962)
+
+			
+				From Wikidata
+				
+
+								
+					Jump to:					navigation, 					search
+				
+
+				
+
+
+An area of scholarly activity at the intersection of computing or digital technologies and the disciplines of the humanities
+	Digital humanities
+	DH
+
+
+
+
+
+edit
+	Language	Label	Description	Also known as
+	English	
+
+digital humanities
+
+
+
+
+	
+
+An area of scholarly activity at the intersection of computing or digital technologies and the disciplines of the humanities
+
+
+
+
+	
+	Digital humanities
+	DH
+
+
+
+
+
+
+
+
+
+
+Statements
+
+
+instance of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+branch of science
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0 references
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+subclass of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+humanities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0 references
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Commons category
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Digital Humanities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0 references
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+topic's main category
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Category:Digital humanities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0 references
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Identifiers
+
+
+Freebase ID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/m/0b5yht
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 reference
+
+
+
+
+
+
+
+stated in
+
+
+
+
+
+
+
+Freebase Data Dumps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+publication date
+
+
+
+
+
+
+
+28 October 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GND ID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1038714850
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 reference
+
+
+
+
+
+
+
+imported from
+
+
+
+
+
+
+
+German Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quora topic ID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Digital-Humanities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 reference
+
+
+
+
+
+
+
+imported from
+
+
+
+
+
+
+
+Quora
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JSTOR topic ID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+digital-humanities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0 references
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Library of Congress authority ID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sh2008122106
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0 references
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Sitelinks
+
+
+
+Wikipedia(24 entries)
+
+edit
+
+
+
+
+
+
+	
+
+arwiki
+إنسانيات رقمية
+
+	
+
+cawiki
+Humanitats digitals
+
+	
+
+cywiki
+Dyniaethau digidol
+
+	
+
+dewiki
+Digital Humanities
+
+	
+
+enwiki
+Digital humanities
+
+	
+
+eswiki
+Humanidades digitales
+
+	
+
+euwiki
+Humanitate digitalak
+
+	
+
+fiwiki
+Digitaaliset ihmistieteet
+
+	
+
+frwiki
+Humanités numériques
+
+	
+
+hewiki
+מדעי הרוח הדיגיטליים
+
+	
+
+huwiki
+Digitális bölcsészet
+
+	
+
+itwiki
+Informatica umanistica
+
+	
+
+jawiki
+デジタル・ヒューマニティーズ
+
+	
+
+kowiki
+디지털 인문학
+
+	
+
+lawiki
+Humanitates digitales
+
+	
+
+plwiki
+Humanistyka cyfrowa
+
+	
+
+ruwiki
+Цифровые гуманитарные науки
+
+	
+
+shwiki
+Дигиталне хуманистичке науке
+
+	
+
+slwiki
+Digitalna humanistika
+
+	
+
+svwiki
+Digital humaniora
+
+	
+
+tawiki
+எண்ணிம மனிதவியல்
+
+	
+
+thwiki
+มนุษยศาสตร์ดิจิทัล
+
+	
+
+viwiki
+Nhân văn số
+
+	
+
+zhwiki
+數位人文學
+
+
+
+
+
+
+
+
+
+
+
+Wikibooks(0 entries)
+
+edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wikinews(0 entries)
+
+edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wikiquote(0 entries)
+
+edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wikisource(0 entries)
+
+edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wikiversity(0 entries)
+
+edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wikivoyage(0 entries)
+
+edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wiktionary(0 entries)
+
+edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Other sites(0 entries)
+
+edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[image: ]
+
+					
+						Retrieved from "https://www.wikidata.org/w/index.php?title=Q1026962&oldid=656004725"					
+
+				
+				
+
+							
+
+		
+
+		
+			Navigation menu
+
+			
+									
+						Personal tools
+
+							English
+	Not logged in
+	Talk
+	Contributions
+	Create account
+	Log in
+
+
+					
+
+									
+										
+						Namespaces
+
+							Item
+	Discussion
+
+
+					
+
+										
+												
+						
+							Variants
+						
+
+						
+							
+
+						
+
+					
+
+									
+
+				
+										
+						Views
+
+							Read
+	View history
+
+
+					
+
+										
+						
+						More
+
+						
+							
+
+						
+
+					
+
+										
+						
+							Search
+						
+
+						
+							
+															
+
+						
+
+					
+
+									
+
+			
+
+			
+				
+
+						
+			Navigation
+
+			
+									Main page
+	Community portal
+	Project chat
+	Create a new item
+	Recent changes
+	Random item
+	Query Service
+	Nearby
+	Help
+	Donate
+
+
+							
+
+		
+
+			
+			Print/export
+
+			
+									Download as PDF
+
+
+							
+
+		
+
+			
+			Tools
+
+			
+									What links here
+	Related changes
+	Special pages
+	Permanent link
+	Page information
+	Concept URI
+	Cite this page
+
+
+							
+
+		
+
+				
+
+		
+
+				
+							 This page was last edited on 24 March 2018, at 17:04.
+	All structured data from the main and property namespace is available under the Creative Commons CC0 License;
+text in the other namespaces is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.
+
+
+							Privacy policy
+	About Wikidata
+	Disclaimers
+	Developers
+	Cookie statement
+	Mobile view
+	Data access
+
+
+											
+						[image: Wikimedia Foundation]					
+	
+						[image: Powered by MediaWiki]					
+
+
+						
+
+		
+
+		
+	

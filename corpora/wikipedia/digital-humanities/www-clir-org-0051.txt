@@ -1,0 +1,536 @@
+
+       
+    
+              
+            
+  
+
+  
+      
+        
+          	
+              
+                
+                CLIR
+              
+            
+	
+                Fellowships & Grants
+              
+	
+                DLF
+              
+	
+                Publications
+              
+	
+                Join
+              
+	
+                 Give
+                    
+                
+              
+
+
+          
+      
+
+      
+        	
+            
+              
+              CLIR Programs
+              
+            
+            	Digital Library Federation
+	DLF Forum
+	Digital Library of the Middle East
+	Digitizing Hidden Special Collections and Archives
+	Recordings at Risk
+	Mellon Fellowships for Dissertation Research
+	Leading Change Institute
+	DLF eResearch Network
+	Postdoctoral Fellowship Program
+
+
+            
+
+
+      
+
+  
+
+  
+
+
+
+  
+
+            
+                
+                    
+                  
+                                            [image: CLIR]
+                               [image: CLIR]
+                               
+                        
+                            CLIR
+
+                            
+                        
+
+                    
+
+                    
+                        Toggle navigation
+                        
+                    
+                    
+	About
+	President’s Message
+	News
+	Staff
+	Governance
+	Become a CLIR Sponsor or DLF Member
+	Current Sponsors, Members, and Funders
+	History
+	CLIR Brandmark
+
+
+
+	Publications
+	Reports
+	CLIR Issues
+	Annual Report
+	Other Resources
+	Archives
+	Ordering and Customer Service
+
+
+
+	Initiatives & Partnerships
+	Digital Library Federation
+	Chief Information Officers in Liberal Arts Colleges
+	CLIR Affiliates
+	Digital Library of the Middle East
+	Leading Change Institute
+	National Digital Stewardship Residency (NDSR) Assessment
+
+
+
+	Fellowships & Grants
+	Digitizing Hidden Collections
+	Mellon Fellowships for Dissertation Research in Original Sources
+	Postdoctoral Fellowship Program
+	Recordings at Risk
+	Rovelstad Scholarship in International Librarianship
+
+
+
+	Connect
+	Communities
+	Directory
+	Re:Thinking Blog
+	Job Connect
+
+
+
+
+                    
+                
+
+            
+
+                                   
+           
+                
+                    
+                        
+
+                                            [image: CLIR]
+                     
+          [image: CLIR]
+                               
+                        
+                            CLIR
+
+                            
+                        
+
+                    
+
+                    
+                        Toggle navigation
+                        
+                    
+                    
+	About
+	President’s Message
+	News
+	Staff
+	Governance
+	Become a CLIR Sponsor or DLF Member
+	Current Sponsors, Members, and Funders
+	History
+	CLIR Brandmark
+
+
+
+	Publications
+	Reports
+	CLIR Issues
+	Annual Report
+	Other Resources
+	Archives
+	Ordering and Customer Service
+
+
+
+	Initiatives & Partnerships
+	Digital Library Federation
+	Chief Information Officers in Liberal Arts Colleges
+	CLIR Affiliates
+	Digital Library of the Middle East
+	Leading Change Institute
+	National Digital Stewardship Residency (NDSR) Assessment
+
+
+
+	Fellowships & Grants
+	Digitizing Hidden Collections
+	Mellon Fellowships for Dissertation Research in Original Sources
+	Postdoctoral Fellowship Program
+	Recordings at Risk
+	Rovelstad Scholarship in International Librarianship
+
+
+
+	Connect
+	Communities
+	Directory
+	Re:Thinking Blog
+	Job Connect
+
+
+
+
+                    
+                
+
+            
+
+                         
+
+            
+
+        
+
+
+        
+         	
+
+
+            
+                
+                    One Culture. Computationally Intensive Research in the Humanities and Social Sciences
+
+                
+                                
+		
+			 
+			Home
+			 / CLIR Publications
+			 / CLIR Reports
+			 / One Culture. Computa...
+			 
+
+		
+                                                
+            
+            
+
+        
+   
+ 
+            
+                
+                        
+             
+			   
+	
+	
+	[image: ]One Culture. Computationally Intensive Research in the Humanities and Social Sciences
+
+A Report on the Experiences of First Respondents to the Digging Into Data Challenge
+
+by Christa Williford and Charles Henry
+
+Research Design by Amy Friedlander
+
+June 2012. 44 pp. $20
+
+ISBN 978-1-932326-40-6
+
+CLIR pub151
+
+PDF Download of Main Report (excluding case studies, 1 MB file) >>
+
+Full Text of Main Report >>
+
+This report culminates two years of work by CLIR staff involving extensive interviews and site visits with scholars engaged in international research collaborations involving computational analysis of large data corpora. These scholars were the first recipients of grants through the Digging into Data program, led by the NEH, who partnered with JISC in the UK, SSHRC in Canada, and the NSF to fund the first eight initiatives. The report introduces the eight projects and discusses the importance of these cases as models for the future of research in the academy. Additional information about the projects is provided in the individual case studies below (this additional material is not included in the print or PDF versions of the published report).
+
+Report Recommendations:
+
+1) Expand our concept of research
+
+2) Expand our concept of research data and accept the challenges that digital research data present
+
+3) Embrace interdisciplinarity
+
+4) Take a more inclusive approach to collaboration
+
+5) Address gaps in training
+
+6) Adopt models for sharing credit
+
+7) Adopt models for sharing resources
+
+8) Re-envision scholarly publication
+
+9) Make greater, sustained investments in human and cyberinfrastructure
+
+ 
+
+Case Studies:
+
+	Introduction
+	Using Zotero and TAPOR on the Old Bailey Proceedings: Data Mining with Criminal Intent (DMCI)
+	Digging into the Enlightenment: Mapping the Republic of Letters
+	Towards Dynamic Variorum Editions (DVE)
+	Mining a Year of Speech
+	Harvesting Speech Datasets for Linguistic Research on the Web
+	Structural Analysis of Large Amounts of Music Information (SALAMI)
+	Digging into Image Data to Answer Authorship Related Questions (DID-ARQ)
+	Railroads and the Making of Modern America
+
+
+
+
+CLIR wishes to acknowledge the support and assistance of the four funders of the 2009 Digging into Data Challenge:
+
+National Endowment for the Humanities
+
+JISC
+
+National Science Foundation
+
+Social Sciences and Humanities Research Council of Canada
+
+as well as the lead program officers for the 2009 grant program:
+
+Alastair Dunning (JISC), Mika Oehling (SSHRC), Jennifer Serventi (NEH), and Elizabeth Tran (NSF)
+
+
+
+One Culture. Computationally Intensive Research in the Humanities and Social Sciences. A Report on the Experiences of First Respondents to the Digging into Data Challenge by Christa Williford and Charles Henry. Research Design by Amy Friedlander is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
+Based on a work at www.clir.org.
+
+
+
+ORDER PRINT COPIES
+
+
+
+
+
+
+
+
+
+
+
+
+
+Order One Culture. Computationally Intensive Research in the Humanities and Social Sciences here!
+ Simply indicate the Quantity:                   and click on                 
+
+We use an independent online retailer to take online orders               for us and ship publications directly to you. Find               more details about the ordering process >>
+
+
+
+
+
+
+
+         
+     
+                                                                          
+                                     
+
+
+	
+
+
+		                        
+
+                                                        
+
+                
+
+            
+
+       
+
+
+
+ 
+                    
+                
+                    
+                                        
+                    Contact
+			
+          CLIR
+
+          1707 L St. NW,
+
+          Suite 650 
+
+          Washington, DC 20036 
+          P:  (202) 939-4750 
+
+        
+
+
+
+
+		
+
+	
+		
+	
+
+
+	Privacy & Cookies: This site uses cookies.		
+
+		To find out more, as well as how to remove or block these, see here:
+	
+		Our Cookie Policy	
+
+
+
+                    
+
+
+                                        
+                    Elsewhere
+	 Facebook
+	 Twitter
+	 LinkedIn
+	 YouTube
+	 RSS
+
+
+                    
+
+
+                                        
+                    Stay in Touch
+	Email
+	First Name
+	Last Name
+	
+
+        Sorry. You must have JavaScript enabled to fill out this form.
+
+
+
+        
+        
+
+Please complete the reCAPTCHA below to join our email list.
+
+	        	
+
+
+
+
+
+
+                    
+
+
+                                        
+                    About CLIR
+			CLIR is an independent, nonprofit organization that forges strategies to enhance research, teaching, and learning environments in collaboration with libraries, cultural institutions, and communities of higher learning.
+
+
+
+		
+                    
+
+
+                                        
+
+                
+
+            
+
+            
+            
+                
+                                     
+
+                                                            
+                        
+                            All content on this site is available for re-use under
+                            CC BY-SA 4.0 License
+                        
+
+                        
+                            
+                                
+                                CLIR
+                            
+                        
+
+                                        
+
+                                    
+
+            
+
+        
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

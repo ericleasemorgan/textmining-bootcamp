@@ -1,0 +1,696 @@
+type	entity
+PERSON	Henry David Thoreau
+LOCATION	Walden Pond
+LOCATION	Concord Massachusetts
+LOCATION	New England
+LOCATION	Concord
+PERSON	Iolaus
+PERSON	Pyrrha
+LOCATION	Raleigh
+PERSON	Wilberforce
+PERSON	Evelyn
+PERSON	Solomon
+PERSON	Hippocrates
+ORGANIZATION	Food Shelter Clothing
+PERSON	Darwin
+LOCATION	Tierra del Fuego
+PERSON	Hollander
+PERSON	Liebig
+ORGANIZATION	Fuel
+ORGANIZATION	Shelter and Clothing
+ORGANIZATION	Food and Clothing and Shelter
+LOCATION	New England
+LOCATION	Boston
+PERSON	Jonas
+PERSON	Solomon
+LOCATION	Walden Pond
+LOCATION	Salem
+ORGANIZATION	La Perouse
+PERSON	Hanno
+LOCATION	Walden Pond
+LOCATION	Neva
+ORGANIZATION	St Petersburg
+PERSON	Madam Pfeiffer
+LOCATION	Asiatic Russia
+LOCATION	New England
+LOCATION	Parcee
+LOCATION	Paris
+LOCATION	America
+PERSON	Henry VIII
+PERSON	Elizabeth
+PERSON	Samuel Laing
+PERSON	Adam
+PERSON	Gookin
+ORGANIZATION	Massachusetts Colony
+ORGANIZATION	Indians
+LOCATION	Rumford
+LOCATION	Israel
+LOCATION	Concord
+ORGANIZATION	Middlesex Cattle Show
+PERSON	Chapman
+PERSON	Minerva
+LOCATION	England
+LOCATION	Ireland
+LOCATION	South Sea Islander
+LOCATION	Southern States
+LOCATION	Aurora
+PERSON	Memnon
+PERSON	Jonathan
+PERSON	Old Johnson
+LOCATION	New Netherland
+LOCATION	New Netherland
+LOCATION	New England
+LOCATION	New England
+LOCATION	Walden Pond
+PERSON	James Collins
+LOCATION	Fitchburg Railroad
+PERSON	James Collins
+PERSON	James
+PERSON	Patrick
+PERSON	Seeley
+LOCATION	Broadway
+ORGANIZATION	Trinity Church
+ORGANIZATION	Laths
+ORGANIZATION	Hair
+PERSON	Mantle
+ORGANIZATION	Latch
+ORGANIZATION	Chalk
+ORGANIZATION	Transportation
+LOCATION	Concord
+ORGANIZATION	Cambridge College
+LOCATION	Cambridge
+LOCATION	Neptune
+ORGANIZATION	Institute
+PERSON	Adam Smith Ricardo
+LOCATION	Boston
+LOCATION	New York
+LOCATION	Maine
+LOCATION	Texas
+LOCATION	Maine
+LOCATION	Texas
+LOCATION	Atlantic
+PERSON	Adelaide
+PERSON	Childers
+LOCATION	Fitchburg
+LOCATION	Fitchburg
+LOCATION	India
+LOCATION	England
+LOCATION	Concord
+PERSON	Arthur Young
+LOCATION	Concord
+PERSON	Bhagvat Geeta
+LOCATION	Arcadia
+LOCATION	Thebes
+LOCATION	Thebes
+LOCATION	Nile
+LOCATION	United States Bank
+PERSON	Balcom
+PERSON	Vitruvius
+PERSON	Dobson
+LOCATION	China
+LOCATION	East
+ORGANIZATION	Molasses
+ORGANIZATION	Sugar
+ORGANIZATION	Lard
+ORGANIZATION	House
+LOCATION	India
+LOCATION	America
+PERSON	Marcus Porcius Cato
+LOCATION	Concord
+PERSON	Spaulding
+LOCATION	England
+PERSON	Bartram
+PERSON	Robin Goodfellow
+PERSON	Phaeton
+LOCATION	Sahara
+LOCATION	Jupiter
+LOCATION	Newfoundland
+PERSON	Howard
+ORGANIZATION	Society
+LOCATION	Concord
+LOCATION	England
+PERSON	Shakespeare Bacon Cromwell Milton Newton
+PERSON	Penn Howard
+LOCATION	England
+LOCATION	Esquimau
+LOCATION	Patagonian
+ORGANIZATION	Flower Garden of Sheik Sadi of Shiraz
+LOCATION	Tigris
+LOCATION	Bagdad
+PERSON	Gorgon
+PERSON	CAREW
+PERSON	Hollowell
+LOCATION	Hollowell
+ORGANIZATION	De Re Rustica
+PERSON	Harivansa
+LOCATION	Concord
+LOCATION	Lincoln
+ORGANIZATION	Concord Battle Ground
+LOCATION	Sudbury
+PERSON	Damodara
+ORGANIZATION	Cassiopeia
+LOCATION	Pleiades
+ORGANIZATION	Aldebaran
+LOCATION	Aurora
+ORGANIZATION	Vedas
+PERSON	Memnon
+LOCATION	Aurora
+ORGANIZATION	Yankee
+LOCATION	Concord
+LOCATION	Wachito River
+LOCATION	Spain
+PERSON	Don Carlos
+PERSON	Don Pedro
+LOCATION	Seville
+PERSON	Granada
+LOCATION	Spain
+LOCATION	England
+PERSON	Wei
+LOCATION	Khoung
+LOCATION	New England
+PERSON	Adam
+LOCATION	Paris
+LOCATION	London
+LOCATION	New York
+LOCATION	Boston
+ORGANIZATION	Concord through Church and State
+ORGANIZATION	Time
+ORGANIZATION	Mir Camar Uddin Mast Being
+ORGANIZATION	Delphi
+PERSON	Dodona
+LOCATION	Greece
+LOCATION	Rome
+LOCATION	Europe
+PERSON	Alexander
+PERSON	Virgil
+ORGANIZATION	Vedas
+LOCATION	Zendavestas
+PERSON	Dantes
+LOCATION	Zebulon
+PERSON	Sophronia
+PERSON	Tittle Tol Tan
+LOCATION	Concord
+LOCATION	Concord
+PERSON	Plato
+PERSON	Plato
+LOCATION	Concord
+PERSON	Zoroaster
+PERSON	Zoroaster
+PERSON	Jesus Christ
+LOCATION	Paris
+LOCATION	Oxford
+PERSON	Abelard
+LOCATION	Europe
+LOCATION	Boston
+LOCATION	New England
+ORGANIZATION	Harper amp Brothers
+ORGANIZATION	Redding amp Co
+LOCATION	New England
+LOCATION	Boston
+LOCATION	Massachusetts
+LOCATION	Fitchburg Railroad
+LOCATION	Boston
+LOCATION	Boston
+LOCATION	Jupiter
+LOCATION	Buena Vista
+PERSON	Bonaparte
+LOCATION	New England
+LOCATION	Sierra Nevada
+ORGANIZATION	Commerce
+LOCATION	Long Wharf
+LOCATION	Lake Champlain
+LOCATION	New England
+LOCATION	Manilla
+LOCATION	Maine
+LOCATION	Thomaston
+LOCATION	Milwaukee
+LOCATION	New England
+ORGANIZATION	Concord
+PERSON	John Smith
+LOCATION	Cuttingsville Vermont
+LOCATION	Green Mountains
+LOCATION	Green Mountains
+LOCATION	Connecticut
+LOCATION	Peterboro Hills
+ORGANIZATION	Lincoln Acton Bedford
+LOCATION	Concord
+PERSON	Ben Jonsonian Wise
+ORGANIZATION	Lincoln
+LOCATION	Walden
+LOCATION	Atlantic
+LOCATION	Pacific
+LOCATION	Asia
+LOCATION	Africa
+LOCATION	New England
+LOCATION	Walden Pond
+LOCATION	Beacon Hill
+LOCATION	Walden
+LOCATION	Brighton
+PERSON	Confucius
+PERSON	Indra
+ORGANIZATION	Cambridge College
+LOCATION	Walden Pond
+ORGANIZATION	Mill Brook
+LOCATION	Walden Pond
+PERSON	Goffe
+PERSON	Whalley
+LOCATION	Dead Sea
+LOCATION	Aurora
+ORGANIZATION	Hygeia
+PERSON	Esculapius
+LOCATION	Jupiter
+PERSON	Juno
+ORGANIZATION	Middlesex House
+PERSON	Winslow
+ORGANIZATION	Plymouth Colony
+LOCATION	Massasoit
+ORGANIZATION	Massasoit
+PERSON	Winslow
+LOCATION	Phthia They
+PERSON	Menoetius
+LOCATION	Canada
+LOCATION	States
+ORGANIZATION	Yankees
+PERSON	George
+ORGANIZATION	Catholic
+PERSON	Shakespeare
+LOCATION	Vermont
+PERSON	Plato
+ORGANIZATION	Plato
+PERSON	George
+PERSON	George
+LOCATION	Walden Pond
+LOCATION	White Mountains
+LOCATION	Boston
+PERSON	Lincoln
+LOCATION	Wayland
+PERSON	Colman
+LOCATION	Ranz des Vaches
+LOCATION	Egypt
+LOCATION	Wayland
+PERSON	Virgil
+LOCATION	Middlesex
+LOCATION	Massachusetts
+LOCATION	Palestine
+PERSON	Hector
+LOCATION	Boston
+LOCATION	Rome
+LOCATION	India
+LOCATION	London
+LOCATION	New York
+LOCATION	New England
+PERSON	Evelyn
+PERSON	Kenelm Digby
+PERSON	Colman
+ORGANIZATION	Indians
+ORGANIZATION	Congress
+LOCATION	Ceres
+PERSON	Cato
+PERSON	Varro
+LOCATION	Ceres
+ORGANIZATION	Redding amp Company
+LOCATION	State Street
+LOCATION	Siberia
+LOCATION	Maine
+PERSON	Hill
+LOCATION	Boston
+LOCATION	Walden
+LOCATION	Concord
+PERSON	Walden
+LOCATION	Walden
+PERSON	Michael Angelo
+LOCATION	White Pond
+ORGANIZATION	Nine Acre Corner
+PERSON	Adam
+LOCATION	Eden Walden Pond
+LOCATION	Walden Pond
+ORGANIZATION	Concord
+LOCATION	Flint
+PERSON	Walden
+LOCATION	Walden
+PERSON	Walden
+PERSON	Walden
+LOCATION	Walden
+PERSON	Walden
+LOCATION	Walden
+PERSON	Muse
+LOCATION	Ganges
+LOCATION	Walden
+LOCATION	Boiling Spring
+LOCATION	Walden
+PERSON	Moore
+PERSON	Moore Hill
+PERSON	Deep Cut
+PERSON	Walden
+PERSON	Walden
+ORGANIZATION	Concord
+PERSON	Walden
+LOCATION	Walden
+PERSON	Walden
+LOCATION	Flint
+LOCATION	Concord River
+LOCATION	Flint
+LOCATION	Flint
+LOCATION	Sandy Pond
+LOCATION	Lincoln
+LOCATION	Walden
+LOCATION	Flint
+LOCATION	Icarian Sea
+LOCATION	Flint
+ORGANIZATION	Concord River
+LOCATION	White Pond
+ORGANIZATION	Concord River
+PERSON	Walden
+LOCATION	White Pond
+LOCATION	Walden
+LOCATION	Virid Lake Perhaps
+LOCATION	Yellow Pine Lake
+LOCATION	Concord
+ORGANIZATION	Massachusetts Historical Society
+LOCATION	Walden
+LOCATION	Sudbury
+LOCATION	White Pond
+LOCATION	Walden
+PERSON	BAKER
+LOCATION	Flint
+LOCATION	Pond
+LOCATION	Valhalla
+PERSON	Benvenuto Cellini
+LOCATION	Italy
+LOCATION	France
+PERSON	Cellini
+PERSON	Pleasant Meadow
+PERSON	Walden
+PERSON	John Field an Irishman
+PERSON	John Field
+LOCATION	America
+PERSON	John Field
+LOCATION	America
+LOCATION	America
+PERSON	John
+PERSON	John Field
+PERSON	John
+PERSON	John
+LOCATION	John Field
+PERSON	John Field
+LOCATION	Missouri
+ORGANIZATION	Columbia
+ORGANIZATION	Falls of St Mary
+ORGANIZATION	Yankee
+LOCATION	England
+LOCATION	New England
+PERSON	Chaucer
+LOCATION	Walden Pond
+LOCATION	Kirby
+PERSON	Spence
+LOCATION	Greece
+LOCATION	Rome
+LOCATION	England
+LOCATION	America
+PERSON	Ved
+ORGANIZATION	Hindoo
+ORGANIZATION	Universe s Insurance Company
+PERSON	John Farmer
+LOCATION	Spain
+LOCATION	Mediterranean
+ORGANIZATION	Pilpay amp Co
+PERSON	Brister
+PERSON	Hill
+LOCATION	Concord
+LOCATION	America
+ORGANIZATION	Dresden Concord
+PERSON	Luther Blanchard
+PERSON	Davis
+PERSON	Hosmer
+PERSON	Kirby
+PERSON	Spence
+PERSON	Huber
+PERSON	Aeneas Sylvius
+PERSON	Nicholas Pistoriensis
+PERSON	Olaus Magnus
+PERSON	Christiern
+LOCATION	Sweden
+LOCATION	Polk
+PERSON	Webster
+LOCATION	Lincoln
+PERSON	Gilian Baker
+LOCATION	New York
+PERSON	Walden
+LOCATION	Louisiana
+LOCATION	Walden
+LOCATION	Boston
+LOCATION	New York
+LOCATION	Lincoln
+LOCATION	Ceres
+LOCATION	Walden
+LOCATION	Mesopotamia
+LOCATION	Babylon
+PERSON	Nebuchadnezzar
+PERSON	Cato
+LOCATION	North West Territory
+LOCATION	Walden
+LOCATION	Mexico
+PERSON	Walden
+ORGANIZATION	Vulcan
+PERSON	Gilpin
+LOCATION	England
+PERSON	Warden
+PERSON	Saxon
+PERSON	Norman
+PERSON	Michaux
+LOCATION	New York
+LOCATION	Philadelphia
+LOCATION	Paris
+PERSON	Robin Hood Goody Blake
+PERSON	Harry Gill
+LOCATION	Walden
+LOCATION	Thou
+PERSON	Lincoln
+LOCATION	Stratton
+ORGANIZATION	Alms House Farm
+PERSON	Brister
+PERSON	Cato Ingraham
+ORGANIZATION	Duncan Ingraham Esquire
+LOCATION	Concord
+LOCATION	Walden Woods Cato
+LOCATION	Uticensis
+LOCATION	Guinea
+LOCATION	Walden Woods
+PERSON	Ye
+PERSON	Brister
+PERSON	Hill
+PERSON	Brister Freeman
+ORGANIZATION	Squire Cummings
+PERSON	Brister
+ORGANIZATION	Lincoln
+LOCATION	Concord
+PERSON	Sippio Brister Scipio Africanus
+PERSON	Fenda
+PERSON	Stratton
+PERSON	Brister
+PERSON	Hill
+LOCATION	New England
+LOCATION	New England
+PERSON	Davenant
+PERSON	Gondibert
+PERSON	Chalmers
+PERSON	Baker
+LOCATION	Concord
+ORGANIZATION	Insurance Company
+PERSON	Bascom
+PERSON	Gondibert
+PERSON	Nutting
+PERSON	Wyman
+PERSON	Wyman
+PERSON	Hugh Quoil
+PERSON	Wyman
+PERSON	Rumor
+LOCATION	Waterloo
+PERSON	Napoleon
+ORGANIZATION	St Helena Quoil
+PERSON	Brister
+PERSON	Hill
+PERSON	Brister
+LOCATION	Waterloo
+LOCATION	Cato
+PERSON	Brister
+ORGANIZATION	Concord
+LOCATION	Walden Pond
+PERSON	Brister
+LOCATION	Sutton
+PERSON	Brister
+LOCATION	Walden
+LOCATION	Walden
+LOCATION	Broadway
+LOCATION	Connecticut
+LOCATION	Great Looker Great Expecter
+PERSON	Vishnu Purana
+LOCATION	Flint
+LOCATION	Baffin
+LOCATION	Bay The Lincoln
+LOCATION	Lincoln
+PERSON	Walden
+LOCATION	Walden Wood
+LOCATION	Hudson
+LOCATION	Concord
+LOCATION	Concord
+PERSON	Jack Robinson
+LOCATION	Walden
+LOCATION	Lexington
+LOCATION	Walden
+LOCATION	Walden Wood
+LOCATION	Wayland
+LOCATION	Walden
+PERSON	Meadow
+LOCATION	Weston
+LOCATION	Concord
+LOCATION	Weston
+ORGANIZATION	Concord
+PERSON	Sam Nutting
+LOCATION	Concord
+PERSON	Nutting
+PERSON	Burgoyne
+PERSON	John Melven Cr
+ORGANIZATION	Grey Fox
+ORGANIZATION	Hezekiah Stratton
+PERSON	Catt
+PERSON	Stratton
+LOCATION	Walden
+LOCATION	Arabia
+LOCATION	Walden
+PERSON	Walden
+LOCATION	Walden
+LOCATION	Walden Pond
+PERSON	Walden
+PERSON	Walden
+PERSON	William Gilpin
+PERSON	Loch Fyne
+LOCATION	Scotland
+PERSON	Loch Fyne
+LOCATION	Walden
+PERSON	Loch Fyne
+LOCATION	Cape
+LOCATION	White Pond
+PERSON	Walden
+LOCATION	New England Farmer
+LOCATION	Iceland
+LOCATION	Walden Pond
+PERSON	Squaw Walden
+ORGANIZATION	Yankee
+LOCATION	Cambridge
+LOCATION	Valhalla
+LOCATION	Walden
+LOCATION	Walden
+LOCATION	Fresh Pond
+LOCATION	Walden
+LOCATION	Charleston
+LOCATION	New Orleans
+LOCATION	Madras
+LOCATION	Bombay
+LOCATION	Calcutta
+PERSON	Bhagvat Geeta
+LOCATION	Bramin
+LOCATION	Brahma
+PERSON	Vishnu
+PERSON	Indra
+LOCATION	Ganges
+ORGANIZATION	Vedas
+LOCATION	Walden
+PERSON	Hanno
+LOCATION	Ternate
+PERSON	Tidore
+LOCATION	Persian Gulf
+PERSON	Alexander
+PERSON	Walden
+LOCATION	Flint
+LOCATION	Walden
+LOCATION	Walden
+LOCATION	Flint
+PERSON	Walden
+LOCATION	Cambridge
+LOCATION	Walden
+LOCATION	Flint
+PERSON	Walden
+PERSON	Methuselah
+LOCATION	Sudbury
+PERSON	Champollion
+LOCATION	Earth
+PERSON	Thor
+PERSON	Walden
+PERSON	Walden
+LOCATION	New England
+PERSON	Walden
+LOCATION	Canada
+LOCATION	Aurora
+LOCATION	Nine Acre Corner
+LOCATION	Calidas
+LOCATION	Sacontala
+LOCATION	Walden
+LOCATION	New England
+LOCATION	Canada
+LOCATION	Ohio
+LOCATION	Colorado
+ORGANIZATION	Yellowstone
+LOCATION	Africa
+PERSON	Snipes
+LOCATION	Africa
+LOCATION	West
+LOCATION	Niger
+LOCATION	Mississippi
+PERSON	Grinnell
+LOCATION	Mungo Park
+PERSON	Lewis
+PERSON	Clark
+PERSON	Frobisher
+LOCATION	Columbus
+LOCATION	South Sea
+LOCATION	Atlantic
+LOCATION	Pacific Ocean
+LOCATION	Zanzibar
+LOCATION	England
+LOCATION	France Spain
+ORGANIZATION	Portugal Gold Coast and Slave Coast
+LOCATION	India
+LOCATION	Mississippi
+LOCATION	Pacific
+LOCATION	China
+LOCATION	Japan
+PERSON	Mirabeau
+LOCATION	England
+LOCATION	America
+PERSON	Kabir
+ORGANIZATION	Vedas
+LOCATION	England
+LOCATION	Walden ice Southern
+LOCATION	Cambridge
+LOCATION	Kouroo
+ORGANIZATION	Time Time
+LOCATION	Kouroo
+LOCATION	Kalpa
+PERSON	Brahma
+LOCATION	Brahma
+PERSON	Tom Hyde
+ORGANIZATION	Croesus
+ORGANIZATION	Daily Times
+LOCATION	California
+LOCATION	Texas
+LOCATION	England
+LOCATION	Georgia
+LOCATION	Massachusetts
+PERSON	Webster
+LOCATION	China
+LOCATION	Boston
+LOCATION	London
+LOCATION	Paris
+LOCATION	Rome
+ORGANIZATION	Philosophical Societies
+PERSON	Adam
+LOCATION	Assyria
+LOCATION	Concord
+LOCATION	United States
+LOCATION	Britain
+LOCATION	New England
+LOCATION	Connecticut
+LOCATION	Massachusetts
+PERSON	John
+PERSON	Jonathan

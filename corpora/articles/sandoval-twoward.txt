@@ -1,0 +1,831 @@
+
+
+
+
+
+
+
+	[image: Page Header]
+
+
+
+
+
+
+
+
+
+	
+							
+				
+	Open Journal Systems
+
+
+	Journal Help
+
+
+			User
+	
+												
+						Username	
+	Password	
+	 Remember me
+	
+
+
+				
+
+						
+
+
+	Journal Content
+
+	
+			
+													Search 
+
+					
+								
+	
+				Search Scope
+				
+
+				All
+Authors
+Title
+Abstract
+Index terms
+Full Text
+
+
+				
+	
+
+
+	
+
+
+	
+
+
+		Browse
+		By Issue
+	By Author
+	By Title
+	Other Journals
+
+
+	
+
+
+
+
+
+
+	Font Size
+	
+
+
+
+
+
+	Current Issue
+	
+	[image: Atom logo]
+	
+
+	
+	[image: RSS2 logo]
+	
+
+	
+	[image: RSS1 logo]
+
+
+
+
+
+	Article Tools
+			
+			[image: ] Abstract
+
+		
+
+				
+			[image: ] Print this article
+		
+
+				
+			[image: ] Indexing metadata
+
+		
+
+				
+			[image: ] How to cite item
+
+		
+
+							
+			[image: ]
+			Email this article (Login required)		
+
+				
+			[image: ]
+			Email the author (Login required)		
+
+		
+
+
+
+	
+					About The Authors
+			
+		
+	
+		Rodrigo Sandoval-Almazán
+		[image: orcid]						
+Autonomous University of the State of Mexico		
+Mexico	
+
+
+	
+Associate professor on the political sciences faculty at the Autonomous University of the State of Mexico in Toluca, Mexico.
+
+	
+
+	
+
+		
+	
+		David Valle-Cruz
+		[image: orcid]						
+Autonomous University of the State of Mexico		
+Mexico	
+
+
+	
+Lecturer in the Engineering Faculty and Bussiness School at the Autonomous State University of Mexico, in Toluca City.
+
+	
+
+	
+	
+
+			
+
+			
+
+
+
+
+
+		Home
+	About
+	Login
+	Register
+	Search
+	Current
+	Archives
+	Announcements
+	SUBMISSIONS
+
+
+
+
+
+	Home >
+	Volume 23, Number 4 - 2 April 2018 >	Sandoval-Almazán
+
+
+
+
+
+
+			
+
+
+
+
+
+[image: First Monday]
+
+
+
+
+
+
+[image: Towards an understanding of Twitter networks: The case of the state of Mexico by Rodrigo Sandoval-Almazan and David Valle Cruz]
+
+
+
+
+
+
+[image: Abstract]
+The purpose of this research is to provide some understanding of Twitter Networks, using the data from the Twitter discussion generated on the State of the Union from Governor Eruviel Avila in 2015 and 2016. We analyzed and compared Network Links from tweets of two years, using Netlytic as a mining text tool. This research presents two contributions: 1) the links analysis perspective of social media; and, 2) we proposes a  methodology to assess the impact of online social media and government promotion. Our findings suggest that citizens use social media platforms to interact with politicians in offices, and supports the argument about “networked individualism” in which analyzed Twitter accounts reveal many citizens’ opinions and retweets related to the governor’s use of YouTube for his State of the Union speech. Decision-makers can use this study to improve communication with their customers (public) and allocate resources effectively for better public services. Finally, the last trend has tried to understand content analysis by wording. There is a lack of research about network links, their quality and users that are part of such network to understand in an integrated perspective the impact of social media.
+
+
+Contents
+
+Introduction
+
+Literature review
+
+Methodology
+
+Results and findings
+
+Conclusions
+
+
+ 
+
+ 
+
+[bookmark: p1]Introduction
+
+
+Providing the State of the Union address via YouTube by the Governor of the State of Mexico, Eruviel Avila Villegas, broke a long tradition of Mexican governors once delivering a long speech in a big ceremony with special guests. Since 2015, Eruviel Avila has been using online social media, such as Facebook, Twitter, Instagram, and YouTube, to send his messages. This particular event was divided into two stages. The first was held on 29 September 2015 (EruvielTV) where he gave a short message via streaming, starting at 20:00 hrs. The second stage was an open dialogue through social media accounts [Eruviel, Twitter.com/eruviel_avila called #EruvielAnswersYou (#EruvielTeResponde)] and a panel with journalists, students, and leaders.  The purpose of this paper is to compare the networks created by the State of the Union addresses of Eruviel Avila in the past two years (2015, 2016).
+
+
+The use of social media in public administration can be defined by two paths: 1) in order to legitimate actions of the agency (DePaula and Dincelli, 2016); and, 2) to promote actions and behavior changes related to the purposes and goals of the agency (Graham, et al., 2015).
+
+
+A similar path has been followed by politicians and publicists that use social media platforms to persuade and spread public information, or to promote self-images with comments or quotations that could be dispersed around their networks (Fox and Ramos, 2012; Sandoval-Almazán, 2015).
+
+
+However, in both cases, politicians and public administration rarely use online social media (OSM) to establish bidirectional communications with citizens or to create conversations (Grimmelikhuijsen and Meijer, 2015).
+
+
+Usually OSM are used without any knowledge about their impacts, limitations, or advantages for most public officials (Sandoval-Almazán and Gil-García, 2013). Many government officers use their official Twitter accounts as a complementary communication channel of a more complex strategy to promote a politician’s image or different government actions. However, there are insufficient studies to understand the overall effects and uses of OSM in government  (Guillamón, et al., 2016; Oliveira and Welch, 2013). Research on elections (for example, Freelon, 2014; Kaplan and Haenlein, 2010) and the legitimacy of governments (Grimmelikhuijsen and Meijer, 2015; Hyun and Kim, 2015) have been mostly descriptive and general. What if we can go deeper into networks and understand what kind of users are linked to a particular network? Our research does not analyze specifically the meaning of words, sentiments, or number of tweets; it is instead based on the creators of links, individuals behind Twitter accounts.
+
+
+In order to answer our research questions, we selected a political event that used social media for diffusion and tested our assumptions. We used the case of the State of the Union speech delivered by the governor of the state of Mexico over two years, first in September 2015 and then in September 2016. He gave his annual State of the Union speech using YouTube and promoted it through Twitter and Facebook. In advance, we speculated that followers or government supporters would send most of the tweets. We assumed that support for the governor might come from unconditional accounts or perhaps robots.
+
+
+We had a number of questions that we would like to investigate in our research. What kind of users are linked to the annual State of the Union speech by the governor of the state of Mexico? How are online social media tools used to promote the event? How would we measure links through their authors?
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p2]Literature review
+
+
+According to Verba and Nie (1987), political participation is usually conceptualized along four dimensions: voting, campaign activity, contacting officials, and collective activities. McLeod, et al., (1999), as well as Boulianne (2009) and Bakker and Vresse (2011), support the notion that the Internet promotes political participation in several ways. McLeod, et al. (1999) surveyed 389 individuals in order to understand civic participation by analyzing television news. Their findings revealed a “modest indirect impact” using this technology to promote political participation. Boulianne (2009) found that the use of Internet that affects online news with “strong evidence against the Internet having a negative effect on engagement”.
+
+
+Bakker and Vresse’s (2011) contribution to the debate of the Internet’s impact on political participation was derived from a national survey. They found positive relationships between online communication and non-information uses of the Internet. Dimitrova and Bystrom (2013) found that social media had no effects on participation in the Iowa caucuses. On the other hand, Xenos, et al. (2014) analyzed youth political engagement in the U.S., U.K. and Australia and found that young people were politically engaged by their use of social media. Corrigall-Brown and Wilkes’ (2014) findings established that media exposure affected voting because it increased political knowledge. Again, Dimitrova, et al. (2014), using panel surveys, stated that digital media forms had “appreciable effects on political participation”. More recent meta-analysis studies suggested that social media use had generally a positive relationship with engagement and social capital, as well as political participation and civic engagement (Skoric, et al., 2016).
+
+
+Wojcieszak and Mutz (2009) found in chat rooms that deliberation could occur in groups “incidentally” not deliberately. Shirky (2011) outlined political activism using text messaging and online social networks, based on cases from the Philippines, Moldova and Iran. Gerbaudo (2012) complemented Shirky’s findings, with the use of online social media for political mobilization; cyberactivism using Twitter and Facebook emerged with the Spanish movement of “Indignados” (anti-austerity movement) and Arab Spring movements.
+
+
+Mitchelstein and Boczkowski (2010) proposed three limitations regarding news on the Internet: “1. The assumption of a division between printed, broadcasted and online media; 2. The notion that analysis should treat media and social practices separately and 3. Inclination to focus on ordinary and extraordinary patterns of the phenomena” [bookmark: 1a][1]. Ceron (2015) presented a distinction between news and political trust, which were highly associated with social media. Moeller, et al. (2014) stated that “actively participating in the communication process of political information online has the strongest impact on internal efficacy. Internal efficacy in turn is found to be a significant predictor of first-time voters” [bookmark: 2a][2].
+
+
+Facebook is essentially one of the most studied social media platforms. Effing, et al. (2011) supported the notion that social media tools could be linked to participation. They found that in national elections in the Netherlands that “politicians with higher social media engagement got relatively more votes within most political parties” [bookmark: 3a][3]. Tufekci and Wilson (2012) examined interactions during Egypt’s Arab Spring, demonstrating how people learned about the movement using Facebook. Conroy, et al. (2012) analyzed the use of Facebook for political engagement, using a survey of undergraduate students. They found that online political participation was strongly correlated with off-line political activities. Carlisle and Patton (2013) compared political engagement of Facebook users and found that individual political activity was not as extensive as predicted.
+
+
+Toledo-Bastos and colleagues (2013) analyzed the use of political hashtags in Twitter and gatekeepers. Park’s (2013) research on Twitter opinion leaders found that mobilization was mediated with opinion leadership and frequency of use. Bode and Dalrymple (2016) surveyed political Twitter users, finding that they were engaged in politics in general and “less trusting on the mainstream media”.
+
+
+In terms of social media participation by local governments, a preliminary study examined practical social media usage in the U.K. (De Saulles, 2011). Bonsón, et al. (2012) studied Spanish municipalities, noting that social media use was still in its “infancy”. Effing, et al. (2013) developed a model to analyze social media participation in local politics. They suggested four constructs: Social Media Choice, Social Media Use, Sense of Community and Community Engagement. Research by Sáez-Martín, et al. (2014) found that social media had an impact on the development of smart cities, using Twitter and Facebook to promote citizen participation. Mossberger and colleagues (2013) examined the use of social networks in 75 of the largest U.S. cities from 2009 to 2011. During that period, they found that the adoption of Facebook skyrocketed from just 13 percent in 2009 to nearly 87 percent in 2011 and similarly, the use of Twitter increased from 25 percent to 87 percent. Firmstone and Coleman (2015) examined three of the largest cities in the U.K., interviewing 20 elected politicians, council strategists and communication specialists to understand different motivations to engage and communicate with citizens. They found that social media played an “important role in defining and reconfiguring the role of citizens within local governance”. Bonsón and colleagues (2015) analyzed 75 local governments in 15 countries; most media types used by local governments were links and phones. According to Skoric, et al. (2016), the use of social media has a positive relationship with engagement, developing social capital, civic engagement and political participation.
+
+
+Hofmann and colleagues (2013) examined 15,941 posts and 19,290 comments on Facebook pages for 25 of the largest German cities; social network sites (SNS) were used to promote communication between governments and citizens. DePaula and Dincelli (2016) analyzed 1,472 posts of 53 distinct municipal departments in 16 U.S. cities; they found that most of the content was used for “favorable publicity”. Collaboration or networking activity was “adopted less than 10% of the time”.
+
+
+Moss, et al. (2015) examined the use of analytic tools for social media in two British cities, noting how these tools affected the use of social media. Graham, et al. (2015) studied 300 municipalities in the U.S. and found that social media use affected the ability of city officials to control crises.
+
+
+In Turkey, Sobaci and Karkin (2013) revealed that social media was used mostly for self-promotion and political marketing. Ceron and d’Adda (2016) investigated the Italian general election, examining information published on official Twitter accounts of Italian parties. Their results demonstrated that a negative campaign has positive effects.
+
+
+Boulianne’s findings (2016) suggested that online news has a minimal effect on civic and political engagement. However, Boulianne concluded that by building civic awareness among youth, online news may be able to address participation inequalities between younger and older citizens. Diehl, et al. (2016) examined Twitter and political campaigns, finding that social interaction and news-seeking behaviors on social media may lead to diverse networks, exposure to dissenting political opinion and changing political views.
+
+
+A direct relationship between organizational, institutional and environmental factors with governmental use of social media was demonstrated in Spain (Criado, et al., 2017). Haro-de-Rosario, et al. (2018), demonstrated that Facebook was preferred to Twitter as a means of participation in local government issues. Factors such as transparency, level of activity in social media and interactivity were relevant to citizen engagement.
+
+
+In Mexico, more governments have been adopting these technologies to interact with citizens (Sandoval-Almazán, Gil-García, et al., 2011). Sandoval-Almazán and Gil-García (2013) researched Twitter and Facebook in local governments, describing a consistent adoption of these platforms between 2010 and 2012. They presented a content analysis of two cases — Sinaloa and Yucatán — noting the emerging implementation of social media in local governments. Based on the diffusion of the innovations theory, Valle-Cruz and Sandoval-Almazán (2015) analyzed data from Twitter and Facebook accounts for 32 Mexican local governments over the years 2010 to 2014 describing how social media was implemented on governmental actions.
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p3]Methodology
+
+
+State of the Union speech on Twitter
+
+
+The state of Mexico is one of the central states of Mexico, surrounding Mexico City, the country’s capital. The last census reported more than 15 million inhabitants in the state. It has been ruled by the traditional political party, Revolutionary Institutional Party (PRI), since the Mexican Revolution in the past century. It is the former state ruled by actual President Enrique Peña Nieto. Every year, on September, the  governor of the state delivers his annual State of the Union speech. For the last two years the governor has used YouTube and Twitter to promote this speech.
+
+
+For 2015 we collected a sample of 1,529 tweets during 24–26 September. For 2016 we collected a sample of 877 tweets during 29–30 September. We analyzed these tweets separately in order to understand links between the governor’s followers, citizens and media, then we compared results for the two years. We downloaded the total sample of tweets using the hashtag #EruvielTeResponde (“Eruviel [the governor] Answers You”) because it was the hashtag advertised during the campaign to promote the State of the Union speeches. We collected this information using the Netlytic software based on the Fruchterman Reingold algorithm (Fruchterman and Reingold, 1991). Accordingly, we did not exclude or include any tweet; we use the whole sample collected from the Twitter API.
+
+
+Research design
+
+
+Online social media methodologies analyze qualitative data such as content analysis (semantics), but also quantitative data as descriptive statistics of use, replication and conversation. They also compare different platforms such as Twitter, Facebook or YouTube, and emergent ones like Periscope or WhatsApp. The purpose of this research was to understand the number of links and connections to the governor’s network created for his annual State of the Union speeches using online social media tools. For this purpose, we developed our methodology in two main stages: 1) data collection in 2015; 2) data collection in 2016.
+
+
+Data collection in 2015
+
+
+We used a Twitter mining tool, developed by Netlytic.org, collecting 1,529 tweets without duplicates and/or RT; then we analyzed “Who mentions whom”. For our analysis, we chose the top five clusters that collected the largest number of Twitter accounts and nodes, transforming the data into CSV reading as an Excel file. Then, we analyzed each cluster manually and categorized Twitter author accounts into five groups:
+
+
+	PRI groups, Partido Revolucionario Institucional (Institutional Revolutionary Party) followers, identified by logo or political position;
+	Communication and media groups, media accounts or freelance journalists;
+	Citizen groups, by personal accounts or NGO Twitter accounts; identified with more than 10 followers, and at least one recent tweet to distinguish them from robots;
+	Government groups, accounts of public officials or agencies from the local government; identified by the name of an agency and compared to lists extant on government public directories; and
+	Others,those that did not match aforementioned categories but were not robots, identified with at least two recent tweets and 20 followers.
+
+
+
+At the end of the analysis we found 570 Twitter accounts from different authors. We eliminated retweets and other redundancies or duplicates from the 1,529 analyzed tweets during a two-day period for data collection. The two days were 24 before the speech and the actual date of the State of the Union address.  We decided that these two days saw more tweets.
+
+
+Intentionally we did not set a boundary for each cluster. Netlytic created it by the organizational perspective we chose (Who mentions whom), but we could had the tweets organized in a different way (Who replies to whom). According to Netlytic every cluster was organized on “Who mentions whom” criteria with every node grouped according to these relationships.
+
+
+For example, in cluster 1 the main node was the governor’s personal Twitter account; it was bigger than the rest in terms of connections to the center. Cluster 2 was related to another node around the account @manzur_jose. He was the vice governor with a centrality value of 78. The third node was centralized by the account @pdtegerman, a politician and mayor in the State of Mexico. The centrality value of this cluster was 26.  The fourth node gathered the accounts around @ricardoalemanmx, a local journalist, with a centrality value of 12. Finally, the last cluster was centralized by the account @el_viejopaulino, a citizen with a centrality value of 38.
+
+
+Data collection in 2016
+
+
+We collected 877 tweets without duplicates and/or RT. We analyzed “Who mentions whom” and chose the top five clusters that grouped the largest amount of Twitter accounts and nodes. We analyzed each cluster manually and categorized Twitter author accounts into the same five groups as 2015. At the end of the analysis we found 771 Twitter accounts from different authors. We eliminated retweets and other redundancies or duplicates from the 877 analyzed tweets during a two-day period of data collection. The two days were parallel to those selected in 2015.
+
+
+As in 2015 we did not set a boundary for each cluster, with Netlytic organizing according to a “Who mentions whom” perspective. In cluster 1 the governor’s personal Twitter account had a centrality value of 24. Cluster 2 was related to another node around the account @evielpm, undersecretary of social and human development of the Mexican Federal Government with a centrality value of 12. The third node was centralized by the account @memomonroyg, a politician. The centrality value of this cluster was 328. The fourth node gathered the accounts around @tapiafernanda, a journalist, with a centrality value of 149. Finally, the last cluster was centralized by the account @prawanaa, a citizen account with a centrality value of 20.
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p4]Results and findings
+
+
+What kind of users were linked to the case study — annual Governor’s State of the Union speech — using online social media tools to promote it? Table 1 illustrates network properties (Gruzd, 2016) for each year:
+
+
+	Diameter was 26 for 2015 and diameter was 9 for 2016, representing the longest distance between two network participants.
+	Density represents how close participants are within a network, with the closest density is 1, the most close-knit community/conversation. Density in the two years was very low, meaning that participants were not connected to each other in the network.
+	Reciprocity is measured by the number of reciprocal connections in relation to the total number of connections in the network. In two years, reciprocity was low, meaning that most of the conversations were only one sided.
+	Centralization measures the average degree centrality of all nodes within a network.  For 2015 tweets were a little more centralized than 2016. However, we had decentralized networks, meaning that information flowed more freely between participants.
+
+
+
+Modularity helps to determine whether clusters represent different communities in a network. The values for the two years were greater than 0.5, so the groups did not overlap, and did not consist of a core group of nodes. The network of 2016 had more separated groups, in other words different kinds of groups (compare Figures 1 and 2).
+
+
+ 
+
+[bookmark: tab1]
+	Table 1: Network properties clusters 2015–2016.
+	Property	2015	2016
+	Diameter	26	9
+	Density	0.001644089736	0.001544282757
+	Reciprocity	0.018598884066	0.015523932729
+	Centralization	0.164344149278	0.231074523882
+	Modularity	0.595682571112	0.736640795477
+
+
+ 
+
+
+ 
+
+[bookmark: fig1]
+	[image: Eruviel's clusters summary 2015]
+	 
+	Figure 1: Eruviel’s clusters summary 2015.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+ 
+
+[bookmark: fig2]
+	[image: Eruviel's clusters summary 2016]
+	 
+	Figure 2: Eruviel’s clusters summary 2016.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+Our first assumption was that government officials and political party supporters were leading the Twitter authorship accounts. This assumption was correct according to our data: PRI presented 130 accounts and government officials 54. A total of 184 accounts of unconditional supporters for the governor were found in Twitter; see Figure 3.
+
+
+ 
+
+[bookmark: fig3]
+	[image: Network links and supporters in the case study]
+	 
+	Figure 3: Network links and supporters in the case study.
+	Note: Larger version of figure available here.
+
+
+ 
+
+
+Another assumption was that citizens would be a minority in participation for this Twitter promotion of the State of the Union address. However, citizens represented the largest number of accounts in our sample, numbering 192, a few more than government officials and PRI combined (see Figure 3).
+
+
+Communication and media accounted for 90 Twitter accounts, below the political party accounts but above the number of accounts for government officials. Finally, the other category that grouped accounts with no precise authorship ranked third in the number of accounts with a total of 104 Twitter accounts in our sample.
+
+
+Eruviel’s network of 2015 was centralized while the 2016 network was not (see Figures 1 and 2). The 2015 network was denser than Eruviel’s network of 2016, and had more reciprocity than the 2016 network (Figure 1). This could be explained because the 2015 State of the Union speech was more widely disseminated.
+
+
+Centralization and modularity of the 2016 network were visibly larger than 2015. The 2016 network was not centralized around Eruviel’s network, was more dispersed, and @memomonroyg was the biggest cluster (Figure 2). In 2015 the @eruviel_avila cluster was the largest. This @memomonroyg node was an official in local government in charge of communications.
+
+
+In both 2015 and 2016, we found anomalies inside the network. In the 2015 network, this anomaly could be explained by citizens against the governor (Figure 1). In 2016, the anomaly was due to an overall lack of dissemination (Figure 2) of the State of the Union address, with another politician (@memomonroyg) becoming the focus of attention. These anomalies altered network properties.
+
+
+From the cluster groups gathered by Netlytic, relations are shown in Figure 3. Political parties group around the node of the second cluster, as well as communication and media categoriues. Citizens were dispersed, but predominantly collected in the first one.
+
+
+The use of Twitter to encourage the diffusion of government information seems to have been successful. A number of citizens, without perceived political affiliations, commented and interacted with government and party officials as a result of the governor’s State of the Union address.
+
+ 
+Citizens represented the largest number of authors in our sample, 192 (34 percent). Party and government officials accounted for 184 authors in the sample (see Figure 3). These characteristics related to network properties (see Table 1).
+
+
+Our clusters analysis of authors (see Figure 1) described a more intense relation on Cluster 1. This cluster was directly related to the governor’s Twitter account rather than the official account of the government of the state of Mexico. This feature could be explained over a perceived lack of credibility for government information in Mexico. Kavanaugh and colleagues (2014) found support for this notion during the presidential election in Mexico in 2012. This approach of tweeting the personal account of the governor reflected individual decisions to avoid contact with the government.
+
+
+The political party, PRI, largely maintained conversations within its own “private cluster”.
+
+
+We assumed that citizens would be less interested in the State of the Union address from the governor than political officials or party supporters. However, citizens were engaged and interested in the addresses, as reflected in Twitter traffic. The image of the governor was altered thanks to social media. This conclusion is different from that found by Dimitrova and Bystrom (2013) on the political effects of social media.
+
+
+Political awareness and democratic accountability was evolving due to the use of social media (Arnold, 2012; Mergel, 2014). More citizens were using social media platforms to participate, criticize and collaborate with their governments. More citizens were aware of government innovation in using technological tools to promote a given event.
+
+
+ 
+
+[image: ++++++++++]
+
+[bookmark: p5]Conclusions
+
+
+The first purpose of this paper was to understand links in social networks as represented by Twitter traffic with a second purpose to develop an appropriate methodology.
+
+
+Further research is needed, for a number of reasons. The content of tweets was not examined in this study. Our findings stated that most of the users in the network were citizens; however we are unaware of how many citizens endorsed the State of the Union addresses.
+
+
+The behavior of social media is dependent on the dissemination of information. In 2015 we discovered a larger and more centralized network because of dissemination in different media. In 2016, the network was smaller and more dispersed. We need to better understand the factors influencing network size.
+
+
+Different behaviors appeared inside the network, as anomalies. We need to better understand these anomalies, dissecting factors that led to their development over time.
+
+
+Broadly, our findings suggest that citizens use social media platforms to interact with politicians in office. These findings support notions introduced by Rainie and Wellman (2012) about “networked individualism”. It appeared that a number of citizens expressed opinions via Twitter over the governor’s use of YouTube for his State of the Union addresses. This idea of “networked individualism” was supported by Pieper and Pieper (2015), Carlisle and Patton (2013) and Margetts, et al. (2015).
+
+
+A significant limitation to this study was that it focused on the state of Mexico  for a mere 48 hours. A longitudinal study with other objects of analysis — local, county or federal level governments — would be more accurate.
+
+
+Future research will follow several paths. A combination of methods will be used in order to have a more integrated view of tweets. Content analysis of tweets will determine their support or rejection of the governor and specific points in his addresses. Additionally there will be an effort to understand policy implications of Twitter commentary by citizens.
+
+
+We hope that this preliminary study will suggest new paths of research to understand the motivations of public officials and users in their use of social media. Additionally, we expect that practitioners developing communications strategies will better understand how social media platforms can be used in a more focused fashion. [image: End of article]
+
+ 
+ 
+
+[bookmark: author]
+About the authors
+
+
+Rodrigo Sandoval-Almazán is an assistant professor in the Political Sciences and Social Sciences Department at the Autonomous State University of Mexico, in Toluca City. Dr. Sandoval-Almazán is the author or co-author of articles in Government Information Quarterly, Information Polity, Electronic Journal of Electronic Ggovernment; Journal of Information Technology for Development; Journal of Organizational Computing and Electronic Commerce; and International Journal of E-Politics. His research interests include electronic government, open government and social media in government. Proffesor Sandoval-Almazán has a Bachelor’s degree in political science and public administration, a Master’s in management focused on marketing, and a Ph.D. in management with information systems.
+Web: www.rodrigosandoval.mx.
+E-mail: rsandovala [at] uaemex [dot] mx
+
+
+David Valle Cruz is a lecturer in the economics faculty and Bussiness School at the Autonomous State University of Mexico, in Toluca City. Professor Valle-Cruz research interests are in emergent technologies, data mining and artificial intelligence in government.
+E-mail: davacr [at] uaemex [dot] mx
+
+
+ 
+
+Notes
+
+
+[bookmark: 1]1. Mitchelstein and Boczkowski, 2010, p. 1,085.
+
+
+[bookmark: 2]2. Moeller, et al., 2014, p. 689.
+
+
+[bookmark: 3]3. Effing, et al., 2011, p. 25.
+
+
+ 
+
+References
+
+
+J.R. Arnold, 2012. “Political awareness, corruption perceptions and democratic accountability in Latin America,” Acta Politica, volume 47, number 1, pp. 67–90.
+doi: https://doi.org/10.1057/ap.2011.21, accessed 27 March 2018.
+
+
+Toledo-Bastos and colleagues, 2013
+Tufekci and Wilson, 2012
+Valle-Cruz and Sandoval-Almazán, 2015
+Verba and Nie, 1987
+Wojcieszak and Mutz, 2009
+Xenos, et al., 2014
+
+T.P. Bakker and C.H. de Vreese, 2011. “Good news for the future? Young people, Internet use, and political participation,” Communication Research, volume 38, number 4, pp. 451–470.
+doi: https://doi.org/10.1177/0093650210381738, accessed 27 March 2018.
+
+
+L. Bode and K.E. Dalrymple, 2016. “Politics in 140 characters or less: Campaign communication, network interaction, and political participation on Twitter,” Journal of Political Marketing, volume 15, number 4, pp. 311–332.
+doi: https://doi.org/10.1080/15377857.2014.959686, accessed 27 March 2018.
+
+
+E. Bonsón, S. Royo and M. Ratkai, 2015. “Citizens’ engagement on local governments’ Facebook sites. An empirical analysis: The impact of different media and content types in Western Europe,” Government Information Quarterly, volume 32, number 1, pp. 52–62.
+doi: https://doi.org/10.1016/j.giq.2014.11.001, accessed 27 March 2018.
+
+
+E. Bonsón, L. Torres, S. Royo and F. Flores, 2012. “Local e-government 2.0: Social media and corporate transparency in municipalities,” Government Information Quarterly, volume 29, number 2, pp. 123–132.
+doi: https://doi.org/10.1016/j.giq.2011.10.001, accessed 27 March 2018.
+
+
+S. Boulianne, 2016. “Online news, civic awareness, and engagement in civic and political life,” New Media & Society, volume 18, number 9, pp. 1,840–1,856.
+doi: https://doi.org/10.1177/1461444815616222, accessed 27 March 2018.
+
+
+S. Boulianne, 2009. “Does Internet use affect engagement? A meta-analysis of research,” Political Communication, volume 26, number 2, pp. 193–211.
+doi: https://doi.org/10.1080/10584600902854363, accessed 27 March 2018.
+
+
+J.E. Carlisle and R.C. Patton, 2013. “Is social media changing how we understand political engagement? An analysis of Facebook and the 2008 presidential election,” Political Research Quarterly, volume 66, number 4, pp. 883–895.
+doi: https://doi.org/10.1177/1065912913482758, accessed 27 March 2018.
+
+
+A. Ceron, 2015. “Internet, news, and political trust: The difference between social media and online media outlets,” Journal of Computer-Mediated Communication, volume 20, number 5, pp. 487–503.
+doi: https://doi.org/10.1111/jcc4.12129, accessed 27 March 2018.
+
+
+A. Ceron and G. d’Adda, 2016. “E-campaigning on Twitter: The effectiveness of distributive promises and negative campaign in the 2013 Italian election,” New Media & Society, volume 18, number 9, pp. 1,935–1,955.
+doi: https://doi.org/10.1177/1461444815571915, accessed 27 March 2018.
+
+
+M. Conroy, J.T. Feezell and M. Guerrero, 2012. “Facebook and political engagement: A study of online political group membership and offline political engagement,” Computers in Human Behavior, volume 28, number 5, pp. 1,535–1,546.
+doi: https://doi.org/10.1016/j.chb.2012.03.012, accessed 27 March 2018.
+
+
+C. Corrigall-Brown and R. Wilkes, 2014. “Media exposure and the engaged citizen: How the media shape political participation,” Social Science Journal, volume 51, number 3, pp. 408–421.
+doi: http://dx.doi.org/10.1016/j.soscij.2014.03.009, accessed 27 March 2018.
+
+
+J.I. Criado, F. Rojas-Martín and J.R. Gil-García, 2017. “Enacting social media success in local public administrations: An empirical analysis of organizational, institutional, and contextual factors,” International Journal of Public Sector Management, volume 30, number 1, 31–47.
+doi: https://doi.org/10.1108/IJPSM-03-2016-0053, accessed 27 March 2018.
+
+
+M. De Saulles, 2011. “Social media and local government in England: Who is doing what?” In: M. Klun, M. Decman and T. Jukic (editors). Proceedings of the 11th European Conference on eGovernment. Reading: Academic Publishing Ltd., pp. 187–192.
+
+
+N. DePaula and E. Dincelli, 2016. “An empirical analysis of local government social media communication: Models of e-government interactivity and public relations,” dg.o ’16: Proceedings of the 17th International Digital Government Research Conference on Digital Government Research, pp. 348–356.
+doi: http://dx.doi.org/10.1145/2912160.2912174, accessed 27 March 2018.
+
+
+T. Diehl, B.E. Weeks and H. Gil de Zúñiga, 2016. “Political persuasion on social media: Tracing direct and indirect effects of news use and social interaction,” New Media & Society, volume 18, number 9, pp. 1,875–1,895.
+doi: https://doi.org/10.1177/1461444815616224, accessed 27 March 2018.
+
+
+D.V. Dimitrova and D. Bystrom, 2013. “The effects of social media on political participation and candidate image evaluations in the 2012 Iowa caucuses,” American Behavioral Scientist, volume 57, number 11, pp. 1,568–1,583.
+doi: https://doi.org/10.1177/0002764213489011, accessed 27 March 2018.
+
+
+D.V. Dimitrova, A. Shehata, J. Strömbäck and L.W. Nord, 2014. “The effects of digital media on political knowledge and participation in election campaigns:
+Evidence from panel data,” Communication Research, volume 41, number 1, pp. 95–118.
+doi: https://doi.org/10.1177/0093650211426004, accessed 27 March 2018.
+
+
+R. Effing, J. van Hillegersberg and T.W.C. Huibers, 2013. “Social media participation and local politics: A case study of the Enschede Council in the Netherlands,” In: M.A. Wimmer, E. Tambouris and A. Macintosh (editors). Electronic participation. Lecture Notes in Computer Science, volume 8075. Berlin: Springer-Verlag,, pp. 57–68.
+doi: https://doi.org/10.1007/978-3-642-40346-0_6, accessed 27 March 2018.
+
+
+R. Effing, J. van Hillegersberg and T. Huibers, 2011. “Social media and political participation: Are Facebook, Twitter and YouTube democratizing our political systems?” In: E. Tambouris, A. Macintosh and H. de Bruijn (editors). Electronic participation. Lecture Notes in Computer Science, volume 6847. Berlin: Springer-Verlag, pp. 25–35.
+doi: https://doi.org/10.1007/978-3-642-23333-3_3, accessed 27 March 2018.
+
+
+J. Firmstone and S. Coleman, 2015. “Public engagement in local government: The voice and influence of citizens in online communicative spaces,” Information Communication & Society, volume 18, number 6, pp. 680–695.
+doi: https://doi.org/10.1080/1369118x.2014.986180, accessed 27 March 2018.
+
+
+R.L. Fox and J. Ramos (editors), 2012. iPolitics: Citizens, elections, and governing in the new media era. New York: Cambridge University Press.
+
+
+D. Freelon, 2014. “Tweeting to power: The social media revolution in American politics, by Jason Gainous and Kevin M. Wagner,” Political Communication, volume 31, number 3, pp. 502–505.
+doi: https://doi.org/10.1080/10584609.2014.923280, accessed 27 March 2018.
+
+
+T.M.J. Fruchterman and E.M. Reingold, 1991. “Graph drawing by force-directed placement,” Journal of Software: Practice and Experience, volume 21, number 11, pp. 1,129–1,164.
+doi: https://doi.org/10.1002/spe.4380211102, accessed 27 March 2018.
+
+
+P. Gerbaudo, 2012. Tweets and the streets: Social media and contemporary activism. London: Pluto Press.
+
+
+M.W. Graham, E.J. Avery and S. Park, 2015. “The role of social media in local government crisis communications,” Public Relations Review, volume 41, number 3, pp. 386–394.
+doi: https://doi.org/10.1016/j.pubrev.2015.02.001, accessed 27 March 2018.
+
+
+S.G. Grimmelikhuijsen and A.J. Meijer, 2015. “Does Twitter increase perceived police legitimacy?” Public Administration Review, volume 75, number 4, pp. 598–607.
+doi: https://doi.org/10.1111/puar.12378, accessed 27 March 2018.
+
+
+A. Gruzd, 2016. “Netlytic,” at https://netlytic.org, accessed 27 March 2018.
+
+
+M.-D. Guillamón, A.-M. Ríos, B. Gesuele and C. Metallo, 2016. “Factors influencing social media use in local governments: The case of Italy and Spain,” Government Information Quarterly, volume 33, number 3, pp. 460–471.
+doi: https://doi.org/10.1016/j.giq.2016.06.005, accessed 27 March 2018.
+
+
+A. Haro-de-Rosario, A. Sáez-Martín and M. del Carmen Caba-Pérez, 2018. “Using social media to enhance citizen engagement with local government: Twitter or Facebook?” New Media & Society, volume 20, number 1, pp. 29–49.
+doi: https://doi.org/10.1177/1461444816645652, accessed 27 March 2018.
+
+
+S. Hofmann, D. Beverungen, M. Räckers and J. Becker, 2013. “What makes local governments’ online communications successful? Insights from a multi-method analysis of Facebook,” Government Information Quarterly, volume 30, number 4, pp. 387–396.
+doi: https://doi.org/10.3233/IP-2012-0269, accessed 27 March 2018.
+
+
+K.D. Hyun and J. Kim, 2015. “The role of new media in sustaining the status quo: Online political expression, nationalism, and system support in China,” Information Communication & Society, volume 18, number 7, pp. 766–781.
+doi: https://doi.org/10.1080/1369118x.2014.994543, accessed 27 March 2018.
+
+
+A.M. Kaplan and M. Haenlein, 2010. “Users of the world, unite! The challenges and opportunities of social media,” Business Horizons, volume 53, number 1, pp. 59–68.
+doi: https://doi.org/10.1016/j.bushor.2009.09.003, accessed 27 March 2018.
+
+
+A.L. Kavanaugh, S.D. Sheetz, R. Sandoval-Almazán, J.C. Tedesco and E.A. Fox, 2014. “Media use during conflicts: Information seeking gratifications & efficacy during 2012 Mexican elections,” dg.o ’14: Proceedings of the 15th Annual International Conference on Digital Government Research,
+pp. 205–214.
+doi: http://doi.acm.org/10.1145/2612733.2612738, accessed 27 March 2018.
+
+
+H. Margetts, P. John, S. Hale and T. Yasseri, 2015. Political turbulence: How social media shape collective action. Princeton, N.J.: Princeton University Press.
+
+
+J.M. McLeod, D.A. Scheufele and P. Moy, 1999. “Community, communication, and participation: The role of mass media and interpersonal discussion in local political participation,” Political Communication, volume 16, number 3, pp. 315–336.
+doi: https://doi.org/10.1080/105846099198659, accessed 27 March 2018.
+
+
+I. Mergel, 2014. “Social media adoption: Toward a representative, responsive or interactive government?” dg.o ’14: Proceedings of the 15th Annual International Conference on Digital Government Research, pp. 163–170.
+doi: http://doi.acm.org/10.1145/2612733.2612740, accessed 27 March 2018.
+
+
+E. Mitchelstein and P.J. Boczkowski, 2010. “Online news consumption research: An assessment of past work and an agenda for the future,” New Media & Society, volume 12, number 7, pp. 1,085–1,102.
+doi: https://doi.org/10.1177/1461444809350193, accessed 27 March 2018.
+
+
+J. Moeller, C. de Vreese, F. Esser and R. Kunz, 2014. “Pathway to political participation: The influence of online and offline news media on internal efficacy and turnout of first-time voters,” American Behavioral Scientist, volume 58, number 5, pp. 689–700.
+doi: https://doi.org/10.1177/0002764213515220, accessed 27 March 2018.
+
+
+G. Moss, H. Kennedy, S. Moshonas and C. Birchall, 2015. “Knowing your publics: The use of social media analytics in local government,” Information Polity, volume 20, number 4, pp. 287–298.
+doi: https://doi.org/10.3233/IP-150376, accessed 27 March 2018.
+
+
+K. Mossberger, Y. Wu and J. Crawford, 2013. “Connecting citizens and local governments? Social media and interactivity in major U.S. cities,” Government Information Quarterly, volume 30, number 4, pp. 351–358.
+doi: https://doi.org/10.1016/j.giq.2013.05.016, accessed 27 March 2018.
+
+
+G.H.M. Oliveira and E.W. Welch, 2013. “Social media use in local government: Linkage of technology, task, and organizational context,” Government Information Quarterly, volume 30, number 4, pp. 397–405.
+doi: https://doi.org/10.1016/j.giq.2013.05.019, accessed 27 March 2018.
+
+
+C.S. Park, 2013. “Does Twitter motivate involvement in politics? Tweeting, opinion leadership, and political engagement,” Computers in Human Behavior, volume 29, number 4, pp. 1,641–1,648.
+doi: https://doi.org/10.1016/j.chb.2013.01.044, accessed 27 March 2018.
+
+
+A.K. Pieper and M. Pieper, 2015. “Political participation via social media: A case study of deliberative quality in the public online budgeting process of Frankfurt/Main, Germany 2013,” Universal Access in the Information Society, volume 14, number 4, pp. 487–503.
+doi: https://doi.org/10.1007/s10209-014-0353-4, accessed 27 March 2018.
+
+
+L. Rainie and B. Wellman, 2012. Networked: The new social operating system. Cambridge, Mass.: MIT Press.
+
+
+A. Sáez-Martín, A. Haro-de-Rosario and C. Caba-Perez, 2014. “A vision of social media in the Spanish smartest cities,” Transforming Government: People, Process and Policy, volume 8, number 4, 521–544.
+doi: https://doi.org/10.1108/TG-03-2014-0010, accessed 27 March 2018.
+
+
+R. Sandoval-Almazán, 2015. “Using Twitter in political campaigns: The case of the PRI candidate in Mexico,” International Journal of E-Politics, volume 6, number 1, pp. 1–15.
+doi: https://doi.org/10.4018/IJEP.2015010101, accessed 27 March 2018.
+
+
+R. Sandoval-Almazán and J.R. Gil-García, 2013. “Social media in state governments: Preliminary results about the use of Facebook and Twitter in Mexico,” In: Z. Mahmood (editor). E-government implementation and practice in developing countries. Hershey, Pa.: IGI Global, pp. 128–146.
+doi: https://doi.org/10.4018/978-1-4666-4090-0.ch006, accessed 27 March 2018.
+
+
+R. Sandoval-Almazán, J.R. Gil-García, L.F. Luna-Reyes, D.E. Luna and G. Diaz-Murillo, 2011. “The use of Web 2.0 on Mexican state Websites: A three-year assessment,” Electronic Journal of e-Government, volume 9, number 2, pp. 107–121.
+
+
+C. Shirky, 2011. “The political power of social media: Technology, the public sphere, and political change,” Foreign Affairs, at https://www.foreignaffairs.com/articles/2010-12-20/political-power-social-media, accessed 27 March 2018.
+
+
+M.M. Skoric, Q. Zhu, D. Goh and N. Pang, 2016. “Social media and citizen engagement: A meta-analytic review,” New Media & Society, volume 18, number 9, pp. 1,817–1,839.
+doi: https://doi.org/10.1177/1461444815616221, accessed 27 March 2018.
+
+
+M.Z. Sobaci and N. Karkin, 2013. “The use of Twitter by mayors in Turkey: Tweets for better public services?” Government Information Quarterly, volume 30, number 4, pp. 417–425.
+doi: https://doi.org/10.1016/j.giq.2013.05.014, accessed 27 March 2018.
+
+
+M. Toledo-Bastos, R.L. Galdini Raimundo and R. Travitzki, 2013. “Gatekeeping Twitter: Message diffusion in political hashtags,” Media, Culture & Society, volume 35, number 2, pp. 260–270.
+doi: https://doi.org/10.1177/0163443712467594, accessed 27 March 2018.
+
+ 
+Z. Tufekci and C. Wilson, 2012. “Social media and the decision to participate in political protest: Observations from Tahrir Square,” Journal of Communication, volume 62, number 2, pp. 363–379.
+doi: https://doi.org/10.1111/j.1460-2466.2012.01629.x, accessed 27 March 2018.
+
+
+D. Valle-Cruz and R. Sandoval-Almazán, 2015. “Social media governments from innovators to laggards: The case of Mexican local governments with diffusion of innovations theory,” dg.o ’15: Proceedings of the 16th Annual International Conference on Digital Government Research, pp. 250–255.
+doi: https://doi.org/10.1145/2757401.2757413, accessed 27 March 2018.
+
+
+S. Verba and N.H. Nie, 1987. Participation in America: Political democracy and social equality. Chicago: University of Chicago Press.
+
+
+M.E. Wojcieszak and D.C. Mutz, 2009. “Online groups and political discourse: Do online discussion spaces facilitate exposure to political disagreement?” Journal of Communication, volume 59, number 1, pp. 40–56.
+doi: https://doi.org/10.1111/j.1460-2466.2008.01403.x, accessed 27 March 2018.
+
+
+M. Xenos, A. Vromen and B.D. Loader, 2014. “The great equalizer? Patterns of social media use and youth political engagement in three advanced democracies,” Information, Communication & Society, volume 17, number 2, pp. 151–167.
+doi: https://doi.org/10.1080/1369118X.2013.871318, accessed 27 March 2018.
+
+ 
+ 
+
+
+
+
+Editorial history
+
+Received 2 March 2018; accepted 14 March 2018.
+
+
+
+
+
+[image: Licencia Creative Commons]
+“Towards an understanding of Twitter networks: The case of the state of Mexico” por Rodrigo Sandoval-Almazán and David Valle-Cruz se distribuye bajo una Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional.
+
+
+Towards an understanding of Twitter networks: The case of the state of Mexico
+by Rodrigo Sandoval-Almazán and David Valle Cruz.
+First Monday, Volume 23, Number 4 - 2 April 2018
+http://firstmonday.org/ojs/index.php/fm/article/view/8760/6972
+doi: http://dx.doi.org/10.5210/fm.v23i4.8760
+
+
+
+
+
+		
+
+		
+			
+					[image: Bookmark and Share]
+			
+			
+		
+
+	
+
+		
+
+
+
+
+
+
+
+
+A Great Cities Initiative of the University of Illinois at Chicago University Library.© First Monday, 1995-2018. ISSN 1396-0466.
+
+
+
+
+
+
+
+ 

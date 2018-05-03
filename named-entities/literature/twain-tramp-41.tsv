@@ -1,0 +1,1764 @@
+type	entity
+PERSON	Mark Twain
+PERSON	Samuel Clemems
+PERSON	Mark Twain Samuel L Clemens
+LOCATION	Bergen
+LOCATION	Europe
+PERSON	Harris
+LOCATION	Europe
+PERSON	Harris
+PERSON	Harris
+PERSON	Brandt
+LOCATION	Hamburg
+LOCATION	Frankfort
+LOCATION	Gutenburg
+LOCATION	Goethe
+LOCATION	Frankfort
+PERSON	Charlemagne
+PERSON	Charlemagne
+LOCATION	Frankfort
+LOCATION	Frankfort
+LOCATION	Frankfort
+LOCATION	Frankfort
+LOCATION	Frankfort
+LOCATION	Hamburg
+LOCATION	Frankfort
+LOCATION	BASLE
+LOCATION	ROTTERDAM
+PERSON	Kiefer
+PERSON	Garnharn
+LOCATION	Frankfort
+LOCATION	Frankfort
+PERSON	Romer
+PERSON	Queen
+LOCATION	Bergen
+LOCATION	Bergen
+LOCATION	Bergen
+LOCATION	Heidelberg Landing
+LOCATION	Heidelberg
+PERSON	PORTIER
+LOCATION	New York
+PERSON	Baden
+LOCATION	Germany
+LOCATION	Heidelberg
+LOCATION	Schloss Hotel
+LOCATION	Castle Heidelberg
+LOCATION	Neckar
+LOCATION	Heidelberg
+PERSON	Neckar
+ORGANIZATION	Neckar
+LOCATION	Neckar
+ORGANIZATION	Heidelberg Castle
+ORGANIZATION	Castle
+PERSON	Neckar
+LOCATION	Heidelberg
+LOCATION	Heidelberg
+LOCATION	California
+PERSON	Jim Baker
+PERSON	Jim Baker
+PERSON	Baker
+PERSON	Don
+PERSON	Baker
+ORGANIZATION	Blue Jays
+LOCATION	United States
+LOCATION	Nova Scotia
+ORGANIZATION	Yo Semite
+LOCATION	Heidelberg
+LOCATION	Heidelberg
+ORGANIZATION	Anglo American Club
+LOCATION	Heidelberg
+ORGANIZATION	KNEIP
+LOCATION	Heidelberg
+PERSON	Schloss
+LOCATION	Germany
+ORGANIZATION	White Cap Corps
+ORGANIZATION	White Corps
+ORGANIZATION	White Corps
+LOCATION	Germany
+LOCATION	Heidelberg
+LOCATION	Germany
+PERSON	Bismarck
+LOCATION	Neckar
+ORGANIZATION	Corps
+LOCATION	Germany
+ORGANIZATION	Corps
+LOCATION	Heidelberg
+LOCATION	Germany
+PERSON	Strasburg
+LOCATION	Heidelberg
+ORGANIZATION	Prussian Corps
+PERSON	Paul de Cassagnac
+LOCATION	Paris
+PERSON	Gambetta
+PERSON	Fourtou
+ORGANIZATION	French Assembly
+PERSON	Gambetta
+LOCATION	America
+PERSON	Gambetta
+LOCATION	FRANCE
+PERSON	Fourtou
+PERSON	Gambetta
+PERSON	Fourtou
+PERSON	Plessis Piquet
+PERSON	Mark Twain M Fourtou
+PERSON	Gatling
+PERSON	M Gambetta
+LOCATION	France
+PERSON	Dawn
+PERSON	Fourtou
+PERSON	Fourtou
+ORGANIZATION	Whereupon M Noir
+LOCATION	Pacific
+PERSON	Fourtou
+PERSON	Fourtou
+PERSON	Plessis Piquet
+PERSON	Gambetta
+PERSON	Fourtou
+LOCATION	France
+PERSON	Gambetta
+LOCATION	FRANCE
+LOCATION	France
+PERSON	Gambetta
+LOCATION	Paris
+LOCATION	Mannheim
+PERSON	Lear
+LOCATION	Germany
+PERSON	Shakespeare
+LOCATION	Germany
+PERSON	Mannheim
+PERSON	Baden
+LOCATION	Europe
+LOCATION	Mannheim
+PERSON	Wagner
+LOCATION	Munich
+PERSON	Wagner
+PERSON	Wagner
+PERSON	Wagner
+PERSON	Lohengrin
+PERSON	Wagner
+PERSON	Wagner
+LOCATION	Germany
+PERSON	JAWOHL BEI GOTT
+LOCATION	Hanover
+LOCATION	Mannheim
+LOCATION	Munich
+LOCATION	Heidelberg
+LOCATION	Heidelberg
+LOCATION	Hanover
+LOCATION	Germany
+PERSON	HIMMEL ABER
+LOCATION	Hanover Hamburg
+PERSON	King Lear
+PERSON	Lear
+PERSON	Wallack
+LOCATION	Munich
+LOCATION	Germany
+LOCATION	America
+LOCATION	Mannheim
+PERSON	Lear
+LOCATION	Mississippi
+LOCATION	Bavaria
+LOCATION	Munich
+PERSON	King
+PERSON	King
+LOCATION	Heidelberg
+LOCATION	Germany
+PERSON	Vogel Mu
+PERSON	Dietz
+PERSON	Vogel
+PERSON	Dietz
+PERSON	Schumann
+ORGANIZATION	Turner
+LOCATION	Rhine
+LOCATION	Orient
+LOCATION	Europe
+PERSON	Harris
+PERSON	Neckar
+PERSON	Harris
+LOCATION	Germany
+PERSON	ICH VERSTEHE NUR DEUTCH
+PERSON	Neckar
+LOCATION	Switzerland
+PERSON	Wimpfen
+PERSON	Wimpfen
+LOCATION	Heidelberg
+PERSON	Neckar
+LOCATION	Heilbronn
+PERSON	von Berlichingen
+LOCATION	Square Tower
+PERSON	Heilbronn
+PERSON	Harris
+LOCATION	Europe
+PERSON	Arthur
+ORGANIZATION	Time
+PERSON	Tilly
+PERSON	Go tz von Berlichingen
+LOCATION	Heilbronn
+PERSON	Neckar
+LOCATION	Bavaria
+PERSON	Robin Hood
+LOCATION	Square Tower
+LOCATION	Heilbronn
+LOCATION	Berlichingen
+PERSON	Arthur
+LOCATION	America
+LOCATION	Europe
+LOCATION	Heilbronn
+PERSON	Harris
+PERSON	Adam
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Arthur
+PERSON	Harris
+PERSON	Harris
+LOCATION	Europe
+LOCATION	Heidelberg
+LOCATION	Germany
+LOCATION	Heilbronn
+PERSON	Berlichingen
+LOCATION	Paris Salon
+PERSON	Neckar
+PERSON	Neckar
+ORGANIZATION	Schloss Hotel
+LOCATION	Heilbronn
+LOCATION	Heidelberg
+PERSON	Harris
+LOCATION	Heidelberg
+LOCATION	Germany
+LOCATION	Neckar
+PERSON	Neckar
+PERSON	Neckar
+PERSON	Neckar
+PERSON	Hornberg Go tz von Berlichingen
+LOCATION	Rhine
+LOCATION	Rhine
+LOCATION	Hornberg
+LOCATION	Hornberg
+PERSON	Gertrude
+PERSON	Wendel Lobenfeld
+PERSON	von Berlichingen
+PERSON	Specter
+PERSON	Hornberg
+ORGANIZATION	Cross Tradition
+PERSON	Lorelei
+LOCATION	Lorelei Germany
+LOCATION	America
+PERSON	Garnham Bachelor
+LOCATION	Rhine
+PERSON	Bruno
+PERSON	Hermann
+PERSON	Hermann
+PERSON	Garnham
+PERSON	Joy
+PERSON	Garnham
+PERSON	Hermann
+PERSON	Lei
+PERSON	Hermann
+PERSON	Lorelei
+PERSON	Knight
+LOCATION	Lorelei
+PERSON	Count Hermann
+PERSON	Heinrich Heine
+LOCATION	Germany
+PERSON	Lorelei
+PERSON	Garnham Bachelor
+PERSON	Garnham
+LOCATION	America
+LOCATION	England
+PERSON	Garnham
+ORGANIZATION	Times
+ORGANIZATION	DORT OBEN WUNDERBAR
+PERSON	Garnham
+PERSON	Garnham
+LOCATION	Munich
+ORGANIZATION	St Bartholomew
+PERSON	Bindi Altoviti
+PERSON	Raphael Susan
+ORGANIZATION	St Rochus
+PERSON	Riccio
+PERSON	Raphael
+LOCATION	Rome
+PERSON	Patterson
+PERSON	Eberbach
+PERSON	Wissenschaft
+LOCATION	Germany
+LOCATION	Germany
+LOCATION	Germany
+PERSON	Hirschhorn
+PERSON	Aye
+PERSON	Aye
+PERSON	Don
+PERSON	Neckar
+LOCATION	Hirschhorn
+PERSON	Bayard Taylor
+PERSON	Hirschhorn
+PERSON	Hirschhorn
+PERSON	Hirschhorn
+PERSON	Hirschhorn
+PERSON	Hirschhorn
+PERSON	MACHEN
+PERSON	PLATT DEUTSCH
+ORGANIZATION	Fritz Reuter
+PERSON	Deutch
+LOCATION	Saxon
+LOCATION	England
+LOCATION	Germany
+LOCATION	Heidelberg
+PERSON	White Cap
+ORGANIZATION	Prussian Corps
+ORGANIZATION	Prussian Corps
+ORGANIZATION	Prussian Corps
+ORGANIZATION	White Cap Corps
+ORGANIZATION	White Caps
+ORGANIZATION	White Cap Corps
+LOCATION	Heidelberg
+ORGANIZATION	White Cap Corps
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+LOCATION	Allerheiligen
+PERSON	Harris
+PERSON	Harris
+LOCATION	New York
+PERSON	Baden Baden
+PERSON	Jones
+PERSON	Jones
+LOCATION	Allerheiligen Two
+LOCATION	Munich
+PERSON	Prince Ludwig
+LOCATION	Allerheiligen
+LOCATION	London
+LOCATION	Germany
+LOCATION	Necharsteinach
+LOCATION	Dilsberg
+LOCATION	Dilsberg
+PERSON	Dilsberg
+PERSON	Neckar
+PERSON	Dilsberg
+PERSON	Tilly
+PERSON	Conrad von Geisberg
+PERSON	Catharina
+PERSON	Conrad
+PERSON	Conrad
+PERSON	Conrad
+PERSON	Ulrich
+PERSON	Ulrich Yes
+PERSON	Wilhelm
+PERSON	Ulrich
+PERSON	Conrad
+PERSON	Ulrich
+ORGANIZATION	Conrad
+PERSON	Conrad
+PERSON	Catharina One
+PERSON	Conrad
+PERSON	Conrad
+PERSON	Catharina
+PERSON	Catharina
+PERSON	Conrad
+PERSON	Conrad
+PERSON	Catharina Catharina
+PERSON	Catharina
+PERSON	Conrad
+PERSON	Catharina Then Catharina
+PERSON	Conrad
+PERSON	Harris
+LOCATION	Necharsteinach
+PERSON	Neckar
+ORGANIZATION	Brothers
+LOCATION	Heidelberg
+LOCATION	Hamburg
+LOCATION	Hamburg
+LOCATION	Heidelberg
+LOCATION	Germany
+LOCATION	Grand Ducal Museum
+LOCATION	Mannheim
+ORGANIZATION	Etruscans
+PERSON	Henri
+PERSON	Henri
+PERSON	Buon Retiro
+PERSON	Englishman Byng
+PERSON	Byng
+LOCATION	Grand Ducal Museum i n Mannheim
+LOCATION	Old Blue China
+LOCATION	Heidelberg
+PERSON	Baden Baden
+LOCATION	Rhine
+PERSON	Baden Baden
+LOCATION	America
+LOCATION	Europe
+LOCATION	New York
+PERSON	Cholley Adams
+PERSON	Johnny
+PERSON	Johnny
+PERSON	Cholley Adams
+LOCATION	New York
+PERSON	Cholley
+PERSON	Cholley
+PERSON	Baden Baden
+ORGANIZATION	Conversation House
+LOCATION	Germany
+LOCATION	Providence
+LOCATION	Germany
+PERSON	Baden Baden
+LOCATION	Carlsbad
+LOCATION	Trinkhalle
+PERSON	NACH BELIEBE
+PERSON	NACH
+PERSON	Baden Baden
+PERSON	Don
+PERSON	Baden Baden Baden Baden
+LOCATION	Friederichsbad
+LOCATION	France
+PERSON	Baden Baden
+PERSON	BADEN BADEN
+LOCATION	Italy
+LOCATION	London
+LOCATION	America
+LOCATION	New Jersey
+LOCATION	America
+PERSON	Baden Baden
+PERSON	Caroline de Clery
+LOCATION	Heidelberg
+LOCATION	Heidelberg
+ORGANIZATION	La Favorita Palace
+PERSON	Margravine
+PERSON	Margravine
+PERSON	Margravine
+ORGANIZATION	Catholic
+ORGANIZATION	Tradition
+LOCATION	France
+ORGANIZATION	Black Forest
+PERSON	Baden Baden
+LOCATION	Black Forest
+ORGANIZATION	Black Forest
+PERSON	Auerbach
+ORGANIZATION	Black Forest
+ORGANIZATION	Black Forest
+PERSON	Huss Has
+ORGANIZATION	Baedeker
+ORGANIZATION	The Black
+PERSON	Gretchen Huss
+PERSON	Paul Hoch
+PERSON	Gretchen
+PERSON	Hoch
+ORGANIZATION	Black Forest
+PERSON	Gretchen
+PERSON	Hans Schmidt
+PERSON	Gretchen Gretchen
+PERSON	Huss
+PERSON	Baedeker
+PERSON	Paul Hoch
+PERSON	Huss
+PERSON	Huss
+PERSON	Gretchen Interval
+PERSON	Huss
+PERSON	Hoch
+PERSON	Gretchen
+PERSON	Huss
+PERSON	Huss
+PERSON	Paul Hoch
+PERSON	Gretchen
+PERSON	Hans Schmidt
+PERSON	Hans
+PERSON	Huss
+PERSON	Hans Listen
+LOCATION	Golconda
+PERSON	Huss
+PERSON	Paul Hoch
+ORGANIZATION	Black Forest
+ORGANIZATION	Black Forest
+ORGANIZATION	Black Forest
+ORGANIZATION	Council
+LOCATION	Germany
+LOCATION	Heidelberg
+LOCATION	Paris
+PERSON	Strasburg
+LOCATION	Niagara
+LOCATION	Scotland
+PERSON	XXIII Nicodemus Dodge
+LOCATION	Oppenau
+LOCATION	Oppenau
+PERSON	Harris
+PERSON	Harris
+PERSON	Kirkham
+PERSON	Macaulay Harris
+PERSON	Harris
+LOCATION	Potomac
+PERSON	Nicodemus Dodge
+LOCATION	Missouri
+PERSON	Don
+PERSON	Nicodemus Dodge
+PERSON	Nicodemus
+PERSON	Nicodemus
+PERSON	George Jones
+PERSON	Nicodemus
+PERSON	Nicodemus
+PERSON	George
+PERSON	Nicodemus
+PERSON	Tom McElroy
+PERSON	Nicodemus
+PERSON	Tom
+PERSON	Nicodemus
+PERSON	Nicodemus
+PERSON	Nicodemus
+PERSON	Jimmy Finn
+PERSON	Jimmy Finn
+PERSON	Jimmy
+PERSON	Jimmy Finn
+PERSON	Nicodemus
+PERSON	Nicodemus
+PERSON	Harris
+LOCATION	Heidelberg
+PERSON	Harris
+PERSON	Harris
+PERSON	Hans Gross
+PERSON	Peter
+PERSON	Peter
+PERSON	Peter
+PERSON	Peter
+LOCATION	Oppenau
+LOCATION	Allerheiligen
+ORGANIZATION	Imperial Ordinance
+LOCATION	Germany
+PERSON	Baden Baden
+PERSON	Baden Baden
+LOCATION	Germany
+PERSON	Baden Baden
+PERSON	Fremersberg
+ORGANIZATION	Turner
+PERSON	Ruskin
+PERSON	Ruskin
+LOCATION	Boston
+PERSON	Ruskin
+LOCATION	National Gallery
+LOCATION	London
+ORGANIZATION	Turner
+ORGANIZATION	Turner
+LOCATION	Italy
+LOCATION	Switzerland
+LOCATION	Lucerne
+LOCATION	Lucerne
+LOCATION	Switzerland
+LOCATION	Switzerland
+LOCATION	Switzerland
+LOCATION	Switzerland
+LOCATION	Switzerland
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	John
+PERSON	John
+PERSON	Mary
+PERSON	George
+PERSON	Mary
+PERSON	Mary
+PERSON	Darley
+PERSON	Darley
+PERSON	Darley
+PERSON	Tom
+PERSON	Tom
+PERSON	Thomas Henry She
+PERSON	Joseph William
+PERSON	Thomas Henry
+PERSON	Henry Thompson Thomas Henry
+PERSON	Thomas Henry
+PERSON	Thomas Henry
+PERSON	Thomas er Thomas Carlyle
+PERSON	Henry
+PERSON	Henry
+PERSON	Thomas Henry That
+PERSON	Susan Amelia That
+PERSON	George
+PERSON	Tom
+PERSON	Darley
+PERSON	Mary
+PERSON	Mary
+PERSON	Mary NOW
+PERSON	Harris
+LOCATION	Siberia
+PERSON	Strasburg
+PERSON	Harris
+LOCATION	Hofkirche
+LOCATION	Europe
+LOCATION	Lucerne
+LOCATION	Lucerne
+LOCATION	Lucerne
+LOCATION	France
+LOCATION	Lucerne
+PERSON	Louis XVI
+PERSON	Louis
+PERSON	Napoleon
+PERSON	Louis XVI
+LOCATION	Lucerne
+LOCATION	Paris
+ORGANIZATION	Martyrdom
+ORGANIZATION	Mary Queen of Scots
+PERSON	Marie Antoinette
+PERSON	Marie Antoinette
+PERSON	Louis the Poor
+LOCATION	Lucerne
+LOCATION	Lucerne
+PERSON	Reuss
+PERSON	GADSBY
+PERSON	Riley
+LOCATION	Washington
+LOCATION	Pennsylvania Avenue
+PERSON	Riley
+PERSON	Riley
+PERSON	Riley
+PERSON	Lykins
+LOCATION	San Francisco
+LOCATION	San Francisco
+PERSON	Riley
+PERSON	Lykins
+LOCATION	Pacific
+PERSON	Riley
+LOCATION	New York
+LOCATION	San Francisco
+ORGANIZATION	Senate
+PERSON	Riley
+LOCATION	New York
+LOCATION	San Francisco
+PERSON	Riley
+PERSON	Riley
+PERSON	Gadsby
+PERSON	Lykins
+PERSON	Jackson
+PERSON	Gadsby
+LOCATION	Tennessee
+PERSON	Gadsby
+ORGANIZATION	Treasury
+LOCATION	Tennessee
+LOCATION	Providence
+LOCATION	Tennessee
+PERSON	Gadsby
+PERSON	Dern
+LOCATION	Tennessee
+PERSON	Lykins
+PERSON	Riley
+LOCATION	Tennessee
+LOCATION	Tennessee
+LOCATION	San Francisco
+PERSON	Lykins
+PERSON	GADSBY
+PERSON	Riley
+LOCATION	Lucerne
+PERSON	Gadsby
+LOCATION	Seine
+LOCATION	Paris
+LOCATION	Lucerne
+LOCATION	Glacier Garden
+LOCATION	Lucerne
+LOCATION	Rigi Very
+LOCATION	Fluelen
+LOCATION	Jungfrau
+LOCATION	BATAVIA
+ORGANIZATION	Cunard
+LOCATION	New England
+LOCATION	New Bloomfield Anybody
+LOCATION	Paris
+ORGANIZATION	Harvard
+LOCATION	Paris
+PERSON	Rigi
+PERSON	Schreiber
+LOCATION	Geneva
+PERSON	Don
+LOCATION	Geneva
+LOCATION	Switzerland
+LOCATION	New England New Bloomfield
+LOCATION	PARIS
+PERSON	Schiller
+PERSON	Schiller
+PERSON	Helmbold
+PERSON	Buchu Try Benzaline
+PERSON	Schiller
+PERSON	Inman
+LOCATION	BATAVIA
+ORGANIZATION	Cunard
+LOCATION	New Jersey
+LOCATION	New England New Bloomfield
+LOCATION	Mount Pilatus
+ORGANIZATION	Pontius Pilate
+PERSON	William Tell
+PERSON	Guide
+PERSON	William Tell
+LOCATION	Paris
+ORGANIZATION	Harvard
+LOCATION	Paris
+PERSON	Rigi
+PERSON	Schreiber
+LOCATION	Geneva
+LOCATION	New Jersey
+LOCATION	Lucerne
+ORGANIZATION	Mount Pilatus
+PERSON	Jodel
+PERSON	Rigi Kulm
+LOCATION	Lucerne This village
+LOCATION	Allerheiligen
+LOCATION	Oppenau
+PERSON	Harris
+PERSON	Lul
+LOCATION	Kaltbad
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Rigi Kulm
+LOCATION	Lucerne
+PERSON	Rigi
+PERSON	Rigi Kulm
+PERSON	Baedeker
+LOCATION	Allerheiligen
+LOCATION	Oppenau
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+LOCATION	US
+LOCATION	Europe Asia
+LOCATION	America
+LOCATION	Providence
+PERSON	Harris
+PERSON	Harris
+LOCATION	Kaltbad
+PERSON	Kaltbad
+LOCATION	Schnurrtobel Bridge
+PERSON	Vitznau
+PERSON	Rigi Kulm
+LOCATION	Lucerne
+LOCATION	Europe
+LOCATION	Furka Pass
+LOCATION	Europe
+PERSON	Hospenthal
+PERSON	Giesbach
+PERSON	HARRIS
+PERSON	Hospenthal
+LOCATION	Furka
+PERSON	Hospenthal
+LOCATION	Furka
+LOCATION	Oberland
+ORGANIZATION	STEG
+ORGANIZATION	UN PEU
+ORGANIZATION	Rhone
+LOCATION	Dead Man s Lake
+PERSON	Grimsel
+ORGANIZATION	Rhone SCHNAWP
+LOCATION	Strahleck Pass
+LOCATION	Grindelwald
+PERSON	Grimsel
+ORGANIZATION	PUCKITTYPUKK
+LOCATION	BLITZEN
+ORGANIZATION	REGEN
+ORGANIZATION	NASS
+ORGANIZATION	AGRE
+ORGANIZATION	Aar
+LOCATION	Guttanen
+LOCATION	Meiringen
+ORGANIZATION	MMBGLX
+LOCATION	Rosenlaui
+PERSON	Reichenbach
+LOCATION	Grindelwald
+ORGANIZATION	SOLCHE
+LOCATION	Grindelwald
+ORGANIZATION	LA MAISON
+LOCATION	Jungfrau
+LOCATION	Wildstrubel
+LOCATION	Giesbach
+LOCATION	Grindelwald
+PERSON	Fahr
+PERSON	Harris
+LOCATION	Fiji
+ORGANIZATION	MMBGLX
+PERSON	Zulu
+LOCATION	SCHNAWP Valley
+LOCATION	Choctaw
+PERSON	Zulu
+LOCATION	Lucerne
+LOCATION	Interlaken
+LOCATION	Switzerland
+LOCATION	Switzerland
+LOCATION	Germany
+LOCATION	France
+ORGANIZATION	Pontius Pilate
+LOCATION	Jerusalem
+LOCATION	Mount Pilatus
+PERSON	Santa Claus
+ORGANIZATION	Pilate
+ORGANIZATION	St Nicholas
+PERSON	Pilate
+PERSON	St Nicholas
+LOCATION	Sachseln
+LOCATION	Arth
+LOCATION	Lucerne
+LOCATION	Interlaken
+LOCATION	Lucerne
+LOCATION	Meiringen
+ORGANIZATION	Aar
+LOCATION	Oltschiback
+PERSON	Kaiserstuhl
+LOCATION	America
+LOCATION	Munich
+LOCATION	Heidelberg
+PERSON	Abraham
+PERSON	Neddy
+PERSON	Neddy
+PERSON	Neddy
+PERSON	Neddy
+PERSON	Neddy
+PERSON	Neddy
+PERSON	Harris
+LOCATION	Meiringen
+PERSON	Napoleon
+LOCATION	Europe
+LOCATION	England France
+LOCATION	Germany
+PERSON	Napoleon
+LOCATION	Alps
+LOCATION	Meiringen
+PERSON	Harris
+LOCATION	Europe
+PERSON	Harris
+LOCATION	Brienz
+LOCATION	Interlaken
+LOCATION	Lucerne
+LOCATION	Jungfrau
+LOCATION	Jungfrau Hotel
+LOCATION	Prague
+LOCATION	Switzerland
+LOCATION	Europe
+PERSON	Napoleon
+LOCATION	Europe
+LOCATION	Switzerland
+LOCATION	Jungfrau
+LOCATION	Jungfrau
+LOCATION	Jungfrau
+LOCATION	Jungfrau
+LOCATION	Jungfrau
+PERSON	Harris
+LOCATION	Europe
+LOCATION	Europe
+PERSON	Polander
+PERSON	Joseph N Verey
+PERSON	Messrs Gay
+LOCATION	Son Strand London
+LOCATION	Interlaken
+LOCATION	Brienz
+LOCATION	Europe
+LOCATION	Jungfrau
+LOCATION	Alps
+LOCATION	Interlaken
+LOCATION	Gemmi
+LOCATION	Zermatt
+LOCATION	Lausanne
+PERSON	Thun
+LOCATION	Kienthal
+PERSON	Blumis
+LOCATION	Frutigen
+LOCATION	Kandersteg
+LOCATION	Kandersteg
+LOCATION	Kandersteg
+LOCATION	Kandersteg
+LOCATION	Kandersteg
+LOCATION	Alps
+LOCATION	England
+LOCATION	Germany
+LOCATION	America
+LOCATION	Rome
+LOCATION	Rome
+PERSON	Dor
+LOCATION	America
+PERSON	Harris
+PERSON	Hinchliff
+LOCATION	Monte Rosa
+PERSON	Hinchliff
+LOCATION	Riffel Hotel
+LOCATION	Breithorn
+LOCATION	Monte Rosa
+LOCATION	Monte Rosa
+LOCATION	Grand Plateau
+PERSON	Mont Blanc
+LOCATION	Alps
+LOCATION	PEBBLE
+ORGANIZATION	Monte Rosa
+PERSON	Peter
+PERSON	Peter
+LOCATION	Italy
+PERSON	Harris
+LOCATION	Zermatt
+PERSON	Harris
+LOCATION	Zermatt
+PERSON	Schwarenback
+LOCATION	Monte Rosa
+PERSON	Mont Blanc
+LOCATION	Kandersteg
+PERSON	Baedeker
+PERSON	Herlincourt
+PERSON	Harris
+LOCATION	Leuk
+PERSON	Harris
+ORGANIZATION	British Museum
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+LOCATION	Leuk
+PERSON	Harris
+PERSON	Harris
+LOCATION	Leuk
+PERSON	Harris
+LOCATION	Rhone
+PERSON	Harris
+ORGANIZATION	St Nicholas
+PERSON	Darwin
+ORGANIZATION	St Nicholas
+LOCATION	America
+LOCATION	America
+ORGANIZATION	St Vitus
+PERSON	Poe
+PERSON	Joseph Addison
+LOCATION	Zermatt
+PERSON	Harris
+PERSON	St Paul
+LOCATION	St Peter
+LOCATION	Strasburg Cathedral
+ORGANIZATION	Capitol
+LOCATION	Washington
+PERSON	Harris
+ORGANIZATION	Protestant
+ORGANIZATION	Protestant
+ORGANIZATION	Protestant
+ORGANIZATION	Protestant
+ORGANIZATION	Protestant
+ORGANIZATION	Protestant
+ORGANIZATION	Protestant
+ORGANIZATION	Protestant
+ORGANIZATION	Protestant
+LOCATION	Rhone
+LOCATION	Rhone
+ORGANIZATION	Protestant
+LOCATION	St Nicholas
+PERSON	Harris
+PERSON	Baedeker
+LOCATION	Zermatt
+PERSON	Napoleon
+PERSON	Douglas
+PERSON	Douglas
+LOCATION	Zermatt
+PERSON	Douglas
+ORGANIZATION	St Nicholas
+LOCATION	Zermatt
+LOCATION	Zermatt
+ORGANIZATION	St Nicholas Distance
+PERSON	Girdlestone
+PERSON	Girdlestone
+PERSON	Hyde Parks
+PERSON	Girdlestone
+LOCATION	Alps
+LOCATION	England
+PERSON	Girdlestone
+LOCATION	Zermatt
+LOCATION	Zermatt
+LOCATION	Switzerland
+PERSON	Whymper
+LOCATION	Breil He
+ORGANIZATION	Baton
+LOCATION	Breil
+PERSON	Harris
+PERSON	Harris
+LOCATION	Zermatt
+PERSON	Harris
+ORGANIZATION	Butler
+ORGANIZATION	Footman
+ORGANIZATION	Geologist
+ORGANIZATION	Barber
+ORGANIZATION	Botanist
+ORGANIZATION	Head Cook
+ORGANIZATION	Chaplains
+ORGANIZATION	Barkeepers
+ORGANIZATION	Latinist TRANSPORTATION ETC 27 Porters
+ORGANIZATION	Ironers
+ORGANIZATION	Muleteers
+ORGANIZATION	Cows
+ORGANIZATION	Barrel Sugar
+ORGANIZATION	Keg Lemons
+ORGANIZATION	Pemmican
+ORGANIZATION	Barrels Arnica
+ORGANIZATION	Bale of Lint
+LOCATION	Zermatt
+LOCATION	Alps
+LOCATION	Winkelmatten Without
+LOCATION	Zermatt
+LOCATION	Zermatt
+PERSON	Harris
+PERSON	Harris
+LOCATION	Zermatt
+PERSON	Mark
+PERSON	Rodman
+LOCATION	Zermatt
+PERSON	Harris
+LOCATION	Switzerland
+LOCATION	Switzerland
+PERSON	Harris
+PERSON	Harris
+LOCATION	Heidelberg
+LOCATION	Alps
+ORGANIZATION	Feil Stutz
+LOCATION	Riffelberg
+PERSON	Gorner Glacier
+LOCATION	Rhine
+PERSON	Harris
+LOCATION	Europe
+PERSON	Don
+LOCATION	Paris
+LOCATION	Berlin
+LOCATION	Rome
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	Italy
+LOCATION	Berlin
+ORGANIZATION	Boston
+ORGANIZATION	Boston
+LOCATION	Boston
+LOCATION	Europe
+LOCATION	Spain
+LOCATION	Venice
+LOCATION	Dresden
+LOCATION	Egypt
+LOCATION	India
+LOCATION	Jerusalem
+LOCATION	Boston
+PERSON	Harris
+LOCATION	Riffelberg Hotel
+LOCATION	Monte Rosa
+LOCATION	Alpine
+LOCATION	Zermatt
+LOCATION	Riffelberg Hotel
+PERSON	Baedeker
+LOCATION	Riffelberg Hotel
+LOCATION	Zermatt
+LOCATION	Riffelberg Hotel
+LOCATION	Zermatt
+ORGANIZATION	Riffelberg Hotel
+PERSON	Baedeker
+LOCATION	Zermatt
+PERSON	Harris
+PERSON	Gorner Grat
+PERSON	Harris
+LOCATION	Alps
+PERSON	Harris
+PERSON	Harris
+PERSON	Harris
+PERSON	Baedeker
+LOCATION	Baedeker
+PERSON	Bradshaw
+PERSON	Bradshaw
+LOCATION	Zermatt
+PERSON	Baedeker
+PERSON	Baedeker
+LOCATION	Zermatt
+PERSON	Harris
+LOCATION	Zermatt
+ORGANIZATION	Catholic
+PERSON	Harris
+PERSON	Tom Scott
+PERSON	Harris
+PERSON	Tom Scott
+LOCATION	Gorner
+PERSON	Harris
+LOCATION	Ephesus
+LOCATION	Smyrna
+LOCATION	Zermatt
+LOCATION	Siberia
+LOCATION	Switzerland
+LOCATION	Gorner Glacier
+LOCATION	Zermatt
+LOCATION	Chamonix
+ORGANIZATION	Unter Aar Glacier
+PERSON	Mont Blanc
+PERSON	Michel Payot
+PERSON	Whymper
+LOCATION	Aosta
+PERSON	Mont Blanc
+LOCATION	Piedmont
+LOCATION	Ivrea
+LOCATION	Ivrea
+LOCATION	Valley
+LOCATION	Aosta
+LOCATION	New York
+ORGANIZATION	Trinity
+LOCATION	Saratoga
+PERSON	Mont Blanc
+LOCATION	Ivrea
+PERSON	Whymper
+LOCATION	Iceland
+LOCATION	Hofdabrekka
+PERSON	Hjorleifshofdi
+LOCATION	Hofdabrekka
+LOCATION	Alps
+PERSON	Mont Blanc
+PERSON	Pierre Balmat Pierre Carrier
+PERSON	Auguste Tairraz
+PERSON	Forbes
+ORGANIZATION	HISTOIRE DU MONT BLANC
+PERSON	Stephen
+LOCATION	Arve
+LOCATION	Chamonix
+PERSON	Marie Couttet
+PERSON	Julien Davouassoux
+PERSON	Davouassoux
+PERSON	Couttet
+PERSON	Pierre Balmat
+PERSON	Pierre Carrier
+PERSON	Balmat
+PERSON	Balmat
+ORGANIZATION	Time
+PERSON	Marie Couttet
+PERSON	Couttet
+PERSON	Auguste Tairraz
+LOCATION	Tairraz
+PERSON	Hamel
+LOCATION	Chamonix
+LOCATION	Chamonix
+PERSON	Balmat
+LOCATION	London
+PERSON	Chamonix Monsieur Balmat
+PERSON	Hamel
+PERSON	Forbes
+PERSON	Tyndall
+LOCATION	Chamonix
+PERSON	Hamel
+LOCATION	Chamonix
+LOCATION	Chamonix
+LOCATION	America
+PERSON	Whymper
+PERSON	Whymper
+PERSON	MR WHYMPER
+LOCATION	Zermatt
+PERSON	Peter Taugwalder
+PERSON	Hudson
+PERSON	Hudson
+PERSON	Taugwalders
+LOCATION	Zermatt
+PERSON	Hudson
+LOCATION	Riffelberg
+LOCATION	Zermatt
+PERSON	Croz
+PERSON	Croz
+LOCATION	Zermatt
+PERSON	Riffel
+PERSON	Hudson
+PERSON	Croz
+PERSON	Hadow
+PERSON	Douglas
+PERSON	Peter
+LOCATION	Hudson
+PERSON	Peter
+PERSON	Douglas
+PERSON	Peter
+PERSON	Taugwalder
+LOCATION	Monte Rosa Hotel
+LOCATION	Zermatt
+PERSON	Michel Croz
+PERSON	Hadow
+PERSON	Croz
+PERSON	Hadow
+PERSON	Croz
+PERSON	Hadow
+PERSON	Hudson
+PERSON	Douglas
+PERSON	Croz
+PERSON	Peter
+PERSON	Francis Douglas
+PERSON	Peter
+LOCATION	Zermatt
+PERSON	Whymper
+LOCATION	Zermatt
+PERSON	Taugwalder
+PERSON	Whymper
+PERSON	Taugwalder
+PERSON	Douglas
+PERSON	Douglas
+PERSON	Whymper
+LOCATION	Zermatt
+LOCATION	Zermatt
+ORGANIZATION	Protestant
+ORGANIZATION	Catholic
+LOCATION	France
+LOCATION	Spain
+LOCATION	Valais
+LOCATION	Zermatt
+ORGANIZATION	St Nicholas
+LOCATION	Switzerland
+LOCATION	St Nicholas
+LOCATION	Switzerland
+LOCATION	St Nicholas
+LOCATION	Switzerland
+LOCATION	Switzerland
+LOCATION	St Louis
+LOCATION	Mississippi River
+ORGANIZATION	St Nicholas
+LOCATION	Alps
+LOCATION	Nevada
+LOCATION	Switzerland
+LOCATION	Nevada
+LOCATION	Spain
+PERSON	Jimmy
+PERSON	Jimmy
+PERSON	Jimmy
+PERSON	Jimmy
+PERSON	Adam
+PERSON	Jimmy
+PERSON	Vispach
+ORGANIZATION	St Nicholas
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	Ouchy Lausanne Ouchy
+LOCATION	London
+ORGANIZATION	Reuter
+ORGANIZATION	Telegram Company
+LOCATION	Brisbane
+PERSON	Lady Kennedy
+ORGANIZATION	Queensland TWINS
+PERSON	Arthur Kennedy
+ORGANIZATION	Reuter
+LOCATION	Queensland
+ORGANIZATION	Maryborough Gympic Railway
+LOCATION	Australia
+PERSON	Byron
+PERSON	Bonnivard
+PERSON	Byron
+PERSON	Victor Hugo
+PERSON	Bonnivard
+LOCATION	Martigny
+PERSON	Mont Blanc
+ORGANIZATION	Te te Noir
+ORGANIZATION	Te te Noir
+LOCATION	Argentie
+PERSON	Mont Blanc
+PERSON	Mont Blanc
+PERSON	Argentie
+PERSON	Koh
+LOCATION	Martigny
+LOCATION	Argentie
+LOCATION	Chamonix
+PERSON	Mont Blanc
+PERSON	Mont Blanc
+LOCATION	Chamonix
+PERSON	Argentie
+LOCATION	Geneva
+PERSON	Mont Blanc
+PERSON	Mont Blanc
+PERSON	Mont Blanc
+PERSON	Mont Blanc
+LOCATION	Chamonix Guild
+PERSON	Mont Blanc
+LOCATION	Mount Blanc
+PERSON	Jacques Balmat
+PERSON	De Saussure
+PERSON	Mont Blanc
+PERSON	Mont Blanc
+LOCATION	France
+PERSON	Mont Blanc
+PERSON	Hamel
+PERSON	Jacques Balmat
+PERSON	Midi
+PERSON	De Saussure
+PERSON	Albert Smith Balmat
+ORGANIZATION	De Saussure
+PERSON	Mont Blanc
+PERSON	Smith
+PERSON	Mont Blanc
+LOCATION	London
+LOCATION	Riffelberg
+PERSON	Darwin
+PERSON	Mont Blanc
+LOCATION	Switzerland
+LOCATION	Switzerland
+LOCATION	Paris
+PERSON	Mont Blanc
+LOCATION	Chamonix
+LOCATION	Pierre Pointue
+PERSON	Mont Blanc
+PERSON	Harris
+PERSON	Mont Blanc
+PERSON	Harris
+PERSON	Glacier des Bossons
+PERSON	Dossons
+LOCATION	Cisalpine Cordillera
+LOCATION	Jubbelpore
+LOCATION	Aigulles des Alleghenies
+LOCATION	Popocatapetl
+LOCATION	Himalayas
+LOCATION	Alps
+LOCATION	Chamonix
+LOCATION	Chamonix
+LOCATION	Chamonix
+PERSON	Mont Blanc
+LOCATION	Chamonix
+PERSON	Mont Blanc
+PERSON	George Young
+PERSON	James
+PERSON	Albert
+LOCATION	Grand Plateau
+ORGANIZATION	Corridor
+LOCATION	Europe
+LOCATION	Chamonix
+ORGANIZATION	Corridor
+ORGANIZATION	Corridor
+LOCATION	Chamonix
+PERSON	George Young
+PERSON	George
+PERSON	George
+PERSON	George
+LOCATION	Chamonix
+PERSON	George Young
+LOCATION	Chamonix
+PERSON	George
+PERSON	Stratton
+PERSON	Mont Blanc
+PERSON	Angeville
+LOCATION	Chamonix
+PERSON	Angeville
+PERSON	Mont Blanc
+LOCATION	Arve
+ORGANIZATION	HISTOIRE
+LOCATION	Chamonix
+PERSON	Messrs Randall
+PERSON	George Corkindale
+LOCATION	Chamonix
+PERSON	Sylvain Couttet
+PERSON	Couttet
+PERSON	Mont Blanc
+PERSON	Corkindale
+PERSON	Randall
+PERSON	Hessie
+PERSON	Mont Blanc
+LOCATION	Alps
+PERSON	Harris
+LOCATION	Alps
+PERSON	Montanvert
+PERSON	Josephine
+LOCATION	Montanvert
+LOCATION	Chamonix
+PERSON	Marie Louise
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	Paris
+LOCATION	Munich
+PERSON	Don
+LOCATION	Either America
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	Munich
+LOCATION	Chicago
+LOCATION	Dublin
+LOCATION	United States
+LOCATION	Chicago
+ORGANIZATION	Philadelphia
+ORGANIZATION	St Louis
+LOCATION	San Francisco
+ORGANIZATION	New York the Dublin of America
+LOCATION	Paris
+ORGANIZATION	Glasgow
+ORGANIZATION	London
+ORGANIZATION	Vienna
+ORGANIZATION	Augsburg
+ORGANIZATION	Braunschweig
+ORGANIZATION	Cologne
+ORGANIZATION	Dresden
+ORGANIZATION	Hamburg
+ORGANIZATION	Berlin
+ORGANIZATION	Bombay
+ORGANIZATION	Warsaw
+ORGANIZATION	Breslau
+ORGANIZATION	Odessa
+ORGANIZATION	Munich
+ORGANIZATION	Strasburg
+ORGANIZATION	Pesth
+ORGANIZATION	Cassel
+ORGANIZATION	Lisbon
+ORGANIZATION	Liverpool
+ORGANIZATION	Prague
+ORGANIZATION	Madras
+ORGANIZATION	Bucharest
+ORGANIZATION	St Petersburg
+ORGANIZATION	Trieste
+ORGANIZATION	Alexandria Egypt
+ORGANIZATION	Dublin
+ORGANIZATION	Calcutta
+ORGANIZATION	Edinburgh
+LOCATION	New York
+LOCATION	Frankfort
+LOCATION	Frankfort
+LOCATION	Chicago San Francisco St Louis
+LOCATION	Philadelphia
+LOCATION	America
+LOCATION	Villainous Road
+LOCATION	Switzerland
+PERSON	Mont Blanc
+LOCATION	Geneva
+PERSON	Baedeker
+PERSON	Baedeker
+PERSON	Mont Blanc
+PERSON	Mont Blanc
+LOCATION	Geneva
+LOCATION	Geneva
+LOCATION	Geneva
+LOCATION	Paris
+LOCATION	Grands Magasins du Louvre
+LOCATION	Geneva
+PERSON	Monsieur
+PERSON	Monsieur
+LOCATION	Geneva
+PERSON	Rousseau
+PERSON	Calvin
+PERSON	Calvin
+LOCATION	Paris
+LOCATION	Paris
+LOCATION	Paris
+LOCATION	Europe
+LOCATION	London
+PERSON	Valentine Baker
+LOCATION	London
+LOCATION	London
+PERSON	Baker
+PERSON	Arkansaw
+PERSON	Arkansaw
+PERSON	Baker
+LOCATION	Italy
+LOCATION	Chamb
+PERSON	Heilbronn
+LOCATION	Algiers
+LOCATION	Turin
+LOCATION	Turin
+LOCATION	Turin
+LOCATION	Italy
+LOCATION	Turin
+PERSON	Judy
+LOCATION	Italy
+LOCATION	Odessa
+LOCATION	Milan
+LOCATION	Italy
+PERSON	Harris
+LOCATION	Italy
+LOCATION	Milan
+LOCATION	Rome
+LOCATION	Florence
+ORGANIZATION	Time
+LOCATION	Venice
+PERSON	Paul Veronese
+PERSON	Barbarossa
+LOCATION	Europe
+LOCATION	Venice
+PERSON	St Mark
+PERSON	St Mark
+PERSON	St Mark
+LOCATION	Heidelberg
+PERSON	Bassano
+ORGANIZATION	Hair Trunk
+PERSON	Pope Alexander III
+PERSON	Doge Ziani
+PERSON	Frederick Barbarossa
+ORGANIZATION	Trunk
+PERSON	Pope
+ORGANIZATION	Hair Trunk
+ORGANIZATION	Hair Trunk
+PERSON	Bassano
+ORGANIZATION	Supreme Feature
+ORGANIZATION	Trunk
+LOCATION	Rome
+LOCATION	Republic The Trunk
+LOCATION	Europe
+ORGANIZATION	Hair Trunk
+LOCATION	Venice
+PERSON	Florian
+LOCATION	Great Square
+PERSON	St Mark
+LOCATION	Venice
+PERSON	Este
+PERSON	Crioni
+PERSON	Crioni
+PERSON	Stammato
+PERSON	Crioni
+PERSON	Crioni
+PERSON	Stammato
+PERSON	Piazza
+LOCATION	Venice
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	Brook
+LOCATION	Sierra
+ORGANIZATION	Tahoe Frogs Sheepshead
+ORGANIZATION	New Orleans American butter Black
+ORGANIZATION	Mississippi Fried
+PERSON	Woodcock Hot
+LOCATION	Baltimore
+LOCATION	Missouri
+ORGANIZATION	Possum Coon Virginia
+LOCATION	Boston
+LOCATION	San Francisco
+LOCATION	Philadelphia Terrapin
+ORGANIZATION	Connecticut Mashed
+LOCATION	Baltimore
+ORGANIZATION	Apple
+ORGANIZATION	Apple pie Apple
+ORGANIZATION	Pumpkin pie Squash
+PERSON	Scotchman
+LOCATION	New Orleans
+PERSON	Smollett
+LOCATION	Rome
+LOCATION	Florence
+LOCATION	Uffizzi
+LOCATION	Florence
+ORGANIZATION	Tribune
+PERSON	Titian
+PERSON	Venus
+PERSON	Titian
+PERSON	Titian
+PERSON	Venus
+PERSON	Titian
+ORGANIZATION	Tribune
+LOCATION	Europe
+PERSON	Titian
+PERSON	Venus
+ORGANIZATION	Tribune
+LOCATION	Italy
+PERSON	Titian
+PERSON	Moses
+PERSON	Hair Trunk of Bassano
+LOCATION	Florence
+LOCATION	Europe
+LOCATION	Rome
+LOCATION	Munich
+LOCATION	Paris
+LOCATION	Paris
+LOCATION	Holland
+LOCATION	Belgium
+LOCATION	Spain
+LOCATION	England
+LOCATION	New York
+LOCATION	Europe
+LOCATION	Europe
+PERSON	Omar Khay
+LOCATION	Persia
+PERSON	Billy Patterson
+LOCATION	Hamburg
+LOCATION	Peking
+LOCATION	Jericho
+LOCATION	Providence
+LOCATION	Europe
+LOCATION	New York
+LOCATION	America
+LOCATION	Philadelphia
+LOCATION	Berlin
+ORGANIZATION	Saratoga Long Branch New York
+LOCATION	Europe
+LOCATION	Germany Switzerland
+LOCATION	Italy
+LOCATION	America
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	Europe
+LOCATION	America
+LOCATION	Ho tel de Ville
+LOCATION	Milan
+LOCATION	Heidelberg Castle Heidelberg Castle
+LOCATION	US
+LOCATION	Rhine
+PERSON	Adam
+PERSON	Adam
+PERSON	Cain
+LOCATION	Heidelberg Castle
+LOCATION	Europe
+LOCATION	Heidelberg
+LOCATION	Neunheim
+PERSON	Catharine
+LOCATION	Heidelberg Tun
+LOCATION	Heidelberg Tun
+LOCATION	Heidelberg Tun
+LOCATION	Great Tun
+LOCATION	Heidelberg Tun
+PERSON	Tun
+LOCATION	Rhine
+LOCATION	Charlemagne
+LOCATION	Europe
+ORGANIZATION	University
+ORGANIZATION	University
+ORGANIZATION	University
+ORGANIZATION	University
+LOCATION	Germany
+ORGANIZATION	Herr Professor
+PERSON	Glinicke
+PERSON	Graf Bismarck
+PERSON	Bismarck
+LOCATION	Heidelberg
+LOCATION	America
+LOCATION	Heidelberg
+LOCATION	Heidelberg
+LOCATION	Europe
+LOCATION	Heidelberg
+LOCATION	Heidelberg Castle
+PERSON	Harris
+ORGANIZATION	REGEN
+ORGANIZATION	Regen
+ORGANIZATION	Regen
+ORGANIZATION	Regen
+ORGANIZATION	DER Regen
+ORGANIZATION	Regen
+ORGANIZATION	Regen
+ORGANIZATION	Regen
+ORGANIZATION	der Strasse
+LOCATION	Sammt
+PERSON	Gretchen
+PERSON	Freund
+PERSON	Genitives MeinES
+PERSON	Dative MeinEM gutEN Freund
+PERSON	Accusative MeinEN gutEN Freund
+PERSON	G MeinER gutEN FreundE
+PERSON	D MeinEN gutEN FreundEN
+LOCATION	Germany
+LOCATION	Switzerland
+LOCATION	Heidelberg
+PERSON	Dative
+PERSON	HAUSE
+PERSON	Tannenwald
+PERSON	Gretchen Wilhelm
+PERSON	Gretchen
+LOCATION	Germany
+LOCATION	Germany
+LOCATION	Engla
+PERSON	Leg
+PERSON	Leg
+ORGANIZATION	Time
+LOCATION	Heidelberg
+PERSON	SCHLAG
+ORGANIZATION	SCHLAG
+ORGANIZATION	Shock Clap Slap Time Bar Coin Stamp Kind Sort Manner Way Apoplexy Wood
+ORGANIZATION	SCHLAG
+ORGANIZATION	SCHLAG WASSER
+PERSON	SCHLAG
+ORGANIZATION	SCHLAG
+ORGANIZATION	SCHLAG
+LOCATION	ZUG
+LOCATION	Germany
+ORGANIZATION	SCHLAG
+LOCATION	Hamburg
+PERSON	Generalstaatsverordnetenversammlungen Alterthumswissenschaften Kinderbewahrungsanstalten Unabhaengigkeitserklaerungen Wiedererstellungbestrebungen Waffenstillstandsunterhandlungen
+PERSON	Freundshaftsbezeigungen
+PERSON	Generalstaatsverordnetenversammlungen
+PERSON	Simmons
+PERSON	Simmons
+PERSON	Johnson
+PERSON	Wagoner
+ORGANIZATION	Stork
+PERSON	Mother Stork
+PERSON	HELLY
+PERSON	Dative
+PERSON	Dative
+ORGANIZATION	Verdammt
+PERSON	Ach Gott Mein Gott Gott
+PERSON	Himmel Herr Gott Der Herr Jesus
+PERSON	Ach Gott
+PERSON	SCHLAG
+ORGANIZATION	ANGLO
+LOCATION	Germany
+LOCATION	Sprache des Landes
+PERSON	Englischer Worte
+PERSON	Goethe
+PERSON	Grossbrittanischer
+LOCATION	Bruderliche
+PERSON	Anblich
+LOCATION	Augen
+LOCATION	Bruderlichem
+PERSON	Hundert Jahre
+LOCATION	Engla
+PERSON	Freunde Gott
+ORGANIZATION	Brothers
+PERSON	Herr Givenaught
+LOCATION	Europe
+PERSON	Franz Reikmann
+LOCATION	Heidelberg All Germany
+PERSON	Hildegarde
+PERSON	Virgin
+PERSON	Herr Givenaught
+PERSON	Virgin Sad
+PERSON	Hildegarde
+LOCATION	Neckar
+PERSON	Herr Givenaught
+PERSON	Herr Heartless
+PERSON	Givenaught
+PERSON	Givenaught
+PERSON	Givenaught
+PERSON	Herr Heartless
+PERSON	Herr Heartless
+PERSON	Hildegarde
+PERSON	Hildegarde
+LOCATION	Germany
+PERSON	Hildegarde
+PERSON	Herr Heartless
+PERSON	Hildegarde
+PERSON	Hildegarde
+LOCATION	The Virgin
+LOCATION	Ritter
+LOCATION	Germany
+PERSON	Hildegarde
+ORGANIZATION	Three Four Five
+PERSON	Herr Heartless
+PERSON	Huzzah
+LOCATION	Germany
+PERSON	Holy Virgin
+PERSON	Givenaught
+PERSON	Givenaught
+PERSON	Hildegarde
+PERSON	Holy Mother
+PERSON	Hildegarde
+LOCATION	Germany
+ORGANIZATION	Hamburg Frankfort Baden Munich
+LOCATION	Augsburg
+LOCATION	London Vienna
+LOCATION	Heidelberg
+LOCATION	Munich
+LOCATION	Munich
+LOCATION	Munich
+LOCATION	Munich
+LOCATION	Augsburg
+LOCATION	New York
+LOCATION	New Jersey
+LOCATION	Augsburg ALLGEMEINE ZEITUNG
+LOCATION	Munich
+LOCATION	New York
+LOCATION	Munich
+LOCATION	America
+LOCATION	Munich
+LOCATION	London
+ORGANIZATION	London TIMES
+LOCATION	Berlin
+LOCATION	Vienna
+LOCATION	Calcutta Thirty
+PERSON	Leopold
+LOCATION	Vienna
+PERSON	Prince Arnulph
+LOCATION	Russia
+LOCATION	Landtag
+PERSON	Wagner
+LOCATION	Frankfurt
+LOCATION	Russia
+LOCATION	Munich
+ORGANIZATION	DONAU ZEITUNG
+LOCATION	Rametuach
+LOCATION	Eppenschlag
+LOCATION	Iggensbach
+LOCATION	Deggendorf Yes

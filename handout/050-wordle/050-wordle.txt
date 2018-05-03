@@ -1,0 +1,22 @@
+
+
+Word clouds with Wordle
+
+A word cloud, or sometimes called a "tag cloud" is a fun, easy, and popular way to visualize the characteristics of a text. Usually used to illustrate the frequency of words in a text, a word clouds make some features ("words") bigger than others, sometimes colorize the features, and amass the result in a sort of "bag of words" fashion. 
+
+[INSERT WORD CLOUD OF WALDEN HERE.]
+
+Many people disparage the use of word clouds. This is probably because word clouds may have been over used. The characteristics they illustrate are sometimes sophomoric. Or too much value has been given to their meaning. Despite these facts, a word cloud is an excellent way to initialize the analysis of texts.
+
+There are many word cloud applications and programming libraries, but Wordle is probably the easiest to use as well as the most popular. † [1] To get started, use your Web browser and go to the Wordle site. Click the Create tab and type some text into the resulting text box. Submit the form. Your browser may ask for permissions to run a Java application, and if granted, the result ought to be simple word cloud. The next step is to play with Wordle's customizations: fonts, colors, layout, etc. To begin doing useful analysis, open a file from the workshop's corpus, and copy/paste it into Wordle. What does the result tell you? Copy/paste a different file into Wordle and then compare/contrast the two word clouds. 
+
+By default, Wordle make effort to normalize the input. It removes stop words, lower-cases letters, removes numbers, etc. Wordle then counts & tabulates the frequencies of each word to create the visualization. But the frequency of words only tells one part of a text's story. There are other measures of interest. For example, the reader might want to create a word cloud of ngram frequencies, the frequencies of parts-of-speech, or even the log-likelihood scores of significant words. To create the sorts of visualization as word clouds, the reader must first create a colon-delimited list of features/scores, and then submit them under Wordle's Advanced tab.
+
+[INSERT ANOTHER WORD CLOUD HERE.]
+
+The challenging part of this process is created the list of features/scores, and the process can be done using a combination of the tools described in the balance of the workshop.
+
+†  Since Worlde is a Web-based Java application, the use of Wordle is also a good test case to see whether or not Java is installed and configured on your desktop computer.
+
+[1] Wordle - http://www.wordle.net
+

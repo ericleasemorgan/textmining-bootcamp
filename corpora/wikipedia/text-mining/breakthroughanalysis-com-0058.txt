@@ -1,0 +1,717 @@
+
+
+	Skip to content
+
+	
+		
+						
+				Breakthrough Analysis
+
+				Seth Grimes on NLP, text analytics, sentiment analysis, BI, visualization and more
+
+			
+
+		
+
+					Toggle Sidebar
+			
+
+	
+
+	
+		
+
+		
+			
+
+	
+	
+		
+			August 1, 2008May 22, 2017		
+
+		Unstructured Data and the 80 Percent Rule
+	
+
+	
+		It’s a truism that 80 percent of business-relevant information originates in unstructured form, primarily text. The figure is very widely cited by analysts, vendors (including Clarabridge President Justin Langseth), and users alike, all seeking to make the case for text analytics. There are variations; Anant Jhingran of IBM Research, among others, cites an 85% figure. Whether 80 or 85 percent, the claim has clearly taken on a life of its own. It has been repeated many thousands of times. But for all of us who cite these figures: Where did they come from? More to the point, are they true, and are they useful? Let’s explore these questions.
+
+It does seem obvious that a very high proportion of data is unstructured: How much of your workday is spent reading or writing e-mails, reports, or articles and the like, in conversations, or listening to live or recorded audio? And in making the case for tapping unstructured sources, a very important asset in fields ranging from customer experience management to counter-terrorism, it’s helpful to be able to quantify the proportion, to put a number on it.
+
+The earliest really solid treatment of the topic I can find is offered in a 1998 Merrill-Lynch report on Enterprise Information Portals. Authors Christopher C. Shilakes and Julie Tylman saw portals as an “emerging concept” that would “broaden market opportunities for the Content Management, Business Intelligence, and Database vendors.” The content-management opportunity derived from the assessment that “unstructured data comprises the vast majority of data found in an organization. Some estimates run as high as 80%.”
+
+The Merrill-Lynch authors were not reporting on primary research, findings from an actual study, nor were the Gartner, Butler Group, Yankee Group, Outsell, and other analyst sources I tracked down. The most helpful lead I got was from IDC analyst Sue Feldman, who said “That widely quoted 80% comes from an IBM study that was done quite a while ago, perhaps 15 years or more.”
+
+The History Behind the Fact
+
+While work in computational linguistics dates back decades – computer scientists working on artificial intelligence have targeted natural language since AI’s earliest days – text mining was only starting to emerge as an academic discipline 15 years ago, in the early ’90s. It’s only in the last 5-10 years that commercial-grade text technologies have emerged in the market, realizing the potential hinted at by Joseph Weizenbaum’s pioneering 1964 Eliza system, which applied basic pattern matching and linguistic rules to cleverly and successfully mimic a psychotherapist in a dialogue with a patient.
+
+
+
+[image: SAS17badge-1200x627-Early]THE event for emotion-driven consumer, media & financial insight: Visit SentimentSymposium.com.
+
+
+Advances in the intervening years notably included the emergence of document-management systems such as in the early ‘90s, more recently repositioned as enterprise content management (ECM) systems. These systems, and also the object-relational database systems that appeared in the mid-‘90s, used a repository or DBMS to store and index unstructured data. ECM is more popular than ever before, boosted by compliance best practices and mandates such as new, 2006 e-discovery rules. The “outside the firewall” Web is, however, a primary unstructured information source for just about every enterprise knowledge worker. ECM can’t manage the Web so it will never on its own support truly comprehensive, content-sourced business intelligence (BI).
+
+The earliest 80%-ish reference I found dates to the pre-text analytics 1990s (and didn’t cite 80% at all). A September 1991 Software magazine article says, “Andy Rehn, vice president of marketing for Data Base Architects, said that as much as 90 percent of the information business uses is non-numerical, freeform data.” In those years, Data Base Architects (as DBA Software) sold document-management software. Similarly, a February 1996 Oracle press release quotes Brett Newbold, then vice president of Oracle’s ConText Group, part of an Oracle object-relational initiative, as saying “ninety percent of digitally stored data is unstructured information, mostly text.”
+
+Those ‘90s systems were a start in refocusing BI on text, per IBM researcher Hans Peter Luhn’s original, 1958 definition of business intelligence systems as deriving knowledge from document sources. Contrary to Luhn’s conception, BI grew up on structured data. As Prabhakar Raghavan of Yahoo Research has noted, “the bulk of information value is perceived as coming from data in relational tables. The reason is that data that is structured is easy to mine and analyze.”
+
+Only recently has the value equation changed, courtesy of text mining technology. So while I have no idea where Rehn’s and Newbold’s ‘90s figures came from, nor can I find original research leading to the more recent 80%-unstructured number, I do know that the volume of both unstructured information – e-mail, corporate documents, news and blog articles, Web pages, etc. – and data captured in structured form in relational databases – financial transactions, call records, sensor and RFID data streams, and so on – continues to grow dramatically. (I don’t, however, buy IBM’s July 2006 assertion, “just four years from now, the world’s information base will be doubling in size every 11 hours,” which, I note, was offered without source or supporting data.)
+
+Now it’s time to introduce dissenting numbers. Philip Russom of the Data Warehousing Institute conducted a late 2006 unstructured-data study. Responses reported in BI Search and Text Analytics: New Additions to the BI Technology Stack put “structured data in first place at 47%, trailed by unstructured (31%) and semi-structured data (22%).” Philip does explain that even though semi-structured and unstructured data sum to 53%, “far short of the 80-85% mark claimed by other research organizations,… the discrepancy is probably due to the fact that TDWI surveyed data management professionals who deal mostly with structured data and rarely with unstructured data.”
+
+Unstructured Data Does Matter
+
+I also wonder about the information density of unstructured versus structured sources. That is, there’s an awful lot of linguistic chaff – all the narrative involved in human communications – that is of little use for business purposes. That’s why we apply information extraction (IE) techniques to mine unstructured sources for just what is useful and can be analyzed, whether to monitor customer satisfaction or identify potentially fraudulent financial transactions.
+
+The 80%/85%/90% unstructured figures come from, well, everywhere. “X percent unstructured” is so obvious to all of us working in text analytics that we’ve never dug up the research or even ascertained that it actually exists. This bit of common wisdom falls in the category, “if it didn’t exist, we’d have to invent it,” and perhaps we did. It is qualitatively true in the sense that it reflects our experience.
+
+Are the figures useful? Indisputably. They make concrete – they focus and solidify – the realization that unstructured data matters. The figures reinforce two thoughts. First, it’s now possible to derive information from unstructured sources. Second, doing so, exploiting unstructured sources, primarily by applying text analytics, is an essential component of any comprehensive business-intelligence program, a key element in ensuring enterprise competitiveness.
+
+[Reblogged May 15, 2013. This article was first published as my Clarabridge Bridgepoints newsletter Q3 2008 column, “Experts Corner: Seth Grimes.” If you have working links to replace the broken ones, please let me know.]
+
+Share this:
+	Twitter
+	Google
+	Facebook
+	LinkedIn
+	Tumblr
+	Reddit
+	More
+	
+
+	Email
+	
+
+
+
+
+
+
+Like this:
+Like Loading...
+
+
+
+	Related
+
+
+
+			
+
+
+	
+	
+		Posted in natural language processing, text analyticsTagged Clarabridge, H.P. Luhn, Prabhakar RaghavanBy Seth Grimes5 Comments	
+
+
+			
+
+
+	
+			
+
+			
+				5 thoughts on “Unstructured Data and the 80 Percent Rule”			
+
+
+				
+			
+				Pingback: 3 ways organizations lose control of their information at Nuance. What’s next 			
+
+
+	
+			
+				Pingback: Understanding the Power of Web Data: An Interview with Shion Deysarkar of Datafiniti - DailyScene.comDailyScene.com 			
+
+
+	
+			
+				Pingback: Understanding the Power of Web Data: An Interview with Shion Deysarkar of Datafiniti | BusinessMediaguide.Com 			
+
+
+	
+			
+				Pingback: Harmonize amorphic data and make it work for you | 			
+
+
+	
+			
+				
+					
+						[image: ]						Eder says:					
+
+
+					
+						
+							
+								August 8, 2017 at 8:09 am							
+						
+											
+
+
+									
+
+				
+					What are the metrics nowadays, almost 10 years later and many analytics tools that could understand contexts better?
+
+ps: is data updated in 2013 repost?
+
+				
+
+
+				Reply
+			
+
+
+
+
+			
+		
+
+
+	
+	
+		
+		Leave a Reply Cancel reply
+			
+				
+
+
+
+	Enter your comment here...
+	
+
+
+
+
+
+	
+		Fill in your details below or click an icon to log in:
+
+			
+				
+									
+			
+	
+				
+									
+			
+	
+			
+	
+				
+									
+			
+	
+				
+									
+			
+
+
+	
+
+
+	
+		
+			
+				[image: Gravatar]
+			
+
+
+				
+				
+					Email (required) (Address never made public)
+					
+
+				
+
+				
+					Name (required)
+					
+
+				
+
+				
+					Website
+					
+
+				
+
+			
+
+	
+		
+
+	
+
+
+	
+		
+			
+				[image: WordPress.com Logo]
+			
+
+
+				
+				
+				
+				
+						
+			
+			You are commenting using your WordPress.com account.			
+				( Log Out / 
+				Change )
+			
+			
+		
+
+					
+
+	
+		
+
+	
+
+
+	
+		
+			
+				[image: Google+ photo]
+			
+
+
+				
+				
+				
+				
+						
+			
+			You are commenting using your Google+ account.			
+				( Log Out / 
+				Change )
+			
+			
+		
+
+					
+
+	
+		
+
+	
+
+
+	
+		
+			
+				[image: Twitter picture]
+			
+
+
+				
+				
+				
+				
+						
+			
+			You are commenting using your Twitter account.			
+				( Log Out / 
+				Change )
+			
+			
+		
+
+					
+
+	
+		
+
+	
+
+
+	
+		
+			
+				[image: Facebook photo]
+			
+
+
+				
+				
+				
+				
+						
+			
+			You are commenting using your Facebook account.			
+				( Log Out / 
+				Change )
+			
+			
+		
+
+		w
+			
+
+	
+		
+
+	
+
+
+
+	
+		Cancel
+
+		Connecting to %s
+
+	
+
+
+
+
+
+
+
+
+	 Notify me of new comments via email.
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+			
+
+			
+
+	
+
+
+
+
+				
+		Post navigation
+
+		
+
+			← Targeting the Enterprise
+What Motivates Your Customers? →
+
+		
+
+	
+	
+		
+		
+	
+
+
+
+
+	
+		
+				
+			
+				
+					Search for:
+					
+				
+				
+			
+Sentiment Analysis Symposium 2016
+[image: ]Free Report —
+[image: ]Click above to download Alta Plana's free text analytics market report				Recent Posts
+			
+					How to exploit emotion, for consumer, finance & media markets
+									
+	
+					How StockTwits Applies Social and Sentiment Data Science
+									
+	
+					Emotion, Influence, Activation: The 2018 Sentiment Analysis Symposium
+									
+	
+					The Emotion AI conference: Call for Speakers, 2018 Sentiment Analysis Symposium
+									
+	
+					Affect-Tag, Empatica, and Feel and the Next Wristband Frontier
+									
+
+
+		Archives
+		Archives
+		Select Month
+ March 2018  (1)
+ February 2018  (1)
+ January 2018  (1)
+ November 2017  (1)
+ July 2017  (2)
+ June 2017  (5)
+ May 2017  (3)
+ April 2017  (4)
+ March 2017  (2)
+ January 2017  (2)
+ December 2016  (1)
+ November 2016  (1)
+ October 2016  (3)
+ September 2016  (2)
+ July 2016  (1)
+ June 2016  (5)
+ May 2016  (3)
+ March 2016  (1)
+ February 2016  (4)
+ January 2016  (5)
+ November 2015  (2)
+ October 2015  (3)
+ September 2015  (1)
+ August 2015  (2)
+ July 2015  (5)
+ June 2015  (5)
+ May 2015  (1)
+ April 2015  (4)
+ March 2015  (3)
+ January 2015  (2)
+ November 2014  (6)
+ October 2014  (2)
+ September 2014  (1)
+ August 2014  (3)
+ July 2014  (2)
+ May 2014  (1)
+ April 2014  (12)
+ March 2014  (2)
+ February 2014  (2)
+ January 2014  (6)
+ December 2013  (3)
+ October 2013  (1)
+ September 2013  (1)
+ August 2013  (1)
+ July 2013  (2)
+ May 2013  (2)
+ April 2013  (4)
+ March 2013  (3)
+ February 2013  (1)
+ January 2013  (1)
+ December 2012  (2)
+ November 2012  (1)
+ October 2012  (6)
+ September 2012  (2)
+ August 2012  (4)
+ July 2012  (3)
+ June 2012  (1)
+ May 2012  (3)
+ April 2012  (2)
+ February 2012  (4)
+ January 2012  (6)
+ December 2011  (3)
+ June 2010  (1)
+ October 2009  (1)
+ March 2009  (1)
+ August 2008  (1)
+ June 2008  (1)
+ April 2008  (1)
+ January 2008  (1)
+ October 2007  (1)
+ December 2003  (1)
+ November 208  (1)
+
+
+		Categories
+CategoriesSelect Category
+advertising  (4)
+AI  (6)
+analytics  (87)
+behavior modeling  (2)
+BI  (13)
+Big Data  (32)
+blockchain  (1)
+cognitive computing  (7)
+computational advertising  (2)
+conference  (12)
+CRM  (6)
+crowd-sourcing  (4)
+customer experience  (35)
+customer intelligence  (18)
+data science  (5)
+data visualization  (1)
+emoji  (2)
+emotion analytics  (11)
+enterprise  (2)
+enterprise content management (ECM)  (2)
+enterprise information management  (3)
+ethics  (1)
+Europe  (6)
+facial coding  (6)
+financial sector  (3)
+funding  (7)
+industry  (34)
+innovation  (18)
+knowledge management  (1)
+loyalty  (4)
+machine learning  (22)
+market research  (37)
+marketing  (15)
+media  (6)
+multi-lingual  (2)
+natural language generation  (2)
+natural language processing  (67)
+neuromarketing  (2)
+NPS  (1)
+open source  (9)
+search  (4)
+Semantic Web  (4)
+semantics  (21)
+sensemaking  (6)
+sentiment analysis  (91)
+social data  (36)
+social media  (60)
+social media measurement  (11)
+social network analysis  (6)
+speech analytics  (6)
+text analytics  (101)
+Uncategorized  (10)
+wearables  (1)
+
+
+
+
+
+
+Meta
+				Register
+	Log in
+	Entries RSS
+	Comments RSS
+	WordPress.com
+
+
+					
+
+			
+
+
+
+
+	
+
+
+	
+				
+			Blog at WordPress.com.
+			
+					
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+	
+	
+
+	
+
+
+
+
+	
+		
+			
+			Post to
+			
+
+
+			
+				Cancel
+				
+				
+				
+				
+				
+				
+			
+
+
+					
+
+
+		
+
+	
+
+
+	
+		
+				
+				
+				
+				
+			
+		
+			Send to Email Address
+			
+
+			
+				Your Name
+				
+
+				Your Email Address
+				
+
+						
+			
+			
+			
+
+			
+			
+			[image: loading]
+			
+			Cancel
+
+			
+				Post was not sent - check your email addresses!			
+
+
+			
+				Email check failed, please try again			
+
+
+			
+				Sorry, your blog cannot share posts by email.			
+
+		
+
+	
+
+
+
+
+
+
+
+
+		
+		%d bloggers like this:
+
+
+
+
+
+[image: ]
+
+

@@ -1,0 +1,665 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-N9J35X');</script>
+	<!-- End Google Tag Manager -->
+  <title>NEH Announces Winners of 2011 Digging Into Data Challenge | National Endowment for the Humanities</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:title" content="NEH Announces Winners of 2011 Digging Into Data Challenge" />
+<meta property="og:description" content="WASHINGTON (January 3, 2012) &amp;mdash;The National Endowment for the Humanities (NEH) and seven global partners today awarded approximately $4.8 million to international research teams investigating how" />
+<meta property="og:url" content="https://www.neh.gov/news/press-release/2012-01-03" />
+<meta property="og:site_name" content="National Endowment for the Humanities" />
+<script type='text/javascript' src='https://www.neh.gov/files/addthis/addthis_widget.js#async=1'></script>
+<link rel="shortcut icon" href="https://www.neh.gov/files/neh_at_favicon.png" type="image/x-icon" />
+<script type="text/javascript" src="https://use.typekit.com/rgy7aaj.js"></script>
+<meta name="description" content="WASHINGTON (January 3, 2012) —The National Endowment for the Humanities (NEH) and seven global partners today awarded approximately $4.8 million to international research teams investigating how computational techniques may be applied to “big data” —the massive multi-source datasets made possible by modern technology." />
+<meta name="dcterms.description" content="WASHINGTON (January 3, 2012) —The National Endowment for the Humanities (NEH) and seven global partners today awarded approximately $4.8 million to international research teams investigating how computational techniques may be applied to “big data” —the massive multi-source datasets made possible by modern technology." />
+<meta name="abstract" content="NEH is an independent grant-making agency of the United States government dedicated to supporting research, education, preservation, and public programs in the humanities." />
+<link rel="canonical" href="www-neh-gov-0022.htm" />
+<meta name="revisit-after" content="1 day" />
+<meta name="robots" content="noarchive" />
+  <link type="text/css" rel="stylesheet" media="all" href="https://www.neh.gov/files/css/css_a1adda36dce3c61861a4a277fc2e3b3b.css" />
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/neh_at/css/ie/ie-lte-9.css?9" />
+<![endif]-->
+  <style type="text/css">#container{width:960px;}.two-sidebars .content-inner{margin-left:240px; margin-right:240px;}.sidebar-first .content-inner{margin-left:240px; margin-right:0;}.sidebar-last .content-inner{margin-right:240px; margin-left:0;}#sidebar-first{width:240px;margin-left:-100%;}#sidebar-last{width:240px;margin-left:-240px;}</style>  <script type="text/javascript" src="https://www.neh.gov/files/js/js_dff32e6be57dbe2c51cf103589e39665.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "colorbox": { "transition": "elastic", "speed": "350", "opacity": "0.90", "slideshow": false, "slideshowAuto": true, "slideshowSpeed": "2500", "slideshowStart": "start slideshow", "slideshowStop": "stop slideshow", "current": "{current} of {total}", "previous": "« Prev", "next": "Next »", "close": "Close", "overlayClose": true, "maxWidth": "90%", "maxHeight": "90%" }, "jcarousel": { "ajaxPath": "/jcarousel/ajax/views" }, "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 1, "extExclude": "(.neh\\.gov|.whitehouse\\.gov|.ticketleap\\.com)", "extInclude": "", "extCssExclude": "", "extCssExplicit": "", "extAlert": "_blank", "extAlertText": "You are now leaving the NEH website. NEH takes no responsibility for, and exercises no control over, the organizations, views, or accuracy of the information contained on this server.\r\n", "mailtoClass": "mailto" }, "addthis": { "config_default": { "services_toolbox": "facebook_like_counter,\r\ntweet,\r\ngoogle_plusone,\r\nemail", "services_compact": "pdfonline,\r\nfacebook,\r\nfavorites,\r\ngoogle,\r\n", "services_expanded": "", "ui_cobrand": "", "ui_header_color": "#000000", "ui_header_background": "#FFFFFF", "ui_click": true, "ui_delay": "0", "ui_use_addressbook": 0, "pubid": "xa-4e2cfd1147868c4e", "data_track_clickback": 0, "data_ga_tracker": "pageTracker", "ui_use_css": false, "data_use_cookies": false, "ui_language": "en", "data_use_flash": false }, "share_default": { "templates": { "twitter": "" } } }, "views": { "ajax_path": "/views/ajax", "ajaxViews": [ { "view_name": "press_releases", "view_display_id": "block_4", "view_args": "", "view_path": "node/2712", "view_base_path": "news/press-releases", "view_dom_id": 3, "pager_element": 0 } ] }, "CToolsUrlIsAjaxTrusted": { "/news/press-release/2012-01-03": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+addthis_config = Drupal.settings.addthis.config_default; addthis_share = Drupal.settings.addthis.share_default;
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{Typekit.load();}catch(e){}
+//--><!]]>
+</script>
+<!--   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10, user-scalable=yes" />
+  <script src="http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js" type="text/JavaScript"></script>
+  <link href="http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.css" rel="stylesheet" />
+ -->
+    <script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NEH&pua=ua-33523145-2"></script>
+</head>
+<body id="page-news-press-release-2012-01-03" class="article-type-press-release one-sidebar sidebar-first announcement announcement-blue news-section node-press_release">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="
+https://www.googletagmanager.com/ns.html?id=GTM-N9J35X"
+				  height="0" width="0"
+				  style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <div class="container" id="container">
+
+    <div id="skip-nav" class="element-invisible">
+      <!-- To adjust the display of the skip link see the Advanced theme settings (General settings), and never use display:none! -->
+      <a href="www-neh-gov-0022.htm#main-content">Skip to main content</a>
+    </div>
+
+        
+    
+
+	
+    <div class="header-container"><div class="container-width container">
+    <div id="header" class="clearfix">
+              <div id="branding">
+                                    <div class="logo-site-name"><strong>
+                <span id="logo"><a href="https://www.neh.gov/" rel="home"><img src="https://www.neh.gov/files/neh_at_logo.png" alt="National Endowment for the Humanities logo" title="Home page"/></a></span>                              </strong></div> <!-- /logo/site name -->
+                              </div> <!-- /branding -->
+                	    	      <div id="secondary" class="nav">
+	        <h2 class="element-invisible">Secondary Menu</h2>
+	        <ul class="secondary-links clearfix"><li class="menu-309081 first"><a href="https://www.neh.gov/events">Events</a></li>
+<li class="menu-309086"><a href="https://www.neh.gov/humanities">Humanities Magazine</a></li>
+<li class="menu-151 last"><a href="https://www.neh.gov/about/staff">Staff Directory</a></li>
+</ul>	      </div> <!-- /secondary link menu -->
+	                  <!--[if IE]><div id="IEroot"><![endif]--><div id="search-box" class="hide-label"><form action="www-neh-gov-0022.htm"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<span class="button-wrapper edit-submit"><span class="button"><input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" /></span></span>
+<input type="hidden" name="form_build_id" id="form-9BOCUu9dMXWFbrVF36uDBUxDasxw-t-5NcDJEM9ELOQ" value="form-9BOCUu9dMXWFbrVF36uDBUxDasxw-t-5NcDJEM9ELOQ"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div> <!--[if IE]></div><![endif]--><!-- /search box -->
+                    <div id="header-region">  <div id="block-block-166" class="block block-block odd block-region-header ">
+  <div class="block-inner">
+
+    
+    <div class="content"><ul class="header-social-media">
+	<li class="leaf social youtube">
+		
+			<a href="http://www.youtube.com/user/NEHgov" target="_blank"><span>YouTube</span></a>
+	</li>
+	<li class="leaf social twitter">
+		
+			<a href="http://twitter.com/#!/nehgov" target="_blank"><span>Twitter</span></a>
+	</li>
+	<li class="leaf social facebook">
+		
+			<a href="http://www.facebook.com/pages/National-Endowment-for-the-Humanities/131252093552454" target="_blank"><span>Facebook</span></a>
+	</li>
+	<li class="leaf social instagram">
+		
+			<a href="https://www.instagram.com/nehgov/" target="_blank"><span>Instagram</span></a>
+	</li>
+	<li class="leaf social snapchat">
+		
+			<a href="https://www.snapchat.com/add/NEHgov" target="_blank"><span>Snapchat</span></a>
+	</li>
+	<li class="leaf social govdelivery">
+		
+			<a href="https://public.govdelivery.com/accounts/USNEH/subscriber/new" target="_blank"><span>NEH Gov Delivery</span></a>
+	</li>
+</ul></div>
+
+    
+  </div>
+</div> <!-- /block -->
+</div> <!-- /header region -->
+          </div> <!-- /header -->
+	</div><!-- /container-width container -->
+	<div class="menu-container"><div class="container-width container"><!-- /menu region -->
+			    	      <div id="primary" class="nav">
+	        <h2 class="element-invisible">Main Menu</h2>
+	        <ul class="primary-links clearfix"><li class="menu-94511 first"><a href="https://www.neh.gov/" title="">Home</a></li>
+<li class="menu-114"><a href="https://www.neh.gov/about" title="About the agency.">About NEH</a></li>
+<li class="menu-41918"><a href="https://www.neh.gov/grants" title="">Grants</a></li>
+<li class="menu-12135"><a href="https://www.neh.gov/divisions">Divisions and Offices</a></li>
+<li class="menu-24189 active-trail"><a href="https://www.neh.gov/news" title="">News</a></li>
+<li class="menu-26032 last"><a href="https://www.neh.gov/explore">Explore</a></li>
+</ul>	      </div> <!-- /primary link menu -->
+	        </div><!-- /menu region -->
+    </div><!-- /menu container-width container -->
+    
+    </div><!-- /header-container -->
+
+    <div class="body-container">
+        
+    
+    <div id="body-container-inner" class="container-width container">
+          <div id="breadcrumb">
+        <h2 class="element-invisible">You are here:</h2>
+        <a href="https://www.neh.gov/">Home</a>  /  <a href="https://www.neh.gov/news">News</a>  /  <a href="https://www.neh.gov/news/press-releases">Press Releases</a>  /  <a href="https://www.neh.gov/news/press-releases/2012">2012</a>  /  2012-01-03      </div> <!-- /breadcrumb -->
+    
+    
+          <div id="secondary-content">  <div id="block-block-32" class="block block-block odd block-region-secondary-content ">
+  <div class="block-inner">
+
+    
+    <div class="content"><p id="section-header"><span>Newsroom</span></p>
+</div>
+
+    
+  </div>
+</div> <!-- /block -->
+</div> <!-- /secondary-content -->
+    
+    <div id="columns"><div class="columns-inner clearfix">
+      <div id="content-column"><div class="content-inner">
+        
+        
+        <div id="main-content">
+                      <div id="main-content-header">
+														
+						
+																	<h1 id="page-title1">
+						NEH Announces Winners of 2011 Digging Into Data Challenge						</h1>			 									
+				            </div><!-- main-content-header -->
+                    
+          <div id="content"><div id="node-2712" class="node">
+
+
+
+        <div id="links" class="links">
+    	<div id="links-inner">
+	      <ul class="links inline"><li class="print_html first"><a href="https://www.neh.gov/print/2712" title="Display a printer-friendly version of this page." class="print-page" rel="nofollow"><img src="https://www.neh.gov/sites/all/modules/print/icons/print_icon.gif" alt="PRINT" title="PRINT" width="16" height="16" class="print-icon print-icon-margin" />PRINT</a></li>
+<li class="addthis last"><span><div class='addthis_toolbox addthis_default_style ' addthis:url='https://www.neh.gov/news/press-release/2012-01-03' addthis:title='NEH Announces Winners of 2011 Digging Into Data Challenge' ><a class='addthis_toolbox_item addthis_button_facebook_like' fb:like:layout="button_count"></a><a class='addthis_toolbox_item addthis_button_tweet' tw:count="horizontal"></a><a class='addthis_toolbox_item addthis_button_google_plusone' g:plusone:size="medium"></a><a class='addthis_toolbox_item addthis_button_email' >Email</a></div></span></li>
+</ul>	      </div>
+    </div>
+    
+  <div class="content clear-block">
+
+  
+			<div id="body-text"><p>WASHINGTON (January 3, 2012) &mdash;The National Endowment for the Humanities (NEH) and seven global partners today awarded approximately $4.8 million to international research teams investigating how computational techniques may be applied to &ldquo;big data&rdquo; &mdash;the massive multi-source datasets made possible by modern technology.</p>
+<p>Fourteen teams representing Canada, the Netherlands, the United Kingdom, and the United States were named the winners of the second Digging Into Data Challenge, a competition to promote innovative humanities and social science research using large-scale data analysis. Each team represents collaborations among scholars, scientists, and librarians from leading universities worldwide.</p>
+<p>Arising out of the question &ldquo;what would you do with a million books?&rdquo; the Digging Into Data Challenge grant competition was created in 2009 by NEH and three other international research agencies. This year, an expanded group of funders will support fourteen projects that apply &ldquo;cyberscholarship&rdquo; to a wide variety of topics, such as: tracking the spread and severity of the flu pandemic of 1918 as reported in the newspapers of the day; using medical imaging scanning on mummies to see if ancient Egyptians died of hardening of the arteries; tracing the evolution of Western musical style over 600 years through analysis of a vast repository of music from 1300-1900; and mining 19th and 20th century census data to determine how migration affected individuals&rsquo; economic opportunity and social mobility in Europe and North America.</p>
+<p>The sponsoring research funders include the Arts &amp; Humanities Research Council (United Kingdom), the Economic &amp; Social Research Council (United Kingdom), the Institute of Museum and Library Services (United States), the Joint Information Systems Committee (United Kingdom), the National Endowment for the Humanities (United States), the National Science Foundation (United States), the Netherlands Organisation for Scientific Research (Netherlands), and the Social Sciences and Humanities Research Council of Canada (Canada).</p>
+<p>Of the approximately $4.8 million U.S. dollars provided by these eight agencies, the National Endowment for the Humanities&rsquo; contribution of $633,217 supports American researchers from five of the fourteen teams.</p>
+<p>Detailed descriptions of the fourteen winning projects can be found below.</p>
+<p>Additional information about the competition can be found at<a href="http://www.diggingintodata.org/" target="_blank" title="www.diggingintodata.org"> www.diggingintodata.org</a></p>
+<p align="center"># # #</p>
+<p align="center"><strong>Digging into Data Challenge<br />
+	Round Two (2011) Winners</strong></p>
+<p><strong>Cascades, Islands, or Streams? Time, Topic, and Scholarly Activities in Humanities and Social Science Research</strong></p>
+<p>(Principal Investigators: Cassidy R. Sugimoto, Ying Ding, Sta&scaron;a Milojević, Indiana University, Bloomington, NSF; Mike Thelwall, University of Wolverhampton, AHRC/ESRC/JISC; Vincent Larivi&egrave;re, Universit&eacute; de Montr&eacute;al, SSHRC.)</p>
+<p>This project will examine topic life cycles across heterogeneous corpora, including not only scholarly and scientific literature, but also social networks, blogs, and other materials. While the growth of large-scale datasets has enabled examination within scientific datasets, there is little research that looks across datasets. The team will analyze the importance of various scholarly activities for creating, sustaining, and propelling new knowledge; compare and triangulate the results of topic analysis methods; and develop transparent and accessible tools. This work should identify which scholarly activities are indicative of emerging areas and identify datasets that should no longer be marginalized, but built into understandings and measurements of scholarship.</p>
+<p><strong>ChartEx</strong></p>
+<p>(Principal Investigators: Robert C. Stacey, University of Washington, IMLS; Arno Knobbe, Leiden University, NWO; Sarah Rees Jones, University of York, AHRC/ESRC/JISC; Michael Gervers, University of Toronto, SSHRC. Additional participating institutions: University of Brighton, Columbia University.)</p>
+<p>This project will develop new ways of exploring the full text content of digital historical records. The project will demonstrate its approach using medieval charters which survive in abundance from the 12th to the 16th centuries and are one of the richest sources for studying the lives of people in the past.</p>
+<p><strong>Digging into Connected Repositories (DiggiCORE)</strong></p>
+<p>(Principal Investigators: Andreas Juffinger, The European Library Office, NWO; Zdenek Zdrahal, The Open University, AHRC/ESRC/JISC.)</p>
+<p>This project will analyze a vast set of Open Access research publications using Natural Language Processing and social network analysis methods to identify patterns in the behavior of research communities, to recognize trends in research disciplines, to learn new insights about the citation behaviors of researchers and to discover features that distinguish papers with high impact. This will enable the development of better methods for exploratory search and browsing in digital collections or new ways of evaluating research or the researcher&rsquo;s impact.</p>
+<p><strong>Digging by Debating</strong></p>
+<p>(Principal Investigators: Colin Allen and Katy B&ouml;rner, Indiana University, Bloomington, NEH; Andrew Ravenscroft, University of East London, Chris Reed, University of Dundee, and David Bourget, University of London, AHRC/ESRC/JISC.)</p>
+<p>A project to develop and implement a multi-scale workbench, called &quot;InterDebates&quot;, with the goal of digging into data provided by hundreds of thousands, eventually millions, of digitized books, bibliographic databases of journal articles, and comprehensive reference works written by experts. The team&rsquo;s hypotheses are: that detailed and identifiable arguments drive many aspects of research in the sciences and the humanities; that argumentative structures can be extracted from large datasets using a mixture of automated and social computing techniques; and, that the availability of such analyses will enable innovative interdisciplinary research, and may also play a role in supporting better-informed critical debates among students and the general public.</p>
+<p><strong>Digging into Human Rights Violations: Anaphora Resolution and Emergent Witnesses</strong></p>
+<p>(Principal Investigators: Ben Miller, Georgia State University, NSF; Lu Xiao, University of Western Ontario, SSHRC. Additional participating institutions: University of North Florida.)</p>
+<p>This project will develop an automated reader for large text archives of human rights abuses that will reconstruct stories from fragments scattered across a collection, and an interface for navigating those stories. By improving on anaphora resolution techniques in Natural Language Processing for the connection of pronouns to specific nouns, this system will help researchers and courts reveal witnesses and patterns contained in their own collections.</p>
+<p><strong>Digging into Metadata: Enhancing Social Science and Humanities Research</strong></p>
+<p>(Principal Investigators: Mick Khoo, Drexel University, IMLS; Diana Massam, University of Manchester, AHRC/ESRC/JISC. Additional participating institutions: University of Glamorgan.)</p>
+<p>The project will automatically generate new forms of metadata tags from existing metadata records and associated resources that will support discovery across multiple repositories. The project will utilize four repositories that vary in size, domain, metadata creation method and workflow, and quality. PERTAINS, a tool developed by one of the partner schools, will be used to analyze the metadata records in each repository and then to generate Dewey Decimal Classification-based tags. Clustering algorithms will be used to generate an index of similarity and match between resources in different repositories. After conducting a search, the user will retrieve a list of resources from the different collections that have been tagged in similar ways. Visualization techniques will be used to display the results in ways that enhance the research process.</p>
+<p><strong>Electronic Locator of Vertical Interval Successions (ELVIS): The First Large Data-Driven Research Project on Musical Style</strong></p>
+<p>(Principal Investigators: Michael Scott Cuthbert, Massachusetts Institute of Technology, NEH; Frauke J&uuml;rgensen, University of Aberdeen, AHRC/ESRC/JISC; Julie E. Cumming, McGill University, SSHRC. Additional participating institutions: Yale University.)</p>
+<p>A project to study changes in Western musical style from 1300 to 1900, using the digitized collections of several large music repositories. The team notes that in order to understand style change in Western polyphonic music we need to be able to describe acceptable vertical sonorities (chords) and melodic motions in each period, and how they change over time. The project aims to do this for European polyphony from 1300 to 1900, using advanced music information retrieval techniques to study highly contrasting kinds of music that are nevertheless unified by common concepts of tonality, consonance vs. dissonance, and voice leading.</p>
+<p><strong>An Epidemiology of Information: Data Mining the 1918 Influenza Pandemic</strong></p>
+<p>(Edward T. Ewing, Bernice L. Hausman, Bruce Pencek, and Narendran Ramakrishnan, Virginia Polytechnic Institute &amp; State University, NEH; Gunther Eysenbach, University of Toronto, SSHRC.)</p>
+<p>This project seeks to harness the power of data mining techniques with the interpretive analytics of the humanities and social sciences to understand how newspapers shaped public opinion and represented authoritative knowledge during this deadly pandemic. This project makes use of the more than 100 newspaper titles for 1918 available from Chronicling America at the United States Library of Congress and the Peel&rsquo;s Prairie Provinces collection at the University of Alberta Library. The application of algorithmic techniques enables the domain expert to systematically explore a broad repository of data and identify qualitative features of the pandemic in the small scale as well as the genealogy of information flow in the large scale. This research can provide methods for understanding the spread of information and the flow of disease in other societies facing the threat of pandemics.</p>
+<p><strong>Imagery Lenses for Visualizing Text Corpora</strong></p>
+<p>(Principal Investigators: Katharine Coles, University of Utah, NEH; Min Chen, University of Oxford, AHRC/ESRC/JISC.)</p>
+<p>A project to explore new visualization techniques for use in large scale linguistic and literary corpora using the collections of the British National Corpus and various smaller archives of poetry. The team will investigate whether or not advanced visualization techniques can provide an interface that enables humanities researchers to use their domain knowledge dynamically, while using the computational capability of computers. In particular, can data visualization help users make new observations and generate new hypotheses? The aim of this project is to answer the above methodological research question, and to create a set of new visualization tools for future scholarly research.</p>
+<p><strong>IMPACT Radiological Mummy Database</strong></p>
+<p>(Principal Investigators: Randall Thompson, Saint Luke&rsquo;s Mid America Heart Institute, NEH; Andrew Nelson, University of Western Ontario, SSHRC. Additional participating institutions: Al Azhar Medical School, Cairo, Quinnipiac University, Canadian Museum of Civilization, University of Southern California, University of California, San Diego, Mount Sinai School of Medicine, South Coast Radiological Medical Group, Newport Diagnostic Center, University of California, Irvine, Wisconsin Heart Hospital.)</p>
+<p>This project is designed to provide mummy and medical researchers with a large-scale comparative database of medical imaging of mummified human remains. This departure from a case-study model for mummy studies will drive the field towards a large-scale comparative and epidemiological paradigm. The Canadian team will be investigating the evisceration and excerebration components of the Egyptian mummification tradition, and the US teams will apply the database to a greatly expanded study of atherosclerosis in ancient Egyptian mummies, as part of the IMPACT Ancient Health Research Group, and to the refinement of a novel system of diagnosis by consensus for mummified remains.</p>
+<p><strong>Integrated Social History Environment for Research (ISHER)-Digging into Social Unrest</strong></p>
+<p>(Principal Investigators: Dan Roth, University of Illinois, Urbana-Champaign, NSF; Antal van den Bosch, Tilburg University, NWO; Sophia Ananiadou, The University of Manchester, AHRC/ESRC/JISC. Additional participating institutions: International Institute of Social History.)</p>
+<p>This project will develop an integrated environment using sophisticated text mining tools to facilitate knowledge discovery in social history research. It will provide social historians and social scientists with the means to detect and associate events, trends, people, organizations, and other entities of specific interest to social historians.</p>
+<p><strong>Integrating Data Mining and Data Management Technologies for Scholarly Inquiry</strong></p>
+<p>(Principal Investigators: Ray R. Larson, University of California, Berkeley and Richard Marciano, University of North Carolina at Chapel Hill, IMLS; Paul B. Watry, University of Liverpool, AHRC/ESRC/JISC. Additional participating institutions: Internet Archive, JSTOR.)</p>
+<p>This project will integrate large-scale collections including JSTOR and the books collections of the Internet Archive stored and managed in a distributed preservation environment. It will also incorporate text mining and Natural Language Processing software capable of generating dynamic links to related resources discussing the same persons, places, and events. In this 17-month project we go beyond basic analysis by providing a prototype system developed to provide expert system support to scholars in their work.</p>
+<p><strong>Mining Microdata: Economic Opportunity and Spatial Mobility in Britain, Canada and the United States, 1850-1911</strong></p>
+<p>(Principal Investigators: Evan Roberts, University of Minnesota, NSF; Kevin Sch&uuml;rer, University of Leicester, AHRC/ESRC/JISC; Kris E. Inwood, University of Guelph, SSHRC. Additional participating institutions: University of Alberta, Universit&eacute; de Montr&eacute;al, University of Essex.)</p>
+<p>This project will make use of novel data-mining technology to exploit one of the largest population databases in the world, a vast collection of harmonized 19th and early 20th century census micro data from Britain, Canada, and the United States originally digitized for genealogical research. The goal is to shed light on the impact of economic opportunity and spatial mobility on social structure in Europe and North America.</p>
+<p><strong>Trading Consequences</strong></p>
+<p>(Principal Investigators: Ewan Klein, University of Edinburgh, AHRC/ESRC/JISC; Colin M. Coates, York University, SSHRC. Additional participating institutions: University of St Andrews.)</p>
+<p>This project will examine the economic and environmental consequences of commodity trading during the nineteenth century. The project team will be using information extraction techniques to study large corpora of digitized documents from the nineteenth century. This innovative digital resource will allow historians to discover novel patterns and to explore new hypotheses, both through structured query and through a variety of visualization tools.</p>
+<p align="center"># # #</p>
+<p><strong>About the National Endowment for the Humanities</strong><br />
+	<em>Created in 1965 as an independent federal agency, the National Endowment for the Humanities supports research and learning in history, literature, philosophy, and other areas of the humanities by funding selected, peer-reviewed proposals from around the nation. Additional information about the National Endowment for the Humanities and its grant programs is available at: <a href="http://www.neh.gov/" title=":http://www.neh.gov/">www.neh.gov</a>.</em></p>
+<p><em><strong>The Arts &amp; Humanities Research Council</strong> (AHRC): Each year the AHRC provides approximately &pound;112 million from the Government to support research and postgraduate study in the arts and humanities, from languages and law, archaeology and English literature to design and creative and performing arts. In any one year, the AHRC makes approximately 700 research awards and around 1,300 postgraduate awards. Awards are made after a rigorous peer review process, to ensure that only applications of the highest quality are funded. The quality and range of research supported by this investment of public funds not only provides social and cultural benefits but also contributes to the economic success of the UK.</em></p>
+<p><em><strong>The Economic and Social Research Council</strong> (ESRC) is the UK&rsquo;s largest organization for funding research on economic and social issues. It supports independent, high quality research which has an impact on business, the public sector and the third sector. The ESRC&rsquo;s total budget for 2011/12 is &pound;203 million. At any one time the ESRC supports over 4,000 researchers and postgraduate students in academic institutions and independent research institutes. More at <a href="http://www.esrc.ac.uk/">www.esrc.ac.uk</a></em></p>
+<p><em><strong>The Institute of Museum and Library Services</strong> (IMLS) is the primary source of federal support for the nation&rsquo;s 123,000 libraries and 17,500 museums. The Institute&rsquo;s mission is to create strong libraries and museums that connect people to information and ideas. The Institute works at the national level and in coordination with state and local organizations to sustain heritage, culture, and knowledge; enhance learning and innovation; and support professional development. To learn more about the Institute, please visit <a href="http://www.imls.gov/">www.imls.gov</a>.</em></p>
+<p><em><strong>The Joint Information Systems Committee</strong> (JISC) is a joint committee of the U.K. further and higher education funding bodies and is responsible for supporting the innovative use of information and communication technology (ICT) to support learning, teaching, and research. It is best known for providing a U.K. national infrastructure network, a range of support, content, and advisory services, and a portfolio of high-quality resources. Information about JISC, its services, and programs can be found at <a href="http://www.jisc.ac.uk/">www.jisc.ac.uk</a>.</em></p>
+<p><em><strong>The National Science Foundation</strong> (NSF) is an independent federal agency that supports fundamental research and education across all fields of science and engineering. In fiscal year (FY) 2009, its budget is $9.5 billion, which includes $3.0 billion provided through the American Recovery and Reinvestment Act. NSF funds reach all 50 states through grants to over 1,900 universities and institutions. Each year, NSF receives about 44,400 competitive requests for funding, and makes over 11,500 new funding awards. NSF also awards over $400 million in professional and service contracts yearly. More information about NSF is available on the Internet at <a href="http://www.nsf.gov/">www.nsf.gov/</a>.</em></p>
+<p><em><strong>The Netherlands Organisation for Scientific Research</strong> (NWO) funds thousands of top researchers at universities and institutes and steers the course of Dutch science by means of subsidies and research programs.</em></p>
+<p><em><strong>The Social Sciences and Humanities Research Council</strong> (SSHRC) is an independent federal government agency that funds university-based research and graduate training through national peer-review competitions. SSHRC also partners with public and private sector organizations to focus research and aid the development of better policies and practices in key areas of Canada&rsquo;s social, cultural and economic life. More information about SSHRC is available on the Internet at <a href="http://www.sshrc-crsh.gc.ca/">www.sshrc-crsh.gc.ca/</a>.</em></p>
+<hr class="none" size="1" />
+<p>NEH Office of Communications, (202) 606-8446.</p></div>
+
+	<div class="pressfooter">  <p class="break">
+	###</p>
+<p class="about">
+	About the National Endowment for the Humanities</p>
+<p>
+	Created in 1965 as an independent federal agency, the National Endowment for the Humanities supports research and learning in history, literature, philosophy, and other areas of the humanities by funding selected, peer-reviewed proposals from around the nation. Additional information about the National Endowment for the Humanities and its grant programs is available at: <a href="http://www.neh.gov">www.neh.gov</a>.</p>
+</div>
+	
+	<div id="byline">Media Contacts: <strong>Paula Wasley</strong> at
+		<strong>(202) 606-8424</strong> or <strong><a href="mailto:pwasley@neh.gov">pwasley@neh.gov</a></strong>	</div>
+
+
+
+		 				
+
+
+		
+  </div>
+
+		
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+        <div id="links" class="links">
+    	<div id="links-inner">
+	      <ul class="links inline"><li class="print_html first"><a href="https://www.neh.gov/print/2712" title="Display a printer-friendly version of this page." class="print-page" rel="nofollow"><img src="https://www.neh.gov/sites/all/modules/print/icons/print_icon.gif" alt="PRINT" title="PRINT" width="16" height="16" class="print-icon print-icon-margin" />PRINT</a></li>
+<li class="addthis last"><span><div class='addthis_toolbox addthis_default_style ' addthis:url='https://www.neh.gov/news/press-release/2012-01-03' addthis:title='NEH Announces Winners of 2011 Digging Into Data Challenge' ><a class='addthis_toolbox_item addthis_button_facebook_like' fb:like:layout="button_count"></a><a class='addthis_toolbox_item addthis_button_tweet' tw:count="horizontal"></a><a class='addthis_toolbox_item addthis_button_google_plusone' g:plusone:size="medium"></a><a class='addthis_toolbox_item addthis_button_email' >Email</a></div></span></li>
+</ul>	      </div>
+    </div>
+    
+  </div>
+
+</div>
+</div>
+        </div> <!-- /main-content -->
+
+              </div><!-- content-inner -->
+      </div> <!-- /content-column -->
+
+              <div id="sidebar-first" class="sidebar">  <div id="block-menu-menu-news" class="block block-menu odd block-region-sidebar-first ">
+  <div class="block-inner">
+
+    
+    <div class="content"><ul class="menu">
+ <li class="leaf first"><a href="https://www.neh.gov/news" title="">NEH Newsroom</a></li>
+<li class="leaf active-trail"><a href="https://www.neh.gov/news/press-releases">News Releases</a></li>
+<li class="leaf"><a href="https://www.neh.gov/news/archive" title="">News Archive</a></li>
+<li class="leaf"><a href="https://www.neh.gov/news/neh-in-the-news">NEH in the News</a></li>
+<li class="leaf"><a href="https://www.neh.gov/news/fact-sheets">Fact Sheets </a></li>
+<li class="collapsed"><a href="https://www.neh.gov/humanities">Humanities Magazine</a></li>
+<li class="leaf last"><a href="https://www.neh.gov/events" title="">Events</a></li>
+ </ul>
+</div>
+
+    
+  </div>
+</div> <!-- /block -->
+  <div id="block-block-526" class="block block-block even block-region-sidebar-first ">
+  <div class="block-inner">
+
+          <h2 class="title block-title">Find Out What We Do</h2>
+    
+    <div class="content"><div class="callout text-block">
+	<a href="https://www.neh.gov/about/what-we-do"><img alt="The cover for the What We Do PDF, which describes NEH and what they do." src="https://www.neh.gov/files/whatwedo.png" style="width: 100%;" title="" /></a><br />
+	<center><br />
+		<a class="open-button" href="https://www.neh.gov/files/whatwedo.pdf">Download The PDF</a></center>
+</div>
+</div>
+
+    
+  </div>
+</div> <!-- /block -->
+  <div id="block-views-press_releases-block_4" class="block block-views odd block-region-sidebar-first ">
+  <div class="block-inner">
+
+          <h2 class="title block-title">Latest News Releases</h2>
+    
+    <div class="content"><div class="view view-id-press_releases view-display-id-block_4 view-dom-id-3  ">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row-unformatted views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="view-node">
+  
+        
+          <div class="fields-content"><div class="story-content">
+<span class="pub-date">Posted: April 6, 2018</span>
+<h3><a href="https://www.neh.gov/news/press-release/2018-04-09-Humanities-Open-Book">National Endowment for the Humanities and the Mellon Foundation Announce Grants to Digitize Essential Humanities Books</a></h3>
+</div></div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+  </div>
+  <div class="views-row-unformatted views-row views-row-2 views-row-even">
+      
+  <div class="view-node">
+  
+        
+          <div class="fields-content"><div class="story-content">
+<span class="pub-date">Posted: April 5, 2018</span>
+<h3><a href="https://www.neh.gov/news/press-release/2018-04-09">NEH Announces $18.6 Million for 199 Humanities Projects Nationwide</a></h3>
+</div></div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+  </div>
+  <div class="views-row-unformatted views-row views-row-3 views-row-odd">
+      
+  <div class="view-node">
+  
+        
+          <div class="fields-content"><div class="story-content">
+<span class="pub-date">Posted: March 30, 2018</span>
+<h3><a href="https://www.neh.gov/news/press-release/2018-03-30">NEH Creates “Statehood Grants” of up to $30,000 for Humanities Projects Celebrating State History</a></h3>
+</div></div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+  </div>
+  <div class="views-row-unformatted views-row views-row-4 views-row-even">
+      
+  <div class="view-node">
+  
+        
+          <div class="fields-content"><div class="story-content">
+<span class="pub-date">Posted: March 23, 2018</span>
+<h3><a href="https://www.neh.gov/news/press-release/2018-03-23">NEH Statement on FY 2018 Budget</a></h3>
+</div></div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+  </div>
+  <div class="views-row-unformatted views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="view-node">
+  
+        
+          <div class="fields-content"><div class="story-content">
+<span class="pub-date">Posted: March 2, 2018</span>
+<h3><a href="https://www.neh.gov/news/press-release/2018-03-02">President Trump Nominates Jon Parrish Peede as Chairman of the National Endowment for the Humanities</a></h3>
+</div></div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+  </div>
+ <!-- /views-view-unformatted -->
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="https://www.neh.gov/news/press-releases">
+    View All »  </a>
+</div>
+  
+  
+  </div> <!-- /views-view -->
+</div>
+
+    
+  </div>
+</div> <!-- /block -->
+  <div id="block-block-6" class="block block-block even block-region-sidebar-first ">
+  <div class="block-inner">
+
+    
+    <div class="content"><div id="contact-block">
+<h2 class="title block-title">
+		Contact NEH</h2>
+<p>
+		<span><strong>National Endowment </strong><br />
+		<strong>for the Humanities </strong></span><br />
+		<strong>400 7<sup>th</sup> Street SW<br />
+		Washington, DC 20506</strong></p>
+<p>
+		<strong>General Information</strong><br />
+		1-800-NEH-1121<br />
+		202-606-8400</p>
+<p>
+		<strong>Federal Relay (TTY users)</strong><br />
+		1-800-877-8399</p>
+</div>
+
+<div class="more-link" style="margin:0">
+	<a href="https://www.neh.gov/news/press-release/2016-06-21">Report Scam</a></div>
+</div>
+
+    
+  </div>
+</div> <!-- /block -->
+</div> <!-- /sidebar-first -->
+      
+          </div><!-- /columns-inner -->
+    </div> <!-- /columns -->
+
+    
+	</div><!-- /body-container-inner -->
+        
+    
+	</div> <!-- /body container -->
+
+
+  </div> <!-- /container -->
+	<div class="footer-container">
+	<div class="container-width container">
+	      <div id="footer">
+                  <div id="footer-region">  <div id="block-block-17" class="block block-block odd block-region-footer ">
+  <div class="block-inner">
+
+    
+    <div class="content"><div id="footer-logos">
+	<div id="footer-logos-inner">
+		<ul class="menu" id="logo-menu">
+			<li class="leaf edsitement first">
+				<a href="http://edsitement.neh.gov/" title="Edsitement"><span id="edsitement-logo">Edsitement</span></a></li>
+			<li class="leaf standing-together">
+				<a href="https://www.neh.gov/veterans/standing-together"><span id="standing-together-logo">Standing Together</span></a></li>
+			<li class="leaf chronicling-america">
+				<a href="http://chroniclingamerica.loc.gov/"><span id="chronicling-americ-logo">Chronicling America</span></a></li>
+			<li class="leaf created-equal last">
+				<a href="http://createdequal.neh.gov/"><span id="created-equal-logo">Created Equal</span></a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="footer-main-nav">
+	<div class="footer-menu inner-first">
+		<ul class="menu">
+			<li class="leaf first">
+				<a href="https://www.neh.gov/about" title="">About NEH</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/about/contact" title="">Contact NEH</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/about/national-council-on-the-humanities" title="">National Council on the Humanities</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/about/state-humanities-councils" title="">State Humanities Councils</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/about/awards" title="">Awards and Honors</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/about/legal/reports">Budget, Performance, and Legal Information</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/plain-writing">Plain Writing at NEH</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/about/oig">Office of the Inspector General</a></li>
+			<li class="leaf last">
+				<a href="https://www.neh.gov/about/equal-employment-opportunity" title="">Equal Employment Opportunities</a></li>
+			<li class="leaf last">
+				<a href="https://www.neh.gov/about/human-resources/career-opportunities" title="">Career Opportunities</a></li>
+			<li class="leaf last">
+				<a href="https://www.neh.gov/about/website-disclaimers">Website Disclaimers</a></li>
+			<li class="leaf first sub brand last ">
+			</li>
+		</ul>
+	</div>
+
+	<div class="footer-menu inner-footer">
+		<ul class="menu">
+			<li class="leaf first">
+				<a href="https://www.neh.gov/grants" title="">Grants</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/grants">Search for a Grant</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/grants" title="">Not sure what to do? Let us help you...</a></li>
+			<li class="leaf">
+				<a href="https://securegrants.neh.gov/signup">Become a Peer Reviewer</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/grants/manage" title="">Manage Your Grant</a></li>
+			<li class="leaf last">
+				<a href="https://www.neh.gov/grants/application-process" title="">The Application Review Process</a></li>
+			<li class="leaf last">
+				<a href="https://www.neh.gov/brand-materials">Brand Materials</a></li>
+		</ul>
+	</div>
+
+	<div class="footer-menu inner-footer">
+		<ul class="menu">
+			<li class="leaf first">
+				<a href="https://www.neh.gov/divisions" title="">Divisions and Offices</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/divisions/education" title="">Education Programs</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/divisions/preservation" title="">Preservation and Access</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/divisions/public" title="">Public Programs</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/divisions/research" title="">Research Programs</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/divisions/fedstate" title="">Federal/State Partnership</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/divisions/challenge" title="">Office of Challenge Grants</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/divisions/odh" title="">Office of Digital Humanities</a></li>
+		</ul>
+	</div>
+
+	<div class="footer-menu inner-footer last">
+		<ul class="menu">
+			<li class="leaf first">
+				<a href="https://www.neh.gov/news" title="">News</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/news/press-releases" title="">Press Releases</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/news/archive" title="">News Archive</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/news/neh-in-the-news" title="">NEH in the News</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/news/impact-reports" title="">NEH Impact Reports</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/events" title="">Events</a></li>
+			<li class="leaf first sub">
+				<a href="https://www.neh.gov/humanities" title="">Humanities</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/humanities/back-issues">Back Issues</a></li>
+			<li class="leaf">
+				<a href="http://bookstore.gpo.gov/actions/GetPublication.do?stocknumber=736-002-00000-1" title="">Subscribe</a></li>
+			<li class="leaf">
+				<a href="https://www.neh.gov/humanities/staff" title="">Magazine Staff</a></li>
+			<li class="leaf first sub">
+				<a href="https://www.neh.gov/explore" title="">Explore</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="footer-menu communication inner-last">
+	<ul class="menu">
+		<li class="leaf first contact">
+			<a href="https://www.neh.gov/about/contact" title="">Contact Us</a></li>
+		<li class="leaf">
+			<div id="contact-block">
+				<p>
+					<strong>National Endowment </strong><br />
+					<strong>for the Humanities </strong><br />
+					<strong>400 7<sup>th</sup> Street SW </strong><br />
+					<strong>Washington, DC 20506</strong></p>
+
+				<p>
+					<strong>General Information</strong><br />
+					1-800-NEH-1121<br />
+					202-606-8400</p>
+
+				<p>
+					<strong>Federal Relay (TTY Users):</strong><br />
+					800-877-8399</p>
+
+				<p>
+					<a href="https://www.neh.gov/contact/questions/neh/gov">questions[at]neh[dot]gov</a></p>
+			</div>
+		</li>
+		<li class="leaf first sub connect nolink-li">
+			Connect With Us</li>
+		<li class="leaf last">
+			<ul id="footer-social-media">
+				<li class="leaf social youtube">
+					<div class="interior">
+						<a href="http://www.youtube.com/user/NEHgov"><span>YouTube</span></a></div>
+				</li>
+				<li class="leaf social twitter">
+					<div class="interior">
+						<a href="http://twitter.com/#!/nehgov"><span>Twitter</span></a></div>
+				</li>
+				<li class="leaf social facebook">
+					<div class="interior">
+						<a href="http://www.facebook.com/pages/National-Endowment-for-the-Humanities/131252093552454"><span>Facebook</span></a></div>
+				</li>
+				<li class="leaf social rss">
+					<div class="interior">
+						<a href="https://www.neh.gov/about/chairman/office-communications/social-media"><span>NEH Social Media</span></a></div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="footer-menu-secondary">
+	<h3 id="footer-site-url">
+		<a href="https://www.neh.gov/">www.neh.gov</a></h3>
+
+	<p>
+		<a href="https://www.neh.gov/about/foia" title="">FOIA</a> | <a href="https://www.neh.gov/about/legal/no-fear-act" title="">No Fear Act</a> | <a href="https://www.neh.gov/about/oig" title="">Office of the Inspector General</a> | <a href="https://www.neh.gov/accessibility">Accessibility</a> | <a href="https://www.neh.gov/privacy">Privacy Policy and Terms of Use</a> | <a href="https://www.neh.gov/about/website-disclaimers">Website Disclaimers</a> |&nbsp;<a href="https://www.neh.gov/open">Open Gov</a> | <a href="https://www.neh.gov/plain-writing">Plain Writing at NEH</a></p>
+</div></div>
+
+    
+  </div>
+</div> <!-- /block -->
+</div> <!-- /footer-region -->
+                              </div> <!-- /footer -->
+		</div><!-- /footer container-width -->
+	</div> <!-- /footer-container -->
+
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof pageTracker != "undefined") {addthis_config.data_ga_tracker = pageTracker;}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof addthis != "undefined") {addthis.init();}
+//--><!]]>
+</script>
+
+    <!-- GovDelivery Subscription Overlay -->
+    <script src='https://content.govdelivery.com/overlay/js/3421.js'></script>
+    <!-- End GovDelivery Overlay -->
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c5d206962c","applicationID":"55443604","transactionName":"NlVRMEVSC0AHAEZZCw8fcgdDWgpdSTxAVRIIQ1oLWVoLVDkVW1UT","queueTime":0,"applicationTime":1128,"atts":"GhJSRg1IGE4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

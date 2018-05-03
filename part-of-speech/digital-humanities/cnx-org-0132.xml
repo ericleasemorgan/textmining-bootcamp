@@ -1,0 +1,22 @@
+<pos><sentence id="495">
+  <word wid="0" pos="NN" lemma="image">image</word>
+  <word wid="1" pos="NN" lemma="openstax">OpenStax</word>
+  <word wid="2" pos="NN" lemma="cnx">CNX</word>
+  <word wid="3" pos="DT" lemma="this">This</word>
+  <word wid="4" pos="NN" lemma="site">site</word>
+  <word wid="5" pos="VBZ" lemma="require">requires</word>
+  <word wid="6" pos="NN" lemma="javascript">JavaScript</word>
+  <word wid="7" pos="CC" lemma="or">Or</word>
+  <word wid="8" pos="PRP" lemma="you">you</word>
+  <word wid="9" pos="MD" lemma="can">can</word>
+  <word wid="10" pos="VB" lemma="view">view</word>
+  <word wid="11" pos="DT" lemma="the">the</word>
+  <word wid="12" pos="NN" lemma="legacy">legacy</word>
+  <word wid="13" pos="NN" lemma="site">site</word>
+  <word wid="14" pos="IN" lemma="at">at</word>
+  <word wid="15" pos="NN" lemma="legacy">legacy</word>
+  <word wid="16" pos="NN" lemma="cnx">cnx</word>
+  <word wid="17" pos="NN" lemma="org">org</word>
+  <word wid="18" pos="NN" lemma="content">content</word>
+</sentence>
+</pos>

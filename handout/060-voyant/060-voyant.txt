@@ -1,0 +1,29 @@
+
+
+Using Voyant Tools to do some "distant reading"
+
+Voyant Tools is often the first go-to tool used by either: 1) new students of text mining and the digital humanities, or 2) people who know what kind of visualization they need/want. [1] Voyant Tools is also one of the longest supported tools described in this bootcamp.
+
+As stated the Tool's documentation: "Voyant Tools is a web-based text reading and analysis environment. It is a scholarly project that is designed to facilitate reading and interpretive practices for digital humanities students and scholars as well as for the general public." To that end it offers a myriad of visualizations and tabular reports characterizing a given text or texts. Voyant Tools works quite well, but like most things, the best use comes with practice, a knowledge of the interface, and an understanding of what the reader wants to express. To all these ends, Voyant Tools counts & tabulates the frequencies of words, plots the results in a number of useful ways, supports topic modeling, and the comparison documents across a corpus. Examples include but are not limited to: word clouds, dispersion plots, networked analysis, "stream graphs", etc.
+
+[INSERT IMAGES HERE]
+
+Voyant Tools' initial interface consists of six panes. Each pain encloses a feature/function of Voyant. In the author's experience, Voyant Tools' is better experienced by first expanding one of the panes to a new window ("Export a URL"), and then deliberately selecting one of the tools from the "window" icon in the upper left-hand corner. There will then be displayed a set of about two dozen tools for use against a document or corpus. 
+
+[INSERT ADDITAIONL IMAGES HERE]
+
+Using Voyant Tools the reader can easily ask and answer the following sorts of questions:
+
+  * What words or phrases appear frequently in this text?
+  * How do those words trend throughout the given text?
+  * What words are used in context with a given word?
+  * If the text were divided into T topics, then what might those topics be?
+  * Visually speaking, how do given texts or sets of text cluster together?
+  
+After a more thorough examination of the reader's corpus, and after making the implicit more explicit, Voyant Tools can be more informative. Randomly clicking through its interface is usually daunting to the novice. While Voyant Tools is easy to use, it requires a combination of text mining knoweldge and practice in order to be used effectively. Only then will useful "distant" reading be done.
+
+[1] Voyant Tools - https://voyant-tools.org/
+
+--
+Eric Lease Morgan
+April 24, 2018

@@ -1,0 +1,372 @@
+
+
+
+
+
+
+
+
+	[image: ]
+		Text Mining and Agriculture:  
+
+ AgroNLP projects (Natural Language Processing applied to AGRicultural dOmain) 
+ 
+
+
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+Contact
+
+		
+
+
+	[image: ]
+
+
+	
+	[image: ]
+
+
+
+
+	
+
+	 
+
+
+UMR TETIS 
+
+AgroParisTech, Cirad, Cnrs, Irstea
+
+500, rue J.F. Breton 
+
+34093 Montpellier Cedex 5, France 
+
+
+
+	
+	[image: ]
+
+	[image: ]
+	[image: ]
+	
+
+	
+
+
+	
+
+	
+
+
+LIRMM
+
+ CNRS, Univ. Montpellier
+
+	860, rue de St Priest 
+
+	34095 Montpellier Cedex 5, France 
+
+	
+
+	
+	
+	[image: ] 
+
+	[image: ]
+	[image: ]
+	
+		
+
+	
+
+
+
+
+
+
+
+	
+
+	
+
+
+Animal Disease Surveillance
+
+
+
+
+
+
+	[image: ]
+
+
+
+
+
+
+
+The new and exotic infectious animal diseases are an incising threat to countries due to globalisation, movement of passengers and international trade. Traditionally, disease outbreaks are reported through structured multilevel health infrastructure that can lead to delays in transmission of information (Food and Agricultural Organization, 2013). 
+Our project proposes a new methodology in the domain of epidemic intelligence in animal health in order to discover knowledge in web documents dealing with animal disease outbreaks. To address this issue, our global process is based on Information Retrieval (IR) and Information Extraction (IE) approaches (see figure below).
+
+
+
+
+	[image: ]
+	
+
+
+
+
+
+
+
+Staff:  Elena Arsevska (Cirad-CMAEE), Renaud Lancelot (Cirad-CMAEE), Thierry Lefrançois (Cirad-CMAEE), Sylvain Falala (INRA-CMAEE), Mathieu Roche (Cirad-TETIS), Pascal Hendrikx (Anses-UCAS), Barbara Dufour (ENVA)
+
+
+
+
+Web page:   Research results - Cirad
+
+
+
+
+Publications: 
+
+• Elena Arsevska, Mathieu Roche, Pascal Hendrikx, David Chavernac, Sylvain Falala, Renaud Lancelot, Barbara Dufour. Identification of terms for detecting early signals of emerging infectious disease outbreaks on the web. Computers and Electronics in Agriculture, Elsevier, 123:104-115, 2016
+
+• Elena Arsevska, Mathieu Roche, Pascal Hendrikx, David Chavernac, Sylvain Falala, Renaud Lancelot, Barbara Dufour. Identification of associations between clinical signs and hosts to monitor the web for detection of animal disease outbreaks. International Journal of Agricultural and Environmental Information Systems, IGI, 7(3):1-10, 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terminology Extraction for Document Matching and Open Data in Agrictural Domain
+
+
+
+
+
+
+
+	[image: ]
+
+
+
+
+
+
+
+In the context of large amounts of textual data related to agriculture now available, indexing becomes a crucial issue for research organizations. One way to index documents consists of extracting terminology. Our project investigates the use and combination of Text Mining methodologies to highlight and publish in Open Data systems the most appropriate terms extracted with BioTex (in French and in English). Moreover these terms are used to match heterogeneous data of agricultural domain.
+
+
+
+	
+
+
+
+
+
+
+
+
+Staff:  Mathieu Roche (Cirad-TETIS), Jacques Fize (TETIS), Sophie Fortuno (Cirad-TETIS), Juan Antonio Lossio Ventura (LIRMM), Maguelonne Teisseire (Irstea-TETIS), Clement Jonquet (UM-LIRMM)
+
+
+
+Publications: 
+
+
+• Juan Antonio Lossio Ventura, Clement Jonquet, Mathieu Roche, Maguelonne Teisseire. Biomedical term extraction: overview and a new methodology.  Information Retrieval Journal, Special Issue "Medical Information Retrieval"  - Springer, Volume 19, Issue 1, p.59-99, 2016
+
+
+• Mathieu Roche, Sophie Fortuno, Juan Antonio Lossio-Ventura, Amira Akli, Salim Belkebir, Thinhinan Lounis, Serigne Toure. Extraction automatique des mots-clés à partir de publications scientifiques pour l'indexation et l'ouverture des données en agronomie, Cahiers Agricultures, Volume 24, numéro 5, p.313-320, 2015
+
+
+• Mathieu Roche, Sophie Fortuno. La fouille de texte au service de la documentation, Arabesques (76), p.13-14. 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Information Extraction from Experimental Data of Agricultural Domain
+
+
+
+
+
+
+
+	[image: ]
+
+
+
+
+
+
+Our work deals with knowledge engineering issues of experimental data, extracted from scientific articles, in order to reuse them in decision support systems. Experimental data can be represented by n-ary relations which link a studied object (e.g. food packaging, transformation process) with its features (e.g. oxygen permeability in packaging, biomass grinding) and capitalized in an Ontological and Terminological Ressource (OTR). An OTR associates an ontology with a terminological and/or a linguistic part in order to establish a clear distinction between the term and the notion it denotes (the concept).Our work focuses on n-ary relation extraction from scientific documents in order to populate a domain OTR with new instances. Our contributions are based on Natural Language Processing (NLP) together with data mining approaches guided by the domain OTR. 
+
+
+
+	
+
+
+
+
+
+
+
+
+Staff:  Patrice Buche (INRA-IATE), Juliette Dibie-Barthélemy (AgroParisTech), Mathieu Roche (Cirad-TETIS), Soumia Lilia Berrahou (LIRMM) 
+
+
+
+Publications: 
+
+
+• Soumia Lilia Berrahou, Patrice Buche, Juliette Dibie, Mathieu Roche. Xart: Discovery of correlated arguments of n-ary relations in text. Expert Systems with Applications, Elsevier, Volume 73, p.115-124, 2017 
+
+
+• Soumia Lilia Berrahou, Patrice Buche, Juliette Dibie-Barthélemy, Mathieu Roche. How to extract unit of measure in scientific documents? In Proceedings of KDIR'13 (International Conference on Knowledge Discovery and Information Retrieval), Text-Mining Session, p.249-256, Vilamoura, Portugal, 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BIRTHDAY: BIg Data for Agriculture and biodiversitY
+
+
+
+
+
+
+
+	[image: ]
+
+
+
+
+
+
+This project aims at providing new efficient decision making tools for helping agricultural development as well as biodiversity protection in Peru. More precisely it aims at developing a new platform for helping to acquire new data, to share data, to extract knowledge, and to share useful information and knowledge among different actors that are involved in agriculture or biodiversity domains in Peru. 
+
+
+
+	
+
+
+
+
+
+
+
+
+Staff:  Juan Antonio Lossio Ventura (LIRMM), Pascal Poncelet (UM-LIRMM), Mathieu Roche (Cirad-TETIS), Sophia Ananiadou (Univ. Mancherster, UK), Hugo Alastrista Salas (PUCP, Peru), Armando Fermín Pérez (UNMSM, Peru), Cesar Beltrán Castañón (PUCP, Peru), Cayo Leon (Univ. San Marcos, Peru) 
+
+
+
+Web page:  http://atix-innovations.com/verde/
+
+
+
+Publication: 
+
+• Laura Cruz, Jose Ochoa, Mathieu Roche, Pascal Poncelet. Dictionary-Based Sentiment Analysis Applied to a Specific Domain. In Proceedings of selected papers of SIMBig 2015 and 2016 (International Symposium on Information Management and Big Data), Springer, 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+Web design by Free Templates Online
+
+http://www.textmining.biz © 2017
+
+
+
+
+
+
+	
+
+
+

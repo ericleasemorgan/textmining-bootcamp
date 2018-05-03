@@ -1,0 +1,129 @@
+
+
+Web NDL Authorities
+国立国会図書館典拠データ検索・提供サービス
+	▸Japanese
+	ヘルプHelp
+
+
+
+
+
+		
+テキストマイニング
+
+
+
+	国立国会図書館のサービスOnline Services at the NDL
+
+	以下のリンクボタンから国立国会図書館サーチで検索ができます。You can search NDL bibliographic records for the following headings:
+
+		件名検索Subject
+
+
+
+
+
+
+
+	
+	
+	検索Search
+
+	
+		 すべてAll
+		 名称のみName
+		 普通件名のみTopical Name
+	
+	
+
+
+
+
+	
+	
+	NDC9/10
+NDC9
+NDC10
+NDLC
+
+
+	検索Search
+
+	
+		 すべてAll
+		 名称のみName
+		 普通件名のみTopical Name
+	
+	
+
+
+
+
+
+
+
+詳細情報
+
+	ID
+	01119322
+	典拠種別Type of Authority
+	普通件名Topical Terms
+	標目Heading
+	テキストマイニング (テキストマイニング)
+	標目のローマ字読みTransliteration of Heading
+	Tekisutomainingu
+	上位語Broader Term(s)
+	自然言語処理
+	関連語Related Term(s)
+	データマイニング
+	分類記号Classification Number(s)
+	007.609 (NDC10);
+	007.636 (NDC10);
+	675 (NDC10);
+	007.6 (NDC9);
+	675 (NDC9);
+	DH411 (NDLC);
+	M151 (NDLC);
+	UL47 (NDLC)
+	出典Sources
+	Excelで学ぶテキストマイニング入門 / 林俊克 著
+
+	goo辞書 (200803)
+	作成日Date Created
+	2008-03-25
+	最終更新日Last Updated
+	2017-04-06T08:27:48
+	外部サイトへのリンクExternal Link
+	Wikipediaで検索を行うSearch the Japanese Wikipedia
+※Wikipediaの機能により、違うキーワードが表示される場合もあります。Notice: Sometimes Wikipedia will return incorrect matches.
+
+
+	他形式のデータOther formats
+	RDF/XML形式RDF/XML format, RDF/Turtle形式RDF/Turtle format, JSON-LD形式JSON-LD format
+
+
+
+
+
+
+
+
+
+
+
+	
+	国立国会図書館ホームNational Diet Library Home |
+	国立国会図書館サーチNDL Search
+	
+
+	
+	Web NDL AuthoritiesについてAbout Web NDL Authorities |
+	お問い合わせContact Us
+	
+
+
+
+
+Copyright © National Diet Library. All Rights Reserved
+

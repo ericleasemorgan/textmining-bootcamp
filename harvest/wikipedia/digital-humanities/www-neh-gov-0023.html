@@ -1,0 +1,2487 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N9J35X');</script>
+  <!-- End Google Tag Manager -->
+  <title>Mapping the Republic of Letters | Humanities</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:title" content="Mapping the Republic of Letters" />
+<meta property="og:description" content="
+	In 1734,&amp;nbsp;Voltaire fled Paris to the region of Champagne, trading the sophisticated and&amp;nbsp;malodorous capital for acres of precisely plotted vineyards. Once again, the&amp;nbsp;sharp-tongued philo" />
+<meta property="og:image" content="https://www.neh.gov/files/humanities/articles/2013_1112_images_21b_republic.jpg" />
+<meta property="og:url" content="https://www.neh.gov/humanities/2013/novemberdecember/feature/mapping-the-republic-letters" />
+<meta property="og:site_name" content="National Endowment for the Humanities" />
+<script type='text/javascript' src='http://www.neh.gov/files/addthis/addthis_widget.js#async=1'></script>
+<link rel="shortcut icon" href="http://www.neh.gov/files/neh_at_favicon.png" type="image/x-icon" />
+<script type="text/javascript" src="https://use.typekit.com/rgy7aaj.js"></script>
+<meta name="description" content="Using modern technology to understand a network of eighteenth-century thinkers." />
+<meta name="dcterms.description" content="Using modern technology to understand a network of eighteenth-century thinkers." />
+<meta name="abstract" content="NEH is an independent grant-making agency of the United States government dedicated to supporting research, education, preservation, and public programs in the humanities." />
+<link rel="canonical" href="https://www.neh.gov/humanities/2013/novemberdecember/feature/mapping-the-republic-letters" />
+<meta name="revisit-after" content="1 day" />
+<meta name="robots" content="noarchive" />
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.neh.gov/files/css/css_106da90176eceedc2d57d12cf197c300.css" />
+  <style type="text/css">#container{width:960px;}.two-sidebars .content-inner{margin-left:240px; margin-right:240px;}.sidebar-first .content-inner{margin-left:240px; margin-right:0;}.sidebar-last .content-inner{margin-right:240px; margin-left:0;}#sidebar-first{width:240px;margin-left:-100%;}#sidebar-last{width:240px;margin-left:-240px;}</style>  <script type="text/javascript" src="http://www.neh.gov/files/js/js_7ce04bb96e488dfa7fe94626a78a4045.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "colorbox": { "transition": "elastic", "speed": "350", "opacity": "0.90", "slideshow": false, "slideshowAuto": true, "slideshowSpeed": "2500", "slideshowStart": "start slideshow", "slideshowStop": "stop slideshow", "current": "{current} of {total}", "previous": "« Prev", "next": "Next »", "close": "Close", "overlayClose": true, "maxWidth": "90%", "maxHeight": "90%" }, "jcarousel": { "ajaxPath": "/jcarousel/ajax/views" }, "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 1, "extExclude": "(.neh\\.gov|.whitehouse\\.gov|.ticketleap\\.com)", "extInclude": "", "extCssExclude": "", "extCssExplicit": "", "extAlert": "_blank", "extAlertText": "You are now leaving the NEH website. NEH takes no responsibility for, and exercises no control over, the organizations, views, or accuracy of the information contained on this server.\r\n", "mailtoClass": "mailto" }, "addthis": { "config_default": { "services_toolbox": "facebook_like_counter,\r\ntweet,\r\ngoogle_plusone,\r\nemail", "services_compact": "pdfonline,\r\nfacebook,\r\nfavorites,\r\ngoogle,\r\n", "services_expanded": "", "ui_cobrand": "", "ui_header_color": "#000000", "ui_header_background": "#FFFFFF", "ui_click": true, "ui_delay": "0", "ui_use_addressbook": 0, "pubid": "xa-4e2cfd1147868c4e", "data_track_clickback": 0, "data_ga_tracker": "pageTracker", "ui_use_css": false, "data_use_cookies": false, "ui_language": "en", "data_use_flash": false }, "share_default": { "templates": { "twitter": "" } } }, "viewsSlideshowSingleFrame": { "#views_slideshow_singleframe_main_humanities_toc_slider-block_5": { "num_divs": 100, "id_prefix": "#views_slideshow_singleframe_main_", "div_prefix": "#views_slideshow_singleframe_div_", "vss_id": "humanities_toc_slider-block_5", "timeout": 0, "sort": 1, "effect": "scrollHorz", "speed": 700, "start_paused": 0, "delay": 0, "fixed_height": 1, "random": 0, "pause": 1, "pause_on_click": 1, "pause_when_hidden": 0, "pause_when_hidden_type": "full", "amount_allowed_visible": "", "remember_slide": 0, "remember_slide_days": 1, "controls": 2, "items_per_slide": 2, "pager": 0, "pager_type": "Numbered", "pager_hover": 2, "pager_click_to_page": 0, "image_count": 0, "nowrap": 1, "sync": 1, "advanced": "", "ie": { "cleartype": "true", "cleartypenobg": "false" } } }, "CToolsUrlIsAjaxTrusted": { "/humanities/2013/novemberdecember/feature/mapping-the-republic-letters": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+addthis_config = Drupal.settings.addthis.config_default; addthis_share = Drupal.settings.addthis.share_default;
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{Typekit.load();}catch(e){}
+//--><!]]>
+</script>
+    <script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NEH&pua=ua-33523145-2"></script>
+  </head>
+<body id="page-humanities-2013-novemberdecember-feature-mapping-the-republic-letters" class="article-type-humanities-story one-sidebar sidebar-last announcement announcement-blue humanities-related-block node-humanities_story">
+  <div class="container" id="container">
+
+    <div id="skip-nav" class="element-invisible">
+      <!-- To adjust the display of the skip link see the Advanced theme settings (General settings), and never use display:none! -->
+      <a href="www-neh-gov-0023.htm#main-content">Skip to main content</a>
+    </div>
+
+        
+    
+
+    <div class="body-container">
+    <div class="header-container">
+    <div id="neh-link">
+      <div class="container-width container">
+      <a id="neh-home" href="http://www.neh.gov/"><span>Return to the main NEH site</span></a>
+      </div>
+    </div>
+
+	
+    <div class="container-width container">
+    <div id="header" class="clearfix">
+              <div id="branding">
+                                    <div class="logo-site-name"><strong>
+                <span id="logo"><a href="http://www.neh.gov/humanities" rel="home"><img src="http://www.neh.gov/files/design/theme/humanities_at_logo.jpg" alt="Humanities logo" title="Home page"/></a></span>                              </strong></div> <!-- /logo/site name -->
+                              </div> <!-- /branding -->
+                              <!--[if IE]><div id="IEroot"><![endif]--><div id="search-box" class="hide-label">
+	    	      <div id="secondary" class="nav">
+	        <h2 class="element-invisible">Secondary Menu</h2>
+	        <ul class="secondary-links clearfix"><li class="menu-44786 first"><a href="http://www.neh.gov/humanities/back-issues">Back Issues</a></li>
+<li class="menu-35613 last"><a href="http://www.neh.gov/humanities/staff">Magazine Staff</a></li>
+</ul>	      </div> <!-- /secondary link menu -->
+	            
+        <form action="www-neh-gov-0023.htm"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<span class="button-wrapper edit-submit"><span class="button"><input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" /></span></span>
+<input type="hidden" name="form_build_id" id="form-kkjmR8uIB0uciiKrGEMWnmeF6oFVYzNxM5SYPuuDwnE" value="form-kkjmR8uIB0uciiKrGEMWnmeF6oFVYzNxM5SYPuuDwnE"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div> <!--[if IE]></div><![endif]--><!-- /search box -->
+                    <div id="header-region">  <div id="block-block-166" class="block block-block odd block-region-header">
+  <div class="block-inner">
+
+    
+    <div class="content"><ul class="header-social-media">
+	<li class="leaf social youtube">
+		
+			<a href="http://www.youtube.com/user/NEHgov" target="_blank"><span>YouTube</span></a>
+	</li>
+	<li class="leaf social twitter">
+		
+			<a href="http://twitter.com/#!/nehgov" target="_blank"><span>Twitter</span></a>
+	</li>
+	<li class="leaf social facebook">
+		
+			<a href="http://www.facebook.com/pages/National-Endowment-for-the-Humanities/131252093552454" target="_blank"><span>Facebook</span></a>
+	</li>
+	<li class="leaf social instagram">
+		
+			<a href="https://www.instagram.com/nehgov/" target="_blank"><span>Instagram</span></a>
+	</li>
+	<li class="leaf social snapchat">
+		
+			<a href="https://www.snapchat.com/add/NEHgov" target="_blank"><span>Snapchat</span></a>
+	</li>
+	<li class="leaf social govdelivery">
+		
+			<a href="https://public.govdelivery.com/accounts/USNEH/subscriber/new" target="_blank"><span>NEH Gov Delivery</span></a>
+	</li>
+</ul></div>
+
+    
+  </div>
+</div> <!-- /block -->
+</div> <!-- /header region -->
+          </div> <!-- /header -->
+	</div><!-- /container-width container -->
+	<div class="menu-container"><div class="container-width container"><!-- /menu region -->
+			    	      <div id="primary" class="nav">
+	        <h2 class="element-invisible">Main Menu</h2>
+	        <ul class="primary-links clearfix"><li class="menu-42088 active-trail first"><a href="http://www.neh.gov/humanities" title="">Magazine Home</a></li>
+<li class="menu-44852"><a href="http://www.neh.gov/humanities/features" title="Humanities Feature stories">Features</a></li>
+<li class="menu-18185"><a href="http://www.neh.gov/humanities/conversations" title="Humanities Conversation stories">Conversations</a></li>
+<li class="menu-18500"><a href="http://www.neh.gov/humanities/statements" title="Humanities Statements stories">Statements</a></li>
+<li class="menu-18189"><a href="http://www.neh.gov/humanities/iq" title="Humanities IQ stories">IQ</a></li>
+<li class="menu-690496"><a href="http://www.neh.gov/humanities/executive-function">Executive Function</a></li>
+<li class="menu-690491"><a href="http://www.neh.gov/humanities/one-off">One-Off</a></li>
+<li class="menu-18271 last"><a href="http://www.neh.gov/humanities/ednote" title="Humanities Ednote stories">Ednote</a></li>
+</ul>	      </div> <!-- /primary link menu -->
+	        </div><!-- /menu region -->
+    </div><!-- /menu container-width container -->
+    
+    </div><!-- /header-container -->
+
+        
+    
+
+    <div id="body-container-inner" class="container-width container">
+          <div id="breadcrumb">
+        <h2 class="element-invisible">You are here:</h2>
+        <a href="http://www.neh.gov/humanities">Humanities</a> &bull; <a href="http://www.neh.gov/humanities/back-issues">Back Issues</a> &bull; <a href="http://www.neh.gov/humanities/back-issues/vol34/issue6">November/December 2013</a>      </div> <!-- /breadcrumb -->
+    
+    
+    
+    <div id="columns"><div class="columns-inner clearfix">
+      <div id="content-column"><div class="content-inner">
+        
+        
+        <div id="main-content">
+                      <div id="main-content-header">
+									<h3><span>Feature </span></h3>
+						
+									<h1 id="page-title1">
+						Mapping the Republic of Letters						</h1>			 									
+				            </div><!-- main-content-header -->
+                    
+          
+          <div id="content">
+
+
+
+
+<div id="node-17251" class="node clear-block">
+
+
+
+  <div class="meta">
+
+    </div>
+
+  <div class="content">
+
+					<div id="top-byline">
+					<p id="author-block">
+									By <a href="http://www.neh.gov/humanities/author/meredith-hindley">Meredith Hindley</a> |
+											
+						<span><strong><span>HUMANITIES</span>, November/December 2013 | Volume 34, Number 6</strong></span>
+					</p>
+					
+			</div>
+				
+					<div id="story-image-block">
+			    			      <div class="galleryformatter galleryview galleryformatter-view-full galleryformatter-galleryneh">
+  <div class="gallery-slides">
+    <div class="gallery-frame">
+      <ul>
+              <li class="gallery-slide" id="slide-0-field_images-17251">
+          <a href="https://www.neh.gov/files/humanities/articles/2013_1112_images_21b_republic.jpg" title="A depiction by Achille Devaria of Voltaire greeting  Ben Franklin and his nephew as they visit France." class=" colorbox" rel="gallery-[field_images-17251]"><p id="enlarge" title="View the full image">+ Click on image to enlarge.</p><img src="https://www.neh.gov/files/imagecache/neh_large/humanities/articles/2013_1112_images_21b_republic.jpg" alt="A depiction by Achille Devaria of Voltaire greeting  Ben Franklin and his nephew" title="A depiction by Achille Devaria of Voltaire greeting  Ben Franklin and his nephew as they visit France." width="460" height="276" class="imagecache imagecache-neh_large"/></a>                      <div class="panel-overlay">
+              <div class="overlay-inner">
+              	<div class="overlay-text">
+	                	                <div class="caption"><p>
+	A depiction by Achille Devaria of Voltaire greeting Ben Franklin and his nephew as they visit France.</p>
+</div>	                <div class="credit"><p>
+	&mdash;&copy; DeA Picture Library / Art Resource, NY</p>
+</div>                </div>
+              </div>
+            </div>
+                  </li>
+              <li class="gallery-slide" id="slide-1-field_images-17251">
+          <a href="https://www.neh.gov/files/humanities/articles/2013_1112_images_22_republic.jpg" title="Watercolor portraits of Voltaire by Denon." class=" colorbox" rel="gallery-[field_images-17251]"><p id="enlarge" title="View the full image">+ Click on image to enlarge.</p><img src="https://www.neh.gov/files/imagecache/neh_large/humanities/articles/2013_1112_images_22_republic.jpg" alt="Watercolor portraits of Voltaire by Denon." title="Watercolor portraits of Voltaire by Denon." width="460" height="276" class="imagecache imagecache-neh_large"/></a>                      <div class="panel-overlay">
+              <div class="overlay-inner">
+              	<div class="overlay-text">
+	                	                <div class="caption"><p>
+	Watercolor portraits of Voltaire by Denon.</p>
+</div>	                <div class="credit"><p>
+	&mdash;Gianni Dagli Orti / The Art Archive at Art Resource, NY</p>
+</div>                </div>
+              </div>
+            </div>
+                  </li>
+              <li class="gallery-slide" id="slide-2-field_images-17251">
+          <a href="https://www.neh.gov/files/humanities/articles/2013_1112_images_52a_republic.jpg" title="an image of Voltaire’s correspondence as visualized by Mapping the Republic of Letters&#039; RPLVIZ tool." class=" colorbox" rel="gallery-[field_images-17251]"><p id="enlarge" title="View the full image">+ Click on image to enlarge.</p><img src="https://www.neh.gov/files/imagecache/neh_large/humanities/articles/2013_1112_images_52a_republic.jpg" alt="An image of Voltaire’s correspondence." title="an image of Voltaire’s correspondence as visualized by Mapping the Republic of Letters&#039; RPLVIZ tool." width="460" height="276" class="imagecache imagecache-neh_large"/></a>                      <div class="panel-overlay">
+              <div class="overlay-inner">
+              	<div class="overlay-text">
+	                	                <div class="caption"><p>
+	An image of Voltaire&rsquo;s correspondence as visualized by Mapping the Republic of Letters&#39; RPLVIZ tool.</p>
+</div>	                <div class="credit"><p>
+	Courtesy of Mapping the Republic of Letters with data provided by Electronic Enlightenment Project.</p>
+</div>                </div>
+              </div>
+            </div>
+                  </li>
+              <li class="gallery-slide" id="slide-3-field_images-17251">
+          <a href="https://www.neh.gov/files/humanities/articles/2013_1112_images_52b_republic.jpg" title="Edward Fisher’s engraving of Ben Franklin." class=" colorbox" rel="gallery-[field_images-17251]"><p id="enlarge" title="View the full image">+ Click on image to enlarge.</p><img src="https://www.neh.gov/files/imagecache/neh_large/humanities/articles/2013_1112_images_52b_republic.jpg" alt="Edward Fisher’s engraving of Ben Franklin." title="Edward Fisher’s engraving of Ben Franklin." width="460" height="276" class="imagecache imagecache-neh_large"/></a>                      <div class="panel-overlay">
+              <div class="overlay-inner">
+              	<div class="overlay-text">
+	                	                <div class="caption"><p>
+	Edward Fisher&rsquo;s engraving of Ben Franklin.</p>
+</div>	                <div class="credit"><p>
+	National Portrait Gallery, Smithsonian Institution / Art Resource, NY</p>
+</div>                </div>
+              </div>
+            </div>
+                  </li>
+            </ul>
+    </div>
+  </div>
+    <div class="gallery-thumbs" style="width: 460px;">
+    <div class="wrapper">
+      <ul>
+                  <li class="slide-0" style="width: 90px;"><a href="www-neh-gov-0023.htm#slide-0-field_images-17251"><img src="https://www.neh.gov/files/imagecache/gallery_thumb/humanities/articles/2013_1112_images_21b_republic.jpg" alt="A depiction by Achille Devaria of Voltaire greeting  Ben Franklin and his nephew" title="A depiction by Achille Devaria of Voltaire greeting  Ben Franklin and his nephew as they visit France." width="90" height="75" class="imagecache imagecache-gallery_thumb"/></a></li>
+                  <li class="slide-1" style="width: 90px;"><a href="www-neh-gov-0023.htm#slide-1-field_images-17251"><img src="https://www.neh.gov/files/imagecache/gallery_thumb/humanities/articles/2013_1112_images_22_republic.jpg" alt="Watercolor portraits of Voltaire by Denon." title="Watercolor portraits of Voltaire by Denon." width="90" height="75" class="imagecache imagecache-gallery_thumb"/></a></li>
+                  <li class="slide-2" style="width: 90px;"><a href="www-neh-gov-0023.htm#slide-2-field_images-17251"><img src="https://www.neh.gov/files/imagecache/gallery_thumb/humanities/articles/2013_1112_images_52a_republic.jpg" alt="An image of Voltaire’s correspondence." title="an image of Voltaire’s correspondence as visualized by Mapping the Republic of Letters&#039; RPLVIZ tool." width="90" height="75" class="imagecache imagecache-gallery_thumb"/></a></li>
+                  <li class="slide-3" style="width: 90px;"><a href="www-neh-gov-0023.htm#slide-3-field_images-17251"><img src="https://www.neh.gov/files/imagecache/gallery_thumb/humanities/articles/2013_1112_images_52b_republic.jpg" alt="Edward Fisher’s engraving of Ben Franklin." title="Edward Fisher’s engraving of Ben Franklin." width="90" height="75" class="imagecache imagecache-gallery_thumb"/></a></li>
+              </ul>
+    </div>
+  </div>
+  </div>
+			    			      			    			      			    			      			    			</div>
+								
+	
+		<div id="body-text">
+			<p>
+	In 1734,&nbsp;<span class="char-style-override-8">Voltaire fled Paris to the region of Champagne, trading the sophisticated and&nbsp;</span><span class="char-style-override-8">malodorous capital for acres of precisely plotted vineyards. Once again, the&nbsp;</span><span class="char-style-override-8">sharp-tongued philosopher had run afoul of French censors. Eight years earlier,&nbsp;</span><span class="char-style-override-8">he&rsquo;d escaped to England after the Duc de Rohan accused him of defamation.</span><span class="char-style-override-8">&nbsp;</span><span class="char-style-override-8">After a three-year exile, he received permission to return to Paris in 1729.</span></p>
+
+<p class="Zapf-basic-">
+	Now he was fleeing again, this time to escape the storm surrounding the publication of&nbsp;<span class="Emphasis"><em>Lettres philosophiques</em>&nbsp;</span><span class="Emphasis char-style-override-11">(also known as</span><span class="Emphasis">&nbsp;<em>Letters Concerning the English Nation</em></span><span class="Emphasis char-style-override-11">). The epistolary-style book cataloged Britain&rsquo;s religious, political, and cultural life, praising the island nation for championing liberty and trade. It also took more than a few swipes at the French nobility. The illicit volume, which had not been cleared by the royal censors, was burned by the royal hangman for all of Paris to see. An arrest warrant was issued, which, if executed, would land Voltaire in the Bastille.</span></p>
+
+<p class="Zapf-basic-indent">
+	<span class="Emphasis char-style-override-11">Instead of rotting in a dank prison cell, Voltaire was more than 140 miles away, having sought sanctuary under the roof of the</span><span class="Emphasis">&nbsp;</span>Ch&acirc;teau de Cirey and the protection offered by the familial connections of&nbsp;<span class="Emphasis char-style-override-11">the&nbsp;</span>Marquis Florent-Claude du Ch&acirc;telet. For the next fifteen years, Voltaire lived at Cirey, writing a steady stream of letters to stay connected with his friends in Paris and others who were abroad. Those same letters helped promote his plays, historical works, and essays, while keeping him abreast of the latest intellectual developments. (He also carried on a torrid affair of the heart and mind with Emilie du Ch&acirc;telet, the wife of the marquis and a scholarly force in her own right.)</p>
+
+<p class="Zapf-basic-indent">
+	While at Cirey, Voltaire wrote and published one of the most remarkable books of his very productive career:&nbsp;<em><span class="Emphasis">&Eacute;l&eacute;ments de la Philosophie de Newton</span></em><span class="Emphasis char-style-override-11">, the first distillation of the English scientist&rsquo;s metaphysics to appear in French. By declaring himself&nbsp;</span><span class="char-style-override-11">f</span>or Newton&mdash;and against Ren&eacute;&nbsp;Descartes, whose views of time, space, and matter dominated scientific and philosophical thinking&mdash;Voltaire touched off a war within the Republic of Letters, the loose grouping of learned men and women who comprised Europe&rsquo;s intellectual community. Letters&nbsp;flew across Europe and the English Channel dissecting&nbsp;Voltaire&rsquo;s arguments. Pamphlets and books were printed in&nbsp;response&mdash;and Voltaire answered in kind.</p>
+
+<p class="Zapf-basic-indent">
+	&ldquo;Republic of Letters&rdquo; sounds like a term coined by a historian, but it was one used by the participants themselves. In an era defined by monarchical government, class hierarchy, and religious divisions, the members of the &ldquo;republic&rdquo; saw themselves as engaging each other on intellectual&mdash;and therefore equal&mdash;terms. &ldquo;Letters&rdquo; refers to both learning and the way that intellectual and scholarly developments spread throughout Europe and abroad. In thousands upon thousands of letters, members tried out new theories, critiqued ideas, relayed the newest gossip, and chronicled the mundane matters of life. The more international your network, the more cosmopolitan you were thought to be.</p>
+
+<p class="Zapf-basic-indent">
+	Correspondence was such an integral part of scholarly life that Montesquieu mocked it in his&nbsp;<em><span class="char-style-override-12">Persian Letters</span></em>, when he has a boorish astronomer brag, &ldquo;I have very little contact with people, and among those I do see, there are none that I know. But there is a man in Stockholm, another in Leipzig, and another in London, whom I have never seen, and no doubt shall never see, that I maintain such a regular correspondence that I never fail to write each of them with every mail.&rdquo;</p>
+
+<p class="Zapf-basic-indent">
+	Scholars have used these letters to trace networks of friendships and shared knowledge. Who wrote to whom? Where did that idea come from? Did the English influence the French? Or,&nbsp;<em><span class="char-style-override-12">mon dieu</span></em>, did the French influence the English? What about the Dutch? Have you heard the latest about Voltaire and his endorsement of Newton?</p>
+
+<p class="Zapf-basic-indent">
+	To reconstruct these networks, scholars have naturally focused on the content of the letters. But what could they learn if they took a step back and focused on a correspondence network as a whole and used cutting-edge software to render it in maps or graphs? What new discoveries might they make? That&rsquo;s the big question undergirding the Mapping the Republic of Letters project at Stanford University. Ignoring the content of the letters seems like a radical proposition, but the availability of increasingly sophisticated digital technologies presents historians with new ways to explore the past. The hard part is figuring out how to make the messy and often incomplete historical record mesh with the strictures of computer programming.</p>
+
+<h3 class="subhead">
+	THE PROOF IS IN THE MAP</h3>
+
+<p class="Zapf-basic-indent para-style-override-10">
+	Dan Edelstein, professor of French at Stanford, didn&rsquo;t plan on embarking on a big digital humanities project, but that&rsquo;s what he and his colleague, Paula Findlen, the Ubaldo Pierotti Professor of Italian History, found themselves with in late 2008 after a chance conversation with Robert McNamee of the Electronic Enlightenment Project at Oxford University. McNamee had been looking for a way to map the information he had on 6,400 authors and 55,000 letters. Since Oxford had the archive, Stanford agreed to take on the task of making the visualizations a reality. Edelstein and Findlen turned to Nicole Coleman, an academic technology specialist at Stanford, to help them navigate the software development.</p>
+
+<p class="Zapf-basic-indent para-style-override-11">
+	Although it was clearly a digital project, Edelstein says they began with fairly traditional questions about the Republic of Letters, some that people had been asking for decades. &ldquo;Did the reality match the rhetoric of the Republic of Letters? Really, how global and cosmopolitan were these networks? Was there one network? Or were there lots of little networks that weren&rsquo;t connected?&rdquo; he asks.</p>
+
+<p class="Zapf-basic-indent">
+	Findlen was also intrigued by the chance to step back from looking at an archive letter by letter. &ldquo;I&rsquo;m very aware that one of the problems with working with large correspondences is how much you can keep in your head,&rdquo; she says. Using visualizations would provide an opportunity to examine the whole in a way that can&rsquo;t be done by close reading alone.</p>
+
+<p class="Zapf-basic-indent">
+	Working with the Packard Humanities Institute and the Electronic Enlightenment Project, the Stanford team created a database that logged the metadata for each letter, including sender, recipient, date, and location. A team of students led by Jeffrey Heer, then an assistant professor at Stanford, designed the visualization software.&nbsp;<span class="apple-converted-space">The tool, RPLVIZ, lets users select which authors to display, along with options to render&nbsp;</span><span class="apple-converted-space">the full correspondence, or only letters sent or received.</span></p>
+
+<p class="Zapf-basic-indent">
+	The resulting maps not only proved that correspondence could be visualized in a useful way, but also yielded surprising results. &ldquo;Most of the correspondence networks&nbsp;were far more national than you would gather from reading&nbsp;the letters,&rdquo; says Edelstein. Voltaire&rsquo;s network explodes&nbsp;like a firework over France, with tails to England, Russia,&nbsp;and the Swiss cantons. John Locke&rsquo;s covers England and Scotland, with a foray to Dublin. Correspondence by Joseph Addison, who founded&nbsp;<em><span class="char-style-override-12">The Spectator</span></em>, sprawls from London to Dublin, Paris, Chennai, and Venice.</p>
+
+<p class="Zapf-basic-indent">
+	For Edelstein, who works on Voltaire and the Enlightenment, the Franco-centric nature of the philosopher&rsquo;s network was startling. &ldquo;You don&rsquo;t necessarily focus on the short letter to Paris,&rdquo; he says. &ldquo;You get more excited about that letter to Catherine the Great, and there&rsquo;s enough of them that it makes it seem like, wow, Voltaire was writing regularly to St. Petersburg. Then you see the overwhelming number of letters to Paris and the rest of France and the balance shifts.&rdquo;</p>
+
+<p class="Zapf-basic-indent">
+	The Stanford team proved that it could map a correspondence network, no small feat in itself, but the tool they created had a serious limitation: It didn&rsquo;t tell the user how much data was missing from the map. In the case of Voltaire, the visualization represented less than 12 percent of his 19,000 letters, because the tool couldn&rsquo;t accommodate letters with missing or incomplete location data.</p>
+
+<p class="Zapf-basic-indent para-style-override-11">
+	&ldquo;Our social scientist friends said, oh you can fix the data, you can interpolate,&rdquo; says Coleman, clearly appalled by the idea of tinkering with the historical record to fit a computer program. &ldquo;The point for us was to make visualizations that actually suit our data and tell us what we want to know or help us discover things.&rdquo;</p>
+
+<p class="Zapf-basic-indent para-style-override-11">
+	If they wanted to reflect the untidiness of the historical record, the Stanford team realized they were going to have to make the tools themselves. None of the out-of-the-box analytics packages could manage ambiguity. &ldquo;We&rsquo;re not using visualization for analytics,&rdquo; says Coleman. &ldquo;When you&rsquo;re looking at the past, you&rsquo;re looking at incompleteness and fragmentary data. That&rsquo;s just a given. And none of those packages know how to handle that.&rdquo;</p>
+
+<h3 class="subhead">
+	TRIAL AND ERROR</h3>
+
+<p class="Zapf-basic-indent para-style-override-10">
+	In 2009, the Mapping the Republic of Letters project won a Digging into Data Challenge grant, an international program supported by NEH that funds scholars to develop tools to help humanists parse the growing body of digital archives. For the Digging into Data grant, Edelstein, Findlen, and Coleman assembled a team at the Stanford Humanities Center that included scholars, programmers, and graduate students from the University of Oklahoma, Oxford University, and Stanford. They also formed a partnership with DensityDesign Research Lab, at Politecnico di Milano, to develop the visualization tools.</p>
+
+<p class="Zapf-basic-indent para-style-override-11">
+	For this new phase, the project expanded its dataset to include correspondence by Italian physician and naturalist Antonio Vallisneri (13,600 letters); Dutch scholar Joseph Scaliger (1,650 letters); Linnaeus (6,000 letters), Descartes (20,000 letters), German Jesuit-scholar Athanasius Kircher (2,291 letters); and Benjamin Franklin (22,700 letters), along with the correspondences collected by the International Centre for the History of Universities and Science at the University of Bologna.</p>
+
+<p class="Zapf-basic-indent para-style-override-11">
+	The first tool developed, &ldquo;Corrispondenza,&rdquo; not only mapped letters, but also generated charts showing how many letters had been plotted on the map and how many lacked sufficient data to be represented. Next came &ldquo;Inquiry,&rdquo; which sought to rethink how scholars access an online collection. Typically, when a user searches a digital archive, they start by typing something into a query box, click &ldquo;go,&rdquo; and wait to see what the database churns out. With &ldquo;Inquiry,&rdquo; a user can browse the collection via map or timeline. To help users dig deeper, they developed &ldquo;Ink,&rdquo; which combines a clickable map with charts that show how many letters were sent by year. It also uses another tool, called &ldquo;Fineo,&rdquo; that can sort the biographical data of correspondents.</p>
+
+<p class="Zapf-basic-indent">
+	When Giovanna Ceserani, a professor of classics at Stanford, joined the project, she introduced a new challenge: how to visualize people visiting the same city. Scholars are always interested in figuring out if historical figures might&nbsp;have crossed paths. It raises fun and sometimes productive &ldquo;what if&rdquo; questions. What if they attended the same lecture?&nbsp;What if they were invited to the same dinner party? What if they stayed at the same hotel? Friendships made during travel could generate correspondences that last for years and expand social circles. If two Englishmen, previously unknown to each other, struck up a friendship while on holiday in Florence, that friendship might continue when they returned home to London. The shared connection of travel can become a springboard for politics, business deals, and marriage.</p>
+
+<p class="Zapf-basic-indent">
+	Since the letters dataset wouldn&rsquo;t work for mapping travel, Ceserani proposed using the information contained in&nbsp;<em><span class="char-style-override-12">A Dictionary of British and Irish Travelers to Italy, 1701&ndash;1800</span></em>. The latter part of the Republic of Letters coincides with the era of the Grand Tour, when lords, ladies, budding artists, and young men of means embarked on extensive trips throughout Europe. The dictionary contains information about more than six thousand Britons who toured the Italian peninsula. An entry on the Earl of Abingdon, for example, notes that he journeyed to Rome (February 1763), Naples (March 1763), Turin (September 1764), Rome (February to April 1765), and Florence (May 1765). (The entry also notes that Voltaire, who met Abingdon in Geneva, thought the earl had a weakness for drink, dogs, and women.) After experimenting with different approaches, the team hit upon the idea of representing the travelers&rsquo; itineraries in a chronological view, rather than grouping them geographically. By doing it this way, users can see who was in Italy in 1732&mdash;and then dig down to find out who was in the same city at the same time.</p>
+
+<p class="Zapf-basic-indent">
+	The experiment with the British travelers prompted the Stanford team to return to the idea of using graphs to represent correspondence networks. &ldquo;Initially we were concerned with a literal map,&rdquo; said Findlen. &ldquo;The more time goes on, we&rsquo;ve come to see that as a limit.&rdquo;</p>
+
+<p class="Zapf-basic-indent">
+	Although they were getting closer to visualizing the complexities of a correspondence network, the software kept weighting the lines on the map to favor heavy traffic routes. The team wanted something that would treat each connection as having equal value. It would be even better if users could make connections between correspondents to identify commonalities. (Think of it as the Republic of Letters version of &ldquo;Six Degrees of Separation.&rdquo;) In August 2012, the Stanford team assembled scholars, programmers, and designers to build a tool that could apply network graph logic to a historical data set. Or, to put it a different way: They wanted a tool that would let users decide what to emphasize and what connections to explore, rather than having the tool decide for them. They came up with &ldquo;Knot.&rdquo;</p>
+
+<h3 class="subhead">
+	VOLTAIRE ENCORE</h3>
+
+<p class="Zapf-basic-indent para-style-override-6">
+	What do all these tools mean for looking at a correspondence network? Let&rsquo;s return to Voltaire. When Edelstein and his colleagues first mapped Voltaire&rsquo;s correspondence, they could account for only about 12 percent of his network. They didn&rsquo;t know the location of both sender and recipient for the other 88 percent. The map generated from that 12 percent showed Voltaire&rsquo;s network centered primarily in France. Was Voltaire, who is usually considered one of the most cosmopolitan men of his time, really so Franco-centric? Location data might have been sparse, but ample biographical information revealed that 70 percent of Voltaire&rsquo;s correspondents were French.</p>
+
+<p class="Zapf-basic-indent">
+	One of the dominant narratives of the Enlightenment&nbsp;posits a direct line connecting John Locke to the Glorious&nbsp;Revolution to the advent of liberty and freedom of expression in England, which is then transferred to France, where Voltaire and others run with it. Scholars frequently portray Voltaire as having a special connection to England and are fond of highlighting Voltaire&rsquo;s letters to Jonathan Swift and Alexander Pope. The map, however, showed only a tiny number of letters between France and England. At first, Edelstein thought it might be a data problem, but when he used &ldquo;Ink&rdquo; to drill down into the nationalities of Voltaire&rsquo;s correspondents, he found few Englishmen. Voltaire&rsquo;s primary English correspondents are Sir Everard Fawkener, a silk merchant he met before his London exile, and George Keate, an English poet he met in Rome and Geneva. As for Swift and Pope, you can count those letters on one hand.</p>
+
+<p class="Zapf-basic-indent">
+	Looking for an answer, Edelstein went back to Voltaire&rsquo;s writings. &ldquo;It&rsquo;s right there in front of us. Voltaire is pretty clear that after the death of Newton nothing interesting is happening in England.&rdquo; The England problem was a clear example of the map and visualizations serving a discovery function. It&rsquo;s inspired Edelstein to&nbsp;rethink the place of English thought in Voltaire&#39;s work.</p>
+
+<h3 class="subhead">
+	WHAT ABOUT BEN?</h3>
+
+<p class="Zapf-basic-indent para-style-override-6">
+	If Voltaire left an indelible mark on eighteenth-century France, then the same can be said of Benjamin Franklin and America. Before Franklin became one of the Founding Fathers, he made a name for himself in Philadelphia as a publisher and innovator. In 1727, at the age of twenty-one, he formed &ldquo;Junto,&rdquo; a group of tradesmen and artisans who gathered to discuss key issues of the day. Four years later, he came up with the idea of creating a subscription library, which made it possible for members to read and share books they might not otherwise be able to afford. He also founded the Academy and College of Philadelphia (now the University of Pennsylvania), becoming its first president in 1749. Along with running his own printing business, Franklin also served as the publisher of the&nbsp;<em><span class="char-style-override-12">Pennsylvania Gaze</span><span class="char-style-override-12">tte</span></em>. When he wasn&rsquo;t moving type and discussing politics, Franklin conducted scientific experiments, inventing the Franklin stove (a metal-lined fireplace) and bifocal glasses, not to mention his famous proposal of flying a kite with a key during an electrical storm to prove that lightning is electricity.</p>
+
+<p class="Zapf-basic-indent">
+	If the Republic of Letters was an imagined community of Western thinkers, then Franklin was certainly a member. But as a resident of Philadelphia, which had a population of 25,000&nbsp;in 1750, Franklin didn&rsquo;t have the same resources as someone who lived in a European capital. Paris had 565,000 residents,&nbsp;while London was bursting with 700,000. There&rsquo;s also the&nbsp;matter of the Atlantic Ocean, which presented a vast physical&nbsp;obstacle to connecting with his European counterparts.</p>
+
+<p class="Zapf-basic-indent para-style-override-11">
+	&ldquo;Intellectual life as it has to be formed in a colonial&nbsp;setting has a whole series of different features,&rdquo; says Caroline&nbsp;Winterer, who was recently appointed director of the Stanford Humanities Center. For Winterer, a historian of colonial America, one of the attractions of joining the project was getting at the question of how cosmopolitan Franklin was. Did he have an international network of correspondents like his European counterparts?</p>
+
+<p class="Zapf-basic-indent">
+	More than 15,000 letters written or received by Franklin have survived, making his network ripe for mapping. But unlike the dataset for Voltaire, Franklin&rsquo;s had to be made from scratch. To manage, Winterer and her team limited the scope to letters from 1756 to 1763, the period during which Franklin visited England and Scotland for the first time. The idea was to see what Franklin&rsquo;s network was like before, during, and after the trip.</p>
+
+<p class="Zapf-basic-indent">
+	The project discovered that before Franklin ventured to London, he received no letters from across the Atlantic. His correspondence was geographically 100 percent American. By January 1762, five years into his time abroad, all of his letters came from England. In December 1763, after Franklin had returned home, his correspondence returned to its American-centric focus, but now one quarter of his letters came from overseas.</p>
+
+<p class="Zapf-basic-indent para-style-override-11">
+	&ldquo;One of the big findings of the Franklin project is that until he goes to Paris in &rsquo;76 for the American Revolution he&rsquo;s not nearly as cosmopolitan as we thought he was,&rdquo; says Winterer. The people who were writing to Franklin from foreign places turn out to be Americans or Britons who happen to be someplace exotic. For example, one of the outliers on the map is a letter from Tunis. It&rsquo;s not written by an Islamic scholar or Italian expatriate, but a woman named Amelia Evans, who has ties to Philadelphia and Boston and is looking to enlist Franklin&rsquo;s help in settling her affairs.</p>
+
+<p class="Zapf-basic-indent">
+	The American slant is also evident when it comes to Franklin&rsquo;s most frequent correspondents. At the top of the list is Isaac Norris, Quaker politician and speaker of the Pennsylvania Assembly. Number two is Mary Stevenson, the daughter of Franklin&rsquo;s landlady in London. Franklin&rsquo;s third most frequent correspondent is his business partner David Hall, who minded the day-to-day operations of Franklin and Hall, the printing business they owned together. Deborah Franklin, his common-law wife, comes in fourth. Fearful of sea travel, Franklin didn&rsquo;t accompany her husband on his trip to England. And in fifth position is William Strahan, director of the Stationers&rsquo; Company in London, which published works by Edward Gibbon, David Hume, and Samuel Johnson. Franklin and Hall served as the agent for Strahan&rsquo;s books in the American colonies.</p>
+
+<p class="Zapf-basic-indent">
+	With two women at the top of list, you might surmise Franklin had a healthy correspondence with women, which would fit with his reputation as a lady&rsquo;s man. But if you sort Franklin&rsquo;s correspondents by gender, Mary Stevenson and Deborah Franklin prove to be anomalies as Franklin corresponded primarily with men.</p>
+
+<p class="Zapf-basic-indent">
+	&ldquo;Franklin&rsquo;s network is a long tail network,&rdquo; says Winterer. &ldquo;He has five people that he writes to voluminously and weekly. And then there is a whole bunch of people who he writes to just once or, mostly, write him just once to get a favor out of him.&rdquo;</p>
+
+<p class="Zapf-basic-indent para-style-override-11">
+	Given that Franklin and Voltaire were contemporaries&mdash;Voltaire being born in 1694 and Franklin in 1706&mdash;it would be natural to wonder if they ever corresponded. The two luminaries never wrote to each other, but a comparison of their datasets revealed that they had correspondents in common, making them part of the same intellectual network.</p>
+
+<h3 class="subhead">
+	FORWARDING ADDRESS</h3>
+
+<p class="Zapf-basic-indent para-style-override-6">
+	As news started to trickle out about what the Mapping the Republic of Letters project was up to, other scholars clamored to use the tools. Unfortunately, those requests had to be turned down because the tools were still prototypes&mdash;bare bones with no instructions and no Coleman at hand to fix any glitches that arose. With the help of an NEH Digital Humanities Implementation Grant, the project began work this fall on an open source web application that will allow historians and other humanists to apply visualization techniques to datasets. The application, named Athanasius, will debut in 2015.</p>
+
+<p class="Zapf-basic-indent para-style-override-11">
+	Edelstein, Findlen, and Winterer are well aware that their new digital bent doesn&rsquo;t necessarily sit well with some in the profession, but they point to the benefits of expanding their analytical toolbox. After all, no single methodology can answer all of a historian&rsquo;s questions. &ldquo;There&rsquo;s always the healthy skepticism that you&rsquo;re going to skip some essential steps in reading the nuances of the content by doing this,&rdquo; says Findlen. &ldquo;I don&rsquo;t think any of us have thought that we should skip anything that is important or valuable about traditional research, because it&rsquo;s what we do day in and day out.&rdquo;</p>
+
+<p class="Zapf-basic-indent">
+	Winterer agrees, noting that the visualizations work in tandem with close readings of the letters. &ldquo;It&rsquo;s like adding another dimension, another layer of paint. You just look for different things in the letters when you&rsquo;re reading them, knowing that, &lsquo;Oh, this is the only letter from Tunis in the London decades.&rsquo; Isn&rsquo;t&nbsp;<span class="char-style-override-12">that&nbsp;</span>interesting? What was it like for Franklin to open this?&rdquo;</p>
+
+<p class="Zapf-basic-indent">
+	It&rsquo;s also clear that they have all benefited from the collaboration required by the project. Discussing their datasets and the problems they&rsquo;ve encountered has led to sharing their research in ways that don&rsquo;t normally occur among colleagues at the same university. &ldquo;We have a tendency to mostly share work when it&rsquo;s all beautiful with a little bow,&rdquo; says Winterer. &ldquo;But, in fact, for a lot of people, including me, that&rsquo;s not the most interesting part of the work. The most interesting part is accompanying the author on the path of inquiry.&rdquo;</p>
+
+<p class="Zapf-basic-indent">
+	Aside from the opportunity to try out new methodologies and better know her colleagues, Findlen also sees the project as a chance to invest in the future of the profession. She points to the increasing number of jobs being advertised that call for historians with digital skills. Not all of her students will be digitally inclined, but for the ones who are, she believes she should facilitate their interest. &ldquo;Why not better understand the process so that we can introduce students to these skills and see where they want to take the field in the future?&rdquo;</p>
+
+<p>
+</p>		</div>
+		
+				
+					<div id="bottom-byline">
+				<div id="author-bio"><h3>About the Author</h3>Meredith Hindley is senior writer of <em>Humanities</em>.</div>
+                
+
+									<div id="funding"><h3>Funding Information</h3><p>Dan Edelstein of Stanford University has received <a href="https://securegrants.neh.gov/publicquery/main.aspx?q=1&amp;a=0&amp;n=1&amp;ln=Edelstein&amp;fn=Dan&amp;o=0&amp;k=0&amp;f=0&amp;s=0&amp;p=0&amp;d=0&amp;y=0&amp;prd=0&amp;cov=0&amp;prz=0&amp;wp=0&amp;pg=0&amp;ob=year&amp;or=DESC">two grants </a>from NEH to support digital humanities projects in which correspondence collections are visualized. The first grant, in 2009 for Mapping the Republic of Letters, totaled $99,244; the second, in 2013, amounted to $297,137, and is supporting further development of visualization techniques and applying them to other historical periods.</p></div>				
+  				
+
+            </div>
+										
+	
+					<div id="terms" class="humanities-terms">
+			    <div id="terms-inner">
+				    <div class="terms terms-inline"><h3>Keywords</h3> <ul class="links inline"><li class="taxonomy_term_1732 first"><a href="http://www.neh.gov/humanities/tag/benjamin-franklin" rel="tag" title="">Benjamin Franklin</a></li>
+<li class="taxonomy_term_2030"><a href="http://www.neh.gov/humanities/tag/correspondence" rel="tag" title="">Correspondence</a></li>
+<li class="taxonomy_term_18441"><a href="http://www.neh.gov/tags/dan-edelstein" rel="tag" title="">Dan Edelstein</a></li>
+<li class="taxonomy_term_1825"><a href="http://www.neh.gov/humanities/tag/digital-humanities" rel="tag" title="">Digital humanities</a></li>
+<li class="taxonomy_term_1773"><a href="http://www.neh.gov/humanities/tag/eighteenth-century" rel="tag" title="">eighteenth century</a></li>
+<li class="taxonomy_term_18451"><a href="http://www.neh.gov/tags/electronic-enlightenment-project" rel="tag" title="">Electronic Enlightenment Project</a></li>
+<li class="taxonomy_term_2034"><a href="http://www.neh.gov/humanities/tag/london" rel="tag" title="">London</a></li>
+<li class="taxonomy_term_8126"><a href="http://www.neh.gov/tags/maps-0" rel="tag" title="">maps</a></li>
+<li class="taxonomy_term_18436"><a href="http://www.neh.gov/tags/oxford-university" rel="tag" title="">Oxford University</a></li>
+<li class="taxonomy_term_1847"><a href="http://www.neh.gov/humanities/tag/paris" rel="tag" title="">Paris</a></li>
+<li class="taxonomy_term_1786"><a href="http://www.neh.gov/humanities/tag/philadelphia" rel="tag" title="">Philadelphia</a></li>
+<li class="taxonomy_term_1829"><a href="http://www.neh.gov/humanities/tag/stanford-university" rel="tag" title="">Stanford University</a></li>
+<li class="taxonomy_term_10381 last"><a href="http://www.neh.gov/tags/voltaire-0" rel="tag" title="">Voltaire</a></li>
+</ul></div> 			    </div>
+			</div>
+										
+		
+        <div id="links" class="links">
+    	<div id="links-inner">
+	      <ul class="links inline"><li class="print_html first"><a href="http://www.neh.gov/print/17251" title="Display a printer-friendly version of this page." class="print-page" rel="nofollow"><img src="http://www.neh.gov/sites/all/modules/print/icons/print_icon.gif" alt="PRINT" title="PRINT" width="16" height="16" class="print-icon print-icon-margin" />PRINT</a></li>
+<li class="addthis last"><span><div class='addthis_toolbox addthis_default_style ' addthis:url='https://www.neh.gov/humanities/2013/novemberdecember/feature/mapping-the-republic-letters' addthis:title='Mapping the Republic of Letters' ><a class='addthis_toolbox_item addthis_button_facebook_like' fb:like:layout="button_count"></a><a class='addthis_toolbox_item addthis_button_tweet' tw:count="horizontal"></a><a class='addthis_toolbox_item addthis_button_google_plusone' g:plusone:size="medium"></a><a class='addthis_toolbox_item addthis_button_email' >Email</a></div></span></li>
+</ul>	      </div>
+    </div>
+    
+  </div>
+
+
+
+
+</div>  <div id="block-views-related_articles_block-block_1" class="block block-views odd block-region-content">
+  <div class="block-inner">
+
+    
+    <div class="content"><div class="view view-id-related_articles_block view-display-id-block_1 view-dom-id-1 ">
+        <div class="view-header">
+      <strong>Related Stories</strong>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row-unformatted views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="field-images-fid">
+  
+        
+          <div class="fields-content">
+<div class="fields-image">
+<a href="http://www.neh.gov/humanities/2009/januaryfebruary/curio/1912-presidential-candidates" class="imagecache imagecache-related_thumb imagecache-linked imagecache-related_thumb_linked"><img src="https://www.neh.gov/files/imagecache/related_thumb/humanities/articles/curio_pic_presidential_candidates_1912_jf2009_1000px.jpg" alt="Cartoonist Clifford Berryman&#039;s illustration of 1912 presidential candidates" title="Cartoonist Clifford Berryman&#039;s illustration of 1912 presidential candidates" width="132" height="100" class="imagecache imagecache-related_thumb"/></a>
+</div>
+<div class="story-content">
+<p><a href="http://www.neh.gov/humanities/2009/januaryfebruary/curio/1912-presidential-candidates">1912 Presidential Candidates</a></p>
+</div></div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+  </div>
+  <div class="views-row-unformatted views-row views-row-2 views-row-even">
+      
+  <div class="field-images-fid">
+  
+        
+          <div class="fields-content">
+<div class="fields-image">
+<a href="http://www.neh.gov/humanities/2009/marchapril/conversation/renaissance-scholar-work" class="imagecache imagecache-related_thumb imagecache-linked imagecache-related_thumb_linked"><img src="https://www.neh.gov/files/imagecache/related_thumb/humanities/articles/conversation_pic_cole_ma2009_1000px.jpg" alt="Bruce Cole" title="Bruce Cole" width="132" height="100" class="imagecache imagecache-related_thumb"/></a>
+</div>
+<div class="story-content">
+<p><a href="http://www.neh.gov/humanities/2009/marchapril/conversation/renaissance-scholar-work">Renaissance Scholar at Work</a></p>
+</div></div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+  </div>
+  <div class="views-row-unformatted views-row views-row-3 views-row-odd">
+      
+  <div class="field-images-fid">
+  
+        
+          <div class="fields-content">
+<div class="fields-image">
+<a href="http://www.neh.gov/humanities/2013/novemberdecember/iq/impertinent-questions-cynthia-kierner" class="imagecache imagecache-related_thumb imagecache-linked imagecache-related_thumb_linked"><img src="https://www.neh.gov/files/imagecache/related_thumb/humanities/articles/portrait_of_martha_jefferson_randolph.jpg" alt="Portrait of Martha Jefferson Randolph" title="Martha Jefferson Randolph" width="132" height="100" class="imagecache imagecache-related_thumb"/></a>
+</div>
+<div class="story-content">
+<p><a href="http://www.neh.gov/humanities/2013/novemberdecember/iq/impertinent-questions-cynthia-kierner">Impertinent Questions with Cynthia A. Kierner</a></p>
+</div></div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+  </div>
+  <div class="views-row-unformatted views-row views-row-4 views-row-even">
+      
+  <div class="field-images-fid">
+  
+        
+          <div class="fields-content">
+<div class="fields-image">
+<a href="http://www.neh.gov/humanities/2014/novemberdecember/conversation/the-education-william-adams" class="imagecache imagecache-related_thumb imagecache-linked imagecache-related_thumb_linked"><img src="https://www.neh.gov/files/imagecache/related_thumb/humanities/articles/2014_1112_webimages_10_conversation.jpg" alt="Tom Wolff photo of William Adams" title="Tom Wolff photo of William Adams" width="132" height="88" class="imagecache imagecache-related_thumb"/></a>
+</div>
+<div class="story-content">
+<p><a href="http://www.neh.gov/humanities/2014/novemberdecember/conversation/the-education-william-adams">The Education of William Adams</a></p>
+</div></div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+  </div>
+  <div class="views-row-unformatted views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="field-images-fid">
+  
+        
+          <div class="fields-content">
+<div class="fields-image">
+<a href="http://www.neh.gov/humanities/2010/septemberoctober/curio/wagner-free-institute-science" class="imagecache imagecache-related_thumb imagecache-linked imagecache-related_thumb_linked"><img src="https://www.neh.gov/files/imagecache/related_thumb/humanities/articles/curio_pic_science_museum_so2010_1000px.jpg" alt="Exhibition Hall at Wagner Free Institute of Science in Philadelphia" title="Exhibition Hall at Wagner Free Institute of Science in Philadelphia" width="132" height="100" class="imagecache imagecache-related_thumb"/></a>
+</div>
+<div class="story-content">
+<p><a href="http://www.neh.gov/humanities/2010/septemberoctober/curio/wagner-free-institute-science">Wagner Free Institute of Science</a></p>
+</div></div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+  </div>
+ <!-- /views-view-unformatted -->
+    </div>
+  
+  
+  
+  
+  
+  </div> <!-- /views-view -->
+</div>
+
+    
+  </div>
+</div> <!-- /block -->
+</div>
+        </div> <!-- /main-content -->
+
+              </div><!-- content-inner -->
+      </div> <!-- /content-column -->
+
+      
+              <div id="sidebar-last" class="sidebar">
+
+          <div id="block-views-humanities_toc_archive-block_4" class="block block-views odd block-region-sidebar-last latest-issue sidebar-last-latest-issue">
+  <div class="block-inner">
+
+    
+    <div class="content"><div class="view view-id-humanities_toc_archive view-display-id-block_4 view-dom-id-2 ">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row-unformatted views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="view-node">
+  
+        
+          <p id="issue">
+<span id="year">2018</span>
+<span id="month">Spring</span></p>
+<div id="cover"><a href="http://www.neh.gov/humanities/back-issues/vol39/issue2" class="imagecache imagecache-humanities_cover_gallery imagecache-linked imagecache-humanities_cover_gallery_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_gallery/humanities/covers/2018_spring_webimage_00_cover-600x772px.jpg" alt="Cover illustration of Frederick Douglass" title="Cover illustration of Frederick Douglass" width="120" height="156" class="imagecache imagecache-humanities_cover_gallery"/></a></div>
+<div class="more-link"><a href="http://www.neh.gov/humanities/back-issues/vol39/issue2">read the latest issue</a></div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+  </div>
+ <!-- /views-view-unformatted -->
+    </div>
+  
+  
+  
+  
+  
+  </div> <!-- /views-view -->
+</div>
+
+    
+  </div>
+</div> <!-- /block -->
+  <div id="block-block-30" class="block block-block even block-region-sidebar-last">
+  <div class="block-inner">
+
+    
+    <div class="content"><p id="humanities-cover-subscribe"><a href="http://bookstore.gpo.gov/actions/GetPublication.do?stocknumber=736-002-00000-1">Subscribe To <span><em>Humanities</em> Magazine</span> Now! </a></p></div>
+
+    
+  </div>
+</div> <!-- /block -->
+  <div id="block-views-humanities_toc_slider-block_5" class="block block-views odd block-region-sidebar-last">
+  <div class="block-inner">
+
+          <h2 class="title block-title">Browse Back Issues</h2>
+    
+    <div class="content"><div class="view view-id-humanities_toc_slider view-display-id-block_5 view-dom-id-3 ">
+    
+  
+  
+      <div class="view-content">
+      
+
+
+<div id="views_slideshow_singleframe_main_humanities_toc_slider-block_5" class="views_slideshow_singleframe_main views_slideshow_main"><div id="views_slideshow_singleframe_teaser_section_humanities_toc_slider-block_5" class="views_slideshow_singleframe_teaser_section"><div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-1 views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_0"><div class="views-row views-row-0 views-row-odd views-row-first">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol39/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2018_winter_webimages_00_cover.jpg" alt="Portrait of Ulysses S. Grant" title="Portrait of Ulysses S. Grant" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">Winter<br />2018</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-0 views-row-odd views-row-first">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol38/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2017_fall_webimages_00_cover.jpg" alt="Americans and Vietnamese refugees in Hue in 1968" title="Americans and Vietnamese refugees in Hue in 1968" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">Fall<br />2017</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-2 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_1"><div class="views-row views-row-1 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol38/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2017_summer_00_cover_600pxw.jpg" alt="Illustration of Henry David Thoreau" title="Illustration of Henry David Thoreau" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">Summer<br />2017</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-1 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol38/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2017_spring_webimages_00_cover_600x772.jpg" alt="Matha C. Nussbaum" title="Martha C. Nussbaum" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">Spring<br />2017</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-3 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_2"><div class="views-row views-row-2 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol38/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2017_winter_webimages_00_cvr.jpg" alt="Illustration of Mary Moody Emerson" title="Illustration of Mary Moody Emerson" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">Winter<br />2017</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-2 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol37/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2016_fall-issue_00_cvr_300x386.jpg" alt="Illustration of T. S. Eliot" title="Illustration of T. S. Eliot" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">Fall<br />2016</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-4 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_3"><div class="views-row views-row-3 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol37/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2016_cover.jpg" alt="Photo of man in boat supervising swimming children" title="Photo of man in boat supervising swimming children" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">Summer<br />2016</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-3 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol37/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/opt.ken_.jpg" alt="2016 Jefferson Lecturer Ken Burns" title="2016 Jefferson Lecturer Ken Burns" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">Spring<br />2016</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-5 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_4"><div class="views-row views-row-4 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol37/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2016-0102-webimages-cover-new.jpg" alt="Ballerinas standing in window alcove of ballet school" title="Ballerinas standing in window alcove of ballet school" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2016</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-4 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol36/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_nov_dec_cvr_sm2.jpg" alt="Illustration of Pilgrims during clearing of land" title="Illustration of Pilgrims during clearing of land" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2015</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-6 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_5"><div class="views-row views-row-5 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol36/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2015_0910_webimages_00_cvr_600x772.jpg" alt="Alabaster piece from King Tut exhibit that toured the U.S. in the 1970s" title="Alabaster piece from King Tut exhibit that toured the U.S. in the 1970s" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2015</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-5 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol36/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2015_0708_webimages_00_cvr_300x386.jpg" alt="Willa Cather" title="Willa Cather " width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2015</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-7 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_6"><div class="views-row views-row-6 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol36/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2015_0506_webimages_00_cover_300x386.jpg" alt="Robert Riggs&#039;s &quot;July 4 at Coney Island&quot;" title="Robert Riggs&#039;s &quot;July 4 at Coney Island&quot;" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2015</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-6 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol36/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2015_0304_webimages_00_cover_600x772px.jpg" alt="Anna Deavere Smith" title="Anna Deavere Smith" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2015</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-8 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_7"><div class="views-row views-row-7 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol36/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2015_0102_webimages_00cvr_300x386px.jpg" alt="Cézanne self-portrait" title="Cézanne self-portrait" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2015</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-7 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol35/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2014_1112_webimages_00_cvr_600px.jpg" alt="Illustration of H. L. Mencken" title="Illustration of H. L. Mencken" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2014</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-9 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_8"><div class="views-row views-row-8 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol35/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2014_0910_webimages_001_cover_300x386px.jpg" alt="Portrait of James McNeill Whistler" title="Portrait of James McNeill Whistler" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2014</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-8 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol35/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2014_0708_webimages_00_cvr_600x772.jpg" alt="Photo of U.S. troops preparing to cross English Channel on D-Day" title="Photo of U.S. troops preparing to cross English Channel on D-Day" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2014</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-10 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_9"><div class="views-row views-row-9 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol35/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2014_0506_images_00_cvr.jpg" alt="Walter Isaacson, 2014 Jefferson Lecturer" title="Walter Isaacson, 2014 Jefferson Lecturer" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2014</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-9 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol35/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2014_0304_images_00_cvr_600x772.jpg" alt="Illustration of Eudora Welty" title="Illustration of Eudora Welty" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2014</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-11 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_10"><div class="views-row views-row-10 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol35/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2014_0102_images_00_cvr_300x386px.jpg" alt="Count of Santiago de Calimaya" title="Count of Santiago de Calimaya" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2014</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-10 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol34/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/novdec2013-cover.jpg" alt="Neo sign in Tucson" title="Neon sign in Tucson" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2013</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-12 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_11"><div class="views-row views-row-11 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol34/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2013_0910_images_00_cvr300x386.jpg" alt="Illustration based on poem by Amy Lowell" title="Illustration based on poem by Amy Lowell" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2013</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-11 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol34/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2013_0708_00_cvr300x386.jpg" alt="Cover for July/August 2013 Humanities magazine" title="Cover for July/August 2013 Humanities magazine" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2013</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-13 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_12"><div class="views-row views-row-12 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol34/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2013_0506_webimages_00_cvr_300x386.jpg" alt="Beach Landscape" title="Beach Landscape" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2013</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-12 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol34/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2013_0304_webimages_000_cvr_600x772.jpg" alt="Photo portrait of Martin Scorsese" title="Photo portrait of Martin Scorsese" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2013</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-14 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_13"><div class="views-row views-row-13 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol34/issue15" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/special-edition_2013_cover.jpg" alt="Humanities Civil Rights Special Edition 2013 Cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">Special Edition<br />2013</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-13 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol34/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2013_0102_webimages_00cover600x772.jpg" alt="Portrait of Alessandro de&#039; Medici" title="Portrait of Alessandro de&#039; Medici" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2013</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-15 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_14"><div class="views-row views-row-14 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol33/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2012_11_12_00cover_300x386.jpg" alt="Oyster Bar, Grand Central Terminal, New York City" title="Oyster Bar, Grand Central Terminal, New York City" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2012</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-14 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol33/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2012_0910_00_cover_600x772.jpg" alt="Rain-god vessel" title="Rain-god vessel" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2012</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-16 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_15"><div class="views-row views-row-15 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol33/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2012_0708_images_00_cover662x700.jpg" alt="Book buying along the Seine in 1940" title="Book buying along the Seine in 1940" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2012</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-15 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol33/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2012_0406_images_01_cvr300x386.jpg" alt="Wendell Berry photo portrait" title="Wendell Berry photo portrait" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2012</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-17 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_16"><div class="views-row views-row-16 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol33/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2012_0304_images_01_cover300x386.jpg" alt="&quot;Secret Kiss&quot; illustration by Georges Barbier" title="&quot;Secret Kiss&quot; illustration by Georges Barbier" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2012</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-16 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol33/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/_0102_2012cover300x386_0.jpg" alt="Philip Larkin" title="Philip Larkin" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2012</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-18 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_17"><div class="views-row views-row-17 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol32/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/10_11_11_1cvr600x772.jpg" alt="molded plywood chair" title="molded plywood chair" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2011</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-17 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol32/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/09_10_2011cvr.jpg" alt="Dictionary of American Regional English" title="Dictionary of American Regional English" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2011</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-19 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_18"><div class="views-row views-row-18 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol32/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/1cover_pic_ja2011_300x386px.jpg" alt="Balinese bird mask" title="Balinese bird mask" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2011</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-18 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol32/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover_2011_mayjune.jpg" alt="Drew Gilpin Faust, 2011 Jefferson Lecturer" title="Drew Gilpin Faust" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2011</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-20 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_19"><div class="views-row views-row-19 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol32/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover_2011_marapr.jpg" alt="Humanities Magazine March/April 2011 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2011</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-19 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol32/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover_2011_janfeb.jpg" alt="Unidentified Civil War soldier in a New York Zouave uniform." title="Unidentified Civil War soldier in a New York Zouave uniform." width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2011</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-21 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_20"><div class="views-row views-row-20 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol31/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover_2010_novdec.gif" alt="Black Swan Record label, 1921" title="Black Swan Record label, 1921" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2010</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-20 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol31/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover_2010_sepoct.jpg" alt="Humanities September/October 2010 Cover" title="September/October 2010" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2010</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-22 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_21"><div class="views-row views-row-21 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol31/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover_2010_julyaug.gif" alt="Freud vs. Kierkegaard" title="Freud vs. Kierkegaard" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2010</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-21 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol31/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover_pic_spence_mj2010.png" alt="Jonathan Spence, 2010 Jefferson Lecturer" title="Jonathan Spence, 2010 Jefferson Lecturer" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2010</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-23 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_22"><div class="views-row views-row-22 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol31/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/1cover_0304_2010_300x386px.jpg" alt="The Yankee Driver, Thomas Hart Benton" title="The Yankee Driver, Thomas Hart Benton" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2010</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-22 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol31/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover_with_masthead_pic_chaucers_pilgrims_jf2010.jpg" alt="Image of January/February 2010 Humanities cover" title="January/February 2010 Humanities cover" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2010</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-24 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_23"><div class="views-row views-row-23 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol30/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover_pic_chinese_scroll_nd2009.jpg" alt="Detail from the Kangxi Emperor’s Southern Inspection Tour, Scroll Three" title="Detail from the Kangxi Emperor’s Southern Inspection Tour, Scroll Three" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2009</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-23 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol30/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/01cov0910_09_300x386.jpg" alt="Humanities Magazine September/October 2009 cover" title="Samuel Johnson" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2009</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-25 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_24"><div class="views-row views-row-24 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol30/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover_pic_aint_ja2009.jpg" alt="Humanities Magazine July/August 2009 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2009</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-24 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol30/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover_pic_kass_mj2009.jpg" alt="Leon Kass, the 38th Annual Jefferson Lecturer" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2009</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-26 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_25"><div class="views-row views-row-25 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol30/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/1cover_0304_2009_300x386.jpg" alt="San Baudelio de Berlanga, circa 1000" title="San Baudelio de Berlanga, circa 1000" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2009</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-25 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol30/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/1cvr_010209_adjsig_300x386px.jpg" alt="Cover of January/February 2009 Humanities" title="January/February 2009 Humanities" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2009</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-27 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_26"><div class="views-row views-row-26 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol29/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/cover1_nd2008.jpg" alt="Church of Odigitria" title="Church of Odigitria" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2008</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-26 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol29/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/09_10_2008cover.jpg" alt="Humanities Magazine September/October 2008 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2008</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-28 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_27"><div class="views-row views-row-27 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol29/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/0708_2008_cover_web.jpg" alt="Humanities Magazine July/August 2008 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2008</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-27 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol29/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/0506_2008cov600x772.jpg" alt="Caricature of John Updike" title="Caricature of John Updike" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2008</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-29 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_28"><div class="views-row views-row-28 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol29/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/0304_2008cover600x772.jpg" alt="Gary Cooper fashion portrait" title="Gary Cooper fashion portrait" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2008</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-28 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol29/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/0102_2008_cov_600x772.jpg" alt="Portrait of Richa Franks" title="Portrait of Richa Franks" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2008</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-30 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_29"><div class="views-row views-row-29 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol28/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2007_1112_images_001cover300x386.jpg" alt="Fashion showroom in Miami in the 1950s" title="Fashion showroom in Miami in the 1950s" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2007</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-29 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol28/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_sept_oct07.jpg" alt="Painting of The Midnight Ride of Paul Revere, 1931" title="Painting of The Midnight Ride of Paul Revere, 1931" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2007</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-31 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_30"><div class="views-row views-row-30 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol28/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2007_jul-aug_cover.jpg" alt="Humanities Magazine July/August 2007 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2007</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-30 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol28/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_mayjune2007cover.jpg" alt="2007 Jefferson Lecturer, Harvey Mansfield" title="2007 Jefferson Lecturer, Harvey Mansfield" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2007</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-32 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_31"><div class="views-row views-row-31 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol28/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2007_mar-apr_cover.jpg" alt="Humanities Magazine March/April 2007 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2007</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-31 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol28/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_jan-feb-2007.jpg" alt="Recreation of Susan Constant, largest of three boats that landed at Jamestown" title="Recreation of the Susan Constant, the largest of the three boats that landed at Jamestown" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2007</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-33 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_32"><div class="views-row views-row-32 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol27/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_novdec2006.jpg" alt="Leslie Caron and Gene Kelly in the 1951 film An American in Paris" title="Leslie Caron and Gene Kelly in the 1951 film An American in Paris" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2006</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-32 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol27/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2006_sep-oct_cover.jpg" alt="Humanities Magazine September/October Cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2006</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-34 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_33"><div class="views-row views-row-33 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol27/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_july_aug2006.jpg" alt="Matrakçi Nasuh&#039;s &#039;Account of the Military Campaigns of Sultan Süleyman,&#039; 1537-38" title="Matrakçi Nasuh&#039;s &#039;Account of the Military Campaigns of Sultan Süleyman,&#039; 1537-38" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2006</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-33 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol27/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_may_june2006.jpg" alt="Humanities Magazine May/June 2006 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2006</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-35 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_34"><div class="views-row views-row-34 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol27/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_march_april2006.jpg" alt="Humanities Magazine March/April 2006 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2006</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-34 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol27/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2006-01b.jpg" alt="Humanities Magazine January/February 2006 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2006</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-36 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_35"><div class="views-row views-row-35 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol26/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2005-11b.jpg" alt="Humanities Magazine November/December 2005 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2005</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-35 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol26/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2005-09a.jpg" alt="Humanities Magazine September/October 2005 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2005</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-37 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_36"><div class="views-row views-row-36 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol26/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2005-07a.gif" alt="Humanities Magazine July/August 2005 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2005</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-36 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol26/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2005-05a.jpg" alt="Humanities Magazine May/June 2005 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2005</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-38 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_37"><div class="views-row views-row-37 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol26/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2005-03a.jpg" alt="Humanities Magazine March/April 2005 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2005</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-37 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol26/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2005-01a.jpg" alt="Humanities Magazine January/February 2005 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2005</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-39 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_38"><div class="views-row views-row-38 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol25/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2004-11a.gif" alt="Humanities Magazine November/December 2004 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2004</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-38 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol25/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2004-09a.jpg" alt="Humanities Magazine September/October 2004 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2004</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-40 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_39"><div class="views-row views-row-39 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol25/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2004-07a.gif" alt="Humanities Magazine July/August 2004 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2004</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-39 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol25/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2004-05a.jpg" alt="Humanities Magazine May/June 2004 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2004</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-41 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_40"><div class="views-row views-row-40 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol25/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2004-03b.gif" alt="Humanities Magazine March/April 2004 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2004</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-40 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol25/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/2004-01a.jpg" alt="Humanities Magazine January/February 2004 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2004</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-42 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_41"><div class="views-row views-row-41 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol24/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_nov-dec_2003.jpg" alt="Humanities Magazine November/December 2003 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2003</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-41 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol24/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_sep-oct_2003.jpg" alt="Humanities magazine September/October 2003 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2003</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-43 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_42"><div class="views-row views-row-42 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol24/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_jul-aug_2003.jpg" alt="Humanities Magazine July/August 2003 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2003</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-42 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol24/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_may-jun_2003.jpg" alt="Humanities Magazine May/June 2003 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2003</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-44 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_43"><div class="views-row views-row-43 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol24/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_mar-apr_2003.jpg" alt="Humanities Magazine March/April 2003 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2003</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-43 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol24/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_jan-feb_2003.gif" alt="Humanities Magazine January/February 2003 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2003</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-45 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_44"><div class="views-row views-row-44 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol23/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_nov-dec_2002.gif" alt="Humanities Magazine November/December 2002 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2002</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-44 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol23/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_sep-oct_2002.jpg" alt="Humanities Magazine September/October 2002 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2002</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-46 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_45"><div class="views-row views-row-45 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol23/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_jul-aug_2002.jpg" alt="Humanities Magazine July/August 2002 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2002</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-45 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol23/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_may-jun_2002.jpg" alt="Humanities Magazine May/June 2002 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2002</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-47 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_46"><div class="views-row views-row-46 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol23/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_mar-apr_2002.jpg" alt="Humanities Magazine March/April 2002 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2002</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-46 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol23/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_jan-feb_2002.jpg" alt="Humanities Magazine January/February 2002 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2002</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-48 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_47"><div class="views-row views-row-47 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol22/issue6" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_nov-dec_2001.jpg" alt="Humanities Magazine November/December 2001 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">November/December<br />2001</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-47 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol22/issue5" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_sep-oct_2001.jpg" alt="Humanities Magazine September/October 2001 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">September/October<br />2001</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-49 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_48"><div class="views-row views-row-48 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol22/issue4" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_jul-aug_2001.gif" alt="Humanities Magazine July/August 2001 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">July/August<br />2001</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-48 views-row-odd">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol22/issue3" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_may-jun_2001.jpg" alt="Humanities Magazine May/June 2001 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">May/June<br />2001</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-50 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_humanities_toc_slider-block_5_49"><div class="views-row views-row-49 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol22/issue2" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_mar-apr-2001.jpg" alt="Humanities Magazine March/April 2001 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">March/April<br />2001</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+<div class="views-row views-row-49 views-row-even">
+  
+  <div class="view-node">
+  
+        
+          <div id="humanities-back-issues">
+<div class="interior">
+<a href="http://www.neh.gov/humanities/back-issues/vol22/issue1" class="imagecache imagecache-humanities_cover_slider imagecache-linked imagecache-humanities_cover_slider_linked"><img src="https://www.neh.gov/files/imagecache/humanities_cover_slider/humanities/covers/humanities_cover_jan-feb_2001.jpg" alt="Humanities Magazine January/February 2001 cover" title="" width="100" height="125" class="imagecache imagecache-humanities_cover_slider"/></a>
+<div class="issue-info">January/February<br />2001</div>
+</div>
+</div>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+
+</div>
+</div>
+</div>
+</div>
+  <div class="views-slideshow-controls-bottom clear-block">
+    <div class="views_slideshow_singleframe_controls views_slideshow_controls" id="views_slideshow_singleframe_controls_humanities_toc_slider-block_5"><a href="www-neh-gov-0023.htm# " class="views_slideshow_singleframe_previous views_slideshow_previous" id="views_slideshow_singleframe_prev_humanities_toc_slider-block_5">  Back  </a><a href="www-neh-gov-0023.htm# " class="views_slideshow_singleframe_next views_slideshow_next" id="views_slideshow_singleframe_next_humanities_toc_slider-block_5"> Next  </a></div>
+          </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="more-link"><a class="button primary" href="http://www.neh.gov/humanities/back-issues">Browse All Issues</a></div>    </div>
+  
+  </div> <!-- /views-view -->
+</div>
+
+    
+  </div>
+</div> <!-- /block -->
+  <div id="block-views-humanities_classics-block_1" class="block block-views even block-region-sidebar-last">
+  <div class="block-inner">
+
+          <h2 class="title block-title">Classics</h2>
+    
+    <div class="content"><div class="view view-id-humanities_classics view-display-id-block_1 view-dom-id-4 ">
+        <div class="view-header">
+      <span>A selection of old favorites</span>    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-list-item views-row views-row-1 views-row-odd views-row-first">  
+  <div class="field-name-full-value">
+  
+        
+          <div class="classics-list fields-content"><div id="interior">
+<p class="title"><a href="http://www.neh.gov/humanities/2015/januaryfebruary/feature/what-sets-italian-americans-other-immigrants">What Sets Italian Americans Off From Other Immigrants?</a></p>
+<p>
+	Family and work for starters, according to a new TV documentary.</p>
+<p id="byline">By Vincent J. Cannato</p>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+</li>
+          <li class="views-list-item views-row views-row-2 views-row-even">  
+  <div class="field-name-full-value">
+  
+        
+          <div class="classics-list fields-content"><div id="interior">
+<p class="title"><a href="http://www.neh.gov/humanities/2012/marchapril/feature/the-strange-politics-gertrude-stein">The Strange Politics of Gertrude Stein</a></p>
+<p>Was the den mother of modernism a fascist?</p>
+<p id="byline">By Barbara Will</p>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+</li>
+          <li class="views-list-item views-row views-row-3 views-row-odd">  
+  <div class="field-name-full-value">
+  
+        
+          <div class="classics-list fields-content"><div id="interior">
+<p class="title"><a href="http://www.neh.gov/humanities/2008/januaryfebruary/feature/king-andrew-and-the-bank">King Andrew and the Bank</a></p>
+<p>Andrew Jackson stares down the national bank and wins.</p>
+<p id="byline">By Daniel Feller</p>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+</li>
+          <li class="views-list-item views-row views-row-4 views-row-even">  
+  <div class="field-name-full-value">
+  
+        
+          <div class="classics-list fields-content"><div id="interior">
+<p class="title"><a href="http://www.neh.gov/humanities/2014/marchapril/feature/the-quiet-greatness-eudora-welty">The Quiet Greatness of Eudora Welty</a></p>
+<p>
+	Even toward the end of her life, the writer revealed a youthful zest for life and art.</p>
+<p id="byline">By Danny Heitman</p>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+</li>
+          <li class="views-list-item views-row views-row-5 views-row-odd views-row-last">  
+  <div class="field-name-full-value">
+  
+        
+          <div class="classics-list fields-content"><div id="interior">
+<p class="title"><a href="http://www.neh.gov/humanities/2013/septemberoctober/feature/why-spinoza-was-excommunicated">Why Spinoza Was Excommunicated</a></p>
+<p>
+	Before writing a single book, Bento de Spinoza was considered a dangerous thinker</p>
+<p id="byline">By Steven Nadler</p>    
+  </div>
+ <!--/views-view-fields.tpl.php -->
+</li>
+      </ul>
+</div> <!-- /views-view-list -->
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="http://www.neh.gov/humanities/classics">
+    View All  »  </a>
+</div>
+  
+  
+  </div> <!-- /views-view -->
+</div>
+
+    
+  </div>
+</div> <!-- /block -->
+        </div> <!-- /sidebar-last -->
+          </div><!-- /columns-inner -->
+    </div> <!-- /columns -->
+
+        
+	</div><!-- /body-container-inner -->
+
+        
+  
+	</div> <!-- /body container -->
+
+
+  </div> <!-- /container -->
+	<div class="footer-container"><div class="container-width container">
+	      <div id="footer">
+                  <div id="footer-region">  <div id="block-block-17" class="block block-block odd block-region-footer">
+  <div class="block-inner">
+
+    
+    <div class="content"><div id="footer-logos">
+	<div id="footer-logos-inner">
+		<ul class="menu" id="logo-menu">
+			<li class="leaf edsitement first">
+				<a href="http://edsitement.neh.gov/" title="Edsitement"><span id="edsitement-logo">Edsitement</span></a></li>
+			<li class="leaf standing-together">
+				<a href="http://www.neh.gov/veterans/standing-together"><span id="standing-together-logo">Standing Together</span></a></li>
+			<li class="leaf chronicling-america">
+				<a href="http://chroniclingamerica.loc.gov/"><span id="chronicling-americ-logo">Chronicling America</span></a></li>
+			<li class="leaf created-equal last">
+				<a href="http://createdequal.neh.gov/"><span id="created-equal-logo">Created Equal</span></a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="footer-main-nav">
+	<div class="footer-menu inner-first">
+		<ul class="menu">
+			<li class="leaf first">
+				<a href="http://www.neh.gov/about" title="">About NEH</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/about/contact" title="">Contact NEH</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/about/national-council-on-the-humanities" title="">National Council on the Humanities</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/about/state-humanities-councils" title="">State Humanities Councils</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/about/awards" title="">Awards and Honors</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/about/legal/reports">Budget, Performance, and Legal Information</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/plain-writing">Plain Writing at NEH</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/about/oig">Office of the Inspector General</a></li>
+			<li class="leaf last">
+				<a href="http://www.neh.gov/about/equal-employment-opportunity" title="">Equal Employment Opportunities</a></li>
+			<li class="leaf last">
+				<a href="http://www.neh.gov/about/human-resources/career-opportunities" title="">Career Opportunities</a></li>
+			<li class="leaf last">
+				<a href="http://www.neh.gov/about/website-disclaimers">Website Disclaimers</a></li>
+			<li class="leaf first sub brand last ">
+			</li>
+		</ul>
+	</div>
+
+	<div class="footer-menu inner-footer">
+		<ul class="menu">
+			<li class="leaf first">
+				<a href="http://www.neh.gov/grants" title="">Grants</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/grants">Search for a Grant</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/grants" title="">Not sure what to do? Let us help you...</a></li>
+			<li class="leaf">
+				<a href="https://securegrants.neh.gov/signup">Become a Peer Reviewer</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/grants/manage" title="">Manage Your Grant</a></li>
+			<li class="leaf last">
+				<a href="http://www.neh.gov/grants/application-process" title="">The Application Review Process</a></li>
+			<li class="leaf last">
+				<a href="http://www.neh.gov/brand-materials">Brand Materials</a></li>
+		</ul>
+	</div>
+
+	<div class="footer-menu inner-footer">
+		<ul class="menu">
+			<li class="leaf first">
+				<a href="http://www.neh.gov/divisions" title="">Divisions and Offices</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/divisions/education" title="">Education Programs</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/divisions/preservation" title="">Preservation and Access</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/divisions/public" title="">Public Programs</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/divisions/research" title="">Research Programs</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/divisions/fedstate" title="">Federal/State Partnership</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/divisions/challenge" title="">Office of Challenge Grants</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/divisions/odh" title="">Office of Digital Humanities</a></li>
+		</ul>
+	</div>
+
+	<div class="footer-menu inner-footer last">
+		<ul class="menu">
+			<li class="leaf first">
+				<a href="http://www.neh.gov/news" title="">News</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/news/press-releases" title="">Press Releases</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/news/archive" title="">News Archive</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/news/neh-in-the-news" title="">NEH in the News</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/news/impact-reports" title="">NEH Impact Reports</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/events" title="">Events</a></li>
+			<li class="leaf first sub">
+				<a href="http://www.neh.gov/humanities" title="">Humanities</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/humanities/back-issues">Back Issues</a></li>
+			<li class="leaf">
+				<a href="http://bookstore.gpo.gov/actions/GetPublication.do?stocknumber=736-002-00000-1" title="">Subscribe</a></li>
+			<li class="leaf">
+				<a href="http://www.neh.gov/humanities/staff" title="">Magazine Staff</a></li>
+			<li class="leaf first sub">
+				<a href="http://www.neh.gov/explore" title="">Explore</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="footer-menu communication inner-last">
+	<ul class="menu">
+		<li class="leaf first contact">
+			<a href="http://www.neh.gov/about/contact" title="">Contact Us</a></li>
+		<li class="leaf">
+			<div id="contact-block">
+				<p>
+					<strong>National Endowment </strong><br />
+					<strong>for the Humanities </strong><br />
+					<strong>400 7<sup>th</sup> Street SW </strong><br />
+					<strong>Washington, DC 20506</strong></p>
+
+				<p>
+					<strong>General Information</strong><br />
+					1-800-NEH-1121<br />
+					202-606-8400</p>
+
+				<p>
+					<strong>Federal Relay (TTY Users):</strong><br />
+					800-877-8399</p>
+
+				<p>
+					<a href="http://www.neh.gov/contact/questions/neh/gov">questions[at]neh[dot]gov</a></p>
+			</div>
+		</li>
+		<li class="leaf first sub connect nolink-li">
+			Connect With Us</li>
+		<li class="leaf last">
+			<ul id="footer-social-media">
+				<li class="leaf social youtube">
+					<div class="interior">
+						<a href="http://www.youtube.com/user/NEHgov"><span>YouTube</span></a></div>
+				</li>
+				<li class="leaf social twitter">
+					<div class="interior">
+						<a href="http://twitter.com/#!/nehgov"><span>Twitter</span></a></div>
+				</li>
+				<li class="leaf social facebook">
+					<div class="interior">
+						<a href="http://www.facebook.com/pages/National-Endowment-for-the-Humanities/131252093552454"><span>Facebook</span></a></div>
+				</li>
+				<li class="leaf social rss">
+					<div class="interior">
+						<a href="http://www.neh.gov/about/chairman/office-communications/social-media"><span>NEH Social Media</span></a></div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="footer-menu-secondary">
+	<h3 id="footer-site-url">
+		<a href="http://www.neh.gov/">www.neh.gov</a></h3>
+
+	<p>
+		<a href="http://www.neh.gov/about/foia" title="">FOIA</a> | <a href="http://www.neh.gov/about/legal/no-fear-act" title="">No Fear Act</a> | <a href="http://www.neh.gov/about/oig" title="">Office of the Inspector General</a> | <a href="http://www.neh.gov/accessibility">Accessibility</a> | <a href="http://www.neh.gov/privacy">Privacy Policy and Terms of Use</a> | <a href="http://www.neh.gov/about/website-disclaimers">Website Disclaimers</a> |&nbsp;<a href="http://www.neh.gov/open">Open Gov</a> | <a href="http://www.neh.gov/plain-writing">Plain Writing at NEH</a></p>
+</div></div>
+
+    
+  </div>
+</div> <!-- /block -->
+</div> <!-- /footer-region -->
+                              </div> <!-- /footer -->
+		</div><!-- /footer container-width -->
+	</div> <!-- /footer-container -->
+
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof pageTracker != "undefined") {addthis_config.data_ga_tracker = pageTracker;}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof addthis != "undefined") {addthis.init();}
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c5d206962c","applicationID":"55443604","transactionName":"NlVRMEVSC0AHAEZZCw8fcgdDWgpdSTxAVRIIQ1oLWVoLVDkVW1UT","queueTime":0,"applicationTime":3013,"atts":"GhJSRg1IGE4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

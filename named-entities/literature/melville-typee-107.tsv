@@ -1,0 +1,878 @@
+type	entity
+PERSON	Herman Melville
+LOCATION	Pacific
+LOCATION	Pacific
+LOCATION	Mungo
+PERSON	Pedro
+PERSON	Pedro
+PERSON	Peter
+PERSON	Peter
+PERSON	Jack Lewis
+PERSON	Vangs
+PERSON	Jack
+PERSON	Jack
+LOCATION	South Seas
+LOCATION	Mendanna
+PERSON	Mendoza
+LOCATION	Peru
+LOCATION	South Sea
+PERSON	Cook
+LOCATION	Pacific
+LOCATION	Pacific
+LOCATION	Marquesas
+LOCATION	Gallipagos
+LOCATION	Pacific
+PERSON	Boatswain
+LOCATION	Marquesas
+LOCATION	Roohka Ropo
+PERSON	Nukuheva
+ORGANIZATION	Washington Group
+LOCATION	Greenwich With
+PERSON	Ingraham
+LOCATION	Boston Massachusetts
+LOCATION	Marquesas Nukuheva
+PERSON	Porter
+LOCATION	England
+LOCATION	United States
+PERSON	Porter
+LOCATION	Massachusetts Bay Among
+LOCATION	Nukuheva
+LOCATION	France
+PERSON	Du Petit Thouars
+LOCATION	South Sea
+LOCATION	Pacific
+LOCATION	Nukuheva
+LOCATION	Marquesan
+LOCATION	Cape
+ORGANIZATION	Plank
+LOCATION	Cape Horn
+LOCATION	Nantucket
+LOCATION	Pacific
+LOCATION	Peru
+ORGANIZATION	Yankee
+LOCATION	Pacific
+LOCATION	South Sea
+LOCATION	Greenwich
+LOCATION	Buggerry Island
+LOCATION	Pacific
+LOCATION	Nukuheva
+LOCATION	Happar
+LOCATION	Happar
+LOCATION	Nukuheva
+PERSON	Katherine
+PERSON	Nukuheva
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+ORGANIZATION	Payta
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+LOCATION	Nukuheva
+PERSON	Toby
+LOCATION	Happar
+PERSON	Nukuheva
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Robinson Crusoe
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Low
+LOCATION	Polynesia
+PERSON	Saint Patrick
+PERSON	Toby
+LOCATION	Happar
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Toby
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+LOCATION	Holland
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Happar
+PERSON	VIII
+PERSON	Toby
+LOCATION	Belzoni
+PERSON	Toby
+PERSON	Nukuheva
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby Very
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Happar Toby
+PERSON	Happar
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Mortarkee Mortarkee
+PERSON	Happar
+PERSON	Mehevi
+PERSON	Tom
+PERSON	Tommo Tomma Tommee
+PERSON	Tom
+PERSON	Tommo
+PERSON	Toby
+LOCATION	Mehevi
+PERSON	Toby
+LOCATION	South Sea
+PERSON	Toby
+LOCATION	South Sea
+ORGANIZATION	Nukuheva
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+LOCATION	Maneeka
+PERSON	Franee
+PERSON	Mehevi
+PERSON	Hippocrates
+PERSON	Toby
+PERSON	Mehevi
+PERSON	Toby
+PERSON	Toby
+LOCATION	Providence
+PERSON	Kory Kory
+PERSON	Mehevi
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Goldsmith
+PERSON	Kory Kory
+PERSON	Marheyo
+PERSON	Kory Kory
+PERSON	Kory Kory
+LOCATION	Typee
+LOCATION	Fayaway
+LOCATION	Lima
+LOCATION	Fayaway
+LOCATION	Fayaway
+LOCATION	Fayaway
+PERSON	Fayaway
+PERSON	Fayaway
+PERSON	Flora
+PERSON	Fayaway
+LOCATION	Typee
+PERSON	Mehevi
+PERSON	Kory Kory
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Toby
+PERSON	Mehevi
+PERSON	Kory Kory
+PERSON	Kory Kory
+LOCATION	Mehevi
+PERSON	Ti Mehevi
+PERSON	Toby
+PERSON	Mehevi
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Toby
+LOCATION	Mehevi
+PERSON	Tommo Toby ki ki
+PERSON	Ki ki
+PERSON	Toby
+PERSON	Tommo
+PERSON	Kory Kory
+PERSON	Cook
+PERSON	Toby
+LOCATION	Mehevi
+PERSON	Puarkee
+PERSON	Kory Kory
+PERSON	Mehevi Toby
+PERSON	Kory Kory
+PERSON	Marheyo
+PERSON	Kory Kory
+PERSON	Marheyo
+LOCATION	Mehevi
+PERSON	Toby
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Nukuheva
+PERSON	Nukuheva
+PERSON	Toby
+PERSON	Kory Kory
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Toby
+PERSON	Marheyo
+PERSON	Toby
+PERSON	Marheyo
+PERSON	Kory Kory
+PERSON	Toby Apprehensive
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Toby
+PERSON	Marheyo
+PERSON	Toby
+LOCATION	Happar
+LOCATION	Happar
+PERSON	Marheyo
+PERSON	Toby
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Toby
+PERSON	Kory Kory
+LOCATION	Fayaway
+PERSON	Toby
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Kory Kory
+LOCATION	Marheyo
+PERSON	Toby
+PERSON	Fayaway
+PERSON	Fayaway
+PERSON	Toby
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Toby
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Kory Kory
+LOCATION	Typee
+PERSON	Kory Kory
+PERSON	Kory Kory
+LOCATION	Typee
+PERSON	Marheyo
+PERSON	Marheyo
+ORGANIZATION	Liverpool
+LOCATION	Typee
+LOCATION	New England
+LOCATION	Marheyo
+PERSON	Kory Kory
+PERSON	Amar
+PERSON	Tutao
+LOCATION	Tutao
+PERSON	Tutao
+PERSON	Amar
+PERSON	Amar
+LOCATION	Sandwich Islands
+LOCATION	Tahiti
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Mehevi
+LOCATION	Marheyo
+PERSON	Mehevi
+PERSON	Toby
+PERSON	Mehevi
+PERSON	Kory Kory
+PERSON	Mehevi
+PERSON	Toby
+PERSON	Kory Kory
+LOCATION	Nukuheva
+PERSON	Toby
+LOCATION	Rome
+PERSON	Marheyo
+PERSON	Marheyo
+PERSON	Narmonee
+PERSON	Narmonee
+PERSON	Narmonee
+PERSON	Narmonee
+PERSON	Kory Kory
+PERSON	Marheyo
+LOCATION	Happy Valley
+LOCATION	Typee
+LOCATION	Flora
+PERSON	Rousseau
+PERSON	Happar Happar
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Mehevi
+PERSON	Kory Kory
+PERSON	Mehevi
+PERSON	Mehevi
+PERSON	Marheyo
+PERSON	Kory Kory
+PERSON	Kory Kory
+LOCATION	Fayaway
+PERSON	Kory Kory
+PERSON	Mehevi
+PERSON	Fayaway
+PERSON	Fayaway
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Fayaway
+PERSON	Fayaway
+PERSON	Kory Kory
+LOCATION	Fayaway
+PERSON	Kory Kory
+PERSON	Fayaway
+PERSON	Fayaway
+PERSON	Fayaway
+PERSON	Kory Kory
+PERSON	Fayaway
+PERSON	Fayaway
+PERSON	Marheyo
+PERSON	Marnoo
+PERSON	Marnoo Marnoo
+PERSON	Marnoo Marnoo
+PERSON	Marnoo
+LOCATION	South Sea
+LOCATION	Marnoo
+PERSON	Marheyo
+PERSON	Tinor
+LOCATION	Tommo
+PERSON	Little
+PERSON	Nukuheva
+PERSON	Marnoo
+PERSON	Happar Puerka Nukuheva Tior
+PERSON	Marnoo
+PERSON	Marnoo
+LOCATION	Sidney
+LOCATION	Australia
+PERSON	Marnoo
+PERSON	Marnoo
+PERSON	Toby
+PERSON	Toby
+PERSON	Marnoo
+PERSON	Toby
+PERSON	Marnoo
+PERSON	Marnoo
+PERSON	Marnoo
+PERSON	Marnoo
+PERSON	Mehevi
+PERSON	Marnoo
+LOCATION	Marnoo
+PERSON	Marnoo
+PERSON	Mehevi
+PERSON	Marnoo
+PERSON	Mehevi
+PERSON	Kory Kory
+PERSON	Marnoo
+LOCATION	Typee
+PERSON	Marheyo
+PERSON	Marheyo
+PERSON	Kory Kory
+LOCATION	Marquesan Islands
+LOCATION	Sandwich Islands
+LOCATION	Marquesan Islands
+LOCATION	Happar
+PERSON	Fayaway
+PERSON	Kory Kory
+LOCATION	Marheyo
+PERSON	Kory Kory
+PERSON	Fayaway
+PERSON	Tinor
+PERSON	Marheyo
+PERSON	Marheyo
+PERSON	Tinor
+PERSON	Kory Kory
+LOCATION	Fayaway
+PERSON	Marheyo
+PERSON	Mehevi
+PERSON	Ti
+LOCATION	Europe
+PERSON	Marheyo
+PERSON	Marheyo
+PERSON	Arva Wai
+PERSON	Arva
+PERSON	Wai
+PERSON	Marheyo
+PERSON	Kory Kory
+PERSON	Kory Kory
+LOCATION	Egypt
+LOCATION	Nukuheva
+LOCATION	America
+LOCATION	Etnas
+LOCATION	North Pole
+LOCATION	Cape Horn
+PERSON	Kory Kory
+PERSON	Mehevi
+LOCATION	Fayaway
+PERSON	Kory Kory
+PERSON	Mehevi
+ORGANIZATION	Polynesian Stock
+PERSON	Mehevi
+PERSON	Mehevi
+PERSON	Mehevi
+PERSON	Mehevi
+PERSON	Ti Kory Kory
+PERSON	Marheyo
+ORGANIZATION	Westminster Abbey
+PERSON	Venus de Medici
+PERSON	Kory Kory
+PERSON	Kory Kory
+LOCATION	Warwick
+PERSON	Kory Kory
+LOCATION	Nukuheva
+PERSON	Arva
+LOCATION	Sandwich Islands
+PERSON	Mehevi
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Typee
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	XXIII
+PERSON	Fayaway
+PERSON	Kory Kory
+PERSON	Typee
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Kory Kory
+LOCATION	Mehevi
+PERSON	Kolory
+PERSON	Typee Kolory
+ORGANIZATION	Knight Templar
+LOCATION	Moa Artua
+LOCATION	Moa Artua
+PERSON	Mehevi
+PERSON	Kolory
+PERSON	Moa Artua
+PERSON	Moa Artua
+PERSON	Kolory
+PERSON	Moa Artua
+PERSON	Kolory
+PERSON	Kolory
+LOCATION	Moa Artua
+PERSON	Kolory
+PERSON	Moa Artua
+LOCATION	Moa Artua
+PERSON	Kolory
+PERSON	Moa Artua
+PERSON	Moa Artua
+PERSON	Mehevi
+PERSON	Moa Artua
+PERSON	Hoolah Hoolah
+PERSON	Kory Kory
+LOCATION	Moa Artua
+PERSON	Moa Artua
+PERSON	Kory Kory
+LOCATION	Moa Artua
+LOCATION	Nukuheva
+PERSON	Cook
+LOCATION	South Sea
+PERSON	Carteret Byron Kotzebue
+LOCATION	Pacific
+PERSON	Kolory
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Kory Kory
+LOCATION	Nukuheva
+LOCATION	Nukuheva Bay
+PERSON	Saxon
+PERSON	Fayaway
+PERSON	Mendanna
+LOCATION	Southern Europe
+PERSON	Mendanna
+PERSON	La Madelena
+LOCATION	Nukuheva
+PERSON	Mendanna
+PERSON	Don
+PERSON	Quiros
+PERSON	Toby
+ORGANIZATION	Wallace Carteret Cook
+LOCATION	Mehevi
+LOCATION	Marheyo
+PERSON	Mehevi
+PERSON	Mehevi
+PERSON	Mehevi
+PERSON	Mehevi
+PERSON	Mehevi
+PERSON	Mehevi
+LOCATION	Typee
+PERSON	Marheyo
+PERSON	Tinor
+PERSON	Mehevi
+PERSON	Mehevi
+LOCATION	Marheyo
+PERSON	Mehevi
+PERSON	Mehevi
+PERSON	Moonoony
+PERSON	Kory Kory
+LOCATION	Fayaway
+PERSON	Kory Kory
+PERSON	Kory Kory
+LOCATION	Nukuheva
+LOCATION	Nukuheva
+LOCATION	Typee
+LOCATION	Warmoonoo
+LOCATION	Marheyo
+LOCATION	Karluna
+LOCATION	South Sea
+PERSON	Kory Kory hie
+PERSON	Marheyo
+PERSON	Marheyo
+PERSON	Ruaruga
+PERSON	Ruaruga
+PERSON	Marheyo
+PERSON	Kory Kory
+PERSON	Porter
+PERSON	Jack the Giant
+LOCATION	Pacific
+LOCATION	South Sea
+PERSON	Kory Kory
+PERSON	Marheyo
+PERSON	Fayaway
+PERSON	Fayaway
+LOCATION	Naples
+PERSON	Fayaway
+LOCATION	Rome
+LOCATION	Mehevi
+PERSON	Whittington
+LOCATION	Typee
+LOCATION	Gallipagos
+LOCATION	South Seas
+LOCATION	Sandwich Islands
+ORGANIZATION	Society
+LOCATION	America
+LOCATION	Typee
+PERSON	Narnee
+LOCATION	America
+LOCATION	England
+PERSON	Dibdin
+PERSON	Jack Birds
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Marheyo
+PERSON	Kory Kory
+PERSON	Mehevi
+PERSON	Karky
+PERSON	Karky
+PERSON	Karky
+LOCATION	Pacific
+PERSON	Toby
+PERSON	Mehevi
+PERSON	Toby
+LOCATION	Cape Horn
+LOCATION	Tior
+LOCATION	Ropo
+LOCATION	Marquesas Islands
+PERSON	Mehevi
+LOCATION	Fayaway
+LOCATION	Fayaway
+PERSON	Mehevi
+LOCATION	Mehevi
+PERSON	Kory Kory
+LOCATION	South Sea
+LOCATION	Providence
+PERSON	Karky
+PERSON	Fayaway
+PERSON	Kory Kory
+PERSON	Toby
+PERSON	Marheyo
+PERSON	Kory Kory
+LOCATION	Marheyo
+PERSON	Kory Kory
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Mehevi
+PERSON	Narmonee
+PERSON	Marheyo
+PERSON	Kory Kory
+PERSON	Marheyo
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Marheyo
+PERSON	Kory Kory
+PERSON	Kory Kory
+LOCATION	Fayaway
+LOCATION	Nukuheva
+PERSON	Kory Kory
+PERSON	Mehevi
+PERSON	Kory Kory
+PERSON	Marnoo
+LOCATION	Pueearka
+PERSON	Kannaka
+PERSON	Kannaka
+PERSON	Pueearka
+PERSON	Pueearka Kannaka
+PERSON	Marnoo
+PERSON	Marnoo
+PERSON	Marheyo
+LOCATION	Pueearka
+PERSON	Marnoo
+PERSON	Tommo Wai
+PERSON	Kory Kory
+PERSON	Marnoo
+PERSON	Kory Kory
+PERSON	Marheyo
+LOCATION	Fayaway
+PERSON	Kory Kory
+LOCATION	Marnoo
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Mehevi
+PERSON	Kory Kory
+PERSON	Toby
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Toby
+PERSON	Toby
+PERSON	Marheyo Mow Mow Kory Kory
+PERSON	Tinor
+PERSON	Toby
+PERSON	Kory Kory
+PERSON	Marheyo
+PERSON	Fayaway
+PERSON	Kory Kory
+LOCATION	Karakoee
+PERSON	Oahu Kannaka
+PERSON	Kannaka
+PERSON	Karakoee
+LOCATION	Karakoee
+PERSON	Roo
+PERSON	Roo
+PERSON	Kannaka
+PERSON	Karakoee
+PERSON	Marheyo Kory Kory
+PERSON	Fayaway
+LOCATION	Marheyo
+PERSON	Kory Kory
+LOCATION	Fayaway
+PERSON	Karakoee
+PERSON	Marheyo
+PERSON	Kory Kory
+PERSON	Kory Kory
+PERSON	Marheyo
+PERSON	Fayaway
+PERSON	Kannaka
+PERSON	Karakoee
+PERSON	Roo
+PERSON	Roo
+PERSON	Nukuheva
+PERSON	Karakoee
+PERSON	Typee
+PERSON	Kannaka
+LOCATION	Marnoo
+PERSON	Karakoee
+PERSON	Nukuheva
+PERSON	Julia
+PERSON	Toby
+PERSON	Typee
+LOCATION	South Seas
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Happar Happar
+PERSON	Toby
+PERSON	Marheyo
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Toby
+PERSON	Moee
+PERSON	Toby
+PERSON	Toby
+LOCATION	Nukuheva
+LOCATION	Mowanna
+PERSON	Jimmy In
+LOCATION	Manilla
+LOCATION	Nukuheva
+PERSON	Paul Pry
+PERSON	Jimmy
+PERSON	Toby The
+PERSON	Jimmy
+PERSON	Mowanna
+PERSON	Toby
+PERSON	Jimmy
+LOCATION	Nukuheva
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Toby
+PERSON	Jimmy
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Typee Mortarkee
+PERSON	Mortarkee muee
+PERSON	Toby She
+LOCATION	Nukuheva
+PERSON	Jimmy
+PERSON	Toby
+LOCATION	Nukuheva
+PERSON	Tommo
+PERSON	Toby
+PERSON	Nukuheva
+PERSON	Jimmy
+PERSON	Jimmy
+LOCATION	Nukuheva
+PERSON	Toby
+PERSON	Fayaway
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Typee
+PERSON	Toby
+PERSON	Jimmy
+LOCATION	Happar
+PERSON	Nukuheva
+PERSON	Toby
+PERSON	Marheyo
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Jimmy
+PERSON	Toby
+LOCATION	Nukuheva
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Toby
+LOCATION	Happar
+PERSON	Toby
+PERSON	Typee
+PERSON	Jimmy
+PERSON	Typee
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Toby
+PERSON	Happars
+PERSON	Jimmy
+LOCATION	Nukuheva
+PERSON	Mowanna
+PERSON	Toby
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Toby
+PERSON	Jimmy
+PERSON	Jimmy
+PERSON	Toby
+PERSON	Tommo
+PERSON	Toby
+PERSON	Toby
+LOCATION	New Zealand
+PERSON	Toby
+LOCATION	Tahiti
+LOCATION	Tahiti
+LOCATION	America
+LOCATION	Sandwich Islands
+PERSON	George Paulet
+LOCATION	Oahu
+LOCATION	Honolulu
+LOCATION	Boston
+LOCATION	United States
+PERSON	Charlton
+PERSON	Judd
+LOCATION	England
+PERSON	Charlton
+LOCATION	Valparaiso
+PERSON	Thomas
+LOCATION	Pacific
+PERSON	George Paulet
+LOCATION	Carysfort
+PERSON	Paulet
+PERSON	Judd
+LOCATION	London
+PERSON	Paulet
+PERSON	George Paulet
+LOCATION	Sandwich Islands
+PERSON	Paulet
+LOCATION	Connecticut
+LOCATION	Honolulu
+PERSON	Paulet
+PERSON	Kekuanoa
+LOCATION	Oahu
+ORGANIZATION	Hawaiian Church
+LOCATION	Dublin
+PERSON	Thomas
+LOCATION	Honolulu
+LOCATION	Punchbowl Hill
+PERSON	Kammahammaha III
+LOCATION	Honolulu
+LOCATION	Honolulu
+LOCATION	Honolulu
+LOCATION	Kekuanoa
+LOCATION	America
+PERSON	Paulet
+PERSON	George Paulet

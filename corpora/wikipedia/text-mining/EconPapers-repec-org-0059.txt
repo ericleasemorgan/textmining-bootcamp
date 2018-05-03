@@ -1,0 +1,155 @@
+
+  	 	[image: EconPapers]	 	 
+	[image: Economics at your fingertips]	 
+	
+        EconPapers Home
+        
+About EconPapers
+        
+Working Papers
+        
+Journal Articles
+        
+Books and Chapters
+        
+Software Components
+        
+Authors
+        
+JEL codes
+        
+New Economics Papers
+        
+        
+Advanced Search
+
+        
+          
+                
+
+                
+          
+
+        
+
+        EconPapers FAQ
+        
+Archive maintainers FAQ
+        
+Cookies at EconPapers
+        
+        
+Format for printing
+        
+The RePEc blog
+        
+The RePEc plagiarism page
+        
+
+
+      	
+       
+      	
+        	
+
+
+[image: ]
+
+
+Integrating the Voice of Customers through Call Center Emails into a Decision Support System for Churn Prediction
+
+
+Kristof Coussement () and 
+Dirk Van den Poel ()
+
+
+
+Working Papers of Faculty of Economics and Business Administration, Ghent University, Belgium from  Ghent University, Faculty of Economics and Business Administration
+
+Abstract:
+We studied the problem of optimizing the performance of a DSS for churn prediction. In particular, we investigated the beneficial effect of adding the voice of customers through call center emails – i.e. textual information - to a churn prediction system that only uses traditional marketing information. We found that adding unstructured, textual information into a conventional churn prediction model resulted in a significant increase in predictive performance. From a managerial point of view, this integrated framework helps marketing-decision makers to identify customers most prone to switch. Consequently, their customer retention campaigns can be targeted effectively because the prediction method is better at detecting those customers who are likely to leave.
+
+Keywords: customer relationship management (CRM); data mining; churn prediction; text mining; call center email; voice of customers (VOC); binary classification modeling (search for similar items in EconPapers)
+
+New Economics Papers: this item is included in nep-ict and nep-mkt
+
+Date: 2008-02
+
+References: Add references at CitEc 
+Citations View citations in EconPapers (9) Track citations by RSS feed
+
+
+Downloads: (external link)
+http://wps-feb.ugent.be/Papers/wp_08_502.pdf (application/pdf)
+
+
+
+Related works:
+This item may be available elsewhere in EconPapers: Search for items with the same title.
+
+Export reference: BibTeX 
+RIS (EndNote, ProCite, RefMan) 
+HTML/Text
+
+
+
+
+
+Persistent link: https://EconPapers.repec.org/RePEc:rug:rugwps:08/502
+
+
+Access Statistics for this paper
+
+More papers in Working Papers of Faculty of Economics and Business Administration, Ghent University, Belgium  from  Ghent University, Faculty of Economics and Business Administration Contact information at EDIRC.
+Bibliographic data for series maintained by Nathalie Verhaeghe ().
+
+
+	 
+
+
+
+Share
+
+
+
+
+
+
+            
+
+
+
+
+      
+	
+        
+[image: RePEc]
+
+        This site is part of RePEc
+        and all the data displayed here is part of the RePEc data set.
+
+        Is your work missing from RePEc? Here is how to 
+        contribute.
+        
+Questions or problems? Check the EconPapers FAQ or send mail to .
+        
+[image: Örebro University]EconPapers is hosted by the
+        Örebro University School of Business.
+        
+
+
+      
+	
+
+
+Page updated 2018-03-30
+      
+	
+
+Handle: RePEc:rug:rugwps:08/502
+      
+
+				            		
+
+
+

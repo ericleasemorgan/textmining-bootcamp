@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="shortcut icon" type="image/ico" href="http://voyant-tools.org/resources/voyant/favicon.ico" />
+
+<!-- EXTJS CLASSIC -->
+<script type="text/javascript" src="http://voyant-tools.org/resources/ext/6.2.0/ext-all.js"></script>
+<script type="text/javascript" src="http://voyant-tools.org/resources/ext/6.2.0/charts.js"></script>
+<link rel="stylesheet" type="text/css" href="http://voyant-tools.org/resources/ext/6.2.0/charts-all.css" />
+<script type="text/javascript" src="http://voyant-tools.org/resources/ext/6.2.0/theme-crisp/theme-crisp.js"></script>
+<link rel="stylesheet" type="text/css" href="http://voyant-tools.org/resources/ext/6.2.0/theme-crisp/resources/theme-crisp-all_1.css" />
+<link rel="stylesheet" type="text/css" href="http://voyant-tools.org/resources/ext/6.2.0/theme-crisp/resources/theme-crisp-all_2.css" />
+<script type="text/javascript" src="http://voyant-tools.org/resources/ext/6.2.0/ux.js"></script>
+<link rel="stylesheet" type="text/css" href="http://voyant-tools.org/resources/ext/6.2.0/theme-crisp/resources/ux-all-debug.css" />
+
+<!-- EXTJS MODERN -->
+<!--
+<script type="text/javascript" src="/resources/ext/6.2.0-modern/ext-modern-all.js"></script>
+<script type="text/javascript" src="/resources/ext/6.2.0-modern/charts.js"></script>
+<link rel="stylesheet" type="text/css" href="/resources/ext/6.2.0-modern/charts-all.css" />
+<script type="text/javascript" src="/resources/ext/6.2.0-modern/theme-material/theme-material.js"></script>
+<link rel="stylesheet" type="text/css" href="/resources/ext/6.2.0-modern/theme-material/resources/theme-material-all.css" />
+<script type="text/javascript" src="/resources/ext/6.2.0-modern/ux.js"></script>
+<link rel="stylesheet" type="text/css" href="/resources/ext/6.2.0-modern/ux-all-debug.css" />
+-->
+
+<!-- jQuery -->
+<script type="text/javascript" src="http://voyant-tools.org/resources/jquery/current/jquery.min.js"></script>
+<script type="text/javascript" src="http://voyant-tools.org/resources/jquery/current/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://voyant-tools.org/resources/jquery/current/jquery-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="http://voyant-tools.org/resources/jquery/current/jquery-ui.theme.min.css" />
+
+<!-- D3 -->
+<script type="text/javascript" src="http://voyant-tools.org/resources/d3/current/d3.min.js"></script>
+<script type="text/javascript" src="http://voyant-tools.org/resources/cirrus/html5/d3.layout.cloud.js"></script>
+
+<!-- vis.js -->
+<script type="text/javascript" src="http://voyant-tools.org/resources/visjs/vis.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://voyant-tools.org/resources/visjs/vis.min.css" />
+
+<!-- ACE Editor (used by Spyral and the widget.codeeditor -->
+<script src="http://voyant-tools.org/resources/ace/2017-04-16/src-noconflict/ace.js"></script>
+
+<!-- FontAwesome -->
+<link rel="stylesheet" type="text/css" href="http://voyant-tools.org/resources/fontawesome/current/css/font-awesome.min.css" />
+
+<!-- spectrum -->
+<script type="text/javascript" src="http://voyant-tools.org/resources/spectrum/spectrum.js"></script>
+<link rel="stylesheet" type="text/css" href="http://voyant-tools.org/resources/spectrum/spectrum.css" />
+
+<link rel="stylesheet" type="text/css" href="http://voyant-tools.org/resources/css/styles.css" />
+
+
+
+<script type="text/javascript" src="http://voyant-tools.org/resources/voyant/current/voyant.jsp?v=2.4-M5pr3"></script>
+<script type="text/javascript" src="http://voyant-tools.org/resources/voyant/current/voyant-locale.jsp?v=2.4-M5pr3&amp;lang=en"></script>
+
+
+<!-- <script>
+	Ext.Loader.setConfig({
+		enabled : true,
+		paths : {
+			'Voyant' : 'app',
+			'resources': 'resources'
+		}
+	});
+</script>
+ -->
+<script>
+Ext.onReady(function(){
+	Ext.application({
+		extend : 'Voyant.VoyantDefaultApp',
+		name: 'VoyantDefaultApp',
+		config: {
+			baseUrl: '//voyant-tools.org/',
+			version: '2.4',
+			build: 'M5pr3',
+			openMenu: '',
+			allowInput: ''
+		},
+		launch: function() {
+		   	var me = this;
+			this.callParent(arguments);
+
+			if (window.location.hostname==='beta.voyant-tools.org') {
+				var viewport = this.getViewport();
+				viewport.mask();
+				Ext.create('Ext.window.Window', {
+				    title: 'Voyant Tools 2.0',
+			    	margin: '20 200 10 10',
+				    modal: true,
+				    maxWidth: 420,
+				    layout: 'fit',
+				    items: [{
+				    	margin: '10 5 3 10',
+					    layout: 'fit',
+					    scrollable: true,
+					    html: "<p style='color: red; font-weight: bold;'>Please note that this is the beta server and you should not count on corpora persisting (for bookmarks, embedding, etc.)."
+				    }],
+				    bbar: [{
+				    	xtype: 'button',
+		                glyph: 'xf00c@FontAwesome',
+		                ui: 'default',
+				    	width: '100%',
+				    	scale: 'medium',
+				    	text: 'Continue',
+				    	handler: function(btn) {
+				    		btn.up('window').close();
+				    	}
+				    }],
+				    listeners: {
+					    beforerender: function(panel) {
+					    	panel.items.get(0).setMaxHeight(me.getApplication().getViewport().getHeight()-150);
+						},
+				    	close: function(panel) {
+				    		viewport.unmask();
+				    	}
+				    }
+				}).show();
+			}
+		}
+	});
+});
+</script>
+<title>Voyant Tools</title>
+<script>
+if (Ext) {
+	Ext.onReady(function () {
+		Ext.get("pageloading").hide();
+	});
+}
+</script>
+</head>
+<body>
+<div id="pageloading"><span class="title">Voyant Tools</span><span class="logo"></span></div>
+<script type="text/javascript">
+var isLocalHost = window.location.hostname=='localhost' || window.location.hostname=='127.0.0.1';
+if (!isLocalHost) { // only do google analytics if we're apparently not running locally
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+<script type="text/javascript">
+if (!isLocalHost) {
+	try {
+	var pageTracker = _gat._getTracker("UA-957935-3");
+	pageTracker._trackPageview();
+	} catch(err) {}
+}</script>
+</body>
+</html>

@@ -1,0 +1,986 @@
+
+A SIS&T has a long history of striving to increase diversity and enhanceinclusion across boundaries. For example, 30 years ago in 1982, the
+ASIS&T Special Interest Group/International Information Issues (SIG/III)
+was formed to promote international cooperation and communication. 
+Building on this tradition, a Diversity and Inclusion Luncheon was held at
+
+the 2016 ASIS&T Annual Meeting (AM) for the first time. The purpose of the
+luncheon was to celebrate diversity and inclusion and to generate ideas
+regarding how ASIS&T could continue to encourage diversity and support
+inclusion. The luncheon was designed and organized by Annual Meeting co-
+chairs, Diane Sonnenwald and Lauren Harrison. Eight colleagues, Judit Bar-
+Ilan, Harry Bruce, Toni Carbo, Lynn Silipigni Connaway, Ixchel Faniel,
+Sandra Hirsh, Fidelia Ibekwe-SanJuan and Adam Worrall, served as
+discussion leaders at the lunch tables.
+When registering for the Annual Meeting in Copenhagen, attendees had
+
+the option of signing up to attend the luncheon and paying the additional
+luncheon fee of $6.00. Due to space constraints, the number of luncheon
+participants was limited to 50. This number was achieved well before the
+early registration deadline. A sit-down meal was served to facilitate
+discussion during the lunch.
+The luncheon began with a short presentation by Lauren Harrison. She
+
+shared a common definition of diversity: “knowing how to relate to those
+qualities and conditions that are different from our own and outside the
+groups to which we belong, yet are present in other individuals and groups.
+These include but are not limited to age, ethnicity, class, gender, physical
+abilities/qualities, race, sexual orientation, as well as religious status, gender
+expression, educational background, geographic location, nationality,
+
+Feature
+
+2016 ASIS&T ANNUAL MEETING  
+
+Diversity and Inclusion Luncheon: Report and Recommendations
+by Diane H. Sonnenwald, Lauren Harrison, Judit Bar-Ilan, Harry Bruce, Toni Carbo, Lynn Silipigni Connaway, 
+Ixchel Faniel, Sandra Hirsh, Fidelia Ibekwe-SanJuan and Adam Worrall
+
+CON T E N T S
+
+EDITOR’S SUMMARY
+ASIS&T has continuously worked to enhance diversity and inclusion over its long
+history, including the formation of the Special Interest Group/International
+Information Issues and the name change from the American Society for Information
+Science and Technology to the Association for Information Science and Technology.
+During the 2016 ASIS&T Annual Meeting (AM), a Diversity and Inclusion Luncheon
+was held to promote discussion and ideas of new ways for ASIS&T to promote
+diversity. Attendees of the luncheon were asked to share positive personal
+experiences with diversity, as well as share ideas for how to bolster diversity and
+inclusion in future AMs and for ASIS&T as an organization. Suggestions include the
+meeting being held outside of North America more frequently, inclusion of mentor
+programs for papers and new attendees of AMs, removing North American-centric
+language from communications and more ASIS&T board members from other
+continents. The suggestions were recommended to the ASIS&T Board for further
+discussion.
+
+KEYWORDS
+
+Association for Information Science & Technology
+
+cultural diversity
+
+international aspects
+
+meetings
+
+special interest groups
+
+The authors of this piece are all active members of ASIS&T, having served in
+numerous positions throughout the organization. They designed and organized the
+luncheon and follow-up activities described in the article.
+
+NEX T  PAGE  >< PRE V I OUS  PAGE
+
+B
+U
+
+LL
+E
+
+T
+IN
+
+ O
+F 
+
+T
+H
+
+E
+ A
+
+S
+S
+
+O
+C
+
+IA
+T
+
+IO
+N
+
+ F
+O
+
+R
+ I
+
+N
+FO
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+LO
+
+G
+Y
+
+– 
+JU
+
+N
+E
+
+/J
+U
+
+LY
+ 2
+
+0
+1
+
+7
+–
+
+V
+O
+
+LU
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+39
+
+
+
+income, marital status, parental status and work experiences” (for example,
+see https://las.iastate.edu/about-the-college/diversity/; www.cpf.navy.mil/
+subsite/diverse/what_is_diversity.shtml). Diversity and inclusion also
+include knowing how to relate to those with different accents and speech
+patterns. An example of ASIS&T embracing diversity is its name change to
+Association for Information Science & Technology which was overwhelming
+supported by ASIS&T members.
+During the lunch, participants were asked to share personal experiences or
+
+knowledge about experiences, where diversity and inclusion had a positive
+impact and to brainstorm ideas regarding mechanisms to further increase
+diversity and inclusion at the Annual Meeting and throughout ASIS&T.
+Highlights from these discussions are presented in the following sections.
+
+Experiences in Diversity
+Discussions regarding experiences where diversity and inclusion had a
+
+positive impact included many different types of diversity, such as class, physical
+abilities, health and age, accents, speech, educational background, marital
+status of parents, work experiences, race and gender diversity. Examples
+included multi-disciplinary teams, and work groups comprising individuals
+with different levels of academic degrees and experience, for example,
+bachelors, masters and doctoral degrees as well as post-doctoral fellows. Other
+experiences involved incorporating different traditions of philosophy and
+theory into research projects, as well as different definitions of information. 
+Cultural diversity experiences were also shared. Meeting outside North
+
+America and having the opportunity to meet more attendees from different
+places was mentioned as a positive example. Differences with respect to
+intellectual property were noted, for example, intellectual property may not
+be a relevant or supported concept in oral cultures.
+One lunch participant recalled her first New Members Brunch in 2009 as
+
+a fabulous experience. Before the brunch, the participant only knew names of
+well-known contributors to the field and had never met or spoken to them.
+At the brunch, everyone formed two circles, one within the other. There were
+five questions, not conference-related, and you asked those around you these
+questions. This was an opportunity to be drawn in even as an outsider and
+
+meet people in the field, and the experience encouraged her to come back
+regardless of other diversity barriers such as distance, money, ethnic minority.
+
+Suggestions to Increase Diversity and Inclusion at the ASIS&T
+Annual Meeting
+Location, location, location. Several participants suggested that the AM
+should continue to be held outside North America, perhaps on a rotating
+basis as done with other conferences such as SIGIR, the iConference and the
+Association for Digital Humanities. Holding an AM in China was proposed.
+Participants further suggested that the AM explore co-sponsorship with local
+organizations, provide more information to attendees regarding the host city,
+country and culture, and consider holding some events in local university or
+other nearby venues (which may also reduce costs). Web casting sessions to
+help those who cannot physically attend the AM was also suggested.
+
+Language. Language matters; there should be no or limited use of
+abbreviations, acronyms and American-based terms. Many new attendees at
+the AM, even those for whom English is their first language, did not
+understand many SIG acronyms used at the SIG Rush event, nor even
+understand the terms Rush or SIG CON. It was also noted that at some
+events, such as the New Members Brunch, presentations and other activities
+can be difficult to understand when the sound system is not of high quality
+and/or speakers talk quickly.
+It was recommended that the paper mentoring service for the AM be
+
+continued and perhaps expanded to provide a longer and more intensive
+interaction between authors and mentors, with the expectation that mentors
+would become co-authors. The mentoring service could also be extended to
+include posters and panel submissions, with guidance regarding mentoring
+provided.
+Another suggestion was to allow opportunities for presentations in
+
+languages other than English and/or to loosen submission review criteria
+with respect to requiring polished written English and provide editing, or
+even translation, assistance. Could there be a forum in which it is possible to
+ask members who are proficient in English for help with writing and
+speaking English?
+
+S O N N E NWA L D ,  H A R R I S O N ,  B A R - I L A N ,  B R U C E ,  C A R B O ,  C O N N AWAY,  F A N I E L ,  H I R S H ,  I B E K W E - S A N J U A N  A N D  W O R R A L L ,  c o n t i n u e d
+
+Feature
+
+CON T E N T S NEX T  PAGE  >< TOP  O F  A RT I C L E < PRE V I OUS  PAGE
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+40
+
+www.cpf.navy.mil/subsite/diverse/what_is_diversity.shtml
+www.cpf.navy.mil/subsite/diverse/what_is_diversity.shtml
+https://las.iastate.edu/about-the-college/diversity/
+
+
+Information sharing. Providing AM mentors to first time attendees was
+proposed. These mentors could help attendees better navigate and
+understand the AM, especially when a student’s advisor does not attend the
+AM. [Note: Sonnenwald presented an overview/introduction of the AM to
+students in Taipei, highlighting differences between the AM and conferences
+in Taiwan. Perhaps SIG/III could hold a webinar with members from
+different countries who can highlight differences they have found. If such a
+webinar could be promoted on the AM web page, first time attendees could
+get some insights into the AM in advance.]
+It was also suggested that the “2-minute madness” in which paper and
+
+panel authors presented two-minute overviews of their papers or panels be
+brought back. This event would allow individuals to promote their sessions
+and provide a good overview of ideas and topics to attendees.
+Another suggestion focused on bringing back “birds of a feather” dinners
+
+or other social events that brought people together to share information.
+Birds of a feather dinners could perhaps be scheduled to take place after the
+SIG Rush event.
+Other suggestions included using QR codes (quick response codes) to
+
+facilitate exchanging slides and contact information, etc., and having one or
+more “open mic” periods. For example, one might be15 minutes in length,
+offering individuals 1 minute to introduce other events and activities and
+celebrating diversity of ideas and activities. 
+Still another suggestion was to increase contribution formats, such as to
+
+have a un-conference event, additional bar camps and/or interactive
+experiences/sessions such as those at iConferences.
+
+Participation of practitioners. It was recommended that participation
+of practitioners at the AM would increase diversity. Ideas regarding how to
+encourage practitioners to participate included inviting practitioners and
+professors of practice to come as speakers and holding workshops where
+practitioners and academics jointly explore issues. Professors of practice are
+individuals working in academia who have experience and expertise in work
+practices. In different countries, a variety of terms are used for these types of
+position.
+
+Perhaps a separate practitioner “track” at the AM could be established, to
+provide more balance between theoretical and applied presentations. SIGs
+that are more practice-oriented could be enlisted to draw practitioners to
+submit to a practitioner track.
+
+Additional activities for students. The issue of masters-degree student
+participant at the AM was raised. It was suggested that SIG/ED could have a
+valuable role in developing relationships between masters students and
+academics. For instance, SIG/ED could sponsor panels that discuss topics
+pertinent to master students such as “After your masters” and “Getting your
+Ph.D.” 
+Not unexpectedly, more funding for students to attend the AM was raised.
+
+Another suggestion was providing an early career discounted registration
+fee, analogous to the existing transitional membership fee discount.
+
+Increase visibility and celebration of diversity at the AM.
+Diversity/inclusion guidance for creating and reviewing panels could be
+provided, and perhaps diversity with respect to panel composition could be a
+requirement or included as a review criterion. Panels could be asked to
+address diversity in their proposals, with proposers suggesting which type of
+diversity their panel includes. For example, diversity could be considered
+from participant perspective (panelists come from different cultures) or from
+a topic perspective, e.g., a panel on diverse definitions of information found
+in library and information science, information technology and philosophy.
+Plenary topics and speakers should continue to reflect diversity and
+
+regionalism, and the diversity and inclusion lunch should continue. In
+addition, holding a multi-cultural/diversity talent show in conjunction with
+the SIG/III international reception or SIG/CON could help celebrate diversity.
+
+Suggestions to Increase Diversity and Inclusion Throughout
+ASIS&T
+Increased international competence of staff. It was mentioned that it
+would be helpful for Headquarters staff to increase their knowledge and
+competence with respect to multiple international perspectives, including
+different sensitivities, ways of working, organizational structures and
+
+S O N N E NWA L D ,  H A R R I S O N ,  B A R - I L A N ,  B R U C E ,  C A R B O ,  C O N N AWAY,  F A N I E L ,  H I R S H ,  I B E K W E - S A N J U A N  A N D  W O R R A L L ,  c o n t i n u e d
+
+Feature
+
+CON T E N T S NEX T  PAGE  >< TOP  O F  A RT I C L E < PRE V I OUS  PAGE
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+41
+
+
+
+practices, and methods of communication. For example, certificates for
+chairing committees, etc., are meaningful in the North America context but
+not so meaningful in other contexts. Recipients should be asked whether
+other forms of recognition would be helpful for their careers. For example, in
+some situations an appreciation letter or email sent to a member’s director
+carries more weight in both academic and business settings than a
+certificate. In other cultures and situations, a personal gift is valued.
+Furthermore, language and terms that are North America-centric should
+
+be eliminated from ASIS&T communications. For example, using names
+such as the “National Office” are confusing and/or discouraging to members
+and potential members outside the United States. 
+
+Increased international participation in governance. Lunch
+participants suggested that the Board consider ways that Board membership
+could better reflect the international composition of the membership and
+ASIS&T’s goals for international participation. For example, could there be a
+requirement that there is at least one Board member from every continent?
+This may require a change to the ASIS&T constitution or bylaws and require
+virtual board meeting attendance in conjunction with the current face-to-
+face board meetings. It was noted that even if members were from outside
+North America originally, when they have lived and worked in North America
+for several years, their perspectives often change and may become North
+American-centric. Although recently several international candidates have
+not been elected, perhaps this could be solved by having members from each
+geographic region elect a board member from their region.
+Another proposal was that ASIS&T should grow leadership in different
+
+regional areas and explore how synergies between student and regional
+chapters could be increased, allowing perhaps for new combinations of
+student and regional chapters.
+
+Increased communications to an international audience. The
+ASIS&T website and listserv should continue to promote and value plurality
+of voices; for example, a person from a different country or continent could
+be featured each month. The person would not have to be famous or be a
+luminary.
+
+ASIS&T should further promote or advertise the new membership fee
+structure and membership benefits. Benefits that are not applicable outside
+North America should be examined and corresponding benefits for
+international members found. The ASIS&T brochures written in a variety of
+languages should be re-instated.
+There should be better communication regarding ASIS&T communication
+
+mechanisms. Many do not know how to sign up for newsletters and SIGs.
+Can any member post to ASIS&T social media sites, and if so, how?
+
+Increased visibility and consideration of diversity throughout
+ASIS&T. ASIS&T should develop a code of conduct and inclusion. 
+The award processes, including nomination processes, should be more
+
+transparent and inclusive. For some awards, it is difficult for those outside
+North America to understand the requirements.
+A membership survey should be conducted on an annual basis and
+
+include questions regarding diversity and inclusion. Perhaps a survey could
+be included as a component of the membership renewal process.
+ASIS&T should look for best practice examples with respect to diversity and
+
+inclusion in other professional and scholarly organizations. For example, the
+British Computer Society recently offered a one-year free student membership
+to students in developing countries. Perhaps ASIS&T could do this as well.
+
+Summary Recommendations
+Diversity and inclusion take time and effort, but ultimately make us wiser
+
+and stronger as an organization and as individuals. Best practices with respect
+to diversity and inclusion should be integrated throughout all components of
+ASIS&T, continually building on ASIS&T’s strengths and past successes with
+respect to diversity and inclusion and forming a more perfect association.
+We recommend that diversity and inclusion be a high priority for ASIS&T.
+To help achieve this, we respectfully recommended the following to the
+
+ASIS&T Board:
+
+� Board liaisons should share this report with their respective committees 
+and task force groups and discuss how they can incorporate pertinent 
+aspects into their work 
+
+S O N N E NWA L D ,  H A R R I S O N ,  B A R - I L A N ,  B R U C E ,  C A R B O ,  C O N N AWAY,  F A N I E L ,  H I R S H ,  I B E K W E - S A N J U A N  A N D  W O R R A L L ,  c o n t i n u e d
+
+Feature
+
+CON T E N T S NEX T  PAGE  >< TOP  O F  A RT I C L E < PRE V I OUS  PAGE
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+42
+
+
+
+� A task force should be established to identify priorities and specific actions
+to be taken by the Board, SIGs, chapters, AM chairs and/or other members
+in discussions with them to enhance diversity and inclusion. The task force
+should also determine how practices could be reviewed and enhanced with
+regard to diversity and inclusion on an ongoing basis. We further recommend
+that the task force complete these tasks within a one-year time frame.
+
+� The Board should discuss this report with Headquarters staff, asking 
+them to develop and implement plans to further support diversity and 
+inclusion among membership.
+
+It is useful to continually, or at least periodically, reconsider our
+
+understanding and practices with respect to diversity and inclusion. When
+crafting solutions, we should be mindful that there can be interconnected
+issues, some of which could be uncovered through conversations with a
+variety of individuals and through meaningful evaluations. The Diversity and
+Inclusion Lunch at the 2016 Annual Meeting enabled new conversation that
+we hope will be continued. 
+
+Acknowledgements
+Our thanks go out to the luncheon attendees who graciously shared their
+
+perspectives and insights and to the individuals, in addition to the co-authors
+of this report, who took notes of the various discussions. �
+
+S O N N E NWA L D ,  H A R R I S O N ,  B A R - I L A N ,  B R U C E ,  C A R B O ,  C O N N AWAY,  F A N I E L ,  H I R S H ,  I B E K W E - S A N J U A N  A N D  W O R R A L L ,  c o n t i n u e d
+
+Feature
+
+CON T E N T S < TOP  O F  A RT I C L E < PRE V I OUS  PAGE
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+43
+
+
+
+

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--> <html lang="en" class="no-js has-comments blog-opinionator section-opinion"  itemscope xmlns:og="//opengraphprotocol.org/schema/"> <!--<![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 has-comments blog-opinionator section-opinion" xmlns:og="//opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 has-comments blog-opinionator section-opinion" xmlns:og="//opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 has-comments blog-opinionator section-opinion" xmlns:og="//opengraphprotocol.org/schema/"> <![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+		<meta name="communityAssetLabels" content="NYT_Blogs" />
+<meta name="communityAssetTaxonomy" content="blogs/opinionator/The Digital Humanities and the Transcending of Mortality" />
+<meta name="communityAssetURL" content="//opinionator.blogs.nytimes.com/2012/01/09/the-digital-humanities-and-the-transcending-of-mortality/" />
+<meta name="PT" content="Blogs" />
+<meta name="PST" content="Blog Post" />
+<meta name="sourceApp" content="blogs" />
+<meta itemprop="identifier" name="blogpostid" content="100000001274882"><meta name="author" content="Stanley Fish" />
+<meta name="CLMST" content="Stanley Fish" />
+<meta name="byl" content="Stanley Fish" />
+<meta name="GBLC" content="Stanley Fish">
+<meta name="PUV" content="normal" />
+<meta property="article:published_time" itemprop="datePublished" content="1326160843" />
+<meta name="PUD" content="20120109" />
+<meta name="pdate" content="20120109" />
+<meta name="ptime" content="20120109210043" />
+<meta name="utime" content="20120110131747" />
+<meta property="article:modified_time" itemprop="dateModified" content="2012-01-10T13:17:47-05:00" />
+<meta name="DISPLAYDATE" content="January 9, 2012" />
+<meta name="dat" content="January 9, 2012" />
+<meta itemprop="articleSection" property="article:section" content="Opinion" />
+<meta name="CG" content="Opinion" />
+<meta name="SCG" content="opinionator" />
+<meta name="BN" content="opinionator" />
+<meta name="robots" content="noodp">
+<meta property="article:tag" content="Stanley Fish" />
+<meta name="keywords" content="Stanley Fish" />
+<link rel="alternate" type="application/json+oembed" href="https://www.nytimes.com/svc/oembed/json/?url=http%3A%2F%2Fopinionator.blogs.nytimes.com%2F2012%2F01%2F09%2Fthe-digital-humanities-and-the-transcending-of-mortality%2F" title="The Digital Humanities and the Transcending of Mortality" />
+<meta name="description" content="Coming to terms with what long-form scholarship in the digital age really means." />
+<meta name="hdl" content="The Digital Humanities and the Transcending of Mortality" />
+<meta property="og:title" content="The Digital Humanities and the Transcending of Mortality" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//opinionator.blogs.nytimes.com/2012/01/09/the-digital-humanities-and-the-transcending-of-mortality/" />
+<meta property="og:site_name" content="Opinionator" />
+<meta property="og:description" content="Coming to terms with what long-form scholarship in the digital age really means." />
+<meta property="og:image" content="https://static01.nyt.com/images/blogs_v5/../icons/t_logo_291_black.png"/>
+<meta name="thumbnail_150" content="https://static01.nyt.com/packages/images/icons/t_logo_300_black.png"/>
+<meta name="twitter:card" value="summary"><meta name="twitter:title" content="The Digital Humanities and the Transcending of Mortality" />
+<meta name="twitter:url" content="//opinionator.blogs.nytimes.com/2012/01/09/the-digital-humanities-and-the-transcending-of-mortality/" />
+<meta name="twitter:description" content="Coming to terms with what long-form scholarship in the digital age really means." />
+<meta name="twitter:image" content="https://static01.nyt.com/packages/images/icons/t_logo_300_black.png"/>
+<meta itemprop="thumbnailUrl" content="https://static01.nyt.com/packages/images/icons/t_logo_300_black.png" name="thumbnail" />
+<meta name="twitter:site" content="@nytopinionator">
+<link rel='prev' title='In the Cave: Philosophy and Addiction' href='https://opinionator.blogs.nytimes.com/2012/01/08/out-of-the-cave-philosophy-and-addiction/' />
+<link rel='next' title='Laugh During Wartime' href='https://opinionator.blogs.nytimes.com/2012/01/09/laugh-during-wartime/' />
+<link rel='canonical' href='opinionator-blogs-nytimes-com-0078.htm' />
+<link rel='shortlink' href='https://nyti.ms/zVY8FD' />
+<link rel='https://github.com/WP-API/WP-API' href='https://opinionator.blogs.nytimes.com/json' />
+<meta name="adxPage" content="blog.nytimes.com/opinionator/post" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://opinionator.blogs.nytimes.com/feed/" />
+<meta property="article:collection" content="https://static01.nyt.com/services/json/sectionfronts/opinion/index.jsonp" />
+<link rel="alternate" href="https://mobile.nytimes.com/blogs/opinionator/2012/01/09/the-digital-humanities-and-the-transcending-of-mortality/" />
+<meta name="dfp-ad-unit-path" content="opinion/opinionator" />			<title>The Digital Humanities and the Transcending of Mortality - The New York Times</title>
+            <!--[if (gt IE 9)|!(IE)]> <!-->
+    <link rel="stylesheet" type="text/css" media="screen" href="https://int.nyt.com/assets/blogs/latest/css/blogs/styles.css" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://int.nyt.com/assets/blogs/latest/css/blogs/styles-ie.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" media="screen" href="https://int.nyt.com/assets/blogs/latest/css/blogs/opinionator.css" />
+<link rel="stylesheet" type="text/css" media="print" href="https://int.nyt.com/assets/blogs/latest/css/blogs/styles-print.css" />
+<script>
+var NYT = NYT || {}, NYTD = NYTD || {};
+</script>
+                        	<script src="https://int.nyt.com/assets/blogs/latest/js/blogs/layout.js"></script>
+	<script type="text/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[],function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(t,o)}();</script>
+<script id="magnum-feature-flags" type="application/json">["limitFabrikSave","facebookOauthButton","videoVHSCover","videoVHSShareTools","videoVHSEmbeddedOnly","removeInternationalEdition","piiBlockDFP","indexAsHeaderBidder","caslOpt"]</script>
+<script>
+var require = {
+    baseUrl: 'https://int.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'blogs/latest/js/foundation',
+        'shared': 'blogs/latest/js/shared',
+        'blogs': 'blogs/latest/js/blogs',
+        'auth/mtr': 'https://static01.nyt.com/js/mtr',
+        'auth/growl': 'https://static01.nyt.com/js/auth/growl/default',
+        'vhs': 'https://static01.nyt.com/video/vhs/build/vhs-2.x.min'
+    }
+};
+</script>
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="https://int.nyt.com/assets/blogs/latest/js/foundation/lib/framework.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>
+require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
+</script>
+<script data-main="foundation/legacy_main" src="https://int.nyt.com/assets/blogs/latest/js/foundation/lib/framework.js"></script>
+<![endif]-->
+<script>
+require(['foundation/main'], function () {
+    require(['auth/mtr']);
+});
+</script>
+<!--esi
+<script id="user-info-data" type="application/json">
+<esi:include src="/svc/web-products/userinfo-v3.json" />
+</script>
+-->
+    	</head><body class="single single-post postid-117595 blog-universal nyt-blog-opinionator" id="" data-env="production" data-region="ewr1">
+	<div id="shell" class="shell">
+			<header id="masthead" class="masthead masthead-theme-standard" role="banner">
+    <div class="container">
+        <div class="quick-navigation button-group">
+            <button class="button sections-button"><i class="icon sprite-icon"></i><span class="button-text">Sections</span></button>
+            <button class="button home-button" data-href="https://www.nytimes.com/" title="Go to the home page to see the latest top stories."><i class="icon sprite-icon"></i>
+                <span class="button-text">Home</span>
+            </button>
+            <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <a class="button skip-button skip-to-content visually-hidden focusable" href="opinionator-blogs-nytimes-com-0078.htm#main">Skip to content</a>
+                                </div><!-- close button-group -->
+        <div class="branding">
+            <h2 class="branding-heading">
+                <a id="branding-heading-link" href="https://www.nytimes.com/">
+                    <span class="visually-hidden">The New York Times</span>
+                </a>
+            </h2>
+            <script>window.magnum.writeLogo('small', 'https://int.nyt.com/assets/blogs/latest/images/foundation/logos/', 'Opinion', 'masthead-theme-standard', 'standard', 'branding-heading-link', 'blogs');</script>
+        </div><!-- close branding -->
+        <div class="story-meta">
+    <h6 class="kicker">
+        <span class="kicker-label">
+			            <a href="https://opinionator.blogs.nytimes.com/">
+                Opinionator            </a>
+			        </span>
+
+                <span class="pipe">|</span>
+        The Digital Humanities and the Transcending of Mortality        
+    </h6>
+</div><!-- close story-meta -->
+
+
+        <div class="user-tools">
+            <div id="Bar1" class="ad bar1-ad nocontent robots-nocontent"></div>
+            <div id="sharetools-masthead" class="sharetools theme-classic"
+	 data-shares="email,facebook,twitter,show-all|More"
+	 data-url="//opinionator.blogs.nytimes.com/2012/01/09/the-digital-humanities-and-the-transcending-of-mortality/"
+	 data-title="The Digital Humanities and the Transcending of Mortality"
+	 data-description="&lt;span class=&quot;excerpt-inner&quot;&gt;Coming to terms with what long-form scholarship in the digital age really means.&lt;/span&gt;&lt;a href=&quot;//opinionator.blogs.nytimes.com/2012/01/09/the-digital-humanities-and-the-transcending-of-mortality/&quot; class=&quot;more-link&quot;&gt;Read&nbsp;more...&lt;/a&gt;"
+	data-publish-date="January 9, 2012 9:00 pm">
+<div class="ad sharetools-inline-article-ad hidden"></div>
+</div><!-- close shareTools -->
+            <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <div class="user-tools-button-group button-group">
+                <button class="button subscribe-button hidden" data-href="https://www.nytimes.com/subscriptions/Multiproduct/lp3004.html?campaignId=4XUYF">Subscribe Now</button>
+                <button class="button login-button login-modal-trigger hidden">Log In</button>
+                <button class="button comments-button  button-masthead" data-skip-to-para-id="">
+</button>
+                                <button class="button notifications-button hidden"><i class="icon sprite-icon"></i><span class="button-text">0</span></button>
+                <button class="button user-settings-button"><i class="icon sprite-icon"></i><span class="button-text">Settings</span></button>
+            </div><!-- close user-tools-button-group -->
+        </div><!-- close user-tools -->
+    </div><!-- close container -->
+    <div class="search-flyout-panel flyout-panel">
+    <button class="button close-button" type="button"><i class="icon"></i><span class="visually-hidden">Close search</span></button>
+    <nav class="search-form-control form-control layout-horizontal">
+    <h2 class="visually-hidden">Site Search Navigation</h2>
+    <form class="search-form" role="search">
+        <div class="control">
+            <div class="label-container visually-hidden">
+                                <label for="search-input">Search NYTimes.com</label>
+                            </div>
+            <div class="field-container">
+                                <input id="search-input" name="search-input" type="text" class="search-input text" autocomplete="off" placeholder="Search NYTimes.com" />
+                
+                <button type="button" class="button clear-button" tabindex="-1" aria-describedby="clear-search-input"><i class="icon"></i><span id="clear-search-input" class="visually-hidden">Clear this text input</span></button>
+                <div class="auto-suggest" style="display: none;">
+                    <ol></ol>
+                </div>
+                <button class="button submit-button" type="submit">Go</button>
+            </div>
+        </div><!-- close control -->
+    </form>
+</nav>
+
+
+</div><!-- close flyout-panel -->
+    <div id="notification-modals" class="notification-modals"></div>
+</header>
+					<nav id="ribbon" class="ribbon ribbon-start nocontent robots-nocontent" aria-hidden="true">
+    <div class="nocontent robots-nocontent">
+        <ol class="ribbon-menu">
+            <li class="collection ribbon-loader">
+                <div class="loader "><span class="visually-hidden">Loading...</span></div>
+            </li>
+        </ol>
+        <div class="ribbon-navigation-container">
+            <nav class="ribbon-navigation next">
+                <span class="visually-hidden">See next articles</span>
+                <div class="arrow arrow-right">
+                    <div class="arrow-conceal"></div>
+                </div>
+            </nav>
+            <nav class="ribbon-navigation previous">
+                <span class="visually-hidden">See previous articles</span>
+                <div class="arrow arrow-left">
+                    <div class="arrow-conceal"></div>
+                </div>
+            </nav>
+        </div>
+    </div><!-- close nocontent -->
+</nav>
+						<nav id="navigation" class="navigation">
+    <h2 class="visually-hidden">Site Navigation</h2>
+</nav><!-- close navigation -->
+
+<nav id="mobile-navigation" class="mobile-navigation hidden">
+    <h2 class="visually-hidden">Site Mobile Navigation</h2>
+</nav><!-- close mobile-navigation -->
+
+    <div id="navigation-edge" class="navigation-edge"></div>
+				<main id="main" class="main" role="main">
+				<div id="TopAd" class="ad top-ad"></div>
+				<div id="mobilebanner" class="ad mobilebanner"></div>
+								<div id="story" class="story theme-main">
+		<div id="opinionator" class="spanAC blog">
+			<header id="blogs-masthead" class="wrap">
+	<div class="ad sponsortile-ad hidden nocontent robots-nocontent">
+		<div class="caption">Supported by</div>
+		<div id="sponsortile" class="ad sponsortile-ad-creative"></div>
+	</div>
+			<a href="https://www.nytimes.com/pages/opinion/" class="opinion-kicker">
+			<img src="https://static01.nyt.com/images/blogs_v5/_misc/kicker-opinionpages.png" />
+		</a>
+		<div class="element1">
+	<a href="https://opinionator.blogs.nytimes.com/?module=BlogMain&amp;action=Click&amp;region=Header&amp;pgtype=Blogs&amp;version=Blog&#32;Post&amp;contentCollection=Opinion"><div id="logo" class="archived-blog-post"><div class="w75 left site-header-logo"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/opinionator75.gif" alt="Opinionator"/></div><div class="site-title">Opinionator</div><div class="site-description">A Gathering of Opinion From Around the Web</div></div></a>    </div>
+    <div class="element2">
+    <div class="inlineSearchControl">
+	<form method="get" id="searchform" action="https://opinionator.blogs.nytimes.com/">
+		<input type="text" value="" name="s" id="s" class="text" placeholder="Search Opinionator">
+		<button type="submit" class="searchsubmit">Search</button>
+	</form>
+</div>	</div>
+	<div class="clear"></div>
+		</header>
+	<div class="a-column " id="a-col">
+	<div id="content" class="hfeed">
+	<article class="post-117595 post type-post status-publish hentry category-stanley-fish tag-digital-humanities tag-scholarship tag-the-internet" id="post-117595">
+	<header class="postHeader">
+				<div class="postKicker">
+			<span class="kicker"><a href="https://opinionator.blogs.nytimes.com/category/stanley-fish/?module=BlogCategory&amp;version=Blog&#32;Post&amp;action=Click&amp;contentCollection=Opinion&amp;pgtype=Blogs&amp;region=Header">Stanley Fish</a></span>
+		</div>
+				<h1 itemprop="headline" class="entry-title">The Digital Humanities and the Transcending of Mortality</h1>
+		<div class="story-meta-footer">
+			<address class="byline author vcard" itemprop="author creator" itemtype="//schema.org/Person">
+				By Stanley Fish			</address>
+			<!-- date published --><time class="dateline " datetime="2012-01-10T02:00:43+00:00" itemprop="datePublished">January 9, 2012 9:00 pm</time>
+			<!-- date updated --><span class="visually-hidden updated">January 9, 2012 9:00 pm</span><button class="button comments-button  theme-kicker" data-skip-to-para-id="">
+</button>
+		</div>
+			</header>
+		<div class="entry-content"><p class="story-body-text" itemprop="articleBody"><webonly><div class="inlineModule"><div class="entry"><div class="thumb"><img alt="Stanley Fish" src="https://static01.nyt.com/images/2010/09/16/opinion/Fish_New/Fish_New-custom2.jpg" width="50" height="50"></div><p class="summary"><a href="https://opinionator.blogs.nytimes.com/category/stanley-fish">Stanley Fish</a> on education, law and society.</p></div></div></p>
+<p class="story-body-text" itemprop="articleBody"></webonly>This is a blog. There, I’ve said it. I have been resisting saying it — I have always referred to this space as a “column” — not only because “blog” is an ugly word (as are clog, smog and slog), but because  blogs are provisional, ephemeral, interactive, communal, available to  challenge, interruption and interpolation, and not meant to last; whereas in a professional life now going into its 50th year I have been building arguments that are intended to be decisive, comprehensive, monumental, definitive and, most important, all mine. </p>
+<p class="story-body-text" itemprop="articleBody">In <a href="https://us.penguingroup.com/nf/Book/BookDisplay/0,,9780140170986,00.html?Changing_Places_David_Lodge">“Changing Places&#8221;</a> and <a href="https://us.penguingroup.com/nf/Book/BookDisplay/0,,9780140244861,00.html?Small_World_David_Lodge">&#8220;Small World,”</a>  the novelist David Lodge fashions a comical/satirical portrait of a literary critic named Morris Zapp, whose ambition, as his last name suggests, is to write about a topic with such force and  completeness that no other critic will be able to say a word about it. The job will have been done forever. That has always been my aim, and the content of that aim —  a desire  for pre-eminence, authority and disciplinary power — is  what blogs and the digital humanities  stand against.</p>
+<p class="story-body-text" itemprop="articleBody">The point is made concisely by Kathleen Fitzpatrick in her new book, <a href="https://nyupress.org/books/book-details.aspx?bookid=5008">“Planned Obsolescence: Publishing, Technology, and the Future of the Academy”</a>: “… a blog privileges immediacy — the newest posts appear first on the screen and older posts quickly lose currency…. This emphasis on the present works at cross purposes with much  long-form scholarship, which needs stability and longevity in order to make its points.”<br />
+<span id="more-117595"></span><br />
+As Fitzpatrick well sees, long-form scholarship — books and articles submitted to learned journals and university presses — needs more than that. It needs the interdependent notions of author, text and originality. In the traditional model of scholarship, a credentialed author — someone with a Ph.D. or working toward one — gets an idea (that’s the original part) and applies it to a text or a set of problems, and produces, all by himself, a new text that is offered to readers with the promise that if they follow (that is, submit to) it, they will gain an increase in understanding and knowledge. Fitzpatrick comments: “It is &#8230; not enough that the text be finished; it also has to be new, springing entirely from the head of the author, and always distinguishing itself from the writing of other authors.”</p>
+<p class="story-body-text" itemprop="articleBody">Fitzpatrick contends, first, that authorship has never been thus isolated — one always writes against the background of, and in conversation with, innumerable predecessors and contemporaries who are in effect one’s collaborators — and, second, that the “myth” of the stand-alone, masterful author is exposed for the fiction it is by the new forms of communication — blogs, links, hypertext, re-mixes, mash-ups, multi-modalities and much more — that have emerged with the development of digital technology.  </p>
+<p class="story-body-text" itemprop="articleBody">The effect of these technologies is to transform a hitherto linear experience — a lone reader facing a stable  text provided by an  author who dictates the  shape of reading by doling out information in a sequence he controls — into a multi-directional experience in which voices  (and images) enter, interact and proliferate in ways that decenter the authority of the author who becomes just another participant. Again Fitzpatrick: “we need to think less about completed products and more about text in process; less about individual authorship and more about collaboration; less about originality and more about remix; less about ownership and more about sharing.” </p>
+<p class="story-body-text" itemprop="articleBody">“Text in process” is a bit of  an oxymoron: for if the process is not occurring with an eye toward the emergence of a finished artifact but with an eye toward its own elaboration and complication — more links, more voices, more commentary — the notion of “text” loses its coherence; there is no longer any text  to point to because it “exists” only in a state of perpetual alteration: “Digital text is, above all, malleable &#8230; there is little sense in attempting to replicate the permanence of print [itself an illusion, according to the digital vision] in a medium whose chief value is change.” (Fitzpatrick)</p>
+<p class="story-body-text" itemprop="articleBody">Nor is there any sense in holding on to the concept of  “author,” for as Fitzpatrick observes, “all of the texts published in a network environment will become multi-author by virtue of their interpenetration with the writings of others.” Fitzpatrick insists that there will still be a place for individual authors, but with a difference: the collective, she says, should not be understood as “the elimination of individual, but rather as  …  a fertile community composed of multiple intelligences, each of which is always working in relationship with others.”  </p>
+<p class="story-body-text" itemprop="articleBody">But this is just like “text in process”: if the individual is defined and constituted by relationships, the individual is not really an entity that can be said to have ownership of either its intentions or their effects; the individual is (as poststructuralist theory used to tell us) just a relay through which messages circulating in the network pass and are sent along. Mark Poster draws the moral: “[T]he shift &#8230; to the globally networked computer is a move that elicits a rearticulation of the author from the center of the text to its margins, from the source of meaning to an offering,  a point in a sequence of a continuously transformed matrix of signification” (<a href="https://www.upress.umn.edu/book-division/books/whatas-the-matter-with-the-internet">“What’s the Matter With the Internet?”</a>, 2001).</p>
+<p class="story-body-text" itemprop="articleBody">Meaning everywhere and nowhere, produced not by anyone but by everyone in concert, meaning not waiting for us at the end of a linear chain of authored thought  in the form of a sentence or an essay or a book, but immediately and multiply present in a cornucopia of ever-expanding significances. </p>
+<p class="story-body-text" itemprop="articleBody">There are two things I want to say about this vision: first, that it is theological, a description its adherents would most likely resist, and, second, that it is political, a description its adherents would most likely embrace.</p>
+<p class="story-body-text" itemprop="articleBody">The vision is theological because it promises to liberate us from the confines of the linear, temporal medium in the context of which knowledge is discrete, partial  and situated — knowledge  at this time and this place experienced by this limited being — and deliver us into a spatial universe where knowledge is everywhere available in a full and immediate presence to which everyone has access as a node or relay in the meaning-producing system. In many theologies that is a description of  the condition (to be achieved only when human life ends) in which the self exchanges its limited, fallen perspective for the perspective (not a perspective at all) of union with deity, where there is no distance between the would-be knower and the object of his cognitive apprehension because, in Milton’s words, everyone and everything  is “all in all.”</p>
+<p class="story-body-text" itemprop="articleBody">The obstacle to this happy state is mortality itself. To be mortal is to be capable of dying (as opposed to going on and on and on), and therefore of  having a beginning, middle and end, which is what sentences, narratives and arguments have: you start here and end there with the completed thought or story or conclusion (quod erat demonstrandum). </p>
+<p class="story-body-text" itemprop="articleBody">What both the religious and digital visions offer (if only in prospect) is a steady yet dynamic state where there is movement and change, but no center, no beginning and end,  just all middle (as the novelist Robert Coover saw in his piece <a href="https://www.nytimes.com/books/98/09/27/specials/coover-end.html?scp=1&amp;sq=robert%20coover%20the%20end%20of%20books&amp;st=cse">“The End of Books,”</a> The New York Times, June 21, 1992.) Delivered from linearity, from time-bound, sharply delineated meanings, from mortality, from death, everyone, no longer a one, will revel in and participate in the universal dance, a “mystical dance” of “mazes intricate, / Eccentric, intervolved, yet regular / Then most when most irregular they seem, / And in their motions harmony divine / So smooths her charming tones, that God’s own ear / Listens delighted.” (John Milton, “Paradise Lost,” V,  620, 622-627)</p>
+<p class="story-body-text" itemprop="articleBody">Now, no one in the digital humanities community talks like that, although they do speak, as Fitzpatrick does, of the “impoverished” medium of print (implying the availability of a medium more full and authentic), and they do predict, without very many specifics, a new era of expanding, borderless collaboration in which all the infirmities of linearity will be removed.</p>
+<p class="story-body-text" itemprop="articleBody">Chief among those infirmities are the institutions that operate to keep scholar separated from scholar, readers separate from the creation as well as the consumption of meaning, and ordinary men and women separate from the knowledge-making machinery from which they are excluded  by  the gate-keeping mechanisms of departments, colleges, universities, university presses and  other engines dedicated to the maintaining of the status quo.  </p>
+<p class="story-body-text" itemprop="articleBody">This is the political component of the digital vision, and it is heard when Fitzpatrick writes that “access to the work we produce must be opened up as a site of conversation not just among scholars but also between scholars and the broader culture”; when The Digital Humanities Manifesto 2.0 tells us that while the period since World War II has seen “the proliferation of ever smaller and more rigorous areas of expertise and sub-expertise and the consequent emergence of private languages and specialized jargons,” the digital humanities  “is about integration” and the practice of “digital anarchy”; when Matthew Kirschenbaum calls for the dissemination of scholarship apart from “the more traditional structures of academic publishing, which &#8230; are perceived as outgrowths of dysfunctional and outmoded practices surrounding peer review, tenure and promotion” (<a href="https://www.ade.org/bulletin/">“What Is Digital Humanities and What’s It Doing in English Departments,”</a> ADE Bulletin, Number 150, 2010); when Michael Shanks promotes  a “deep interdisciplinarity” or “transdisciplinarity” that is not  “premised upon longstanding disciplinary borders” (<a href="https://documents.stanford.edu/michaelshanks/270">Artereality</a>). </p>
+<p class="story-body-text" itemprop="articleBody">The rhetoric of these statements (which could easily be multiplied) is not one of reform, but of revolution. As <a href="https://hastac.org/blogs/cforster/im-chris-where-am-i-wrong">Mark Sample</a> puts it, “It’s all about innovation and disruption. The digital humanities is really an insurgent humanities.” The project is insurgent in relation, first, to the present exclusionary structures of access and accreditation and, second, to the hegemony of global capitalism of which those structures are an extension.  Digital humanities, declares the Manifesto, “have a utopian core shaped by its genealogical descent from the counterculture-cyberculture of the ’60s and ’70s. This is why it affirms the value of the open, the infinite, the expansive [and] the democratization of culture and scholarship.” </p>
+<p class="story-body-text" itemprop="articleBody">It is, then, a left agenda (although the digital has no inherent political valence) that self-identifies with civil liberties, the elimination of boundaries, a strong First Amendment, the weakening or end of copyright and the Facebook/YouTube revolutions that have swept across the Arab world.</p>
+<p class="story-body-text" itemprop="articleBody">The ambitions of the digital humanities are at times less grand and more local. The digital humanities is viewed by some of its proponents as a positive response to the dismal situation many humanists, especially younger ones, now find themselves in. The movement, Kirschenbaum reports, has been “galvanized by a group of younger (or not so young) graduate students, faculty members … who now wield the label  ‘digital humanities’ instrumentally amid an increasingly monstrous institutional terrain defined by declining public support for higher education, rising tuitions, shrinking endowments, the proliferation of distance education and  the for-profit university, and underlying it all, the conversion of full-time, tenure-track academic labor to a part-time adjunct workforce.”  </p>
+<p class="story-body-text" itemprop="articleBody">The digital humanities, it is claimed, can help alter that “monstrous terrain” in at least two ways. The first is to open up the conversation to the public whose support the traditional humanities has lost. If anyone and everyone can join in, if the invitation of open access is widely accepted, appreciation of what  humanists do will grow beyond the confines of the university. Familiarity will breed not contempt, but fellowship. “Only in this way,” Fitzpatrick declares, “can we ensure the continued support for the university not simply as a credentialing center, but rather as a center of thought.”</p>
+<p class="story-body-text" itemprop="articleBody">The second way the digital humanities can help, or so it is said,  is it to confer on students skills that will be attractive to employers inside and outside the academy. In a forthcoming piece (“The Humanities and the Fear of Being Useful,” in Inside Higher Education), Paul Jay and Gerald Graff argue that  “because students  in the digital humanities are trained to deal with concrete issues related to intellectual property and privacy,” they will be equipped “to enter fields related to everything from writing computer programs to text encoding and text editing, electronic publishing, interface design, and archive construction.” Get into the digital humanities and get a job. Not a bad slogan.</p>
+<p class="story-body-text" itemprop="articleBody">I am aware that in this decidedly abstract (and linear) discussion I have still said nothing at all about the “humanities” part of digital humanities. Does the digital humanities offer new and better ways to realize traditional humanities goals? Or does the digital humanities completely change our understanding of what a humanities goal (and work in the humanities) might be? </p>
+<p class="story-body-text" itemprop="articleBody">The pertinent challenge to this burgeoning field has been issued by one of its pioneer members, Jerome McGann of the University of Virginia. “The general field of humanities education and scholarship will not take up the use of digital technology in any significant way until one can clearly demonstrate that these tools have important contributions to make to the exploration and explanation of aesthetic works” (“<a href="https://www.ivanhoegame.org/">Ivanhoe Game</a> Summary,” 2002). What might those contributions be? Are they forthcoming? These are the questions I shall take up in the next column, oops, I mean blog.  </p>
+	</div>
+		<footer class="entry-footer">
+			<button class="button comments-button theme-speech-bubble"></button>		<div id="sharetools-post-footer" class="sharetools theme-classic" data-shares="show-all|Share" data-url="//opinionator.blogs.nytimes.com/2012/01/09/the-digital-humanities-and-the-transcending-of-mortality/" data-title="Stanley Fish: The Digital Humanities and the Transcending of Mortality" data-description="Coming to terms with what long-form scholarship in the digital age really means.">
+				<div class="ad sharetools-inline-article-ad hidden"></div>
+			</div>		<div class="footer-tags">
+					</div>
+		</footer>
+</article>
+		<section id="whats-next" class="whats-next nocontent robots-nocontent">
+    <h2 class="visually-hidden">What's Next</h2>
+    <div class="nocontent robots-nocontent">
+        <div class="loader-container">
+            <div class="loader loader-t-logo-32x32-ecedeb-ffffff"><span class="visually-hidden">Loading...</span></div>
+        </div>
+    </div><!-- close nocontent -->
+</section>
+
+			</div><!-- end content -->
+</div><!-- end .a-column -->
+<div class="cColumn nocontent robots-nocontent">
+	<aside>
+	<div class="postNavigation">
+	<ul class="opposingFloatControl wrap">
+		<li class="element1">
+						<span class="previous">Previous Post</span>
+			<div class="arrow arrow-left">
+				<div class="arrow-conceal"></div>
+			</div>
+			<a class="postTitle" href="https://opinionator.blogs.nytimes.com/2012/01/08/out-of-the-cave-philosophy-and-addiction/" title="In the Cave: Philosophy and Addiction ">
+				In the Cave: Philosophy and Addiction 			</a>
+					</li>
+		<li class="element2">
+						<span class="next">Next Post</span>
+			<div class="arrow arrow-right">
+				<div class="arrow-conceal"></div>
+			</div>
+			<a class="postTitle" href="https://opinionator.blogs.nytimes.com/2012/01/09/laugh-during-wartime/" title="Laugh During Wartime">
+				Laugh During Wartime			</a>
+					</li>
+	</ul>
+</div>
+<div id="categorydescription-3" class="module nocontent widget_categorydescription"><div class=“entry”><p class=“summary flushBottom”><em>Stanley Fish is a professor of humanities and law at Florida International University, in Miami. In the Fall of 2012, he will be Floersheimer Distinguished Visiting Professor at the Benjamin N. Cardozo School of Law. He has also taught at the University of California at Berkeley,  Johns Hopkins, Duke University and the University of Illinois, Chicago. He is the author of 15 books, most recently &#8220;Versions of Antihumanism: Milton and Others&#8221;; &#8220;How to Write a Sentence&#8221;; &#8220;Save the World On Your Own Time&#8221;; and “The Fugitive in Flight,” a study of the 1960s TV drama.  &#8220;Versions of Academic Freedom: From Professionalism to Revolution&#8221; will be published in 2014.  </em></p></div>
+</div>	<div class="box module verticalTabSet">
+		<h4 class="moduleHeader">Inside Opinionator</h4>		<div id="tabWidget-togglr-3" class="wrap tabAutoLoad">
+			<div class="tabsContainer">
+				<ul class="tabs">
+				<li class="selected"><div class="pointer"></div><div class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/pogs/fixes25.gif" alt="Fixes" class="left" /><a href="javascript:void(0);">Fixes</a></div></li>
+<li><div class="pointer"></div><div class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/firstperson/firstperson25.png" alt="Private Lives" class="left" /><a href="javascript:void(0);">Private Lives</a></div></li>
+<li><div class="pointer"></div><div class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/pogs/couch25.png" alt="Couch" class="left" /><a href="javascript:void(0);">Couch</a></div></li>
+<li><div class="pointer"></div><div class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/pogs/thestone25.gif" alt="The Stone" class="left" /><a href="javascript:void(0);">The Stone</a></div></li>
+<li><div class="pointer"></div><div class="wrap"><img src="https://static01.nyt.com/images/blogs/opinionator/moviegoers/moviegoers25.png" alt="Moviegoers" class="left" /><a href="javascript:void(0);">Moviegoers</a></div></li>
+		<li id="overlayTriggerController" class="moreContributors">
+			<a href="javascript:void(0);">More Contributors</a>
+			<div class="opposingFloatControl tabOverlayShadow clearfix hidden">
+				<ul class="element1 flushBottom">
+					<li><a href="https://opinionator.blogs.nytimes.com/category/anxiety/" class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/anxiety/anxiety25.gif" alt="Anxiety" class="left" /><span class="author">Anxiety</span></a></li>
+<li><a href="https://opinionator.blogs.nytimes.com/category/bedside/" class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/bedside/bedside25.gif" alt="Bedside" class="left" /><span class="author">Bedside</span></a></li>
+<li><a href="https://opinionator.blogs.nytimes.com/category/disunion/" class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/disunion/disunion25.gif" alt="Disunion" class="left" /><span class="author">Disunion</span></a></li>
+<li><a href="https://opinionator.blogs.nytimes.com/category/draft/" class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/draft/draft25.png" alt="Draft" class="left" /><span class="author">Draft</span></a></li>
+<li><a href="https://opinionator.blogs.nytimes.com/category/errol-morris/" class="wrap"><img src="https://static01.nyt.com/images/2011/06/14/opinion/Morris_Photo/Morris_Photo-custom2.jpg" alt="Errol Morris" class="left" /><span class="author">Errol Morris</span></a></li>				</ul>
+				<ul class="element2 flushBottom">
+					<li><a href="https://opinionator.blogs.nytimes.com/category/menagerie/" class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/pogs/menagerie25.png" alt="Menagerie" class="left" /><span class="author">Menagerie</span></a></li>
+<li><a href="https://opinionator.blogs.nytimes.com/category/the-conversation/" class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/pogs/theconversation25.gif" alt="The Conversation" class="left" /><span class="author">The Conversation</span></a></li>
+<li><a href="https://opinionator.blogs.nytimes.com/category/the-end/" class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/pogs/theend25.png" alt="The End" class="left" /><span class="author">The End</span></a></li>
+<li><a href="https://opinionator.blogs.nytimes.com/category/the-great-divide/" class="wrap"><img src="https://static01.nyt.com/images/blogs_v3/opinionator/pogs/greatdivide25.png" alt="The Great Divide" class="left" /><span class="author">The Great Divide</span></a></li>
+<li class="allContributors"><a href="https://opinionator.blogs.nytimes.com/contributors/" class="wrap"><span class="author">All Contributors & Series »</span></a></li>				</ul>
+			</div>
+		</li>
+						</ul>
+			</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">April 26, 2016</span><h5><a href="https://opinionator.blogs.nytimes.com/2016/04/26/guiding-a-first-generation-to-college/" title="Guiding a First Generation to College">Guiding a First Generation to College</a></h5><p><span class="excerpt-inner">Students who are new to America or lack college-educated parents often don’t know their options.</span><a href="https://opinionator.blogs.nytimes.com/2016/04/26/guiding-a-first-generation-to-college/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">April 19, 2016</span><h5><a href="https://opinionator.blogs.nytimes.com/2016/04/19/how-dwindling-fish-stocks-got-a-reprieve/" title="How Dwindling Fish Stocks Got a Reprieve">How Dwindling Fish Stocks Got a Reprieve</a></h5><p><span class="excerpt-inner">Giving fishermen a business incentive to fish sustainably can “unleash their creative capacity” to help solve the problem, says one expert. </span><a href="https://opinionator.blogs.nytimes.com/2016/04/19/how-dwindling-fish-stocks-got-a-reprieve/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/fixes/">More From Fixes &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">April 21, 2016</span><h5><a href="https://opinionator.blogs.nytimes.com/2016/04/21/fractured-a-first-date/" title="Fractured: A First Date">Fractured: A First Date</a></h5><p><span class="excerpt-inner">It wasn&#8217;t my heart that he broke.</span><a href="https://opinionator.blogs.nytimes.com/2016/04/21/fractured-a-first-date/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">March 17, 2016</span><h5><a href="https://opinionator.blogs.nytimes.com/2016/03/17/steph-curry-the-prophet-of-basketball/" title="Steph Curry, the Prophet of Basketball">Steph Curry, the Prophet of Basketball</a></h5><p><span class="excerpt-inner">What desperate, humiliating steps would I take in order to watch him play?</span><a href="https://opinionator.blogs.nytimes.com/2016/03/17/steph-curry-the-prophet-of-basketball/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/private-lives/">More From Private Lives &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">April 19, 2016</span><h5><a href="https://opinionator.blogs.nytimes.com/2016/04/19/should-therapists-write-about-patients/" title="Should Therapists Write About Patients?">Should Therapists Write About Patients?</a></h5><p><span class="excerpt-inner">Even when we disguise their identities, we risk betraying them.</span><a href="https://opinionator.blogs.nytimes.com/2016/04/19/should-therapists-write-about-patients/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">April 12, 2016</span><h5><a href="https://opinionator.blogs.nytimes.com/2016/04/12/grieving-my-patients-friend/" title="Grieving My Patient&#8217;s Friend">Grieving My Patient&#8217;s Friend</a></h5><p><span class="excerpt-inner">It isn’t unusual for therapists to get emotionally attached to people we&#8217;ve never met. </span><a href="https://opinionator.blogs.nytimes.com/2016/04/12/grieving-my-patients-friend/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/couch/">More From Couch &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">April 18, 2016</span><h5><a href="https://opinionator.blogs.nytimes.com/2016/04/18/the-perils-of-being-a-black-philosopher/" title="The Perils of Being a Black Philosopher">The Perils of Being a Black Philosopher</a></h5><p><span class="excerpt-inner"> After reading so many hateful messages I began to feel sick, literally.</span><a href="https://opinionator.blogs.nytimes.com/2016/04/18/the-perils-of-being-a-black-philosopher/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">April 16, 2016</span><h5><a href="https://opinionator.blogs.nytimes.com/2016/04/16/is-that-even-a-thing/" title="Is That Even a Thing?">Is That Even a Thing?</a></h5><p><span class="excerpt-inner">What this language trend says about us.</span><a href="https://opinionator.blogs.nytimes.com/2016/04/16/is-that-even-a-thing/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/the-stone/">More From The Stone &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">February 26, 2016</span><h5><a href="https://opinionator.blogs.nytimes.com/2016/02/26/bruni-and-douthat-agree-oscarssopolitical/" title="Bruni and Douthat Agree: #OscarsSoPolitical">Bruni and Douthat Agree: #OscarsSoPolitical</a></h5><p><span class="excerpt-inner">The Moviegoers pick who should and who will win at the Academy Awards — and pick apart Hollywood&#8217;s diversity problem.</span><a href="https://opinionator.blogs.nytimes.com/2016/02/26/bruni-and-douthat-agree-oscarssopolitical/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">December 28, 2015</span><h5><a href="https://opinionator.blogs.nytimes.com/2015/12/28/escaping-to-a-galaxy-far-far-away/" title="Escaping to a Galaxy Far, Far, Far Away">Escaping to a Galaxy Far, Far, Far Away</a></h5><p><span class="excerpt-inner">The “Force” holds great appeal compared with our anxieties here on earth, as seen in other films this season. </span><a href="https://opinionator.blogs.nytimes.com/2015/12/28/escaping-to-a-galaxy-far-far-away/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/moviegoers/">More From Moviegoers &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">February 6, 2016</span><h5><a href="https://opinionator.blogs.nytimes.com/2016/02/06/system-failure/" title="Not Just a Death, a System Failure">Not Just a Death, a System Failure</a></h5><p><span class="excerpt-inner">My mother’s death was so wrenching that I applied to medical school to help change the way people die in America. </span><a href="https://opinionator.blogs.nytimes.com/2016/02/06/system-failure/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">January 27, 2016</span><h5><a href="https://opinionator.blogs.nytimes.com/2016/01/27/when-the-hospital-cant-help/" title="When the Hospital Is Not a Haven">When the Hospital Is Not a Haven</a></h5><p><span class="excerpt-inner"> Had I prolonged my Indian grandmother’s suffering with my stubborn belief in the power of medicine to fix things? </span><a href="https://opinionator.blogs.nytimes.com/2016/01/27/when-the-hospital-cant-help/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/the-end/">More From The End &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">August 15, 2015</span><h5><a href="https://opinionator.blogs.nytimes.com/2015/08/15/puzzling-through-my-fiction/" title="Puzzling Through My Fiction">Puzzling Through My Fiction</a></h5><p><span class="excerpt-inner">What I learned about writing from doing crossword puzzles.</span><a href="https://opinionator.blogs.nytimes.com/2015/08/15/puzzling-through-my-fiction/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">July 11, 2015</span><h5><a href="https://opinionator.blogs.nytimes.com/2015/07/11/writing-books-very-few-will-read/" title="Writing Books Very Few Will Read">Writing Books Very Few Will Read</a></h5><p><span class="excerpt-inner">When a family commissions a work, they’re more interested in stories, lessons and values, rather than in sensation.</span><a href="https://opinionator.blogs.nytimes.com/2015/07/11/writing-books-very-few-will-read/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/draft/">More From Draft &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">July 27, 2015</span><h5><a href="https://opinionator.blogs.nytimes.com/2015/07/27/10-things-id-tell-my-former-medicated-self/" title="10 Things I&#8217;d Tell My Former (Medicated) Self">10 Things I&#8217;d Tell My Former (Medicated) Self</a></h5><p><span class="excerpt-inner">I&#8217;ve been drug-free for nearly a month. Here is what I learned about my own seven-month weaning process. </span><a href="https://opinionator.blogs.nytimes.com/2015/07/27/10-things-id-tell-my-former-medicated-self/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">June 26, 2015</span><h5><a href="https://opinionator.blogs.nytimes.com/2015/06/26/singleminded/" title="Singleminded">Singleminded</a></h5><p><span class="excerpt-inner">As I decrease my medications, the urgency I feel around men and relationships subsides. </span><a href="https://opinionator.blogs.nytimes.com/2015/06/26/singleminded/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/anxiety/">More From Anxiety &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">June 22, 2015</span><h5><a href="https://opinionator.blogs.nytimes.com/2015/06/22/every-creeping-thing-that-creepeth/" title="Every Creeping Thing That Creepeth">Every Creeping Thing That Creepeth</a></h5><p><span class="excerpt-inner">Why can&#8217;t we all just get along?</span><a href="https://opinionator.blogs.nytimes.com/2015/06/22/every-creeping-thing-that-creepeth/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">June 13, 2015</span><h5><a href="https://opinionator.blogs.nytimes.com/2015/06/13/birds-of-new-york-a-soundscape/" title="Birds of New York: A Soundscape">Birds of New York: A Soundscape</a></h5><p><span class="excerpt-inner">Composing with orchestral instruments was fine. But I found a richer palette of melody, counterpoint and rhythm already in the air.</span><a href="https://opinionator.blogs.nytimes.com/2015/06/13/birds-of-new-york-a-soundscape/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/menagerie/">More From Menagerie &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">June 10, 2015</span><h5><a href="https://opinionator.blogs.nytimes.com/2015/06/10/disunion-the-final-q-a/" title="Disunion: The Final Q &amp; A">Disunion: The Final Q &#038; A</a></h5><p><span class="excerpt-inner">Four years ago, Disunion convened a panel of experts to discuss the outbreak of the Civil War. Now, those experts are back to discuss the war&#8217;s end, and its legacy.</span><a href="https://opinionator.blogs.nytimes.com/2015/06/10/disunion-the-final-q-a/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">June 4, 2015</span><h5><a href="https://opinionator.blogs.nytimes.com/2015/06/04/what-do-you-know-a-civil-war-pop-quiz/" title="What Do You Know? A Civil War Pop Quiz.">What Do You Know? A Civil War Pop Quiz.</a></h5><p><span class="excerpt-inner">If you read the series (or if you&#8217;re just a huge Civil War nerd), what have you learned? </span><a href="https://opinionator.blogs.nytimes.com/2015/06/04/what-do-you-know-a-civil-war-pop-quiz/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/disunion/">More From Disunion &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">January 3, 2015</span><h5><a href="https://opinionator.blogs.nytimes.com/2015/01/03/when-prisoners-are-patients/" title="When Prisoners Are Patients">When Prisoners Are Patients</a></h5><p><span class="excerpt-inner">Should convicted felons receive free health care?</span><a href="https://opinionator.blogs.nytimes.com/2015/01/03/when-prisoners-are-patients/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">September 6, 2014</span><h5><a href="https://opinionator.blogs.nytimes.com/2014/09/06/when-its-the-doctor-who-cant-let-go/" title="When It&#8217;s the Doctor Who Can&#8217;t Let Go">When It&#8217;s the Doctor Who Can&#8217;t Let Go</a></h5><p><span class="excerpt-inner">Too many physicians think palliative care means giving up.</span><a href="https://opinionator.blogs.nytimes.com/2014/09/06/when-its-the-doctor-who-cant-let-go/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/bedside/">More From Bedside &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">November 5, 2014</span><h5><a href="https://opinionator.blogs.nytimes.com/2014/11/05/the-republican-party-in-triumph/" title="The Republican Party In Triumph">The Republican Party In Triumph</a></h5><p><span class="excerpt-inner">Brooks and Collins on the full extent of the Election Day devastation of Democrats, including some who weren&#8217;t on the ballot.</span><a href="https://opinionator.blogs.nytimes.com/2014/11/05/the-republican-party-in-triumph/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">October 28, 2014</span><h5><a href="https://opinionator.blogs.nytimes.com/2014/10/28/political-infections/" title="Political Infections">Political Infections</a></h5><p><span class="excerpt-inner">Brooks and Collins on conflicting responses to Ebola, the meaning of the midterms and the pleasure of voting for effective crooks.</span><a href="https://opinionator.blogs.nytimes.com/2014/10/28/political-infections/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/the-conversation/">More From The Conversation &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">June 27, 2014</span><h5><a href="https://opinionator.blogs.nytimes.com/2014/06/27/inequality-is-not-inevitable/" title="Inequality Is Not Inevitable">Inequality Is Not Inevitable</a></h5><p><span class="excerpt-inner">Inexorable laws of economics aren’t tearing us apart. Our policies are.</span><a href="https://opinionator.blogs.nytimes.com/2014/06/27/inequality-is-not-inevitable/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">June 21, 2014</span><h5><a href="https://opinionator.blogs.nytimes.com/2014/06/21/gaming-the-poor/" title="Gaming the Poor">Gaming the Poor</a></h5><p><span class="excerpt-inner">Modern slot machine parlors have sophisticated methods of milking less affluent gamblers.</span><a href="https://opinionator.blogs.nytimes.com/2014/06/21/gaming-the-poor/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/the-great-divide/">More From The Great Divide &raquo;</a></p></div>		</div>
+				<div class="tabContent">
+		<div class="entry"><span class="date">March 28, 2014</span><h5><a href="https://opinionator.blogs.nytimes.com/2014/03/28/the-certainty-of-donald-rumsfeld-part-4/" title="The Certainty of Donald Rumsfeld (Part 4)">The Certainty of Donald Rumsfeld (Part 4)</a></h5><p><span class="excerpt-inner">The absence of evidence, the evidence of absence, and the Iraq War.</span><a href="https://opinionator.blogs.nytimes.com/2014/03/28/the-certainty-of-donald-rumsfeld-part-4/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><span class="date">March 27, 2014</span><h5><a href="https://opinionator.blogs.nytimes.com/2014/03/27/the-certainty-of-donald-rumsfeld-part-3/" title="The Certainty of Donald Rumsfeld (Part 3)">The Certainty of Donald Rumsfeld (Part 3)</a></h5><p><span class="excerpt-inner">Could Pearl Harbor be called a &#8220;failure of imagination,&#8221; and in that sense was it similar to the attacks of 9/11?</span><a href="https://opinionator.blogs.nytimes.com/2014/03/27/the-certainty-of-donald-rumsfeld-part-3/" class="more-link">Read&nbsp;more&#8230;</a></p></div><div class="entry"><p class="more"><a href="https://opinionator.blogs.nytimes.com/category/errol-morris/">More From Errol Morris &raquo;</a></p></div>		</div>
+				</div>
+	</div>
+			<div class="module ad" id="MiddleRight"></div>
+        		<div class="module archivesModule clearfix nocontent">
+			<h4 class="moduleHeader">Archive</h4>			<select name="archive_chrono" onchange="window.location.href=this.value; this.selectedIndex=this.options[0]">
+				<option class="archiveform_option" value="">Select Month</option>
+					<option value='//opinionator.blogs.nytimes.com/2016/04/'> April 2016 </option>
+	<option value='//opinionator.blogs.nytimes.com/2016/03/'> March 2016 </option>
+	<option value='//opinionator.blogs.nytimes.com/2016/02/'> February 2016 </option>
+	<option value='//opinionator.blogs.nytimes.com/2016/01/'> January 2016 </option>
+	<option value='//opinionator.blogs.nytimes.com/2015/12/'> December 2015 </option>
+	<option value='//opinionator.blogs.nytimes.com/2015/11/'> November 2015 </option>
+	<option value='//opinionator.blogs.nytimes.com/2015/10/'> October 2015 </option>
+	<option value='//opinionator.blogs.nytimes.com/2015/09/'> September 2015 </option>
+	<option value='//opinionator.blogs.nytimes.com/2015/08/'> August 2015 </option>
+	<option value='//opinionator.blogs.nytimes.com/2015/07/'> July 2015 </option>
+	<option value='//opinionator.blogs.nytimes.com/2015/06/'> June 2015 </option>
+	<option value='//opinionator.blogs.nytimes.com/2015/05/'> May 2015 </option>
+	<option value='//opinionator.blogs.nytimes.com/2015/04/'> April 2015 </option>
+	<option value='//opinionator.blogs.nytimes.com/2015/03/'> March 2015 </option>
+	<option value='//opinionator.blogs.nytimes.com/2015/02/'> February 2015 </option>
+			</select>
+		</div>
+        <div id="recentposts-2" class="module nocontent widget_recentposts"><h4 class="moduleHeader">Recent Posts</h4>				<div class="entry">
+						<div class="w50 right">
+				<a href="https://opinionator.blogs.nytimes.com/2016/04/26/guiding-a-first-generation-to-college/"><img src="https://static01.nyt.com/images/2016/04/26/opinion/26fixesWeb/26fixesWeb-thumbStandard.jpg" width="50" height="50" /></a>
+			</div>
+							<h6 class="kicker">
+					<a href="https://opinionator.blogs.nytimes.com/category/fixes/">Fixes</a>
+				</h6>
+							<h5><a href="https://opinionator.blogs.nytimes.com/2016/04/26/guiding-a-first-generation-to-college/" title="Read: Guiding a First Generation to College">Guiding a First Generation to College</a>
+			<span class="postMetaHeaderCommentCount commentCount hidden">
+					<i class="icon"></i>
+					<a class="commentCountLink commentCountNumberOnly commentCountNoPrompt" href="https://opinionator.blogs.nytimes.com/2016/04/26/guiding-a-first-generation-to-college/"></a>
+				</span>			</h5>
+			<p class="summary">
+			Students who are new to America or lack college-educated parents often don&#8217;t know their options.<a href="https://opinionator.blogs.nytimes.com/2016/04/26/guiding-a-first-generation-to-college/" class="more-link">Read&#160;more&#8230;</a></p>
+		</div>
+					<div class="entry">
+						<div class="w50 right">
+				<a href="https://opinionator.blogs.nytimes.com/2016/04/21/fractured-a-first-date/"><img src="https://static01.nyt.com/images/2016/04/20/opinion/20PRIVATE/20PRIVATE-thumbStandard.jpg" width="50" height="50" /></a>
+			</div>
+							<h6 class="kicker">
+					<a href="https://opinionator.blogs.nytimes.com/category/private-lives/">Private Lives</a>
+				</h6>
+							<h5><a href="https://opinionator.blogs.nytimes.com/2016/04/21/fractured-a-first-date/" title="Read: Fractured: A First Date">Fractured: A First Date</a>
+			<span class="postMetaHeaderCommentCount commentCount hidden">
+					<i class="icon"></i>
+					<a class="commentCountLink commentCountNumberOnly commentCountNoPrompt" href="https://opinionator.blogs.nytimes.com/2016/04/21/fractured-a-first-date/"></a>
+				</span>			</h5>
+			<p class="summary">
+			It wasn&#8217;t my heart that he broke.<a href="https://opinionator.blogs.nytimes.com/2016/04/21/fractured-a-first-date/" class="more-link">Read&#160;more&#8230;</a></p>
+		</div>
+					<div class="entry">
+						<div class="w50 right">
+				<a href="https://opinionator.blogs.nytimes.com/2016/04/19/how-dwindling-fish-stocks-got-a-reprieve/"><img src="https://static01.nyt.com/images/2016/04/19/opinion/19fixesWeb/19fixesWeb-thumbStandard.jpg" width="50" height="50" /></a>
+			</div>
+							<h6 class="kicker">
+					<a href="https://opinionator.blogs.nytimes.com/category/fixes/">Fixes</a>
+				</h6>
+							<h5><a href="https://opinionator.blogs.nytimes.com/2016/04/19/how-dwindling-fish-stocks-got-a-reprieve/" title="Read: How Dwindling Fish Stocks Got a Reprieve">How Dwindling Fish Stocks Got a Reprieve</a>
+			<span class="postMetaHeaderCommentCount commentCount hidden">
+					<i class="icon"></i>
+					<a class="commentCountLink commentCountNumberOnly commentCountNoPrompt" href="https://opinionator.blogs.nytimes.com/2016/04/19/how-dwindling-fish-stocks-got-a-reprieve/"></a>
+				</span>			</h5>
+			<p class="summary">
+			Giving fishermen a business incentive to fish sustainably can &#8220;unleash their creative capacity&#8221; to help solve the problem, says one expert. <a href="https://opinionator.blogs.nytimes.com/2016/04/19/how-dwindling-fish-stocks-got-a-reprieve/" class="more-link">Read&#160;more&#8230;</a></p>
+		</div>
+					<div class="entry">
+						<div class="w50 right">
+				<a href="https://opinionator.blogs.nytimes.com/2016/04/19/should-therapists-write-about-patients/"><img src="https://static01.nyt.com/images/2016/04/19/opinion/19couchWeb/19couchWeb-thumbStandard.jpg" width="50" height="50" /></a>
+			</div>
+							<h6 class="kicker">
+					<a href="https://opinionator.blogs.nytimes.com/category/couch/">Couch</a>
+				</h6>
+							<h5><a href="https://opinionator.blogs.nytimes.com/2016/04/19/should-therapists-write-about-patients/" title="Read: Should Therapists Write About Patients?">Should Therapists Write About Patients?</a>
+			<span class="postMetaHeaderCommentCount commentCount hidden">
+					<i class="icon"></i>
+					<a class="commentCountLink commentCountNumberOnly commentCountNoPrompt" href="https://opinionator.blogs.nytimes.com/2016/04/19/should-therapists-write-about-patients/"></a>
+				</span>			</h5>
+			<p class="summary">
+			Even when we disguise their identities, we risk betraying them.<a href="https://opinionator.blogs.nytimes.com/2016/04/19/should-therapists-write-about-patients/" class="more-link">Read&#160;more&#8230;</a></p>
+		</div>
+					<div class="entry">
+						<div class="w50 right">
+				<a href="https://opinionator.blogs.nytimes.com/2016/04/18/the-perils-of-being-a-black-philosopher/"><img src="https://static01.nyt.com/images/2016/04/18/opinion/18stoneWeb/18stoneWeb-thumbStandard.jpg" width="50" height="50" /></a>
+			</div>
+							<h6 class="kicker">
+					<a href="https://opinionator.blogs.nytimes.com/category/the-stone/">The Stone</a>
+				</h6>
+							<h5><a href="https://opinionator.blogs.nytimes.com/2016/04/18/the-perils-of-being-a-black-philosopher/" title="Read: The Perils of Being a Black Philosopher">The Perils of Being a Black Philosopher</a>
+			<span class="postMetaHeaderCommentCount commentCount hidden">
+					<i class="icon"></i>
+					<a class="commentCountLink commentCountNumberOnly commentCountNoPrompt" href="https://opinionator.blogs.nytimes.com/2016/04/18/the-perils-of-being-a-black-philosopher/"></a>
+				</span>			</h5>
+			<p class="summary">
+			After reading so many hateful messages I began to feel sick, literally.<a href="https://opinionator.blogs.nytimes.com/2016/04/18/the-perils-of-being-a-black-philosopher/" class="more-link">Read&#160;more&#8230;</a></p>
+		</div>
+		</div><!-- end Recent Posts side tool -->
+    		<div class="module ad" id="Box1"></div>
+        <div id="nyt_blog_social_media-3" class="module nocontent widget_nyt_blog_social_media"><!-- begin #blog-follow-widget -->
+<div id="blog-follow-widget" class="blog-fw-single ">
+<h4 class="">
+<span class="blog-fw-generic-followmessage">Follow <span class="blog-fw-desk">us on</span></span>
+<span class="blog-fw-specific-followmessage"><span class="blog-fw-username"><a href="https://twitter.com/nytopinionator" title="Follow @nytopinionator on twitter">@nytopinionator</a></span> on <span class="blog-fw-twitter">twitter</span></span></h4>
+<ul>
+<li class="blog-fw-twitter single"><a href="https://twitter.com/nytopinionator" title="Follow nytopinionator on Twitter">Twitter</a></li></ul>
+<p class="blog-fw-followbutton"><a href="https://twitter.com/nytopinionator" title="Follow @nytopinionator on twitter">Follow</a></p></div> <!-- end #blog-follow-widget -->
+</div>	</aside>
+</div>		<div class="clear"></div>
+	</div><!-- end blog wrap -->
+	<div class="hideContent"></div>
+
+	
+<!-- Google Analytics start -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-4406282-50',  { 'alwaysSendReferrer': true } );
+ga('send', 'pageview');
+</script>
+<!-- Google Analytics end -->
+		<div id="mobilebanner2" class="ad mobilebanner2"></div>
+		<div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+<div id="SponLink" class="text-ad bottom-left-ad nocontent robots-nocontent"></div>
+
+		<div id="Top5" class="ad top5-ad hidden nocontent robots-nocontent"></div>
+
+					</div>
+			<div class="search-overlay"></div>
+		</main><!-- close main -->
+						<footer id="page-footer" class="page-footer" role="contentinfo">
+    <nav>
+         <ul>
+             <li>
+                <a href="https://www.nytco.com" itemprop="copyrightNotice">
+                    &copy; <span itemprop="copyrightYear">2017</span>
+					<span itemprop="copyrightHolder provider sourceOrganization" itemscope
+						itemtype="//schema.org/Organization"
+						itemid="//www.nytimes.com">
+						<span itemprop="name"> The New York Times Company</span>
+						<meta itemprop="tickerSymbol" content="NYSE NYT"/>
+					</span>
+                </a>
+            </li>
+            <li><a href="https://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+            <li><a href="https://www.nytco.com/careers/">Work With Us</a></li>
+            <li><a href="https://nytmediakit.com/">Advertise</a></li>
+            <li><a href="https://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html#pp">Your Ad Choices</a></li>
+            <li><a href="https://www.nytimes.com/privacy">Privacy</a></li>
+            <li><a href="https://www.nytimes.com/ref/membercenter/help/agree.html" itemprop="usageTerms">Terms of Service</a></li>
+            <li class="last-item"><a href="https://www.nytimes.com/content/help/rights/sale/terms-of-sale.html">Terms of Sale</a></li>
+         </ul>
+    </nav>
+    <nav class="last-nav">
+        <ul>
+            <li><a href="https://spiderbites.nytimes.com/">Site Map</a></li>
+            <li><a href="https://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+            <li><a href="https://myaccount.nytimes.com/membercenter/feedback.html">Site Feedback</a></li>
+            <li class="last-item"><a href="https://www.nytimes.com/subscriptions/Multiproduct/lp5558.html?campaignId=37WXW">Subscriptions</a></li>
+        </ul>
+    </nav>
+</footer>		</div><!-- close shell -->
+	<script>
+require(['foundation/main'], function () {
+    require(['blogs/main']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['https://a1.nyt.com/analytics/tagx-simple.min.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+</script>
+
+	<div id="Inv1" class="ad inv1-ad hidden"></div>
+<div id="Inv2" class="ad inv2-ad hidden"></div>
+<div id="Inv3" class="ad inv3-ad hidden"></div>
+<div id="ab1" class="ad ab1-ad hidden"></div>
+<div id="ab2" class="ad ab2-ad hidden"></div>
+<div id="ab3" class="ad ab3-ad hidden"></div>
+<div id="prop1" class="ad prop1-ad hidden"></div>
+<div id="prop2" class="ad prop2-ad hidden"></div>
+<div id="Anchor" class="ad anchor-ad hidden"></div>
+<div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
+		<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b5bcf2eba4","applicationID":"5164608","transactionName":"YwFXZhRYVhAEVUZcX1pLYEAPFlkTFRtQWV9TFxtCDkk=","queueTime":0,"applicationTime":47,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,803 @@
+
+
+    
+    
+        Skip to main content
+    
+
+
+
+
+
+
+    
+        
+            
+                We use cookies to improve your experience with our site.
+                    
+                        Accept and close
+                    
+                     | More
+                        info.
+
+            
+
+        
+
+    
+
+
+
+
+
+
+    
+        
+            
+                
+    
+        
+            
+                [image: Advertisement]
+        
+
+    
+
+
+            
+        
+
+    
+
+
+
+
+Thank you for visiting nature.com. You are using a browser version with
+    limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off
+    compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site
+    without styles and JavaScript.
+
+
+
+    
+     
+         
+             
+                 	nature.com
+	nature genetics
+	news & views
+	article
+
+
+             
+        
+
+         
+        A Nature Research Journal
+
+        
+     
+
+
+
+
+    
+    
+        
+            
+                
+                    
+                        
+                            
+										
+											Menu
+										
+                            
+                                [image: Nature Genetics][image: ]
+
+                        
+
+                    
+
+                    
+                        
+                            
+										
+											Search
+										
+                            
+                            
+                                
+										
+											E-alert
+										
+                                
+                            
+                            
+                                
+										
+											Submit
+										
+                                
+                            
+                              
+            
+                My Account
+            
+    
+    
+            
+                Login
+            
+    
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+    
+    	[image: ]
+	Altmetric: 3
+	Citations: 22
+	
+                    More detail
+                
+
+
+
+                            
+                                News & Views
+                                
+                            
+
+                            
+                            Linking microarray data to the literature
+
+                            	Daniel R. Masys1
+
+
+
+
+
+
+
+
+
+                    
+    
+
+
+
+                    
+                        The availability in computerized form of the published literature on genes is a potentially rich source of information for the interpretation of microarray data. Automated text processing confronts substantial challenges due to variability in the language used by authors, but even incomplete linking of gene clusters to the literature can reveal functional information that is useful in explaining gene expression patterns.
+
+
+
+
+                        
+                            
+                            
+                                
+    
+        
+        
+    	
+                
+                    
+                        Subscribe to Nature Genetics for full access:
+
+                        $59
+
+                    
+
+                
+
+                
+                    Subscribe
+                
+
+            
+	
+            
+
+        
+
+
+
+
+        Additional access options:
+
+
+        
+            Already a subscriber? 
+            Log in  now or 
+            Register  for online access.
+        
+
+        
+            	Login via Athens |
+                
+	Login via Shibboleth |
+                
+	
+                    Use a document delivery service |
+                
+	
+                    Purchase
+                        a site license
+                
+
+
+        
+    
+
+
+
+                            
+
+                        
+                        References
+	1.Jenssen T.-K., Laegrid, A., Komoroski, J. & Hovig, E. Nature Genet. 28, 21–28 (2001).
+		Google Scholar
+
+
+
+
+	2.Johnson, S. Preface to Dictionary of the English Language (London, 1775).
+		Google Scholar
+
+
+
+
+	3.Funk, M.E., Reid, C.A. & McGoogar, L.S. Bull. Med. Library Assoc. 71, 176–183 (1983).
+		CAS
+	Google Scholar
+
+
+
+
+	4.Masys D.R. et al. Bioinformatics 7, 319–326 (2001).
+		Article
+	Google Scholar
+
+
+
+
+
+Download references
+
+
+
+Author information
+Affiliations
+	Uiversity of California, San Diego, School of Medicine, La Jolla, California, USA. dmasys@ucsd.edu
+	Daniel R. Masys
+
+
+
+Authors
+	Search for Daniel R. Masys in:
+	Nature Research journals • 
+	PubMed • 
+	Google Scholar
+
+
+
+
+
+
+Rights and permissions
+To obtain permission to re-use content from this article visit RightsLink.
+
+
+
+                        
+                        
+
+                        
+                    
+
+                
+
+                
+                    
+                        
+                            Article Tools
+	Tools
+
+
+Tools
+	Print
+
+Share
+	Twitter
+	Facebook
+
+
+
+
+                        
+
+                        
+                        
+                        
+                            
+                                
+                                Article Information
+	Journal
+	Nature Genetics 28, 9–10 (2001)
+	DOI
+	doi:10.1038/ng0501-9
+	Citation
+	Download Citation
+	Published
+	01 May 2001
+
+
+
+
+                                
+                            
+
+                        
+
+                    
+
+                
+
+
+                
+                    
+    
+        
+            
+                [image: Advertisement]
+        
+
+    
+
+
+                
+
+            
+        
+    
+
+
+
+    
+        
+            Menu
+
+            
+                
+                    
+                        
+                            
+                                
+                                    Nature Genetics
+                                
+
+                            
+
+                            
+    
+        	
+                    Current Issue
+                
+	
+                    Browse Issues
+                
+	
+                    News & Comment
+                
+	
+                    Research
+                
+	
+                    Browse Articles
+                
+	
+                    Focuses & Supplements
+                
+	
+                    About the Journal
+                
+	
+                    For Authors
+                
+	
+                    For Referees
+                
+	
+                    Web Feeds
+                
+
+
+    
+
+
+                        
+
+                    
+
+                
+
+            
+
+
+            
+                
+                    
+                        
+                            
+                                
+                                    Journals A-Z
+                                        Journals A-Z
+                                
+
+                            
+
+                            
+                                	
+                                        Nature
+                                    
+	
+                                        Nature Communications
+                                    
+	
+                                        Nature Protocols
+                                    
+	
+                                        Review journals
+                                    
+	
+                                        Scientific Reports
+                                    
+	
+                                        View all journals
+                                    
+
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+            
+                
+                    
+                        
+                            
+                                
+                                    All Subjects
+                                    All Subjects
+                                
+
+                            
+
+                            
+                                	
+                                        Biological Sciences
+                                    
+	
+                                            Earth & Environmental Sciences
+                                    
+	
+                                        Health Sciences
+                                    
+	
+                                        Physical Sciences
+                                    
+	
+                                            Scientific Community & Society
+                                    
+	
+                                        View all subjects
+                                    
+
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+            
+                
+                    
+                        
+                            
+                                
+                                    nature.com
+                                    nature.com
+                                
+
+                            
+
+                            
+                                	
+                                            Subscriptions
+                                    
+	
+                                           Authors & Referees
+                                    
+	
+                                            Librarians
+                                    
+	
+                                            Advertisers
+                                    
+	
+                                            Press
+                                    
+	
+                                            About
+                                    
+
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+    
+
+
+
+
+
+    
+        
+            Search
+
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                            
+                                                Search Nature.com
+                                                
+                                            
+
+                                        
+
+                                        
+                                            
+                                                advanced
+                                            
+                                        
+                                    
+
+                                
+
+                                
+                                    
+                                        Search
+                                    
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+    
+
+
+
+
+
+
+    
+        
+
+            Nature Genetics
+
+            ISSN 1546-1718 (online)
+
+            
+        
+
+
+        
+
+
+        
+    nature.com sitemap
+
+
+    
+        
+            For authors and referees
+
+            	Guide to Authors
+	Guide to Referees
+	Editorial policies
+	Language editing
+	Scientific editing
+	Reprints &
+                    permissions
+
+
+        
+
+        
+            For readers
+
+            	Journals A-Z
+	Subject Pages
+	Protocol Exchange
+	Blogs
+	Podcasts
+	Webcasts
+	Subscriptions
+	Mobile apps
+	RSS
+
+
+        
+
+        
+            For librarians
+
+            	Account administration
+	Site licenses
+	Catalogs
+	Print subscriptions
+	Pay per view
+	Open access
+	Promotion tools
+	Public interfaces
+	User guides 
+	Library relations
+	Publisher collaborations
+
+
+        
+
+        
+            Careers and events
+
+            	Natureconferences
+	Natureevents
+	Naturejobs.com
+
+
+        
+
+        
+            Regional websites
+
+            	Natureasia
+	Nature China
+	Nature India
+	Nature Japan
+	Nature Korea
+	Nature Middle
+                    East
+
+
+        
+
+        
+            Nature Research
+
+            	About us
+	Work for us
+	Help
+	Contact us
+	Privacy Policy
+	Use of cookies
+	Legal notice
+	Accessibility statement
+	Terms & Conditions
+	Partners
+
+
+        
+
+        
+            For advertisers
+
+            	Advertising
+                    options
+	Journal
+                    audience
+	Event advertising
+	Job posts
+	Contact
+                    representative
+
+
+        
+
+        
+            For press
+
+            	Press site
+	Press room
+	Contact press office
+
+
+        
+
+    
+
+    
+        [image: Springer Nature]
+        © 2018 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+    [image: ]
+    [image: ]
+
+
+
+
+
+[image: ]

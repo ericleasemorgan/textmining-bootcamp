@@ -1,0 +1,85 @@
+
+
+Extracting parts-of-speech and named entities with Stanford tools
+=================================================================
+
+Extracting specific parts-of-speech as well as "named entities", and then counting & tabulating them can be quite insightful.
+
+Parts-of-speech include nouns, verbs, adjectives, adverbs, etc. Named entities are specific types of nouns, including but not limited to, the names of people, places, organizations, dates, times, money amounts, etc. By creating features out of parts-of-speech and/or named entities, the reader can answer questions such as:
+
+  * What is discussed in this document?
+  * What do things do in this document?
+  * How are things described, and how might those descriptions be characterized?
+  * To what degree is the text male, female, or gender neutral?
+  * Who is mentioned in the text? 
+  * To what places are things referring?
+  * What happened in the text?
+
+There are a number of tools enabling the reader to extract parts-of-speech, including the venerable Brill part-of-speech tagger implemented in a number of programming languages, CLAWS, the Apache OpenNLP, and a specific part of the Stanford NLP suite of tools called the Stanford Log-linear Part-Of-Speech Tagger. [1]  Named entities can be extracted with the Stanford Named Entity Recognizer (NER). [2] This workshop exploits the Standford tools.
+
+The Stanford Log-linear Part-Of-Speech Tagger is written in Java, making it a bit difficult for most readers to use in the manner it was truly designed, the author included. Luckily, the distribution comes with a command-line interface allowing the reader to use the tagger sans any Java programing. Because any part-of-speech or named entity extraction application is the result of a machine learning process, it is necessary to use a previously created computer model. The Stanford tools comes quite a few models from which to choose. The command-line interface also enables the reader to specify different types of output: tagged, XML, tab-delimited, etc. Because of all these options, and because the whole thing uses Java "archives" (read programming libraries or modules), the command-line interface is daunting, to say the least.
+
+After downloading the distribution, the reader ought to be able to change to the bin directory, and execute either one of the following commands:
+
+  $ stanford-postagger-gui.sh
+
+  > stanford-postagger-gui.bat
+
+The result will be a little window prompting for a sentence. Upon entering a sentence, tagged output will result. This is a toy interface, but demonstrates things quite nicely.
+
+[INSERT SCREEN SHOT HERE.]
+
+The full-blown command-line interface is bit more complicated. From the command-line one can do either of the following, depending on the operating system:
+
+  $ stanford-postagger.sh models/english-left3words-distsim.tagger walden.txt
+
+  > stanford-postagger.bat models\english-left3words-distsim.tagger walden.txt
+
+The result will be a long stream of tagged sentences, which I find difficult to parse. Instead, I prefer the inline XML output, which is much more difficult to execute but much more readable. Try either:
+
+  $ java -cp stanford-postagger.jar: edu.stanford.nlp.tagger.maxent.MaxentTagger -model models/english-left3words-distsim.tagger -outputFormat inlineXML -outputFormatOptions lemmatize -textFile walden.txt
+
+  > java -cp stanford-postagger.jar: edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\english-left3words-distsim.tagger -outputFormat inlineXML -outputFormatOptions lemmatize -textFile walden.txt
+ 
+In these cases, the result will be a long string of ill-formed XML. With a bit of massaging, this XML is much easier to parse with just about any compute programming language, believe it or not. The tagger can also be run in server mode, which makes batch processing a whole lot easier. The workshop's distribution comes a server and client application for exploiting these capabilities, but, unfortunately, they won't run on Windows computers unless some sort of Linux shell has been installed. Some people can issue the following command to launch the server from the workshop's distribution:
+
+  $ ./bin/pos-server.sh
+
+The reader can run the client like this:
+
+  $ ./bin/pos-client.pl walden.txt
+  
+The result will be a well-formed XML file, which can be redirected to a file, processed by another script converting it into a tab-delimited file, and finally saved to a second file for reading by a spreadsheet, database, or data analysis tool:
+
+  $ ./bin/pos-client.pl walden.txt > walden.pos; ./bin/pos2tab.pl walden.pos > walden.tsv
+
+For the purposes of this workshop, the whole of the harvested data has been pre-processed with the Stanford Log-linear Part-Of-Speech Tagger. The result is been mirrored in the parts-of-speech folder/directory. The reader can open the files in the parts-of-speech folder/directory for analysis. For example, you might open them in OpenRefine and try to see what verbs appear most frequently in a given document. My guess the answer will be the lemmas "be" or "have". The next set of most frequently used verb lemmas will probably be more indicative of the text.
+
+The process of extrating features of name entities is very similar with the Stanford NER. The original Stanford NER distribution comes with a number of jar files, models, and configuration/parameter files. After downloading the distribution, the reader can run a little GUI application, import some text, and run NER. The result will look something like this:
+
+[INSERT SCREEN SHOT]
+
+The simple command-line interface takes a single file as input, and it outputs a stream of tagged sentences. For example:
+
+  $ ner.sh walden.txt
+
+  > ner.bat walden.txt
+
+Each tag denotes an entity (i.e. the name of a person, the name of a place, the name of an organization, etc.). Like the result of all machine learning algorithms, the tags are not necessarily correct, but upon closer examination, most of them are pretty close. Like the POS Tagger, this workshop's distribution comes with a set of scripts/programs that can make the Stanford NER tool locally available as a server. It also comes with a simple client to query the server. Like the workshop's POS tool, the reader (with a Macintosh or Linux computer) can extract named entities all in two goes:
+
+  $ ./bin/pos-server.sh
+  $ ./bin/pos-client.pl walden.txt > walden.ner; ./bin/pos2tab.pl walden.ner > walden.tsv
+
+Like the workshop's pre-processed part-of-speech files, the workshop's corpus has been pre-processed with the NER tool. The preprocessed files ought to be in a folder/directory named... named-entities. And like the parts-of-speech files, the "ner" files are tab-delimited text files readable by spreadsheets, databases, OpenRefine, etc. For example, you might open one of them in OpenRefine and see what names of people trend in a given text. Try to create a list of places (which is not always easy), export them to a file, and open them with Tabeau Public for the purposes of making a geographic map.
+
+Extracting parts-of-speech and named entities straddles simple text mining and natural language processing. Simple text mining is often about counting & tabulating features (words) in a text. These features have little context sans proximity to other features. On the other hand, parts-of-speech and named entities denote specific types of things, namely specific types of nouns, verbs, adjectives, etc. While these thing do not necessarily denote meaning, they do provide more context than simple features. Extracting parts-of-speech and named entities is (more or less) a easy text mining task with more benefit than cost. Extracting parts-of-speech and named entities goes beyond the basics. 
+
+[1] Stanford Log-linear Part-Of-Speech Tagger - https://nlp.stanford.edu/software/tagger.shtml
+[2] Stanford Named Entity Recognizer (NER) - https://nlp.stanford.edu/software/CRF-NER.shtml
+
+--
+Eric Lease Morgan
+April 26, 2018
+
+
+

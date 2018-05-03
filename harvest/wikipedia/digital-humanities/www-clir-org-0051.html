@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://www.clir.org/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="https://www.clir.org/wp-content/themes/alchem-pro/js/html5.js"></script>
+	<![endif]-->
+    <title>One Culture. Computationally Intensive Research in the Humanities and Social Sciences &bull; CLIR</title>
+<link rel="alternate" hreflang="en-us" href="www-clir-org-0051.htm"/>
+<!-- Jetpack Site Verification Tags -->
+<meta name="msvalidate.01" content="16C471C6E0C6BD925DBFDFABD9354910"/>
+<meta name="yandex-verification" content="f0838fa024e3a807"/>
+
+<!-- This site is optimized with the Yoast SEO plugin v7.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="www-clir-org-0051.htm"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="One Culture. Computationally Intensive Research in the Humanities and Social Sciences &bull; CLIR"/>
+<meta property="og:description" content="One Culture. Computationally Intensive Research in the Humanities and Social Sciences A Report on the Experiences of First Respondents to the Digging Into Data Challenge by Christa Williford and Charles Henry Research Design by Amy Friedlander June 2012. 44 pp. $20 ISBN 978-1-932326-40-6 CLIR pub151 PDF Download of Main Report (excluding case studies, 1 MB file) &gt;&gt; Full Text of Main Report &gt;&gt; This report culminates two years of work by CLIR staff involving extensive interviews and site visits with scholars engaged in international research collaborations involving computational analysis of large data corpora. These scholars were the first recipients of grants through the Digging into Data program, led by the NEH, who partnered with JISC in the UK, SSHRC in Canada, and the NSF to fund the first eight initiatives. The report introduces the eight projects and discusses the importance of these cases as models for the future of research in the academy. Additional information about the projects is provided in the individual case studies below (this additional material is not included in the print or PDF versions of the published report). Report Recommendations: 1) Expand our concept of research 2) Expand our concept of research data and accept the challenges that digital research data present 3) Embrace interdisciplinarity 4) Take a more inclusive approach to collaboration 5) Address gaps in training 6) Adopt models for sharing credit 7) Adopt models for sharing resources 8) Re-envision scholarly publication 9) Make greater, sustained investments in human and cyberinfrastructure &nbsp; Case Studies: Introduction Using Zotero and TAPOR on the Old Bailey Proceedings: Data Mining with Criminal Intent (DMCI) Digging into the Enlightenment: Mapping the Republic of Letters Towards Dynamic Variorum Editions (DVE) Mining a Year of Speech Harvesting Speech Datasets for Linguistic Research on the Web Structural Analysis of Large Amounts of Music Information (SALAMI) Digging into Image Data to Answer Authorship Related Questions (DID-ARQ) Railroads and the Making of Modern America CLIR wishes to acknowledge the support and assistance of the four funders of the 2009 Digging into Data Challenge: National Endowment for the Humanities JISC National Science Foundation Social Sciences and Humanities Research Council of Canada as well as the lead program officers for the 2009 grant program: Alastair Dunning (JISC), Mika Oehling (SSHRC), Jennifer Serventi (NEH), and Elizabeth Tran (NSF) One Culture. Computationally Intensive Research in the Humanities and Social Sciences. A Report on the Experiences of First Respondents to the Digging into Data Challenge by Christa Williford and Charles Henry. Research Design by Amy Friedlander is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Based on a work at www.clir.org. ORDER PRINT COPIES"/>
+<meta property="og:url" content="https://www.clir.org/pubs/reports/pub151/"/>
+<meta property="og:site_name" content="CLIR"/>
+<meta property="article:publisher" content="https://www.facebook.com/pages/Council-on-Library-and-Information-Resources-CLIR/300100435096"/>
+<meta property="og:image" content="https://clir.wordpress.clir.org/wp-content/uploads/sites/6/2016/09/pub151coverA_loresweb.jpg"/>
+<meta property="og:image:secure_url" content="https://clir.wordpress.clir.org/wp-content/uploads/sites/6/2016/09/pub151coverA_loresweb.jpg"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="One Culture. Computationally Intensive Research in the Humanities and Social Sciences A Report on the Experiences of First Respondents to the Digging Into Data Challenge by Christa Williford and Charles Henry Research Design by Amy Friedlander June 2012. 44 pp. $20 ISBN 978-1-932326-40-6 CLIR pub151 PDF Download of Main Report (excluding case studies, 1 MB file) &gt;&gt; Full Text of Main Report &gt;&gt; This report culminates two years of work by CLIR staff involving extensive interviews and site visits with scholars engaged in international research collaborations involving computational analysis of large data corpora. These scholars were the first recipients of grants through the Digging into Data program, led by the NEH, who partnered with JISC in the UK, SSHRC in Canada, and the NSF to fund the first eight initiatives. The report introduces the eight projects and discusses the importance of these cases as models for the future of research in the academy. Additional information about the projects is provided in the individual case studies below (this additional material is not included in the print or PDF versions of the published report). Report Recommendations: 1) Expand our concept of research 2) Expand our concept of research data and accept the challenges that digital research data present 3) Embrace interdisciplinarity 4) Take a more inclusive approach to collaboration 5) Address gaps in training 6) Adopt models for sharing credit 7) Adopt models for sharing resources 8) Re-envision scholarly publication 9) Make greater, sustained investments in human and cyberinfrastructure &nbsp; Case Studies: Introduction Using Zotero and TAPOR on the Old Bailey Proceedings: Data Mining with Criminal Intent (DMCI) Digging into the Enlightenment: Mapping the Republic of Letters Towards Dynamic Variorum Editions (DVE) Mining a Year of Speech Harvesting Speech Datasets for Linguistic Research on the Web Structural Analysis of Large Amounts of Music Information (SALAMI) Digging into Image Data to Answer Authorship Related Questions (DID-ARQ) Railroads and the Making of Modern America CLIR wishes to acknowledge the support and assistance of the four funders of the 2009 Digging into Data Challenge: National Endowment for the Humanities JISC National Science Foundation Social Sciences and Humanities Research Council of Canada as well as the lead program officers for the 2009 grant program: Alastair Dunning (JISC), Mika Oehling (SSHRC), Jennifer Serventi (NEH), and Elizabeth Tran (NSF) One Culture. Computationally Intensive Research in the Humanities and Social Sciences. A Report on the Experiences of First Respondents to the Digging into Data Challenge by Christa Williford and Charles Henry. Research Design by Amy Friedlander is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Based on a work at www.clir.org. ORDER PRINT COPIES"/>
+<meta name="twitter:title" content="One Culture. Computationally Intensive Research in the Humanities and Social Sciences &bull; CLIR"/>
+<meta name="twitter:site" content="@clirnews"/>
+<meta name="twitter:image" content="https://clir.wordpress.clir.org/wp-content/uploads/sites/6/2016/09/pub151coverA_loresweb.jpg"/>
+<meta name="twitter:creator" content="@clirnews"/>
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/www.clir.org\/","sameAs":["https:\/\/www.facebook.com\/pages\/Council-on-Library-and-Information-Resources-CLIR\/300100435096","http:\/\/www.youtube.com\/user\/DLFCLIR?blend=2&ob=0","https:\/\/twitter.com\/clirnews"],"@id":"#organization","name":"CLIR","logo":"https:\/\/clir.wordpress.clir.org\/wp-content\/uploads\/sites\/6\/2016\/09\/clir.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='https://s0.wp.com/'/>
+<link rel='dns-prefetch' href='https://clir.wordpress.clir.org/'/>
+<link rel='dns-prefetch' href='https://use.fontawesome.com/'/>
+<link rel='dns-prefetch' href='https://rawgit.com/'/>
+<link rel='dns-prefetch' href='https://fonts.googleapis.com/'/>
+<link rel='dns-prefetch' href='https://s.w.org/'/>
+<link rel="alternate" type="application/rss+xml" title="CLIR &raquo; Feed" href="https://www.clir.org/feed/"/>
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.0.5 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">var mi_track_user=true;var disableStr='ga-disable-UA-665553-12';function __gaTrackerIsOptedOut(){return document.cookie.indexOf(disableStr+'=true')>-1;}if(__gaTrackerIsOptedOut()){window[disableStr]=true;}function __gaTrackerOptout(){document.cookie=disableStr+'=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';window[disableStr]=true;}if(mi_track_user){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');__gaTracker('create','UA-665553-12','auto');__gaTracker('set','forceSSL',true);__gaTracker('require','displayfeatures');__gaTracker('require','linkid','linkid.js');__gaTracker('send','pageview');}else{console.log("");(function(){var noopfn=function(){return null;};var noopnullfn=function(){return null;};var Tracker=function(){return null;};var p=Tracker.prototype;p.get=noopfn;p.set=noopfn;p.send=noopfn;var __gaTracker=function(){var len=arguments.length;if(len===0){return;}var f=arguments[len-1];if(typeof f!=='object'||f===null||typeof f.hitCallback!=='function'){console.log('Not running function __gaTracker('+arguments[0]+" ....) because you\'re not being tracked. ");return;}try{f.hitCallback();}catch(ex){}};__gaTracker.create=function(){return new Tracker();};__gaTracker.getByName=noopnullfn;__gaTracker.getAll=function(){return[];};__gaTracker.remove=noopfn;window['__gaTracker']=__gaTracker;})();}</script>
+<!-- / Google Analytics by MonsterInsights -->
+
+    <!-- Global -->
+
+    <style>.sc_team_single_member .sc_single_side .social span{background:#1f7dcf}</style>
+
+    <!-- Grid -->
+
+    <style>.grid#sc_our_team .sc_team_member .sc_team_member_name,.grid#sc_our_team .sc_team_member .sc_team_member_jobtitle{background:#1f7dcf}.grid#sc_our_team .sc_team_member{padding:5px!important}</style>
+
+    <!-- Grid Circles -->
+
+    <style>.grid_circles#sc_our_team .sc_team_member .sc_team_member_jobtitle,.grid_circles#sc_our_team .sc_team_member .sc_team_member_name{background:#1f7dcf}.grid_circles#sc_our_team .sc_team_member{margin:5px}</style>
+
+    <!-- Grid Circles 2 -->
+
+    <style>.grid_circles2#sc_our_team .sc_team_member{margin:5px}</style>
+
+
+    <!-- Global -->
+
+    <style>#sc_our_team .sc_team_member_name{font-size:16px!important}#sc_our_team .sc_team_member_jobtitle{font-size:12px!important}.sc_our_team_lightbox .name,.sc_personal_quote span.sc_team_icon-quote-left,.sc_team_single_member .sc_member_articles a,.sc-team-member-posts a{color:#1f7dcf}#sc_team_sidebar_body .social span{background:#1f7dcf}#sc_our_team_lightbox .progress,#sc_our_team_lightbox .social span,.sc_our_team_panel .sc-right-panel .sc-name,.sc_our_team_panel .sc-right-panel .sc-skills .progress,.sc_team_single_member .sc_single_side .social span,#sc_our_team .sc_team_member .icons span,.sc_team_single_member .sc_team_single_skills .progress,.sc-tags .sc-single-tag{background:#1f7dcf}@media (min-width:480px ){#sc_our_team_lightbox .sc_our_team_lightbox{margin-top:100px!important}#sc_our_team_panel .sc_our_team_panel{margin-top:0!important;padding-bottom:0!important}}</style>
+
+    <!-- Carousel -->
+
+    <style>.carousel .sc_team_member{margin:5px}</style>
+
+    <!-- Grid Boxes 2 -->
+
+    <style>.grid2 .sc_team_member .sc_team_member_jobtitle,.grid2 .sc_team_member_inner .image-container i.icon:hover{color:#1f7dcf}.grid2 .sc_team_member_inner .image-container{border-bottom:20px solid #1f7dcf}</style>
+
+    <!-- Grid Boxes 3 -->
+
+    <style>.grid3 .sc_team_member{padding:5px}.grid3 .sc_team_member_inner .image-container i.icon:hover{color:#1f7dcf}.grid3 .sc_team_member_inner .sc_team_member_name a{color:#1f7dcf}.grid3 .sc_team_member hr{margin:2px 0 5px!important;border-color:#1f7dcf!important}#sc_our_team_filter ul.filter-list li:hover,#sc_our_team_filter ul.filter-list li.active-filter,.ots-team-view button.ots-search-reset-button:hover,.ots-team-view button.ots-search-button:hover{color:#fff;border-color:#1f7dcf;background-color:#1f7dcf}#sc_our_team_filter ul.filter-list li.active-filter:hover{opacity:1}#sc_our_team_filter ul.filter-list li:hover{opacity:.8}#sc_our_team.grid3 .styled-icons .sc-social{background-color:#1f7dcf;border-radius:3px}</style>
+
+    <!-- Honeycombs -->
+
+    <style>.honeycombs .inner_span{background-color: }.honeycombs .sc_team_member .sc_team_member_jobtitle,.honeycombs .sc_team_member .sc_team_member_name{color:#1f7dcf}</style>
+
+    <!-- Stacked List -->
+
+    <style>.stacked#sc_our_team .smartcat_team_member{border-color:#1f7dcf}</style>
+
+    <!-- Staff Directory -->
+
+    <style>div.dataTables_wrapper table.sc-team-table thead tr{background:#1f7dcf}div.dataTables_wrapper table.sc-team-table thead th{background-color:#1f7dcf}#sc_our_team div.dataTables_wrapper div.dataTables_paginate.paging_simple_numbers a.paginate_button.current{background:#1f7dcf}</style>
+
+<link rel='stylesheet' id='ots-pro-common-css' href='https://www.clir.org/wp-content/plugins/MTUxODE4MjU1OTozNWYxYWQ4MjgxZjFkYmQyOTU4Yjc0NGRjMGQwMjZmZjoxNjMwOmI4YTRiMjVhMGQ2ZTM5ZTg3MGI3ZmZhNWU3ODNkYzAxOmh0dHBzQC8vY2xpci53b3JkcHJlc3MuY2xpci5vcmc6MA-ExMnA6/assets/css/A.common.css,qver=4.3.0.pagespeed.cf.zETAuqk1z8.css' type='text/css' media='all'/>
+<style id='ots-common-css' media='all'>.clear{clear:both}.sc-left{float:left;box-sizing:border-box}.width25,.width50,.width75{width:100%;padding:20px 20px 20px 20px}.sc_team_member .sc_team_member_name a{text-decoration:none}.sc_team_single_disabled{cursor:default}.sc-team-member-posts a{font-size:18px}#sc_our_team .sc_team_member .icons a{margin:0 auto 5px auto;text-decoration:none;box-shadow:none;border:none}#sc_our_team .sc_team_member .icons img{display:inline-block;box-shadow:none;border:none;margin:0 2px 0 2px}#sc_our_team .sc_team_member_inner{width:100%;height:100%;overflow:hidden}#sc_our_team .sc_team_member .sc_team_more img{width:50px;height:50px;margin:0 auto 0 auto}#sc_our_team .sc_team_member .sc_team_more a,#sc_our_team .sc_team_member .sc_team_more img{box-shadow:none;border:none}@media (min-width:768px){#sc_our_team.sc-col3 .sc_team_member{width:33.3%}#sc_our_team.sc-col4 .sc_team_member{width:25%}#sc_our_team.sc-col2 .sc_team_member{width:50%}#sc_our_team.sc-col5 .sc_team_member{width:20%}#sc_our_team.sc-col10 .sc_team_member{width:10%}#sc_our_team.sc-col5 .sc_team_member{width:17%;margin:1%}#sc_our_team.sc-col10 .sc_team_member{width:10%}.width25{width:24%;padding:0 15px 0 15px}.width50{width:49%;padding:0 15px 0 15px}.width75{width:73%;padding:0 15px 0 15px}}.sc-hidden-member{opacity:0;width:0;transform:translate(-50px,0);transition:.3s all ease-in-out;-moz-transition:.3s all ease-in-out;-webkit-transition:.3s all ease-in-out}.sc-reveal-member{transform:translate(-50px,0);-moz-transform:translate(-50px,0);-webkit-transform:translate(-50px,0)}</style>
+<style id='contact-form-7-css' media='all'>div.wpcf7{margin:0;padding:0}div.wpcf7 .screen-reader-response{position:absolute;overflow:hidden;clip:rect(1px,1px,1px,1px);height:1px;width:1px;margin:0;padding:0;border:0}div.wpcf7-response-output{margin:2em .5em 1em;padding:.2em 1em;border:2px solid red}div.wpcf7-mail-sent-ok{border:2px solid #398f14}div.wpcf7-mail-sent-ng,div.wpcf7-aborted{border:2px solid red}div.wpcf7-spam-blocked{border:2px solid #ffa500}div.wpcf7-validation-errors,div.wpcf7-acceptance-missing{border:2px solid #f7e700}.wpcf7-form-control-wrap{position:relative}span.wpcf7-not-valid-tip{color:red;font-size:1em;font-weight:normal;display:block}.use-floating-validation-tip span.wpcf7-not-valid-tip{position:absolute;top:20%;left:20%;z-index:100;border:1px solid red;background:#fff;padding:.2em .8em}span.wpcf7-list-item{display:inline-block;margin:0 0 0 1em}span.wpcf7-list-item-label::before,span.wpcf7-list-item-label::after{content:" "}.wpcf7-display-none{display:none}div.wpcf7 .ajax-loader{visibility:hidden;display:inline-block;background-image:url(https://www.clir.org/wp-content/plugins/contact-form-7/images/ajax-loader.gif);width:16px;height:16px;border:none;padding:0;margin:0 0 0 4px;vertical-align:middle}div.wpcf7 .ajax-loader.is-active{visibility:visible}div.wpcf7 div.ajax-error{display:none}div.wpcf7 .placeheld{color:#888}div.wpcf7 .wpcf7-recaptcha iframe{margin-bottom:0}div.wpcf7 input[type="file"]{cursor:pointer}div.wpcf7 input[type="file"]:disabled{cursor:default}</style>
+<style id='wpa-style-css' media='all'>.wpa-hide-rtl#skiplinks a,.wpa-hide-rtl#skiplinks a:hover,.wpa-hide-rtl#skiplinks a:visited{position:absolute!important;right:-999em}.wpa-hide-ltr#skiplinks a,.wpa-hide-ltr#skiplinks a:hover,.wpa-hide-ltr#skiplinks a:visited{position:absolute!important;left:-999em}.wpa-hide#skiplinks a:active,.wpa-hide#skiplinks a:focus{position:absolute}.wpa-ld{display:inline-block;position:relative}div.alignleft{float:left}div.alignright{float:right}div.aligncenter{display:block;margin:0 auto}.wpa-ld a,.wpa-ld button{bottom:2px;left:2px;position:absolute;line-height:1;min-width:1em}.wpa-ld img{display:block}.wpa-ld button,.wpa-ld button:active,.wpa-ld button:focus,.wpa-ld button:hover{border:1px solid #777;border-radius:2px;z-index:10}.wpa-ld .longdesc{position:absolute;width:100%;height:100%;top:0;overflow-y:scroll;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;background:rgba(255,255,255,.95);padding:1.5em}.wpa-ld button,.wpa-ld button:active,.wpa-ld button:focus,.wpa-ld button:hover,.wpa-ld a{font-size:.9em;font-weight:400;background:rgba(255,255,255,.7)!important;padding:0;color:#000!important;text-shadow:1px 1px #ccc}.wpa-ld button:before{content:'i';font-style:italic;font-family:serif}.wpa-ld button:focus,.wpa-ld button:hover{background:rgba(0,0,0,.75)!important;color:#fff!important;border:1px solid #000!important;cursor:pointer}.wpa-ld button:focus{padding:6px}.wpa-ld button span,.longdesc-link span{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}.template-longdesc{text-align:left;line-height:1.5;width:100%;max-width:50em;padding:2em;margin:1em auto;background:#fdfdfd;color:#333;box-shadow:0 0 5px;font-size:1.4em}label.wpa-screen-reader-text{position:absolute!important;clip:rect(1px,1px,1px,1px);overflow:hidden;color:#000;background:#fff;width:1px;height:1px}</style>
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://www.clir.org/wp-content/plugins/revslider/public/assets/css/A.settings.css,qver=5.4.7.2.pagespeed.cf.EAMmwHF_Pm.css' type='text/css' media='all'/>
+<style id='rs-plugin-settings-inline-css' type='text/css'>#rs-demo-id{}</style>
+<link rel='stylesheet' id='wpml-legacy-dropdown-0-css' href='https://clir.wordpress.clir.org/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.css?ver=1' type='text/css' media='all'/>
+<style id='wpml-legacy-dropdown-0-inline-css' type='text/css'>.wpml-ls-statics-shortcode_actions{background-color:#eee}.wpml-ls-statics-shortcode_actions,.wpml-ls-statics-shortcode_actions .wpml-ls-sub-menu,.wpml-ls-statics-shortcode_actions a{border-color:#cdcdcd}.wpml-ls-statics-shortcode_actions a{color:#444;background-color:#fff}.wpml-ls-statics-shortcode_actions a:hover,.wpml-ls-statics-shortcode_actions a:focus{color:#000;background-color:#eee}.wpml-ls-statics-shortcode_actions .wpml-ls-current-language>a{color:#444;background-color:#fff}.wpml-ls-statics-shortcode_actions .wpml-ls-current-language:hover>a,.wpml-ls-statics-shortcode_actions .wpml-ls-current-language>a:focus{color:#000;background-color:#eee}</style>
+<link rel='stylesheet' id='wpml-menu-item-0-css' href='https://clir.wordpress.clir.org/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.css?ver=1' type='text/css' media='all'/>
+<style id='ots-widget-css' media='all'>.widget#sc_our_team .sc_sidebar_team_member{width:100%;overflow:hidden;margin:0 0 10px 0}.widget#sc_our_team .sc_sidebar_team_member .wp-post-image{float:left;width:25%;border:1px solid #d0d0d0;padding:3px 3px 3px 3px;box-sizing:border-box;margin:0 0 0 0}.widget#sc_our_team .sc_sidebar_team_member .sc_team_member_overlay{float:left;width:75%;padding:0 0 0 10px;box-sizing:border-box}.widget#sc_our_team .sc_sidebar_team_member .sc_team_member_overlay .sc_team_member_name{font-weight:bold}</style>
+<link rel='stylesheet' id='parent-style-css' href='https://www.clir.org/wp-content/themes/alchem-pro/A.style.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.9a1JoQ-d8x.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='clir-logo-fonts-css' href='https://rawgit.com/clirdlf/logo-fonts/master/style.min.css?ver=f227c148d4348caa3c7b6593c5c4f70d' type='text/css' media='all'/>
+<link rel='stylesheet' id='clir-fonts-css' href='https://rawgit.com/clirdlf/logo-fonts/master/clir-font/stylesheet.min.css?ver=f227c148d4348caa3c7b6593c5c4f70d' type='text/css' media='all'/>
+<link rel='stylesheet' id='alchem-google-fonts-Lato-Cabin-Condensed-css' href='https://fonts.googleapis.com/css?family=Lato%7CCabin+Condensed%7CPoiret+One&amp;ver=f227c148d4348caa3c7b6593c5c4f70d' type='text/css' media=''/>
+<link rel='stylesheet' id='alchem-Open-Sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700&amp;ver=f227c148d4348caa3c7b6593c5c4f70d' type='text/css' media=''/>
+<link rel='stylesheet' id='bootstrap-css' href='https://www.clir.org/wp-content/themes/alchem-pro/plugins/bootstrap/css/A.bootstrap.min.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.7qDaAYp5mZ.css' type='text/css' media=''/>
+<link rel='stylesheet' id='font-awesome-css' href='https://www.clir.org/wp-content/themes/alchem-pro/plugins/font-awesome/css/A.font-awesome.min.css,qver=4.3.0.pagespeed.cf.iIGKnvKx_M.css' type='text/css' media=''/>
+<link rel='stylesheet' id='animate-css' href='https://www.clir.org/wp-content/themes/alchem-pro/plugins/A.animate.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.EA3w4v165n.css' type='text/css' media=''/>
+<link rel='stylesheet' id='prettyPhoto-css' href='https://www.clir.org/wp-content/themes/alchem-pro/css/A.prettyPhoto.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.nIF5WRyj4S.css' type='text/css' media=''/>
+<link rel='stylesheet' id='owl.carousel-css' href='https://www.clir.org/wp-content/themes/alchem-pro/plugins/owl-carousel/assets/A.owl.carousel.css,qver=2.2.0.pagespeed.cf.SoLgB7rVoI.css' type='text/css' media=''/>
+<link rel='stylesheet' id='magee-shortcode-css' href='https://www.clir.org/wp-content/themes/alchem-pro/css/A.shortcode.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.1nakgZHous.css' type='text/css' media=''/>
+<link rel='stylesheet' id='alchem-woocommerce-css' href='https://www.clir.org/wp-content/themes/alchem-pro/css/A.woo.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.S9g3NRCI0e.css' type='text/css' media=''/>
+<link rel='stylesheet' id='alchem-custom-css' href='https://www.clir.org/wp-content/themes/alchem-pro/css/A.custom.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.-lGIBIByJK.css' type='text/css' media=''/>
+<link rel='stylesheet' id='alchem-customize-css' href='https://www.clir.org/wp-content/themes/alchem-pro/css/A.customize.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.guDupX8GXa.css' type='text/css' media=''/>
+<style id='alchem-style-css' media='all'>@import url(https://www.clir.org/wp-content/themes/clir_theme/stylesheets/main.css);</style>
+<style id='alchem-style-inline-css' type='text/css'>
+body{ font-size:16px}#menu-main > li > a > span{ font-size:14px}#menu-main li li a span{ font-size:14px}.breadcrumb-nav span,.breadcrumb-nav a{ font-size:14px}.widget-area .widget-title{ font-size:16px}.footer-widget-area .widget-title{ font-size:16px}h1{ font-size:36px}h2{ font-size:30px}h3{ font-size:24px}h4{ font-size:20px}h5{ font-size:18px}h6{ font-size:16px}.site-tagline{ font-size:14px}.entry-meta li,.entry-meta li a,.entry-meta span{ font-size:14px}.page-title h1{ font-size:30px}.page-title h3{ font-size:14px}.post-pagination li a,.post-pagination li span{ font-size:14px}@media (min-width: 1200px){
+			.container {
+			  width: 1170px;
+			  }
+			}
+.top-bar{background-color:#9a1c46;}.top-bar ul li a{color:#ffffff;}.site-name,.site-tagline{display: none;}footer .footer-info-area{background-color:#666666}.fxd-header .site-nav > ul > li a{color:#333333;}.page-title-bar h1,.page-title-bar a,.page-title-bar span{color:#ffffff !important;}.post-inner,.page-inner{padding-top:55px;}.post-inner,.page-inner{padding-bottom:40px;}.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{margin-top:0px;}.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{margin-bottom:20px;}@media (min-width: 920px) {
+							  .main-header .site-nav > ul > li > a {
+								padding-top: 0px;
+							  }
+							  }@media (min-width: 920px) {
+							  .main-header .site-nav > ul > li > a{
+								  padding-bottom:0px;
+								  } 
+								  }.fxd-header{background-color: rgba(255,255,255,0.7);}
+.fxd-header .site-nav > ul > li > a {font-size:14px;}
+.site-nav li ul{width:250px}@media screen and (min-width: 919px){
+		.main-header .site-nav > ul > li > a{line-height:70px;}
+
+		.site-nav > ul > li a{ border-bottom:2px solid transparent; }
+
+		}@media screen and (max-width: 919px){
+	.site-nav-toggle {
+		display: block;
+	}
+	.site-nav {
+		display: none;
+		width: 100%;
+		margin-top: 0;
+		background-color: #fff;
+	}
+	.site-nav > ul > li {
+		float: none;
+		overflow: hidden;
+	}
+	.site-nav > ul > li + li {
+		margin-left: 0;
+	}
+	.site-nav > ul > li a {
+		line-height: 50px;
+	}
+	.site-nav > ul > li i {
+	line-height: 50px;
+    } 
+	.site-nav li > ul {
+		position: static;
+		margin-left: 20px;
+		z-index: 999;
+		width: auto;
+		background-color: transparent;
+	}
+	.site-nav li ul li > a {
+		color: #555;
+	}
+	.site-nav li ul li:hover > a {
+		color: #19cbcf;
+	}
+	.search-form {
+		display: none;
+		margin: 25px 0 15px;
+	}
+	header {
+		min-height: 65px;
+	}
+	.site-logo {
+		height: 50px;
+	}
+	.site-name {
+		margin: 0;
+		font-size: 24px;
+		font-weight: normal;
+	}
+}.page-title-bar{
+background-image: url(https://clir.wordpress.clir.org/wp-content/uploads/sites/6/2016/09/Mosaic-2-small-dark.png);
+-webkit-background-size: cover;
+								-moz-background-size: cover;
+								-o-background-size: cover;
+								background-size: cover;
+background-repeat:;}
+.page-title-bar{
+		padding-top:60px;
+		padding-bottom:60px;
+		}@media (min-width: 992px) {
+			 .left-aside .col-main,
+		.right-aside .col-main {
+			width: 75%;
+			 }
+.left-aside .col-main {
+			left: 25%; 
+		}
+.left-aside .col-aside-left {
+			right: 75%; 
+		}
+.left-aside .col-aside-left,
+		.right-aside .col-aside-right {
+			width: 25%;
+		   }
+
+		 }@media (min-width: 992px) {
+			.both-aside .col-main {
+		width: 60%;
+	    }
+.both-aside .col-aside-left {
+			width: 20%;
+		}
+.both-aside .col-aside-left {
+			right: 60%;
+		}
+.both-aside .col-aside-right {
+			width: 20%;
+		}
+.both-aside .col-main {
+			left: 20%; 
+		}
+.both-aside .col-aside-right {
+			width: 20%;
+		}
+
+			}.footer-widget-area{
+
+	                           padding-top:60px;
+
+							   padding-bottom:40px;
+
+							   }.footer-info-area{
+
+	                           padding-top:40px;
+
+							   padding-bottom:40px;
+
+							   }.footer-sns i {
+		color:#c5c7c9
+		}.footer-sns a {
+		border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+		}.carousel-caption,.carousel-caption p{color:#333333;}.carousel-caption h1,
+	.carousel-caption h2,
+	.carousel-caption h3,
+	.carousel-caption h4,
+	.carousel-caption h5,
+	.carousel-caption h6{color:#333333;}.carousel-caption p{font-size:14px;}.carousel-caption p{text-align:left;}#alchem-home-sections .alchem-home-section-0{
+				background-color:;
+				background-image:url(https://demo.mageewp.com/alchem/wp-content/uploads/sites/21/2015/08/banner-1.jpg);
+				padding-top:0;
+				padding-bottom:0;
+				}
+#alchem-home-sections .alchem-home-section-0,.alchem-home-section-0 p,.alchem-home-section-0 span,.alchem-home-section-0 h1,.alchem-home-section-0 h2,.alchem-home-section-0 div,.alchem-home-section-0 li,.alchem-home-section-0 i{
+				color:#ffffff;
+				}
+#alchem-home-sections .alchem-home-section-0 a.magee-btn-normal{ color:#ffffff;border-color: #ffffff;}#alchem-home-sections .alchem-home-section-0 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-0 .owl-theme .owl-dots .owl-dot:hover{background-color:#ffffff;}#alchem-home-sections .alchem-home-section-0 .home-banner-slider .owl-theme .owl-dots .owl-dot{border: 2px solid #ffffff;}#alchem-home-sections .alchem-home-section-1{
+				background-color:#f5f5f5;
+				background-image:url(www-clir-org-0051.htm);
+				padding-top:20px;
+				padding-bottom:20px;
+				}
+#alchem-home-sections .alchem-home-section-1,.alchem-home-section-1 p,.alchem-home-section-1 span,.alchem-home-section-1 h1,.alchem-home-section-1 h2,.alchem-home-section-1 div,.alchem-home-section-1 li,.alchem-home-section-1 i{
+				color:;
+				}
+#alchem-home-sections .alchem-home-section-1 a.magee-btn-normal{ color:;border-color: ;}#alchem-home-sections .alchem-home-section-1 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-1 .owl-theme .owl-dots .owl-dot:hover{background-color:;}#alchem-home-sections .alchem-home-section-1 .home-banner-slider .owl-theme .owl-dots .owl-dot{border: 2px solid ;}#alchem-home-sections .alchem-home-section-2{
+				background-color:#e5e5e5;
+				background-image:url(www-clir-org-0051.htm);
+				padding-top:50px;
+				padding-bottom:50px;
+				}
+#alchem-home-sections .alchem-home-section-2,.alchem-home-section-2 p,.alchem-home-section-2 span,.alchem-home-section-2 h1,.alchem-home-section-2 h2,.alchem-home-section-2 div,.alchem-home-section-2 li,.alchem-home-section-2 i{
+				color:;
+				}
+#alchem-home-sections .alchem-home-section-2 a.magee-btn-normal{ color:;border-color: ;}#alchem-home-sections .alchem-home-section-2 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-2 .owl-theme .owl-dots .owl-dot:hover{background-color:;}#alchem-home-sections .alchem-home-section-2 .home-banner-slider .owl-theme .owl-dots .owl-dot{border: 2px solid ;}#alchem-home-sections .alchem-home-section-3{
+				background-color:#f3f3f4;
+				background-image:url(www-clir-org-0051.htm);
+				padding-top:50px;
+				padding-bottom:50px;
+				}
+#alchem-home-sections .alchem-home-section-3,.alchem-home-section-3 p,.alchem-home-section-3 span,.alchem-home-section-3 h1,.alchem-home-section-3 h2,.alchem-home-section-3 div,.alchem-home-section-3 li,.alchem-home-section-3 i{
+				color:;
+				}
+#alchem-home-sections .alchem-home-section-3 a.magee-btn-normal{ color:;border-color: ;}#alchem-home-sections .alchem-home-section-3 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-3 .owl-theme .owl-dots .owl-dot:hover{background-color:;}#alchem-home-sections .alchem-home-section-3 .home-banner-slider .owl-theme .owl-dots .owl-dot{border: 2px solid ;}#alchem-home-sections .alchem-home-section-4{
+				background-color:;
+				background-image:url(www-clir-org-0051.htm);
+				padding-top:60px;
+				padding-bottom:50px;
+				}
+#alchem-home-sections .alchem-home-section-4,.alchem-home-section-4 p,.alchem-home-section-4 span,.alchem-home-section-4 h1,.alchem-home-section-4 h2,.alchem-home-section-4 div,.alchem-home-section-4 li,.alchem-home-section-4 i{
+				color:;
+				}
+#alchem-home-sections .alchem-home-section-4 a.magee-btn-normal{ color:;border-color: ;}#alchem-home-sections .alchem-home-section-4 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-4 .owl-theme .owl-dots .owl-dot:hover{background-color:;}#alchem-home-sections .alchem-home-section-4 .home-banner-slider .owl-theme .owl-dots .owl-dot{border: 2px solid ;}#alchem-home-sections .alchem-home-section-8{
+				background-color:;
+				background-image:url(www-clir-org-0051.htm);
+				padding-top:50px;
+				padding-bottom:50px;
+				}
+#alchem-home-sections .alchem-home-section-8,.alchem-home-section-8 p,.alchem-home-section-8 span,.alchem-home-section-8 h1,.alchem-home-section-8 h2,.alchem-home-section-8 div,.alchem-home-section-8 li,.alchem-home-section-8 i{
+				color:;
+				}
+#alchem-home-sections .alchem-home-section-8 a.magee-btn-normal{ color:;border-color: ;}#alchem-home-sections .alchem-home-section-8 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-8 .owl-theme .owl-dots .owl-dot:hover{background-color:;}#alchem-home-sections .alchem-home-section-8 .home-banner-slider .owl-theme .owl-dots .owl-dot{border: 2px solid ;}#alchem-home-sections .alchem-home-section-15{
+				background-color:;
+				background-image:url(www-clir-org-0051.htm);
+				padding-top:;
+				padding-bottom:;
+				}
+#alchem-home-sections .alchem-home-section-15,.alchem-home-section-15 p,.alchem-home-section-15 span,.alchem-home-section-15 h1,.alchem-home-section-15 h2,.alchem-home-section-15 div,.alchem-home-section-15 li,.alchem-home-section-15 i{
+				color:;
+				}
+#alchem-home-sections .alchem-home-section-15 a.magee-btn-normal{ color:;border-color: ;}#alchem-home-sections .alchem-home-section-15 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-15 .owl-theme .owl-dots .owl-dot:hover{background-color:;}#alchem-home-sections .alchem-home-section-15 .home-banner-slider .owl-theme .owl-dots .owl-dot{border: 2px solid ;}#custom {
+      }
+</style>
+<link rel='stylesheet' id='alchem-scheme' href='https://www.clir.org/wp-content/themes/alchem-pro/css/A.scheme.less,qver=0.0.4.pagespeed.cf.Ulx77FqZ8_.css' type='text/less' media=''/>
+<link rel='stylesheet' id='jquery.mb.YTPlayer-css' href='https://www.clir.org/wp-content/themes/alchem-pro/plugins/YTPlayer/css/A.jquery.mb.YTPlayer.min.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.ByUCGILeMp.css' type='text/css' media='1'/>
+<style id='owl.theme-css' media=''>.owl-theme .owl-controls{margin-top:10px;text-align:center}.owl-theme .owl-controls .owl-buttons div{color:#fff;display:inline-block;zoom:1;*display: inline;margin:5px;padding:3px 10px;font-size:12px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;background:#869791;filter: Alpha(Opacity=50);opacity:.5}.owl-theme .owl-controls.clickable .owl-buttons div:hover{filter: Alpha(Opacity=100);opacity:1;text-decoration:none}.owl-theme .owl-controls .owl-page{display:inline-block;zoom:1;*display: inline}.owl-theme .owl-controls .owl-page span{display:block;width:12px;height:12px;margin:5px 7px;filter: Alpha(Opacity=50);opacity:.5;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;background:#869791}.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span{filter: Alpha(Opacity=100);opacity:1}.owl-theme .owl-controls .owl-page span.owl-numbers{height:auto;width:auto;color:#fff;padding:2px 10px;font-size:12px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}.owl-item.loading{min-height:150px;background:url(https://www.clir.org/wp-content/themes/alchem-pro/lib/magee-shortcodes-pro/assets/images/AjaxLoader.gif) no-repeat center center}#owl-demo .item img{display:block;width:100%;height:auto}#owl-demo .item{position:relative}.owl-controls{position:absolute;margin-top:10px;width:100%;text-align:center;bottom:10px}</style>
+<link rel='stylesheet' id='twentytwenty-css' href='https://www.clir.org/wp-content/themes/alchem-pro/lib/magee-shortcodes-pro/assets/css/A.twentytwenty.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.ehhC9UyXf8.css' type='text/css' media=''/>
+<link rel='stylesheet' id='audioplayer-css' href='https://www.clir.org/wp-content/themes/alchem-pro/lib/magee-shortcodes-pro/assets/css/A.audioplayer.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.nn0tvPw3Kr.css' type='text/css' media=''/>
+<link rel='stylesheet' id='weather-icons-css' href='https://www.clir.org/wp-content/themes/alchem-pro/lib/magee-shortcodes-pro/assets/weathericons/css/A.weather-icons.min.css,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.cf.CZSek6KSo4.css' type='text/css' media=''/>
+<style id='classycountdown-css' media=''>.ClassyCountdown-wrapper>div{display:inline-block;position:relative;width:calc(25% - 20px);margin:10px}.ClassyCountdown-wrapper .ClassyCountdown-value{width:100%;line-height:1em;position:absolute;top:50%;text-align:center;left:0;display:block}</style>
+<style id='jetpack-widget-social-icons-styles-css' media='all'>.jetpack_widget_social_icons ul,.jetpack_widget_social_icons li{list-style:none}.jetpack_widget_social_icons ul{display:block;margin:0 0 1.5em;padding:0}.jetpack_widget_social_icons ul li{border:0;display:inline-block;line-height:1;margin:0;padding:0}.jetpack_widget_social_icons ul li:before,.jetpack_widget_social_icons ul li:after{display:none}.jetpack_widget_social_icons a{border:0;box-shadow:none;display:block;height:24px;text-decoration:none;width:24px}.jetpack_widget_social_icons svg{color:inherit;fill:currentColor;height:inherit;vertical-align:middle;width:inherit}.jetpack_widget_social_icons ul.size-small a{height:24px;width:24px}.jetpack_widget_social_icons ul.size-medium a{height:32px;width:32px}.jetpack_widget_social_icons ul.size-large a{height:48px;width:48px}</style>
+<link rel='stylesheet' id='jetpack_css-css' href='https://www.clir.org/wp-content/plugins/jetpack/css/A.jetpack.css,qver=6.0.pagespeed.cf.PzUjln-mIt.css' type='text/css' media='all'/>
+<script type='text/javascript' src='https://www.clir.org/wp-includes/js/jquery/jquery.js,qver=1.12.4.pagespeed.jm.pPCPAKkkss.js'></script>
+<script src="https://www.clir.org/wp-includes,_js,_jquery,_jquery-migrate.min.js,qver==1.4.1+wp-content,_plugins,_sitepress-multilingual-cms,_res,_js,_jquery.cookie.js,qver==3.8.1.pagespeed.jc.aC6ojiQpzY.js"></script><script>eval(mod_pagespeed_mUhmJEi5Tr);</script>
+<script>eval(mod_pagespeed_K2Nn3CIevO);</script>
+<script type='text/javascript'>//<![CDATA[
+var wpml_cookies={"_icl_current_language":{"value":"en","expires":1,"path":"\/"}};var wpml_cookies={"_icl_current_language":{"value":"en","expires":1,"path":"\/"}};
+//]]></script>
+<script type='text/javascript'>//<![CDATA[
+jQuery('document').ready(function(){jQuery.each(wpml_cookies,function(cookieName,cookieData){jQuery.cookie(cookieName,cookieData.value,{'expires':cookieData.expires,'path':cookieData.path});});});
+//]]></script>
+<script type='text/javascript'>//<![CDATA[
+var monsterinsights_frontend={"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"doc,exe,js,pdf,ppt,tgz,zip,xls","inbound_paths":"","home_url":"https:\/\/www.clir.org","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+//]]></script>
+<script type='text/javascript' src='https://www.clir.org/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js,qver=7.0.5.pagespeed.jm.Qz3HjJUchI.js'></script>
+<script type='text/javascript' src='https://www.clir.org/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js,qver=5.4.7.2.pagespeed.jm.2BIlm-w4Ka.js'></script>
+<script src="https://www.clir.org/wp-content/plugins,_revslider,_public,_assets,_js,_jquery.themepunch.revolution.min.js,qver==5.4.7.2+plugins,_revslider-whiteboard-addon,_public,_assets,_js,_revolution.addon.whiteboard.min.js,qver==1.0.6+themes,_clir_theme,_js,_scripts.js,qver==f227c148d4348caa3c7b6593c5c4f70d.pagespeed.jc.J8VRTIPQYd.js"></script><script>eval(mod_pagespeed_2oCj7g5x$5);</script>
+<script type='text/javascript' src='https://clir.wordpress.clir.org/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script.js?ver=1'></script>
+<script>eval(mod_pagespeed_hzxBY_4XL_);</script>
+<script type='text/javascript' src='https://use.fontawesome.com/c1ca2c16bc.js?ver=f227c148d4348caa3c7b6593c5c4f70d'></script>
+<script>eval(mod_pagespeed__0Rrl_ljF9);</script>
+<script type='text/javascript' src='https://www.clir.org/wp-content/themes/alchem-pro/plugins/less.min.js,qver=2.5.1.pagespeed.jm.2cUzZiNcvX.js'></script>
+<script src="https://www.clir.org/wp-content/themes/alchem-pro/js,_respond.min.js,qver==2.0.0+js,_jquery.nav.js,qver==3.0.0+lib,_magee-shortcodes-pro,_assets,_js,_jquery.waypoints.js,qver==2.0.5+lib,_magee-shortcodes-pro,_assets,_jquery-countdown,_jquery.countdown.min.js,qver==2.0.4+lib,_magee-shortcodes-pro,_assets,_jquery-countdown,_jquery.knob.js,qver==1.2.11+lib,_magee-shortcodes-pro,_assets,_jquery-countdown,_jquery.throttle.js,qver==f227c148d4348caa3c7b6593c5c4f70d+lib,_magee-shortcodes-pro,_assets,_jquery-countdown,_jquery.classycountdown.min.js,qver==1.1.0+lib,_magee-shortcodes-pro,_assets,_jquery-easy-pie-chart,_jquery.easypiechart.min.js,qver==2.1.7.pagespeed.jc.PhYTqnwTTd.js"></script><script>eval(mod_pagespeed_uNLg1D9XU4);</script>
+<script>eval(mod_pagespeed_kx8JQVpCrB);</script>
+<script>eval(mod_pagespeed_tj1WaCHnzr);</script>
+<script>eval(mod_pagespeed_hqgQGdbRdg);</script>
+<script>eval(mod_pagespeed_E9xPYhrMjz);</script>
+<script>eval(mod_pagespeed_X8eWhUzV7h);</script>
+<script>eval(mod_pagespeed_UeqQv9OnIR);</script>
+<script>eval(mod_pagespeed_XxPSGYfkki);</script>
+<script src="https://www.clir.org/wp-content/themes/alchem-pro/lib/magee-shortcodes-pro/assets/js/jquery.prettyPhoto.js,qver==3.1.6+jquery.event.move.js,qver==1.3.6+jquery.twentytwenty.js,qver==f227c148d4348caa3c7b6593c5c4f70d+audioplayer.js,qver==f227c148d4348caa3c7b6593c5c4f70d+chart.min.js,qver==2.1.4.pagespeed.jc.1Xt-_R4EpG.js"></script><script>eval(mod_pagespeed_oJfxQWYTuY);</script>
+<script>eval(mod_pagespeed_ePgu7Vux3u);</script>
+<script>eval(mod_pagespeed_BpH4sH83f0);</script>
+<script>eval(mod_pagespeed_xccrMmyFCr);</script>
+<script>eval(mod_pagespeed_a9rrv0b4Yy);</script>
+<script type='text/javascript' src='https://www.clir.org/wp-content/themes/alchem-pro/lib/magee-shortcodes-pro/assets/js/moment.js,qver=2.12.0.pagespeed.jm.QBo13GVKHB.js'></script>
+<link rel='https://api.w.org/' href='https://www.clir.org/wp-json/'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.clir.org/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.clir.org/wp-includes/wlwmanifest.xml"/> 
+
+<link rel='shortlink' href='https://wp.me/P8gSHX-b3'/>
+<link rel="alternate" type="application/json+oembed" href="https://www.clir.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.clir.org%2Fpubs%2Freports%2Fpub151%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://www.clir.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.clir.org%2Fpubs%2Freports%2Fpub151%2F&#038;format=xml"/>
+<script type="text/javascript">(function(url){if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){return;}var addEvent=function(evt,handler){if(window.addEventListener){document.addEventListener(evt,handler,false);}else if(window.attachEvent){document.attachEvent('on'+evt,handler);}};var removeEvent=function(evt,handler){if(window.removeEventListener){document.removeEventListener(evt,handler,false);}else if(window.detachEvent){document.detachEvent('on'+evt,handler);}};var evts='contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');var logHuman=function(){var wfscr=document.createElement('script');wfscr.type='text/javascript';wfscr.async=true;wfscr.src=url+'&r='+Math.random();(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);for(var i=0;i<evts.length;i++){removeEvent(evts[i],logHuman);}};for(var i=0;i<evts.length;i++){addEvent(evts[i],logHuman);}})('//www.clir.org/?wordfence_lh=1&hid=DD78924F01EC4BF8C385AC33835BFC9E');</script><script src='https://wordpress.clir.org/?dm=e96b5c39e8848d0bfdad23a278113072&amp;action=load&amp;blogid=6&amp;siteid=1&amp;t=660408571&amp;back=https%3A%2F%2Fwww.clir.org%2Fpubs%2Freports%2Fpub151%2F' type='text/javascript'></script><script type="text/javascript">window._se_plugin_version='8.1.9';</script>
+<meta name="generator" content="WPML ver:3.8.1 stt:1,2;"/>
+<!-- Markup (JSON-LD) structured in schema.org ver.4.2.1 START -->
+<!-- Markup (JSON-LD) structured in schema.org END -->
+
+<link rel='dns-prefetch' href='https://v0.wordpress.com/'/>
+<link rel='dns-prefetch' href='https://i0.wp.com/'/>
+<link rel='dns-prefetch' href='https://i1.wp.com/'/>
+<link rel='dns-prefetch' href='https://i2.wp.com/'/>
+<style type='text/css'>img#wpstats{display:none}</style><script type="text/javascript"></script>
+        <style id="emma-emarketing" type="text/css" media="all">
+            /**
+            * Emma Emarketing Plugin Stylesheet
+            */
+
+            /** Basics **/
+            #emma-form { max-width: 100%; }
+            #emma-subscription-form { width: 100%; }
+            ul#emma-form-elements { list-style-type: none; margin: 0; padding: 0; }
+            ul#emma-form-elements li.emma-form-row { list-style-type: none; width: 90%; margin: 3px auto; display: block; }
+            ul#emma-form-elements .emma-form-label { float: left; width: 27%; }
+            ul#emma-form-elements .emma-form-input { float: right; width: 69%;}
+            ul#emma-form-elements .emma-form-row-last { clear: both; }
+            ul#emma-form-elements .emma-required { color: #C00; }
+            ul#emma-form-elements #emma-form-submit { float: right; }
+            ul#emma-form-elements .emma-form-label-required { width: 40%; }
+            .emma-status-msg { width: 90%; margin: 0 auto; }
+            .emma-error { width: 90%; margin: 0 auto; color: #C00; }
+            #emma-subscription-form .validation-container {display: none !important;position: absolute !important;left: -9000px;}
+
+			/* Deprecated */
+            #emma-form.x-small { width: 200px; }
+            #emma-form.small { width: 280px; }
+            #emma-form.medium { width: 300px; }
+            #emma-form.large { width: 340px; }
+            
+            #emma-form.emma-horizontal-layout { width: auto; }
+			.emma-horizontal-layout ul#emma-form-elements li.emma-form-row { width:24%; float:left; margin-right: 1%; }
+			.emma-horizontal-layout ul#emma-form-elements .emma-form-input { width: 100%; }
+			.emma-horizontal-layout #emma-form-submit { width: 100%; padding: 0; height: 37px; }
+			.emma-horizontal-layout ul#emma-form-elements li.emma-form-row-last { margin-right: 0; clear: none; }
+			.emma-horizontal-layout .emma-form-label,.emma-horizontal-layout .emma-form-label-required { display:none; }
+			
+			#emma-form.emma-only-email.emma-horizontal-layout ul#emma-form-elements li.emma-form-row { width: 49%; }
+
+			.emma-cf:before,.emma-cf:after { content: " "; display: table; }
+			.emma-cf:after { clear: both; }
+			.emma-cf { *zoom: 1; }
+
+            /** Customizable Elements **/
+            ul#emma-form-elements .emma-form-input {
+                border: 1px solid #000;
+                color: #000;
+                background-color: #FFF;
+            }
+            #emma-form input[type="submit"], #emma-form a#emma-form-submit {
+                border: 1px solid #e7769b;
+                color: #FFF;
+                background-color: #991B45;
+                width: ;            }
+            #emma-form input[type="submit"]:hover, , #emma-form a#emma-form-submit:hover {
+                border: 1px solid #991B45;
+                color: #000;
+                background-color: #e7769b;
+            }
+
+            #emma-form.x-small ul#emma-form-elements .emma-form-input,
+            #emma-form.x-small ul#emma-form-elements .emma-form-label { float: left; width: 97%; }
+            
+            .spinner{
+	            background: url(https://www.clir.org/pubs/reports/pub151/wp-includes/images/spinner.gif) #fff center no-repeat;
+				-webkit-background-size: 20px 20px;
+				display: none;
+				opacity: 1.7;
+				width: 20px;
+				height: 20px;
+				padding: 15px;
+				margin: 30px auto 50px;
+				border-radius: 4px;
+				box-shadow: 0px 0px 7px rgba(0,0,0,.1);
+			}
+            
+            /* alert text */
+            .emma-status, .emma-alert { 
+	            width: 100%;
+				margin: 1em auto;
+				padding: 1em 1em 1em 5em;
+				background: rgb(255, 235, 235);
+				font-size: .8em;
+				font-family: sans-serif;
+				font-style: italic;
+				color: rgb(71, 71, 71);
+				border-radius: 3px;
+				border: thin solid rgb(247, 195, 195);
+				position: relative;
+				box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+			}
+			
+			.emma-status {
+				background: rgb(255, 235, 235);
+				border: thin solid rgb(247, 195, 195);
+			}
+			
+			.emma-status:before, .emma-alert:before {
+				content: '!';
+				position: absolute;
+				top: .6em;
+				top: 13px;
+				left: .5em;
+				left: 9px;
+				color: #ffffff;
+				background: rgb(208, 45, 45);
+				height: 30px;
+				width: 30px;
+				text-align: center;
+				font-family: 'Georgia' serif;
+				font-size: 1.4em;
+				line-height: 1.5em;
+				font-style: normal;
+				border-radius: 50%;
+			}
+			
+			.emma-status:not(.emma-alert):before {
+			    content: '';
+			    background: rgb(85, 182, 85);
+			}
+			
+			.emma-status:not(.emma-alert):after {
+			    content:'';
+			    border: 4px solid #fff;
+			    border-top: none;
+			    border-left: none;
+			    width: 11px;
+			    height: 18px;
+			    display:block;
+			    position: absolute; 
+			    top: 16px; 
+			    left: 19px;
+			    transform: 		   rotate(45deg);
+				-webkit-transform: rotate(45deg);
+				   -moz-transform: rotate(45deg);
+				   	 -o-transform: rotate(45deg);
+				   	-ms-transform: rotate(45deg);
+			}
+			
+			.emma-status:not(.emma-alert) {
+			    background: rgb(230, 250, 230);
+			    border: thin solid rgb(166, 187, 166);
+			}
+			
+			.recaptcha-popup {
+				position: fixed;
+				z-index: 999999;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				background: rgba(0,0,0,.6);
+			}
+			
+			.recaptcha-popup.hidden {
+				display: none;
+			}
+			
+			.recaptcha-popup .inner {
+				position: absolute;
+				top: 25vh;
+				left: 25vw;
+				width: 50vw;
+				background: #fff;
+				border-radius: 2px;
+				padding: 2em;
+				box-sizing: border-box;
+			}
+			
+			.recaptcha-popup .inner p {
+				color: #030303;
+				text-align: center;
+				font-size: 1.5vw;
+				font-size: 1.25rem;
+			}
+			
+			.recaptcha-popup .recaptcha-container > div {
+				margin: 0 auto;
+				max-width: 100%;
+			}
+			
+			@media only screen and (max-width: 760px) {
+				.recaptcha-popup .inner {
+					width: 90vw;
+					left: 5vw;
+					padding: 2em .5em;
+				}
+				.recaptcha-popup .inner p {
+					font-size: 1.25rem;
+				}
+			}
+
+        </style>
+
+    <meta name="generator" content="Powered by Slider Revolution 5.4.7.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."/>
+<script type="text/javascript">function setREVStartSize(e){try{e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if(c)jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})}catch(d){console.log("Failure at Presize of Slider:"+d)}};</script>
+			<style type="text/css" id="wp-custom-css">@media (min-width:992px){.magee-timeline>ul>li:before{top:64px}}</style>
+		</head>
+<body data-rsssl=1 class="page-template-default page page-id-685 page-parent page-child parent-pageid-240 group-blog">
+    <div class="wrapper ">   
+    <div class="top-wrap">
+              
+            <header class="header-style-1 header-wrap  logo-left">
+  <style>.top-bar{display:block}</style>
+<div class="top-bar">
+  <div class="container">
+      <div class="top-bar-left">
+        <nav class="top-bar-menu clir-custom-menu">
+          <ul class="list-inline">
+            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+              <a href="https://www.clir.org">
+                <!-- <i class="icon-clir-logo-square anchor-color bigger"></i> -->
+                <span class="clir-font">CLIR</span>
+              </a>
+            </li>
+              <li class="hidden-xs menu-item menu-item-type-custom menu-item-object-custom">
+                <a href="https://www.clir.org/fellowships"><span>Fellowships &amp; Grants</span></a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                <a href="https://www.diglib.org/"><span>DLF</span></a>
+              </li>
+              <li class="hidden-xs menu-item menu-item-type-custom menu-item-object-custom">
+                <a href="https://www.clir.org/pubs"><span>Publications</span></a>
+              </li>
+              <li class="hidden-xs menu-item menu-item-type-custom menu-item-object-custom">
+                <a href="https://www.clir.org/about/become-a-sponsor-or-member/">Join</a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                 <a class="give" href="https://www.clir.org/give">Give
+                    <i class="fa fa-heart"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+      </div>
+      <div class="top-bar-right">
+        <ul class="list-inline hidden-xs">
+          <li class="dropdown high-z">
+            <a href="www-clir-org-0051.htm#" class="dropdown-tottle" data-toggle="dropdown">
+              <i class="icon-clir-logo header-logo-size bigger"></i>
+              CLIR Programs
+              <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right clir-programs-menu" aria-labelled-by="clir-programs" role="menu">
+                <li><a href="https://www.diglib.org/">Digital Library Federation</a></li>
+                <li><a href="https://www.diglib.org/dlf-events/2018forum/">DLF Forum</a></li>
+                <li><a href="https://dlme.clir.org">Digital Library of the Middle East</a></li>
+                <li><a href="https://www.clir.org/fellowships/hiddencollections">Digitizing Hidden Special Collections and Archives</a></li>
+                <li><a href="https://www.clir.org/recordings-at-risk">Recordings at Risk</a></li>
+                <li><a href="https://www.clir.org/fellowships/mellon">Mellon Fellowships for Dissertation Research</a></li>
+                <li><a href="http://www.leadingchangeinstitute.org">Leading Change Institute</a></li>
+                <li><a href="https://www.diglib.org/opportunities/e-research-network/">DLF eResearch Network</a></li>
+                <li><a href="https://www.clir.org/fellowships/postdoc">Postdoctoral Fellowship Program</a></li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+  </div>
+  <div class="clear"></div>
+</div><!-- .top_bar -->
+  
+
+            <div class="main-header ">
+                <div class="container">
+                    <div class="logo-box">
+                  <a href="https://www.clir.org/">
+                                            <script data-pagespeed-no-defer>//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://www.clir.org/pubs/reports/pub151/','nXzXivl0t7',true,false,'u8bGe31PG6g');
+//]]></script><img class="site-logo normal_logo" alt="CLIR" src="https://clir.wordpress.clir.org/wp-content/uploads/sites/6/2016/09/clir.png" data-pagespeed-url-hash="3612843065" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                               <img src="https://clir.wordpress.clir.org/wp-content/uploads/sites/6/2016/09/clir.png" alt="CLIR" class="site-logo retina_logo" data-pagespeed-url-hash="3612843065" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                               </a>
+                        <div class="name-box">
+                            <a href="https://www.clir.org/"><h1 class="site-name">CLIR</h1></a>
+                            <span class="site-tagline"></span>
+                        </div>
+                    </div>
+                    <button class="site-nav-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+                    <nav class="site-nav" role="navigation">
+<ul id="menu-main" class="main-nav"><li id="menu-item-2261" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-2261"><a href="https://www.clir.org/about/"><span class="menu-item-label">About</span></a>
+<ul class="sub-menu sub-menu-1" style="">
+	<li id="menu-item-2262" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2262"><a href="https://www.clir.org/about/presidents-message/"><span class="menu-item-label">President&#8217;s Message</span></a></li>
+	<li id="menu-item-2263" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2263"><a href="https://www.clir.org/about/news/"><span class="menu-item-label">News</span></a></li>
+	<li id="menu-item-2265" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2265"><a href="https://www.clir.org/about/staff/"><span class="menu-item-label">Staff</span></a></li>
+	<li id="menu-item-2266" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2266"><a href="https://www.clir.org/about/governance/"><span class="menu-item-label">Governance</span></a></li>
+	<li id="menu-item-2267" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2267"><a href="https://www.clir.org/about/become-a-sponsor-or-member/"><span class="menu-item-label">Become a CLIR Sponsor or DLF Member</span></a></li>
+	<li id="menu-item-2268" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2268"><a href="https://www.clir.org/about/current-sponsors-and-funders/"><span class="menu-item-label">Current Sponsors, Members, and Funders</span></a></li>
+	<li id="menu-item-2270" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2270"><a href="https://www.clir.org/about/history/"><span class="menu-item-label">History</span></a></li>
+	<li id="menu-item-16331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16331"><a href="https://www.clir.org/about/clir-brandmark/"><span class="menu-item-label">CLIR Brandmark</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2282" class="menu-item menu-item-type-post_type menu-item-object-post current-page-ancestor menu-item-has-children menu-item-2282"><a href="https://www.clir.org/pubs/"><span class="menu-item-label">Publications</span></a>
+<ul class="sub-menu sub-menu-1" style="">
+	<li id="menu-item-2283" class="menu-item menu-item-type-post_type menu-item-object-post current-page-ancestor menu-item-2283"><a href="https://www.clir.org/pubs/reports/"><span class="menu-item-label">Reports</span></a></li>
+	<li id="menu-item-2285" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2285"><a href="https://www.clir.org/pubs/issues/"><span class="menu-item-label">CLIR Issues</span></a></li>
+	<li id="menu-item-2286" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2286"><a href="https://www.clir.org/pubs/annual/"><span class="menu-item-label">Annual Report</span></a></li>
+	<li id="menu-item-15494" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15494"><a href="https://www.clir.org/pubs/resources/"><span class="menu-item-label">Other Resources</span></a></li>
+	<li id="menu-item-2288" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2288"><a href="https://www.clir.org/pubs/archives/"><span class="menu-item-label">Archives</span></a></li>
+	<li id="menu-item-2298" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2298"><a href="https://www.clir.org/pubs/ordering-report-prints/"><span class="menu-item-label">Ordering and Customer Service</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2273" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-2273"><a href="https://www.clir.org/initiatives-partnerships/"><span class="menu-item-label">Initiatives &#038; Partnerships</span></a>
+<ul class="sub-menu sub-menu-1" style="">
+	<li id="menu-item-17226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17226"><a href="https://diglib.org/"><span class="menu-item-label">Digital Library Federation</span></a></li>
+	<li id="menu-item-2274" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2274"><a href="https://www.clir.org/initiatives-partnerships/cios/"><span class="menu-item-label">Chief Information Officers in Liberal Arts Colleges</span></a></li>
+	<li id="menu-item-15147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15147"><a href="https://www.clir.org/initiatives-partnerships/clir-affiliates/"><span class="menu-item-label">CLIR Affiliates</span></a></li>
+	<li id="menu-item-15173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15173"><a href="http://dlme.clir.org"><span class="menu-item-label">Digital Library of the Middle East</span></a></li>
+	<li id="menu-item-4790" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4790"><a href="http://www.leadingchangeinstitute.org"><span class="menu-item-label">Leading Change Institute</span></a></li>
+	<li id="menu-item-16420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16420"><a href="https://www.clir.org/initiatives-partnerships/ndsr/"><span class="menu-item-label">National Digital Stewardship Residency (NDSR) Assessment</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2307" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-2307"><a href="https://www.clir.org/fellowships/"><span class="menu-item-label">Fellowships &#038; Grants</span></a>
+<ul class="sub-menu sub-menu-1" style="">
+	<li id="menu-item-15148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15148"><a href="https://www.clir.org/hiddencollections/"><span class="menu-item-label">Digitizing Hidden Collections</span></a></li>
+	<li id="menu-item-2309" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2309"><a href="https://www.clir.org/fellowships/mellon/"><span class="menu-item-label">Mellon Fellowships for Dissertation Research in Original Sources</span></a></li>
+	<li id="menu-item-2314" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2314"><a href="https://www.clir.org/fellowships/postdoc/"><span class="menu-item-label">Postdoctoral Fellowship Program</span></a></li>
+	<li id="menu-item-15150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15150"><a href="https://www.clir.org/recordings-at-risk/"><span class="menu-item-label">Recordings at Risk</span></a></li>
+	<li id="menu-item-2321" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2321"><a href="https://www.clir.org/fellowships/rovelstad/"><span class="menu-item-label">Rovelstad Scholarship in International Librarianship</span></a></li>
+</ul>
+</li>
+<li id="menu-item-4804" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4804"><a href="https://connect.clir.org/membersuitelogin?ReturnUrl=https://connect.clir.org/home"><span class="menu-item-label">Connect</span></a>
+<ul class="sub-menu sub-menu-1" style="">
+	<li id="menu-item-4805" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4805"><a href="http://connect.clir.org/membersuitelogin?ReturnUrl=https%3a%2f%2fconnect.clir.org%2fcommunities%2fallcommunities"><span class="menu-item-label">Communities</span></a></li>
+	<li id="menu-item-4806" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4806"><a href="http://connect.clir.org/membersuitelogin?ReturnUrl=https%3a%2f%2fconnect.clir.org%2fnetwork%2fmembers"><span class="menu-item-label">Directory</span></a></li>
+	<li id="menu-item-4807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4807"><a href="http://connect.clir.org/blogs"><span class="menu-item-label">Re:Thinking Blog</span></a></li>
+	<li id="menu-item-4808" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4808"><a href="http://connect.clir.org/communities/community-home/digestviewer?ListKey=85bd7d10-8ea9-4ca7-a2b3-c5633253e174&amp;CommunityKey=8478483b-92f5-49e3-9901-ba3a03d0722e"><span class="menu-item-label">Job Connect</span></a></li>
+</ul>
+</li>
+</ul>                    </nav>
+                </div>
+            </div>
+                                   <!-- sticky header -->
+           <div class="fxd-header logo-left">
+                <div class="container">
+                    <div class="logo-box text-left">
+                        <a href="https://www.clir.org/">
+
+                                            <img class="site-logo normal_logo" alt="CLIR" src="https://clir.wordpress.clir.org/wp-content/uploads/sites/6/2016/09/clir.png" data-pagespeed-url-hash="3612843065" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                     
+          <img src="https://clir.wordpress.clir.org/wp-content/uploads/sites/6/2016/09/clir.png" alt="CLIR" class="site-logo retina_logo" data-pagespeed-url-hash="3612843065" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                               </a>
+                        <div class="name-box">
+                            <a href="https://www.clir.org/"><h1 class="site-name">CLIR</h1></a>
+                            <span class="site-tagline"></span>
+                        </div>
+                    </div>
+                    <button class="site-nav-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+                    <nav class="site-nav" role="navigation">
+<ul id="menu-main" class="main-nav"><li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-2261"><a href="https://www.clir.org/about/"><span class="menu-item-label">About</span></a>
+<ul class="sub-menu sub-menu-1" style="">
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2262"><a href="https://www.clir.org/about/presidents-message/"><span class="menu-item-label">President&#8217;s Message</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2263"><a href="https://www.clir.org/about/news/"><span class="menu-item-label">News</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2265"><a href="https://www.clir.org/about/staff/"><span class="menu-item-label">Staff</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2266"><a href="https://www.clir.org/about/governance/"><span class="menu-item-label">Governance</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2267"><a href="https://www.clir.org/about/become-a-sponsor-or-member/"><span class="menu-item-label">Become a CLIR Sponsor or DLF Member</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2268"><a href="https://www.clir.org/about/current-sponsors-and-funders/"><span class="menu-item-label">Current Sponsors, Members, and Funders</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2270"><a href="https://www.clir.org/about/history/"><span class="menu-item-label">History</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16331"><a href="https://www.clir.org/about/clir-brandmark/"><span class="menu-item-label">CLIR Brandmark</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post current-page-ancestor menu-item-has-children menu-item-2282"><a href="https://www.clir.org/pubs/"><span class="menu-item-label">Publications</span></a>
+<ul class="sub-menu sub-menu-1" style="">
+	<li class="menu-item menu-item-type-post_type menu-item-object-post current-page-ancestor menu-item-2283"><a href="https://www.clir.org/pubs/reports/"><span class="menu-item-label">Reports</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2285"><a href="https://www.clir.org/pubs/issues/"><span class="menu-item-label">CLIR Issues</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2286"><a href="https://www.clir.org/pubs/annual/"><span class="menu-item-label">Annual Report</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15494"><a href="https://www.clir.org/pubs/resources/"><span class="menu-item-label">Other Resources</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2288"><a href="https://www.clir.org/pubs/archives/"><span class="menu-item-label">Archives</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2298"><a href="https://www.clir.org/pubs/ordering-report-prints/"><span class="menu-item-label">Ordering and Customer Service</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-2273"><a href="https://www.clir.org/initiatives-partnerships/"><span class="menu-item-label">Initiatives &#038; Partnerships</span></a>
+<ul class="sub-menu sub-menu-1" style="">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17226"><a href="https://diglib.org/"><span class="menu-item-label">Digital Library Federation</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2274"><a href="https://www.clir.org/initiatives-partnerships/cios/"><span class="menu-item-label">Chief Information Officers in Liberal Arts Colleges</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15147"><a href="https://www.clir.org/initiatives-partnerships/clir-affiliates/"><span class="menu-item-label">CLIR Affiliates</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15173"><a href="http://dlme.clir.org"><span class="menu-item-label">Digital Library of the Middle East</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4790"><a href="http://www.leadingchangeinstitute.org"><span class="menu-item-label">Leading Change Institute</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16420"><a href="https://www.clir.org/initiatives-partnerships/ndsr/"><span class="menu-item-label">National Digital Stewardship Residency (NDSR) Assessment</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-2307"><a href="https://www.clir.org/fellowships/"><span class="menu-item-label">Fellowships &#038; Grants</span></a>
+<ul class="sub-menu sub-menu-1" style="">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15148"><a href="https://www.clir.org/hiddencollections/"><span class="menu-item-label">Digitizing Hidden Collections</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2309"><a href="https://www.clir.org/fellowships/mellon/"><span class="menu-item-label">Mellon Fellowships for Dissertation Research in Original Sources</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2314"><a href="https://www.clir.org/fellowships/postdoc/"><span class="menu-item-label">Postdoctoral Fellowship Program</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15150"><a href="https://www.clir.org/recordings-at-risk/"><span class="menu-item-label">Recordings at Risk</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2321"><a href="https://www.clir.org/fellowships/rovelstad/"><span class="menu-item-label">Rovelstad Scholarship in International Librarianship</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4804"><a href="https://connect.clir.org/membersuitelogin?ReturnUrl=https://connect.clir.org/home"><span class="menu-item-label">Connect</span></a>
+<ul class="sub-menu sub-menu-1" style="">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4805"><a href="http://connect.clir.org/membersuitelogin?ReturnUrl=https%3a%2f%2fconnect.clir.org%2fcommunities%2fallcommunities"><span class="menu-item-label">Communities</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4806"><a href="http://connect.clir.org/membersuitelogin?ReturnUrl=https%3a%2f%2fconnect.clir.org%2fnetwork%2fmembers"><span class="menu-item-label">Directory</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4807"><a href="http://connect.clir.org/blogs"><span class="menu-item-label">Re:Thinking Blog</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4808"><a href="http://connect.clir.org/communities/community-home/digestviewer?ListKey=85bd7d10-8ea9-4ca7-a2b3-c5633253e174&amp;CommunityKey=8478483b-92f5-49e3-9901-ba3a03d0722e"><span class="menu-item-label">Job Connect</span></a></li>
+</ul>
+</li>
+</ul>                    </nav>
+                </div>
+            </div>
+                         <script>jQuery('li.menu_column_2 > ul > li').addClass('col-md-6');jQuery('li.menu_column_3 > ul > li').addClass('col-md-4');jQuery('li.menu_column_4 > ul > li').addClass('col-md-3');jQuery('li.menu_column_5 > ul > li').addClass('col-md-1_5');jQuery('li.menu_column_6 > ul > li').addClass('col-md-2');</script>
+
+            <div class="clear"></div>
+        </header>
+
+<a class="scrollToTop" href="www-clir-org-0051.htm#top"></a>
+        
+         	</div><div id="post-685" class="post-685 page type-page status-publish hentry">
+<section class="page-title-bar title-left no-subtitle ">
+            <div class="container alchem_enable_page_title_bar">
+                <hgroup class="page-title text-light">
+                    <h1>One Culture. Computationally Intensive Research in the Humanities and Social Sciences</h1>
+                </hgroup>
+                                
+		<div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb">
+			<span class="trail-before"><div class='breadcrumb-nav text-light alchem_display_breadcrumb'></span> 
+			<span class="trail-begin"><a href="https://www.clir.org" title="CLIR" rel="home">Home</a></span>
+			 <span class="sep">/</span> <a href="https://www.clir.org/pubs/" title="CLIR Publications">CLIR Publications</a>
+			 <span class="sep">/</span> <a href="https://www.clir.org/pubs/reports/" title="CLIR Reports">CLIR Reports</a>
+			 <span class="sep">/</span> <span class="trail-end">One Culture. Computa...</span>
+			 <span class="trail-after"></div></span>
+		</div>                                                <div class="clearfix"></div>            
+            </div>
+        </section>
+   
+ <div class="post-wrap">
+            <div class="container">
+                <div class="page-inner row no-aside">
+                        <div class="col-main">
+             
+			   
+	<div class="entry-content">
+	
+	<h3><b><a title="pub151" href="https://www.clir.org/wp-content/uploads/sites/6/2016/09/pub151.pdf" rel="attachment wp-att-10678"><img class="alignright" src="https://i1.wp.com/www.clir.org/wp-content/uploads/sites/6/2016/09/pub151coverA_loresweb.jpg?resize=154%2C200&#038;ssl=1" alt="" width="154" height="200" data-recalc-dims="1" data-pagespeed-url-hash="4275167214" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>One Culture. Computationally Intensive Research in the Humanities and Social Sciences</b></h3>
+<p><b><i>A Report on the Experiences of First Respondents to the Digging Into Data Challenge</i></b></p>
+<p><i>by Christa Williford and Charles Henry<br/>
+Research Design by Amy Friedlander</i></p>
+<p>June 2012. 44 pp. $20<br/>
+ISBN 978-1-932326-40-6<br/>
+CLIR pub151</p>
+<p><a href="https://www.clir.org/wp-content/uploads/sites/6/pub151.pdf"><b>PDF Download of Main Report </b>(<i>excluding case studies</i>, 1 MB file)<b> &gt;&gt;</b></a></p>
+<p><a href="https://www.clir.org/?p=1688"><b>Full Text of Main Report &gt;&gt;</b></a></p>
+<p>This report culminates two years of work by CLIR staff involving extensive interviews and site visits with scholars engaged in international research collaborations involving computational analysis of large data corpora. These scholars were the first recipients of grants through the <a href="http://diggingintodata.org/">Digging into Data program</a>, led by the NEH, who partnered with JISC in the UK, SSHRC in Canada, and the NSF to fund the first eight initiatives. The report introduces the eight projects and discusses the importance of these cases as models for the future of research in the academy. Additional information about the projects is provided in the individual case studies below (this additional material is not included in the print or PDF versions of the published report).</p>
+<p><a href="https://www.clir.org/pubs/reports/pub151/pub151.pdf">Report Recommendations:</a></p>
+<p>1) Expand our concept of research</p>
+<p>2) Expand our concept of research data and accept the challenges that digital research data present</p>
+<p>3) Embrace interdisciplinarity</p>
+<p>4) Take a more inclusive approach to collaboration</p>
+<p>5) Address gaps in training</p>
+<p>6) Adopt models for sharing credit</p>
+<p>7) Adopt models for sharing resources</p>
+<p>8) Re-envision scholarly publication</p>
+<p>9) Make greater, sustained investments in human and cyberinfrastructure</p>
+<p>&nbsp;</p>
+<h3>Case Studies:</h3>
+<ul>
+<li><a href="https://www.clir.org/pubs/reports/pub151/case-studies">Introduction</a></li>
+<li><a href="https://www.clir.org/pubs/reports/pub151/case-studies/dmci">Using Zotero and TAPOR on the Old Bailey Proceedings: Data Mining with Criminal Intent (DMCI)</a></li>
+<li><a href="https://www.clir.org/pubs/reports/pub151/case-studies/enlightenment">Digging into the Enlightenment: Mapping the Republic of Letters</a></li>
+<li><a href="https://www.clir.org/pubs/reports/pub151/case-studies/dve">Towards Dynamic Variorum Editions (DVE)</a></li>
+<li><a href="https://www.clir.org/pubs/reports/pub151/case-studies/mining">Mining a Year of Speech</a></li>
+<li><a href="https://www.clir.org/pubs/reports/pub151/case-studies/harvesting">Harvesting Speech Datasets for Linguistic Research on the Web</a></li>
+<li><a href="https://www.clir.org/pubs/reports/pub151/case-studies/salami">Structural Analysis of Large Amounts of Music Information (SALAMI)</a></li>
+<li><a href="https://www.clir.org/pubs/reports/pub151/case-studies/did-arq">Digging into Image Data to Answer Authorship Related Questions (DID-ARQ)</a></li>
+<li><a href="https://www.clir.org/pubs/reports/pub151/case-studies/railroads">Railroads and the Making of Modern America</a></li>
+</ul>
+<hr/>
+<p><i><b>CLIR wishes to acknowledge the support and assistance of the four funders of the 2009 Digging into Data Challenge:</b></i><br/>
+National Endowment for the Humanities<br/>
+JISC<br/>
+National Science Foundation<br/>
+Social Sciences and Humanities Research Council of Canada<i></i></p>
+<p>as well as the lead program officers for the 2009 grant program:<br/>
+<b>Alastair Dunning</b> (JISC), <b>Mika Oehling</b> (SSHRC), <b>Jennifer Serventi</b> (NEH), and <b>Elizabeth Tran</b> (NSF)</p>
+<hr/>
+<p><i>One Culture. Computationally Intensive Research in the Humanities and Social Sciences. A Report on the Experiences of First Respondents to the Digging into Data Challenge</i> by <a href="https://www.clir.org/?p=217">Christa Williford and Charles Henry. Research Design by Amy Friedlander</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br/>
+Based on a work at <a href="https://www.clir.org/?p=685">www.clir.org</a>.</p>
+<hr/>
+<h3>ORDER PRINT COPIES</h3>
+<div role="form" class="wpcf7" id="wpcf7-f2412-p685-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="www-clir-org-0051.htm#wpcf7-f2412-p685-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="2412"/>
+<input type="hidden" name="_wpcf7_version" value="5.0.1"/>
+<input type="hidden" name="_wpcf7_locale" value="en_US"/>
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2412-p685-o1"/>
+<input type="hidden" name="_wpcf7_container_post" value="685"/>
+</div>
+<p>Order <b>One Culture. Computationally Intensive Research in the Humanities and Social Sciences</b> here!<br> Simply indicate the Quantity:&nbsp;                  and click on                 </p>
+<p>We use an independent online retailer to take online orders               for us and ship publications directly to you. <a href="https://clir.wordpress.clir.org/pubs/ordering-report-prints/ordering" target="_blank">Find               more details about the ordering process &gt;&gt;</a></p>
+<p><input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit"/></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+         
+    <div class="comments-area text-left"> 
+                                                                          
+                                     </div>
+
+	</div><!-- .entry-content -->
+
+		                        </div>
+                                                        </div>
+                </div>
+            </div>
+       </div>
+<!--Footer-->
+
+ <footer class="">
+                    <div class="footer-widget-area">
+                <div class="container">
+                    <div class="row">
+                                        <div class="col-md-3">
+                    <div id="text-3" class="widget widget-box widget_text"><h2 class="widget-title">Contact</h2>			<div class="textwidget"><address>
+          CLIR<br/>
+          1707 L St. NW,<br/>
+          Suite 650 <br/>
+          Washington, DC 20036 </p>
+<p>          <abbr title="Phone">P:</abbr>  (202) 939-4750 <br/>
+        </address>
+</div>
+		<span class="seperator extralight-border"></span></div><div id="eu_cookie_law_widget-2" class="widget widget-box widget_eu_cookie_law_widget"><div class="hide-on-button" data-hide-timeout="30" id="eu-cookie-law">
+	<form method="post">
+		<input type="submit" value="Close and accept" class="accept"/>
+	</form>
+
+	Privacy &amp; Cookies: This site uses cookies.		<br/>
+		To find out more, as well as how to remove or block these, see here:
+	<a href="https://jetpack.com/support/cookies/">
+		Our Cookie Policy	</a>
+</div>
+<span class="seperator extralight-border"></span></div>                    </div>
+
+                                        <div class="col-md-3">
+                    <div id="social_media_links-6" class="widget widget-box widget_social_media_links"><h2 class="widget-title">Elsewhere</h2><ul class="list-unstyled clir-social"><li><a target="_blank" rel="" href="https://www.facebook.com/pages/Council-on-Library-and-Information-Resources-CLIR/300100435096" data-placement="left" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i> Facebook</a></li><li><a target="_blank" rel="" href="https://twitter.com/clirnews" data-placement="left" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i> Twitter</a></li><li><a target="_blank" rel="" href="https://www.linkedin.com/company/6203386/" data-placement="left" data-toggle="tooltip" title="LinkedIn"><i class="fa fa-linkedin"></i> LinkedIn</a></li><li><a target="_blank" rel="" href="http://www.youtube.com/user/DLFCLIR?blend=2&#038;ob=0" data-placement="left" data-toggle="tooltip" title="YouTube"><i class="fa fa-youtube"></i> YouTube</a></li><li><a target="_blank" rel="" href="https://www.clir.org/feed" data-placement="left" data-toggle="tooltip" title="RSS"><i class="fa fa-rss"></i> RSS</a></li></ul><span class="seperator extralight-border"></span></div>                    </div>
+
+                                        <div class="col-md-3">
+                    <div id="emma-widget-4" class="widget widget-box emma-widget"><h2 class="widget-title">Stay in Touch</h2><div id="emma-form" class="emma-vertical-layout " style="width:100%"><div class="emma-wrap"><form id="emma-subscription-form" data-form-unique="3529691" action="www-clir-org-0051.htm" method="post" accept-charset="utf-8"><ul id="emma-form-elements" class="emma-cf"><li class="emma-form-row emma-cf"><label class="emma-form-label" for="emma-main-input">E&#109;&#97;&#105;&#108;</label><input id="emma-main-input" class="emma-form-input" type="text" name="emma_main_input" size="30" placeholder="&#69;ma&#105;&#108; &#97;&#100;&#100;res&#115;"></li><li class="emma-form-row emma-cf"><label class="emma-form-label" for="emma-firstname">First Name</label><input id="emma-firstname" class="emma-form-input" type="text" name="emma_firstname" size="30" placeholder="First name"></li><li class="emma-form-row emma-cf"><label class="emma-form-label" for="emma-lastname">Last Name</label><input id="emma-lastname" class="emma-form-input" type="text" name="emma_lastname" size="30" placeholder="Last name"></li><li class="emma-form-row emma-form-row-last"><span class="emma-form-label-required"></span><div class="validation-container"><input name="validation" type="text"/></div><input type="hidden" name="emma_signup_form_id" value=""/><input type="hidden" name="emma_send_confirmation" value="1"/><input type="hidden" name="emma_form_unique" value="3529691"/>
+        <div class="emma-submit-wrap-3529691"><noscript><div class="emma-alert">Sorry. You must have JavaScript enabled to fill out this form.</div></noscript></div>
+        <script type="text/javascript">jQuery(document).ready(function($){$(".emma-submit-wrap-3529691").append('<input id="emma-form-submit-3529691" type="submit" name="emma_form_submit" value="Subscribe">');});</script>
+        </li></ul><div id="recaptcha-popup-3529691" class="recaptcha-popup hidden"><div class="inner"><p>Please complete the reCAPTCHA below to join our email list.</p><script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback3529691&render=explicit" async defer></script>
+	        	<script type="text/javascript">if(typeof captchaExists=="undefined"){var captchaExists=true;}else{captchaExists=true;}if(typeof captchaInit=="undefined"){var captchaInit=true;var recaptchaSiteKey="6LcsexYUAAAAAATke02rEHcPJSt-IEwMdMEa_uEw";var goodCaptcha=function(response){setTimeout(emmaHideCaptcha,2000);}
+function emmaHideCaptcha(){var submitButton=document.getElementsByClassName("activeForm")[0].getElementsByClassName("waiting")[0];submitButton.className="passed-captcha "+submitButton.className.replace("waiting","");submitButton.click();}}function onloadCallback3529691(){}</script><div id="recaptcha-container-3529691" class="recaptcha-container" data-callback="thatsAGoodRecaptcha"></div></div></div></form></div><!-- end .emma-wrap --></div><!-- end #emma-form --><span class="seperator extralight-border"></span></div>                    </div>
+
+                                        <div class="col-md-3">
+                    <div id="text-2" class="widget widget-box widget_text"><h2 class="widget-title">About CLIR</h2>			<div class="textwidget"><p>CLIR is an independent, nonprofit organization that forges strategies to enhance research, teaching, and learning environments in collaboration with libraries, cultural institutions, and communities of higher learning.</p>
+</div>
+		<span class="seperator extralight-border"></span></div>                    </div>
+
+                                        </div>
+                </div>
+            </div>
+            
+            <div class="footer-info-area">
+                <div class="container">
+                                     <div class="clearfix"></div>
+                                                            <div class="site-info">
+                        <p class="pull-right">
+                            All content on this site is available for re-use under
+                            <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0 License</a>
+                        </p>
+                        <p class="logo">
+                            <a href="https://www.clir.org/">
+                                <i class="icon-clir-logo-square clir-color"></i>
+                                <span class="clir clir-font clir-color">CLIR</span>
+                            </a>
+                        </p>
+                                        </div>
+                                    </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript"></script><script type="text/javascript"></script><script type='text/javascript'>//<![CDATA[
+!function(t){var a=function(){t("img[data-recalc-dims]").each(function a(){var o=t(this);if(this.complete){if(o.data("lazy-src")&&o.attr("src")!==o.data("lazy-src"))return void o.load(a);var d=this.width,i=this.height;d&&d>0&&i&&i>0&&(o.attr({width:d,height:i}),e(this))}else o.load(a)})},e=function(a){t(a).removeAttr("data-recalc-dims").removeAttr("scale")};t(document).ready(a),"on"in t.fn?t(document.body).on("post-load",a):t(document).delegate("body","post-load",a)}(jQuery);
+//]]></script>
+<script type='text/javascript'>//<![CDATA[
+var wpcf7={"apiSettings":{"root":"https:\/\/www.clir.org\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+//]]></script>
+<script src="https://www.clir.org/wp-content/plugins/contact-form-7,_includes,_js,_scripts.js,qver==5.0.1+wp-accessibility,_js,_longdesc.button.js,qver==1.0.pagespeed.jc.3pPzwHvcHi.js"></script><script>eval(mod_pagespeed_$EKa0MO3zh);</script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201815'></script>
+<script>eval(mod_pagespeed_9bZ0hEKrDB);</script>
+<script type='text/javascript' src='https://www.clir.org/wp-content/themes/alchem-pro/plugins/YTPlayer/jquery.mb.YTPlayer.js,qver=f227c148d4348caa3c7b6593c5c4f70d.pagespeed.jm.dQrWEjsUSN.js'></script>
+<script src="https://www.clir.org/wp-content/themes/alchem-pro/plugins,_bootstrap,_js,_bootstrap.min.js+js,_jquery.prettyPhoto.js+js,_jquery.parallax.js.pagespeed.jc.rQw61WSKQ1.js"></script><script>eval(mod_pagespeed_1fmVyPDU1l);</script>
+<script>eval(mod_pagespeed_fVf_5tam$d);</script>
+<script>eval(mod_pagespeed_5wOX$FfeUW);</script>
+<script src="https://www.clir.org/wp-content,_themes,_alchem-pro,_plugins,_owl-carousel,_owl.carousel.min.js+wp-includes,_js,_imagesloaded.min.js,qver==3.2.0+wp-includes,_js,_masonry.min.js,qver==3.3.2+wp-content,_themes,_alchem-pro,_plugins,_jquery-countdown,_jquery.countdown.min.js+wp-content,_themes,_alchem-pro,_plugins,_jquery-easy-pie-chart,_jquery.easypiechart.min.js.pagespeed.jc.9CHXGh2kTw.js"></script><script>eval(mod_pagespeed_mGCl$9eYG7);</script>
+<script>eval(mod_pagespeed_Che1xByOQs);</script>
+<script>eval(mod_pagespeed_eAIb0XIy_M);</script>
+<script>eval(mod_pagespeed_w7nSwMdhSD);</script>
+<script>eval(mod_pagespeed_ZB14o0zjP6);</script>
+<script src="https://www.clir.org/wp-content/themes/alchem-pro/js/jquery.waypoints.js+jquery.easing.min.js+jquery.mixitup.min.js.pagespeed.jc.ohG565eLBp.js"></script><script>eval(mod_pagespeed_LYYJ7ogKoM);</script>
+<script>eval(mod_pagespeed_$PBoxF1nRg);</script>
+<script>eval(mod_pagespeed_gtzjekMscr);</script>
+<script type='text/javascript'>//<![CDATA[
+var alchem_params={"ajaxurl":"https:\/\/www.clir.org\/wp-admin\/admin-ajax.php","themeurl":"https:\/\/www.clir.org\/wp-content\/themes\/alchem-pro","responsive":"yes","site_width":"1170","sticky_header":"yes","show_search_icon":"yes","slider_autoplay":"yes","slideshow_speed":"3000","portfolio_grid_pagination_type":"pagination","blog_pagination_type":"pagination","global_color":"#9a1c46","admin_ajax_nonce":"5000804f03","admin_ajax":"https:\/\/www.clir.org\/wp-admin\/admin-ajax.php","isMobile":"0","footer_sticky":"0"};
+//]]></script>
+<script src="https://www.clir.org/wp-content/themes/alchem-pro/js/main.js+jquery.infinitescroll.js.pagespeed.jc.jmpwGr1uLn.js"></script><script>eval(mod_pagespeed_HY1amF5xew);</script>
+<script>eval(mod_pagespeed_u6tTrK1QiP);</script>
+<script type='text/javascript'>//<![CDATA[
+var magee_params={"ajaxurl":"https:\/\/www.clir.org\/wp-admin\/admin-ajax.php","themeurl":"https:\/\/www.clir.org\/wp-content\/themes\/alchem-pro\/lib\/magee-shortcodes-pro\/assets","required":" is required"};
+//]]></script>
+<script src="https://www.clir.org/wp-content,_themes,_alchem-pro,_lib,_magee-shortcodes-pro,_assets,_js,_magee-shortcodes.js,qver==2.3.1+wp-content,_themes,_alchem-pro,_lib,_magee-shortcodes-pro,_assets,_js,_magee-modal.js,qver==2.3.1+wp-content,_plugins,_jetpack,__inc,_build,_widgets,_eu-cookie-law,_eu-cookie-law.min.js,qver==20170404+wp-includes,_js,_wp-embed.min.js,qver==f227c148d4348caa3c7b6593c5c4f70d.pagespeed.jc.I07086C3r1.js"></script><script>eval(mod_pagespeed_TW5_$t6e$N);</script>
+<script>eval(mod_pagespeed_49W2QRb0YC);</script>
+<script>eval(mod_pagespeed_sI6j_JDM5Y);</script>
+<script>eval(mod_pagespeed_ioc50ViinT);</script>
+<script type='text/javascript'>//<![CDATA[
+var ajax_object={"ajax_url":"https:\/\/www.clir.org\/wp-admin\/admin-ajax.php"};
+//]]></script>
+<script type='text/javascript' src='https://www.clir.org/wp-content/plugins/emma-emarketing-plugin/assets/js/emma.js,qver=201706140834.pagespeed.jm.zeQeUgR13m.js'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201815.js' async='async' defer='defer'></script>
+<script type='text/javascript'>_stq=window._stq||[];_stq.push(['view',{v:'ext',j:'1:6.0',blog:'122234237',post:'685',tz:'-4',srv:'www.clir.org'}]);_stq.push(['clickTrackerInit','122234237','685']);</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0d572a862a","applicationID":"17985897","transactionName":"ZwEAMBYEVkAAB0dYDV5LIwcQDFddThRSVgc=","queueTime":0,"applicationTime":845,"atts":"S0YDRl4eRU4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+
+Served from: www.clir.org @ 2018-04-10 22:18:52 by W3 Total Cache
+-->

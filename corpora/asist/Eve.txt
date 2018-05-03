@@ -1,0 +1,982 @@
+
+Open Access Publishing Models and 
+How OA Can Work in the Humanities 
+by Martin Paul Eve
+
+T he opening words of the 2002 Budapest Open Access Initiativedeclaration were “[a]n old tradition and a new technology have
+converged to make possible an unprecedented public good” [1]. The old
+tradition was the university and its peculiar systems of remuneration
+wherein scholars produce work in order to be read, rather than to earn a
+living through sales of that work. The new technologies were the internet
+and the World Wide Web with their capacities for near-unlimited
+dissemination once a first copy has been produced. The fundamental public
+good of open access (OA) was to use these technologies and this social
+situation of the university to give anybody the right to read and re-use
+academic research outputs, without requiring payment from readers.
+
+Yet, some old traditions within the university have taken less well to the
+incursion of new technologies into their publishing spaces. Although it is not
+universally true, the humanities disciplines have overall been less engaged
+with the discussions around open access than their scientific counterparts;
+they have been less enthusiastic about the open dissemination of their work,
+online, for free than other disciplinary areas; and they have presented
+research objects that demonstrate considerable economic difficulties for a
+transition to an open model, such as research monographs. Before turning to
+the ways in which progress with open access in the humanities is steadily
+advancing, it is worth covering these challenges in a little more detail.
+
+On the first point, many humanists were caught by surprise at national
+and funder -level mandates for open access. Despite the conversation having
+begun in the early 2000s – that is, almost two decades ago – the
+introduction of policies such as the UK's Higher Education Funding Council
+for England (HEFCE) OA mandate for journal articles in 2014 seemed to
+wrong-foot many humanities scholars [2]. While large initiatives in the
+natural sciences have been ongoing for many years to reconfigure the
+
+Special Section
+
+N E X T  PA G E  > N E X T  A R T I C L E >< P R E V I O U S  PA G EC O N T E N T S
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+16
+
+EDITOR’S SUMMARY
+Open access (OA) has been shaping and benefitting the scientific community for
+years now, but this new wave of disseminating research freely has not quite taken
+hold in the field of humanities. Though humanities publishers could also benefit from
+an OA model, many have been resistant, citing possible issues with plagiarism or
+appropriation of an author’s work for less than ideal uses. There are also challenges
+with the cost of publishing OA content, which for humanities could be much higher
+than in the scientific community due to the length of works produced. Some
+institutions have taken to charging authors to publish their content in an OA model,
+while others have opted for a membership structure or joining a consortium of other
+institutions, such as Knowledge Unlatched or the Open Library of Humanities. While
+many great strides have been taken to bring OA to humanities, there is still work to
+do to make the study of humanity accessible to all.
+
+KEYWORDS
+
+open access publications
+
+humanities
+
+scholarly publishing
+
+information dissemination
+
+libraries
+
+university presses
+
+commercial publishers
+
+funding
+
+Martin Paul Eve is professor of literature, technology and publishing at Birkbeck,
+University of London. He is the author of four books: Pynchon and Philosophy:
+Wittgenstein, Foucault and Adorno (Palgrave: 2014); Open Access and the
+Humanities: Contexts, Controversies and the Future (Cambridge University Press,
+2014); Password (Bloomsbury, 2016); and Literature Against Criticism:
+Contemporary Fiction and University English in Conflict (Open Book Publishers,
+2016). Martin is also well-known for his higher education policy work around open
+access, and he co-founded and runs the Open Library of Humanities.
+
+A New Open Humanities
+
+
+
+publishing ecosystem to one that is openly accessible – think of the Public
+Library of Science or the arXiv site – the humanities have been far slower.
+That said, there were a limited number of humanistic voices present in the
+early discussions around open access. Peter Suber, a prominent voice in the
+OA community, was a philosophy professor before taking up his post as
+director of the Office of Scholarly Communication at Harvard, and Jean-
+Claude Guédon – a professor in the comparative literature department at
+Montreal – was also a signatory to the early declarations. Even so,
+humanists were hardly the majority of the parties discussing open access at
+that time.
+When debate did finally emerge around open access in the humanities, it
+
+was often in a negative context. Indeed, in the UK, where a great deal of
+recent political OA debate has centered, there was caution and opposition
+urged from many sides. John Holmwood, for instance, noted on several
+occasions how the open licensing of research work under Creative Commons
+Attribution (CC BY) provisions could lead to the appropriation of this work
+by new predatory, for-profit universities in the United Kingdom, who sought
+degree-awarding powers without conducting any of their own teaching. For
+Holmwood, the danger was that such entities would package such work as a
+degree and the very open circulation of research material could then
+undermine the research university itself [3]. Others were more strident;
+Peter Mandler, the former president of the Royal Historical Society, asserted
+that open access could encourage new plagiarism-like practices while also
+posing problems for quality control [4] [5]. Finally, some figures, such as
+David Golumbia, have linked open access to other market-based, neoliberal
+influences on the academy [6]. In other words, recent debate around OA in
+the humanities has been far from universally positive.
+Finally, due to the scientific interest in OA in the early days of discussion,
+
+much of the work around business models and the economics of open access
+has focused on the journal article as the emblematic output. However, the
+humanities disciplines are not centered solely around journal articles. They
+have a broad spectrum of research objects, from performance-based modes
+through to long-form writing. Since open access does not assume that
+publishing is free of cost, even if we seek to make access free of charge to the
+
+reader, there have been problems with devising and implementing business
+models for, say, research monographs.
+A simple example can illustrate this problem. As a publisher, the most
+
+obvious business model for journal publishing if one cannot sell the outputs
+because one is making them available under the so-called gold route of open
+access is to charge authors, institutions and funders for the work that is
+conducted. That is, if one cannot sell a product to readers, one sells a service
+to authors. A typical price for this might be $2,000-3,000 USD per article.
+What happens, though, when you scale the labor of publishing (copyediting,
+typesetting, proofreading, digital preservation, platform maintenance, legal,
+accounting and so forth) to cover artifacts that are 10 times longer than
+journal articles? Well, the costs, predictably, are much higher. For instance,
+a recent Mellon-Ithaka study produced a range of between $15,140 and
+$129,909 per book [7].
+In the article processing charge (APC) world of the sciences, a price-per-
+
+article of $2000 might work. But it still concentrates costs. Subscriptions do
+one thing extremely well: they spread costs among many institutions. An
+APC concentrates the entire cost on a single entity. That is not to say that the
+situation is rosy in the humanities under a subscription model. The
+humanities have been subject to the same 300% rise above inflation in
+journal subscription costs since 1986 as the sciences, which has led to a
+substantial access gap even at the wealthiest universities. However, when
+speaking of publishing in the humanities, the APC model is particularly
+difficult. For consider a world where, in the first place, budgets are far harder
+to come by and the most important types of research output cost closer to
+$20,000. That world is the world of the humanities and open access.
+
+Progress, Nonetheless
+Despite the aforementioned challenges, open access in the humanities
+
+continues to grow. Sometimes, this growth is due to work by subject bodies,
+such as the Modern Language Association. Indeed, under the stewardship of
+Kathleen Fitzpatrick and Nicky Agate, this organization's new Humanities
+Commons platform encourages humanities researchers to share their work
+legally and openly under the green model. Of course, the MLA still derives
+
+E V E , c o n t i n u e d Special Section
+
+NEX T  PAGE  > N EX T  A RT I C L E >< TOP  O F  A RT I C L E < PRE V I OUS  PAGECONTENTS
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+17
+
+A New Open Humanities
+
+
+
+substantial revenues from its subscription publications and must also
+wonder whether, were the PMLA (their flagship journal) to go open access,
+members might begin to cancel their membership payments as well. The
+Royal Historical Society, in the UK, has also recently partnered with a digital
+press at the School of Advanced Study in London to produce an open-access
+monograph series. In this way, we do see creeping progress from subject
+associations in the humanities.
+Speaking more broadly, there is also a range of funder and institution-
+
+driven initiatives. As of March 2017, the Association of American
+Universities (AAU), the Association of Research Libraries (ARL) and the
+Association of American University Presses (AAUP) are building an open-
+access publishing scheme for monographs that is funded by institutional
+subvention. As they put it in their press release, “The universities and
+colleges directly participating in this initiative will incorporate three
+components into their digital monograph publishing projects: provide a
+baseline university publishing grant of $15,000 to support the publication of
+an open access, digital monograph of 90,000 words or less (with additional
+funding for works of greater length or complexity to be negotiated by the
+author, institution and publisher); set a target of awarding at least three
+publishing grants per year; and commit to participating in this initiative for
+five years” [8].
+Perhaps the strongest drivers of new open-access monograph initiatives
+
+for the humanities have come from funders, though. The Andrew W. Mellon
+Foundation, based in New York City, has awarded a substantial number of
+grants over the past decade in order to understand and advance the open
+scholarship agenda in the humanities. Likewise, in the UK, HEFCE has
+signaled that it intends to apply an open-access mandate for books to the
+Research Excellence Framework (REF) that it will hold in the mid-2020s,
+giving approximately a decade to figure out how to achieve a switch. Finally,
+although strangely placed to be funding humanities scholarship, the
+Wellcome Trust has also been a strong driver of open-access books.
+Wellcome funds medical humanities research, such as the histories of
+medicine, but also other interdisciplinary intersections with medicine and
+the humanities. Wellcome is one of the few funders in the world to insist that
+
+all of its research outputs are entirely open access and will pay the book
+processing charges when needed for research that it funds.
+Not all progress has been top-down, though. Indeed, there are a number
+
+of scholar-led enterprises that strike me as being efficacious in moving the
+open agenda forward. In the UK, Open Book Publishers and Open Humanities
+Press have, for many years, published open access monographs. (I have, myself,
+published a peer-reviewed, open-access book with the former.) Running on
+mixed business models that combine freemium OA with a print-sales strategy,
+these entities are relatively small in scale, but become increasingly attractive
+since they do not demand an unaffordable charge from authors. The same is
+true of Eileen Joy's Punctum Books, a U.S.-based publisher of often-radical
+humanities research that has recently opened up a subscription-like service
+to which individuals can contribute to help with the sustainability of the
+press. It is also true that various open educational resource (OER) projects
+are making headway in the textbook and open syllabus arena.
+The emergence of membership models for open-access humanities book
+
+publishing – evident in Punctum Books and Open Book Publishers – points
+toward the challenges of economic distribution that I gestured toward above.
+Indeed, to fully understand this difficulty is to realize that the entirety of the
+United Kingdom's current yearly book purchasing budget in libraries –
+across all types of book, not just academic research monographs – would
+barely stretch to cover the books published by just the four biggest academic
+presses in the UK. This problem of redistribution can be solved through
+membership models or through consortial pooling, both of which achieve
+the same end. The most well-known initiative in the latter space is
+Knowledge Unlatched. Founded by Frances Pinter, who had previously
+launched an open-access pilot at Bloomsbury Academic during her tenure
+there, this project asks libraries around the world to band together to fund
+the unlatching of monographs. That is, for example, if 300 libraries all
+pledge an amount, say $80 each, that will total the fee required by the
+publisher, say $20,000, then the book can be made openly accessible.
+Knowledge Unlatched, which is not a publisher but a funder of publishers
+who submit their titles, is by far the largest initiative so far in the humanities
+and social scientific open-access space for monographs, with 343 books
+
+E V E , c o n t i n u e d Special Section
+
+NEX T  PAGE  > N EX T  A RT I C L E >< TOP  O F  A RT I C L E < PRE V I OUS  PAGECONTENTS
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+18
+
+A New Open Humanities
+
+
+
+made open in its 2016 round and a host of others being already available on
+the Directory of Open Access Books and OAPEN platforms.
+Such problems of scale and distribution, though, have also been seen in the
+
+humanities journal-publishing arena. The initiative that I co-founded, the
+Open Library of Humanities (OLH) – based on the theoretical research work
+in my book, Open Access and the Humanities: Contexts, Controversies and
+the Future (published open-access by Cambridge University Press) [9] –
+takes this model of distributed subsidy and applies it to a journal publishing
+environment. We currently have over 220 libraries around the world –
+including Harvard, Princeton, Yale, Carnegie Mellon, Cambridge, UCL, all
+sites of the University of California System and many others – paying a fee
+that looks like a subscription to the OLH. The catch is that we make all of our
+research work openly accessible. In our first year of operation, we published
+909 articles (some front-, some back list) across 18 journals. With these
+libraries supporting, this lowered the cost to just $1.10 per institution per
+article or, at 118,686 readers, just $0.008 per institution per reader. We
+have also begun partnerships with university presses. The University of
+Wales Press is converting one of its journals to use our model and the
+University of Liverpool Press has just followed, with more announcements
+scheduled for later this year. The model is also designed to offset against
+previous subscription costs as journals come on board to flip to open access,
+thereby saving libraries funds in the long term.
+Indeed, then, even if we have had resistance from humanities scholars,
+
+there are an increasing number of initiatives finding routes to gold open
+
+access in the humanities, while the uptake of green deposit also continues to
+skyrocket. In the face of apparently insurmountable difficulties, we have
+progress, nonetheless.
+
+What Are the Humanities For?
+In this piece, I've looked at the ways in which the humanities have
+
+struggled with open access. At the same time, I have also demonstrated a
+range of projects that are bringing possibilities to the table for these subjects.
+The new technologies might be able to help our old traditions after all, if we
+can address the social challenges that surround changing publication
+practices in the humanities. 
+Despite concerns and the slow pace of change, then, it seems important to
+
+me that the humanities can benefit from open, online dissemination of our
+research material. The humanities are, quite literally, the study of human
+cultures and their artifacts. These subjects do not cure cancers or invent new
+telescopes but they do tell us a great deal about who we are and where we
+have come from as people. They help us to understand the phenomena that
+make us so different as a species from other animals – that is, our artworks
+and cultures – and they help us to contextualize our political and social
+environments within broader timeframes of history. To study ourselves, as
+humans, is the mission of the humanities subjects in all their diverse
+breadths. I believe in open access for the humanities, though, because a
+fundamental question should move us: what good is research on the human,
+if our fellow humans cannot afford to read that work? �
+
+E V E , c o n t i n u e d Special Section
+
+NEX T  PAGE  > N EX T  A RT I C L E >< TOP  O F  A RT I C L E < PRE V I OUS  PAGECONTENTS
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+19
+
+A New Open Humanities
+
+Resources on following page
+
+
+
+E V E , c o n t i n u e d Special Section
+
+NEX T  PAGE  > N EX T  A RT I C L E >< TOP  O F  A RT I C L E < PRE V I OUS  PAGECONTENTS
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+20
+
+A New Open Humanities
+
+Resources Mentioned in the Article
+
+[1] Chan, L., Cuplinskas, D., Eisen, M., Friend, F., Genova, Y., Guédon, J.-C., … Velterop, J. (February 14, 2002). Budapest Open Access Initiative. Retrieved from 
+www.soros.org/openaccess/read.shtml
+
+[2] Higher Education Funding Council for England. (April 7, 2014). Policy for open access in the post-2014 research excellence framework. Retrieved from 
+www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf
+
+[3] Holmwood, J. (October 21, 2013). Markets versus dialogue: The debate over open access ignores competing philosophies of openness. Retrieved from 
+http://blogs.lse.ac.uk/impactofsocialsciences/2013/10/21/markets-versus-dialogue/
+
+[4] Mandler, P. (2013). Open access for the humanities: Not for funders, scientists or publishers. Journal of Victorian Culture, 18 (4), 551–557. 
+https://doi.org/10.1080/13555502.2013.865981
+
+[5] Mandler, P. (2014). Open access: a perspective from the humanities. Insights: The UKSG Journal, 27(2), 166–170. https://doi.org/10.1629/2048-7754.89
+
+[6] Golumbia, D. (2016). Marxism and open access in the humanities: Turning academic labor against itself. Workplace: A Journal for Academic Labor, (28). Retrieved from 
+http://ices.library.ubc.ca/index.php/workplace/article/view/186213
+
+[7] Maron, N., Mulhern, C., Rossman, D., & Schmelzinger, K. (2016). The costs of publishing monographs: Toward a transparent methodology. New York: Ithaka S+R. 
+https://doi.org/10.18665/sr.276785
+
+[8] AAU, ARL, AAUP to launch open access monograph publishing initiative. (March 16, 2017). Retrieved from www.aaupnet.org/news-a-publications/news/1561-aau-arl-
+aaup-to-launch-open-access-monograph-publishing-initiative
+
+[9] Eve, M. P. (2014). Open access and the humanities: Contexts, controversies and the future. Cambridge: Cambridge University Press. Retrieved from 
+http://dx.doi.org/10.1017/CBO9781316161012
+
+https://www.cambridge.org/core/books/open-access-and-the-humanities/02BD7DB4A5172A864C432DBFD86E5FB4
+www.aaupnet.org/news-a-publications/news/1561-aau-arl-aaup-to-launch-open-access-monograph-publishing-initiative
+www.aaupnet.org/news-a-publications/news/1561-aau-arl-aaup-to-launch-open-access-monograph-publishing-initiative
+https://doi.org/10.18665/sr.276785
+http://ices.library.ubc.ca/index.php/workplace/article/view/186213
+https://doi.org/10.1629/2048-7754.89
+http://www.tandfonline.com/doi/abs/10.1080/13555502.2013.865981
+http://blogs.lse.ac.uk/impactofsocialsciences/2013/10/21/markets-versus-dialogue/
+www.hefce.ac.uk/media/hefce/content/pubs/2014/201407/HEFCE2014_07.pdf
+www.soros.org/openaccess/read.shtml
+
+	Button4: 
+	Button3: 
+
+

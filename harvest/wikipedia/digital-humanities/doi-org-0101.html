@@ -1,0 +1,1692 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article"
+      class="no-js">
+
+
+
+<head prefix="og: http://ogp.me/ns#">
+  <title>The Structure of the EU Mediasphere</title>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="http://journals.plos.org/plosone/resource/compiled/asset_HNYVKJYGO7M6YQSK5QZIJH2IXNNASRPV.css" />
+
+  <!-- allows for  extra head tags -->
+
+
+<!-- hello -->
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600">
+
+<link media="print" rel="stylesheet" type="text/css"  href="http://journals.plos.org/plosone/resource/css/print.css"/>
+    <script type="text/javascript">
+        var siteUrlPrefix = "/plosone/";
+    </script>
+<script src="http://journals.plos.org/plosone/resource/compiled/asset_SC5JIUGEUPR4P4P6VBUINUVOVUSU3NRY.js"></script>
+
+  <link rel="shortcut icon" href="http://journals.plos.org/plosone/resource/img/favicon.ico" type="image/x-icon"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+
+
+
+
+  <link rel="canonical" href="doi-org-0101.htm" />
+  <meta name="description" content="Background A trend towards automation of scientific research has recently resulted in what has been termed &ldquo;data-driven inquiry&rdquo; in various disciplines, including physics and biology. The automation of many tasks has been identified as a possible future also for the humanities and the social sciences, particularly in those disciplines concerned with the analysis of text, due to the recent availability of millions of books and news articles in digital format. In the social sciences, the analysis of news media is done largely by hand and in a hypothesis-driven fashion: the scholar needs to formulate a very specific assumption about the patterns that might be in the data, and then set out to verify if they are present or not.  Methodology/Principal Findings In this study, we report what we think is the first large scale content-analysis of cross-linguistic text in the social sciences, by using various artificial intelligence techniques. We analyse 1.3 M news articles in 22 languages detecting a clear structure in the choice of stories covered by the various outlets. This is significantly affected by objective national, geographic, economic and cultural relations among outlets and countries, e.g., outlets from countries sharing strong economic ties are more likely to cover the same stories. We also show that the deviation from average content is significantly correlated with membership to the eurozone, as well as with the year of accession to the EU.  Conclusions/Significance While independently making a multitude of small editorial decisions, the leading media of the 27 EU countries, over a period of six months, shaped the contents of the EU mediasphere in a way that reflects its deep geographic, economic and cultural relations. Detecting these subtle signals in a statistically rigorous way would be out of the reach of traditional methods. This analysis demonstrates the power of the available methods for significant automation of media content analysis." />
+
+  <meta name="citation_abstract" content="Background A trend towards automation of scientific research has recently resulted in what has been termed &ldquo;data-driven inquiry&rdquo; in various disciplines, including physics and biology. The automation of many tasks has been identified as a possible future also for the humanities and the social sciences, particularly in those disciplines concerned with the analysis of text, due to the recent availability of millions of books and news articles in digital format. In the social sciences, the analysis of news media is done largely by hand and in a hypothesis-driven fashion: the scholar needs to formulate a very specific assumption about the patterns that might be in the data, and then set out to verify if they are present or not.  Methodology/Principal Findings In this study, we report what we think is the first large scale content-analysis of cross-linguistic text in the social sciences, by using various artificial intelligence techniques. We analyse 1.3 M news articles in 22 languages detecting a clear structure in the choice of stories covered by the various outlets. This is significantly affected by objective national, geographic, economic and cultural relations among outlets and countries, e.g., outlets from countries sharing strong economic ties are more likely to cover the same stories. We also show that the deviation from average content is significantly correlated with membership to the eurozone, as well as with the year of accession to the EU.  Conclusions/Significance While independently making a multitude of small editorial decisions, the leading media of the 27 EU countries, over a period of six months, shaped the contents of the EU mediasphere in a way that reflects its deep geographic, economic and cultural relations. Detecting these subtle signals in a statistically rigorous way would be out of the reach of traditional methods. This analysis demonstrates the power of the available methods for significant automation of media content analysis.">
+
+
+  <meta name="keywords" content="Economic geography,European Union,Culture,Automation,Social sciences,Cultural geography,Chi square tests,Internet" />
+
+
+<meta name="citation_doi" content="10.1371/journal.pone.0014243"/>
+<meta name="citation_author" content="Ilias Flaounas"/>
+  <meta name="citation_author_institution" content="Intelligent Systems Laboratory, University of Bristol, Bristol, United Kingdom"/>
+<meta name="citation_author" content="Marco Turchi"/>
+  <meta name="citation_author_institution" content="Joint Research Centre (IPSC), European Commission, Ispra, Italy"/>
+<meta name="citation_author" content="Omar Ali"/>
+  <meta name="citation_author_institution" content="Intelligent Systems Laboratory, University of Bristol, Bristol, United Kingdom"/>
+<meta name="citation_author" content="Nick Fyson"/>
+  <meta name="citation_author_institution" content="Intelligent Systems Laboratory, University of Bristol, Bristol, United Kingdom"/>
+  <meta name="citation_author_institution" content="Bristol Centre for Complexity Sciences, University of Bristol, Bristol, United Kingdom"/>
+<meta name="citation_author" content="Tijl De Bie"/>
+  <meta name="citation_author_institution" content="Intelligent Systems Laboratory, University of Bristol, Bristol, United Kingdom"/>
+<meta name="citation_author" content="Nick Mosdell"/>
+  <meta name="citation_author_institution" content="School of Journalism, Media and Cultural Studies, Cardiff University, Cardiff, United Kingdom"/>
+<meta name="citation_author" content="Justin Lewis"/>
+  <meta name="citation_author_institution" content="School of Journalism, Media and Cultural Studies, Cardiff University, Cardiff, United Kingdom"/>
+<meta name="citation_author" content="Nello Cristianini"/>
+  <meta name="citation_author_institution" content="Intelligent Systems Laboratory, University of Bristol, Bristol, United Kingdom"/>
+
+<meta name="citation_title" content="The Structure of the EU Mediasphere"/>
+<meta itemprop="name" content="The Structure of the EU Mediasphere"/>
+<meta name="citation_journal_title" content="PLOS ONE"/>
+<meta name="citation_journal_abbrev" content="PLOS ONE"/>
+<meta name="citation_date" content="Dec 8, 2010"/>
+<meta name="citation_firstpage" content="e14243"/>
+<meta name="citation_issue" content="12"/>
+<meta name="citation_volume" content="5"/>
+<meta name="citation_issn" content="1932-6203"/>
+<meta name="citation_publisher" content="Public Library of Science"/>
+
+  <meta name="citation_pdf_url" content="http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0014243&type=printable">
+
+  <meta name="citation_article_type" content="Research Article">
+
+<meta name="dc.identifier" content="10.1371/journal.pone.0014243" />
+
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@plosone"/>
+    <meta name="twitter:title" content="The Structure of the EU Mediasphere" />
+    <meta property="twitter:description" content="Background A trend towards automation of scientific research has recently resulted in what has been termed &ldquo;data-driven inquiry&rdquo; in various disciplines, including physics and biology. The automation of many tasks has been identified as a possible future also for the humanities and the social sciences, particularly in those disciplines concerned with the analysis of text, due to the recent availability of millions of books and news articles in digital format. In the social sciences, the analysis of news media is done largely by hand and in a hypothesis-driven fashion: the scholar needs to formulate a very specific assumption about the patterns that might be in the data, and then set out to verify if they are present or not.  Methodology/Principal Findings In this study, we report what we think is the first large scale content-analysis of cross-linguistic text in the social sciences, by using various artificial intelligence techniques. We analyse 1.3 M news articles in 22 languages detecting a clear structure in the choice of stories covered by the various outlets. This is significantly affected by objective national, geographic, economic and cultural relations among outlets and countries, e.g., outlets from countries sharing strong economic ties are more likely to cover the same stories. We also show that the deviation from average content is significantly correlated with membership to the eurozone, as well as with the year of accession to the EU.  Conclusions/Significance While independently making a multitude of small editorial decisions, the leading media of the 27 EU countries, over a period of six months, shaped the contents of the EU mediasphere in a way that reflects its deep geographic, economic and cultural relations. Detecting these subtle signals in a statistically rigorous way would be out of the reach of traditional methods. This analysis demonstrates the power of the available methods for significant automation of media content analysis." />
+    <meta property="twitter:image" content="http://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0014243.g003&size=inline" />
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0014243"/>
+<meta property="og:title" content="The Structure of the EU Mediasphere"/>
+<meta property="og:description" content="Background A trend towards automation of scientific research has recently resulted in what has been termed &ldquo;data-driven inquiry&rdquo; in various disciplines, including physics and biology. The automation of many tasks has been identified as a possible future also for the humanities and the social sciences, particularly in those disciplines concerned with the analysis of text, due to the recent availability of millions of books and news articles in digital format. In the social sciences, the analysis of news media is done largely by hand and in a hypothesis-driven fashion: the scholar needs to formulate a very specific assumption about the patterns that might be in the data, and then set out to verify if they are present or not.  Methodology/Principal Findings In this study, we report what we think is the first large scale content-analysis of cross-linguistic text in the social sciences, by using various artificial intelligence techniques. We analyse 1.3 M news articles in 22 languages detecting a clear structure in the choice of stories covered by the various outlets. This is significantly affected by objective national, geographic, economic and cultural relations among outlets and countries, e.g., outlets from countries sharing strong economic ties are more likely to cover the same stories. We also show that the deviation from average content is significantly correlated with membership to the eurozone, as well as with the year of accession to the EU.  Conclusions/Significance While independently making a multitude of small editorial decisions, the leading media of the 27 EU countries, over a period of six months, shaped the contents of the EU mediasphere in a way that reflects its deep geographic, economic and cultural relations. Detecting these subtle signals in a statistically rigorous way would be out of the reach of traditional methods. This analysis demonstrates the power of the available methods for significant automation of media content analysis."/>
+<meta property="og:image" content="http://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0014243.g003&size=inline"/>
+
+<meta name="citation_reference" content="citation_title=Defining the scientific method.;citation_journal_title=Nature Methods;citation_volume=6;citation_number=6;citation_first_page=237;citation_publication_date=2009;"/>    
+<meta name="citation_reference" content="citation_title=Paradigm shifts versus fashion shifts?;citation_author=T Potthast;citation_journal_title=EMBO reports;citation_volume=10;citation_number=10;citation_first_page=S42;citation_last_page=S45;citation_publication_date=2009;"/>    
+<meta name="citation_reference" content="citation_title=Neuromarketing: the hope and hype of neuroimaging in business.;citation_author=D Ariely;citation_author=GS Berns;citation_journal_title=Nature Reviews Neuroscience;citation_volume=11;citation_number=11;citation_first_page=284;citation_last_page=292;citation_publication_date=2010;"/>    
+<meta name="citation_reference" content="citation_title=Complex networks: From data to models.;citation_author=MC González;citation_author=A-L Barabási;citation_journal_title=Nature Physics;citation_volume=3;citation_number=3;citation_first_page=224;citation_last_page=225;citation_publication_date=2007;"/>    
+<meta name="citation_reference" content="citation_title=Data-driven modelling of signal-transduction networks.;citation_author=KA Janes;citation_author=MB Yaffe;citation_journal_title=Nature Reviews Molecular Cell Biology;citation_volume=7;citation_number=7;citation_first_page=820;citation_last_page=828;citation_publication_date=2006;"/>    
+<meta name="citation_reference" content="citation_title=What Do You Do with a Million Books?.;citation_author=G Crane;citation_journal_title=D-Lib Magazine;citation_volume=12;citation_number=12;citation_publication_date=2006;"/>    
+<meta name="citation_reference" content="citation_title=Mass digitization of books.;citation_author=K Coyle;citation_journal_title=The Journal of Academic Librarianship;citation_volume=32;citation_number=32;citation_first_page=641;citation_last_page=645;citation_publication_date=2006;"/>    
+<meta name="citation_reference" content="citation_title=Chasing the Bad News: An Analysis of 2005 Iraq and Afghanistan War Coverage on NBC and Fox News Channel.;citation_author=S Aday;citation_journal_title=Journal of Communication;citation_volume=60;citation_number=60;citation_first_page=144;citation_last_page=164;citation_publication_date=2010;"/>    
+<meta name="citation_reference" content="citation_title=Prime Time Commemoration: An Analysis of Television Broadcasts on Israel&amp;apos;s Memorial Day for the Holocaust and the Heroism.;citation_author=O Meyers;citation_author=E Zandberg;citation_author=M Neiger;citation_journal_title=Journal of Communication;citation_volume=59;citation_number=59;citation_first_page=456;citation_last_page=480;citation_publication_date=2009;"/>    
+<meta name="citation_reference" content="citation_title=Europe-Topics in Europe&amp;apos;s Media: The Debate about the European Public Sphere: A Meta-Analysis of Media Content Analyses.;citation_author=M Machill;citation_author=M Beiler;citation_author=C Fischer;citation_journal_title=European Journal of Communication;citation_volume=21;citation_number=21;citation_first_page=57;citation_last_page=88;citation_publication_date=2006;"/>    
+<meta name="citation_reference" content="citation_title=Constructing Public Opinion.;citation_author=J Lewis;citation_publication_date=2001;citation_publisher=Columbia Univerity Press"/>    
+<meta name="citation_reference" content="citation_title=An Introduction to the Europe Media Monitor Family of Applications.;citation_author=R Steinberger;citation_author=B Pouliquen;citation_author=E Van der Goot;citation_journal_title=Information Access in a Multilingual World-Proceedings of the SIGIR 2009 Workshop (SIGIR-CLIR'2009);citation_first_page=1;citation_last_page=8;citation_publication_date=2009;"/>    
+<meta name="citation_reference" content="citation_title=Lydia: A system for large-scale news analysis. In Proc.;citation_author=L Lloyd;citation_author=D Kechagias;citation_author=S Skiena;citation_journal_title=String Processing and Information Retrieval, Lecture Notes in Computer Science;citation_volume=3772;citation_number=3,772;citation_first_page=161;citation_last_page=166;citation_publication_date=2005;"/>    
+<meta name="citation_reference" content="citation_title=Tracking and summarizing news on a daily basis with columbia&amp;apos;s newsblaster.;citation_author=KR McKeown;citation_author=R Barzilay;citation_author=D Evans;citation_author=V Hatzivassiloglou;citation_author=JL Klavans;citation_first_page=280;citation_last_page=285;citation_publication_date=2002;citation_publisher=In Proceedings of the second international conference on Human Language Technology Research"/>    
+<meta name="citation_reference" content="citation_title=Newsinessence: A system for domain-independent, real-time news clus- tering and multi-document summarization.;citation_author=DR Radev;citation_author=S Blair-Goldensohn;citation_author=Z Zhang;citation_author=RS Raghavan;citation_first_page=1;citation_last_page=4;citation_publication_date=2001;citation_publisher=In Proceedings of the first international conference on Human language technology research, Association for Computational Linguistics"/>    
+<meta name="citation_reference" content="citation_title=RCV1: A New Benchmark Collection for Text Categorization Research.;citation_author=DD Lewis;citation_author=Y Yang;citation_author=T Rose;citation_author=F Li;citation_journal_title=Journal of Machine Learning Research;citation_volume=5;citation_number=5;citation_first_page=361;citation_last_page=397;citation_publication_date=2004;"/>    
+<meta name="citation_reference" content="citation_title=The mathematic of statistical machine translation. Parameter estimation.;citation_author=PF Brown;citation_author=VJD Pietra;citation_author=SAD Pietra;citation_author=RL Mercer;citation_journal_title=Computational Linguistics;citation_volume=19;citation_number=19;citation_first_page=263;citation_last_page=311;citation_publication_date=1994;"/>    
+<meta name="citation_reference" content="citation_title=Moses: Open source toolkit for statistical machine translation.;citation_author=P Koehn;citation_author=H Hoang;citation_author=A Birch;citation_author=C Callison-Burch;citation_author=M Federico;citation_publication_date=2007;"/>    
+<meta name="citation_reference" content="citation_title=Web data mining.;citation_author=B Liu;citation_publication_date=2007;citation_publisher=Springer"/>    
+<meta name="citation_reference" content="citation_title=Protein dispensability and rate of evolution.;citation_author=A Hirsh;citation_author=H Fraser;citation_journal_title=Nature;citation_volume=411;citation_number=411;citation_first_page=1046;citation_last_page=1048;citation_publication_date=2001;"/>    
+<meta name="citation_reference" content="citation_title=Modularity and community structure in networks.;citation_author=MEJ Newman;citation_journal_title=Proceedings of the National Academy of Sciences;citation_volume=103;citation_number=103;citation_first_page=8577;citation_last_page=8582;citation_publication_date=2006;"/>    
+<meta name="citation_reference" content="citation_title=Spatial analysis of news sources.;citation_author=A Mehler;citation_author=Y Bao;citation_author=X Li;citation_author=Y Wang;citation_author=S Skiena;citation_journal_title=IEEE Transactions on Visualization and Computer Graphics;citation_volume=12;citation_number=12;citation_first_page=765;citation_last_page=772;citation_publication_date=2006;"/>    
+<meta name="citation_reference" content="citation_title=Statistical phrase-based translation.;citation_author=P Koehn;citation_author=FJ Och;citation_author=D Marcu;citation_first_page=48;citation_last_page=54;citation_publication_date=2003;citation_publisher=Proceedings NAACL 2003"/>    
+<meta name="citation_reference" content="citation_title=Europarl: A parallel corpus for statistical machine translation.;citation_author=P Koehn;citation_first_page=79;citation_last_page=86;citation_publication_date=2005;citation_publisher=Machine Translation Summit X"/>    
+<meta name="citation_reference" content="citation_title=The JRC-Acquis: A multilingual aligned parallel corpus with 20+ languages.;citation_author=R Steinberger;citation_author=B Pouliquen;citation_author=A Widiger;citation_author=C Ignat;citation_author=T Erjavec;citation_first_page=24;citation_last_page=26;citation_publication_date=2006;citation_publisher=Proceedings of the 5th International Conference on Language Resources and Evaluation"/>    
+<meta name="citation_reference" content="citation_title=How effective is Google&amp;apos;s translation service in search?.;citation_author=J Savoy;citation_author=L Dolamic;citation_journal_title=Communications of the ACM;citation_volume=52;citation_number=52;citation_first_page=139;citation_last_page=143;citation_publication_date=2009;"/>    
+<meta name="citation_reference" content="citation_title=Applied statistical methods: for business, economics, and the social sciences.;citation_author=WL Carlson;citation_author=B Thorne;citation_publication_date=1997;citation_publisher=Prentice Hall"/>    
+
+
+<!-- DoubleClick overall ad setup script -->
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<!-- DoubleClick ad slot setup script -->
+
+  <script id="doubleClickSetupScript" type='text/javascript'>
+    googletag.cmd.push(function() {
+  googletag.defineSlot('/75507958/PONE_728x90_ATF', [728, 90], 'div-gpt-ad-1458247671871-0').addService(googletag.pubads());
+  googletag.defineSlot('/75507958/PONE_160x600_BTF', [160, 600], 'div-gpt-ad-1458247671871-1').addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    });
+  </script>
+
+
+
+<script type="text/javascript">
+    var WombatConfig = WombatConfig || {};
+    WombatConfig.resourcePath = "/plosone/resource/";
+    WombatConfig.imgPath = "/plosone/resource/img/";
+    WombatConfig.journalKey = "PLoSONE";
+    WombatConfig.figurePath = "/plosone/article/figure/image";
+    WombatConfig.figShareInstitutionString = "plos";
+    WombatConfig.doiResolverPrefix = "http://dx.plos.org/";
+</script>
+
+<script type="text/javascript">
+  var WombatConfig = WombatConfig || {};
+  WombatConfig.metrics = WombatConfig.metrics || {};
+  WombatConfig.metrics.referenceUrl      = "http://lagotto.io/plos";
+  WombatConfig.metrics.googleScholarUrl  = "http://scholar.google.com/scholar";
+  WombatConfig.metrics.googleScholarCitationUrl  = WombatConfig.metrics.googleScholarUrl + "?hl=en&lr=&q=";
+  WombatConfig.metrics.crossrefUrl  = "http://www.crossref.org";
+</script><script src="http://code.jquery.com/jquery-2.1.4.min.js" ></script>
+<script>window.jQuery || document.write('<script src="http://journals.plos.org/plosone/resource/js/vendor/jquery-2.1.4.min.js""><\/script>')</script>
+
+          <script type="text/javascript" src="https://widgets.figshare.com/static/figshare.js"></script>
+
+
+
+
+
+
+
+
+
+
+<!--For Google Tag manager to be able to track site information  -->
+<script>
+
+  dataLayer = [{
+    'mobileSite': 'false',
+    'desktopSite': 'true'
+  }];
+
+</script>
+
+</head>
+
+
+
+<body class="article plosone">
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-TP26BH"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP26BH');</script>
+
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-MQQMGF"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MQQMGF');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<header>
+
+  <div id="topslot" class="head-top">
+
+<div class="center">
+<div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-0' style='width:728px; height:90px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-0'); });
+    </script>
+  </div>
+</div>
+  </div>
+
+  <div id="user" class="nav">
+    <ul class="nav-user">
+
+
+
+
+      <li ><a href="http://www.plos.org">plos.org</a></li>
+
+
+        <li ><a href="https://community.plos.org/registration/new">create account</a></li>
+
+
+          <li class="highlighted"><a href="http://journals.plos.org/plosone/user/secure/login?page=%2Fplosone%2Farticle%3Fid%3D10.1371%2Fjournal.pone.0014243">sign in</a></li>
+
+    </ul>
+  </div>
+  <div id="pagehdr">
+
+    <nav class="nav-main">
+
+
+
+
+<h1 class="logo">
+  <a href="http://journals.plos.org/plosone/">PLOS ONE</a>
+</h1>
+
+<section class="top-bar-section"> 
+
+<ul class="nav-elements">
+
+
+    <li class="multi-col-parent menu-section-header has-dropdown" id="publish">
+    Publish
+      <div class="dropdown mega ">
+        <ul class="multi-col" id="publish-dropdown-list">
+
+  <li class="menu-section-header " id="submissions">
+    <span class="menu-section-header-title">  Submissions </span>
+
+    <ul class="menu-section "
+        id="submissions-dropdown-list">
+      <li>
+    <a href="http://journals.plos.org/plosone/s/getting-started" >Getting Started</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/submission-guidelines" >Submission Guidelines</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/figures" >Figures</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/tables" >Tables</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/supporting-information" >Supporting Information</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/latex" >LaTeX</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/revising-your-manuscript" >Revising Your Manuscript</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/submit-now" >Submit Now</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="policies">
+    <span class="menu-section-header-title">  Policies </span>
+
+    <ul class="menu-section "
+        id="policies-dropdown-list">
+      <li>
+    <a href="http://journals.plos.org/plosone/s/best-practices-in-research-reporting" >Best Practices in Research Reporting</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/human-subjects-research" >Human Subjects Research</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/animal-research" >Animal Research</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/competing-interests" >Competing Interests</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/disclosure-of-funding-sources" >Disclosure of Funding Sources</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/licenses-and-copyright" >Licenses and Copyright</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/data-availability" >Data Availability</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/materials-and-software-sharing" >Materials and Software Sharing</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/ethical-publishing-practice" >Ethical Publishing Practice</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/authorship" >Authorship</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/downloads-and-translations" >Downloads and Translations</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="manuscript-review-and-publication">
+    <span class="menu-section-header-title">  Manuscript Review and Publication </span>
+
+    <ul class="menu-section "
+        id="manuscript-review-and-publication-dropdown-list">
+      <li>
+    <a href="http://journals.plos.org/plosone/s/criteria-for-publication" >Criteria for Publication</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/editorial-and-peer-review-process" >Editorial and Peer Review Process</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/reviewer-guidelines" >Guidelines for Reviewers</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/accepted-manuscripts" >Accepted Manuscripts</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/corrections-and-retractions" >Corrections and Retractions</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/comments" >Comments</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/article-level-metrics" >Article-Level Metrics</a>
+  </li>
+
+    </ul>
+
+  </li>
+        </ul>
+          <div class="calloutcontainer">
+
+
+
+  <h3 class="callout-headline">Submit Your Manuscript</h3>
+
+  <div class="action-contain">
+  <p class="callout-content">
+  Discover a faster, simpler path to publishing in a high-quality journal. <em>PLOS ONE</em> promises fair, rigorous peer review,
+  broad scope, and wide readership – a perfect fit for your research every time.
+  </p>
+
+  <p class="button-contain special">
+    <a class="button button-default" href="http://journals.plos.org/plosone/static/publish">
+     Learn More
+    </a>
+    <a class="button-link" href="http://www.editorialmanager.com/pone/default.asp">
+      Submit Now
+    </a>
+  </p>
+  </div>  <!-- opens in siteMenuCalloutDescription -->
+
+
+          </div>
+      </div>
+    </li>
+
+
+
+  <li class="menu-section-header has-dropdown " id="about">
+    <span class="menu-section-header-title">  About </span>
+
+    <ul class="menu-section dropdown "
+        id="about-dropdown-list">
+      <li>
+    <a href="http://journals.plos.org/plosone/static/publish" >Why Publish with PLOS ONE</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/journal-information" >Journal Information</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/staff-editors" >Staff Editors</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/static/editorial-board" >Editorial Board</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/section-editors" >Section Editors</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/advisory-groups" >Advisory Groups</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/find-and-read-articles" >Find and Read Articles</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/publishing-information" >Publishing Information</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/publication-fees" >Publication Fees</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/press-and-media" >Press and Media</a>
+  </li>
+
+      <li>
+    <a href="http://journals.plos.org/plosone/s/contact" >Contact</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+  <li data-js-tooltip-hover="trigger" class="subject-area menu-section-header">
+  Browse
+  </li>
+
+      <li id="navsearch" class="head-search">
+
+
+    <form name="searchForm" action="http://journals.plos.org/plosone/search" method="get">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="search-contain">
+          <input id="search" type="text" name="q" placeholder="Search" required/>
+          <button id="headerSearchButton" type="submit"><span class="search-icon"></span></button>
+        </div>
+      </fieldset>
+      <input type="hidden" name="filterJournals" value="PLoSONE"/>
+    </form>
+
+    <a id="advSearch"
+       href="http://journals.plos.org/plosone/search">
+      advanced search
+    </a>
+
+
+
+
+      </li>
+
+      </ul>     
+      </section>  
+    </nav>
+  </div>
+
+</header><section id="taxonomyContainer">
+
+<div id="taxonomy-browser" class="areas" data-search-url="/plosone/browse">
+  <div class="wrapper">
+    <div class="taxonomy-header">
+      Browse Subject Areas
+      <div id="subjInfo">?</div>
+      <div id="subjInfoText">
+        <p>Click through the PLOS taxonomy to find articles in your field.</p>
+        <p>For more information about PLOS Subject Areas, click
+          <a href="http://journals.plos.org/plosone/s/help-using-this-site#loc-subject-areas">here</a>.
+        </p>
+      </div>
+    </div>
+    <div class="levels">
+      <div class="levels-container cf">
+        <div class="levels-position"></div>
+      </div>
+      <a href="doi-org-0101.htm#" class="prev"></a>
+      <a href="doi-org-0101.htm#" class="next active"></a>
+    </div>
+  </div>
+  <div class="taxonomy-browser-border-bottom"></div>
+</div></section>
+<main> <div class="set-grid">
+
+<header class="title-block">
+
+
+
+<script type="text/javascript">
+  var COUNTER_HOST = "http://counter.plos.org/api/v1.0/stats/totals/doi";
+</script>
+
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "http://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "http://alm.plos.org/api/v5/articles";
+</script>
+
+<ul id="almSignposts" class="signposts">
+  <li id="loadingMetrics">
+    <p>Loading metrics</p>
+  </li>
+</ul>
+
+<script type="text/template" id="signpostsGeneralErrorTemplate">
+  <li id="metricsError">Article metrics are unavailable at this time. Please try again later.</li>
+</script>
+
+<script type="text/template" id="signpostsNewArticleErrorTemplate">
+  <li></li><li></li><li id="tooSoon">Article metrics are unavailable for recently published articles.</li>
+</script>
+
+<script type="text/template" id="signpostsTemplate">
+    <li id="almSaves">
+      <%= s.numberFormat(saveCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="http://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0014243#savedHeader">Save</a>
+        <p class="saves-tip" data-js-tooltip-hover="target"><a href="http://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0014243#savedHeader">Total Mendeley and CiteULike bookmarks.</a></p>
+      </div>
+    </li>
+
+    <li id="almCitations">
+      <%= s.numberFormat(citationCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="http://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0014243#citedHeader">Citation</a>
+        <p class="citations-tip" data-js-tooltip-hover="target"><a href="http://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0014243#citedHeader">Paper's citation count computed by Scopus.</a></p>
+      </div>
+    </li>
+
+    <li id="almViews">
+      <%= s.numberFormat(viewCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="http://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0014243#viewedHeader">View</a>
+        <p class="views-tip" data-js-tooltip-hover="target"><a href="http://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0014243#viewedHeader">Sum of PLOS and PubMed Central page views and downloads.</a></p>
+      </div>
+    </li>
+
+    <li id="almShares">
+      <%= s.numberFormat(shareCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="http://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0014243#discussedHeader">Share</a>
+        <p class="shares-tip" data-js-tooltip-hover="target"><a href="http://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0014243#discussedHeader">Sum of Facebook and Twitter activity.</a></p>
+      </div>
+    </li>
+</script>
+
+    <div class="article-meta">
+
+<div class="classifications">
+  <p class="license-short" id="licenseShort">Open Access</p>
+  <p class="peer-reviewed" id="peerReviewed">Peer-reviewed</p>
+
+<div class="article-type" >
+  <p class="type-article" id="artType">Research Article</p>
+</div>
+
+
+</div>
+
+
+    </div>
+    <div class="article-title-etc">
+
+
+
+<div class="title-authors">
+  <h1 id="artTitle"><?xml version="1.0" encoding="UTF-8"?>The Structure of the EU Mediasphere</h1>
+
+<ul class="author-list clearfix"  data-js-tooltip="tooltip_container" id="author-list">
+
+
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="0" class="author-name" >
+Ilias Flaounas,</a>    <div id="author-meta-0" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-0"><span class="type">Affiliation</span>
+    Intelligent Systems Laboratory, University of Bristol, Bristol, United Kingdom
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose0"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="1" class="author-name" >
+Marco Turchi,</a>    <div id="author-meta-1" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-1"><span class="type">Affiliation</span>
+    Joint Research Centre (IPSC), European Commission, Ispra, Italy
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose1"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="2" class="author-name" >
+Omar Ali,</a>    <div id="author-meta-2" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-2"><span class="type">Affiliation</span>
+    Intelligent Systems Laboratory, University of Bristol, Bristol, United Kingdom
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose2"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="3" class="author-name" >
+Nick Fyson,</a>    <div id="author-meta-3" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-3"><span class="type">Affiliations</span>
+    Intelligent Systems Laboratory, University of Bristol, Bristol, United Kingdom, 
+    Bristol Centre for Complexity Sciences, University of Bristol, Bristol, United Kingdom
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose3"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="4" class="author-name" >
+Tijl De Bie,</a>    <div id="author-meta-4" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-4"><span class="type">Affiliation</span>
+    Intelligent Systems Laboratory, University of Bristol, Bristol, United Kingdom
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose4"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="5" class="author-name" >
+Nick Mosdell,</a>    <div id="author-meta-5" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-5"><span class="type">Affiliation</span>
+    School of Journalism, Media and Cultural Studies, Cardiff University, Cardiff, United Kingdom
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose5"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="6" class="author-name" >
+Justin Lewis,</a>    <div id="author-meta-6" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  
+  <p id="authAffiliations-6"><span class="type">Affiliation</span>
+    School of Journalism, Media and Cultural Studies, Cardiff University, Cardiff, United Kingdom
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose6"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="7" class="author-name" >
+Nello Cristianini <span class="email">  </span></a>    <div id="author-meta-7" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p id="authCorresponding-7"> <span class="email">* E-mail:</span> <a href="mailto:nello.cristianini@bristol.ac.uk">nello.cristianini@bristol.ac.uk</a></p>
+  <p id="authAffiliations-7"><span class="type">Affiliation</span>
+    Intelligent Systems Laboratory, University of Bristol, Bristol, United Kingdom
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose7"> &#x02A2F; </a>
+    </div>
+</li>
+
+</ul>
+
+</div>
+
+
+<div id="floatTitleTop" data-js-floater="title_author" class="float-title">
+  <div class="set-grid">
+    <div class="float-title-inner">
+      <h1><?xml version="1.0" encoding="UTF-8"?>The Structure of the EU Mediasphere</h1>
+
+<ul id="floatAuthorList" data-js-floater="floated_authors">
+
+  <li data-float-index="1">Ilias Flaounas,&nbsp;
+
+  </li>
+  <li data-float-index="2">Marco Turchi,&nbsp;
+
+  </li>
+  <li data-float-index="3">Omar Ali,&nbsp;
+
+  </li>
+  <li data-float-index="4">Nick Fyson,&nbsp;
+
+  </li>
+  <li data-float-index="5">Tijl De Bie,&nbsp;
+
+  </li>
+  <li data-float-index="6">Nick Mosdell,&nbsp;
+
+  </li>
+  <li data-float-index="7">Justin Lewis,&nbsp;
+
+  </li>
+  <li data-float-index="8">Nello Cristianini
+
+  </li>
+
+</ul>
+
+
+
+    </div>
+    <div class="logo-close" id="titleTopCloser">
+      <img src="http://journals.plos.org/plosone/resource/img/logo.plos.95.png" alt="PLOS" />
+      <div class="close-floater" title="close">x</div>
+    </div>
+  </div>
+</div>
+
+      <ul class="date-doi">
+        <li id="artPubDate">Published: December 8, 2010</li>
+        <li id="artDoi">
+<a   href="https://doi.org/10.1371/journal.pone.0014243">https://doi.org/10.1371/journal.pone.0014243</a>
+        </li>
+      </ul>
+
+    </div>
+  <div>
+
+  </div>
+</header>
+
+  <section class="article-body">
+
+
+
+<ul class="article-tabs">
+
+        <li class="tab-title active" id="tabArticle">
+          <a href="doi-org-0101.htm" class="article-tab-1">Article</a>
+      </li>
+
+
+            <li class="tab-title " id="tabAuthors">
+          <a href="http://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0014243" class="article-tab-2">Authors</a>
+      </li>
+
+
+        <li class="tab-title " id="tabMetrics">
+          <a href="http://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0014243" class="article-tab-3">Metrics</a>
+      </li>
+
+        <li class="tab-title " id="tabComments">
+          <a href="http://journals.plos.org/plosone/article/comments?id=10.1371/journal.pone.0014243" class="article-tab-4">Comments</a>
+      </li>
+
+        <li class="tab-title " id="tabRelated">
+          <a href="http://journals.plos.org/plosone/article/related?id=10.1371/journal.pone.0014243" class="article-tab-5">Related Content</a>
+      </li>
+
+</ul>
+
+    <div class="article-container">
+
+
+<div id="nav-article">
+  <ul class="nav-secondary">
+
+    <li class="nav-comments" id="nav-comments">
+      <a href="http://journals.plos.org/plosone/article/comments?id=10.1371/journal.pone.0014243">Reader Comments (0)</a>
+    </li>
+
+    <li class="nav-media" id="nav-media" data-doi="10.1371/journal.pone.0014243">
+      <a href="http://journals.plos.org/plosone/article/related?id=10.1371/journal.pone.0014243">
+        Media Coverage <span id="media-coverage-count"></span>
+      </a>
+    </li>
+
+    <li id="nav-figures"><a href="doi-org-0101.htm#" data-doi="10.1371/journal.pone.0014243">Figures</a></li>
+  </ul>
+</div>
+
+<div id="figure-lightbox-container"></div>
+
+<script id="figure-lightbox-template" type="text/template">
+  <div id="figure-lightbox" class="reveal-modal full" data-reveal aria-hidden="true"
+       role="dialog">
+    <div class="lb-header">
+      <h1 id="lb-title"><%= articleTitle %></h1>
+
+      <div id="lb-authors">
+        <% authorList.split(',').forEach(function (author) { %>
+        <span><%= author.trim() %></span>
+        <% }) %>
+      </div>
+
+      <div class="lb-close" title="close">&nbsp;</div>
+    </div>
+    <div class="img-container">
+      <div class="loader"> <i class="fa-spinner"></i> </div>
+      <img class="main-lightbox-image" src="doi-org-0101.htm"/>
+      <aside id="figures-list">
+        <% figureList.each(function (ix, figure) { %>
+        <div class="change-img" data-doi="<%= figure.getAttribute('data-doi') %>">
+          <img class="aside-figure" src="http://journals.plos.org/plosone/article/figure/image?size=inline&amp;id=&lt;%=&#32;figure.getAttribute('data-doi')&#32;%&gt;" />
+        </div>
+        <% }) %>
+        <div class="dummy-figure">
+        </div>
+      </aside>
+    </div>
+    <div id="lightbox-footer">
+
+      <div id="btns-container" class="lightbox-row <% if(figureList.length <= 1) { print('one-figure-only') } %>">
+        <div class="fig-btns-container reset-zoom-wrapper left">
+          <span class="fig-btn reset-zoom-btn">Reset zoom</span>
+        </div>
+        <div class="zoom-slider-container">
+          <div class="range-slider-container">
+            <span id="lb-zoom-min"></span>
+            <div class="range-slider round" data-slider data-options="start: 20; end: 200; initial: 20;">
+              <span class="range-slider-handle" role="slider" tabindex="0"></span>
+              <span class="range-slider-active-segment"></span>
+              <input type="hidden">
+            </div>
+            <span id="lb-zoom-max"></span>
+          </div>
+        </div>
+        <% if(figureList.length > 1) { %>
+        <div class="fig-btns-container">
+          <span class="fig-btn all-fig-btn"><i class="icon icon-all"></i> All Figures</span>
+          <span class="fig-btn next-fig-btn"><i class="icon icon-next"></i> Next</span>
+          <span class="fig-btn prev-fig-btn"><i class="icon icon-prev"></i> Previous</span>
+        </div>
+        <% } %>
+      </div>
+      <div id="image-context">
+      </div>
+    </div>
+  </div>
+</script>
+
+<script id="image-context-template" type="text/template">
+  <div class="footer-text">
+    <div id="figure-description-wrapper">
+      <div id="view-more-wrapper" style="<% descriptionExpanded? print('display:none;') : '' %>">
+        <span id="figure-title"><%= title %></span>
+        <p id="figure-description">
+          <%= description %>&nbsp;&nbsp;
+        </p>
+        <span id="view-more">show more<i class="icon-arrow-right"></i></span>
+
+      </div>
+      <div id="view-less-wrapper" style="<% descriptionExpanded? print('display:inline-block;') : '' %>" >
+        <span id="figure-title"><%= title %></span>
+        <p id="full-figure-description">
+          <%= description %>&nbsp;&nbsp;
+          <span id="view-less">show less<i class="icon-arrow-left"></i></span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="show-context-container">
+    <a class="btn show-context" href="http://journals.plos.org/plosone/&lt;%=&#32;showInContext(strippedDoi)&#32;%&gt;">Show in Context</a>
+  </div>
+  <div id="download-buttons">
+    <h3>Download:</h3>
+    <div class="item">
+      <a href="http://journals.plos.org/plosone/article/figure/image?size=original&amp;download=&amp;id=&lt;%=&#32;doi&#32;%&gt;" title="original image">
+        <span class="download-btn">TIFF</span>
+      </a>
+      <span class="file-size"><%= fileSizes.original %></span>
+    </div>
+    <div class="item">
+      <a href="http://journals.plos.org/plosone/article/figure/image?size=large&amp;download=&amp;id=&lt;%=&#32;doi&#32;%&gt;" title="large image">
+        <span class="download-btn">PNG</span>
+      </a>
+      <span class="file-size"><%= fileSizes.large %></span>
+    </div>
+    <div class="item">
+      <a href="http://journals.plos.org/plosone/article/figure/powerpoint?id=&lt;%=&#32;doi&#32;%&gt;" title="PowerPoint slide">
+        <span class="download-btn">PPT</span>
+      </a>
+    </div>
+
+  </div>
+</script>
+      <div class="article-content">
+
+
+
+
+
+
+
+
+<div id="figure-carousel-section">
+  <h2>Figures</h2>
+
+  <div id="figure-carousel">
+
+    <div class="carousel-wrapper">
+      <div class="slider">
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0014243.g001">
+
+                <img src="http://journals.plos.org/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0014243.g001"
+                     alt="Figure 1"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0014243.g002">
+
+                <img src="http://journals.plos.org/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0014243.g002"
+                     alt="Figure 2"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0014243.g003">
+
+                <img src="http://journals.plos.org/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0014243.g003"
+                     alt="Figure 3"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0014243.t001">
+
+                <img src="http://journals.plos.org/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0014243.t001"
+                     alt="Table 1"
+                />
+
+            </div>
+      </div>
+    </div>
+
+    <div class="carousel-control">
+      <span class="button previous"></span>
+      <span class="button next"></span>
+    </div>
+    <div class="carousel-page-buttons">
+
+    </div>
+  </div>
+</div>
+
+
+        <div class="article-text" id="artText">
+        
+
+
+
+<div class="abstract toc-section"><a id="abstract0" name="abstract0" data-toc="abstract0" class="link-target" title="Abstract"></a><h2>Abstract</h2>
+<div id="section1" class="section toc-section"><a id="" name="" class="link-target" title="Background"></a>
+<h3>Background</h3>
+<a id="article1.front1.article-meta1.abstract1.sec1.p1" name="article1.front1.article-meta1.abstract1.sec1.p1" class="link-target"></a><p>A trend towards automation of scientific research has recently resulted in what has been termed “data-driven inquiry” in various disciplines, including physics and biology. The automation of many tasks has been identified as a possible future also for the humanities and the social sciences, particularly in those disciplines concerned with the analysis of text, due to the recent availability of millions of books and news articles in digital format. In the social sciences, the analysis of news media is done largely by hand and in a hypothesis-driven fashion: the scholar needs to formulate a very specific assumption about the patterns that might be in the data, and then set out to verify if they are present or not.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="" name="" class="link-target" title="Methodology/Principal Findings"></a>
+<h3>Methodology/Principal Findings</h3>
+<a id="article1.front1.article-meta1.abstract1.sec2.p1" name="article1.front1.article-meta1.abstract1.sec2.p1" class="link-target"></a><p>In this study, we report what we think is the first large scale content-analysis of cross-linguistic text in the social sciences, by using various artificial intelligence techniques. We analyse 1.3 M news articles in 22 languages detecting a clear structure in the choice of stories covered by the various outlets. This is significantly affected by objective national, geographic, economic and cultural relations among outlets and countries, e.g., outlets from countries sharing strong economic ties are more likely to cover the same stories. We also show that the deviation from average content is significantly correlated with membership to the eurozone, as well as with the year of accession to the EU.</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="" name="" class="link-target" title="Conclusions/Significance"></a>
+<h3>Conclusions/Significance</h3>
+<a id="article1.front1.article-meta1.abstract1.sec3.p1" name="article1.front1.article-meta1.abstract1.sec3.p1" class="link-target"></a><p>While independently making a multitude of small editorial decisions, the leading media of the 27 EU countries, over a period of six months, shaped the contents of the EU mediasphere in a way that reflects its deep geographic, economic and cultural relations. Detecting these subtle signals in a statistically rigorous way would be out of the reach of traditional methods. This analysis demonstrates the power of the available methods for significant automation of media content analysis.</p>
+</div>
+</div>
+
+
+<div class="articleinfo"><p><strong>Citation: </strong>Flaounas I, Turchi M, Ali O, Fyson N, De Bie T, Mosdell N, et al.  (2010) The Structure of the EU Mediasphere. PLoS ONE 5(12):
+           e14243.
+        
+        https://doi.org/10.1371/journal.pone.0014243</p><p><strong>Editor: </strong>Diego Di Bernardo, Fondazione Telethon, Italy</p><p><strong>Received: </strong>July 2, 2010; <strong>Accepted: </strong>November 4, 2010; <strong>Published: </strong> December 8, 2010</p><p><strong>Copyright: </strong> © 2010 Flaounas et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>The authors would like to thank Pascal2 Network of Excellence, which supported the group activities. I.F. is supported by Alexander S. Onassis Public Benefit Foundation; O.A. is supported by a Doctoral Training Account (DTA) grant by Engineering and Physical Sciences Research Council (EPSRC); N.F. is supported by the Bristol Centre for Complexity Sciences; N.C. is supported by a Royal Society Wolfson Merit Award. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests: </strong> The authors have declared that no competing interests exist.</p></div>
+
+
+
+
+
+<div id="section1" class="section toc-section"><a id="s1" name="s1" data-toc="s1" class="link-target" title="Introduction"></a><h2>Introduction</h2><a id="article1.body1.sec1.p1" name="article1.body1.sec1.p1" class="link-target"></a><p>A trend towards automation of scientific research has recently resulted into what has been termed “data-driven inquiry” in various disciplines, including physics and biology <a href="doi-org-0101.htm#pone.0014243-Defining1" class="ref-tip">[1]</a>–<a href="doi-org-0101.htm#pone.0014243-Janes1" class="ref-tip">[5]</a>. The automation of many tasks has been identified as a possible future also for the humanities and the social sciences, particularly in those disciplines concerned with the analysis of text, due to the recent availability of millions of books and news articles in digital format <a href="doi-org-0101.htm#pone.0014243-Crane1" class="ref-tip">[6]</a>, <a href="doi-org-0101.htm#pone.0014243-Coyle1" class="ref-tip">[7]</a>.</p>
+<a id="article1.body1.sec1.p2" name="article1.body1.sec1.p2" class="link-target"></a><p>To date, research into media content has been constrained by two key factors. Firstly, the most common form of analysis is labour intensive, relying upon people to physically examine, interpret or code media content <a href="doi-org-0101.htm#pone.0014243-Aday1" class="ref-tip">[8]</a>, <a href="doi-org-0101.htm#pone.0014243-Meyers1" class="ref-tip">[9]</a>. Even those studies that employ meta-analysis struggle to find large sample sizes and consistent coding frames across the sample of different studies examined <a href="doi-org-0101.htm#pone.0014243-Machill1" class="ref-tip">[10]</a>. This inevitably limits sample sizes, both in terms of the range of media outlets and the time periods covered. This has become particularly problematic as the range of media outlets has increased. While databases exist for generating larger samples such as LexisNexis which provides a commercial database of news content (available at <a href="http://www.lexisnexis.com">http://www.lexisnexis.com</a>), the analytical tools they provide are limited. Secondly, scholars are obliged to impose their own analytical frameworks on media content: they can only find those trends or patterns that they already know or suspect are there, formulate very specific assumption about these patterns and then set out to verify if they are present or not. In other words, these investigations are inherently hypothesis-driven.</p>
+<a id="article1.body1.sec1.p3" name="article1.body1.sec1.p3" class="link-target"></a><p>Automating the analysis of news content could have significant applications, due to the central role played by the news media in providing the information that people use to make sense of the world <a href="doi-org-0101.htm#pone.0014243-Lewis1" class="ref-tip">[11]</a>. Public policy makers, businesses, NGOs and scholars from a wide range of disciplines regularly conduct research to investigate media content. The automation of content analysis is highly desirable, but involves high level tasks such as detection of topic, style and possibly translation. Several systems have been developed for continuous media monitoring like the European Media Monitor (EMM) family of media monitoring applications <a href="doi-org-0101.htm#pone.0014243-Steinberger1" class="ref-tip">[12]</a> and the ‘Lydia’ system <a href="doi-org-0101.htm#pone.0014243-Lloyd1" class="ref-tip">[13]</a> that have been used for detecting events, spatial and temporal distribution of entities in the news etc, ‘Newsblaster’ <a href="doi-org-0101.htm#pone.0014243-McKeown1" class="ref-tip">[14]</a> and ‘NewsInEssence’ <a href="doi-org-0101.htm#pone.0014243-Radev1" class="ref-tip">[15]</a> for generating multi-document summarization of news, or even commercial systems like those from Google and Yahoo!. We have a different goal than those media monitoring systems, and that is to detect patterns that can provide some insight of the structure of the European mediasphere. It is worth mentioning that datasets commonly used as benchmarks in text mining works, such as Reuters RCV1/RCV2 <a href="doi-org-0101.htm#pone.0014243-Lewis2" class="ref-tip">[16]</a>, are not fully relevant to this project since our work is concerned with combining information from multiple sources.</p>
+<a id="article1.body1.sec1.p4" name="article1.body1.sec1.p4" class="link-target"></a><p>In this study, we report what we think is the first large scale content-analysis of cross-linguistic text in the social sciences, by deploying various artificial intelligence techniques including recent advances in machine translation <a href="doi-org-0101.htm#pone.0014243-Brown1" class="ref-tip">[17]</a>, <a href="doi-org-0101.htm#pone.0014243-Koehn1" class="ref-tip">[18]</a> and text analysis <a href="doi-org-0101.htm#pone.0014243-Liu1" class="ref-tip">[19]</a>. We examined the content of media outlets based in the European Union – what we might call the EU Mediasphere - in order to see some of the patterns and trends that emerge. We took advantage of the large scale digitisation of large sections of the mediasphere thereby opening up significant new possibilities for the analysis of global media. Our approach not only allows us to examine huge samples across the mediasphere, but allows the data itself to generate patterns and trends. In other words, this study is largely data-driven and illustrative of the scale and scope of the forms of analysis our approach makes possible.</p>
+<a id="article1.body1.sec1.p5" name="article1.body1.sec1.p5" class="link-target"></a><p>We analyse 1.3 M news articles in 22 languages proving that the choice of stories covered by an outlet is significantly affected by objective national, geographic, economic and cultural relations among outlets and countries: e.g. outlets from countries sharing strong economic ties are more likely to cover the same stories. We also show that the deviation from average content is significantly correlated with membership to the eurozone, as well as with the year of accession to the EU.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="s2" name="s2" data-toc="s2" class="link-target" title="Results"></a><h2>Results</h2><a id="article1.body1.sec2.p1" name="article1.body1.sec2.p1" class="link-target"></a><p>We selected the top-ten news outlets (established by the volume of web traffic) for each of 27 EU countries that have a presence online and offer their content in the Really Simple Syndication (RSS) feed format. This provides an easy means for machines to automatically collect the content of a web-site. For six countries we found less than ten outlets with appropriate online presence resulting in a set of 255 outlets, and from those we managed to successfully parse a total of 215 for the period of study (Supporting <a href="doi-org-0101.htm#pone.0014243.s001">Table S1</a> contains the list of news outlets). The media we monitored are of various types, notably newspapers and broadcast media. Most of these have off-line versions, that is they are the websites of traditional news media. In order to make them comparable, we used news items that appear in the leading news feed of each – roughly corresponding to the first page, or the main page of the news outlet.</p>
+<a id="article1.body1.sec2.p2" name="article1.body1.sec2.p2" class="link-target"></a><p>In total we gathered 1,370,874 news items from the top stories of the top outlets of each EU country for a period of six months from August 1st 2009 until January 31st 2010. The non-English language news items (1.2 M) were translated automatically to English by a system based on Moses <a href="doi-org-0101.htm#pone.0014243-Koehn1" class="ref-tip">[18]</a>. Although the method does not create human-quality translations, it gives sufficient quality for our purposes, since the bag-of-words representation we use next is not affected by a possibly incorrect ordering or inflection of the translated words.</p>
+<a id="article1.body1.sec2.p3" name="article1.body1.sec2.p3" class="link-target"></a><p>The English and the translated news-items were then preprocessed by typical text mining methods that include stop word removal, indexing, stemming and transferral to the TF-IDF bag-of-words space <a href="doi-org-0101.htm#pone.0014243-Liu1" class="ref-tip">[19]</a>. Any untranslated words are also removed to ensure that the similarity of two articles is not affected by the language in which they were originally written. In order to allow comparable patterns of content to emerge from the data, the news items of each day were linked by content, to form clusters corresponding to the same story. Clustering was made using the Best Reciprocal Hit method, borrowed from the field of bioinformatics <a href="doi-org-0101.htm#pone.0014243-Hirsh1" class="ref-tip">[20]</a>. The similarity of two articles was measured using the cosine similarity <a href="doi-org-0101.htm#pone.0014243-Liu1" class="ref-tip">[19]</a>. Every outlet was hence associated with the set of stories it had covered in the given period.</p>
+<a id="article1.body1.sec2.p4" name="article1.body1.sec2.p4" class="link-target"></a><p>For each pair of outlets we calculated the chi-square test statistic to measure statistical dependence. A threshold was applied to chi-square values to obtain a network of significantly correlated news outlets. To investigate the underlying structure we applied a high threshold chosen to maximize the modularity <a href="doi-org-0101.htm#pone.0014243-Newman1" class="ref-tip">[21]</a> of the inferred network. We reached a modularity of 0.93. The resulting network, after removing unconnected nodes, is formed of 31 connected components as displayed in <a href="doi-org-0101.htm#pone-0014243-g001">Fig. 1</a>, which were found to correspond roughly to the 27 countries. Given the structure of that network, we calculated the probability that two outlets from the same country end up in the same connected component. This probability is 82.95% and it is significant with p&lt;0.001 as estimated by a randomization test permuting country labels of the outlets (1000 shuffles). The software pipeline starts with the acquisition of 1.3 M articles and ends with the identification of subsets of news outlets that have a strong similarity in the kind of stories they choose to cover. This could seamlessly be applied to much larger datasets.</p>
+<a class="link-target" id="pone-0014243-g001" name="pone-0014243-g001"></a><div class="figure" data-doi="10.1371/journal.pone.0014243.g001"><div class="img-box"><a title="Click for larger image" href="http://journals.plos.org/plosone/article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0014243.g001" data-doi="info:doi/10.1371/journal.pone.0014243" data-uri="info:doi/10.1371/journal.pone.0014243.g001"><img src="http://journals.plos.org/plosone/article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0014243.g001" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0014243.g001">
+                  PPT
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0014243.g001">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0014243.g001">
+                  PNG
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0014243.g001">
+                larger image
+              </a></li><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0014243.g001">
+                  TIFF
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0014243.g001">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Figure 1. </span> The communities of news outlets in the EU mediasphere.</div><p class="caption_target"><a id="article1.body1.sec2.fig1.caption1.p1" name="article1.body1.sec2.fig1.caption1.p1" class="link-target"></a><p>We created the network of the top news outlets per EU country. We connected two outlets if they reported the same stories more than expected by chance as measured by chi-square testing. A high threshold on the chi-square results that maximizes the modularity of the network was used for the current plot. This network is comprised of 147 nodes (outlets) and 263 edges organized in 31 communities. Each outlet is coloured by the country of its origin. Disconnected nodes are omitted. This way the relation of the strongest connected components and countries is revealed.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0014243.g001">
+              https://doi.org/10.1371/journal.pone.0014243.g001</a></p></div><a id="article1.body1.sec2.p5" name="article1.body1.sec2.p5" class="link-target"></a><p>Given that the network of outlets decomposes into connected components roughly corresponding to EU countries, we have then explored the structure of the network of countries. As for the outlets network, each country is described by the set of stories that appeared in the top-stories feed of the top-outlets of this country. Once more, chi-square scores were used to quantify the statistical independence of the countries in the content of their media. This allowed us to identify similarities and differences between the content of news media in the 27 EU countries, with a resulting pattern across the EU Mediasphere.</p>
+<a id="article1.body1.sec2.p6" name="article1.body1.sec2.p6" class="link-target"></a><p>We explored three of the many possible factors that may affect the stories that news-media choose to cover and we measured the Spearman correlation of each of these factors to the chi-square scores between countries. The factors we focused on are trade relations between countries, cultural relations and existence of common land borders:</p>
+<a id="article1.body1.sec2.p7" name="article1.body1.sec2.p7" class="link-target"></a><p>a) For trade relations we used data from United Nations Statistics Division-Commodity Trade Statistics Database, using the total of all trade between the respective countries in 2008. We used the fraction of the total trade of the country in question that is directed towards each other country. We found significant correlation of 31.03% (p&lt;0.001).</p>
+<a id="article1.body1.sec2.p8" name="article1.body1.sec2.p8" class="link-target"></a><p>b) For cultural relations we used data expressed in the voting patterns of EU countries competing in the Eurovision song contest from 1957 to 2003. We used the fraction of total points awarded by the country in question to each other country over the whole period of time. Countries present in the voting data but not in the current EU countries list were removed prior to normalization. We found correlation of 32.05% (p&lt;0.001).</p>
+<a id="article1.body1.sec2.p9" name="article1.body1.sec2.p9" class="link-target"></a><p>c) For geographical proximity we used the proportion of length of the common land borders between countries. Correlation was 33.86% (p&lt;0.001).</p>
+<a id="article1.body1.sec2.p10" name="article1.body1.sec2.p10" class="link-target"></a><p>The predictability of these correlations is important for this study – we would expect patterns of news content to reflect geographic, economic and cultural patterns – since it confirms the ability of our approach to use computer generated means to establish highly plausible patterns in news content.</p>
+<a id="article1.body1.sec2.p11" name="article1.body1.sec2.p11" class="link-target"></a><p>Next, we threshold the chi-square scores between countries to get a network of relations between them. The threshold is chosen as high as possible, while still maintaining a connected network. We call this the ‘co-coverage’ network and we present it in <a href="doi-org-0101.htm#pone-0014243-g002">Fig. 2</a>. Several expected connections between countries were found such as Greece-Cyprus, Czech Republic-Slovakia, Latvia-Estonia, United Kingdom-Ireland, Belgium-France etc. Links between countries not explained by borders, trade or cultural relations, could be due to other factors and are potentially the basis of further research from social scientists.</p>
+<a class="link-target" id="pone-0014243-g002" name="pone-0014243-g002"></a><div class="figure" data-doi="10.1371/journal.pone.0014243.g002"><div class="img-box"><a title="Click for larger image" href="http://journals.plos.org/plosone/article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0014243.g002" data-doi="info:doi/10.1371/journal.pone.0014243" data-uri="info:doi/10.1371/journal.pone.0014243.g002"><img src="http://journals.plos.org/plosone/article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0014243.g002" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0014243.g002">
+                  PPT
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0014243.g002">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0014243.g002">
+                  PNG
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0014243.g002">
+                larger image
+              </a></li><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0014243.g002">
+                  TIFF
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0014243.g002">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Figure 2. </span> The ‘co-coverage’ network of EU countries.</div><p class="caption_target"><a id="article1.body1.sec2.fig2.caption1.p1" name="article1.body1.sec2.fig2.caption1.p1" class="link-target"></a><p>This is the network of the most significant relations among EU countries that cover the same stories in their media. The network has 27 nodes that correspond to the EU countries and 112 links between them. The sparseness was chosen as high as possible with the restriction that all countries must link to at least one other country.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0014243.g002">
+              https://doi.org/10.1371/journal.pone.0014243.g002</a></p></div><a id="article1.body1.sec2.p12" name="article1.body1.sec2.p12" class="link-target"></a><p>If we choose not to threshold chi-square scores between countries, we can use non-metric Multidimensional Scaling to treat these scores as similarities and embed them in a 26 dimensional space (N = 27 points projected in N-1 space). In that space, we found the centre of mass of all countries, which represents the average behaviour of news content in the EU, and measured the Euclidean distance of each country from that centre. We found that the ranking of countries based on that distance has a significant (p = 0.0096) correlation of 48.94% to their year of accession in EU (Spearman correlation). As we might expect, on the top of the list are the Eurozone countries presented in <a href="doi-org-0101.htm#pone-0014243-t001">Table 1</a>. We can, for example, see that while the UK and Ireland share the same language, news coverage in Ireland appears to be closer to an EU norm than news coverage in the more Eurosceptic UK. By accepting some loss of information we project the countries into a two dimensional space - instead of the 26 dimensional space used previously. In this space, we can reveal their relative positions, where we expect countries that share interest in the same topics to be closer together and those with less common interests in their media content to be further apart. We visualize this in <a href="doi-org-0101.htm#pone-0014243-g003">Fig. 3</a>. This illustration presents another insight into the relations between media in different countries of the EU.</p>
+<a class="link-target" id="pone-0014243-g003" name="pone-0014243-g003"></a><div class="figure" data-doi="10.1371/journal.pone.0014243.g003"><div class="img-box"><a title="Click for larger image" href="http://journals.plos.org/plosone/article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0014243.g003" data-doi="info:doi/10.1371/journal.pone.0014243" data-uri="info:doi/10.1371/journal.pone.0014243.g003"><img src="http://journals.plos.org/plosone/article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0014243.g003" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0014243.g003">
+                  PPT
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0014243.g003">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0014243.g003">
+                  PNG
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0014243.g003">
+                larger image
+              </a></li><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0014243.g003">
+                  TIFF
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0014243.g003">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Figure 3. </span> The ‘co-coverage’ map of the EU.</div><p class="caption_target"><a id="article1.body1.sec2.fig3.caption1.p1" name="article1.body1.sec2.fig3.caption1.p1" class="link-target"></a><p>This is a 2D representation of the relative positions of EU countries based on their media content. At the centre is the ‘average’ content of the EU media. The Eurozone members are coloured in blue and the rest are coloured in gray. Eurozone countries are closer to each other, and to the average EU behaviour, than non-Eurozone countries.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0014243.g003">
+              https://doi.org/10.1371/journal.pone.0014243.g003</a></p></div><a class="link-target" id="pone-0014243-t001" name="pone-0014243-t001"></a><div class="figure" data-doi="10.1371/journal.pone.0014243.t001"><div class="img-box"><a title="Click for larger image" href="http://journals.plos.org/plosone/article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0014243.t001" data-doi="info:doi/10.1371/journal.pone.0014243" data-uri="info:doi/10.1371/journal.pone.0014243.t001"><img src="http://journals.plos.org/plosone/article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0014243.t001" alt="thumbnail" class="thumbnail"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0014243.t001">
+                  PPT
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0014243.t001">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0014243.t001">
+                  PNG
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0014243.t001">
+                larger image
+              </a></li><li><div class="definition-label"><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0014243.t001">
+                  TIFF
+                </a></div><a href="http://journals.plos.org/plosone/article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0014243.t001">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Table 1. </span> Ranking of countries based on the deviation of their media from average content.</div><p class="caption_target"></p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0014243.t001">
+              https://doi.org/10.1371/journal.pone.0014243.t001</a></p></div></div>
+
+<div id="section3" class="section toc-section"><a id="s3" name="s3" data-toc="s3" class="link-target" title="Discussion"></a><h2>Discussion</h2><a id="article1.body1.sec3.p1" name="article1.body1.sec3.p1" class="link-target"></a><p>We have presented the first large scale comparative analysis of the news content of the leading EU news outlets. We have detected significant patterns and differences in news media content, and have found significant relations between the content of the news media in EU and national, geographic, trade, and cultural relations. This is the first comparative analysis of news content performed on a massive scale, across 27 countries in 22 different languages and over 1.3 M articles, where insights of the structure of the European Mediasphere were obtained, and which was performed largely by automated means. These results could not have been obtained without automated translation and clustering of news, and are just examples of what can currently be achieved in the field of news content analysis by applying automated means of text processing to massive datasets.</p>
+<a id="article1.body1.sec3.p2" name="article1.body1.sec3.p2" class="link-target"></a><p>Our approach opens up the possibility of analysing the mediasphere on a global scale, using automated means to identify clusters and patterns of content. While this approach inevitably lacks the degree of qualitative subtlety provided by humans, we believe that it is a significant breakthrough in the analysis of media content, allowing for a data-driven approach to social sciences, and the exploitation of the huge amounts of digital data that have become available in recent years.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="s4" name="s4" data-toc="s4" class="link-target" title="Methods"></a><h2>Methods</h2>
+<div id="section1" class="section toc-section"><a id="s4a" name="s4a" class="link-target" title="Selection of Outlets"></a>
+<h3>Selection of Outlets</h3>
+<a id="article1.body1.sec4.sec1.p1" name="article1.body1.sec4.sec1.p1" class="link-target"></a><p>The selection of the most influential media outlets per country among different types of media outlets is inherently difficult: How can we compare the differences of impact between broadcast and printed media? Since all outlets we study have online presence we used as a measure of their impact the traffic of their websites. This ranking is reported by Alexa.com (Alexa Traffic Rank index) and we collected the rank of each outlet (on May 20, 2009). Similar strategies have been used before in literature, e.g. <a href="doi-org-0101.htm#pone.0014243-Mehler1" class="ref-tip">[22]</a>.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="s4b" name="s4b" class="link-target" title="Machine Translation"></a>
+<h3>Machine Translation</h3>
+<a id="article1.body1.sec4.sec2.p1" name="article1.body1.sec4.sec2.p1" class="link-target"></a><p>We applied a Statistical Machine Translation (SMT) approach for translating the non-English articles to English. SMT is based on a noisy channel model <a href="doi-org-0101.htm#pone.0014243-Brown1" class="ref-tip">[17]</a>, where a Markovian Language Model coupled with a phrase-to-phrase translation table are at the heart. In recent years, the noisy channel model has been extended in different directions. The most fruitful has been the phrase based statistical machine translation (PBSMT) introduced by Koehn et al. <a href="doi-org-0101.htm#pone.0014243-Koehn2" class="ref-tip">[23]</a> that is based on the use of phrases rather than words. We use Moses, a complete phrase based translation toolkit for academic purposes. It provides all the state of the art components needed to create a PBSMT system from one language to another. For each language pair, an instance of Moses is trained using Europarl <a href="doi-org-0101.htm#pone.0014243-Koehn3" class="ref-tip">[24]</a> data and JRC-Acquis Multilingual Parallel Corpus <a href="doi-org-0101.htm#pone.0014243-Steinberger2" class="ref-tip">[25]</a>.</p>
+<a id="article1.body1.sec4.sec2.p2" name="article1.body1.sec4.sec2.p2" class="link-target"></a><p>We translated all non-English articles of the following 21 official EU languages into English: Bulgarian, Czech, Danish, Dutch, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Slovak, Slovene, Spanish and Swedish.</p>
+<a id="article1.body1.sec4.sec2.p3" name="article1.body1.sec4.sec2.p3" class="link-target"></a><p>We make the working assumption that SMT does not alter significantly the geometry of the corpus in the vector-space representation. This is corroborated by results such as <a href="doi-org-0101.htm#pone.0014243-Savoy1" class="ref-tip">[26]</a>, a work on cross-language information-retrieval, where bag-of-words representations of translated documents are successfully used.</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="s4c" name="s4c" class="link-target" title="Clustering of news articles"></a>
+<h3>Clustering of news articles</h3>
+<a id="article1.body1.sec4.sec3.p1" name="article1.body1.sec4.sec3.p1" class="link-target"></a><p>News articles were clustered using the Best Reciprocal Hit (BRH) method <a href="doi-org-0101.htm#pone.0014243-Hirsh1" class="ref-tip">[20]</a>. An article <em>i</em> in outlet <em>I</em> is a BRH of article <em>j</em> in outlet <em>J</em> if a query on outlet <em>J</em> with article <em>i</em> yields <em>j</em> as the top hit article, and the reciprocal query of outlet <em>I</em> with article <em>j</em> yields <em>i</em> as the top hit article. As a similarity measure between two articles we adopted their cosine distance in the bag-of-words space. This results in pairs of articles from different outlets that publish the same stories. Connections of these pairs in larger components is based on the logic that friends of friends are also friends i.e. the pairs of articles <em>(i, j)</em> and <em>(j,k)</em> form the cluster <em>(i,j,k)</em>. The advantages of this clustering method for the current problem are that a) we don't need to specify the number of clusters we want to discover since it is unknown and non-stationary per day and b) we take advantage of the natural separation of the articles into sets of articles published in different news outlets.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="s4d" name="s4d" class="link-target" title="Network Reconstruction"></a>
+<h3>Network Reconstruction</h3>
+<a id="article1.body1.sec4.sec4.p1" name="article1.body1.sec4.sec4.p1" class="link-target"></a><p>We used an approach based on chi-square test statistic <a href="doi-org-0101.htm#pone.0014243-Carlson1" class="ref-tip">[27]</a> to reconstruct the network of news outlets and observe the underlining structure. The chi-square test measures statistical independence between two variables. In our case the two variables are two outlets and we run the test for each possible pair of outlets. If a test concludes that the two outlets are not independent then we connect them with an edge, otherwise we do not. To measure the chi-square statistic between outlet A and outlet B we count how many stories both outlets published (S<sub>11</sub>), how many stories A published but B didn't publish (S<sub>10</sub>), how many stories B published but A didn't publish (S<sub>01</sub>) and how many stories other outlets published that neither outlet A or B published (S<sub>00</sub>). Then we compute the expected counts that we would have if A and B were independent: E<sub>11</sub> = (S<sub>11</sub>+S<sub>01</sub>)(S<sub>11</sub>+S<sub>10</sub>)/N where N is the total number of stories, E<sub>10</sub> = (S<sub>10</sub>+S<sub>11</sub>)(S<sub>10</sub>+S<sub>00</sub>)/N, E<sub>01</sub> = (S<sub>01</sub>+S<sub>11</sub>)(S<sub>01</sub>+S<sub>00</sub>)/N and E<sub>00</sub> = (S<sub>00</sub>+S<sub>01</sub>)(S<sub>00</sub>+S<sub>10</sub>)/N. The chi-square statistic of A and B is given by the quantity: <a name="" id="" class="link-target"></a><span class="equation"><img src="http://journals.plos.org/plosone/article/file?type=thumbnail&amp;id=info:doi/10.1371/journal.pone.0014243.e001" class="inline-graphic"></span></p>
+<a id="article1.body1.sec4.sec4.p2" name="article1.body1.sec4.sec4.p2" class="link-target"></a><p>This quantity is associated with the probability that the two outlets being independent. If it is above a threshold we consider A and B dependent and we connect them with an edge. The same approach was used to reconstruct the network of countries.</p>
+</div>
+</div>
+
+<div id="section5" class="section toc-section"><a id="s5" name="s5" data-toc="s5" class="link-target" title="Supporting Information"></a><h2>Supporting Information</h2><div class="figshare_widget" doi="10.1371/journal.pone.0014243"></div><div class="supplementary-material"><a name="pone.0014243.s001" id="pone.0014243.s001" class="link-target"></a><h3 class="siTitle title-small"><a href="http://journals.plos.org/plosone/article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pone.0014243.s001">Table S1. </a></h3><a id="article1.body1.sec5.supplementary-material1.caption1.p1" name="article1.body1.sec5.supplementary-material1.caption1.p1" class="link-target"></a><p class="preSiDOI">The list of media outlets used in research. The table contains the name, the domain name of the online version of the outlet, the country of origin of the outlet, and the RSS feeds that were used.</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0014243.s001">https://doi.org/10.1371/journal.pone.0014243.s001</a></p><a id="article1.body1.sec5.supplementary-material1.caption1.p2" name="article1.body1.sec5.supplementary-material1.caption1.p2" class="link-target"></a><p class="postSiDOI">(0.19 MB DOC)</p>
+</div></div>
+
+
+
+
+
+<div class="section toc-section"><a id="ack" name="ack" data-toc="ack" title="Acknowledgments" class="link-target"></a><h2>Acknowledgments</h2>
+<a id="article1.back1.ack1.p1" name="article1.back1.ack1.p1" class="link-target"></a><p>We would like to thank the entire ‘Pattern Analysis and Intelligent Systems’ group at the University of Bristol for discussions.</p>
+</div><div class="contributions toc-section"><a id="authcontrib" name="authcontrib" data-toc="authcontrib" title="Author Contributions"></a><h2>Author Contributions</h2><p>Conceived and designed the experiments: NC. Performed the experiments: IF. Analyzed the data: IF TDB NC. Contributed reagents/materials/analysis tools: IF MT OA NF. Wrote the paper: IF NM JL NC.</p></div><div class="toc-section"><a id="references" name="references" class="link-target" data-toc="references" title="References"></a><h2>References</h2><ol class="references"><li id="ref1"><span class="order">1.
+            </span><a name="pone.0014243-Defining1" id="pone.0014243-Defining1" class="link-target"></a> (2009) Defining the scientific method. Nature Methods  6: 237.  <ul class="reflinks" data-doi="10.1038/nmeth0409-237"><li><a href="https://doi.org/10.1038/nmeth0409-237" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Defining+the+scientific+method.++2009" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref2"><span class="order">2.
+            </span><a name="pone.0014243-Potthast1" id="pone.0014243-Potthast1" class="link-target"></a>Potthast T (2009) Paradigm shifts versus fashion shifts? EMBO reports  10: S42–S45.  <ul class="reflinks" data-doi="10.1038/embor.2009.130"><li><a href="https://doi.org/10.1038/embor.2009.130" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Paradigm+shifts+versus+fashion+shifts%3F+Potthast+2009" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref3"><span class="order">3.
+            </span><a name="pone.0014243-Ariely1" id="pone.0014243-Ariely1" class="link-target"></a>Ariely D, Berns GS (2010) Neuromarketing: the hope and hype of neuroimaging in business. Nature Reviews Neuroscience  11: 284–292.  <ul class="reflinks" data-doi="10.1038/nrn2795"><li><a href="https://doi.org/10.1038/nrn2795" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Neuromarketing%3A+the+hope+and+hype+of+neuroimaging+in+business.+Ariely+2010" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref4"><span class="order">4.
+            </span><a name="pone.0014243-Gonzlez1" id="pone.0014243-Gonzlez1" class="link-target"></a>González MC, Barabási A-L (2007) Complex networks: From data to models. Nature Physics  3: 224–225.  <ul class="reflinks" data-doi="10.1038/nphys581"><li><a href="https://doi.org/10.1038/nphys581" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Complex+networks%3A+From+data+to+models.+Gonz%C3%A1lez+2007" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref5"><span class="order">5.
+            </span><a name="pone.0014243-Janes1" id="pone.0014243-Janes1" class="link-target"></a>Janes KA, Yaffe MB (2006) Data-driven modelling of signal-transduction networks. Nature Reviews Molecular Cell Biology  7: 820–828.  <ul class="reflinks" data-doi="10.1038/nrm2041"><li><a href="https://doi.org/10.1038/nrm2041" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Data-driven+modelling+of+signal-transduction+networks.+Janes+2006" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref6"><span class="order">6.
+            </span><a name="pone.0014243-Crane1" id="pone.0014243-Crane1" class="link-target"></a>Crane G (2006) What Do You Do with a Million Books?. D-Lib Magazine  12:   <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Crane" data-cit="CraneG2006What%20Do%20You%20Do%20with%20a%20Million%20Books%3F.D-Lib%20Magazine12" data-title="What%20Do%20You%20Do%20with%20a%20Million%20Books%3F." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=What+Do+You+Do+with+a+Million+Books%3F.+Crane+2006" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref7"><span class="order">7.
+            </span><a name="pone.0014243-Coyle1" id="pone.0014243-Coyle1" class="link-target"></a>Coyle K (2006) Mass digitization of books. The Journal of Academic Librarianship  32: 641–645.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Coyle" data-cit="CoyleK2006Mass%20digitization%20of%20books.The%20Journal%20of%20Academic%20Librarianship32641645" data-title="Mass%20digitization%20of%20books." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Mass+digitization+of+books.+Coyle+2006" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref8"><span class="order">8.
+            </span><a name="pone.0014243-Aday1" id="pone.0014243-Aday1" class="link-target"></a>Aday S (2010) Chasing the Bad News: An Analysis of 2005 Iraq and Afghanistan War Coverage on NBC and Fox News Channel. Journal of Communication  60: 144–164.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Aday" data-cit="AdayS2010Chasing%20the%20Bad%20News%3A%20An%20Analysis%20of%202005%20Iraq%20and%20Afghanistan%20War%20Coverage%20on%20NBC%20and%20Fox%20News%20Channel.Journal%20of%20Communication60144164" data-title="Chasing%20the%20Bad%20News%3A%20An%20Analysis%20of%202005%20Iraq%20and%20Afghanistan%20War%20Coverage%20on%20NBC%20and%20Fox%20News%20Channel." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Chasing+the+Bad+News%3A+An+Analysis+of+2005+Iraq+and+Afghanistan+War+Coverage+on+NBC+and+Fox+News+Channel.+Aday+2010" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref9"><span class="order">9.
+            </span><a name="pone.0014243-Meyers1" id="pone.0014243-Meyers1" class="link-target"></a>Meyers O, Zandberg E, Neiger M (2009) Prime Time Commemoration: An Analysis of Television Broadcasts on Israel's Memorial Day for the Holocaust and the Heroism. Journal of Communication  59: 456–480.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Meyers" data-cit="MeyersOZandbergENeigerM2009Prime%20Time%20Commemoration%3A%20An%20Analysis%20of%20Television%20Broadcasts%20on%20Israel%27s%20Memorial%20Day%20for%20the%20Holocaust%20and%20the%20Heroism.Journal%20of%20Communication59456480" data-title="Prime%20Time%20Commemoration%3A%20An%20Analysis%20of%20Television%20Broadcasts%20on%20Israel%26apos%3Bs%20Memorial%20Day%20for%20the%20Holocaust%20and%20the%20Heroism." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Prime+Time+Commemoration%3A+An+Analysis+of+Television+Broadcasts+on+Israel%26apos%3Bs+Memorial+Day+for+the+Holocaust+and+the+Heroism.+Meyers+2009" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref10"><span class="order">10.
+            </span><a name="pone.0014243-Machill1" id="pone.0014243-Machill1" class="link-target"></a>Machill M, Beiler M, Fischer C (2006) Europe-Topics in Europe's Media: The Debate about the European Public Sphere: A Meta-Analysis of Media Content Analyses. European Journal of Communication  21: 57–88.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Machill" data-cit="MachillMBeilerMFischerC2006Europe-Topics%20in%20Europe%27s%20Media%3A%20The%20Debate%20about%20the%20European%20Public%20Sphere%3A%20A%20Meta-Analysis%20of%20Media%20Content%20Analyses.European%20Journal%20of%20Communication215788" data-title="Europe-Topics%20in%20Europe%26apos%3Bs%20Media%3A%20The%20Debate%20about%20the%20European%20Public%20Sphere%3A%20A%20Meta-Analysis%20of%20Media%20Content%20Analyses." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Europe-Topics+in+Europe%26apos%3Bs+Media%3A+The+Debate+about+the+European+Public+Sphere%3A+A+Meta-Analysis+of+Media+Content+Analyses.+Machill+2006" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref11"><span class="order">11.
+            </span><a name="pone.0014243-Lewis1" id="pone.0014243-Lewis1" class="link-target"></a>Lewis J (2001) Constructing Public Opinion. New York: Columbia Univerity Press.   <ul class="find-nolinks"></ul></li><li id="ref12"><span class="order">12.
+            </span><a name="pone.0014243-Steinberger1" id="pone.0014243-Steinberger1" class="link-target"></a>Steinberger R, Pouliquen B, Van der Goot E (2009) An Introduction to the Europe Media Monitor Family of Applications. Information Access in a Multilingual World-Proceedings of the SIGIR 2009 Workshop (SIGIR-CLIR'2009) 1–8.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Steinberger" data-cit="SteinbergerRPouliquenBVan%20der%20GootE2009An%20Introduction%20to%20the%20Europe%20Media%20Monitor%20Family%20of%20Applications.Information%20Access%20in%20a%20Multilingual%20World-Proceedings%20of%20the%20SIGIR%202009%20Workshop%20%28SIGIR-CLIR%272009%2918" data-title="An%20Introduction%20to%20the%20Europe%20Media%20Monitor%20Family%20of%20Applications." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=An+Introduction+to+the+Europe+Media+Monitor+Family+of+Applications.+Steinberger+2009" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref13"><span class="order">13.
+            </span><a name="pone.0014243-Lloyd1" id="pone.0014243-Lloyd1" class="link-target"></a>Lloyd L, Kechagias D, Skiena S (2005) Lydia: A system for large-scale news analysis. In Proc. String Processing and Information Retrieval, Lecture Notes in Computer Science  3772: 161–166.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Lloyd" data-cit="LloydLKechagiasDSkienaS2005Lydia%3A%20A%20system%20for%20large-scale%20news%20analysis.%20In%20Proc.String%20Processing%20and%20Information%20Retrieval%2C%20Lecture%20Notes%20in%20Computer%20Science3772161166" data-title="Lydia%3A%20A%20system%20for%20large-scale%20news%20analysis.%20In%20Proc." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Lydia%3A+A+system+for+large-scale+news+analysis.+In+Proc.+Lloyd+2005" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref14"><span class="order">14.
+            </span><a name="pone.0014243-McKeown1" id="pone.0014243-McKeown1" class="link-target"></a>McKeown KR, Barzilay R, Evans D, Hatzivassiloglou V, Klavans JL, et al.  (2002) Tracking and summarizing news on a daily basis with columbia's newsblaster. San Diego, USA: In Proceedings of the second international conference on Human Language Technology Research. pp. 280–285.  <ul class="find-nolinks"></ul></li><li id="ref15"><span class="order">15.
+            </span><a name="pone.0014243-Radev1" id="pone.0014243-Radev1" class="link-target"></a>Radev DR, Blair-Goldensohn S, Zhang Z, Raghavan RS (2001) Newsinessence: A system for domain-independent, real-time news clus- tering and multi-document summarization. In Proceedings of the first international conference on Human language technology research, Association for Computational Linguistics. pp. 1–4.  <ul class="find-nolinks"></ul></li><li id="ref16"><span class="order">16.
+            </span><a name="pone.0014243-Lewis2" id="pone.0014243-Lewis2" class="link-target"></a>Lewis DD, Yang Y, Rose T, Li F (2004) RCV1: A New Benchmark Collection for Text Categorization Research. Journal of Machine Learning Research  5: 361–397.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Lewis" data-cit="LewisDDYangYRoseTLiF2004RCV1%3A%20A%20New%20Benchmark%20Collection%20for%20Text%20Categorization%20Research.Journal%20of%20Machine%20Learning%20Research5361397" data-title="RCV1%3A%20A%20New%20Benchmark%20Collection%20for%20Text%20Categorization%20Research." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=RCV1%3A+A+New+Benchmark+Collection+for+Text+Categorization+Research.+Lewis+2004" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref17"><span class="order">17.
+            </span><a name="pone.0014243-Brown1" id="pone.0014243-Brown1" class="link-target"></a>Brown PF, Pietra VJD, Pietra SAD, Mercer RL (1994) The mathematic of statistical machine translation. Parameter estimation. Computational Linguistics  19: 263–311.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Brown" data-cit="BrownPFPietraVJDPietraSADMercerRL1994The%20mathematic%20of%20statistical%20machine%20translation.%20Parameter%20estimation.Computational%20Linguistics19263311" data-title="The%20mathematic%20of%20statistical%20machine%20translation.%20Parameter%20estimation." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=The+mathematic+of+statistical+machine+translation.+Parameter+estimation.+Brown+1994" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref18"><span class="order">18.
+            </span><a name="pone.0014243-Koehn1" id="pone.0014243-Koehn1" class="link-target"></a>Koehn P, Hoang H, Birch A, Callison-Burch C, Federico M, et al.  (2007) Moses: Open source toolkit for statistical machine translation. ACL '07 Proceedings of the 45th Annual Meeting of the ACL on Interactive Poster and Demonstration Sessions.   <ul class="find-nolinks"></ul></li><li id="ref19"><span class="order">19.
+            </span><a name="pone.0014243-Liu1" id="pone.0014243-Liu1" class="link-target"></a>Liu B (2007) Web data mining. Berlin: Springer.   <ul class="find-nolinks"></ul></li><li id="ref20"><span class="order">20.
+            </span><a name="pone.0014243-Hirsh1" id="pone.0014243-Hirsh1" class="link-target"></a>Hirsh A, Fraser H (2001) Protein dispensability and rate of evolution. Nature  411: 1046–1048.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Hirsh" data-cit="HirshAFraserH2001Protein%20dispensability%20and%20rate%20of%20evolution.Nature41110461048" data-title="Protein%20dispensability%20and%20rate%20of%20evolution." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Protein+dispensability+and+rate+of+evolution.+Hirsh+2001" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref21"><span class="order">21.
+            </span><a name="pone.0014243-Newman1" id="pone.0014243-Newman1" class="link-target"></a>Newman MEJ (2006) Modularity and community structure in networks. Proceedings of the National Academy of Sciences  103: 8577–8582.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Newman" data-cit="NewmanMEJ2006Modularity%20and%20community%20structure%20in%20networks.Proceedings%20of%20the%20National%20Academy%20of%20Sciences10385778582" data-title="Modularity%20and%20community%20structure%20in%20networks." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Modularity+and+community+structure+in+networks.+Newman+2006" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref22"><span class="order">22.
+            </span><a name="pone.0014243-Mehler1" id="pone.0014243-Mehler1" class="link-target"></a>Mehler A, Bao Y, Li X, Wang Y, Skiena S (2006) Spatial analysis of news sources. IEEE Transactions on Visualization and Computer Graphics  12: 765–772.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Mehler" data-cit="MehlerABaoYLiXWangYSkienaS2006Spatial%20analysis%20of%20news%20sources.IEEE%20Transactions%20on%20Visualization%20and%20Computer%20Graphics12765772" data-title="Spatial%20analysis%20of%20news%20sources." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Spatial+analysis+of+news+sources.+Mehler+2006" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref23"><span class="order">23.
+            </span><a name="pone.0014243-Koehn2" id="pone.0014243-Koehn2" class="link-target"></a>Koehn P, Och FJ, Marcu D (2003) Statistical phrase-based translation. Proceedings NAACL 2003. pp. 48–54.  <ul class="find-nolinks"></ul></li><li id="ref24"><span class="order">24.
+            </span><a name="pone.0014243-Koehn3" id="pone.0014243-Koehn3" class="link-target"></a>Koehn P (2005) Europarl: A parallel corpus for statistical machine translation. Machine Translation Summit X. pp. 79–86.  <ul class="find-nolinks"></ul></li><li id="ref25"><span class="order">25.
+            </span><a name="pone.0014243-Steinberger2" id="pone.0014243-Steinberger2" class="link-target"></a>Steinberger R, Pouliquen B, Widiger A, Ignat C, Erjavec T, et al.  (2006) The JRC-Acquis: A multilingual aligned parallel corpus with 20+ languages. Proceedings of the 5th International Conference on Language Resources and Evaluation. pp. 24–26.  <ul class="find-nolinks"></ul></li><li id="ref26"><span class="order">26.
+            </span><a name="pone.0014243-Savoy1" id="pone.0014243-Savoy1" class="link-target"></a>Savoy J, Dolamic L (2009) How effective is Google's translation service in search?. Communications of the ACM  52: 139–143.  <ul class="reflinks"><li><a href="doi-org-0101.htm#" data-author="Savoy" data-cit="SavoyJDolamicL2009How%20effective%20is%20Google%27s%20translation%20service%20in%20search%3F.Communications%20of%20the%20ACM52139143" data-title="How%20effective%20is%20Google%26apos%3Bs%20translation%20service%20in%20search%3F." target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=How+effective+is+Google%26apos%3Bs+translation+service+in+search%3F.+Savoy+2009" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref27"><span class="order">27.
+            </span><a name="pone.0014243-Carlson1" id="pone.0014243-Carlson1" class="link-target"></a>Carlson WL, Thorne B (1997) Applied statistical methods: for business, economics, and the social sciences. Prentice Hall.   <ul class="find-nolinks"></ul></li></ol></div>
+
+
+
+          <div class="ref-tooltip">
+             <div class="ref_tooltip-content">
+
+             </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    </section>
+    <aside class="article-aside">
+
+
+<!--[if IE 9]>
+<style>
+.dload-xml {margin-top: 38px}
+</style>
+<![endif]-->
+<div class="dload-menu">
+  <div class="dload-pdf">
+    <a href="http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0014243&amp;type=printable"
+       id="downloadPdf" target="_blank">Download PDF</a>
+  </div>
+  <div data-js-tooltip-hover="trigger" class="dload-hover">&nbsp;
+    <ul class="dload-xml" data-js-tooltip-hover="target">
+      <li><a href="http://journals.plos.org/plosone/article/citation?id=10.1371/journal.pone.0014243"
+             id="downloadCitation">Citation</a></li>
+      <li><a href="http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0014243&amp;type=manuscript"
+             id="downloadXml">XML</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="aside-container">
+
+<div class="print-article" id="printArticle" data-js-tooltip-hover="trigger">
+
+  Print
+  <ul class="print-options" data-js-tooltip-hover="target">
+    <li>
+        <a href="doi-org-0101.htm#" onclick="window.print(); return false;" class="preventDefault" id="printBrowser" title="Print
+        Article">Print article</a>
+    </li>
+
+
+
+
+<li>
+<a title="Odyssey Press" href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&amp;page=0&amp;journal=7&amp;doi=10.1371%2Fjournal.pone.0014243&amp;volume=&amp;issue=&amp;title=The%20Structure%20of%20the%20EU%20Mediasphere&amp;author_name=Ilias%20Flaounas%2C%20Marco%20Turchi%2C%20Omar%20Ali%2C%20Nick%20Fyson%2C%20Tijl%20De%20Bie%2C%20Nick%20Mosdell%2C%20Justin%20Lewis%2C%20Nello%20Cristianini&amp;start_page=1&amp;end_page=6">EzReprint  </a>
+</li>
+
+  </ul>
+</div>
+<div class="share-article" id="shareArticle" data-js-tooltip-hover="trigger">
+  Share
+  <ul data-js-tooltip-hover="target" class="share-options" id="share-options">
+
+<li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0014243" id="shareReddit" target="_blank" title="Submit to Reddit"><img src="http://journals.plos.org/plosone/resource/img/icon.reddit.16.png" width="16" height="16" alt="Reddit">Reddit</a></li>
+
+<li><a href="https://plus.google.com/share?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0014243" id="shareGoogle" target="_blank" title="Share on Google+"><img src="http://journals.plos.org/plosone/resource/img/icon.gplus.16.png" width="16" height="16" alt="Google+">Google+</a></li>
+
+<li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0014243"  id="shareStumble" target="_blank" title="Add to StumbleUpon"><img src="http://journals.plos.org/plosone/resource/img/icon.stumble.16.png" width="16" height="16" alt="StumbleUpon">StumbleUpon</a></li>
+
+<li><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0014243&t=The Structure of the EU Mediasphere" id="shareFacebook" target="_blank" title="Share on Facebook"><img src="http://journals.plos.org/plosone/resource/img/icon.fb.16.png" width="16" height="16" alt="Facebook">Facebook</a></li>
+
+
+
+
+<li><a href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0014243&title=The Structure of the EU Mediasphere&summary=Checkout this article I found at PLOS"  id="shareLinkedIn" target="_blank" title="Add to LinkedIn"><img src="http://journals.plos.org/plosone/resource/img/icon.linkedin.16.png" width="16" height="16" alt="LinkedIn">LinkedIn</a></li>
+
+<li><a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0014243&title=The Structure of the EU Mediasphere"  id="shareCiteULike" target="_blank" title="Add to CiteULike"><img src="http://journals.plos.org/plosone/resource/img/icon.cul.16.png" width="16" height="16" alt="CiteULike">CiteULike</a></li>
+
+<li><a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0014243"  id="shareMendeley" target="_blank" title="Add to Mendeley"><img src="http://journals.plos.org/plosone/resource/img/icon.mendeley.16.png" width="16" height="16" alt="Mendeley">Mendeley</a></li>
+
+<li><a href="https://www.pubchase.com/library?add_aid=10.1371/journal.pone.0014243&source=plos"  id="sharePubChase" target="_blank" title="Add to PubChase"><img src="http://journals.plos.org/plosone/resource/img/icon.pc.16.png" width="16" height="16" alt="PubChase">PubChase</a></li>
+
+  <li><a href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0014243&text=%23PLOSONE%3A%20The Structure of the EU Mediasphere" target="_blank" title="share on Twitter" id="twitter-share-link"><img src="http://journals.plos.org/plosone/resource/img/icon.twtr.16.png" width="16" height="16" alt="Twitter">Twitter</a></li>
+
+<li><a href="http://journals.plos.org/plosone/article/email?id=10.1371/journal.pone.0014243" id="shareEmail" title="Email this article"><img src="http://journals.plos.org/plosone/resource/img/icon.email.16.png" width="16" height="16" alt="Email">Email</a></li>
+
+  </ul>
+</div></div>
+
+
+ <!-- Crossmark 2.0 widget -->
+<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+<a data-target="crossmark"><img width="150" src="http://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_BW_horizontal.svg"></a>
+<!-- End Crossmark 2.0 widget -->
+
+
+
+
+
+
+
+<div class="skyscraper-container">
+  <div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-1' style='width:160px; height:600px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-1'); });
+    </script>
+  </div>
+</div>
+
+
+
+
+<div class="subject-areas-container">
+  <h3>Subject Areas <div id="subjInfo">?</div>
+    <div id="subjInfoText">
+        <p>For more information about PLOS Subject Areas, click
+          <a href="http://journals.plos.org/plosone/s/help-using-this-site#loc-subject-areas">here</a>.</p>
+      <span class="inline-intro">We want your feedback.</span> Do these Subject Areas make sense for this article? Click the target next to the incorrect Subject Area and let us know. Thanks for your help!
+
+
+    </div>
+  </h3>
+  <ul id="subjectList">
+      <li>
+              <a class="taxo-term" title="Search for articles about Economic geography"
+                 href="http://journals.plos.org/plosone/search?filterSubjects=Economic+geography&amp;filterJournals=PLoSONE&amp;q=">Economic geography</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Economic geography"><p class="taxo-explain">Is the Subject Area <strong>"Economic geography"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about European Union"
+                 href="http://journals.plos.org/plosone/search?filterSubjects=European+Union&amp;filterJournals=PLoSONE&amp;q=">European Union</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="European Union"><p class="taxo-explain">Is the Subject Area <strong>"European Union"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Culture"
+                 href="http://journals.plos.org/plosone/search?filterSubjects=Culture&amp;filterJournals=PLoSONE&amp;q=">Culture</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Culture"><p class="taxo-explain">Is the Subject Area <strong>"Culture"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Automation"
+                 href="http://journals.plos.org/plosone/search?filterSubjects=Automation&amp;filterJournals=PLoSONE&amp;q=">Automation</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Automation"><p class="taxo-explain">Is the Subject Area <strong>"Automation"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Social sciences"
+                 href="http://journals.plos.org/plosone/search?filterSubjects=Social+sciences&amp;filterJournals=PLoSONE&amp;q=">Social sciences</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Social sciences"><p class="taxo-explain">Is the Subject Area <strong>"Social sciences"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Cultural geography"
+                 href="http://journals.plos.org/plosone/search?filterSubjects=Cultural+geography&amp;filterJournals=PLoSONE&amp;q=">Cultural geography</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Cultural geography"><p class="taxo-explain">Is the Subject Area <strong>"Cultural geography"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Chi square tests"
+                 href="http://journals.plos.org/plosone/search?filterSubjects=Chi+square+tests&amp;filterJournals=PLoSONE&amp;q=">Chi square tests</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Chi square tests"><p class="taxo-explain">Is the Subject Area <strong>"Chi square tests"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Internet"
+                 href="http://journals.plos.org/plosone/search?filterSubjects=Internet&amp;filterJournals=PLoSONE&amp;q=">Internet</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Internet"><p class="taxo-explain">Is the Subject Area <strong>"Internet"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+  </ul>
+</div>
+<div id="subjectErrors"></div>
+
+
+<div class="twitter-container">
+  <h3>Archived Tweets</h3>
+  <ul id="tweetList">
+
+  </ul>
+  <div class="load-more">Load more <span></span></div>
+  <div class="view-all"><a href="http://alm.plos.org/works/doi.org/10.1371/journal.pone.0014243?source_id=twitter">View all tweets</a>
+  </div>
+</div>
+
+<script type="text/template" id="twitterModuleItemTemplate">
+  <% _.each(items, function(item) { %>
+    <li>
+      <div class="tweet-info">
+        <a href="http://twitter.com/<%= item.user %>">
+          <span class="imgholder">
+            <img class="imgLoad" src="http://journals.plos.org/plosone/&lt;%=&#32;item.user_profile_image&#32;%&gt;">
+          </span>
+          <div class="tweetDate"><%= item.created_at %></div>
+          <div class="tweetUser">
+            <strong><%= item.user_name %></strong>
+            <span>@<%= item.user %></span>
+          </div>
+        </a>
+      </div>
+      <div class="tweetText">
+        <%= item.text %>
+      </div>
+      <div id="tweetActions">
+        <a class="tweet-reply" href="https://twitter.com/intent/tweet?in_reply_to<%= item.id %>&amp;text=@<%= item.user %>">
+          <div>&nbsp;</div> Reply
+        </a>
+        <a class="tweet-retweet" href="https://twitter.com/intent/retweet?tweet_id=<%= item.id %>">
+          <div>&nbsp;</div> Retweet
+        </a>
+        <a class="tweet-favorite" href="https://twitter.com/intent/favorite?tweet_id=<%= item.id %>">
+          <div>&nbsp;</div> Favorite
+        </a>
+      </div>
+    </li>
+  <% }); %>
+</script>
+
+    </aside>
+  </div>
+
+
+
+
+</main>
+
+<footer id="pageftr">
+  <div class="row">
+    <div class="brand-column">
+
+      <img src="http://journals.plos.org/plosone/resource/img/logo-plos-footer.png" alt="PLOS" class="logo-footer"/>
+      <p class="nav-special">
+
+&nbsp;
+<!--
+  Webapp build:  3.6.7 at 20180402 by teamcity, commit: 
+  Service build: 2.4.5 at 20180327 by teamcity, commit: 
+  Enabled dev features: []
+  -->
+      </p>
+
+<ul class="nav-aux">
+  <li><a href="https://www.plos.org/privacy-policy" id="ftr-privacy">Privacy Policy</a></li>
+  <li><a href="https://www.plos.org/terms-of-use" id="ftr-terms">Terms of Use</a></li>
+  <li><a href="https://www.plos.org/advertise/" id="ftr-advertise">Advertise</a></li>
+  <li><a href="https://www.plos.org/media-inquiries" id="ftr-media">Media Inquiries</a></li>
+</ul>
+    </div>
+    <div class="link-column">
+
+<p class="nav-special"><a href="https://www.plos.org/publications/journals/">Publications</a></p>
+
+<div class="nav">
+  <ul>
+    <li><a href="http://journals.plos.org/plosbiology/" id="ftr-bio">PLOS Biology</a></li>
+    <li><a href="http://journals.plos.org/plosmedicine/" id="ftr-med">PLOS Medicine</a></li>
+    <li><a href="http://journals.plos.org/ploscompbiol/" id="ftr-compbio">PLOS Computational Biology</a></li>
+    <li><a href="http://currents.plos.org" id="ftr-cur">PLOS Currents</a></li>
+    <li><a href="http://journals.plos.org/plosgenetics/" id="ftr-gen">PLOS Genetics</a></li>
+    <li><a href="http://journals.plos.org/plospathogens/" id="ftr-path">PLOS Pathogens</a></li>
+    <li><a href="http://journals.plos.org/plosone/" id="ftr-one">PLOS ONE</a></li>
+    <li><a href="http://journals.plos.org/plosntds/" id="ftr-ntds">PLOS Neglected Tropical Diseases</a></li>
+  </ul>
+</div>
+    </div>
+    <div class="link-column">
+
+<div class="nav nav-special">
+  <p><a href="https://www.plos.org" id="ftr-home">plos.org</a></p>
+
+  <p><a href="http://blogs.plos.org" id="ftr-blog">Blogs</a></p>
+
+  <p><a href="http://collections.plos.org" id="ftr-collections">Collections</a></p>
+
+  <p><a href="http://journals.plos.org/plosone/feedback" id="ftr-feedback">Send us feedback</a></p>
+  <p><a href="http://journals.plos.org/plosone/s/help-using-this-site"
+        id="ftr-help">Help using this site</a></p>
+  <p><a href="http://journals.plos.org/plosone/lockss-manifest" id="ftr-lockss">LOCKSS</a></p>
+
+<p class="footer-non-profit-statement">PLOS is a nonprofit 501(c)(3) corporation, #C2354500, and is based in San Francisco, California, US</p></div>    </div>
+  </div>
+
+
+</footer>
+
+
+
+
+<script type="text/javascript">
+  var ArticleData = {
+    doi: '10.1371/journal.pone.0014243',
+    title: '<article-title xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">The Structure of the EU Mediasphere<\/article-title>',
+    date: 'Dec 08, 2010'
+  };
+</script>
+
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "http://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "http://alm.plos.org/api/v5/articles";
+</script>
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "http://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "http://alm.plos.org/api/v5/articles";
+</script>
+
+
+
+
+
+
+<script type="text/javascript" async src="http://platform.twitter.com/widgets.js"></script>
+
+
+
+
+
+<!-- This file should be loaded before the renderJs, to avoid conflicts with the FigShare, that implements the MathJax also. -->
+
+<!--  mathjax configuration options  -->
+<!-- more can be found at http://docs.mathjax.org/en/latest/ -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  "HTML-CSS": {
+    scale: 100,
+    availableFonts: ["STIX","TeX"],
+    preferredFont: "STIX",
+    webFont: "STIX-Web",
+    linebreaks: { automatic: false }
+  },
+  jax: ["input/MathML", "output/HTML-CSS"]
+});
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+
+<script src="http://journals.plos.org/plosone/resource/compiled/asset_AQSZ5LBV3A6ZJVIC5GUCLDTY4Y2LWJ2W.js"></script>
+<div class="reveal-modal-bg"></div>
+</body>
+</html>

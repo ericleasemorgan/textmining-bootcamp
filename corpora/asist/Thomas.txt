@@ -1,0 +1,1229 @@
+
+Using Zombies to Teach Collaborative Scholarship 
+and Born-Digital Publishing   
+by Jamie A. Thomas
+
+A ttention: Reanimated, flesh-eating corpses are on the prowl! Billionsof dollars of the global economy have been taken over by zombies in
+movies, TV, magazines, comic books, marathons, pub crawls, video games
+and more. And from the big screen, the undead are working their way into
+real life. News reports saturated with references to zombies, cannibals and
+apocalypse provide a compelling angle from which to study the interplay of
+language and popular culture. These are areas of communication, discourse
+and media studies that invite new research and innovation in
+interdisciplinary teaching and publishing.  
+Here I share how incorporating zombies into my first-year seminar has
+
+assisted me in reaching undergraduates who have come of age with the
+television series The Walking Dead (since 2010) and films like Warm
+Bodies (2013). Working with digital humanities librarians and students at
+Swarthmore College, where I teach as a faculty member, I launched the
+web-based project [ZOMBIES REIMAGINED] in Spring 2016 to share new
+knowledge on understudied aspects of the zombie. The project is an online
+exhibition in the format of a publicly accessible website, with individual
+exhibit pages contributed by teams of student co-authors. Each exhibit
+examines representations of the undead for what they reveal about
+language, politics, society and culture. 
+In creating this project, I learned how to guide students through creative
+
+collaboration in open access publishing. I also developed a deeper
+understanding of how online exhibitions can expand the audiences for
+public scholarship and introduce students and instructors with minimal
+computing backgrounds to HTML for publishing and preparing web
+content. 
+
+Special Section
+
+NEX T  PAGE  > N EX T  A RT I C L E >< PRE V I OUS  PAGECONTENTS
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+21
+
+EDITOR’S SUMMARY
+Zombies have been sweeping across all types of media for many years, and their
+popularity continues to rise with TV shows like The Walking Dead and movies like
+Warm Bodies. The popularity of entertainment about the undead presents an
+interesting opportunity to draw parallels between the fiction of zombies and the
+reality of human politics, societies and issues. In an effort to connect this discourse
+with born-digital publishing, [ZOMBIES REIMAGINED] was created. The effort
+behind [ZOMBIES REIMAGINED] was undertaken by faculty, students and librarians
+at Swarthmore College, and it was launched in May 2016 as a public website with
+individual exhibits in the form of web pages. The web pages were authored by
+students in the author’s seminar and turned into an online experience with the help
+of Swarthmore librarians. Due to the success of the project, a large update to the
+site was launched in May 2017 with all new student authors and topics discussed..
+
+KEYWORDS
+
+web sites
+
+collaboration
+
+open access publications
+
+digital natives
+
+engagement
+
+joint authorship
+
+Jamie A. Thomas teaches in sociolinguistics, intercultural communication,
+language learning and discourses of difference and the African Diaspora at
+Swarthmore College. She's been researching zombie cultures and science fiction
+for the last three years, developing courses that introduce students to discourse
+analysis and critical examinations of the rise of zombies in popular culture. Her
+forthcoming book is titled Zombies Speak Swahili. She can be reached at
+jthomas6<at>swarthmore.edu. Twitter: @jamieisjames.
+
+A New Open Humanities
+
+mailto:jthomas6@swarthmore.edu
+
+
+Through its initial launch, the project produced such a strong outcome
+that with another opportunity to teach the seminar I led our team through a
+Spring 2017 update that extends our analysis of the zombie with a new series
+of co-authors and expands our use of web-based tools like Timeline JS. As a
+result, I have come to appreciate the digital humanities as a pathway for the
+following:
+
+� harnessing digital tools for enhanced collaboration;
+
+� making course projects translational and meaningful by connecting 
+student creators to wider audiences;
+
+� facilitating critical engagement with online communication and 
+technology; and
+
+� developing an appreciation for content development and management
+
+Predictably, Zombie Discourses Refuse to Die
+More than ever, the zombie is a great resource for teaching students how
+
+to use methods in discourse analysis to examine media representations and
+political dialogue. Where Night of the Living Dead (1968) engaged a
+visionary exploration of race and gender, the more recent The Walking
+Dead (2003 print; 2010 television) and World War Z (2006 print; 2013
+film) have critiqued humanity and globalization. These days, survivors are
+increasingly pictured fighting off starvation and cannibalism in real-life
+locations like Atlanta, London and Tokyo. Reality has itself begun to
+pattern after fiction, with zombies being invoked to describe our political
+and cultural turn of events and trends toward miscommunication and
+inhumanity. 
+A meme surfacing after the 2008 U.S. presidential debate, for example,
+
+featured an image of a calm Obama and a distressed McCain, and read,
+“Obama cool enough to just ignore zombies.” This use of discourse required
+readers to already be well informed as to what the zombie is. [1]
+A few years later, after a Floridian man was caught assaulting another
+
+man and eating on his face in 2012 (with a later, separate incident in 2016),
+it was widely suspected that the undead were making their actual debut. As
+
+news headlines sensationalized the assault as a potential zombie attack, a
+new phase of discursive engagement was begun, which thrives on a
+mirroring of reality and fiction. In fact, the Centers for Disease Control had
+to allay public concerns about a possible zombie outbreak, and several
+scientists have since come forward to explain that reanimation of the dead
+is not at all likely.
+But, like the undead themselves, zombie discourses simply refuse to die.
+
+While the Zombie Survival Guide (2003) has sold over 1.4 million copies, it
+has also become clear that the Pentagon has its own defense strategy,
+ConPlan 8888, in the event that zombies do surface. Plus, ongoing debate
+of U.S. healthcare law in 2017 has prompted descriptions of Trumpcare as
+a reanimated legislative effort that is “rising from the grave.” The more
+audiences have become familiar with the zombie narrative, the more they
+have arguably become infected by it and begun to use the concept to
+describe real-life events. 
+Zombie studies is now an emerging interdisciplinary field gathering
+
+momentum thanks to sociologists, anthropologists and scholars in media
+and literary studies. See, for example Platt [2]. However, perspectives on
+language and communication remain underrepresented in studies of the
+zombie genre, fandom and related discourse. As a sociocultural linguist, I
+saw this lacuna as an opportunity to develop a new seminar course in
+Languages of Fear, Racism and Zombies and contribute to existing
+scholarship through collaboration with my students. 
+
+Why Publish Digital Scholarship?
+Before I determined how to lead my own project, I learned more about
+
+digital humanities and the creation of online exhibitions at the March 2016
+conference of the National Council on Public History (NCPH). During a
+session entitled, “Born Digital: Engaging Diverse Audiences Through Online
+Exhibition Projects,” presenters shared how creating content designed
+exclusively for the web, or born-digital content, led to dramatic increases in
+user traffic and engagement, specifically by users ages 15 and under, and also
+50+ [3]. They also discussed how open access digital tools like Timeline JS,
+created by the Knight Lab of Northeastern University, can be used to author
+
+T H O M A S , c o n t i n u e d Special Section
+
+NEX T  PAGE  > N EX T  A RT I C L E >< TOP  O F  A RT I C L E < PRE V I OUS  PAGECONTENTS
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+22
+
+A New Open Humanities
+
+
+
+engaging and interactive presentations of textual, photographic and
+audio/visual information plotted along a clickable timeline. 
+From the National Women’s History Museum to the Digital Public
+
+Library of America, born-digital exhibitions are facilitating opportunities for
+scholars, information architects and technologists to collaborate in
+publishing materials that enhance public engagement. This shows how the
+digital humanities can democratize access to knowledge sources and
+produce information repositories and pathways that support broader efforts
+of physical museums and other institutions or synthesize and host
+underrepresented knowledge that has no previous home. These outcomes
+are consistent with wide discussion of a digital, applied, translational, open
+and public humanities – to increase public access and diverse engagement
+with new knowledge, develop humanistic and technological skills and
+advance knowledge production in and beyond research institutions (for
+example, Steven Lubar’s Public Humanities Blog post from 2014
+https://stevenlubar.net/digital-humanities/applied-translational-open-
+digital-public-new-models-for-the-humanities/).
+
+After attending the NCPH conference, I returned to campus with a basic
+idea for a born-digital exhibit. I shared with my seminar students a bit of
+what I had learned, and asked them if they would be interested in trying it
+out. My plan was to guide them to work in teams of two, and as co-authors
+they would brainstorm and carry out their own original analyses. Each mini-
+collaboration would contribute an exhibit page to the overall project,
+consisting of a written analysis (around six double-spaced pages in length)
+and an interactive timeline constructed with Timeline JS to bring together
+images, multimedia and captions to complement their research. In the end,
+the exhibition would be publicly accessible, helping to educate a wide
+audience on the significance of the zombie. The end result was a credit-
+bearing final project for the seminar, broken down into incremental
+assignments throughout our concluding weeks together. 
+In preparing students to publish their own original content, I was surprised
+
+to learn they were all unfamiliar with the concept of digital humanities and
+had no experience with creating web content. The final stages of our online
+project would require hosting on an institutional server and assistance with
+building a website to feature each of the co-authored contributions. But the
+students and I had no significant know-how in backend development or
+access to campus servers. For help, I turned to librarian technologists at my
+institution who could assist us in understanding what digital scholarship is,
+how it fits in with the digital humanities and how to use web-based tools to
+share our research with the public. 
+
+Building Online Exhibits Expands Digital Literacies
+According to the 2000-2015 Pew Research Center study, across race,
+
+class, socioeconomic status, education and urban or rural setting, at least 96
+percent of Americans ages 18-29 are using the internet
+(www.pewinternet.org/ 2015/06/26/americans-internet-access-2000-
+2015/). Students in my small undergraduate seminar came from Los
+Angeles, Shanghai and places in between and were African Americans,
+Korean Americans, White Americans and Chinese nationals. They each
+regularly used their smartphones to multitask, access online content and
+participate in social media, often sharing with me websites and online hubs
+
+T H O M A S , c o n t i n u e d Special Section
+
+NEX T  PAGE  > N EX T  A RT I C L E >< TOP  O F  A RT I C L E < PRE V I OUS  PAGECONTENTS
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+23
+
+A New Open Humanities
+
+www.pewinternet.org/2015/06/26/americans-internet-access-2000-2015/
+www.pewinternet.org/2015/06/26/americans-internet-access-2000-2015/
+https://stevenlubar.net/digital-humanities/applied-translational-open-digital-public-new-models-for-the-humanities/
+https://stevenlubar.net/digital-humanities/applied-translational-open-digital-public-new-models-for-the-humanities/
+
+
+that I had never heard of. Naturally, given their status as digital natives [4]
+[5], I assumed their digital literacy would also include some knowledge of
+Web 2.0, or familiarity with how to build websites and code content for
+blogs, wikis and other collaborative, user-centered platforms.
+As it turns out, however, undergraduates who are avid users of laptops,
+
+mobile devices and social media are not typically experienced web creators.
+As Ng observes of undergraduates taught to use the web-based tools
+VoiceThreads and Prezi:
+
+Unless taught explicitly to use other (educational) technologies, it is unlikely
+that digital natives would think about educational technologies or consider
+tinkering around creating a website or wiki unless for a purpose, for
+example to advertise for a product or for a graded academic assignment [6].
+
+Without a scaffolded learning experience, the vast majority of
+undergraduates in Ng’s study admit to not questioning how the digital
+content they consume is produced or to what end. This inexperience is
+important, because our increasingly technology-centered societies are
+demanding a critical and engaged digital literacy. Indeed, these skills are
+part of the imperative for digital humanities, which, following Wikipedia,
+concerns “investigation, analysis, synthesis and presentation of information
+in electronic form,” as well as concerns of how computing and the
+humanities inform and affect each other. 
+Pitching my project concept to Swarthmore College librarians Nabil
+
+Kashyap and Roberto Vargas over a series of conversations, I learned that
+there was a wider suite of digital tools we could draw upon. Using these
+tools, we could give students experience with handling the backend
+dimensions of web content development and management so that they could
+gain greater understanding of how such content is produced. In essence, we
+could collaboratively facilitate a pedagogical experience that would assist us
+in constructing intricate details of the project, while also giving students
+input on the appearance and structure of their contributions.
+For these reasons, I invited both of the librarians to the seminar to
+
+conduct an hour-long workshop concerning (1) how publicly accessible,
+born-digital content contributes to scholarship, (2) advantages of using open
+
+access vs. proprietary digital tools and (3) how HTML and other computer
+languages are necessary for the formatting and preparation of publishable
+and readable web content. 
+During the workshop, we introduced the following free, open access tools
+
+and helped students experiment on their computers with how to
+meaningfully navigate each: 
+
+� Timeline JS: An online tool linked to Google Spreadsheets that enables 
+the creation of an interactive, annotated timeline to support a research 
+narrative with online pictures and multimedia (Knight Lab).
+
+� Storymap JS: An online tool linked to Google Spreadsheets that 
+facilitates the creation of an interactive sequence of functioning Google 
+Maps that, along with online pictures and multimedia, help illustrate 
+geographic locations central to a research narrative (Knight Lab).  
+
+� Markdown: A simplified coding language and web-based tool for 
+conversion of non-coded text (e.g., essay content) into the HTML 
+formatted language needed for its presentation in a web-ready format.
+
+� StackEdit: An interactive, web-based cheat sheet that allows users to 
+discover and experiment with using Markdown coding language, while 
+creating their own HTML-coded document for export. StackEdit features 
+a split interface with two fields of text: the user can type in one field and 
+view the web-ready version of the text in the adjacent field, adjusting the 
+appearance of formatted text by adding Markdown code to the source text.  
+
+Stages of Collaboration and Ethical Considerations
+Through our explanation and demonstration of each of the essential
+
+digital tools for the project, the librarians and I also introduced our planned
+stages of publication, or workflow. Our chosen suite of digital tools would
+enhance my goal of engaging students in digital scholarship and publication
+and develop their capacity to communicate intricate ideas with a non-
+specialist audience. With seven students in the course, there were three
+collaborative two-person teams, and I invited the remaining student (who
+had previous experience in linguistics), to work with me to produce an
+exhibit page and publishable research article. 
+
+T H O M A S , c o n t i n u e d Special Section
+
+NEX T  PAGE  > N EX T  A RT I C L E >< TOP  O F  A RT I C L E < PRE V I OUS  PAGECONTENTS
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+24
+
+A New Open Humanities
+
+https://en.wikipedia.org/wiki/Digital_humanities
+
+
+On the last day of class in April 2016, we celebrated a soft launch of the
+exhibition with a physical poster session and on-campus reception, where
+students presented near-final versions of their research to others in our
+learning community. This event allowed students to celebrate our collective
+effort and truly see themselves as subject-matter experts and content
+creators. By May 2016, we launched the website with a successful release
+through the social media hashtag #ZombiesReimagined.
+
+Enhancements to the May 2017 Exhibition Update 
+With the opportunity to teach my zombies seminar a second time in
+
+Spring 2017, I worked again with my librarian colleagues and students to
+produce a substantial update to the exhibition. Having greater familiarity
+with the depth of digital humanities, I was able to introduce the concept
+much earlier in the semester. And
+like before, we hosted an in-class
+workshop led by the librarians. 
+As with the previous run, I also
+
+facilitated a round of in-class
+presentations for students to
+share draft versions of their co-
+authored Timelines and
+StoryMaps. These presentations
+were followed by a round of peer
+review in the classroom, where
+students exchanged drafts of their
+analytical essays and offered
+constructive feedback. Even more
+so this year, I have been overjoyed
+to see the public-facing dimensions of this project boost students’ motivation
+to thoughtfully engage analytical writing in ways they can be proud of. 
+However, this time, to support an increased class size, the librarians
+
+devised a way to have students upload the necessary coded content to
+Prose.io, a platform interface for content management and version control,
+using free Github accounts specific to each student. This cut out the
+
+Following our workshop with the librarians, the project hinged upon four
+main layers: 
+
+(1) technical and creative guidance from our librarian colleagues;
+
+(2) student research and creation of content, which I would facilitate, 
+including peer review and editing;
+
+(3) transformation of the written analysis into HTML using Markdown and 
+StackEdit, which would done by the students; and
+
+(4) synthesizing and managing content (images and text) for the “About” 
+and “Landing” pages and further communication with the librarians on 
+stylistic and other details, which was also my responsibility. 
+
+Among these other details was the issue of licensing and ownership of the
+content, attribution of contributors and acknowledgement of staff support.
+Our digital humanities project was touching upon important questions about
+how faculty and students can ethically and responsibly collaborate, in
+alignment with institutional infrastructure and support [7].  
+There was no way that a web-based project with the size and scope of the
+
+one we were creating could have succeeded without a collective effort. This
+includes the effort that I have put into facilitating student co-authorship and
+my numerous additional hours spent guiding students in how to craft cogent
+arguments. This level of effort is why I concluded that we should copyright
+the project to the seminar. We acknowledge my role as the seminar
+instructor and project manager, each student as a contributing author and
+our partners in the college’s library and digital scholarship units.
+To protect the project and communicate a clear message about our vision
+
+for public engagement, we looked to the Creative Commons, a hub for
+licensing born-digital content. We agreed upon the use of an Attribution-
+NonCommercial 4.0 International License, meaning that users are free to
+“copy and redistribute the material in any medium and format” and also to
+“remix, transform, and build upon the material.” Also important, the
+librarians, in their roles as web developers, chose to post all of the project’s
+backend development code to Github, an online repository for code creation
+and version control, where others can check it out, review it and potentially
+build upon it for future projects. 
+
+T H O M A S , c o n t i n u e d Special Section
+
+NEX T  PAGE  > N EX T  A RT I C L E >< TOP  O F  A RT I C L E < PRE V I OUS  PAGECONTENTS
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+25
+
+A New Open Humanities
+
+Swarthmore College freshmen Yash
+Kewalramani, left, and Kendre Thomas
+work on their [ZOMBIES REIMAGINED]
+project.
+
+https://creativecommons.org/licenses/by-nc/4.0/
+https://creativecommons.org/licenses/by-nc/4.0/
+
+
+middleman, so that instead of sending individual pieces of the project via
+email (coded HTML, ID numbers for content created with Timeline JS and
+StoryMap JS), students could share these in a sleek, organized format through
+an open access interface. Effectively, our new use of Prose.io comprises a
+backend sync to the web exhibition and enhances collaboration by allowing
+all stakeholders access to view (and adjust) key content for the project. 
+
+Conclusion: Publishing with the Undead is Good for You
+Now that the undead are here, it’s critical that we embrace every
+
+opportunity to learn from their cautionary tales. After all, even noted
+astrophysicist Neil Degrasse Tyson, in an appearance on Comedy Central’s
+The Daily Show, stubbornly admitted the possibility of zombies:
+
+I can’t say that somewhere in the infinite reaches of the cosmos, there isn’t a
+heavenly planet that evolved a xeno-biological lifeform capable of
+reanimating, and it feeding on the organs of the living. (www.cc.com/video-
+clips/iegury/the-daily-show-with-jon-stewart-neil-degrasse-tyson--buzzkill-
+of-science) 
+
+Even for a reasoned scientist, the zombie garners an unmistakable allure
+– a popularity that demands study. As a result of my publishing experience, I
+now consider myself a digital humanist and a bona fide zombie studies scholar.  
+Collaborating with students and colleagues on [ZOMBIES REIMAGINED]
+
+has brought both zombies and the digital humanities to life. It has been amazing
+to see students without any coding experience learn to generate HTML. And
+for some, this project was their first opportunity to genuinely scrutinize their
+writing and argumentation and view themselves as legitimate authors. One
+student shared, “I think it’s safe to say I’ll never think of zombies the same way
+again, as well as serious social issues such as racism and sexism.” Another
+student commented, “Our ideas did change as a result of working together,
+and coordinating and communicating helped us arrive at a better conclusion.” 
+Given the success of the program and the reaction of the students to
+
+collaboration and open publishing of their work, in the next phases of
+[ZOMBIES REIMAGINED] I plan to build a two-part workshop series into
+my seminar to engage theory and practice in the digital humanities and look
+forward to preparing a new generation of students for digital publishing. �
+
+T H O M A S , c o n t i n u e d Special Section
+
+NEX T  PAGE  > N EX T  A RT I C L E >< TOP  O F  A RT I C L E < PRE V I OUS  PAGECONTENTS
+
+B
+U
+
+L
+L
+
+E
+T
+
+IN
+ O
+
+F
+ T
+
+H
+E
+
+ A
+S
+
+S
+O
+
+C
+IA
+
+T
+IO
+
+N
+ F
+
+O
+R
+
+ I
+N
+
+F
+O
+
+R
+M
+
+A
+T
+
+IO
+N
+
+ S
+C
+
+IE
+N
+
+C
+E
+
+ A
+N
+
+D
+ T
+
+E
+C
+
+H
+N
+
+O
+L
+
+O
+G
+
+Y
+– 
+
+JU
+N
+
+E
+/J
+
+U
+LY
+
+ 2
+0
+
+1
+7
+
+–
+V
+
+O
+L
+
+U
+M
+
+E
+ 4
+
+3
+, 
+
+N
+U
+
+M
+B
+
+E
+R
+
+ 5
+
+26
+
+A New Open Humanities
+
+Resources Mentioned in the Article
+
+[1] McAlister, E. (2012). Slaves, cannibals, and infected hyper-whites: Race and religion of zombies. Anthropological Quarterly, 85(2), 457-486.
+
+[2] Platts, T. (2013). Locating zombies in the sociology of popular culture. Sociology Compass, 7, 547-560.
+
+[3] Abbott, F., Battle, M., & Maurer, E. (2016). Born digital: Engaging diverse audiences through online exhibition projects. Paper presented at the Conference of the National 
+Council on Public History, March 1-19, 2016. Baltimore, MD.
+
+[4] Yong, S.-T., & Gates, P. (2014). Born digital: Are they really digital natives? International Journal of e-Education, e-Business, e-Management and e-Learning, 4(2), 102-105.
+
+[5] Helsper, E., & Eynon, R. (2009). Digital natives: Where is the evidence? British Educational Research Journal, 36(3), 503-520.
+
+[6] Ng, W. (2012). Can we teach digital natives digital literacy? Computers & Education, 59, 1065-1078.
+
+[7] Poole, A. (2017). The conceptual ecology of the digital humanities. Journal of Documentation, 73(1), 91-122.
+
+www.cc.com/video-clips/iegury/the-daily-show-with-jon-stewart-neil-degrasse-tyson--buzzkill-of-science
+www.cc.com/video-clips/iegury/the-daily-show-with-jon-stewart-neil-degrasse-tyson--buzzkill-of-science
+www.cc.com/video-clips/iegury/the-daily-show-with-jon-stewart-neil-degrasse-tyson--buzzkill-of-science
+
+	Button6: 
+	Button5: 
+
+

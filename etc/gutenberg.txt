@@ -1,0 +1,6 @@
+bronte-shirley.txt	http://www.gutenberg.org/files/30486/30486-0.txt
+bronte-professor.txt	http://www.gutenberg.org/files/1028/1028-0.txt
+bronte-wuthering.txt	http://www.gutenberg.org/cache/epub/768/pg768.txt
+austen-northanger.txt	http://www.gutenberg.org/files/121/121-0.txt
+austen-pride.txt	http://www.gutenberg.org/cache/epub/42671/pg42671.txt
+austen-sense.txt	http://www.gutenberg.org/cache/epub/21839/pg21839.txt

@@ -1,0 +1,41 @@
+
+Please accept the following as an ELAG 2018 bootcamp proposal, and I hope the description is not too long.
+
+       Title: Text mining: Beyond the basics
+        Name: Eric Lease Morgan
+   Time slot: 1/2 day (3 hour)
+    Audience: librarians, programmers, and/or researchers of any type
+   Expertise: strong familiarity with the use of a text editor
+    Required: Interent connection; fully-functional text editor like
+              NotePad++ or Text Wrangler; local Java installation and 
+              familiarity with the command line are both desirable
+              but not necessary
+ Programming: no programming experience is necessary, but some
+              knowledge of regular expressions is helpful
+
+Using freely available tools, it is possible to go beyond basic text mining, and instead, begin to read corpora at "scale". This bootcamp teaches how. At the end, participants will be able to:
+
+ * identify patterns, anomalies, and trends in a corpus
+ * practice both "distant" and "scalable" reading
+ * enhance & complement their ability to do "close" reading
+ * use & understand any corpus of poetry or prose
+
+Activities in the bootcamp include:
+
+ * learning what text mining is, and why one should care
+ * creating a corpus
+ * creating a plain text version of a corpus
+ * creating simple word lists with a text editor
+ * creating advanced word lists with other tools
+ * cleaning & analyzing a corpus with OpenRefine
+ * charting & graphing a corpus with Tableau Public
+ * extracting parts-of-speech
+ * extracting named entities
+ * identifying topics and themes
+ * using a concordance to intelligently "read" a corpus
+
+Anybody with sets of texts can benefit from this bootcamp. Any corpus of textual content is apropos: journal articles, books, the complete run of a magazine, blog postings, Tweets, press releases, conference proceedings, websites, poetry, etc. This bootcamp is operating system agnostic. All the software used in this workshop is freely available on the 'Net, or it is already installed on one's computer. Active participation requires zero programming, but students must bring their own computer, and they must know how to use a text editor such as NotePad++ or TextWrangler. WordPad nor TextEdit are sufficient.
+
+--
+Eric Lease Morgan
+Winter 2018

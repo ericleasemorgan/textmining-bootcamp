@@ -1,0 +1,10 @@
+aristotle-animals.pdf	https://archive.org/download/aristotleshistor00arisrich/aristotleshistor00arisrich.pdf
+aristotle-metaphysics.pdf	https://archive.org/download/metaphysicsaris00arisgoog/metaphysicsaris00arisgoog.pdf
+aristotle-poetics.pdf	https://archive.org/download/poeticsaristotl01butcgoog/poeticsaristotl01butcgoog.pdf
+aristotle-politics.pdf	https://archive.org/download/poeticsaristotl01butcgoog/poeticsaristotl01butcgoog.pdf
+homer-illiad.pdf	https://archive.org/download/iliad01homegoog/iliad01homegoog.pdf
+homer-odyssey.pdf	https://archive.org/download/odysseyhomer12homegoog/odysseyhomer12homegoog.pdf
+plato-apology.pdf	https://archive.org/download/Apology-Socrates/Apology.pdf
+plato-parmenides.pdf	https://archive.org/download/cu31924026679393/cu31924026679393.pdf
+plato-republic.pdf	https://archive.org/download/platosrepublicgr00plat/platosrepublicgr00plat.pdf
+plato-symposium.pdf	https://archive.org/download/PlatosSymposium/Plato-Symposiumbenardete.pdf

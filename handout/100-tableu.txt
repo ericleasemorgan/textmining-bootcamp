@@ -1,3 +1,0 @@
-Charting & graphing word lists with Tableau Public
-==================================================
-

@@ -4,9 +4,9 @@ Charting & graphing with Tableau Public
 
 They say, "A picture is worth a thousand words", and through use of something like Tableau this can become a reality in text mining. 
 
-After extracting features from a text, you will have almost invariably created lists. Each of the items on the lists will be characterized with bits of context thus transforing the raw data into information. These lists will probably take the shape of matrices (sets of rows & columns), but other data structures exist as well, such as networked graphs. Once the data has been transformed into information, you will want to make sense of the information. Charting & graphing the data is one way to make that happen.
+After extracting features from a text, you will have almost invariably created lists. Each of the items on the lists will be characterized with bits of context thus transforing the raw data into information. These lists will probably take the shape of matrices (sets of rows & columns), but other data structures exist as well, such as networked graphs. Once the data has been transformed into information, you will want to make sense of the information -- turn the information into knowledge. Charting & graphing the data is one way to make that happen.
 
-For example, the reader may have associated each word in a text with a part-of-speech, and then this association was done across a corpus. The reader might then ask, "To what degree are words associated with each part-of-speech similar or different across the corpus? Do different items include similar or different personal pronouns, and therefore, are some documents more male, more female, or more gener neutral?" Alternatively, suppose the named entities have been extracted from items in a corpus, then the reader may want to know, what countries, states, and/or cities are mentioned in the text/corpus, and to what degree? Are these texts 'European' in scope?"
+For example, the reader may have associated each word in a text with a part-of-speech, and then this association was applied across a corpus. The reader might then ask, "To what degree are words associated with each part-of-speech similar or different across items in the corpus? Do different items include similar or different personal pronouns, and therefore, are some documents more male, more female, or more gender neutral?" Alternatively, suppose the named entities have been extracted from items in a corpus, then the reader may want to know, "What countries, states, and/or cities are mentioned in the text/corpus, and to what degree? Are these texts 'European' in scope?"
 
 A charting & graphing application like Tableau (or Tableau Public) can address these questions. [1] The first can be answered by enabling the reader to select one more more items from a corpus, select one or more parts-of-speech, counting & tabulating the intersected words, and displaying the result as a word cloud. The second question can be addressed similarly. Allow the reader to select items from a corpus, extract the names of places (countries, states, and cities), and plot the geographic coordinates on a global map. Once these visualizations are complete, they can be saved on the Web for others to use, for example:
 
@@ -14,6 +14,20 @@ A charting & graphing application like Tableau (or Tableau Public) can address t
   * world map - https://tabsoft.co/2FJ6g83
 
 Creating visualizations with Tableau (or Tableau Public) takes practice. Not only does the reader need to have structured data in hand, but one needs to be patient in the learning of the interface. To the author's mind, the whole thing is reminiscent of the venerable HyperCard program from the 1980's where one was presented with a number of "cards", and programming interfaces were created by placing "objects" on them.
+
+INSERT USER INTERFAC HERE
+
+This workshop comes with two previously created Tableau workbooks located in the etc directory (word-clouds.twbx and maps.twbx). Describing the process to create them is beyond the scope of this workshop, but an outline follows:
+
+  1. amass sets of data, like parts-of-speech or named entities
+  2. import the data into Tableau
+  3. in the case of the named entities, convert the data to "Geographic Roles"
+  4. drag data elements to the Marks, Rows, or Columns cards
+  5. make liberal use of the Show Me feature
+  6. drag data elements to the Filters card
+  7. observe the visualizations and turn your information into knowledge
+  
+Tableau is not really intended to be used against textual data/information; Tableau is more useful and more functional when applied to tabular numeric data. After all, the program is called... Tableau. This does not mean Tableau can not be exploited by the text miner. It just means it requires practice and an ability to articulate a question to be answered with the help of a visualization.
 
 [1] Tableau Public - https://public.tableau.com/
 

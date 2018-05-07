@@ -1,4 +1,76 @@
 type	entity
+LOCATION	Michigan
+PERSON	Wagner
+ORGANIZATION	DIA
+LOCATION	Detroit
+ORGANIZATION	6pm RT
+ORGANIZATION	Power of Costume Ma
+LOCATION	Detroit
+ORGANIZATION	DIA
+PERSON	Don
+ORGANIZATION	81st Detroit Public S RT
+ORGANIZATION	yVvOw7WlAi Cass Technical High School
+PERSON	Kaleigh Blevins
+PERSON	Kaleigh
+ORGANIZATION	DIA
+ORGANIZATION	Teen Council
+ORGANIZATION	DIA
+ORGANIZATION	DIA
+ORGANIZATION	Detroit Institute
+ORGANIZATION	DIA
+PERSON	Tyree Guy
+ORGANIZATION	DIA
+ORGANIZATION	Asian Pacific American Heritage Month
+ORGANIZATION	Ins RT
+ORGANIZATION	Detroit Film Theatre
+LOCATION	Wayne Oakland
+LOCATION	Macomb
+LOCATION	Detroit
+ORGANIZATION	DIADetroit Including Mariska Hargitay PAKy RT
+ORGANIZATION	DIA
+ORGANIZATION	Detroit Public Schools Community District S
+PERSON	Per Benjamin
+ORGANIZATION	Elizabeth Sites Kuhlman
+ORGANIZATION	Detroit Industry
+ORGANIZATION	Westland
+PERSON	Prince
+LOCATION	Detroit
+PERSON	CarrieMaeWeems
+ORGANIZATION	Independent Sector Organization
+PERSON	SalvadorSalort Pons
+PERSON	Gene Gargaro
+PERSON	Tak Omitsu
+PERSON	TaylorRAldridge
+PERSON	Odilon Redon
+ORGANIZATION	DIA
+PERSON	Wayne Oakland
+LOCATION	Macomb
+LOCATION	Detroit
+LOCATION	Motor City
+ORGANIZATION	VisitDetroit Tigers
+PERSON	Don
+LOCATION	Palmer Park
+LOCATION	Detroit
+PERSON	BarkleyHendricks
+ORGANIZATION	Power of Costume
+ORGANIZATION	NEH
+PERSON	JonPeede
+ORGANIZATION	NEH
+PERSON	Al Kaline
+LOCATION	Detroit
+LOCATION	Village Club of Bloomfield Hills
+LOCATION	Hollywood
+PERSON	Wayne Kramer
+LOCATION	Detroit
+PERSON	Dennis Coffey Robert Bra
+ORGANIZATION	Metro Detroit Oscar
+PERSON	Sue Marx
+ORGANIZATION	OaklandCounty
+ORGANIZATION	DIA
+PERSON	Jane Ham
+PERSON	Diego Rivera
+PERSON	Bernard G Silberstein
+LOCATION	Detroit
 LOCATION	Prentis Court The DIA
 PERSON	Alise Alousi
 ORGANIZATION	InsideOutDET Sakila Islam
@@ -514,7 +586,6 @@ ORGANIZATION	FIA
 ORGANIZATION	FIA
 ORGANIZATION	BgzHTex RT
 ORGANIZATION	William Davidson Foundation
-LOCATION	Detroit
 LOCATION	Detroit
 LOCATION	Michigan Central Train Station
 PERSON	Bruegel
@@ -1221,7 +1292,8 @@ PERSON	Tim Meadows
 LOCATION	Detroit
 ORGANIZATION	Powe RT
 ORGANIZATION	Art of Food for Festivals
-PERSON	Padma Vattikuti Dr Celeste Watkins Hayes John D Lewis
+PERSON	Padma Vattikuti
+PERSON	Celeste Watkins Hayes John D Lewis
 PERSON	Tony Saunders
 ORGANIZATION	DIA
 ORGANIZATION	Detroit Museum Exhibit Looks At Food Sculptures Monuments DIADetroit
@@ -1241,6 +1313,7 @@ PERSON	Handel
 PERSON	Mark Benson
 ORGANIZATION	Research Institute
 PERSON	Diego Rivera
+ORGANIZATION	MI Artists Commissions for MI Artists
 PERSON	Fredericks
 PERSON	George Faison
 ORGANIZATION	DIA
@@ -1361,6 +1434,7 @@ PERSON	Bill Rauhauser
 LOCATION	Smiley
 PERSON	Horst
 ORGANIZATION	DIA
+ORGANIZATION	City Sleeps Detroit Photography
 ORGANIZATION	dSbu DIA
 PERSON	Kerry James Marshall
 PERSON	Elliot Wilhelm
@@ -1650,7 +1724,7 @@ ORGANIZATION	Skype
 ORGANIZATION	Prentis Court
 ORGANIZATION	Correct RT
 LOCATION	Plymouth
-LOCATION	George Washington
+PERSON	George Washington
 PERSON	Rembrandt Peale
 PERSON	John Singleton Copley
 LOCATION	Detroit
@@ -1673,11 +1747,8 @@ PERSON	Osborn
 ORGANIZATION	DIA amp amp Osborn Neighborhood Alliance
 PERSON	Tony Smith
 PERSON	Sam Wagstaff
-LOCATION	Grand Hotel
-LOCATION	Mackinac Island
 LOCATION	Hamtramck
 PERSON	Nii Quarcoopome ImmigrantHeritageMonth
-LOCATION	Mackinac Island
 PERSON	SalvadorSalort Pons
 LOCATION	Hamtramck
 ORGANIZATION	Detroit Institute of Arts DIADetroit
@@ -1792,9 +1863,6 @@ LOCATION	Detroit
 LOCATION	Detroit
 ORGANIZATION	DIA
 ORGANIZATION	DIA
-PERSON	Brian Hunter
-LOCATION	Detroit Dearborn
-PERSON	Ann Arbor
 LOCATION	Michigan
 LOCATION	US
 ORGANIZATION	DIA Shop
@@ -1946,7 +2014,7 @@ PERSON	Graham Beal
 ORGANIZATION	Batman
 ORGANIZATION	Superman
 ORGANIZATION	Ford Resource
-ORGANIZATION	Directo RT
+ORGANIZATION	mi Directo RT
 ORGANIZATION	Ford Resource amp
 ORGANIZATION	DIA
 PERSON	Yayoi Kusama
@@ -2096,7 +2164,6 @@ ORGANIZATION	Costa Mesa CA
 LOCATION	Spain
 PERSON	Nii Quarcoopome
 LOCATION	Ghana
-LOCATION	Michigan
 PERSON	Eleonora
 ORGANIZATION	Bronzino
 ORGANIZATION	NBA
@@ -2199,7 +2266,6 @@ LOCATION	Midtown
 LOCATION	Santa
 PERSON	Birney
 LOCATION	Russia
-ORGANIZATION	Hermitage Museum
 PERSON	SalvadorSalort
 PERSON	Georges Seurat
 PERSON	Noel Night
@@ -2435,57 +2501,7 @@ PERSON	Rick Darke
 ORGANIZATION	DIA
 ORGANIZATION	DIA
 LOCATION	Ancient Middle East
-LOCATION	Middle East
-ORGANIZATION	Detroit RT AdvantageOak College Night
+ORGANIZATION	Lt1IExWT RT AdvantageOak College Night
 LOCATION	Ancient Middle East Gallery
 PERSON	Geoff Emberling
 LOCATION	Middle East
-PERSON	St Jerome
-LOCATION	America
-PERSON	Jerome
-PERSON	Jan van Eyck
-LOCATION	Periscope Ancient Middle East
-PERSON	Geoff Emberling
-LOCATION	Ancient Middle East Gallery
-LOCATION	Ancient Middle East Gallery
-LOCATION	Macomb County
-ORGANIZATION	Network Detroit First
-ORGANIZATION	DIA
-PERSON	Michael Maltzan
-PERSON	Tony Smith
-PERSON	Gracehoper
-ORGANIZATION	DIA
-LOCATION	Detroit Riverwalk
-LOCATION	Detroit
-PERSON	Michael Maltzan
-LOCATION	Detroit
-ORGANIZATION	DIA
-ORGANIZATION	TimeOutNewYork
-LOCATION	America
-PERSON	Karolina Cicha
-ORGANIZATION	Bathtub Pirates
-PERSON	Artie
-PERSON	Irving Penn Frederick Sommer Barbara Crane
-PERSON	Kenro Izu
-PERSON	AskACurator MichaelDooney
-PERSON	Robert Frank
-LOCATION	Detroit
-ORGANIZATION	DIA
-PERSON	Salvador Salort Pons
-PERSON	Graham W J Beal
-PERSON	Nancy Barr DIA
-PERSON	Yao Fen
-PERSON	Salvador Salort Pons
-PERSON	Graham W J Beal
-ORGANIZATION	DIA
-PERSON	DonGonyea
-PERSON	Rivera
-PERSON	Salvador Salort Pons
-ORGANIZATION	DIA
-ORGANIZATION	Donations Technology Budget
-ORGANIZATION	TMRW DIA
-PERSON	Yao Fen
-PERSON	Nancy Barr
-PERSON	Yao Fen You
-PERSON	Nancy Barr
-PERSON	Lichtenstein

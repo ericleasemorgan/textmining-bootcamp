@@ -2,9 +2,6 @@ type	entity
 LOCATION	Leipzig Frankfurt
 PERSON	Meine Auswahl Hilfe Datenshop Mein Konto Ablieferung von Netzpublikationen Informationsvermittlung
 ORGANIZATION	Deutsche Nationalbibliothek
-ORGANIZATION	Wikipedia
-PERSON	Verf gung Wir
-PERSON	Entschuldigung Helfen Sie
 PERSON	Dabei
 PERSON	Teilen Sie
 PERSON	Senden Sie
@@ -13,12 +10,14 @@ ORGANIZATION	Sachbegriff Digital Humanities Quelle Wikipedia Erl
 PERSON	Fach
 PERSON	Anwendung
 LOCATION	Kulturwissenschaften
+ORGANIZATION	Synonyme Digitale Geisteswissenschaften Digitale Kulturwissenschaften Computerphilologie Oberbegriffe Geisteswissenschaften Kulturwissenschaften
 ORGANIZATION	Wissenschaft
 LOCATION	Erlangen
-ORGANIZATION	Auflage Basiswissen Digital Humanities Ressel Andrea
+ORGANIZATION	Auflage Studiolo Berlin De Gruyter
 PERSON	Publikationen Kritik
 ORGANIZATION	Vernunft Abstracts zur Jahrestagung des Verbandes Digital Humanities
 PERSON	Raum
+ORGANIZATION	Universit
 ORGANIZATION	Cologne Center for eHumanities CCeH K ln Universit
 PERSON	Automatische Erkennung von Figuren
 ORGANIZATION	Quelle

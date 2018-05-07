@@ -1,4 +1,4 @@
-<pos><sentence id="525">
+<pos><sentence id="528">
   <word wid="0" pos="NNP" lemma="digital">digital</word>
   <word wid="1" pos="NNS" lemma="humanities">humanities</word>
   <word wid="2" pos="NN" lemma="q1026962">Q1026962</word>
@@ -255,7 +255,7 @@
   <word wid="253" pos="NNP" lemma="Q1026962">Q1026962</word>
   <word wid="254" pos="NN" lemma="amp">amp</word>
   <word wid="255" pos="NN" lemma="oldid">oldid</word>
-  <word wid="256" pos="CD" lemma="656004725">656004725</word>
+  <word wid="256" pos="CD" lemma="675304853">675304853</word>
   <word wid="257" pos="NNP" lemma="Navigation">Navigation</word>
   <word wid="258" pos="NN" lemma="menu">menu</word>
   <word wid="259" pos="JJ" lemma="personal">Personal</word>
@@ -328,12 +328,12 @@
   <word wid="326" pos="JJ" lemma="last">last</word>
   <word wid="327" pos="VBN" lemma="edit">edited</word>
   <word wid="328" pos="IN" lemma="on">on</word>
-  <word wid="329" pos="CD" lemma="24">24</word>
-  <word wid="330" pos="NNP" lemma="March">March</word>
+  <word wid="329" pos="CD" lemma="7">7</word>
+  <word wid="330" pos="MD" lemma="may">May</word>
   <word wid="331" pos="CD" lemma="2018">2018</word>
   <word wid="332" pos="IN" lemma="at">at</word>
-  <word wid="333" pos="CD" lemma="17">17</word>
-  <word wid="334" pos="NN" lemma="04">04</word>
+  <word wid="333" pos="CD" lemma="07">07</word>
+  <word wid="334" pos="CD" lemma="57">57</word>
   <word wid="335" pos="DT" lemma="all">All</word>
   <word wid="336" pos="VBN" lemma="structure">structured</word>
   <word wid="337" pos="NNS" lemma="datum">data</word>

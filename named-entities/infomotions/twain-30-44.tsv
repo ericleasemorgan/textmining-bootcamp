@@ -867,6 +867,7 @@ PERSON	James Whitcomb Riley
 PERSON	Artemus Ward
 LOCATION	New Zealand
 PERSON	Den
+LOCATION	WASHINGTON
 LOCATION	Washington
 PERSON	George After
 ORGANIZATION	Boston GAZETTE
@@ -916,7 +917,7 @@ LOCATION	America
 LOCATION	Washington
 LOCATION	Arkansas
 LOCATION	Washington
-ORGANIZATION	General Washington
+PERSON	Washington
 PERSON	Ephraim
 LOCATION	India
 LOCATION	Jerico
@@ -1011,6 +1012,7 @@ LOCATION	New York
 LOCATION	Cincinnati
 LOCATION	Riverdale
 LOCATION	Hudson
+LOCATION	WASHINGTON
 LOCATION	Riverdale
 PERSON	Mark Twain
 LOCATION	New York City

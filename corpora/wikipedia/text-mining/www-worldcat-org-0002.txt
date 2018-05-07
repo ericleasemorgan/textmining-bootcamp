@@ -324,13 +324,13 @@ Your Web browser is not enabled for JavaScript. Some features of WorldCat will n
                         [image: &AllPage.SpinnerRetrieving;]
 
                        I thought you might be interested in this item at
-http://www.worldcat.org/oclc/978034330
+http://www.worldcat.org/oclc/715964477
 
-Title:  Proceedings.
-Publisher:  Washington. 
+Title:  Proceedings of the National Academy of Sciences of the United States of America : PNAS.
+Publisher:  Baltimore Md. ; [Puis] Washington D.C. : National Academy of Sciences of the United States of America, 1915-
 
-ISBN/ISSN: 0027-8424
-OCLC:978034330
+ISBN/ISSN: 0273-1134, 0027-8424
+OCLC:715964477
                        
 
 
@@ -491,11 +491,10 @@ OCLC:978034330
 
 
 
-
  
 	
 
-     [image: Proceedings.]
+     [image: Proceedings of the National Academy of Sciences of the United States of America : PNAS.]
 
                 
 			Preview this item
@@ -520,33 +519,14 @@ OCLC:978034330
 
 
 
-        
-            Nearby libraries
+		Proceedings of the National Academy of Sciences of the United States of America : PNAS.
 
 
-        
-
-        Checking...
-
-    
-
-
-    Find more libraries
-    Librarian?
-    Claim your library
-    to
-
-
-
-		Proceedings.
-
-
-			Author:	National Academy of Sciences (U.S.)
-	Publisher:	Washington.
+			Author:	National Academy of Sciences (USA)
+	Publisher:	Baltimore Md. ; [Puis] Washington D.C. : National Academy of Sciences of the United States of America, 1915-
 	Edition/Format:	
                         
-                        [image:  ] Journal, magazine : EnglishView all editions and formats
-                                
+                        [image:  ] Journal, magazine : Periodical : English
 					
 	Rating:	
                         (not yet rated)
@@ -557,8 +537,15 @@ OCLC:978034330
 					
 	Subjects	
                     	
-                                Science -- Societies, etc.
+                                biologie -- périodique.
                             
+	
+                                physique -- périodique.
+                            
+	
+                                biologie -- [périodique]
+                            
+	View all subjects
 
 
                 
@@ -715,15 +702,21 @@ OCLC:978034330
 
   
 
-    	Document Type:	Journal / Magazine / Newspaper
+    	Genre/Form:	Periodicals
+périodique
+[périodique]
+	Additional Physical Format:	Proceedings of the National Academy of Sciences of the United States of America
+[Ressource électronique] : PNAS
+	Material Type:	Periodical
+	Document Type:	Journal / Magazine / Newspaper
 	All Authors / Contributors:	
-	    National Academy of Sciences (U.S.)
-	ISSN:	0027-8424
-	OCLC Number:	978034330
-	Notes:	This series of Proceedings is independent of the earlier one of the same title, published in 3 parts, 1877-95.
-Title appears as: Proceedings of the National Academy of Sciences of the United States of America.
-	Description:	volumes : illustrations
-	Other Titles:	Proceedings of the National Academy of Sciences of the United States of America
+	    National Academy of Sciences (USA)
+	ISSN:	0273-1134, 0027-8424
+	OCLC Number:	715964477
+	Notes:	Du vol. 77(1980) au vol. 81(1984), les fascicules paraissent alternativement sans mention de section, et avec mention de 'Biological sciences' (0273-1134) ou de 'Physical sciences'
+Variante du titre: PNAS.
+	Description:	28 cm
+	Other Titles:	PNAS
 
 
 
@@ -796,7 +789,7 @@ Title appears as: Proceedings of the National Academy of Sciences of the United 
 		
             
             
-                    Add tags for "Proceedings.".
+                    Add tags for "Proceedings of the National Academy of Sciences of the United States of America : PNAS.".
                     Be the first.
 
             
@@ -813,10 +806,22 @@ Title appears as: Proceedings of the National Academy of Sciences of the United 
 
 		
 
-			Related Subjects:(1)
+			Related Subjects:(5)
 
 					
-							Science -- Societies, etc.
+							biologie -- périodique.
+						
+	
+							physique -- périodique.
+						
+	
+							biologie -- [périodique]
+						
+	
+							physique -- [périodique]
+						
+	
+							Science.
 						
 
 
@@ -878,86 +883,297 @@ Title appears as: Proceedings of the National Academy of Sciences of the United 
 
             
 
-			Primary Entity
-http://www.worldcat.org/oclc/978034330> # Proceedings.
-    a schema:Periodical, schema:CreativeWork ;
-   library:oclcnum "978034330" ;
-   library:placeOfPublication http://id.loc.gov/vocabulary/countries/dcu> ;
-   library:placeOfPublication http://experiment.worldcat.org/entity/work/data/3372114092#Place/washington> ; # Washington.
-   schema:about http://experiment.worldcat.org/entity/work/data/3372114092#Topic/science_societies_etc> ; # Science--Societies, etc
-   schema:alternateName "Proceedings of the National Academy of Sciences of the United States of America" ;
-   schema:creator http://experiment.worldcat.org/entity/work/data/3372114092#Organization/national_academy_of_sciences_u_s> ; # National Academy of Sciences (U.S.)
-   schema:datePublished "1915/9999" ;
-   schema:exampleOfWork http://worldcat.org/entity/work/id/3372114092> ;
-   schema:inLanguage "en" ;
-   schema:name "Proceedings."@en ;
-   schema:productID "978034330" ;
-   schema:publication http://www.worldcat.org/title/-/oclc/978034330#PublicationEvent/washington> ;
-   schema:workExample http://worldcat.org/issn/0027-8424> ; # Proceedings.
-   wdrs:describedby http://www.worldcat.org/title/-/oclc/978034330> ;
+			
+
+Primary Entity
+
+http://www.worldcat.org/oclc/715964477> # Proceedings of the National Academy of Sciences of the United States of America : PNAS.
+
+    a 
+schema:Periodical, schema:CreativeWork ;
+   
+library:oclcnum "715964477" ;
+   
+library:placeOfPublication http://experiment.worldcat.org/entity/work/data/4920457820#Place/puis_washington_d_c> ; # Puis Washington D.C.
+
+   
+library:placeOfPublication http://experiment.worldcat.org/entity/work/data/4920457820#Place/baltimore_md> ; # Baltimore Md.
+
+   
+library:placeOfPublication http://id.loc.gov/vocabulary/countries/xxu> ;
+   
+schema:about http://experiment.worldcat.org/entity/work/data/4920457820#Topic/science> ; # Science
+
+   
+schema:about http://experiment.worldcat.org/entity/work/data/4920457820#Topic/physique> ; # physique
+
+   
+schema:about http://experiment.worldcat.org/entity/work/data/4920457820#Topic/biologie> ; # biologie
+
+   
+schema:alternateName "PNAS" ;
+   
+schema:contributor http://viaf.org/viaf/128058762> ; # National Academy of Sciences (USA)
+
+   
+schema:datePublished "1915/9999" ;
+   
+schema:datePublished "1915/" ;
+   
+schema:exampleOfWork http://worldcat.org/entity/work/id/4920457820> ;
+   
+schema:genre "Periodicals" ;
+   
+schema:inLanguage "en" ;
+   
+schema:isSimilarTo http://worldcat.org/entity/work/data/4920457820#CreativeWork/proceedings_of_the_national_academy_of_sciences_of_the_united_states_of_america> ;
+   
+schema:name "Proceedings of the National Academy of Sciences of the United States of America : PNAS." ;
+   
+schema:productID "715964477" ;
+   
+schema:publication http://www.worldcat.org/title/-/oclc/715964477#PublicationEvent/baltimore_md_puis_washington_d_c_national_academy_of_sciences_of_the_united_states_of_america_1915> ;
+   
+schema:publisher http://experiment.worldcat.org/entity/work/data/4920457820#Agent/national_academy_of_sciences_of_the_united_states_of_america> ; # National Academy of Sciences of the United States of America
+
+   
+schema:workExample http://worldcat.org/issn/0273-1134> ; # Proceedings of the National Academy of Sciences of the United States of America : PNAS.
+
+   
+schema:workExample http://worldcat.org/issn/0027-8424> ; # Proceedings of the National Academy of Sciences of the United States of America : PNAS.
+
+   
+wdrs:describedby http://www.worldcat.org/title/-/oclc/715964477> ;
     .
+
+
+
+
+
 
 
 
 Related Entities
-http://experiment.worldcat.org/entity/work/data/3372114092#Organization/national_academy_of_sciences_u_s> # National Academy of Sciences (U.S.)
-    a schema:Organization ;
-   schema:name "National Academy of Sciences (U.S.)" ;
+
+http://experiment.worldcat.org/entity/work/data/4920457820#Agent/national_academy_of_sciences_of_the_united_states_of_america> # National Academy of Sciences of the United States of America
+
+    a 
+bgn:Agent ;
+   
+schema:name "National Academy of Sciences of the United States of America" ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/3372114092#Place/washington> # Washington.
-    a schema:Place ;
-   schema:name "Washington." ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4920457820#Place/baltimore_md> # Baltimore Md.
+
+    a 
+schema:Place ;
+   
+schema:name "Baltimore Md." ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/3372114092#Topic/science_societies_etc> # Science--Societies, etc
-    a schema:Intangible ;
-   schema:name "Science--Societies, etc"@en ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4920457820#Place/puis_washington_d_c> # Puis Washington D.C.
+
+    a 
+schema:Place ;
+   
+schema:name "Puis Washington D.C." ;
     .
 
 
-http://id.loc.gov/vocabulary/countries/dcu>
-    a schema:Place ;
-   dcterms:identifier "dcu" ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4920457820#Topic/biologie> # biologie
+
+    a 
+schema:Intangible ;
+   
+schema:name "biologie" ;
     .
 
 
-http://worldcat.org/entity/work/id/3372114092>
-   umbel:isLike http://worldcat.org/issn/0027-8424> ; # Proceedings.
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4920457820#Topic/physique> # physique
+
+    a 
+schema:Intangible ;
+   
+schema:name "physique" ;
     .
 
 
-http://worldcat.org/issn/0027-8424> # Proceedings.
-    a schema:Periodical ;
-   schema:issn "0027-8424" ;
-   schema:name "Proceedings."@en ;
-   umbel:isLike http://worldcat.org/entity/work/id/3372114092> ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4920457820#Topic/science> # Science
+
+    a 
+schema:Intangible ;
+   
+schema:name "Science" ;
     .
 
 
-http://www.worldcat.org/title/-/oclc/978034330>
-    a genont:InformationResource, genont:ContentTypeGenericResource ;
-   schema:about http://www.worldcat.org/oclc/978034330> ; # Proceedings.
-   schema:dateModified "2018-03-09" ;
-   void:inDataset http://purl.oclc.org/dataset/WorldCat> ;
+
+
+
+
+http://id.loc.gov/vocabulary/countries/xxu>
+    a 
+schema:Place ;
+   
+dcterms:identifier "xxu" ;
     .
 
 
-http://www.worldcat.org/title/-/oclc/978034330#PublicationEvent/washington>
-    a schema:PublicationEvent ;
-   schema:location http://experiment.worldcat.org/entity/work/data/3372114092#Place/washington> ; # Washington.
+
+
+
+
+http://viaf.org/viaf/128058762> # National Academy of Sciences (USA)
+
+    a 
+schema:Organization ;
+   
+schema:name "National Academy of Sciences (USA)" ;
     .
+
+
+
+
+
+
+http://worldcat.org/entity/work/data/4920457820#CreativeWork/proceedings_of_the_national_academy_of_sciences_of_the_united_states_of_america>
+    a 
+schema:CreativeWork ;
+   
+rdfs:label "Proceedings of the National Academy of Sciences of the United States of America" ;
+   
+schema:isSimilarTo http://www.worldcat.org/oclc/715964477> ; # Proceedings of the National Academy of Sciences of the United States of America : PNAS.
+
+    .
+
+
+
+
+
+
+http://worldcat.org/entity/work/id/4920457820>
+   
+umbel:isLike http://worldcat.org/issn/0273-1134> ; # Proceedings of the National Academy of Sciences of the United States of America : PNAS.
+
+   
+umbel:isLike http://worldcat.org/issn/0027-8424> ; # Proceedings of the National Academy of Sciences of the United States of America : PNAS.
+
+    .
+
+
+
+
+
+
+http://worldcat.org/issn/0027-8424> # Proceedings of the National Academy of Sciences of the United States of America : PNAS.
+
+    a 
+schema:Periodical ;
+   
+schema:issn "0027-8424" ;
+   
+schema:name "Proceedings of the National Academy of Sciences of the United States of America : PNAS." ;
+   
+umbel:isLike http://worldcat.org/entity/work/id/4920457820> ;
+    .
+
+
+
+
+
+
+http://worldcat.org/issn/0273-1134> # Proceedings of the National Academy of Sciences of the United States of America : PNAS.
+
+    a 
+schema:Periodical ;
+   
+schema:issn "0273-1134" ;
+   
+schema:name "Proceedings of the National Academy of Sciences of the United States of America : PNAS." ;
+   
+umbel:isLike http://worldcat.org/entity/work/id/4920457820> ;
+    .
+
+
+
+
+
+
+http://www.worldcat.org/title/-/oclc/715964477>
+    a 
+genont:InformationResource, genont:ContentTypeGenericResource ;
+   
+schema:about http://www.worldcat.org/oclc/715964477> ; # Proceedings of the National Academy of Sciences of the United States of America : PNAS.
+
+   
+schema:dateModified "2018-04-18" ;
+   
+void:inDataset http://purl.oclc.org/dataset/WorldCat> ;
+    .
+
+
+
+
+
+
+http://www.worldcat.org/title/-/oclc/715964477#PublicationEvent/baltimore_md_puis_washington_d_c_national_academy_of_sciences_of_the_united_states_of_america_1915>
+    a 
+schema:PublicationEvent ;
+   
+schema:location http://experiment.worldcat.org/entity/work/data/4920457820#Place/puis_washington_d_c> ; # Puis Washington D.C.
+
+   
+schema:location http://experiment.worldcat.org/entity/work/data/4920457820#Place/baltimore_md> ; # Baltimore Md.
+
+   
+schema:organizer http://experiment.worldcat.org/entity/work/data/4920457820#Agent/national_academy_of_sciences_of_the_united_states_of_america> ; # National Academy of Sciences of the United States of America
+
+   
+schema:startDate "1915-" ;
+    .
+
+
+
+
+
 
 
 
 Content-negotiable representations
-	Turtle (text/turtle)
-	JSON-LD (application/ld+json)
-	RDF/XML (application/rdf+xml)
-	N-TRIPLES (text/plain)
-	HTML+RDFa (text/html)
+
+	
+Turtle (text/turtle)
+	
+JSON-LD (application/ld+json)
+	
+RDF/XML (application/rdf+xml)
+	
+N-TRIPLES (text/plain)
+	
+HTML+RDFa (text/html)
+
 
 
 
@@ -970,11 +1186,11 @@ Content-negotiable representations
 
 
 
-978034330
+715964477
 
 	    
 
-	    Proceedings./National Academy of Sciences (U.S.); Washington.
+	    Proceedings of the National Academy of Sciences of the United States of America : PNAS./National Academy of Sciences (USA);; Baltimore Md. ; [Puis] Washington D.C. : National Academy of Sciences of the United States of America, 1915-
 
 		21274
 

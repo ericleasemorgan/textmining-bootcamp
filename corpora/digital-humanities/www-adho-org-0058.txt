@@ -225,10 +225,10 @@
       
         
       
-          Apply Now for ADHO's Travel Bursaries for DH2018
+          Implementation Committee - Proposed SIGs, Associate, and Affiliate Organization Recommendations
   
   
-          The Alliance of Digital Humanities Organisations (ADHO) makes bursary awards to 14 or more students and young scholars who have submissions accepted for presentation at the annual Digital Humanities international conference. These awards are to encourage new contributions to scholarship in the digital humanities from our diverse global constituency and to involve new participants in the application of information technology in humanities research. Paper, poster and panel submissions qualify for consideration, authored or co-authored by an applicant.
+          As part of ADHO's official change to the new structure, the Implementation Committee (IC) has already suggested a draft roadmap ; the IC has also published the Proposed Financial Scenarios, the Proposed Governance Scenarios (version 1.5), 
     
           Read more  
   
@@ -270,10 +270,10 @@
       
         
       
-          Implementation Committee - Proposed Governance Scenarios available for public comment
+          Implementation Committee - Proposed ADHO Committee Recommendations
   
   
-          As part of ADHO's official change to the new structure, the Implementation Committee (IC) has already suggested a draft roadmap and earlier last month  has published  the Proposed Financial Scenarios, both open for public comment. 
+          As part of ADHO's official change to the new structure, the Implementation Committee (IC) has already suggested a draft roadmap ; the IC has also published the Proposed Financial Scenarios, the Proposed Governance Scenarios (version 1.5) and the 
     
           Read more  
   
@@ -397,42 +397,6 @@ Follow us on Google+ | Facebook | Twitter | YouTube | Event Calendar
   
 
   
-      Current Issue of DHCommons Journal
-
-  
-  
-        
-  
-  
-      
-        
-      
-          From Documents to Structured Data:  First Milestones of the `Garzoni'   
-  
-
-  
-      
-          GO::DH Translation Toolkit  
-  
-
-  
-      
-          Creating a Digital Community Radio Station in an informal Refugee Camp in Calais, France  
-  
-
-    
-
-  
-  
-  
-  
-  
-  
-
-
-
-  
-  
       Advance Issue of Digital Scholarship in the Humanities (formerly LLC)
 
   
@@ -443,17 +407,17 @@ Follow us on Google+ | Facebook | Twitter | YouTube | Event Calendar
       
         
       
+          Digital Humanities in Poland from the Perspective of the Historical Linguist of the Polish Language: Achievements, Needs, Demands  
+  
+
+  
+      
           Attesting similarity: Supporting the organization and study of art image collections with computer vision  
   
 
   
       
           Rho-grams and rho-sets: Significant links in the web of words  
-  
-
-  
-      
-          Christopher Marlowe: Hype and Hoax  
   
 
     
@@ -479,6 +443,18 @@ Follow us on Google+ | Facebook | Twitter | YouTube | Event Calendar
       
         
       
+          
+                        Preview
+                      
+  
+
+  
+      
+          Author Biographies  
+  
+
+  
+      
           Introducción de los
                     editoresEditors'
                     Introduction  
@@ -496,21 +472,6 @@ Follow us on Google+ | Facebook | Twitter | YouTube | Event Calendar
           Laboratorios ciudadanos y humanidades
                     digitalesCitizen Laboratories and Digital
                     Humanities  
-  
-
-  
-      
-          Geografías digitales: Iluminando las relaciones
-                    espaciales en una colección de blogs
-                    literariosDigital Geographies: Illuminating Spatial
-                    Relationships in a Collection of Literary Blogs  
-  
-
-  
-      
-          Retorno a trazos de mil
-                    historiasA Return to the Traces of a Thousand
-                    Stories  
   
 
     

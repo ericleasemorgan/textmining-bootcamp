@@ -1,4 +1,4 @@
-<pos><sentence id="576">
+<pos><sentence id="579">
   <word wid="0" pos="VB" lemma="skip">Skip</word>
   <word wid="1" pos="TO" lemma="to">to</word>
   <word wid="2" pos="JJ" lemma="main">main</word>
@@ -4460,39 +4460,40 @@
   <word wid="4458" pos="NN" lemma="search">Search</word>
   <word wid="4459" pos="NN" lemma="help">Help</word>
   <word wid="4460" pos="NN" lemma="image">image</word>
-  <word wid="4461" pos="NNP" lemma="March">March</word>
-  <word wid="4462" pos="NNP" lemma="April">April</word>
+  <word wid="4461" pos="MD" lemma="may">May</word>
+  <word wid="4462" pos="NNP" lemma="June">June</word>
   <word wid="4463" pos="CD" lemma="2018">2018</word>
   <word wid="4464" pos="NN" lemma="volume">Volume</word>
   <word wid="4465" pos="CD" lemma="106">106</word>
   <word wid="4466" pos="NN" lemma="number">Number</word>
-  <word wid="4467" pos="CD" lemma="2">2</word>
+  <word wid="4467" pos="CD" lemma="3">3</word>
   <word wid="4468" pos="DT" lemma="the">The</word>
-  <word wid="4469" pos="NN" lemma="skeleton">skeleton</word>
-  <word wid="4470" pos="VBZ" lemma="be">is</word>
-  <word wid="4471" pos="RB" lemma="sometimes">sometimes</word>
-  <word wid="4472" pos="VBN" lemma="view">viewed</word>
-  <word wid="4473" pos="IN" lemma="as">as</word>
-  <word wid="4474" pos="DT" lemma="a">a</word>
-  <word wid="4475" pos="NN" lemma="passive">passive</word>
-  <word wid="4476" pos="VBP" lemma="subscribe">Subscribe</word>
-  <word wid="4477" pos="VB" lemma="give">Give</word>
-  <word wid="4478" pos="DT" lemma="a">a</word>
-  <word wid="4479" pos="NN" lemma="gift">Gift</word>
-  <word wid="4480" pos="VBP" lemma="donate">Donate</word>
-  <word wid="4481" pos="DT" lemma="a">A</word>
-  <word wid="4482" pos="NN" lemma="publication">Publication</word>
-  <word wid="4483" pos="IN" lemma="of">of</word>
-  <word wid="4484" pos="NNP" lemma="Sigma">Sigma</word>
-  <word wid="4485" pos="NN" lemma="xi">XI</word>
-  <word wid="4486" pos="CD" lemma="2017">2017</word>
-  <word wid="4487" pos="NNP" lemma="Sigma">Sigma</word>
-  <word wid="4488" pos="NN" lemma="xi">Xi</word>
-  <word wid="4489" pos="DT" lemma="the">The</word>
-  <word wid="4490" pos="JJ" lemma="scientific">Scientific</word>
-  <word wid="4491" pos="NN" lemma="research">Research</word>
-  <word wid="4492" pos="NN" lemma="honor">Honor</word>
-  <word wid="4493" pos="NN" lemma="society">Society</word>
-  <word wid="4494" pos="NN" lemma="image">image</word>
+  <word wid="4469" pos="NN" lemma="idea">idea</word>
+  <word wid="4470" pos="IN" lemma="that">that</word>
+  <word wid="4471" pos="NN" lemma="addiction">addiction</word>
+  <word wid="4472" pos="VBZ" lemma="be">is</word>
+  <word wid="4473" pos="DT" lemma="a">a</word>
+  <word wid="4474" pos="NN" lemma="brain">brain</word>
+  <word wid="4475" pos="NN" lemma="disease">disease</word>
+  <word wid="4476" pos="VBD" lemma="have">had</word>
+  <word wid="4477" pos="VB" lemma="subscribe">Subscribe</word>
+  <word wid="4478" pos="VB" lemma="give">Give</word>
+  <word wid="4479" pos="DT" lemma="a">a</word>
+  <word wid="4480" pos="NN" lemma="gift">Gift</word>
+  <word wid="4481" pos="VBP" lemma="donate">Donate</word>
+  <word wid="4482" pos="DT" lemma="a">A</word>
+  <word wid="4483" pos="NN" lemma="publication">Publication</word>
+  <word wid="4484" pos="IN" lemma="of">of</word>
+  <word wid="4485" pos="NNP" lemma="Sigma">Sigma</word>
+  <word wid="4486" pos="NN" lemma="xi">XI</word>
+  <word wid="4487" pos="CD" lemma="2017">2017</word>
+  <word wid="4488" pos="NNP" lemma="Sigma">Sigma</word>
+  <word wid="4489" pos="NN" lemma="xi">Xi</word>
+  <word wid="4490" pos="DT" lemma="the">The</word>
+  <word wid="4491" pos="JJ" lemma="scientific">Scientific</word>
+  <word wid="4492" pos="NN" lemma="research">Research</word>
+  <word wid="4493" pos="NN" lemma="honor">Honor</word>
+  <word wid="4494" pos="NN" lemma="society">Society</word>
+  <word wid="4495" pos="NN" lemma="image">image</word>
 </sentence>
 </pos>

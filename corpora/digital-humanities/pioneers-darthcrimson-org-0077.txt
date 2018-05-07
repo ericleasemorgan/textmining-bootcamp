@@ -34,7 +34,6 @@
 																					ABOUT
 	RESEARCH
 	PROJECTS
-	LEARN
 	PEOPLE
 	CONTACT
 
@@ -100,6 +99,99 @@
           	
 				
 					
+						
+
+
+
+									
+										
+											
+												
+
+
+
+
+[image: ]
+
+								
+
+							
+
+							DARTH Position Available: Student Software Developer
+April 12, 2018Uncategorized
+Arts and Humanities Research Computing (DARTH) is hiring a student software developer to assist in Arts & Humanities faculty research projects.…
+
+[image: ]by Cole Crawford
+
+
+
+					
+
+
+					
+
+						
+
+
+
+									
+										
+											
+												
+
+
+
+
+[image: ]
+
+								
+
+							
+
+							DARTH Position Available: Media Intern
+April 11, 2018Blog
+Arts and Humanities Research Computing (DARTH) is hiring a media intern to assist in interviewing faculty who have received funding, from the Barajas…
+
+[image: ]by Cole Crawford
+
+
+
+					
+
+
+					
+
+						
+
+
+
+									
+										
+											
+												
+
+
+
+
+[image: ]
+
+								
+
+							
+
+							DSSG Office Hours
+April 11, 2018Event,Partner Event
+Do you have a digital scholarship project in mind but need some guidance on getting started? The Digital Scholarship Support Group, comprised of…
+
+[image: ]by Cole Crawford
+
+
+
+					
+
+
+					
+
 						
 
 
@@ -325,115 +417,6 @@ Tuesday, January 30, 2018
 
 					
 
-						
-
-
-
-									
-										
-											
-												
-
-
-
-
-[image: Inset image from Gabriel Harvey work]
-
-								
-
-							
-
-							Note to Self: How Gabriel Harvey Read His Renaissance Library
-January 3, 2018annotations,digitization,encoding,Renaissance,Gabriel Harvey,marginalia,book history,Earle HavensEvent,Partner Event
-Earle Havens, Nancy H. Hall Curator of Rare Books & Manuscripts, Johns Hopkins University
-Tuesday, January 30, 2018
-6 pm, Barker Hall 133
-Book…
-
-[image: ]by Cole Crawford
-
-
-
-					
-
-
-					
-
-						
-
-
-
-									
-										
-											
-												
-
-
-
-
-[image: ]
-
-								
-
-							
-
-							Visual Eloquence Workshops (Jan 2018)
-January 2, 2018data visualization,d3,TableauEvent,Partner Event,Instruction
-January 9 or 10, 2018
-10:00am – 12:30am
-Lamont Library B-30 Collaborative Learning Space
-Join the Digital Futures Consortium for a participatory…
-
-[image: ]by Cole Crawford
-
-
-
-					
-
-
-					
-
-						
-
-
-
-									
-										
-											
-												
-
-
-
-
-[image: ]
-
-								
-
-							
-
-							Mapping the Movida
-May 9, 2017Focus
-Mapping the Movida: A Digital Humanities Projectby: Vanessa Ceia
-
-						
-									
-								
-							
-					
-
-
-
-Mapping the Movida is an open web…
-
-[image: ]by DARTH
-
-
-
-					
-
-
-					
-
 
 				
 
@@ -447,7 +430,7 @@ Mapping the Movida is an open web…
 	2
 	3
 	…
-	8
+	9
 	
 
 

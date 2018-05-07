@@ -144,7 +144,20 @@ image
 
 
 
-Tripletsnew2012.png
+	
+			[image: Tripletsnew2012.png]
+
+
+			
+Tripletsnew2012.png538 × 574; 387 KB
+
+
+			
+
+		
+
+
+
 
 
 
@@ -304,6 +317,92 @@ Text mining
 
 
 0 references
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+topic's main category
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Category:Text mining
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 reference
+
+
+
+
+
+
+
+imported from
+
+
+
+
+
+
+
+English Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1106,7 +1205,7 @@ edit
 
 
 
-Other sites(0 entries)
+Other sites(1 entry)
 
 edit
 
@@ -1114,6 +1213,11 @@ edit
 
 
 
+
+	
+
+commonswiki
+Category:Text mining
 
 
 
@@ -1132,7 +1236,7 @@ edit
 [image: ]
 
 					
-						Retrieved from "https://www.wikidata.org/w/index.php?title=Q676880&oldid=663560231"					
+						Retrieved from "https://www.wikidata.org/w/index.php?title=Q676880&oldid=674737108"					
 
 				
 				
@@ -1277,7 +1381,7 @@ edit
 		
 
 				
-							 This page was last edited on 9 April 2018, at 21:22.
+							 This page was last edited on 5 May 2018, at 21:14.
 	All structured data from the main and property namespace is available under the Creative Commons CC0 License;
 text in the other namespaces is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.

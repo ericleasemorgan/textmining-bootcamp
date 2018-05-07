@@ -25,6 +25,7 @@ Skip to main content
 							About Miriam
 	CV
 	Projects
+	Workshops and Speaking
 
 
 					
@@ -280,7 +281,7 @@ August 30: Post edited to reflect that you don’t need Python to download Web o
 
 
 			
-			74 thoughts to “How did they make that?”		
+			75 thoughts to “How did they make that?”		
 
 
 				
@@ -437,6 +438,35 @@ August 30: Post edited to reflect that you don’t need Python to download Web o
 
 							
 
+	
+			
+				
+					
+						[image: ]						BuckChief says:					
+
+
+					
+						
+							
+								April 20, 2018 at 10:03 am							
+						
+											
+
+
+									
+
+				
+					I have checked your site and i’ve found some duplicate content, that’s why you don’t
+
+rank high in google, but there is a tool that can help you to create 100% unique articles,
+
+search for: boorfe’s tips unlimited content
+
+				
+
+
+							
+
 
 
 
@@ -517,6 +547,8 @@ Course Sites
 				DH101: Introduction to Digital Humanities
 	DH150: Digital Labor and Materiality
 	DH150: Selfies, Snapchat, and Cyberbullies: Coming of Age Online
+	IS270: Systems and Infrastructures
+	IS289: Museums in the Digital Age
 
 
 
@@ -531,27 +563,19 @@ Course Sites
 
 
 		Travel & Talks
-			March 9
-
-University of Chicago
-March 14-18
-
-Society for Cinema and Media Studies, Toronto
-April 12-14
-
-Organization of American Historians, Sacramento
-April 19-20
-
-Supply and Command, New York University
-May 9-10
+			May 9-10
 
 Archivists and Librarians in the History of the Health Sciences, Los Angeles
+May 14-15
+
+University of Wisconsin-Green Bay
 June 26-29
 
 Digital Humanities 2018, Mexico City
 
 		Archives
-			December 2017
+			April 2018
+	December 2017
 	November 2017
 	July 2017
 	July 2016
@@ -627,6 +651,7 @@ Digital Humanities 2018, Mexico City
 	Major Theories of Spectatorship
 	Medicine and Visual Culture
 	Psychiatry, Photography, and Lobotomy: A Bibliography
+	Workshops and Speaking
 
 
 			

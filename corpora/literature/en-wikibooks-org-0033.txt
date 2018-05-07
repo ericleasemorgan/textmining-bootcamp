@@ -21,13 +21,15 @@ American Literature
 
 				This project discusses the entire field of American Literature, meaning literature produced in the United States or written by authors whose primary residence or background is from the United States, starting with the earliest explorers and settlers and ending at the present time. A synthesis of chronological perspective and literary schools is attempted within this text.
 
+
 Welcome[edit]
 
-This Wikibook is written with the beginning college student in mind. The virtue of this format for presenting American Literature is that it is "thinner" than typical anthologies of the subject because it does not have to include entire original texts, but instead can link to them. Nor is this Wikibook obligated to provide synopses of major authors. Wikipedia already has these. This Wikibook, therefore, sets out to accomplish the third task of an American literature survey course textbook: to paint the picture of the trends in the periods of literature, and discuss how authors relate to one another.
+This Wikibook is written with the beginning college student in mind.  The virtue of this format for presenting American Literature is that it is "thinner" than typical anthologies of the subject because it does not have to include entire original texts, but instead can link to them. Nor is this Wikibook obligated to provide synopses of major authors. Wikipedia already has these. This Wikibook, therefore, sets out to accomplish the third task of an American literature survey course textbook:  to paint the picture of the trends in the periods of literature, and discuss how authors relate to one another.
 
 For the earliest (before 1928) works of American literature, copyright issues are irrelevant. We provide the links to the works under discussion and urge the student to read enough of the work to obtain an appreciation for its intrinsic value. For later periods, copyright issues do still pertain, and the student will have to acquire copies of the works themselves, although I have quoted brief passages to illustrate the concepts discussed.
 
-This book is still a work in progress. If you would like to help with it, please look at the suggested guidelines on the Talk Page. Thanks.
+This book is still a work in progress.  If you would like to help with it, please look at the suggested guidelines on the Talk Page. Thanks.
+
 
 Contents[edit]
 
@@ -37,10 +39,7 @@ Contents[edit]
 	Realism (1860s-1890s)
 	Naturalism (1890s-1950)
 	Modernism (1914-1945)
-	Post-Modern Period (1940s-Current)
-[image: 25% developed]
-
-
+	Post-Modern Period (1940s-Current)[image: 25% developed]
 
 
 

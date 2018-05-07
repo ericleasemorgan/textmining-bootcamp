@@ -1,4 +1,190 @@
 type	entity
+PERSON	Irene Tracey
+LOCATION	America
+LOCATION	Polynesia Sweet
+ORGANIZATION	Way Lies Madness Poets Power Health Gwyneth Lewispoet Welsh National Poet
+LOCATION	Oxford
+ORGANIZATION	UniofOxford Hindu Society
+ORGANIZATION	Oxford
+PERSON	Moritz Heyman
+LOCATION	Israel
+LOCATION	Palestine New UniofOxford
+ORGANIZATION	UniofOxford
+PERSON	Daniel Mandur Thomaz
+PERSON	Henry
+ORGANIZATION	Oxford University
+ORGANIZATION	UniofOxford
+ORGANIZATION	East Oxford
+ORGANIZATION	AHRC
+PERSON	Henry Snaith Snatihgroup UniofOxford OxfordPhysics
+ORGANIZATION	Rach RT
+ORGANIZATION	OxUniMaths Co
+PERSON	Hector Stinton
+PERSON	KebleOutreach
+ORGANIZATION	RT
+PERSON	Hamse Abdilahi
+ORGANIZATION	KgHeF8OrPq Keble College
+PERSON	James Cameron Tudor
+PERSON	Lisa
+PERSON	Holly
+LOCATION	Oxfordshire
+ORGANIZATION	NHS
+PERSON	Gail H Wildlife
+LOCATION	Sulawesi
+PERSON	Gijsbert Werner
+PERSON	Stuart West
+LOCATION	Oxford
+ORGANIZATION	Emmeline Pankhurst Join HelenPankhurst RT
+LOCATION	Silicon Valley
+ORGANIZATION	Oxford
+ORGANIZATION	Way Lies Madness Poets Power Health Gwyneth Lewispoet Welsh National Poet
+LOCATION	BrilliantClub Isles
+ORGANIZATION	Oxford University RT
+ORGANIZATION	Ina RT
+ORGANIZATION	Oxford University
+ORGANIZATION	BBC Global Questions Than RT
+PERSON	Nelson Mandela
+PERSON	Barack Obama
+PERSON	Albert Pionke
+LOCATION	UofAlabama
+ORGANIZATION	OxUniMaths Co
+PERSON	Oscar
+PERSON	Sam Mendes
+ORGANIZATION	Oxford RT
+ORGANIZATION	Facebook GDPR
+PERSON	Clare Harris
+LOCATION	Tibet
+PERSON	Stephen Tuffnell
+ORGANIZATION	Cabinet Project
+ORGANIZATION	BBC
+PERSON	HannahBoschen
+ORGANIZATION	LGBT Advisory Group
+LOCATION	Ashmolean Museum Chinese Painting Gallery
+ORGANIZATION	OxUniMaths Co
+LOCATION	Oxford
+ORGANIZATION	Cabinet Secretary for Education
+PERSON	Michael Atiyah Maths
+ORGANIZATION	Thomson Reuters
+LOCATION	Brexit
+ORGANIZATION	IyxWoIsYsd RT
+PERSON	Peter Ireland Director
+ORGANIZATION	Oxford Thermofluids Institute
+ORGANIZATION	OxUInnovation Innovation RT
+PERSON	Katie
+PERSON	Katerina Johnson OxExpPsy
+ORGANIZATION	Oxford Advice
+PERSON	Marta Favara
+ORGANIZATION	ToniaAntoniazzi Labour
+PERSON	Gower
+ORGANIZATION	All Party Parliamentry Group on Sin RT
+ORGANIZATION	Emerging Tech Party
+LOCATION	America
+LOCATION	Polynesia Sweet
+PERSON	Bryan Stevenson
+PERSON	Elizabeth Nneja Anionwu
+LOCATION	West London
+PERSON	Michael Gelder
+PERSON	John Geddes
+PERSON	Phil Cowen
+ORGANIZATION	OxfordSparks WorldPenguinDay Facebook
+ORGANIZATION	UniofOxford
+PERSON	Katie Chegwin
+PERSON	Dudley
+ORGANIZATION	C RT KebleOxford Keble
+PERSON	James Cameron Tudor
+ORGANIZATION	UniofOxford
+ORGANIZATION	Teesside University
+LOCATION	Oxford
+PERSON	Davidmkeys
+PERSON	Emily Flashman
+ORGANIZATION	Oxfor RT
+PERSON	Nick Pinks
+ORGANIZATION	CKodXWtBMY Oxford
+PERSON	Norma Aubertin Potter
+PERSON	Emily Carrington Freeman
+PERSON	Chris O Neill
+ORGANIZATION	Civil Resistance and Power Politics Domestic
+PERSON	Philipp Gr
+ORGANIZATION	UN
+PERSON	Ilina Singh
+LOCATION	Earth
+PERSON	Dame MorrisseyHelena
+PERSON	VolunteerRecognitionDay
+LOCATION	England
+ORGANIZATION	Oxford Dodo
+ORGANIZATION	Humanities Co
+PERSON	Senia Paseta
+PERSON	Contance Markievicz
+ORGANIZATION	Oxford
+LOCATION	Oxford
+PERSON	Kate Adie
+ORGANIZATION	BBC
+ORGANIZATION	OxFlightGroup
+ORGANIZATION	William Dunn School of Pathology
+PERSON	Norman Heatley
+ORGANIZATION	UK Tech News
+ORGANIZATION	Uniof RT
+ORGANIZATION	Oxford University
+ORGANIZATION	Modern Art Oxford
+PERSON	Rachel Whiteread
+ORGANIZATION	UniofOx RT
+ORGANIZATION	UniofOxford
+ORGANIZATION	KTP
+ORGANIZATION	UniofOxford
+PERSON	Luciano Floridi
+ORGANIZATION	Advisory Board
+LOCATION	UK
+ORGANIZATION	UniofOxford
+ORGANIZATION	UniofOxford Equality and Diversity Newsletter
+PERSON	Kevin Foster
+LOCATION	America
+LOCATION	New York
+LOCATION	Chicago
+ORGANIZATION	MML
+PERSON	GirlsTalkLondon
+PERSON	Dame MorrisseyHelena
+PERSON	Damayanti
+ORGANIZATION	University of Oxford
+PERSON	Rachel
+LOCATION	UK
+PERSON	Jennifer Le Roy
+PERSON	Pascal Gehring
+PERSON	Myles Allen
+ORGANIZATION	Dalveen Professor Senia Paseta Co
+ORGANIZATION	Oxford
+ORGANIZATION	Eminent NHS
+PERSON	Jay Bernard
+LOCATION	Britain
+PERSON	Gladys Ngeti
+LOCATION	America
+LOCATION	Polynesia Sweet
+ORGANIZATION	William Dunn School of Pathology
+PERSON	Norman Heatley
+ORGANIZATION	UniofOxford
+LOCATION	Central Africa
+PERSON	Sandra Fisher Martins
+LOCATION	China
+LOCATION	Oxford
+ORGANIZATION	BBC
+ORGANIZATION	Wellcome Centre for Human RT
+ORGANIZATION	Nuffield Departme RT
+LOCATION	Oxford
+LOCATION	Danger Islands
+LOCATION	Antarctica
+PERSON	La Jolla
+LOCATION	Sulawesi
+PERSON	Cornelia Sorabji Somerville
+ORGANIZATION	Oxford
+ORGANIZATION	Hertford College Oxford
+ORGANIZATION	UniofOxford
+ORGANIZATION	Power of Proximity
+ORGANIZATION	UniofOxf RT
+ORGANIZATION	Epidemic Research Response and Train RT
+PERSON	Jose Miguel Alfaro
+LOCATION	Costa Rica
+PERSON	Sandra Fisher Martins
+LOCATION	Portugal
+ORGANIZATION	Eight of Oxford
 PERSON	David Attenborough
 PERSON	Attenborough
 ORGANIZATION	BHF
@@ -486,7 +672,6 @@ ORGANIZATION	University UniofOxford
 ORGANIZATION	UniofOxford
 PERSON	Vyacheslav Polonski
 LOCATION	India
-ORGANIZATION	Congratulations Elleanor RT
 ORGANIZATION	RT BBC
 ORGANIZATION	LGBTQ National Trust Workshop
 PERSON	Roger Zetter
@@ -1517,7 +1702,6 @@ ORGANIZATION	Oxford Sutton Trust Summer School
 ORGANIZATION	Oxford
 PERSON	Murdo Mac
 LOCATION	Oxford
-ORGANIZATION	Oxford University ACS
 LOCATION	Bountiful Sea
 PERSON	Cicero
 LOCATION	Bay of Naples
@@ -1951,182 +2135,3 @@ PERSON	Vinesh Rajapul Read
 ORGANIZATION	Wikipedia
 ORGANIZATION	Oriel
 LOCATION	Europe
-ORGANIZATION	UnivOxford Daniel Tomlinson Researcher Resolution Foundation Discover the Young Univ Gallery
-ORGANIZATION	Sturgeon
-LOCATION	Hollywood
-ORGANIZATION	Africa Oxford
-ORGANIZATION	VxLv RT UnivOxford Chapel
-ORGANIZATION	OxfordSparks Genetics
-LOCATION	Oxford Journeys
-PERSON	Paul Newman
-PERSON	Andrew Hurrell
-PERSON	Luet Wong
-LOCATION	Chechnya
-LOCATION	Hertford
-PERSON	Joy Aston Hertfolk
-PERSON	Tom Hart
-PERSON	Penguin
-PERSON	Pink Floyd
-LOCATION	Oxford
-PERSON	Topolski
-LOCATION	UK
-PERSON	Keir Starmer
-ORGANIZATION	SoundCloud RT
-LOCATION	UK
-ORGANIZATION	BBC News
-LOCATION	Wytham Does
-ORGANIZATION	Oxford
-PERSON	Lucy McDonald
-PERSON	David Prout
-LOCATION	UK
-PERSON	Bronwyn Tarr
-ORGANIZATION	RotCvr6R4I RT AshmoleanMuseum Party
-PERSON	Elias Ashmole
-PERSON	GideonHenderson
-LOCATION	Swindon Lucifer
-PERSON	Lewis
-PERSON	Oliver van Hecke
-ORGANIZATION	Global Challenges Research Fund
-PERSON	Kathryn Sutherland
-PERSON	Jane Austen
-ORGANIZATION	OBGHA
-ORGANIZATION	Social Media
-ORGANIZATION	UniofOxford
-PERSON	Maya Catherine Popa
-ORGANIZATION	Wall of Faces
-PERSON	Ackermann
-ORGANIZATION	University amp amp
-PERSON	VolunteerRecognitionDay
-ORGANIZATION	Hertford College Ball
-ORGANIZATION	Oxford Sa
-ORGANIZATION	UN Development Programme
-ORGANIZATION	Oxford University
-ORGANIZATION	GfsiVcYNnm RT
-PERSON	Roger
-ORGANIZATION	UNDP
-PERSON	Ella Standage Alleyn
-PERSON	Wadham
-PERSON	Rebecca Williams
-PERSON	Rebekah White
-ORGANIZATION	Oxford
-PERSON	Theresa May
-LOCATION	Oxford
-ORGANIZATION	UniofOxford
-ORGANIZATION	Oxford
-PERSON	Marco Springmann
-ORGANIZATION	University Parks
-ORGANIZATION	LSE Oxford
-ORGANIZATION	GlobalDev
-ORGANIZATION	Oxford University
-LOCATION	China
-PERSON	Paul Newman
-ORGANIZATION	Wikipedia
-ORGANIZATION	Oxford University Press
-LOCATION	Oxford
-ORGANIZATION	Sturgeon
-ORGANIZATION	Oxford
-ORGANIZATION	American Academy of Arts and Sciences
-ORGANIZATION	Oxford for Oxford
-ORGANIZATION	Oxford
-PERSON	Marco Springmann
-PERSON	Roddy Brett St Andrews
-LOCATION	Wadham
-ORGANIZATION	Oxford
-PERSON	Georg Gottlob
-LOCATION	Uganda
-LOCATION	South Sudan
-PERSON	Pink Floyd
-ORGANIZATION	HmViBXYzgy RT
-ORGANIZATION	UniofOxford
-LOCATION	Oxfordshire
-ORGANIZATION	Skoll World Forum
-LOCATION	OBGHA Botanic Garden
-ORGANIZATION	Oxford
-ORGANIZATION	Labour
-ORGANIZATION	Introversion Society
-ORGANIZATION	SoundCloud Genetic
-ORGANIZATION	Oxford
-ORGANIZATION	Balliol College Oxford
-ORGANIZATION	UniversityChallenge
-ORGANIZATION	UnivOxford Univ OM Stephen Hawking
-PERSON	Balliol
-ORGANIZATION	Oxford
-ORGANIZATION	StartedinOxford RT
-LOCATION	Singapore
-LOCATION	Oxford
-LOCATION	Hungary
-ORGANIZATION	Central European University
-LOCATION	Hong Kong
-LOCATION	Singapore
-LOCATION	North America
-LOCATION	Canada
-ORGANIZATION	LSE Oxford
-ORGANIZATION	GlobalDev
-ORGANIZATION	F2vUEubE2T Africa Europe
-ORGANIZATION	Oxford
-ORGANIZATION	Oxford
-PERSON	Rosalind Franklin
-LOCATION	Oxford
-ORGANIZATION	St Hilda
-ORGANIZATION	NKcRsn RT
-ORGANIZATION	Oxford
-PERSON	Lynn Chadwick
-PERSON	Paul Newman
-ORGANIZATION	PembrokeColl RT
-ORGANIZATION	Oxford
-LOCATION	Oxford St Edmund
-ORGANIZATION	Fa5QavAhKN Oxford University
-LOCATION	Hertford
-ORGANIZATION	Wikipedia
-ORGANIZATION	College
-ORGANIZATION	Tolkien
-PERSON	Hayley Hamilton
-LOCATION	China
-PERSON	Ines Hasselberg
-LOCATION	UK
-PERSON	Kailash Satyarthi
-ORGANIZATION	Oxford Sa
-PERSON	Sarah Harper
-ORGANIZATION	Oxford Institute of Ageing Populations
-PERSON	Ri
-PERSON	Lester
-LOCATION	Singapore
-ORGANIZATION	JxVDlObpmb RT
-LOCATION	Syria
-PERSON	Paul Newman
-ORGANIZATION	Oxford University
-LOCATION	China
-PERSON	William Turner
-LOCATION	Oxford
-ORGANIZATION	Turner
-LOCATION	Rewley House
-LOCATION	St John Street
-PERSON	Samuel Pepys
-PERSON	Geoffrey Hill
-ORGANIZATION	Keble
-ORGANIZATION	Oxford
-ORGANIZATION	European Research Council
-LOCATION	Hungary
-ORGANIZATION	Central European University
-PERSON	Laura Shallcross
-ORGANIZATION	NASA
-PERSON	Chris Patten
-ORGANIZATION	Exeter College
-PERSON	Bishop Walter de Stapeldon
-ORGANIZATION	Oxford
-ORGANIZATION	Oxford
-LOCATION	Wales
-ORGANIZATION	Blenheim
-PERSON	David Prout
-ORGANIZATION	Oxford
-ORGANIZATION	Congratulations Oxford
-ORGANIZATION	British Cabinet
-PERSON	Lester
-ORGANIZATION	Oxford
-PERSON	Marco Springmann
-LOCATION	China
-ORGANIZATION	Oxford University Press
-LOCATION	UK
-LOCATION	Africa
-ORGANIZATION	Victoria Maguire Rajpaul DPhil Geography amp
-PERSON	Rebecca Surender

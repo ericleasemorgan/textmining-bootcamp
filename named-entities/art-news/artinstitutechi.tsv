@@ -1,4 +1,75 @@
 type	entity
+PERSON	Midori Takada
+PERSON	Midori Taka
+PERSON	Judy Ledgerwood
+PERSON	Judy Ledgerwood
+PERSON	VjqZYdFZlg Kay Rosen
+ORGANIZATION	Art Institute
+PERSON	Ivan Albright
+ORGANIZATION	Art Institute of Chicago
+LOCATION	Chicago
+ORGANIZATION	Art Institute
+PERSON	Edward Hopper
+PERSON	Midori Takada
+PERSON	Azoulay Ilit Azoulay
+LOCATION	Chicago
+PERSON	Ivan Albright
+PERSON	Schoenberg
+LOCATION	China
+PERSON	Judy Ledgerwood
+PERSON	Judy Ledgerwood
+PERSON	Azoulay Ilit Azoulay
+PERSON	Emerson Bowyer
+PERSON	Sophie Renoir
+LOCATION	Middle East
+PERSON	Ivan Albright
+ORGANIZATION	Art Institute of Chicago Albright
+PERSON	Mounira Al Solh
+PERSON	Midori Takada
+PERSON	Christopher de Hamel
+LOCATION	Americas
+PERSON	Florent Mazzoleni
+LOCATION	North Garden
+ORGANIZATION	Society of Contemporary
+PERSON	OnThisDay Willem de Kooning
+PERSON	Schoenberg
+PERSON	Azoulay Ilit Azoulay
+PERSON	Cornelis Visscher
+LOCATION	Middle East
+PERSON	Helen Frankenthaler
+PERSON	Helen Frankenthaler
+ORGANIZATION	Art Institute
+ORGANIZATION	Exhibition Opening Volta Photo Enjoy
+LOCATION	Mali
+PERSON	Koala
+LOCATION	Illinois
+PERSON	Ren Magritte
+PERSON	Helen Frankenthaler
+PERSON	Helen Frankenthaler
+ORGANIZATION	Harold Washington Library
+PERSON	Koala
+PERSON	Alex Katz
+ORGANIZATION	Yellow House
+ORGANIZATION	Art Institute
+PERSON	Rabih Mrou
+PERSON	Hubert Robert
+PERSON	Midori Takada
+PERSON	Midori
+PERSON	Marc Chagall
+LOCATION	America
+ORGANIZATION	Art Institute
+PERSON	Sanl Sory
+PERSON	Bobo Dioulasso
+ORGANIZATION	Small but Musically Mighty Co
+PERSON	Al Solh
+ORGANIZATION	TBT
+ORGANIZATION	Art Institute
+LOCATION	Egypt
+LOCATION	Rome
+ORGANIZATION	Art Institute
+PERSON	Midori Takada
+PERSON	Midori
+PERSON	Rabih Mrou
 PERSON	Helen Frankenthaler
 PERSON	Helen Frankenthaler
 PERSON	Vuillard
@@ -47,7 +118,6 @@ PERSON	Wolfgang Voigt
 PERSON	Wu Tsang
 PERSON	Wu Tsang
 PERSON	Adam
-PERSON	Wang Dongling
 ORGANIZATION	Art Institute s Block Party
 PERSON	Natalia Goncharova
 PERSON	Rosalba Carriera
@@ -527,7 +597,7 @@ PERSON	Antropofag
 PERSON	Daniel Quiles
 PERSON	Cauleen Smith
 PERSON	Greg Tate
-PERSON	Danny Lyon bleakbeautyblog
+PERSON	Danny Lyon
 PERSON	Saul Steinberg
 PERSON	Inge Morath NowOnView
 PERSON	Chris Ware
@@ -1239,7 +1309,6 @@ PERSON	Oiticica
 PERSON	Kishi Ganku
 PERSON	Louis Boudin
 LOCATION	Whistler
-LOCATION	Ponce
 PERSON	Rodin
 PERSON	Jose
 LOCATION	Japan
@@ -2467,32 +2536,3 @@ PERSON	Sylvia
 PERSON	Van Gogh
 PERSON	VAN GOGH
 PERSON	Sylvia
-LOCATION	South America
-PERSON	Lisa
-PERSON	Xu Bing
-PERSON	Dmitriy
-PERSON	Van Gogh Airbnb
-PERSON	Don
-PERSON	Jose
-PERSON	Van Gogh Airbnb
-PERSON	Van Gogh
-PERSON	DavidLMatthews
-PERSON	Xu Bing
-ORGANIZATION	RT MikeOLoughlin Nice
-PERSON	Abigail
-PERSON	John
-LOCATION	Chicago
-PERSON	Jillian Hope
-PERSON	Melvin
-PERSON	Michael
-PERSON	Chica Gogh
-ORGANIZATION	Foundation
-PERSON	Diane
-PERSON	Van Gogh
-ORGANIZATION	ARS
-PERSON	Xu Bing
-LOCATION	Michigan Avenue
-PERSON	Vivian Maier
-LOCATION	Chicago
-PERSON	Van Gogh
-PERSON	JoseSPiano

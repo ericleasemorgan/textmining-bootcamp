@@ -422,6 +422,10 @@
                 
 	
                     
+                        Students                    
+                
+	
+                    
                         Developers                    
                 
 	
@@ -527,7 +531,7 @@
                 
             Did you know?
 
-            Are you a creator? Sell your work, your way with Vimeo On Demand, our open self-distribution platform.
+            Customize your video URL and send people to vimeo.com/mysweetvidname instead of vimeo.com/123456.
 
         
     

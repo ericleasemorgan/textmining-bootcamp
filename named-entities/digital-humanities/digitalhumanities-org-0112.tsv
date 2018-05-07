@@ -157,18 +157,12 @@ ORGANIZATION	Hockey Susan History of Humanities Computing
 PERSON	Susan Scheibman Ray Siemens
 PERSON	John Unsworth
 ORGANIZATION	Companion to Digital Humanities New York Blackwell Publishing
-PERSON	Svensson Patrik
-PERSON	Willard McCarty
-ORGANIZATION	McCarty Willard
-ORGANIZATION	McCarty Willard
-ORGANIZATION	Siemens Ray
-ORGANIZATION	McCarty Willard
-PERSON	McCarty Willard Carsten Lutz
-PERSON	Melanie Chernyk
+ORGANIZATION	McCartyWillard
+ORGANIZATION	McCartyWillard
+ORGANIZATION	McCartyWillard
+ORGANIZATION	McCartyWillard CarstenLutz MelanieChernyk
 ORGANIZATION	Digital Humanities Summer Institute
-ORGANIZATION	Brennan Elaine
-PERSON	Rabkin Eric
-PERSON	Jim Guthrie
+ORGANIZATION	BrennanElaine
 ORGANIZATION	Geographical Information in Digital Humanities Scholarship Literary and Linguistic Computing
 ORGANIZATION	Juola Patrick Killer Applications in Digital Humanities Literary and Linguistic Computing
 PERSON	Kiernan
@@ -181,10 +175,11 @@ ORGANIZATION	Companion to Digital Humanities New York Blackwell Publishing 2004
 PERSON	Klein Julie Thomson
 ORGANIZATION	Interdisciplinarities Charlottesville VA University of Virginia Press
 ORGANIZATION	Knorr Cetina Karin Epistemic Cultures How the Sciences Make Knowledge Cambridge MA Harvard University Press
-ORGANIZATION	Linguistic Computing Oxford Journals Volume
-ORGANIZATION	Linguistic Computing Oxford Journals Volume
-ORGANIZATION	Linguistic Computing Oxford Journals Volume
-ORGANIZATION	Literary and Linguistic Computing Oxford Journals Volume
+ORGANIZATION	Literary and Linguistic Computing
+ORGANIZATION	Literary and Linguistic Computing
+ORGANIZATION	Literary and Linguistic Computing
+ORGANIZATION	Literary and Linguistic Computing
+ORGANIZATION	Literary and Linguistic Computing
 PERSON	McCarty
 PERSON	Kirschenbaum
 PERSON	McCarty Willard

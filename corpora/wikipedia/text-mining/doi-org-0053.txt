@@ -126,25 +126,25 @@ Conference paper
 
     	
                     
-                       2
+                            2
                        Citations
                     
             
 	
                     
-                       1
+                            1
                        Mentions
                     
             
 	
                     
-                       13
+                            14
                        Readers
                     
             
 	
                     
-                       440
+                            463
                        Downloads
                     
             
@@ -160,7 +160,7 @@ Abstract
 Since the end of the Cold War, the threat of large scale wars has been substituted by new threats: terrorism, organized crime, trafficking, smuggling, proliferation of weapons of mass destruction. The new criminals, especially the so called “jihadist” terrorists are using the new technologies, as those enhanced by Web2.0, to fight their war. Text mining is the most advanced knowledge management technology which allow intelligence analysts to automatically analyze the content of information rich online data banks, suspected web sites, blogs, emails, chat lines, instant messages and all other digital media detecting links between people and organizations, trends of social and economic actions, topics of interest also if they are “sunk” among terabytes of information.
 Keywords
 National security information sharing text mining 
-This is a preview of subscription content, log in to check access
+This is a preview of subscription content, log in to check access.
 
 
 Preview

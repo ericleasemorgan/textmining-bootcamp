@@ -7448,6 +7448,8 @@ NNS	multimedia	Multimedia
 NN	literacy	literacy
 JJ	new	New
 NNS	media	media
+JJ	semantic	Semantic
+NN	web	Web
 NNS	system	Systems
 NN	theory	theory
 NN	text	Text
@@ -7492,7 +7494,7 @@ NNP	title	title
 NNP	Digital_humanities	Digital_humanities
 NN	amp	amp
 NN	oldid	oldid
-CD	829563460	829563460
+CD	839783684	839783684
 NNS	category	Categories
 JJ	digital	Digital
 NNS	humanities	humanities
@@ -7658,12 +7660,12 @@ VBD	be	was
 JJ	last	last
 VBN	edit	edited
 IN	on	on
-CD	9	9
-NNP	March	March
+CD	5	5
+MD	may	May
 CD	2018	2018
 IN	at	at
-CD	12	12
-CD	10	10
+CD	17	17
+CD	00	00
 NN	text	Text
 VBZ	be	is
 JJ	available	available

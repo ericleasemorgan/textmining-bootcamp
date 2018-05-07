@@ -30,7 +30,7 @@ Example of a textual analysis program being used to study a novel, with Jane Aus
 
 Digital humanities (DH) is an area of scholarly activity at the intersection of computing or digital technologies and the disciplines of the humanities. It includes the systematic use of digital resources in the humanities, as well as the reflection on their application.[1][2] DH can be defined as new ways of doing scholarship that involve collaborative, transdisciplinary, and computationally engaged research, teaching, and publishing.[3] It brings digital tools and methods to the study of the humanities with the recognition that the printed word is no longer the main medium for knowledge production and distribution.[3]
 
-By producing and using new applications and techniques, DH makes new kinds of teaching and research possible, while at the same time studying and critiquing how these impact cultural heritage and digital culture.[2] Thus, a distinctive feature of DH is its cultivation of a two-way relationship between the humanities and the digital: the field both employs technology in the pursuit of humanities, research, and subjects technology to humanistic questioning and interrogation, often simultaneously.
+By producing and using new applications and techniques, DH makes new kinds of teaching and research possible, while at the same time studying and critiquing how these impact cultural heritage and digital culture.[2] Thus, a distinctive feature of DH is its cultivation of a two-way relationship between the humanities and the digital: the field both employs technology in the pursuit of humanities research and subjects technology to humanistic questioning and interrogation, often simultaneously.
 
 
 
@@ -520,6 +520,7 @@ Digital Humanities
 	Humanistic informatics
 	Multimedia literacy
 	New media
+	Semantic Web
 	Systems theory
 	Text Encoding Initiative
 	Transliteracy
@@ -590,7 +591,7 @@ Humanities
 [image: ]
 
 					
-						Retrieved from "https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=829563460"					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Digital_humanities&oldid=839783684"					
 
 				Categories: 	Digital humanities
 
@@ -808,7 +809,7 @@ Hidden categories: 	CS1 maint: Uses editors parameter
 		
 
 				
-							 This page was last edited on 9 March 2018, at 12:10.
+							 This page was last edited on 5 May 2018, at 17:00.
 	Text is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
 

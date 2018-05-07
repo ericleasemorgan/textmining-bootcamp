@@ -1,4 +1,7 @@
 
+
+
+
 	The A.V. Club
 	Deadspin
 	Earther
@@ -11,6 +14,7 @@
 	The Takeout
 	The Root
 	The Onion
+	Clickhole
 
 
 
@@ -100,10 +104,14 @@ Advertisement
 
 
 
+
+
 AVC: When you called it “the ultimate Western”, did you mean merely the paramount example of the genre, or its final expression?
 HB: No, I meant the final one. It culminates all the aesthetic potential that Western fiction can have. I don’t think that anyone can hope to improve on it, that it essentially closes out the tradition. And in the sense that it serves as an extension of the pastoral tradition, it provides an interesting and ironic contrast with American Pastoral by my friend Philip Roth.
 AVC: The violence in Blood Meridian is uncharacteristic. It’s not used as a cheap metaphor or a means of catharsis or transformation.
 Advertisement
+
+
 
 
 
@@ -118,10 +126,14 @@ Advertisement
 
 
 
+
+
 AVC: You placed Blood Meridian not only firmly in the Western canon, but in your own “canon of the American Sublime.” Have there been any books since that time that you’d consider to be part of that canon?
 HB: Well, we have four living writers in America who have, in one way or another, touched what I would call the sublime. They are McCarthy, of course, with Blood Meridian; Philip Roth, particularly with two extraordinary novels, the very savage Sabbath’s Theater and American Pastoral, which I mentioned before; Don DeLillo’s Underworld, which is a little long for what it does but nevertheless is the culmination of what Don can do; and, of course, the mysterious figure of Mr. Pynchon. I don’t know what I would choose if I had to select a single work of sublime fiction from the last century, it probably would not be something by Roth or McCarthy; it would probably be Mason & Dixon, if it were a full-scale book, or if it were a short novel it would probably be The Crying Of Lot 49. Pynchon has the same relation to fiction, I think, that my friend John Ashbery has to poetry: he is beyond compare.
 AVC: Blood Meridian is a book that’s filled with all sorts of religious symbolism and mysticism, but it’s often difficult to discern its exact attitude towards religion.
 Advertisement
+
+
 
 
 
@@ -135,6 +147,8 @@ AVC: You’ve been extremely critical of the politicization of teaching literatu
 
 HB: Critical, young man, is hardly the word. I stand against it like Jeremiah prophesying in Jerusalem. It has destroyed most of university culture. The teaching of high literature now hardly exists in the United States. The academy is in ruins, and they’ve destroyed themselves.
 Advertisement
+
+
 
 
 
@@ -170,22 +184,22 @@ You may also like
 
 
 
-Jezebel
-Men's Favorite Ages Are 20, 21, 22, and 23: A Data Dive by the Co-Founder of OKCupid
-Christian Rudder
-9/20/15 2:15pm
+Gizmodo
+Tesla Will Lock Out Contractors on Monday Unless Employees Vouch For Them
+AJ Dellinger
+Yesterday 5:45pm
 
 
-The A.V. Club
-Mike Judge spills the beans on T.J. Miller's departure from Silicon Valley
-Danette Chavez
-3/07/18 11:57am
+News
+One Infinity War victim might really be done with the MCU
+Sam Barsanti
+Yesterday 1:04pm
 
 
-Kotaku
-The Simpsons Pokes Fun At Documentary That Criticized Apu
-Gita Jackson
-Yesterday 10:01am
+Gizmodo
+Trump Picks TV Snake Oil Salesman Dr. Oz, of All People, to Serve on Health Council
+Tom McKay
+Yesterday 3:20pm
 
 
 
@@ -242,7 +256,9 @@ Leonard Pierce
 
 
 
+
 ShareTweet
+
 
 
 

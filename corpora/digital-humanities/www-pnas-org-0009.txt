@@ -673,7 +673,7 @@ Articles by Topic
   
       Content analysis of 150 years of British periodicals
   
-    	Thomas Lansdall-Welfare, Saatviga Sudhahar, James Thompson, Justin Lewis, FindMyPast Newspaper Team and Nello Cristianini
+    	Thomas Lansdall-Welfare, Saatviga Sudhahar, James Thompson, Justin Lewis, FindMyPast Newspaper Team, and Nello Cristianini
 
   
     	PNAS January 9, 2017. 201606380; published ahead of print January 9, 2017. https://doi.org/10.1073/pnas.1606380114 
@@ -1082,12 +1082,7 @@ References
 .
 
 
-	↵	Liu X, 
-	Chen M, 
-	Ding Y, 
-	Song M
-
-	Borin L, et al.
+	↵	Borin L, et al.
 
  (2013) Mining semantics for culturomics: Towards a knowledge-based approach. Proceedings of the 2013 International Workshop on Mining Unstructured Big Data Using Natural Language Processing, eds Liu X, Chen M, Ding Y, Song M (ACM, New York), pp 3–10.
 .
@@ -1100,11 +1095,7 @@ References
 .OpenUrl
 
 
-	↵	Lin J, 
-	Pei J, 
-	Lin TY
-
-	Lansdall-Welfare T, 
+	↵	Lansdall-Welfare T, 
 	Sudhahar S, 
 	Veltri GA, 
 	Cristianini N
@@ -1135,12 +1126,7 @@ References
 .OpenUrl
 
 
-	↵	Williamson C, 
-	Zurko ME, 
-	Patel-Schneider P, 
-	Shenoy P
-
-	Suchanek FM, 
+	↵	Suchanek FM, 
 	Kasneci G, 
 	Weikum G
 
@@ -1148,20 +1134,13 @@ References
 .
 
 
-	↵	Williamson C, 
-	Zurko ME, 
-	Patel-Schneider P, 
-	Shenoy P
-
-	Lehmann J, et al.
+	↵	Lehmann J, et al.
 
  (2015) DBpedia–a large-scale, multilingual knowledge base extracted from wikipedia. Semant Web, eds Williamson C, Zurko ME, Patel-Schneider P, Shenoy P 6(2):167–195.
 .OpenUrl
 
 
-	↵	Isabelle P
-
-	Cunningham H, 
+	↵	Cunningham H, 
 	Maynard D, 
 	Bontcheva K, 
 	Tablan V
@@ -1184,11 +1163,7 @@ References
 .
 
 
-	↵	Montavon G, 
-	Orr GB, 
-	Mller K-R
-
-	Weston J, 
+	↵	Weston J, 
 	Ratle F, 
 	Mobahi H, 
 	Collobert R
@@ -1203,11 +1178,7 @@ References
 .
 
 
-	↵	Merlo P, 
-	Barzilay R, 
-	Johnson M
-
-	Hoffart J, et al.
+	↵	Hoffart J, et al.
 
  (2011) Robust disambiguation of named entities in text. Proceedings of the Conference on Empirical Methods in Natural Language Processing, eds Merlo P, Barzilay R, Johnson M (Association for Computational Linguistics Stroudsburg, PA), pp 782–792.
 .
@@ -1267,12 +1238,7 @@ References
 .OpenUrlAbstract
 
 
-	↵	Quercia D, 
-	Cha M, 
-	Mascolo C, 
-	Sandvig C
-
-	Wagner C, 
+	↵	Wagner C, 
 	Garcia D, 
 	Jadidi M, 
 	Strohmaier M
@@ -1757,7 +1723,7 @@ Request Permissions
   
   
   
-      CSI1, PATROL1, and exocyst complex cooperate in delivery of cellulose synthase complexes to the plasma membrane  
+      Systematic approach for dissecting the molecular mechanisms of transcriptional regulation in bacteria  
   
   
   
@@ -1771,7 +1737,7 @@ Request Permissions
   
   
   
-      Nonmonotonic spatial structure of interneuronal correlations in prefrontal microcircuits  
+      Metabolic control of T cell immune response through glycans in inflammatory bowel disease  
   
   
   
@@ -1785,7 +1751,7 @@ Request Permissions
   
   
   
-      IpdAB, a virulence factor in Mycobacterium tuberculosis, is a cholesterol ring-cleaving hydrolase  
+      Drought delays development of the sorghum root microbiome and enriches for monoderm bacteria  
   
   
   
@@ -1867,7 +1833,7 @@ Show more
     
 
     
-    [image: Bridget Scanlon discusses the use of global hydrologic models for studying changes in water storage worldwide.]
+    [image: Insights into how animals think not only fascinate students, but could also potentially help them form a stronger connection with animals that appear to have cognitive capacities once reserved for humans.]
 
 
   
@@ -1876,11 +1842,107 @@ Show more
   
 
     
-        Global hydrologic models and water storage
+        Science and Culture: Animal cognition research offers outreach opportunity
 
     
 
-        Bridget Scanlon discusses the use of global hydrologic models for studying changes in water storage worldwide.
+        Insights into how animals think not only fascinate students, but could also potentially help them form a stronger connection with animals that appear to have cognitive capacities once reserved for humans.
+
+
+    
+
+        Image courtesy of Amalia Bastos (University of Auckland, Auckland, New Zealand).
+
+    
+    
+  
+ 
+
+
+  
+
+  
+    
+
+    
+    [image: Some researchers are even working on devices that could visit the extremely hot planet, not typically hospitable to probes, for an extended period of time. ]
+
+
+  
+ 
+  
+  
+
+    
+        Inner Workings: A new crop of landers and rovers seeks to answer key questions about Venus—and, by extension, Earth
+
+    
+
+        Some researchers are even working on devices that could visit the extremely hot planet, not typically hospitable to probes, for an extended period of time. 
+
+
+    
+
+        Image courtesy of NASA and the NASA Space Science Data Coordinated Archive.
+
+    
+    
+  
+ 
+
+
+  
+
+  
+    
+
+    
+    [image: ]
+
+
+  
+ 
+  
+  
+
+    
+        Core Concept: Microgrids offer flexible energy generation, for a price
+
+    
+
+        Already in the works in several places, microgrids could prove very useful for remote or vulnerable locales such as Puerto Rico, as well as those areas seeking grid independence—if, that is, technical and regulatory hurdles can be overcome.
+
+
+    
+
+        Image courtesy of Mlinda.
+
+    
+    
+  
+ 
+
+
+  
+
+  
+    
+
+    
+    [image: Karina Guziewicz and Artur Cideciyan explain a potential gene therapy approach for macular degeneration.]
+
+
+  
+ 
+  
+  
+
+    
+        Gene therapy for retinal disease
+
+    
+
+        Karina Guziewicz and Artur Cideciyan explain a potential gene therapy approach for macular degeneration.
 
     
 
@@ -1900,7 +1962,7 @@ Show more
     
 
     
-    [image: PNAS Profile of Dorothy L. Cheney and Robert M. Seyfarth.]
+    [image: PNAS Profile of Alexander Rudensky, winner of the Vilcek Prize in Biomedical Science]
 
 
   
@@ -1913,100 +1975,9 @@ Show more
 
     
 
-        PNAS Profile of Dorothy L. Cheney and Robert M. Seyfarth.
+        PNAS Profile of Alexander Rudensky, winner of the Vilcek Prize in Biomedical Science
 
     
-
-    
-    
-  
- 
-
-
-  
-
-  
-    
-
-    
-    [image: Researchers estimate the risk of infectious disease transmission on board transcontinental airline flights.]
-
-
-  
- 
-  
-  
-
-    
-        Infectious disease transmission on airplanes
-
-    
-
-        Researchers estimate the risk of infectious disease transmission on board transcontinental airline flights.
-
-    
-
-        Image courtesy of Pixabay/PublicDomainPictures.
-
-    
-    
-  
- 
-
-
-  
-
-  
-    
-
-    
-    [image: Researchers report early evidence of Maya animal management.]
-
-
-  
- 
-  
-  
-
-    
-        Early Maya animal rearing and trade
-
-    
-
-        Researchers report early evidence of Maya animal management.
-
-    
-
-    
-    
-  
- 
-
-
-  
-
-  
-    
-
-    
-    [image: Aquatic environments constrain mammals’ body size to a greater extent than terrestrial environments, according to a study.]
-
-
-  
- 
-  
-  
-
-    
-        Body size in aquatic mammals
-
-    
-
-        Aquatic environments constrain mammals’ body size to a greater extent than terrestrial environments, according to a study.
-
-    
-
-        Image courtesy of Pixabay/skeeze.
 
     
     
@@ -2048,7 +2019,7 @@ Show more
       
   
   
-    [image: Proceedings of the National Academy of Sciences: 115 (15)]
+    [image: Proceedings of the National Academy of Sciences: 115 (18)]
 
   
 
@@ -2433,6 +2404,8 @@ Copyright © 2018 National Academy of Sciences.
  
 
     
+
+
 
 
 

@@ -139,7 +139,7 @@
 								
 				
 					
-					[image: HUP on YouTube [abstract logo design]]
+					[image: The Digital Loeb Classical Library [logo and text on gray background]]
 				
 
 							
@@ -157,10 +157,10 @@
 
 				
 						
-			The Economist used data from Richard H. Sander et al.’s Moving toward Integration: The Past and Future of Fair Housing in a report on how class-based has quietly replaced race-based segregation in America and in an associated interactive feature.
-	Samuel Moyn, author of Not Enough: Human Rights in an Unequal World, argued in Foreign Policy that it is shortsighted for the U.S. to promote basic rights without a broader effort to combat the entrenched economic inequality that endangers them.
-	Vera Tobin, author of Elements of Surprise: Our Mental Limits and the Satisfactions of Plot, discussed how our brains process surprises—in real life, and in the juiciest genre fiction—on the podcast Smart Bitches, Trashy Books.
-	Henry Greely, author of The End of Sex and the Future of Human Reproduction, spoke with Maclean’s about the legal, ethical, and moral issues that will arise once lab-grown human embryos become the norm rather than the exception.
+			On Utah Public Radio’s Access Utah, Matthew Bowman, author of Christian: The Politics of a Word in America, discussed the diversity of political traditions embedded in the word (and identity) “Christian.”
+	An excerpt from Assa Doron and Robin Jeffrey’s Waste of a Nation: Garbage and Growth in India, on the country’s booming trade in recycled human hair, was published at Inside Story.
+	Mehrsa Baradaran, author of The Color of Money, spoke with the history of capitalism podcast Who Makes Cents? about how the popular embrace of “banking Black” distracts from more far-reaching solutions to the racial wealth gap.
+	Jennifer Mittelstadt, author of The Rise of the Military Welfare State, wrote at War on the Rocks about the negative response to her book from many military families (who reject the idea that they receive handouts) and on American politicians’ recent—historically speaking—tendency to pit (unworthy) “welfare spending” directly against (worthy) “military spending.”
 
 
 					
@@ -169,7 +169,7 @@
 				Stay Posted
 
 				
-					[image: Cover of current seasonal catalog]Browse our interactive Spring/Summer 2018 catalog.
+					[image: Cover of current seasonal catalog]Browse our interactive Autumn/Winter 2018 catalog.
 
 					
 					Now Available: The digital Loeb Classical Library (loebclassics.com) extends the founding mission of James Loeb with an interconnected, fully searchable, perpetually growing virtual library of all that is important in Greek and Latin literature.
@@ -209,9 +209,9 @@ Off the Page: Visit our multimedia page for video about recent projects and inte
 						
 		Blog
 
-			[image: Blockchain and the Law]
-	April 10: The Rule of Code vs. The Rule of Law
-	When Satoshi Nakamoto released Bitcoin to the world, he had a clear idea in mind, which was reflected in the message he included in Bitcoin’s genesis block:  The Times 03 / Jan / 2009 Chancellor on brink of second bailout for banks  Nakamoto released the Bitcoin network in the middle of a financial crisis, as a reaction to an unstable international banking system. In doing so, he gave birth to a new currency—one controlled not by any government or central bank but only by cryptography and code. As a global and decentralized payment system that operates without centralized control, Bitcoin held out the hope of newfound economic freedom for those dubious of governmental authority. Early Bitcoin adopters subscribed to the notion of vires in numeris (strength in numbers), a motto …
+			[image: How the Other Half Banks]
+	April 26: Is Postal Banking Coming?
+	United States Senator for New York Kirsten Gillibrand has just introduced major new legislation to create a Postal Bank, which would establish a retail bank in all of the U.S. Postal Service’s 30,000 locations. As detailed by the Senator’s announcement, the Postal Bank “would effectively end predatory payday lending industry practices overnight by giving low-income Americans, particularly communities of color and rural communities, access to basic banking services that they currently don’t have. The lack of access to traditional banking services makes it nearly impossible for low-income Americans to escape the cycle of poverty because they are often forced to spend large percentages of their income to cash their paychecks or pay back high-interest predatory payday loans.” Mehrsa …
 
 
 						

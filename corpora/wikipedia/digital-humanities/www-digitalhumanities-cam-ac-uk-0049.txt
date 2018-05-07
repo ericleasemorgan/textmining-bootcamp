@@ -51,7 +51,6 @@ skip to primary navigationskip to content
   
 
     
-  
 		
 
 	
@@ -261,12 +260,12 @@ skip to primary navigationskip to content
 	
     Home
   
-	Digital Humanities Network
+	Cambridge Digital Humanities
 
 
 
 					
-	[image: ]Digital Humanities Network
+	[image: ]Cambridge Digital Humanities
 
 					
 					Department A-Z
@@ -285,185 +284,107 @@ skip to primary navigationskip to content
   Home
 
 	
-News
+CDH
+	CDH Overview
+	
+CDH Team
+	CDH Team Overview
+	
+CDH Directorate
 
 	
-Events
+CDH Steering Committee
 
 	
-Funding
+CDH Staff
 
 	
-Technical Advice
-	Technical Advice Overview
-	
-Data Support
-
-
-
-	
-People & Projects
-	People & Projects Overview
-	
-Committee
-	Committee Overview
-	
-Steering Committee
+CDH Methods Fellows
 
 
 
 	
-Browse by people
+Defining Digital Humanities
 
 	
-Browse by project
-	Browse by project Overview
-	
-Africa’s Voices
+CDH Vacancies
+
+
 
 	
-Arthur Schnitzler Digital
+Research
+	Research Overview
+	
+Research Themes
 
 	
-Board of Longitude (JISC)
+Research Projects
 
 	
-Cambridge Centre for Digital Knowledge
+Research Centres and Strategic Initiatives
+
+	
+Research Funding
+
+	
+Scholarly Communication
 
 	
 Cambridge Digital Library
 
-	
-Casebooks
+
 
 	
-Chopin’s First Editions Online
+Lab
+	Lab Overview
+	
+Project Concept
 
 	
-The Concept Lab
+Project Start-up
+	Project Start-up Overview
+	
+Digital Imaging
 
 	
-Conspiracy and Democracy
+Metadata and Standards
 
 	
-Darwin Correspondence
+Hosting and Sustainability
 
 	
-Egypt's Contentious Media: Transnational Dimensions
+Tools and Development
 
 	
-Freeze Frame
+Impact
 
 	
-Kaiserchronik Project
-
-	
-Mapping the Jewish Communities of the Byzantine Empire
-
-	
-Music Information Retrieval
-
-	
-New ICT and citizen-led governance in Africa/FrontlineSMS:Radio
-
-	
-Occupational Structure of Britain 
-
-	
-Online Chopin Variorum Edition
-
-	
-Personal Histories
-
-	
-Re:Enlightenment
-
-	
-Scriptorium
-
-	
-Social Media Knowledge Exchange
-
-	
-Technology, Democracy and the Digital Society 
-
-	
-University and Life Experience
-
-	
-Visual Representations of the Third Plague Pandemic
-
-	
-Wrongdoing in Spain
-
-	
-Social Media and Human Rights
+High Performance Computing
 
 
 
 	
-Browse by theme
-	Browse by theme Overview
-	
-Digital Editions
+Project Implementation
 
 	
-Social Networks and Social Media
-
-	
-Digital Mapping
-
-
+Project Sustainability
 
 
 
 	
-About
-	About Overview
+Learning
+	Learning Overview
 	
-Mailing list
-
-	
-Visit us
-
-	
-Governance
-
-	
-External collaboration
-
-
-
-	
-Digital Methods
-	Digital Methods Overview
-	
-Doing Research in the Digital Age
-	Doing Research in the Digital Age Overview
-	
-Doing Research in the Digital Age - programme 2017/8
-
-
-
-	
-Advanced workshops
-	Advanced workshops Overview
-	
-Advanced Digital Methods Workshops - programme 2017/8
-
-
-
+Learning Themes
+	Learning Themes Overview
 	
 Machine Reading the Archive
 	Machine Reading the Archive Overview
 	
-Machine Reading the Archive - programme overview
+Machine Reading the Archive - Projects overview
 
 	
-Machine Reading the Archive Projects - FAQ
-
-	
-Machine Reading the Archive - meet our 2018 supported projects
+Machine Reading the Archive - Projects FAQ
 
 
 
@@ -472,64 +393,53 @@ Ethics of Big Data
 
 	
 Ways of Machine Seeing
-	Ways of Machine Seeing Overview
-	
-Ways of Machine Seeing workshop 2017 - Call for proposals
 
 	
-Ways of Machine Seeing 2017 - Expression of Interest Form
+Scholarly Practice in the Digital Age
 
 
 
 	
-Text and Data-Mining Test Kitchen
-
+Strand 1: Doing Research in the Digital Age
+	Strand 1: Doing Research in the Digital Age Overview
 	
-Digital History Seminar
-	Digital History Seminar Overview
-	
-Digital History Program - Michaelmas 2016
-
-	
-Previous Digital History Seminars 
-	Previous Digital History Seminars  Overview
-	
-Digital History Seminar - Easter 2016
-
-	
-Digital History Seminar - Lent 2016
-
-	
-Digital History Seminar - Michaelmas 2015
+Registration: Doing research in the digital age
 
 
 
 	
-Digital History programme Easter Term 2017
+Strand 2: Advanced Digital Methods Workshops
+
+	
+Strand 3: Critical Coding
+
+	
+Text- and Data-Mining Test Kitchen
+
+	
+All CDH Learning Events
+
+	
+Other DH Training Events
+
+	
+External Training and Resources
 
 
 
 	
-Past workshops and events
-	Past workshops and events Overview
+Network
+	Network Overview
 	
-Crowdsourcing
-
-	
-Researching Social Movements
-
-	
-World Factory Data Expedition
-
-	
-Ways of Machine Seeing
-
-
+Join the CDH Mailing List
 
 
 
 	
-Mobile Collections project
+Collaboration
+
+	
+Contact
 
 
 
@@ -546,11 +456,11 @@ Mobile Collections project
             	
   
     
-      [image: toledo_algorithm.png]
+      [image: CUDL]
   
 
   
-    Text and Data-Mining Test Kitchen
+    Support for world-class initiatives in DH research
   
 
 
@@ -558,11 +468,35 @@ Mobile Collections project
 	
   
     
-      [image: MRtA_web_banner.png]
+      [image: 3D image 1]
   
 
   
-    Machine Reading the Archive: registration now open for 2017/8
+    Technical advice on innovative DH methods and tools
+  
+
+
+
+	
+  
+    
+      [image: Digitisation]
+  
+
+  
+    Assistance with identifying, digitising and licensing research materials
+  
+
+
+
+	
+  
+    
+      [image: Learning.jpg]
+  
+
+  
+    Entry-level and advanced training through the CDH Learning curriculum
   
 
 
@@ -589,7 +523,10 @@ Mobile Collections project
   
   
     
+    
       
+        
+          
   
     
     
@@ -597,17 +534,16 @@ Mobile Collections project
         
             
             
-            [image: toledo_algorithm.png]
+            [image: Research]
       
 
     
-
     
     
       
-        Doing Research in the Digital Age
+        RESEARCH
 
-        Doing Research in the Digital Age is the introductory strand of the Digital Methods programme offered by Cambridge Digital Humanities. Our varied programme of events is aimed at making a broad community of researchers - from graduate students to senior academics - familiar with the key concepts, methods and tools required to do research in the digital age.
+        Cambridge DH researchers have been involved in over 100 major projects, many of which have attracted significant financial support from external funders.
 
         
           Read more
@@ -616,18 +552,17 @@ Mobile Collections project
       
 
     
-
   
 
 
 
-      
-    
-
-    
-    
+        
 
       
+
+      
+        
+          
   
     
     
@@ -635,17 +570,16 @@ Mobile Collections project
         
             
             
-            [image: Circuit board]
+            [image: Lab]
       
 
     
-
     
     
       
-        Advanced Workshops
+        LAB
 
-        Cambridge Digital Humanities offers a year-long programme of advanced digital methods workshops, which are often run in collaboration with research projects or external partners. Our advanced workshops are aimed at a wide range of researchers, from PhD students to academics who are leaders in their field. Many of the workshops are open for registration or application from participants outside the University of Cambridge.
+        The Lab collaborates with researchers in many fields, and provides support, guidance, and technical solutions tailored to their project goals.
 
         
           Read more
@@ -654,15 +588,92 @@ Mobile Collections project
       
 
     
-
   
 
 
 
+        
+
       
+
     
 
     
+
+      
+        
+          
+  
+    
+    
+      
+        
+            
+            
+            [image: Learning]
+      
+
+    
+    
+    
+      
+        LEARNING
+
+        The CDH Learning programme helps Cambridge students, researchers and staff equip themselves with the tools and methods they need to carry on delivering world-class research and teaching.
+
+        
+          Read more
+          
+        
+      
+
+    
+  
+
+
+
+        
+
+      
+
+      
+        
+          
+  
+    
+    
+      
+        
+            
+            
+            [image: Network]
+      
+
+    
+    
+    
+      
+        NETWORK
+
+        We are a network of researchers at Cambridge who are interested in how the use of digital tools is transforming scholarship in the humanities and social sciences.
+
+        
+          Read more
+          
+        
+      
+
+    
+  
+
+
+
+        
+
+      
+
+    
+
     
   
   
@@ -672,55 +683,95 @@ Mobile Collections project
       
 
   
-    
-      
-        
-            
-            
-            [image: Plaguelogo.jpg]
-      
-
-    
-      
-        Showcased Project
-
-        Visual Representations of the Third Plague Pandemic is an interdisciplinary research project led by social anthropologist, Dr Christos Lynteris. As Yersinia pestis spread from country to country and from continent to continent, it left behind it not only a trail of death and terror, but also a growing visual archive on the first global pandemic to be captured by the photographic lens. 
-
-        
-          Read more
-          
-        
-      
+      Upcoming events
 
   
 
 
 
-
-
-      
-        
-          
-
-
-      
-
-    
-    
-      
+ 
 
   
+    Introduction to Omeka: build and publish a simple digital archive or collection
+
+    May 08, 2018
     
-      
-        Directory
+        B3, Institute of Criminology
 
-        The Cambridge Digital Humanities Network brings together dh researchers across the University. 
+    
 
-        
-          Read more
-          
-        
-      
+  
+
+  
+    Collaborating with the machine: Opportunities, challenges, and caveats
+
+    May 15, 2018
+    
+        B4, Institute of Criminology
+
+    
+
+  
+
+  
+    Lenses or Mirrors? How Algorithms Affect Ways of Seeing Race and Gender
+
+    May 21, 2018
+    
+        SG2, Alison Richard Building
+
+    
+
+  
+
+  
+    Introduction to archival photography
+
+    May 22, 2018
+    
+        Digital Content Unit, University Library
+
+    
+
+  
+
+  
+    Digital Collaboration Tools
+
+    Jun 05, 2018
+    
+        S1, Alison Richard Building
+
+    
+
+  
+
+  
+    Re:search – do search engines shape scholarship?
+
+    Jun 12, 2018
+    
+        S1, Alison Richard Building 
+
+    
+
+  
+
+  
+    Machine Reading the Archive 2018: end-of-programme showcase
+
+    Jun 14, 2018
+    
+        S1, Alison Richard Building
+
+    
+
+  
+
+  
+  
+  
+      Upcoming events
   
 
 
@@ -742,14 +793,15 @@ Mobile Collections project
 
     
       
-        About
         
+        What is CDH?
       
 
     
 
     
-    We are a network of researchers at the University of Cambridge who are interested in how the use of digital tools is transforming scholarship in the humanities and social sciences. This transformation spans both the content and practice of humanities research, as the diffusion of digital technologies opens up new fields of study and generates research questions which breach traditional disciplinary boundaries.
+    Cambridge Digital Humanities is a creative and collaborative space where students, researchers and international visitors can come together to engage in dialogue, experiment with technology and advance scholarship.
+
 
 
     
@@ -764,41 +816,47 @@ Mobile Collections project
 
 
 
+    
+        DH links
+
+        
+    
+
+    	Cambridge Digital Library
+	Digital Humanities at the UL
+	Research Operations Office
+	Office of Scholarly Communication
+	UIS Training
+
+
+
+
+
+
+
 
   
+  
+
+    
       
-	      
-              [image: RSS Feed]
-          Latest news
+        
+        CDH on Twitter
       
 
+    
+
+    
+    Tweets by CamDigHum
+
+
+
+
+    
   
 
 
 
- 
-
-  
-    New project aims to support text and data-mining research in Cambridge
-
-    Jan 29, 2018
-    Want to explore the possibilities of text and data-mining using the collections of Cambridge University Library and Cambridge University Press? Our new project may be able to help. 
-
-  
-
-  
-    Machine Reading the Archive 2017/8 - registration now open
-
-    Sep 18, 2017
-    Register now to join our Machine Reading the Archive programme for 2017/8
-
-  
-
-
-  
-    View all news
-
-  
 
 
 
@@ -827,37 +885,9 @@ Mobile Collections project
     
 
     	
-          Postal Address:
-
-	  
-            Digital Humanities Network
-            
-
-	  
-	  
-            Alison Richard Building
-            
-
-	  
-	  
-            7 West Road
-            
-
-	  
-	  
-            Cambridge
-            
-
-	  
-	  
-            CB3 9DT
-            
-	  
-        
-	
             Information provided by:
   
-            digitalhumanities@crassh.cam.ac.uk
+            webmaster@cdh.cam.ac.uk
         
 	
             
@@ -880,6 +910,50 @@ Mobile Collections project
 
 
     
+    
+      
+
+    
+	  
+	    Contact us
+	  
+    
+
+    	
+          Postal Address:
+
+	  
+            CDH Office, South Front
+            
+
+	  
+	  
+            Cambridge University Library
+            
+
+	  
+	  
+            West Road
+            
+
+	  
+	  
+            Cambridge CB3 9DP
+            
+	  
+        
+	
+            Information provided by:
+  
+            webmaster@cdh.cam.ac.uk
+        
+
+
+
+
+      
+    
+
 
   
 

@@ -180,25 +180,26 @@ Get Involved
 
 				Recent Posts
 			
-POST: Evaluating Digital Humanities Beyond the Tenure Track Parts 1 and 2
+PROJECT: Mapping Consumers in the Black South African Press
 
 	
-RESOURCE: Hacking heritage: understanding the limits of online access
+POST: Launching the Boston Research Center
 
 	
-RESOURCE:  Shifting to Data Savvy: The Future of Data Science In Libraries
+RESOURCE: Mashups and Matters of Concern: Generative Approaches to Digital Collections
 
 	
-CFP: Access, Control, and Dissemination in Digital Humanities
+CFP: Open Education Southern Symposium
 
 	
-EVENT: Emory Digital Humanities Symposium: DH for the Study and Teaching of South Asia
+CFParticipation: Digital Library Pedagogy Cookbook
 
 
 
 Archives
 		Archives
 Select Month
+ May 2018 
  April 2018 
  March 2018 
  February 2018 
@@ -276,26 +277,26 @@ Editor-At-Large Corner
 
 dh+lib Registry
 
-	University of Tennessee – Knoxville
-	University of Toronto Scarborough
-	University of Scranton
-	University of New Mexico
-	University of Virginia
-	Loyola University New Orleans
-	Washington State University
-	Ohio State University
-	New York University
-	Rutgers, The State University of New Jersey
-	Indiana University-Purdue University Indianapolis
+	Middlebury College
+	Bucknell University
+	Case Western Reserve University
 	Vanderbilt University
-	Virginia Commonwealth University
-	McMaster University
-	The Five Colleges of Ohio
-	Indiana University Bloomington
-	University of Idaho
-	Bryn Mawr College
-	University of Oklahoma
 	Northeastern University
+	Virginia Commonwealth University
+	University of Virginia
+	University of California, Irvine
+	Whittier College
+	Southwestern University
+	Washington State University
+	Columbia University
+	Georgetown University
+	Northwestern University
+	Bryn Mawr College
+	Kansas State University
+	University of Minnesota
+	Ghent University
+	University of Kansas
+	Florida State University
 
 
 

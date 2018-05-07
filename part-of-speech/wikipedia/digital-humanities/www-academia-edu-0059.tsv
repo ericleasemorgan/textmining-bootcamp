@@ -10,6 +10,10 @@ NN	edu	edu
 NN	log	Log
 IN	in	In
 NN	sign	Sign
+IN	up	Up
+NN	log	Log
+IN	in	In
+NN	sign	Sign
 RP	up	Up
 JJR	more	more
 NN	job	Job
@@ -28,13 +32,6 @@ VBG	hire	Hiring
 NN	help	Help
 NN	center	Center
 RBR	less	less
-NN	image	image
-NN	academia	Academia
-NN	edu	edu
-NN	log	Log
-IN	in	In
-NN	sign	Sign
-IN	up	Up
 NN	image	image
 NN	pdf	pdf
 NN	image	image

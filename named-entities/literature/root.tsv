@@ -1,6 +1,6 @@
 type	entity
 LOCATION	United States of America
-ORGANIZATION	United States svg Society History Language People Race
+ORGANIZATION	United States svg Society History Language People Nation
 ORGANIZATION	Folklore Media Newspapers Radio Cinema
 LOCATION	America
 LOCATION	United States
@@ -184,6 +184,7 @@ ORGANIZATION	Charlotte Temple
 PERSON	Stowe
 PERSON	Tom
 PERSON	Rowson
+LOCATION	Charlotte Temple
 PERSON	Eliza Wharton
 PERSON	Eliza Whitman
 PERSON	Eliza
@@ -648,7 +649,7 @@ ORGANIZATION	Hamilton Kristie An Assault
 PERSON	Hannah Webster Foster
 PERSON	Campbell Donna
 ORGANIZATION	Rutherford Mildred American Authors Atlanta The Franklin Printing and Publishing Co
-LOCATION	West Washington Irving
+ORGANIZATION	West Washington Irving
 ORGANIZATION	Gura Philip F American Transcendentalism A History New York Hill
 PERSON	Emily Dickinson
 PERSON	Hazel Hutchison
@@ -709,7 +710,8 @@ LOCATION	United States
 LOCATION	Afghanistan
 LOCATION	Geography Territory
 LOCATION	Islands Mountains
-ORGANIZATION	Appalachian Rocky National Park Service National Parks Regions East Coast West Coast Great Plains Gulf Mid Atlantic Midwestern New England Pacific Central Eastern Northern Northeastern Northwestern Southern Southeastern Southwestern Western Rivers Colorado Columbia Mississippi Missouri Ohio Rio Grande Yukon Time Water
+ORGANIZATION	Appalachian Rocky National Park Service National Parks Regions East Coast West Coast Great Plains Gulf Mid Atlantic Midwestern New England Pacific Central Eastern Northern Northeastern Northwestern Southern Southeastern Southwestern Western Longest
+ORGANIZATION	Arkansas Colorado Columbia Mississippi Missouri Red South Rio Grande Yukon Time Water
 ORGANIZATION	Politics Federal Executive Cabinet Civil service Executive departments Executive Office Independent
 LOCATION	United States
 ORGANIZATION	Legislative House of Representatives

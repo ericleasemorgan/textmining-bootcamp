@@ -33,7 +33,7 @@ This category has the following 18 subcategories, out of 18 total.
 
  
 
-	►  Writers from the United States‎ (94 C,  1650 F)
+	►  Writers from the United States‎ (116 C,  1649 F)
 
 		
 
@@ -43,7 +43,7 @@ This category has the following 18 subcategories, out of 18 total.
 
 *
 
-	►  Novels from the United States‎ (94 C,  39 F)
+	►  Novels from the United States‎ (94 C,  38 F)
 
 		
 
@@ -109,7 +109,7 @@ B
 
 
 		
-	►  Books from the United States‎ (186 C, 1 P, 285 F)
+	►  Books from the United States‎ (194 C, 1 P, 285 F)
 
 		
 
@@ -171,7 +171,7 @@ G
 
 P
 
-	►  Project Gutenberg‎ (2 C,  10 F)
+	►  Project Gutenberg‎ (2 C,  11 F)
 
 		
 
@@ -871,6 +871,7 @@ Non-topical/index: 	Interwiki from wikidata
 	한국어
 	Latina
 	Lëtzebuergesch
+	Lumbaart
 	Lietuvių
 	Latviešu
 	Македонски

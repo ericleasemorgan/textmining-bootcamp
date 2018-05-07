@@ -4,13 +4,13 @@
      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xml:lang="de_DE" lang="de_DE" xmlns="http://www.w3.org/1999/xhtml">
 <head><script src="http://archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app23.us.archive.org';v.server_ms=350;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="http://web.archive.org/static/js/wbhack.js?v=1522452177.0" charset="utf-8"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app41.us.archive.org';v.server_ms=1005;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="http://web.archive.org/static/js/wbhack.js?v=1525205731.0" charset="utf-8"></script>
 
 <script type="text/javascript">
 __wbhack.init('http://web.archive.org/web');
 </script>
-<link rel="stylesheet" type="text/css" href="http://web.archive.org/static/css/banner-styles.css?v=1522452177.0" />
-<link rel="stylesheet" type="text/css" href="http://web.archive.org/static/css/iconochive.css?v=1522452177.0" />
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/static/css/banner-styles.css?v=1525205731.0" />
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/static/css/iconochive.css?v=1525205731.0" />
 
 <!-- End Wayback Rewrite JS Include -->
 
@@ -296,7 +296,7 @@ var et_areas        = "GESIS%2Fhsr%2Faktuelle-ausgaben%2Faktuelle-hefte-2010-201
 </body>
 </html><!--
      FILE ARCHIVED ON 06:11:17 Jun 06, 2013 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 02:19:35 Apr 11, 2018.
+     INTERNET ARCHIVE ON 12:04:59 May 07, 2018.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -304,14 +304,14 @@ var et_areas        = "GESIS%2Fhsr%2Faktuelle-ausgaben%2Faktuelle-hefte-2010-201
 -->
 <!--
 playback timings (ms):
-  LoadShardBlock: 109.051 (3)
-  esindex: 0.009
-  captures_list: 125.371
-  CDXLines.iter: 11.188 (3)
-  PetaboxLoader3.datanode: 85.094 (4)
-  exclusion.robots: 0.276
-  exclusion.robots.policy: 0.238
-  RedisCDXSource: 0.745
-  PetaboxLoader3.resolve: 114.428
-  load_resource: 202.757
+  LoadShardBlock: 482.568 (3)
+  esindex: 0.01
+  captures_list: 516.889
+  CDXLines.iter: 11.41 (3)
+  PetaboxLoader3.datanode: 64.609 (4)
+  exclusion.robots: 0.192
+  exclusion.robots.policy: 0.169
+  RedisCDXSource: 19.307
+  PetaboxLoader3.resolve: 484.472 (4)
+  load_resource: 456.569
 -->

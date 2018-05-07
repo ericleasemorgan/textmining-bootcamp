@@ -1,6 +1,5 @@
 type	entity
 PERSON	Miriam Posner
-PERSON	Miriam
 ORGANIZATION	Miriam Digital Humanities Cross
 ORGANIZATION	UCLA
 PERSON	Porter
@@ -43,12 +42,11 @@ PERSON	Miriam Posner
 ORGANIZATION	University of California Los Angeles
 ORGANIZATION	UCLA
 ORGANIZATION	Digital Humanities DH150 Digital Labor
+ORGANIZATION	Digital Age Workshops
 ORGANIZATION	Palladio Google
 ORGANIZATION	Medical Images Network Analysis
-ORGANIZATION	University of Chicago
-ORGANIZATION	Society for Cinema and Media Studies Toronto
-ORGANIZATION	Command New York University
 ORGANIZATION	Health Sciences Los Angeles
+ORGANIZATION	University of Wisconsin Green Bay
 ORGANIZATION	Digital Humanities 2018 Mexico City Archives
 ORGANIZATION	RSS Reading Lists Capitalism and American Culture Digital Humanities
 ORGANIZATION	Library Early American Silent Film Labor

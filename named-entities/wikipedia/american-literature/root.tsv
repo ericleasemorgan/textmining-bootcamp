@@ -1,7 +1,7 @@
 type	entity
 ORGANIZATION	Wikipedia
 LOCATION	United States of America
-ORGANIZATION	United States svg Society History Language People Race
+ORGANIZATION	United States svg Society History Language People Nation
 ORGANIZATION	Folklore Media Newspapers Radio Cinema
 LOCATION	America
 LOCATION	United States
@@ -185,6 +185,7 @@ ORGANIZATION	Charlotte Temple
 PERSON	Stowe
 PERSON	Tom
 PERSON	Rowson
+LOCATION	Charlotte Temple
 PERSON	Hannah Webster Foster
 PERSON	Eliza Wharton
 PERSON	Foster
@@ -310,6 +311,7 @@ PERSON	Walt Whitman
 PERSON	Emily Dickinson
 LOCATION	America
 PERSON	Walt Whitman
+PERSON	Whitman
 PERSON	Whitman
 PERSON	D H Lawrence
 PERSON	Whitman
@@ -713,7 +715,8 @@ LOCATION	United States
 LOCATION	Afghanistan
 LOCATION	Geography Territory
 LOCATION	Islands Mountains
-ORGANIZATION	Appalachian Rocky National Park Service National Parks Regions East Coast West Coast Great Plains Gulf Mid Atlantic Midwestern New England Pacific Central Eastern Northern Northeastern Northwestern Southern Southeastern Southwestern Western Rivers Colorado Columbia Mississippi Missouri Ohio Rio Grande Yukon Time Water
+ORGANIZATION	Appalachian Rocky National Park Service National Parks Regions East Coast West Coast Great Plains Gulf Mid Atlantic Midwestern New England Pacific Central Eastern Northern Northeastern Northwestern Southern Southeastern Southwestern Western Longest
+ORGANIZATION	Arkansas Colorado Columbia Mississippi Missouri Red South Rio Grande Yukon Time Water
 ORGANIZATION	Politics Federal Executive Cabinet Civil service Executive departments Executive Office Independent
 LOCATION	United States
 ORGANIZATION	Legislative House of Representatives

@@ -34,9 +34,9 @@ IN	from	from
 DT	the	the
 NNP	United	United
 NNPS	States	States
-CD	94	94
+CD	116	116
 NN	c	C
-CD	1650	1650
+CD	1649	1649
 NN	f	F
 NNS	novel	Novels
 IN	from	from
@@ -45,7 +45,7 @@ NNP	United	United
 NNPS	States	States
 CD	94	94
 NN	c	C
-CD	39	39
+CD	38	38
 NN	f	F
 NN	poetry	Poetry
 IN	of	of
@@ -124,7 +124,7 @@ IN	from	from
 DT	the	the
 NNP	United	United
 NNPS	States	States
-CD	186	186
+CD	194	194
 NN	c	C
 CD	1	1
 NN	p	P
@@ -179,8 +179,8 @@ NN	p	P
 NN	project	Project
 NNP	Gutenberg	Gutenberg
 CD	2	2
-NN	c	C
-CD	10	10
+NNP	C	C
+CD	11	11
 NN	f	F
 NNS	page	Pages
 IN	in	in
@@ -826,6 +826,7 @@ NNP	Jawa	Jawa
 NNP	Latina	Latina
 NNP	L	L
 NNP	tzebuergesch	tzebuergesch
+NNP	Lumbaart	Lumbaart
 NNP	Lietuvi	Lietuvi
 NNP	Latvie	Latvie
 NNP	u	u

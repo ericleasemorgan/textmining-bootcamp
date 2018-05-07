@@ -781,9 +781,6 @@ NN	page	page
 IN	in	In
 JJ	other	other
 NNS	language	languages
-NN	qaf	Qaf
-NN	r	r
-NN	af	af
 NN	ac	Ac
 NN	h	h
 NNP	Afrikaans	Afrikaans
@@ -820,6 +817,7 @@ NN	ng	ng
 NN	ng	ng
 NNP	Cebuano	Cebuano
 NNP	Chamoru	Chamoru
+NNP	Choctaw	Choctaw
 NNP	Tsets	Tsets
 NNP	hest	hest
 NNP	hese	hese
@@ -881,6 +879,8 @@ NNP	e	e
 NNP	G	G
 NNP	ychi	ychi
 NNP	Konknni	Konknni
+NNP	Bahasa	Bahasa
+NNP	Hulontalo	Hulontalo
 NNP	Gaelg	Gaelg
 NNP	Hausa	Hausa
 NNP	Hak	Hak
@@ -931,6 +931,9 @@ NNP	Latina	Latina
 NNP	Ladino	Ladino
 NNP	L	L
 NNP	tzebuergesch	tzebuergesch
+NNP	Lingua	Lingua
+NNP	Franca	Franca
+NNP	Nova	Nova
 NNP	Luganda	Luganda
 NNP	Limburgs	Limburgs
 NNP	Ligure	Ligure
@@ -961,7 +964,8 @@ NNP	huatl	huatl
 NNP	Napulitano	Napulitano
 NNP	Plattd	Plattd
 NNP	tsch	tsch
-NNP	Nedersaksies	Nedersaksies
+NNPS	Nedersaksies	Nedersaksies
+NNP	Oshiwambo	Oshiwambo
 NNPS	Nederlands	Nederlands
 NNP	Norsk	Norsk
 NNP	nynorsk	nynorsk

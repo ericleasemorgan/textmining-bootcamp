@@ -1,4 +1,4 @@
-<pos><sentence id="439">
+<pos><sentence id="442">
   <word wid="0" pos="VB" lemma="help">Help</word>
   <word wid="1" pos="VB" lemma="search">Search</word>
   <word wid="2" pos="NNS" lemma="result">results</word>
@@ -12,7 +12,7 @@
   <word wid="10" pos="CD" lemma="20">20</word>
   <word wid="11" pos="IN" lemma="of">of</word>
   <word wid="12" pos="CD" lemma="6">6</word>
-  <word wid="13" pos="CD" lemma="555">555</word>
+  <word wid="13" pos="CD" lemma="581">581</word>
   <word wid="14" pos="NN" lemma="content">Content</word>
   <word wid="15" pos="NNS" lemma="page">pages</word>
   <word wid="16" pos="NNS" lemma="multimedia">Multimedia</word>
@@ -286,82 +286,82 @@
   <word wid="284" pos="NN" lemma="image">image</word>
   <word wid="285" pos="NN" lemma="file">File</word>
   <word wid="286" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="287" pos="NNS" lemma="humanities">humanities</word>
-  <word wid="288" pos="VBP" lemma="chart">chart</word>
-  <word wid="289" pos="NN" lemma="jpg">jpg</word>
-  <word wid="290" pos="JJ" lemma="descriptiondigital">DescriptionDigital</word>
-  <word wid="291" pos="NNS" lemma="humanities">humanities</word>
-  <word wid="292" pos="VBP" lemma="chart">chart</word>
-  <word wid="293" pos="NN" lemma="jpg">jpg</word>
-  <word wid="294" pos="NNP" lemma="English">English</word>
-  <word wid="295" pos="DT" lemma="a">A</word>
-  <word wid="296" pos="NN" lemma="chart">chart</word>
-  <word wid="297" pos="IN" lemma="with">with</word>
-  <word wid="298" pos="JJ" lemma="multiple">multiple</word>
-  <word wid="299" pos="NNS" lemma="type">types</word>
-  <word wid="300" pos="IN" lemma="of">of</word>
-  <word wid="301" pos="NNS" lemma="statistics">statistics</word>
-  <word wid="302" pos="IN" lemma="about">about</word>
-  <word wid="303" pos="NN" lemma="progress">progress</word>
-  <word wid="304" pos="IN" lemma="in">in</word>
-  <word wid="305" pos="DT" lemma="the">the</word>
-  <word wid="306" pos="NNP" lemma="digital">digital</word>
-  <word wid="307" pos="NNS" lemma="humanities">humanities</word>
-  <word wid="308" pos="NN" lemma="date">Date</word>
-  <word wid="309" pos="CD" lemma="20">20</word>
-  <word wid="310" pos="NNP" lemma="January">January</word>
-  <word wid="311" pos="CD" lemma="792">792</word>
-  <word wid="312" pos="CD" lemma="4">4</word>
-  <word wid="313" pos="CD" lemma="263">263</word>
+  <word wid="287" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="288" pos="IN" lemma="on">on</word>
+  <word wid="289" pos="NN" lemma="twitter">Twitter</word>
+  <word wid="290" pos="NNP" lemma="png">png</word>
+  <word wid="291" pos="JJ" lemma="descriptiondigital">DescriptionDigital</word>
+  <word wid="292" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="293" pos="IN" lemma="on">on</word>
+  <word wid="294" pos="NN" lemma="twitter">Twitter</word>
+  <word wid="295" pos="NNP" lemma="png">png</word>
+  <word wid="296" pos="NNP" lemma="English">English</word>
+  <word wid="297" pos="NN" lemma="graph">Graph</word>
+  <word wid="298" pos="IN" lemma="of">of</word>
+  <word wid="299" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="300" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="301" pos="NN" lemma="twitter">Twitter</word>
+  <word wid="302" pos="NNS" lemma="user">users</word>
+  <word wid="303" pos="IN" lemma="with">with</word>
+  <word wid="304" pos="CD" lemma="1">1</word>
+  <word wid="305" pos="CD" lemma="434">434</word>
+  <word wid="306" pos="NNS" lemma="node">nodes</word>
+  <word wid="307" pos="CC" lemma="and">and</word>
+  <word wid="308" pos="CD" lemma="137">137</word>
+  <word wid="309" pos="CD" lemma="061">061</word>
+  <word wid="310" pos="VBN" lemma="direct">directed</word>
+  <word wid="311" pos="NNS" lemma="edge">edges</word>
+  <word wid="312" pos="WDT" lemma="that">that</word>
+  <word wid="313" pos="DT" lemma="each">each</word>
   <word wid="314" pos="CD" lemma="1">1</word>
-  <word wid="315" pos="CD" lemma="87">87</word>
-  <word wid="316" pos="NN" lemma="mb">MB</word>
-  <word wid="317" pos="CD" lemma="18">18</word>
-  <word wid="318" pos="NN" lemma="01">01</word>
-  <word wid="319" pos="CD" lemma="15">15</word>
-  <word wid="320" pos="NNP" lemma="February">February</word>
-  <word wid="321" pos="CD" lemma="2018">2018</word>
-  <word wid="322" pos="NN" lemma="image">image</word>
-  <word wid="323" pos="NN" lemma="file">File</word>
-  <word wid="324" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="325" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="326" pos="IN" lemma="on">on</word>
-  <word wid="327" pos="NN" lemma="twitter">Twitter</word>
-  <word wid="328" pos="NNP" lemma="png">png</word>
-  <word wid="329" pos="JJ" lemma="descriptiondigital">DescriptionDigital</word>
-  <word wid="330" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="331" pos="IN" lemma="on">on</word>
-  <word wid="332" pos="NN" lemma="twitter">Twitter</word>
-  <word wid="333" pos="NNP" lemma="png">png</word>
-  <word wid="334" pos="NNP" lemma="English">English</word>
-  <word wid="335" pos="NN" lemma="graph">Graph</word>
-  <word wid="336" pos="IN" lemma="of">of</word>
-  <word wid="337" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="338" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="339" pos="NN" lemma="twitter">Twitter</word>
-  <word wid="340" pos="NNS" lemma="user">users</word>
-  <word wid="341" pos="IN" lemma="with">with</word>
-  <word wid="342" pos="CD" lemma="1">1</word>
-  <word wid="343" pos="CD" lemma="434">434</word>
-  <word wid="344" pos="NNS" lemma="node">nodes</word>
-  <word wid="345" pos="CC" lemma="and">and</word>
-  <word wid="346" pos="CD" lemma="137">137</word>
-  <word wid="347" pos="CD" lemma="061">061</word>
-  <word wid="348" pos="VBN" lemma="direct">directed</word>
-  <word wid="349" pos="NNS" lemma="edge">edges</word>
-  <word wid="350" pos="WDT" lemma="that">that</word>
-  <word wid="351" pos="DT" lemma="each">each</word>
-  <word wid="352" pos="CD" lemma="1">1</word>
-  <word wid="353" pos="CD" lemma="000">000</word>
-  <word wid="354" pos="CD" lemma="824">824</word>
+  <word wid="315" pos="CD" lemma="000">000</word>
+  <word wid="316" pos="CD" lemma="824">824</word>
+  <word wid="317" pos="CD" lemma="1">1</word>
+  <word wid="318" pos="NN" lemma="09">09</word>
+  <word wid="319" pos="NN" lemma="mb">MB</word>
+  <word wid="320" pos="CD" lemma="12">12</word>
+  <word wid="321" pos="CD" lemma="47">47</word>
+  <word wid="322" pos="CD" lemma="28">28</word>
+  <word wid="323" pos="NNP" lemma="December">December</word>
+  <word wid="324" pos="CD" lemma="2016">2016</word>
+  <word wid="325" pos="NN" lemma="image">image</word>
+  <word wid="326" pos="NN" lemma="file">File</word>
+  <word wid="327" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="328" pos="NNS" lemma="humanities">humanities</word>
+  <word wid="329" pos="VBP" lemma="chart">chart</word>
+  <word wid="330" pos="NN" lemma="jpg">jpg</word>
+  <word wid="331" pos="JJ" lemma="descriptiondigital">DescriptionDigital</word>
+  <word wid="332" pos="NNS" lemma="humanities">humanities</word>
+  <word wid="333" pos="VBP" lemma="chart">chart</word>
+  <word wid="334" pos="NN" lemma="jpg">jpg</word>
+  <word wid="335" pos="NNP" lemma="English">English</word>
+  <word wid="336" pos="DT" lemma="a">A</word>
+  <word wid="337" pos="NN" lemma="chart">chart</word>
+  <word wid="338" pos="IN" lemma="with">with</word>
+  <word wid="339" pos="JJ" lemma="multiple">multiple</word>
+  <word wid="340" pos="NNS" lemma="type">types</word>
+  <word wid="341" pos="IN" lemma="of">of</word>
+  <word wid="342" pos="NNS" lemma="statistics">statistics</word>
+  <word wid="343" pos="IN" lemma="about">about</word>
+  <word wid="344" pos="NN" lemma="progress">progress</word>
+  <word wid="345" pos="IN" lemma="in">in</word>
+  <word wid="346" pos="DT" lemma="the">the</word>
+  <word wid="347" pos="NNP" lemma="digital">digital</word>
+  <word wid="348" pos="NNS" lemma="humanities">humanities</word>
+  <word wid="349" pos="NN" lemma="date">Date</word>
+  <word wid="350" pos="CD" lemma="20">20</word>
+  <word wid="351" pos="NNP" lemma="January">January</word>
+  <word wid="352" pos="CD" lemma="792">792</word>
+  <word wid="353" pos="CD" lemma="4">4</word>
+  <word wid="354" pos="CD" lemma="263">263</word>
   <word wid="355" pos="CD" lemma="1">1</word>
-  <word wid="356" pos="NN" lemma="09">09</word>
+  <word wid="356" pos="CD" lemma="87">87</word>
   <word wid="357" pos="NN" lemma="mb">MB</word>
-  <word wid="358" pos="CD" lemma="12">12</word>
-  <word wid="359" pos="CD" lemma="47">47</word>
-  <word wid="360" pos="CD" lemma="28">28</word>
-  <word wid="361" pos="NNP" lemma="December">December</word>
-  <word wid="362" pos="CD" lemma="2016">2016</word>
+  <word wid="358" pos="CD" lemma="18">18</word>
+  <word wid="359" pos="NN" lemma="01">01</word>
+  <word wid="360" pos="CD" lemma="15">15</word>
+  <word wid="361" pos="NNP" lemma="February">February</word>
+  <word wid="362" pos="CD" lemma="2018">2018</word>
   <word wid="363" pos="NN" lemma="image">image</word>
   <word wid="364" pos="NN" lemma="file">File</word>
   <word wid="365" pos="NN" lemma="conference">Conference</word>
@@ -406,12 +406,12 @@
   <word wid="404" pos="NN" lemma="conference">Conference</word>
   <word wid="405" pos="NNP" lemma="Digital">Digital</word>
   <word wid="406" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="407" pos="CD" lemma="008">008</word>
+  <word wid="407" pos="CD" lemma="007">007</word>
   <word wid="408" pos="NN" lemma="jpg">JPG</word>
   <word wid="409" pos="NN" lemma="descriptionconference">DescriptionConference</word>
   <word wid="410" pos="NNP" lemma="Digital">Digital</word>
   <word wid="411" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="412" pos="CD" lemma="008">008</word>
+  <word wid="412" pos="CD" lemma="007">007</word>
   <word wid="413" pos="NN" lemma="jpg">JPG</word>
   <word wid="414" pos="JJ" lemma="english">English</word>
   <word wid="415" pos="NN" lemma="conference">Conference</word>
@@ -444,12 +444,12 @@
   <word wid="442" pos="NN" lemma="conference">Conference</word>
   <word wid="443" pos="NNP" lemma="Digital">Digital</word>
   <word wid="444" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="445" pos="CD" lemma="009">009</word>
+  <word wid="445" pos="CD" lemma="14">14</word>
   <word wid="446" pos="NN" lemma="jpg">JPG</word>
   <word wid="447" pos="NN" lemma="descriptionconference">DescriptionConference</word>
   <word wid="448" pos="NNP" lemma="Digital">Digital</word>
   <word wid="449" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="450" pos="CD" lemma="009">009</word>
+  <word wid="450" pos="CD" lemma="14">14</word>
   <word wid="451" pos="NN" lemma="jpg">JPG</word>
   <word wid="452" pos="JJ" lemma="english">English</word>
   <word wid="453" pos="NN" lemma="conference">Conference</word>
@@ -465,126 +465,126 @@
   <word wid="463" pos="NNP" lemma="Belgrade">Belgrade</word>
   <word wid="464" pos="CD" lemma="22">22</word>
   <word wid="465" pos="CD" lemma="26">26</word>
-  <word wid="466" pos="CD" lemma="2">2</word>
-  <word wid="467" pos="CD" lemma="560">560</word>
-  <word wid="468" pos="CD" lemma="1">1</word>
-  <word wid="469" pos="CD" lemma="536">536</word>
-  <word wid="470" pos="CD" lemma="285">285</word>
-  <word wid="471" pos="NN" lemma="kb">KB</word>
-  <word wid="472" pos="CD" lemma="15">15</word>
-  <word wid="473" pos="CD" lemma="22">22</word>
-  <word wid="474" pos="CD" lemma="24">24</word>
-  <word wid="475" pos="NNP" lemma="November">November</word>
-  <word wid="476" pos="CD" lemma="2016">2016</word>
-  <word wid="477" pos="NN" lemma="image">image</word>
-  <word wid="478" pos="NN" lemma="file">File</word>
-  <word wid="479" pos="NN" lemma="conference">Conference</word>
-  <word wid="480" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="481" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="482" pos="CD" lemma="18">18</word>
-  <word wid="483" pos="NN" lemma="jpg">JPG</word>
-  <word wid="484" pos="NN" lemma="descriptionconference">DescriptionConference</word>
-  <word wid="485" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="486" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="487" pos="CD" lemma="18">18</word>
-  <word wid="488" pos="NN" lemma="jpg">JPG</word>
-  <word wid="489" pos="JJ" lemma="english">English</word>
-  <word wid="490" pos="NN" lemma="conference">Conference</word>
-  <word wid="491" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="492" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="493" pos="IN" lemma="at">at</word>
-  <word wid="494" pos="DT" lemma="the">the</word>
-  <word wid="495" pos="NN" lemma="faculty">Faculty</word>
-  <word wid="496" pos="IN" lemma="of">of</word>
-  <word wid="497" pos="NNP" lemma="Philology">Philology</word>
-  <word wid="498" pos="NNP" lemma="University">University</word>
-  <word wid="499" pos="IN" lemma="of">of</word>
-  <word wid="500" pos="NNP" lemma="Belgrade">Belgrade</word>
-  <word wid="501" pos="CD" lemma="22">22</word>
-  <word wid="502" pos="CD" lemma="26">26</word>
-  <word wid="503" pos="NNP" lemma="September">September</word>
-  <word wid="504" pos="CD" lemma="2">2</word>
-  <word wid="505" pos="CD" lemma="560">560</word>
-  <word wid="506" pos="CD" lemma="1">1</word>
-  <word wid="507" pos="CD" lemma="536">536</word>
+  <word wid="466" pos="NNP" lemma="September">September</word>
+  <word wid="467" pos="CD" lemma="2">2</word>
+  <word wid="468" pos="CD" lemma="560">560</word>
+  <word wid="469" pos="CD" lemma="1">1</word>
+  <word wid="470" pos="CD" lemma="536">536</word>
+  <word wid="471" pos="CD" lemma="1">1</word>
+  <word wid="472" pos="CD" lemma="52">52</word>
+  <word wid="473" pos="NN" lemma="mb">MB</word>
+  <word wid="474" pos="CD" lemma="15">15</word>
+  <word wid="475" pos="CD" lemma="22">22</word>
+  <word wid="476" pos="CD" lemma="24">24</word>
+  <word wid="477" pos="NNP" lemma="November">November</word>
+  <word wid="478" pos="CD" lemma="2016">2016</word>
+  <word wid="479" pos="NN" lemma="image">image</word>
+  <word wid="480" pos="NN" lemma="file">File</word>
+  <word wid="481" pos="NN" lemma="conference">Conference</word>
+  <word wid="482" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="483" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="484" pos="CD" lemma="13">13</word>
+  <word wid="485" pos="NN" lemma="jpg">JPG</word>
+  <word wid="486" pos="NN" lemma="descriptionconference">DescriptionConference</word>
+  <word wid="487" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="488" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="489" pos="CD" lemma="13">13</word>
+  <word wid="490" pos="NN" lemma="jpg">JPG</word>
+  <word wid="491" pos="JJ" lemma="english">English</word>
+  <word wid="492" pos="NN" lemma="conference">Conference</word>
+  <word wid="493" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="494" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="495" pos="IN" lemma="at">at</word>
+  <word wid="496" pos="DT" lemma="the">the</word>
+  <word wid="497" pos="NN" lemma="faculty">Faculty</word>
+  <word wid="498" pos="IN" lemma="of">of</word>
+  <word wid="499" pos="NNP" lemma="Philology">Philology</word>
+  <word wid="500" pos="NNP" lemma="University">University</word>
+  <word wid="501" pos="IN" lemma="of">of</word>
+  <word wid="502" pos="NNP" lemma="Belgrade">Belgrade</word>
+  <word wid="503" pos="CD" lemma="22">22</word>
+  <word wid="504" pos="CD" lemma="26">26</word>
+  <word wid="505" pos="NNP" lemma="September">September</word>
+  <word wid="506" pos="CD" lemma="2">2</word>
+  <word wid="507" pos="CD" lemma="560">560</word>
   <word wid="508" pos="CD" lemma="1">1</word>
-  <word wid="509" pos="CD" lemma="56">56</word>
-  <word wid="510" pos="NN" lemma="mb">MB</word>
-  <word wid="511" pos="CD" lemma="15">15</word>
-  <word wid="512" pos="CD" lemma="22">22</word>
-  <word wid="513" pos="CD" lemma="24">24</word>
-  <word wid="514" pos="NNP" lemma="November">November</word>
-  <word wid="515" pos="CD" lemma="2016">2016</word>
-  <word wid="516" pos="NN" lemma="image">image</word>
-  <word wid="517" pos="NN" lemma="file">File</word>
-  <word wid="518" pos="NN" lemma="conference">Conference</word>
-  <word wid="519" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="520" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="521" pos="CD" lemma="006">006</word>
-  <word wid="522" pos="NN" lemma="jpg">JPG</word>
-  <word wid="523" pos="NN" lemma="descriptionconference">DescriptionConference</word>
-  <word wid="524" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="525" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="526" pos="CD" lemma="006">006</word>
-  <word wid="527" pos="NN" lemma="jpg">JPG</word>
-  <word wid="528" pos="JJ" lemma="english">English</word>
-  <word wid="529" pos="NN" lemma="conference">Conference</word>
-  <word wid="530" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="531" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="532" pos="IN" lemma="at">at</word>
-  <word wid="533" pos="DT" lemma="the">the</word>
-  <word wid="534" pos="NN" lemma="faculty">Faculty</word>
-  <word wid="535" pos="IN" lemma="of">of</word>
-  <word wid="536" pos="NNP" lemma="Philology">Philology</word>
-  <word wid="537" pos="NNP" lemma="University">University</word>
-  <word wid="538" pos="IN" lemma="of">of</word>
-  <word wid="539" pos="NNP" lemma="Belgrade">Belgrade</word>
-  <word wid="540" pos="CD" lemma="22">22</word>
-  <word wid="541" pos="CD" lemma="26">26</word>
-  <word wid="542" pos="CD" lemma="2">2</word>
-  <word wid="543" pos="CD" lemma="560">560</word>
-  <word wid="544" pos="CD" lemma="1">1</word>
-  <word wid="545" pos="CD" lemma="536">536</word>
-  <word wid="546" pos="CD" lemma="274">274</word>
-  <word wid="547" pos="NN" lemma="kb">KB</word>
-  <word wid="548" pos="CD" lemma="15">15</word>
-  <word wid="549" pos="CD" lemma="22">22</word>
-  <word wid="550" pos="CD" lemma="24">24</word>
-  <word wid="551" pos="NNP" lemma="November">November</word>
-  <word wid="552" pos="CD" lemma="2016">2016</word>
-  <word wid="553" pos="NN" lemma="image">image</word>
-  <word wid="554" pos="NN" lemma="file">File</word>
-  <word wid="555" pos="NN" lemma="conference">Conference</word>
-  <word wid="556" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="557" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="558" pos="CD" lemma="007">007</word>
-  <word wid="559" pos="NN" lemma="jpg">JPG</word>
-  <word wid="560" pos="NN" lemma="descriptionconference">DescriptionConference</word>
-  <word wid="561" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="562" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="563" pos="CD" lemma="007">007</word>
-  <word wid="564" pos="NN" lemma="jpg">JPG</word>
-  <word wid="565" pos="JJ" lemma="english">English</word>
-  <word wid="566" pos="NN" lemma="conference">Conference</word>
-  <word wid="567" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="568" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="569" pos="IN" lemma="at">at</word>
-  <word wid="570" pos="DT" lemma="the">the</word>
-  <word wid="571" pos="NN" lemma="faculty">Faculty</word>
-  <word wid="572" pos="IN" lemma="of">of</word>
-  <word wid="573" pos="NNP" lemma="Philology">Philology</word>
-  <word wid="574" pos="NNP" lemma="University">University</word>
+  <word wid="509" pos="CD" lemma="536">536</word>
+  <word wid="510" pos="CD" lemma="1">1</word>
+  <word wid="511" pos="CD" lemma="6">6</word>
+  <word wid="512" pos="NN" lemma="mb">MB</word>
+  <word wid="513" pos="CD" lemma="15">15</word>
+  <word wid="514" pos="CD" lemma="22">22</word>
+  <word wid="515" pos="CD" lemma="24">24</word>
+  <word wid="516" pos="NNP" lemma="November">November</word>
+  <word wid="517" pos="CD" lemma="2016">2016</word>
+  <word wid="518" pos="NN" lemma="image">image</word>
+  <word wid="519" pos="NN" lemma="file">File</word>
+  <word wid="520" pos="NN" lemma="conference">Conference</word>
+  <word wid="521" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="522" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="523" pos="CD" lemma="010">010</word>
+  <word wid="524" pos="NN" lemma="jpg">JPG</word>
+  <word wid="525" pos="NN" lemma="descriptionconference">DescriptionConference</word>
+  <word wid="526" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="527" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="528" pos="CD" lemma="010">010</word>
+  <word wid="529" pos="NN" lemma="jpg">JPG</word>
+  <word wid="530" pos="JJ" lemma="english">English</word>
+  <word wid="531" pos="NN" lemma="conference">Conference</word>
+  <word wid="532" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="533" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="534" pos="IN" lemma="at">at</word>
+  <word wid="535" pos="DT" lemma="the">the</word>
+  <word wid="536" pos="NN" lemma="faculty">Faculty</word>
+  <word wid="537" pos="IN" lemma="of">of</word>
+  <word wid="538" pos="NNP" lemma="Philology">Philology</word>
+  <word wid="539" pos="NNP" lemma="University">University</word>
+  <word wid="540" pos="IN" lemma="of">of</word>
+  <word wid="541" pos="NNP" lemma="Belgrade">Belgrade</word>
+  <word wid="542" pos="CD" lemma="22">22</word>
+  <word wid="543" pos="CD" lemma="26">26</word>
+  <word wid="544" pos="CD" lemma="2">2</word>
+  <word wid="545" pos="CD" lemma="560">560</word>
+  <word wid="546" pos="CD" lemma="1">1</word>
+  <word wid="547" pos="CD" lemma="536">536</word>
+  <word wid="548" pos="CD" lemma="1">1</word>
+  <word wid="549" pos="CD" lemma="34">34</word>
+  <word wid="550" pos="NN" lemma="mb">MB</word>
+  <word wid="551" pos="CD" lemma="15">15</word>
+  <word wid="552" pos="CD" lemma="22">22</word>
+  <word wid="553" pos="CD" lemma="24">24</word>
+  <word wid="554" pos="NNP" lemma="November">November</word>
+  <word wid="555" pos="CD" lemma="2016">2016</word>
+  <word wid="556" pos="NN" lemma="image">image</word>
+  <word wid="557" pos="NN" lemma="file">File</word>
+  <word wid="558" pos="NN" lemma="conference">Conference</word>
+  <word wid="559" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="560" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="561" pos="NN" lemma="03">03</word>
+  <word wid="562" pos="NN" lemma="jpg">JPG</word>
+  <word wid="563" pos="NN" lemma="descriptionconference">DescriptionConference</word>
+  <word wid="564" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="565" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="566" pos="VBP" lemma="03">03</word>
+  <word wid="567" pos="NN" lemma="jpg">JPG</word>
+  <word wid="568" pos="JJ" lemma="english">English</word>
+  <word wid="569" pos="NN" lemma="conference">Conference</word>
+  <word wid="570" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="571" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="572" pos="IN" lemma="at">at</word>
+  <word wid="573" pos="DT" lemma="the">the</word>
+  <word wid="574" pos="NN" lemma="faculty">Faculty</word>
   <word wid="575" pos="IN" lemma="of">of</word>
-  <word wid="576" pos="NNP" lemma="Belgrade">Belgrade</word>
-  <word wid="577" pos="CD" lemma="22">22</word>
-  <word wid="578" pos="CD" lemma="26">26</word>
-  <word wid="579" pos="CD" lemma="2">2</word>
-  <word wid="580" pos="CD" lemma="560">560</word>
-  <word wid="581" pos="CD" lemma="1">1</word>
-  <word wid="582" pos="CD" lemma="536">536</word>
+  <word wid="576" pos="NNP" lemma="Philology">Philology</word>
+  <word wid="577" pos="NNP" lemma="University">University</word>
+  <word wid="578" pos="IN" lemma="of">of</word>
+  <word wid="579" pos="NNP" lemma="Belgrade">Belgrade</word>
+  <word wid="580" pos="CD" lemma="22">22</word>
+  <word wid="581" pos="CD" lemma="26">26</word>
+  <word wid="582" pos="NNP" lemma="September">September</word>
   <word wid="583" pos="CD" lemma="1">1</word>
-  <word wid="584" pos="CD" lemma="31">31</word>
-  <word wid="585" pos="NN" lemma="mb">MB</word>
+  <word wid="584" pos="CD" lemma="280 768 450">280 768 450</word>
+  <word wid="585" pos="NN" lemma="kb">KB</word>
   <word wid="586" pos="CD" lemma="15">15</word>
   <word wid="587" pos="CD" lemma="22">22</word>
   <word wid="588" pos="CD" lemma="24">24</word>
@@ -595,12 +595,12 @@
   <word wid="593" pos="NN" lemma="conference">Conference</word>
   <word wid="594" pos="NNP" lemma="Digital">Digital</word>
   <word wid="595" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="596" pos="CD" lemma="010">010</word>
+  <word wid="596" pos="CD" lemma="011">011</word>
   <word wid="597" pos="NN" lemma="jpg">JPG</word>
   <word wid="598" pos="NN" lemma="descriptionconference">DescriptionConference</word>
   <word wid="599" pos="NNP" lemma="Digital">Digital</word>
   <word wid="600" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="601" pos="CD" lemma="010">010</word>
+  <word wid="601" pos="CD" lemma="011">011</word>
   <word wid="602" pos="NN" lemma="jpg">JPG</word>
   <word wid="603" pos="JJ" lemma="english">English</word>
   <word wid="604" pos="NN" lemma="conference">Conference</word>
@@ -621,7 +621,7 @@
   <word wid="619" pos="CD" lemma="1">1</word>
   <word wid="620" pos="CD" lemma="536">536</word>
   <word wid="621" pos="CD" lemma="1">1</word>
-  <word wid="622" pos="CD" lemma="34">34</word>
+  <word wid="622" pos="CD" lemma="45">45</word>
   <word wid="623" pos="NN" lemma="mb">MB</word>
   <word wid="624" pos="CD" lemma="15">15</word>
   <word wid="625" pos="CD" lemma="22">22</word>
@@ -633,12 +633,12 @@
   <word wid="631" pos="NN" lemma="conference">Conference</word>
   <word wid="632" pos="NNP" lemma="Digital">Digital</word>
   <word wid="633" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="634" pos="CD" lemma="13">13</word>
+  <word wid="634" pos="CD" lemma="006">006</word>
   <word wid="635" pos="NN" lemma="jpg">JPG</word>
   <word wid="636" pos="NN" lemma="descriptionconference">DescriptionConference</word>
   <word wid="637" pos="NNP" lemma="Digital">Digital</word>
   <word wid="638" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="639" pos="CD" lemma="13">13</word>
+  <word wid="639" pos="CD" lemma="006">006</word>
   <word wid="640" pos="NN" lemma="jpg">JPG</word>
   <word wid="641" pos="JJ" lemma="english">English</word>
   <word wid="642" pos="NN" lemma="conference">Conference</word>
@@ -654,233 +654,233 @@
   <word wid="652" pos="NNP" lemma="Belgrade">Belgrade</word>
   <word wid="653" pos="CD" lemma="22">22</word>
   <word wid="654" pos="CD" lemma="26">26</word>
-  <word wid="655" pos="NNP" lemma="September">September</word>
-  <word wid="656" pos="CD" lemma="2">2</word>
-  <word wid="657" pos="CD" lemma="560">560</word>
-  <word wid="658" pos="CD" lemma="1">1</word>
-  <word wid="659" pos="CD" lemma="536">536</word>
-  <word wid="660" pos="CD" lemma="1">1</word>
-  <word wid="661" pos="CD" lemma="6">6</word>
-  <word wid="662" pos="NN" lemma="mb">MB</word>
-  <word wid="663" pos="CD" lemma="15">15</word>
-  <word wid="664" pos="CD" lemma="22">22</word>
-  <word wid="665" pos="CD" lemma="24">24</word>
-  <word wid="666" pos="NNP" lemma="November">November</word>
-  <word wid="667" pos="CD" lemma="2016">2016</word>
-  <word wid="668" pos="NN" lemma="image">image</word>
-  <word wid="669" pos="NN" lemma="file">File</word>
-  <word wid="670" pos="NN" lemma="conference">Conference</word>
-  <word wid="671" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="672" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="673" pos="NN" lemma="02">02</word>
-  <word wid="674" pos="NN" lemma="jpg">JPG</word>
-  <word wid="675" pos="NN" lemma="descriptionconference">DescriptionConference</word>
-  <word wid="676" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="677" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="678" pos="NN" lemma="02">02</word>
-  <word wid="679" pos="NN" lemma="jpg">JPG</word>
-  <word wid="680" pos="JJ" lemma="english">English</word>
-  <word wid="681" pos="NN" lemma="conference">Conference</word>
-  <word wid="682" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="683" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="684" pos="IN" lemma="at">at</word>
-  <word wid="685" pos="DT" lemma="the">the</word>
-  <word wid="686" pos="NN" lemma="faculty">Faculty</word>
-  <word wid="687" pos="IN" lemma="of">of</word>
-  <word wid="688" pos="NNP" lemma="Philology">Philology</word>
-  <word wid="689" pos="NNP" lemma="University">University</word>
-  <word wid="690" pos="IN" lemma="of">of</word>
-  <word wid="691" pos="NNP" lemma="Belgrade">Belgrade</word>
-  <word wid="692" pos="CD" lemma="22">22</word>
-  <word wid="693" pos="CD" lemma="26">26</word>
-  <word wid="694" pos="NNP" lemma="September">September</word>
-  <word wid="695" pos="CD" lemma="1">1</word>
-  <word wid="696" pos="CD" lemma="536">536</word>
-  <word wid="697" pos="CD" lemma="1">1</word>
-  <word wid="698" pos="CD" lemma="139">139</word>
-  <word wid="699" pos="CD" lemma="810">810</word>
-  <word wid="700" pos="NN" lemma="kb">KB</word>
-  <word wid="701" pos="CD" lemma="15">15</word>
-  <word wid="702" pos="CD" lemma="22">22</word>
-  <word wid="703" pos="CD" lemma="24">24</word>
-  <word wid="704" pos="NNP" lemma="November">November</word>
-  <word wid="705" pos="CD" lemma="2016">2016</word>
-  <word wid="706" pos="NN" lemma="image">image</word>
-  <word wid="707" pos="NN" lemma="file">File</word>
-  <word wid="708" pos="NN" lemma="conference">Conference</word>
+  <word wid="655" pos="CD" lemma="2">2</word>
+  <word wid="656" pos="CD" lemma="560">560</word>
+  <word wid="657" pos="CD" lemma="1">1</word>
+  <word wid="658" pos="CD" lemma="536">536</word>
+  <word wid="659" pos="CD" lemma="274">274</word>
+  <word wid="660" pos="NN" lemma="kb">KB</word>
+  <word wid="661" pos="CD" lemma="15">15</word>
+  <word wid="662" pos="CD" lemma="22">22</word>
+  <word wid="663" pos="CD" lemma="24">24</word>
+  <word wid="664" pos="NNP" lemma="November">November</word>
+  <word wid="665" pos="CD" lemma="2016">2016</word>
+  <word wid="666" pos="NN" lemma="image">image</word>
+  <word wid="667" pos="NN" lemma="file">File</word>
+  <word wid="668" pos="NN" lemma="conference">Conference</word>
+  <word wid="669" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="670" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="671" pos="VBP" lemma="06">06</word>
+  <word wid="672" pos="NN" lemma="jpg">JPG</word>
+  <word wid="673" pos="NN" lemma="descriptionconference">DescriptionConference</word>
+  <word wid="674" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="675" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="676" pos="VBP" lemma="06">06</word>
+  <word wid="677" pos="NN" lemma="jpg">JPG</word>
+  <word wid="678" pos="JJ" lemma="english">English</word>
+  <word wid="679" pos="NN" lemma="conference">Conference</word>
+  <word wid="680" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="681" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="682" pos="IN" lemma="at">at</word>
+  <word wid="683" pos="DT" lemma="the">the</word>
+  <word wid="684" pos="NN" lemma="faculty">Faculty</word>
+  <word wid="685" pos="IN" lemma="of">of</word>
+  <word wid="686" pos="NNP" lemma="Philology">Philology</word>
+  <word wid="687" pos="NNP" lemma="University">University</word>
+  <word wid="688" pos="IN" lemma="of">of</word>
+  <word wid="689" pos="NNP" lemma="Belgrade">Belgrade</word>
+  <word wid="690" pos="CD" lemma="22">22</word>
+  <word wid="691" pos="CD" lemma="26">26</word>
+  <word wid="692" pos="NNP" lemma="September">September</word>
+  <word wid="693" pos="CD" lemma="1">1</word>
+  <word wid="694" pos="CD" lemma="725 880 643">725 880 643</word>
+  <word wid="695" pos="NN" lemma="kb">KB</word>
+  <word wid="696" pos="CD" lemma="15">15</word>
+  <word wid="697" pos="CD" lemma="22">22</word>
+  <word wid="698" pos="CD" lemma="24">24</word>
+  <word wid="699" pos="NNP" lemma="November">November</word>
+  <word wid="700" pos="CD" lemma="2016">2016</word>
+  <word wid="701" pos="NN" lemma="image">image</word>
+  <word wid="702" pos="NN" lemma="file">File</word>
+  <word wid="703" pos="NN" lemma="conference">Conference</word>
+  <word wid="704" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="705" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="706" pos="NN" lemma="02">02</word>
+  <word wid="707" pos="NN" lemma="jpg">JPG</word>
+  <word wid="708" pos="NN" lemma="descriptionconference">DescriptionConference</word>
   <word wid="709" pos="NNP" lemma="Digital">Digital</word>
   <word wid="710" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="711" pos="NN" lemma="04">04</word>
+  <word wid="711" pos="NN" lemma="02">02</word>
   <word wid="712" pos="NN" lemma="jpg">JPG</word>
-  <word wid="713" pos="NN" lemma="descriptionconference">DescriptionConference</word>
-  <word wid="714" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="715" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="716" pos="NN" lemma="04">04</word>
-  <word wid="717" pos="NN" lemma="jpg">JPG</word>
-  <word wid="718" pos="JJ" lemma="english">English</word>
-  <word wid="719" pos="NN" lemma="conference">Conference</word>
-  <word wid="720" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="721" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="722" pos="IN" lemma="at">at</word>
-  <word wid="723" pos="DT" lemma="the">the</word>
-  <word wid="724" pos="NN" lemma="faculty">Faculty</word>
-  <word wid="725" pos="IN" lemma="of">of</word>
-  <word wid="726" pos="NNP" lemma="Philology">Philology</word>
-  <word wid="727" pos="NNP" lemma="University">University</word>
-  <word wid="728" pos="IN" lemma="of">of</word>
-  <word wid="729" pos="NNP" lemma="Belgrade">Belgrade</word>
-  <word wid="730" pos="CD" lemma="22">22</word>
-  <word wid="731" pos="CD" lemma="26">26</word>
-  <word wid="732" pos="NNP" lemma="September">September</word>
-  <word wid="733" pos="CD" lemma="1">1</word>
-  <word wid="734" pos="CD" lemma="725 880 630">725 880 630</word>
-  <word wid="735" pos="NN" lemma="kb">KB</word>
-  <word wid="736" pos="CD" lemma="15">15</word>
-  <word wid="737" pos="CD" lemma="22">22</word>
-  <word wid="738" pos="CD" lemma="24">24</word>
-  <word wid="739" pos="NNP" lemma="November">November</word>
-  <word wid="740" pos="CD" lemma="2016">2016</word>
-  <word wid="741" pos="NN" lemma="image">image</word>
-  <word wid="742" pos="NN" lemma="file">File</word>
-  <word wid="743" pos="NN" lemma="conference">Conference</word>
-  <word wid="744" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="745" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="746" pos="VBP" lemma="06">06</word>
-  <word wid="747" pos="NN" lemma="jpg">JPG</word>
-  <word wid="748" pos="NN" lemma="descriptionconference">DescriptionConference</word>
-  <word wid="749" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="750" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="751" pos="VBP" lemma="06">06</word>
-  <word wid="752" pos="NN" lemma="jpg">JPG</word>
-  <word wid="753" pos="JJ" lemma="english">English</word>
-  <word wid="754" pos="NN" lemma="conference">Conference</word>
-  <word wid="755" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="756" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="757" pos="IN" lemma="at">at</word>
-  <word wid="758" pos="DT" lemma="the">the</word>
-  <word wid="759" pos="NN" lemma="faculty">Faculty</word>
-  <word wid="760" pos="IN" lemma="of">of</word>
-  <word wid="761" pos="NNP" lemma="Philology">Philology</word>
-  <word wid="762" pos="NNP" lemma="University">University</word>
-  <word wid="763" pos="IN" lemma="of">of</word>
-  <word wid="764" pos="NNP" lemma="Belgrade">Belgrade</word>
-  <word wid="765" pos="CD" lemma="22">22</word>
-  <word wid="766" pos="CD" lemma="26">26</word>
-  <word wid="767" pos="NNP" lemma="September">September</word>
-  <word wid="768" pos="CD" lemma="1">1</word>
-  <word wid="769" pos="CD" lemma="725 880 643">725 880 643</word>
-  <word wid="770" pos="NN" lemma="kb">KB</word>
-  <word wid="771" pos="CD" lemma="15">15</word>
-  <word wid="772" pos="CD" lemma="22">22</word>
-  <word wid="773" pos="CD" lemma="24">24</word>
-  <word wid="774" pos="NNP" lemma="November">November</word>
-  <word wid="775" pos="CD" lemma="2016">2016</word>
-  <word wid="776" pos="NN" lemma="image">image</word>
-  <word wid="777" pos="NN" lemma="file">File</word>
-  <word wid="778" pos="NN" lemma="conference">Conference</word>
-  <word wid="779" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="780" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="781" pos="CD" lemma="011">011</word>
-  <word wid="782" pos="NN" lemma="jpg">JPG</word>
-  <word wid="783" pos="NN" lemma="descriptionconference">DescriptionConference</word>
-  <word wid="784" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="785" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="786" pos="CD" lemma="011">011</word>
-  <word wid="787" pos="NN" lemma="jpg">JPG</word>
-  <word wid="788" pos="JJ" lemma="english">English</word>
-  <word wid="789" pos="NN" lemma="conference">Conference</word>
-  <word wid="790" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="791" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="792" pos="IN" lemma="at">at</word>
-  <word wid="793" pos="DT" lemma="the">the</word>
-  <word wid="794" pos="NN" lemma="faculty">Faculty</word>
-  <word wid="795" pos="IN" lemma="of">of</word>
-  <word wid="796" pos="NNP" lemma="Philology">Philology</word>
-  <word wid="797" pos="NNP" lemma="University">University</word>
-  <word wid="798" pos="IN" lemma="of">of</word>
-  <word wid="799" pos="NNP" lemma="Belgrade">Belgrade</word>
-  <word wid="800" pos="CD" lemma="22">22</word>
-  <word wid="801" pos="CD" lemma="26">26</word>
-  <word wid="802" pos="CD" lemma="2">2</word>
-  <word wid="803" pos="CD" lemma="560">560</word>
+  <word wid="713" pos="JJ" lemma="english">English</word>
+  <word wid="714" pos="NN" lemma="conference">Conference</word>
+  <word wid="715" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="716" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="717" pos="IN" lemma="at">at</word>
+  <word wid="718" pos="DT" lemma="the">the</word>
+  <word wid="719" pos="NN" lemma="faculty">Faculty</word>
+  <word wid="720" pos="IN" lemma="of">of</word>
+  <word wid="721" pos="NNP" lemma="Philology">Philology</word>
+  <word wid="722" pos="NNP" lemma="University">University</word>
+  <word wid="723" pos="IN" lemma="of">of</word>
+  <word wid="724" pos="NNP" lemma="Belgrade">Belgrade</word>
+  <word wid="725" pos="CD" lemma="22">22</word>
+  <word wid="726" pos="CD" lemma="26">26</word>
+  <word wid="727" pos="NNP" lemma="September">September</word>
+  <word wid="728" pos="CD" lemma="1">1</word>
+  <word wid="729" pos="CD" lemma="536">536</word>
+  <word wid="730" pos="CD" lemma="1">1</word>
+  <word wid="731" pos="CD" lemma="139">139</word>
+  <word wid="732" pos="CD" lemma="810">810</word>
+  <word wid="733" pos="NN" lemma="kb">KB</word>
+  <word wid="734" pos="CD" lemma="15">15</word>
+  <word wid="735" pos="CD" lemma="22">22</word>
+  <word wid="736" pos="CD" lemma="24">24</word>
+  <word wid="737" pos="NNP" lemma="November">November</word>
+  <word wid="738" pos="CD" lemma="2016">2016</word>
+  <word wid="739" pos="NN" lemma="image">image</word>
+  <word wid="740" pos="NN" lemma="file">File</word>
+  <word wid="741" pos="NN" lemma="conference">Conference</word>
+  <word wid="742" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="743" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="744" pos="NN" lemma="04">04</word>
+  <word wid="745" pos="NN" lemma="jpg">JPG</word>
+  <word wid="746" pos="NN" lemma="descriptionconference">DescriptionConference</word>
+  <word wid="747" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="748" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="749" pos="NN" lemma="04">04</word>
+  <word wid="750" pos="NN" lemma="jpg">JPG</word>
+  <word wid="751" pos="JJ" lemma="english">English</word>
+  <word wid="752" pos="NN" lemma="conference">Conference</word>
+  <word wid="753" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="754" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="755" pos="IN" lemma="at">at</word>
+  <word wid="756" pos="DT" lemma="the">the</word>
+  <word wid="757" pos="NN" lemma="faculty">Faculty</word>
+  <word wid="758" pos="IN" lemma="of">of</word>
+  <word wid="759" pos="NNP" lemma="Philology">Philology</word>
+  <word wid="760" pos="NNP" lemma="University">University</word>
+  <word wid="761" pos="IN" lemma="of">of</word>
+  <word wid="762" pos="NNP" lemma="Belgrade">Belgrade</word>
+  <word wid="763" pos="CD" lemma="22">22</word>
+  <word wid="764" pos="CD" lemma="26">26</word>
+  <word wid="765" pos="NNP" lemma="September">September</word>
+  <word wid="766" pos="CD" lemma="1">1</word>
+  <word wid="767" pos="CD" lemma="725 880 630">725 880 630</word>
+  <word wid="768" pos="NN" lemma="kb">KB</word>
+  <word wid="769" pos="CD" lemma="15">15</word>
+  <word wid="770" pos="CD" lemma="22">22</word>
+  <word wid="771" pos="CD" lemma="24">24</word>
+  <word wid="772" pos="NNP" lemma="November">November</word>
+  <word wid="773" pos="CD" lemma="2016">2016</word>
+  <word wid="774" pos="NN" lemma="image">image</word>
+  <word wid="775" pos="NN" lemma="file">File</word>
+  <word wid="776" pos="NN" lemma="conference">Conference</word>
+  <word wid="777" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="778" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="779" pos="CD" lemma="008">008</word>
+  <word wid="780" pos="NN" lemma="jpg">JPG</word>
+  <word wid="781" pos="NN" lemma="descriptionconference">DescriptionConference</word>
+  <word wid="782" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="783" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="784" pos="CD" lemma="008">008</word>
+  <word wid="785" pos="NN" lemma="jpg">JPG</word>
+  <word wid="786" pos="JJ" lemma="english">English</word>
+  <word wid="787" pos="NN" lemma="conference">Conference</word>
+  <word wid="788" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="789" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="790" pos="IN" lemma="at">at</word>
+  <word wid="791" pos="DT" lemma="the">the</word>
+  <word wid="792" pos="NN" lemma="faculty">Faculty</word>
+  <word wid="793" pos="IN" lemma="of">of</word>
+  <word wid="794" pos="NNP" lemma="Philology">Philology</word>
+  <word wid="795" pos="NNP" lemma="University">University</word>
+  <word wid="796" pos="IN" lemma="of">of</word>
+  <word wid="797" pos="NNP" lemma="Belgrade">Belgrade</word>
+  <word wid="798" pos="CD" lemma="22">22</word>
+  <word wid="799" pos="CD" lemma="26">26</word>
+  <word wid="800" pos="CD" lemma="2">2</word>
+  <word wid="801" pos="CD" lemma="560">560</word>
+  <word wid="802" pos="CD" lemma="1">1</word>
+  <word wid="803" pos="CD" lemma="536">536</word>
   <word wid="804" pos="CD" lemma="1">1</word>
-  <word wid="805" pos="CD" lemma="536">536</word>
-  <word wid="806" pos="CD" lemma="1">1</word>
-  <word wid="807" pos="CD" lemma="45">45</word>
-  <word wid="808" pos="NN" lemma="mb">MB</word>
-  <word wid="809" pos="CD" lemma="15">15</word>
-  <word wid="810" pos="CD" lemma="22">22</word>
-  <word wid="811" pos="CD" lemma="24">24</word>
-  <word wid="812" pos="NNP" lemma="November">November</word>
-  <word wid="813" pos="CD" lemma="2016">2016</word>
-  <word wid="814" pos="NN" lemma="image">image</word>
-  <word wid="815" pos="NN" lemma="file">File</word>
-  <word wid="816" pos="NN" lemma="conference">Conference</word>
-  <word wid="817" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="818" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="819" pos="CD" lemma="14">14</word>
-  <word wid="820" pos="NN" lemma="jpg">JPG</word>
-  <word wid="821" pos="NN" lemma="descriptionconference">DescriptionConference</word>
-  <word wid="822" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="823" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="824" pos="CD" lemma="14">14</word>
-  <word wid="825" pos="NN" lemma="jpg">JPG</word>
-  <word wid="826" pos="JJ" lemma="english">English</word>
-  <word wid="827" pos="NN" lemma="conference">Conference</word>
-  <word wid="828" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="829" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="830" pos="IN" lemma="at">at</word>
-  <word wid="831" pos="DT" lemma="the">the</word>
-  <word wid="832" pos="NN" lemma="faculty">Faculty</word>
-  <word wid="833" pos="IN" lemma="of">of</word>
-  <word wid="834" pos="NNP" lemma="Philology">Philology</word>
-  <word wid="835" pos="NNP" lemma="University">University</word>
-  <word wid="836" pos="IN" lemma="of">of</word>
-  <word wid="837" pos="NNP" lemma="Belgrade">Belgrade</word>
-  <word wid="838" pos="CD" lemma="22">22</word>
-  <word wid="839" pos="CD" lemma="26">26</word>
-  <word wid="840" pos="NNP" lemma="September">September</word>
-  <word wid="841" pos="CD" lemma="2">2</word>
-  <word wid="842" pos="CD" lemma="560">560</word>
+  <word wid="805" pos="CD" lemma="31">31</word>
+  <word wid="806" pos="NN" lemma="mb">MB</word>
+  <word wid="807" pos="CD" lemma="15">15</word>
+  <word wid="808" pos="CD" lemma="22">22</word>
+  <word wid="809" pos="CD" lemma="24">24</word>
+  <word wid="810" pos="NNP" lemma="November">November</word>
+  <word wid="811" pos="CD" lemma="2016">2016</word>
+  <word wid="812" pos="NN" lemma="image">image</word>
+  <word wid="813" pos="NN" lemma="file">File</word>
+  <word wid="814" pos="NN" lemma="conference">Conference</word>
+  <word wid="815" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="816" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="817" pos="CD" lemma="18">18</word>
+  <word wid="818" pos="NN" lemma="jpg">JPG</word>
+  <word wid="819" pos="NN" lemma="descriptionconference">DescriptionConference</word>
+  <word wid="820" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="821" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="822" pos="CD" lemma="18">18</word>
+  <word wid="823" pos="NN" lemma="jpg">JPG</word>
+  <word wid="824" pos="JJ" lemma="english">English</word>
+  <word wid="825" pos="NN" lemma="conference">Conference</word>
+  <word wid="826" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="827" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="828" pos="IN" lemma="at">at</word>
+  <word wid="829" pos="DT" lemma="the">the</word>
+  <word wid="830" pos="NN" lemma="faculty">Faculty</word>
+  <word wid="831" pos="IN" lemma="of">of</word>
+  <word wid="832" pos="NNP" lemma="Philology">Philology</word>
+  <word wid="833" pos="NNP" lemma="University">University</word>
+  <word wid="834" pos="IN" lemma="of">of</word>
+  <word wid="835" pos="NNP" lemma="Belgrade">Belgrade</word>
+  <word wid="836" pos="CD" lemma="22">22</word>
+  <word wid="837" pos="CD" lemma="26">26</word>
+  <word wid="838" pos="NNP" lemma="September">September</word>
+  <word wid="839" pos="CD" lemma="2">2</word>
+  <word wid="840" pos="CD" lemma="560">560</word>
+  <word wid="841" pos="CD" lemma="1">1</word>
+  <word wid="842" pos="CD" lemma="536">536</word>
   <word wid="843" pos="CD" lemma="1">1</word>
-  <word wid="844" pos="CD" lemma="536">536</word>
-  <word wid="845" pos="CD" lemma="1">1</word>
-  <word wid="846" pos="CD" lemma="52">52</word>
-  <word wid="847" pos="NN" lemma="mb">MB</word>
-  <word wid="848" pos="CD" lemma="15">15</word>
-  <word wid="849" pos="CD" lemma="22">22</word>
-  <word wid="850" pos="CD" lemma="24">24</word>
-  <word wid="851" pos="NNP" lemma="November">November</word>
-  <word wid="852" pos="CD" lemma="2016">2016</word>
-  <word wid="853" pos="NN" lemma="image">image</word>
-  <word wid="854" pos="NN" lemma="file">File</word>
-  <word wid="855" pos="NN" lemma="conference">Conference</word>
-  <word wid="856" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="857" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="858" pos="NN" lemma="03">03</word>
-  <word wid="859" pos="NN" lemma="jpg">JPG</word>
-  <word wid="860" pos="NN" lemma="descriptionconference">DescriptionConference</word>
-  <word wid="861" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="862" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="863" pos="VBP" lemma="03">03</word>
-  <word wid="864" pos="NN" lemma="jpg">JPG</word>
-  <word wid="865" pos="JJ" lemma="english">English</word>
-  <word wid="866" pos="NN" lemma="conference">Conference</word>
-  <word wid="867" pos="NNP" lemma="Digital">Digital</word>
-  <word wid="868" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="869" pos="IN" lemma="at">at</word>
-  <word wid="870" pos="DT" lemma="the">the</word>
-  <word wid="871" pos="NN" lemma="faculty">Faculty</word>
-  <word wid="872" pos="IN" lemma="of">of</word>
-  <word wid="873" pos="NNP" lemma="Philology">Philology</word>
-  <word wid="874" pos="NNP" lemma="University">University</word>
-  <word wid="875" pos="IN" lemma="of">of</word>
-  <word wid="876" pos="NNP" lemma="Belgrade">Belgrade</word>
-  <word wid="877" pos="CD" lemma="22">22</word>
-  <word wid="878" pos="CD" lemma="26">26</word>
-  <word wid="879" pos="NNP" lemma="September">September</word>
-  <word wid="880" pos="CD" lemma="1">1</word>
-  <word wid="881" pos="CD" lemma="280 768 450">280 768 450</word>
+  <word wid="844" pos="CD" lemma="56">56</word>
+  <word wid="845" pos="NN" lemma="mb">MB</word>
+  <word wid="846" pos="CD" lemma="15">15</word>
+  <word wid="847" pos="CD" lemma="22">22</word>
+  <word wid="848" pos="CD" lemma="24">24</word>
+  <word wid="849" pos="NNP" lemma="November">November</word>
+  <word wid="850" pos="CD" lemma="2016">2016</word>
+  <word wid="851" pos="NN" lemma="image">image</word>
+  <word wid="852" pos="NN" lemma="file">File</word>
+  <word wid="853" pos="NN" lemma="conference">Conference</word>
+  <word wid="854" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="855" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="856" pos="CD" lemma="009">009</word>
+  <word wid="857" pos="NN" lemma="jpg">JPG</word>
+  <word wid="858" pos="NN" lemma="descriptionconference">DescriptionConference</word>
+  <word wid="859" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="860" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="861" pos="CD" lemma="009">009</word>
+  <word wid="862" pos="NN" lemma="jpg">JPG</word>
+  <word wid="863" pos="JJ" lemma="english">English</word>
+  <word wid="864" pos="NN" lemma="conference">Conference</word>
+  <word wid="865" pos="NNP" lemma="Digital">Digital</word>
+  <word wid="866" pos="NNS" lemma="humanities">Humanities</word>
+  <word wid="867" pos="IN" lemma="at">at</word>
+  <word wid="868" pos="DT" lemma="the">the</word>
+  <word wid="869" pos="NN" lemma="faculty">Faculty</word>
+  <word wid="870" pos="IN" lemma="of">of</word>
+  <word wid="871" pos="NNP" lemma="Philology">Philology</word>
+  <word wid="872" pos="NNP" lemma="University">University</word>
+  <word wid="873" pos="IN" lemma="of">of</word>
+  <word wid="874" pos="NNP" lemma="Belgrade">Belgrade</word>
+  <word wid="875" pos="CD" lemma="22">22</word>
+  <word wid="876" pos="CD" lemma="26">26</word>
+  <word wid="877" pos="CD" lemma="2">2</word>
+  <word wid="878" pos="CD" lemma="560">560</word>
+  <word wid="879" pos="CD" lemma="1">1</word>
+  <word wid="880" pos="CD" lemma="536">536</word>
+  <word wid="881" pos="CD" lemma="285">285</word>
   <word wid="882" pos="NN" lemma="kb">KB</word>
   <word wid="883" pos="CD" lemma="15">15</word>
   <word wid="884" pos="CD" lemma="22">22</word>
@@ -892,12 +892,12 @@
   <word wid="890" pos="NN" lemma="conference">Conference</word>
   <word wid="891" pos="NNP" lemma="Digital">Digital</word>
   <word wid="892" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="893" pos="CD" lemma="15">15</word>
+  <word wid="893" pos="CD" lemma="17">17</word>
   <word wid="894" pos="NN" lemma="jpg">JPG</word>
   <word wid="895" pos="NN" lemma="descriptionconference">DescriptionConference</word>
   <word wid="896" pos="NNP" lemma="Digital">Digital</word>
   <word wid="897" pos="NNS" lemma="humanities">Humanities</word>
-  <word wid="898" pos="CD" lemma="15">15</word>
+  <word wid="898" pos="CD" lemma="17">17</word>
   <word wid="899" pos="NN" lemma="jpg">JPG</word>
   <word wid="900" pos="JJ" lemma="english">English</word>
   <word wid="901" pos="NN" lemma="conference">Conference</word>

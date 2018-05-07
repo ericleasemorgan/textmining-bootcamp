@@ -492,7 +492,6 @@ OCLC:607322888
 
 
 
-
  
 	
 
@@ -518,24 +517,6 @@ OCLC:607322888
    
 
 
-
-
-
-        
-            Nearby libraries
-
-
-        
-
-        Checking...
-
-    
-
-
-    Find more libraries
-    Librarian?
-    Claim your library
-    to
 
 
 
@@ -2520,11 +2501,19 @@ Index.
                 User lists with this item
                         
                             
-                                    (26)
+                                    (27)
                                 
                     
 
-                    	Hispanic Heritage Month(59 items)
+                    	Latino Books Month(11 items)
+                            by
+                                
+                                    ckonz
+                                
+                                updated about 5 days ago
+
+                        
+	Hispanic Heritage Month(59 items)
                             by
                                 
                                     citruslibrary
@@ -2554,14 +2543,6 @@ Index.
                                     SpragueLibrary
                                 
                                 updated 2017-04-28
-
-                        
-	Things to Check Out(1 items)
-                            by
-                                
-                                    antoniofgr2
-                                
-                                updated 2016-09-19
 
                         
 
@@ -3025,7 +3006,7 @@ genont:InformationResource, genont:ContentTypeGenericResource ;
 schema:about http://www.worldcat.org/oclc/607322888> ; # The Norton anthology of Latino literature
 
    
-schema:dateModified "2018-04-09" ;
+schema:dateModified "2018-04-19" ;
    
 void:inDataset http://purl.oclc.org/dataset/WorldCat> ;
     .

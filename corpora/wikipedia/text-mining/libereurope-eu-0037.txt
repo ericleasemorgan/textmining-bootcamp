@@ -160,6 +160,9 @@ Events
 	Leadership Programmes	Members of the Leadership Programmes Working Group
 
 
+	Linked Open Data	Members of the Linked Open Data Working Group
+
+
 	Open Access	Members of the Open Access Working Group
 
 
@@ -301,6 +304,9 @@ Events
 	Leadership Programmes	Members of the Leadership Programmes Working Group
 
 
+	Linked Open Data	Members of the Linked Open Data Working Group
+
+
 	Open Access	Members of the Open Access Working Group
 
 
@@ -432,33 +438,37 @@ Name * Email * Website
  
 Posts
 	[image: ]
-LIBER Webinar: Turning FAIR Data Into Reality
-April 9, 2018
+LIBER Webinar: GDPR – What Does It Mean For Researchers?
+May 7, 2018
 
 	[image: ]
-LIBER Joins Call For A Better TDM Exception
-March 27, 2018
+Webinar Video: Turning FAIR Data Into Reality
+May 7, 2018
 
 	[image: ]
-Join Our Copyright & Legal Matters Working Group
-March 22, 2018
+LIBER President Joins DORA Board
+May 4, 2018
+
+	[image: First LIBER DH & DHC working group meeting]
+Sharing & Learning From Each Other: A Very Successful First Meeting of LIBER’s DH & DCH Working Group
+April 24, 2018
 
 	[image: ]
-Introducing the Digital Skills Working Group
-March 9, 2018
+LIBER Leads Organisation of Open Science Trainer Bootcamp
+April 13, 2018
 
 	[image: ]
-IARLA Develops Values Statement
-March 8, 2018
-
-	[image: ]
-A Digital Humanities Reading List: Part 4
-March 8, 2018
+Want The Benefits of AI? Adopt A Robust TDM Exception!
+April 12, 2018
 
 
 
   
  Events
+	[image: ]
+LIBER Leads Organisation of Open Science Trainer Bootcamp
+April 13, 2018
+
 	[image: ]
 Workshop: “How Research Institutions and Libraries can help deliver the European Open Science Cloud” – Registration is open!
 December 11, 2017
@@ -474,10 +484,6 @@ October 9, 2017
 	[image: ]
 Some highlights from the ILIDE 2017 conference
 April 20, 2017
-
-	[image: ]
-Impact and Sustainability: Panel at the PREFORMA Innovation workshop
-February 23, 2017
 
 
  All Events

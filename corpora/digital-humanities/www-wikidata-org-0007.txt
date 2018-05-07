@@ -993,7 +993,7 @@ edit
 [image: ]
 
 					
-						Retrieved from "https://www.wikidata.org/w/index.php?title=Q1026962&oldid=656004725"					
+						Retrieved from "https://www.wikidata.org/w/index.php?title=Q1026962&oldid=675304853"					
 
 				
 				
@@ -1138,7 +1138,7 @@ edit
 		
 
 				
-							 This page was last edited on 24 March 2018, at 17:04.
+							 This page was last edited on 7 May 2018, at 07:57.
 	All structured data from the main and property namespace is available under the Creative Commons CC0 License;
 text in the other namespaces is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.

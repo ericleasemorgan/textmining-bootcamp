@@ -105,6 +105,7 @@ PERSON	Joseph Hopkinson
 PERSON	Charles Brockden Brown
 PERSON	Godwin
 PERSON	Mrs Susanna Haswell Rowson
+LOCATION	Charlotte
 PERSON	Mrs Hannah Webster Foster
 PERSON	Royall Tyler
 PERSON	Brown
@@ -126,7 +127,7 @@ LOCATION	Philadelphia
 LOCATION	New England
 LOCATION	England
 LOCATION	England
-LOCATION	Washington Irving
+LOCATION	Washington
 PERSON	James Fenimore Cooper
 LOCATION	England
 LOCATION	New York
@@ -304,8 +305,7 @@ PERSON	William Ellery Channing
 LOCATION	New England
 LOCATION	New England
 PERSON	Mrs Radcliffe Lewis
-PERSON	Godwin
-LOCATION	Washington Allston
+PERSON	Godwin Washington Allston
 LOCATION	South Carolina
 LOCATION	Cambridge
 PERSON	Richard Henry Dana
@@ -539,7 +539,7 @@ LOCATION	Tennessee Mountains
 PERSON	Thomas Nelson Page
 PERSON	Marse Chan
 LOCATION	Virginia
-ORGANIZATION	George Washington Cable
+PERSON	George Washington Cable
 LOCATION	Louisiana
 PERSON	Winston Churchill
 PERSON	Richard Carvel

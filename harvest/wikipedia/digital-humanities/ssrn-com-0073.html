@@ -609,8 +609,9 @@ function addLoadEvent(func) {
 
 
 
-<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/custom-bootstrap.min.css?v=116">
-<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/custom.min.css?v=116">
+
+<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/custom-bootstrap.min.css?v=151">
+<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/custom.min.css?v=151">
 
 <div class="accesibility-link">
 	<a id="skip-to-content" title="Skip to content" href="ssrn-com-0073.htm#maincontent">Skip to main content</a>
@@ -670,36 +671,45 @@ function addLoadEvent(func) {
 				</div>
 			
 			<div class="header-right">
-				<a class="shopping-cart-btn" aria-label="Shopping Cart" href="https://papers.ssrn.com/sol3/ShoppingCart.cfm">
-					<i class="icon icon-gizmo-shopping-cart" aria-label="Shopping Cart" aria-hidden="true"></i>
-				</a>
-
 				
-					<a id="btnRegister" class="btn-blue header-signin-btn" href="https://hq.ssrn.com/login/pubsigninjoin.cfm"  >REGISTER</a>
-					<button id="btnSignin" class="btn-blue header-signin-btn" >SIGN IN</button>
-					<div class="header-tooltip signin-tooltip loginBox mo-nav" role="form">
-						<div class="mo-nav-header">
-							<button class="mo-nav-close-btn" aria-label="Close Sign In"><i class="icon-gizmo-delete" aria-hidden="true"></i></button>
+					<a class="shopping-cart-btn" aria-label="Shopping Cart" href="https://papers.ssrn.com/sol3/ShoppingCart.cfm">
+						<i class="icon icon-gizmo-shopping-cart" aria-label="Shopping Cart" aria-hidden="true"></i>
+					</a>
+					<a class="search-btn" aria-label="Search eLibrary" href="https://papers.ssrn.com/sol3/DisplayAbstractSearch.cfm"> 
+						<i class="icon icon-gizmo-search" role="button" aria-label="Search eLibrary"></i>
+					</a>
+				
+				
+					
+						<div class="blue-buttons">
+							<a id="btnRegister" class="btn-blue header-signin-btn" href="https://hq.ssrn.com/login/pubsigninjoin.cfm"  >REGISTER</a>
+							<button id="btnSignin" class="btn-blue header-signin-btn" >SIGN IN</button>
 						</div>
-						<div class="tooltip-bg"></div>
-						<div class="tooltip-container">
-							<div class="input-tag">Email</div>
-							<input type="text" id="txtLogin" class="signin-input username-inp" aria-label="Email" />
-							<div class="error_show_login">This field is required</div>
-							<div class="input-tag">Password</div>
-							<input type="password" id="txtPassword" class="signin-input password-inp" aria-label="Password" />
-							<div class="error_show_pass">This field is required</div>
-							<div id="errorMessageLogin"></div>
-							<button id="signin" class="btn-orange signin-btn">Sign in</button>
-							<div class="remember-me">
-								<input type="checkbox" name="remember-me-check" class="remember-me-check" aria-labelledby="remember-me-label" />
-								<span id="remember-me-label">Remember me</span>
+						
+						<div class="header-tooltip signin-tooltip loginBox mo-nav" role="form">
+							<div class="mo-nav-header">
+								<button class="mo-nav-close-btn" aria-label="Close Sign In"><i class="icon-gizmo-delete" aria-hidden="true"></i></button>
 							</div>
-							<a href="https://hq.ssrn.com/login/passwordAssistance.cfm?userEmail=&rootPage=signIn" class="forgot-link">Forgot ID or Password?</a>
-							<div class="clear"></div>
-							<a href="https://hq.ssrn.com/login/pubsigninjoin.cfm" class="register-link">Register now <i class="icon icon-gizmo-navigate-right" aria-hidden="true"></i></a>
+							<div class="tooltip-bg"></div>
+							<div class="tooltip-container">
+								<div class="input-tag">Email</div>
+								<input type="text" id="txtLogin" class="signin-input username-inp" aria-label="Email" />
+								<div class="error_show_login">This field is required</div>
+								<div class="input-tag">Password</div>
+								<input type="password" id="txtPasswordLogin" class="signin-input password-inp" aria-label="Password" />
+								<div class="error_show_pass">This field is required</div>
+								<div id="errorMessageLogin"></div>
+								<button id="signin" class="btn-orange signin-btn">Sign in</button>
+								<div class="remember-me">
+									<input type="checkbox" name="remember-me-check" class="remember-me-check" aria-labelledby="remember-me-label" />
+									<span id="remember-me-label">Remember me</span>
+								</div>
+								<a href="https://hq.ssrn.com/login/passwordAssistance.cfm?userEmail=&rootPage=signIn" class="forgot-link">Forgot ID or Password?</a>
+								<div class="clear"></div>
+								<a href="https://hq.ssrn.com/login/pubsigninjoin.cfm" class="register-link">Register now <i class="icon icon-gizmo-navigate-right" aria-hidden="true"></i></a>
+							</div>
 						</div>
-					</div>
+					
 				
 				<button id="profile" class="user-container" style='display:none;' >
 					<div id="name-header" class="user-name"><div class="user-name-overflow">Public User</div></div>
@@ -820,7 +830,7 @@ $( document ).ready(function() {
 		e.preventDefault();
 		pageDataTracker.trackEvent('conversionDriverClick', {conversionDriver:{name : 'ssrn-header:sign-in-or-register'}});
 		$("#txtLogin").val("");
-		$("#txtPassword").val("");
+		$("#txtPasswordLogin").val("");
 		$("#errorMessageLogin").hide();
 		$("#error_show_login").hide();
 		$("#error_show_pass").hide();
@@ -875,7 +885,7 @@ $( document ).ready(function() {
 	/* Cleaning the password text*/
 	$('.password-inp').bind("change keyup input",function() {
 		$(".error_show_pass").hide();
-		$("#txtPassword").removeClass("loginError");
+		$("#txtPasswordLogin").removeClass("loginError");
 		$("#errorMessageLogin").hide();
 	});
 
@@ -896,9 +906,9 @@ $( document ).ready(function() {
 		$(".error_show_login").show();
 		emptyLogin = true;
 		}
-		if(document.getElementById("txtPassword") == null || document.getElementById("txtPassword").value == "" )
+		if(document.getElementById("txtPasswordLogin") == null || document.getElementById("txtPasswordLogin").value == "" )
 		{
-			$("#txtPassword").addClass('loginError');
+			$("#txtPasswordLogin").addClass('loginError');
 			$(".error_show_pass").show();
 			emptyPass = true;
 		}
@@ -933,7 +943,7 @@ $( document ).ready(function() {
 	function login(){
 		if (validateFields() != false) {
 			var user = document.getElementById("txtLogin").value;
-			var pass = document.getElementById("txtPassword").value;
+			var pass = document.getElementById("txtPasswordLogin").value;
 			var remember = $('.remember-me-check').prop('checked');
 			var keyUser = encrypt(user, pass, remember);
 			var parameters = {
@@ -957,7 +967,7 @@ $( document ).ready(function() {
 						$loginBox.removeClass('open');
 						$body.removeClass('nav-is-open');
 						
-						pageData.visitor.loginSuccess = true;
+						pageData.visitor.loginSuccess = "true";
 						pageData.visitor.loginStatus = "logged in";
 						pageData.visitor.accessType = "ss:registered-user";
 						pageData.visitor.userId = data.USER.ENCRYPT_PART_ID;
@@ -965,7 +975,7 @@ $( document ).ready(function() {
 						
 					} else {
 						
-						pageData.visitor.loginSuccess = false;
+						pageData.visitor.loginSuccess = "false";
 						pageDataTracker.trackEvent( 'newPage' , pageData);
 						
 						$("#errorMessageLogin").html(data.MESSAGETOSHOW);
@@ -1049,10 +1059,10 @@ $( document ).ready(function() {
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" crossorigin="anonymous">
 	
-	<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/custom.min.css?v=116">
+	<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/custom.min.css?v=151">
 
 	<!-- new abstract css -->
-	<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/abstract.min.css?v=116">
+	<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/abstract.min.css?v=151">
 
 	
 	
@@ -1234,14 +1244,18 @@ $( document ).ready(function() {
 			
 			
 				
-				<a href="https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2798745_code1679749.pdf?abstractid=2491422&amp;mirid=1" data-abstract-id="2491422" data-abstract-title="Fashionable Functions: A Google Ngram View of Trends in Functional Differentiation (1800-2000)" id="downloadPdf" class="btn-orange btn-view-pdf download-button" title="Download Full-Text Paper">Download This Paper</a>
+				
+					<a href="https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2798745_code1679749.pdf?abstractid=2491422&amp;mirid=1" data-abstract-id="2491422" data-abstract-title="Fashionable Functions: A Google Ngram View of Trends in Functional Differentiation (1800-2000)" id="downloadPdf" class="btn-orange btn-view-pdf download-button" title="Download Full-Text Paper">Download This Paper</a>	
+				
 
 				
 				
 					
-					<a href="https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2798745_code1679749.pdf?abstractid=2491422&amp;mirid=1&amp;type=2" id="viewPdf" title="Open Full-Text Paper in Browser" class="btn-blue-outline-third btn-download-pdf">
+					
+						<a href="https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2798745_code1679749.pdf?abstractid=2491422&amp;mirid=1&amp;type=2" data-abstract-title="Fashionable Functions: A Google Ngram View of Trends in Functional Differentiation (1800-2000)" id="viewPdf" title="Open Full-Text Paper in Browser" class="btn-blue-outline-third btn-download-pdf">
 						Open PDF in Browser
-					</a>
+						</a>
+					
 				
 			
 			
@@ -1969,14 +1983,18 @@ $( document ).ready(function() {
 			
 			
 				
-				<a href="https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2798745_code1679749.pdf?abstractid=2491422&amp;mirid=1" data-abstract-id="2491422" data-abstract-title="Fashionable Functions: A Google Ngram View of Trends in Functional Differentiation (1800-2000)" id="downloadPdf" class="btn-orange btn-view-pdf download-button" title="Download Full-Text Paper">Download This Paper</a>
+				
+					<a href="https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2798745_code1679749.pdf?abstractid=2491422&amp;mirid=1" data-abstract-id="2491422" data-abstract-title="Fashionable Functions: A Google Ngram View of Trends in Functional Differentiation (1800-2000)" id="downloadPdf" class="btn-orange btn-view-pdf download-button" title="Download Full-Text Paper">Download This Paper</a>	
+				
 
 				
 				
 					
-					<a href="https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2798745_code1679749.pdf?abstractid=2491422&amp;mirid=1&amp;type=2" id="viewPdf" title="Open Full-Text Paper in Browser" class="btn-blue-outline-third btn-download-pdf">
+					
+						<a href="https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2798745_code1679749.pdf?abstractid=2491422&amp;mirid=1&amp;type=2" data-abstract-title="Fashionable Functions: A Google Ngram View of Trends in Functional Differentiation (1800-2000)" id="viewPdf" title="Open Full-Text Paper in Browser" class="btn-blue-outline-third btn-download-pdf">
 						Open PDF in Browser
-					</a>
+						</a>
+					
 				
 			
 			
@@ -2089,8 +2107,39 @@ $( document ).ready(function() {
 						
 
 
+
+
+
+
+
+
+	
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	    
+
+
+
+
+
+
+
 <div class="box-container box-registration-call-out">
-	<h2 class="section-title">Register to support our free research</h2>
+	<h2 class="section-title">Register to save articles to<br>your library</h2>
 	<dl class="stats row">
 		<a href="https://hq.ssrn.com/login/pubsigninjoin.cfm" class="btn-orange" title="Register">Register</a>
 	</dl>
@@ -2141,7 +2190,7 @@ $( document ).ready(function() {
 			 
 			<div class="stat col-lg-6">
 				<div class="lbl">Downloads</div>
-				<div class="number" title="">     1,220</div>
+				<div class="number" title="">     1,227</div>
 			</div>
 			
 		
@@ -2158,14 +2207,14 @@ Privately available papers
 are not considered in these rankings."
 			class="lbl">rank</div>
 			
-			<div class="number" title="">    13,839</div>
+			<div class="number" title="">    13,862</div>
 		</div>
 		
 		
 		
 			<div class="stat col-lg-6">
 				<div class="lbl">Abstract Views</div>
-				<div class="number" title="">     5,233</div>
+				<div class="number" title="">     5,291</div>
 			</div>
 			<div class="stat plumx col-lg-6">
 				<div class="lbl">PlumX</div>
@@ -2227,7 +2276,7 @@ are not considered in these rankings."
 													FOLLOWERS
 												</div>
 												<div class="rjs-description">
-													      832
+													      833
 												</div>
 											</div>
 											<div class="rj-papers">
@@ -2235,7 +2284,7 @@ are not considered in these rankings."
 													PAPERS
 												</div>
 												<div class="rjs-description">
-													     1,091
+													     1,095
 												</div>
 											</div>
 										</div>
@@ -2284,7 +2333,7 @@ are not considered in these rankings."
 													FOLLOWERS
 												</div>
 												<div class="rjs-description">
-													      653
+													      651
 												</div>
 											</div>
 											<div class="rj-papers">
@@ -2292,7 +2341,7 @@ are not considered in these rankings."
 													PAPERS
 												</div>
 												<div class="rjs-description">
-													    28,467
+													    28,623
 												</div>
 											</div>
 										</div>
@@ -2346,7 +2395,7 @@ are not considered in these rankings."
 													PAPERS
 												</div>
 												<div class="rjs-description">
-													      383
+													      386
 												</div>
 											</div>
 										</div>
@@ -2390,7 +2439,7 @@ are not considered in these rankings."
 													FOLLOWERS
 												</div>
 												<div class="rjs-description">
-													      403
+													      402
 												</div>
 											</div>
 											<div class="rj-papers">
@@ -2398,7 +2447,7 @@ are not considered in these rankings."
 													PAPERS
 												</div>
 												<div class="rjs-description">
-													     6,312
+													     6,351
 												</div>
 											</div>
 										</div>
@@ -2447,7 +2496,7 @@ are not considered in these rankings."
 													FOLLOWERS
 												</div>
 												<div class="rjs-description">
-													      394
+													      395
 												</div>
 											</div>
 											<div class="rj-papers">
@@ -2455,7 +2504,7 @@ are not considered in these rankings."
 													PAPERS
 												</div>
 												<div class="rjs-description">
-													     8,973
+													     9,024
 												</div>
 											</div>
 										</div>
@@ -2512,7 +2561,7 @@ are not considered in these rankings."
 													PAPERS
 												</div>
 												<div class="rjs-description">
-													     1,807
+													     1,827
 												</div>
 											</div>
 										</div>
@@ -2556,7 +2605,7 @@ are not considered in these rankings."
 													FOLLOWERS
 												</div>
 												<div class="rjs-description">
-													      253
+													      254
 												</div>
 											</div>
 											<div class="rj-papers">
@@ -2564,7 +2613,7 @@ are not considered in these rankings."
 													PAPERS
 												</div>
 												<div class="rjs-description">
-													      771
+													      772
 												</div>
 											</div>
 										</div>
@@ -2608,7 +2657,7 @@ are not considered in these rankings."
 													FOLLOWERS
 												</div>
 												<div class="rjs-description">
-													      170
+													      171
 												</div>
 											</div>
 											<div class="rj-papers">
@@ -2616,7 +2665,7 @@ are not considered in these rankings."
 													PAPERS
 												</div>
 												<div class="rjs-description">
-													     6,282
+													     6,332
 												</div>
 											</div>
 										</div>
@@ -2660,7 +2709,7 @@ are not considered in these rankings."
 													FOLLOWERS
 												</div>
 												<div class="rjs-description">
-													       46
+													       45
 												</div>
 											</div>
 											<div class="rj-papers">
@@ -2668,7 +2717,7 @@ are not considered in these rankings."
 													PAPERS
 												</div>
 												<div class="rjs-description">
-													     5,443
+													     5,548
 												</div>
 											</div>
 										</div>
@@ -2725,7 +2774,7 @@ are not considered in these rankings."
 													PAPERS
 												</div>
 												<div class="rjs-description">
-													      143
+													      144
 												</div>
 											</div>
 										</div>
@@ -2783,6 +2832,24 @@ $(document).ready(function(){
 
 
 	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
 		
 		
 		
@@ -2792,23 +2859,6 @@ $(document).ready(function(){
 	
 	
 
-	
-	
-
-	
-	
-
-	
-	
-
-	
-	
-
-	
-	
-
-	
-	
 
 
 
@@ -2831,256 +2881,6 @@ $(document).ready(function(){
 
 
 
-
-	
-		<div class="box-container box-recommended-papers">
-			<h2 class="section-title">Recommended Papers</h2>
-			<ul class="list-recommended-papers">
-				
-				
-					<li>
-						
-						
-
-						
-						
-						<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2368340&rec=1&srcabs=2491422&alg=1&pos=1" target="_blank">Common Values? Fifty-Two Cases of Value Semantics Copying on Corporate Websites</a></p>
-						
-							<p>By
-								
-								
-									
-									<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1679749" target="_blank" title="View other papers by this author">Steffen Roth</a>
-									
-								
-							</p>
-						
-
-						
-						
-						
-					</li>
-				
-					<li>
-						
-						
-
-						
-						
-						<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2398940&rec=1&srcabs=2491422&alg=1&pos=2" target="_blank">Coining Societies: An Inter-Functional Comparative Analysis of the Euro</a></p>
-						
-							<p>By
-								
-								
-									
-									<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1679749" target="_blank" title="View other papers by this author">Steffen Roth</a>
-									
-								
-							</p>
-						
-
-						
-						
-						
-					</li>
-				
-					<li>
-						
-						
-
-						
-						
-						<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2503418&rec=1&srcabs=2491422&alg=1&pos=3" target="_blank">The Multifunctional Organization: Two Cases for a Critical Update for Research Programs in Management and Organization</a></p>
-						
-							<p>By
-								
-								
-									
-									<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1679749" target="_blank" title="View other papers by this author">Steffen Roth</a>
-									
-								
-							</p>
-						
-
-						
-						
-						
-					</li>
-				
-				<div class="more">
-					
-						<li>
-							
-							
-
-							
-							
-							<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2475831&rec=1&srcabs=2491422&alg=1&pos=4" target="_blank">Booties, Bounties, Business Models: A Map to the Next Red Oceans</a></p>
-							
-								<p>By
-									
-									
-										
-										<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1679749" target="_blank" title="View other papers by this author">Steffen Roth</a>
-										
-									
-								</p>
-							
-
-							
-							
-						</li>
-					
-						<li>
-							
-							
-
-							
-							
-							<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2326151&rec=1&srcabs=2491422&alg=1&pos=5" target="_blank">Smart Regions: Two Cases of Crowdsourcing for Regional Development</a></p>
-							
-								<p>By
-									
-									
-										
-										<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1679749" target="_blank" title="View other papers by this author">Steffen Roth</a>, 
-										
-									
-										
-										<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=583122" target="_blank" title="View other papers by this author">Jari Kaivo-oja</a>, ...
-										
-									
-								</p>
-							
-
-							
-							
-						</li>
-					
-						<li>
-							
-							
-
-							
-							
-							<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2456791&rec=1&srcabs=2491422&alg=1&pos=6" target="_blank">The Things that Go Without Saying: On Performative Differences between Business Value Communication and Communication on Business Values</a></p>
-							
-								<p>By
-									
-									
-										
-										<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1679749" target="_blank" title="View other papers by this author">Steffen Roth</a>
-										
-									
-								</p>
-							
-
-							
-							
-						</li>
-					
-						<li>
-							
-							
-
-							
-							
-							<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2192754&rec=1&srcabs=2491422&alg=1&pos=7" target="_blank">Leaving Commonplaces on the Common Place: Cornerstones of a Polyphonic Market Theory</a></p>
-							
-								<p>By
-									
-									
-										
-										<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1679749" target="_blank" title="View other papers by this author">Steffen Roth</a>
-										
-									
-								</p>
-							
-
-							
-							
-						</li>
-					
-						<li>
-							
-							
-
-							
-							
-							<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2508950&rec=1&srcabs=2491422&alg=1&pos=8" target="_blank">Ten Systems: Toward a Canon of Function Systems</a></p>
-							
-								<p>By
-									
-									
-										
-										<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1679749" target="_blank" title="View other papers by this author">Steffen Roth</a>
-										 and 
-									
-										
-										<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2468505" target="_blank" title="View other papers by this author">Anton Schütz</a>
-										
-									
-								</p>
-							
-
-							
-							
-						</li>
-					
-						<li>
-							
-							
-
-							
-							
-							<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2520816&rec=1&srcabs=2491422&alg=1&pos=9" target="_blank">Future Industrial Platforms and Radical Technology Foresight: The Case of 3D Printing in Finland and Europe</a></p>
-							
-								<p>By
-									
-									
-										
-										<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=583122" target="_blank" title="View other papers by this author">Jari Kaivo-oja</a>, 
-										
-									
-										
-										<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2324808" target="_blank" title="View other papers by this author">Toni Ahlqvist</a>, ...
-										
-									
-								</p>
-							
-
-							
-							
-						</li>
-					
-						<li>
-							
-							
-
-							
-							
-							<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2265350&rec=1&srcabs=2491422&alg=1&pos=10" target="_blank">Les Deux Angleterres Et Le Continent: Anglophone Sociology as the Guardian of Old European Semantics</a></p>
-							
-								<p>By
-									
-									
-										
-										<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1679749" target="_blank" title="View other papers by this author">Steffen Roth</a>
-										
-									
-								</p>
-							
-
-							
-							
-						</li>
-					
-				</div>
-			</ul>
-			
-				<a href="ssrn-com-0073.htm#" onclick="" class="view-more" aria-label="view-more" role="button"> <i class="icon icon-gizmo-navigate-right" aria-hidden="true"></i></a>
-			
-		</div>
 	
 
 
@@ -3091,9 +2891,9 @@ $(document).ready(function(){
 		function trackAppearances ()	{
 			times++; // to avoid fraud - we only track these the first time the additional recommendations are shown
 			var ab_id_source = '2491422';
-			var list_of_ab_id_target = '2475831,2326151,2456791,2192754,2508950,2520816,2265350,';
+			var list_of_ab_id_target = '';
 			var initial_limit = '3';
-			var algorithm = '1';
+			var algorithm = '7';
 			var fraud = '0';
 
 			if (times == 1) {
@@ -3321,14 +3121,14 @@ var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 7);
 				<div class="footer-links">
 					<a href="https://www.ssrn.com/en/index.cfm/dmca-notice-policy/">Copyright</a>
 					<a href="https://www.ssrn.com/en/index.cfm/terms-of-use/">Terms and Conditions</a>
-					<a href="https://www.ssrn.com/en/index.cfm/privacy-policy/">Privacy Policy</a>
+					<a href="https://www.elsevier.com/legal/privacy-policy" target="_blank">Privacy Policy</a>
 				</div>
 				<div class="footer-text">
 					<p>Cookies are used by this site. To decline or learn more, visit <a href="https://www.ssrn.com/en/index.cfm/ssrn-faq/#cookies">our Cookies page</a>.
 					<span class="icon-gizmo-lightning alwaysshowme">
 						<span class="tooltip top" role="tooltip">
 							<span class="tooltip-arrow"></span>
-							<span class="tooltip-inner">This page was processed by apollobot1 in <span id="serverTime">  0.188</span> seconds <span id="loadingtime"></span></span>
+							<span class="tooltip-inner">This page was processed by apollobot1 in <span id="serverTime">  0.172</span> seconds <span id="loadingtime"></span></span>
 						</span>
 					</span>
 					</p>

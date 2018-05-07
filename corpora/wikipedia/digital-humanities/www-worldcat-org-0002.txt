@@ -324,13 +324,13 @@ Your Web browser is not enabled for JavaScript. Some features of WorldCat will n
                         [image: &AllPage.SpinnerRetrieving;]
 
                        I thought you might be interested in this item at
-http://www.worldcat.org/oclc/969745500
+http://www.worldcat.org/oclc/1033714283
 
-Title:  PloS one
+Title:  PLoS one
 Publisher:  San Francisco, CA : Public Library of Science. 
 
 ISBN/ISSN: 1932-6203
-OCLC:969745500
+OCLC:1033714283
                        
 
 
@@ -491,11 +491,10 @@ OCLC:969745500
 
 
 
-
  
 	
 
-     [image: PloS one]
+     [image: PLoS one]
 
                 
 			Preview this item
@@ -520,33 +519,14 @@ OCLC:969745500
 
 
 
-        
-            Nearby libraries
+		PLoS one
 
 
-        
-
-        Checking...
-
-    
-
-
-    Find more libraries
-    Librarian?
-    Claim your library
-    to
-
-
-
-		PloS one
-
-
-			Author:	Public Library of Science.; National Institutes of Health (U.S.). PubMed Central.
+			Author:	Public Library of Science.
 	Publisher:	San Francisco, CA : Public Library of Science.
 	Edition/Format:	
                         
-                        [image:  ] eJournal/eMagazine : Document : Periodical : EnglishView all editions and formats
-                                
+                        [image:  ] Journal, magazine : Periodical [image:  ] Computer File : English
 					
 	Rating:	
                         (not yet rated)
@@ -557,21 +537,28 @@ OCLC:969745500
 					
 	Subjects	
                     	
-                                Medicina -- Revistes.
+                                Médecine.
                             
-	
-                                Ciència -- Revistes.
-                            
-	
-                                Medicina.
-                            
-	View all subjects
 
 
                 
 	More like this	
                 	Similar Items
 
+
+            
+	
+                
+                 
+                 Search this publication for other articles with the following words:
+                 
+                 
+                 
+                 
+                 
+                 
+
+               
 
             
 
@@ -632,13 +619,8 @@ OCLC:969745500
           
             
             
-                 XV9LX6CM3J.search.serialssolutions.com
-                    Versió electrònica
-                
-
-            
-                 plosone.org
-                    
+                 pubmedcentral.nih.gov
+                    gratuit
                 
 
             
@@ -732,16 +714,16 @@ OCLC:969745500
 
   
 
-    	Genre/Form:	Revistes electròniques
-	Material Type:	Document, Periodical, Internet resource
-	Document Type:	Internet Resource, Computer File, Journal / Magazine / Newspaper
+    	Genre/Form:	[document électronique]
+[périodique]
+	Material Type:	Periodical, Internet resource
+	Document Type:	Journal / Magazine / Newspaper, Computer File, Internet Resource
 	All Authors / Contributors:	
-	    Public Library of Science.; National Institutes of Health (U.S.). PubMed Central.
+	    Public Library of Science.
 	ISSN:	1932-6203
-	OCLC Number:	969745500
-	Details:	Modalitat d'acceÌ�s: WWW.
-	Other Titles:	Public Library of Science one
-PLoS 1
+	OCLC Number:	1033714283
+	Notes:	Ressource en ligne consultée le 18.09.2007.
+	Responsibility:	Public Library of Science.
 
 
 
@@ -814,7 +796,7 @@ PLoS 1
 		
             
             
-                    Add tags for "PloS one".
+                    Add tags for "PLoS one".
                     Be the first.
 
             
@@ -831,37 +813,10 @@ PLoS 1
 
 		
 
-			Related Subjects:(10)
+			Related Subjects:(1)
 
 					
-							Medicina -- Revistes.
-						
-	
-							Ciència -- Revistes.
-						
-	
-							Medicina.
-						
-	
-							Ciència.
-						
-	
-							Research -- Periodicals
-						
-	
-							Science -- Periodicals
-						
-	
-							Medicine
-						
-	
-							Science
-						
-	
-							Research. -- fast -- (OCoLC)fst01095153
-						
-	
-							Science. -- fast -- (OCoLC)fst01108176
+							Médecine.
 						
 
 
@@ -923,154 +878,214 @@ PLoS 1
 
             
 
-			Primary Entity
-http://www.worldcat.org/oclc/969745500> # PloS one
-    a schema:MediaObject, schema:Periodical, schema:CreativeWork ;
-   library:oclcnum "969745500" ;
-   library:placeOfPublication http://id.loc.gov/vocabulary/countries/cau> ;
-   library:placeOfPublication http://experiment.worldcat.org/entity/work/data/57729172#Place/san_francisco_ca> ; # San Francisco, CA
-   schema:about http://experiment.worldcat.org/entity/work/data/57729172#Thing/medicine> ; # Medicine
-   schema:about http://experiment.worldcat.org/entity/work/data/57729172#Topic/ciencia> ; # Ciència
-   schema:about http://experiment.worldcat.org/entity/work/data/57729172#Thing/science> ; # Science.
-   schema:about http://experiment.worldcat.org/entity/work/data/57729172#Topic/medicina> ; # Medicina
-   schema:about http://experiment.worldcat.org/entity/work/data/57729172#Thing/research> ; # Research.
-   schema:about http://experiment.worldcat.org/entity/work/data/57729172#Topic/medicina_revistes> ; # Medicina--Revistes
-   schema:about http://experiment.worldcat.org/entity/work/data/57729172#Topic/ciencia_revistes> ; # Ciència--Revistes
-   schema:alternateName "Public Library of Science one" ;
-   schema:alternateName "PLoS 1" ;
-   schema:contributor http://experiment.worldcat.org/entity/work/data/57729172#Organization/public_library_of_science> ; # Public Library of Science.
-   schema:contributor http://experiment.worldcat.org/entity/work/data/57729172#Organization/national_institutes_of_health_u_s_pubmed_central> ; # National Institutes of Health (U.S.). PubMed Central.
-   schema:datePublished "2006/9999" ;
-   schema:exampleOfWork http://worldcat.org/entity/work/id/57729172> ;
-   schema:genre "Revistes electròniques" ;
-   schema:inLanguage "en" ;
-   schema:name "PloS one" ;
-   schema:productID "969745500" ;
-   schema:publication http://www.worldcat.org/title/-/oclc/969745500#PublicationEvent/san_francisco_ca_public_library_of_science> ;
-   schema:publisher http://experiment.worldcat.org/entity/work/data/57729172#Agent/public_library_of_science> ; # Public Library of Science.
-   schema:url http://XV9LX6CM3J.search.serialssolutions.com/?V=1.0&L=XV9LX6CM3J&S=JCs&C=PLOON&T=marc> ;
-   schema:url http://www.plosone.org/article/browse.action> ;
-   schema:workExample http://worldcat.org/issn/1932-6203> ; # PloS one
-   wdrs:describedby http://www.worldcat.org/title/-/oclc/969745500> ;
+			
+
+Primary Entity
+
+http://www.worldcat.org/oclc/1033714283> # PLoS one
+
+    a 
+schema:CreativeWork, schema:Periodical ;
+   
+library:oclcnum "1033714283" ;
+   
+library:placeOfPublication http://id.loc.gov/vocabulary/countries/cau> ;
+   
+library:placeOfPublication http://experiment.worldcat.org/entity/work/data/5083152931#Place/san_francisco_ca> ; # San Francisco, CA
+
+   
+schema:about http://experiment.worldcat.org/entity/work/data/5083152931#Topic/medecine> ; # Médecine
+
+   
+schema:contributor http://experiment.worldcat.org/entity/work/data/5083152931#Organization/public_library_of_science> ; # Public Library of Science.
+
+   
+schema:datePublished "2006/9999" ;
+   
+schema:exampleOfWork http://worldcat.org/entity/work/id/5083152931> ;
+   
+schema:genre "[périodique]" ;
+   
+schema:genre "[document électronique]" ;
+   
+schema:inLanguage "en" ;
+   
+schema:name "PLoS one" ;
+   
+schema:productID "1033714283" ;
+   
+schema:publication http://www.worldcat.org/title/-/oclc/1033714283#PublicationEvent/san_francisco_ca_public_library_of_science> ;
+   
+schema:publisher http://experiment.worldcat.org/entity/work/data/5083152931#Agent/public_library_of_science> ; # Public Library of Science.
+
+   
+schema:url http://www.pubmedcentral.nih.gov/tocrender.fcgi?action=archive&journal=440> ;
+   
+schema:workExample http://worldcat.org/issn/1932-6203> ; # PLoS one
+
+   
+wdrs:describedby http://www.worldcat.org/title/-/oclc/1033714283> ;
     .
+
+
+
+
+
 
 
 
 Related Entities
-http://experiment.worldcat.org/entity/work/data/57729172#Agent/public_library_of_science> # Public Library of Science.
-    a bgn:Agent ;
-   schema:name "Public Library of Science." ;
+
+http://experiment.worldcat.org/entity/work/data/5083152931#Agent/public_library_of_science> # Public Library of Science.
+
+    a 
+bgn:Agent ;
+   
+schema:name "Public Library of Science." ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/57729172#Organization/national_institutes_of_health_u_s_pubmed_central> # National Institutes of Health (U.S.). PubMed Central.
-    a schema:Organization ;
-   schema:name "National Institutes of Health (U.S.). PubMed Central." ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/5083152931#Organization/public_library_of_science> # Public Library of Science.
+
+    a 
+schema:Organization ;
+   
+schema:name "Public Library of Science." ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/57729172#Organization/public_library_of_science> # Public Library of Science.
-    a schema:Organization ;
-   schema:name "Public Library of Science." ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/5083152931#Place/san_francisco_ca> # San Francisco, CA
+
+    a 
+schema:Place ;
+   
+schema:name "San Francisco, CA" ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/57729172#Place/san_francisco_ca> # San Francisco, CA
-    a schema:Place ;
-   schema:name "San Francisco, CA" ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/5083152931#Topic/medecine> # Médecine
+
+    a 
+schema:Intangible ;
+   
+schema:name "Médecine" ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/57729172#Thing/medicine> # Medicine
-    a schema:Thing ;
-   schema:name "Medicine" ;
-    .
 
 
-http://experiment.worldcat.org/entity/work/data/57729172#Thing/research> # Research.
-    a schema:Thing ;
-   schema:name "Research." ;
-   schema:name "Research" ;
-    .
-
-
-http://experiment.worldcat.org/entity/work/data/57729172#Thing/science> # Science.
-    a schema:Thing ;
-   schema:name "Science." ;
-   schema:name "Science" ;
-    .
-
-
-http://experiment.worldcat.org/entity/work/data/57729172#Topic/ciencia> # Ciència
-    a schema:Intangible ;
-   schema:name "Ciència" ;
-    .
-
-
-http://experiment.worldcat.org/entity/work/data/57729172#Topic/ciencia_revistes> # Ciència--Revistes
-    a schema:Intangible ;
-   schema:name "Ciència--Revistes" ;
-    .
-
-
-http://experiment.worldcat.org/entity/work/data/57729172#Topic/medicina> # Medicina
-    a schema:Intangible ;
-   schema:name "Medicina" ;
-    .
-
-
-http://experiment.worldcat.org/entity/work/data/57729172#Topic/medicina_revistes> # Medicina--Revistes
-    a schema:Intangible ;
-   schema:name "Medicina--Revistes" ;
-    .
 
 
 http://id.loc.gov/vocabulary/countries/cau>
-    a schema:Place ;
-   dcterms:identifier "cau" ;
+    a 
+schema:Place ;
+   
+dcterms:identifier "cau" ;
     .
 
 
-http://worldcat.org/entity/work/id/57729172>
-   umbel:isLike http://worldcat.org/issn/1932-6203> ; # PloS one
+
+
+
+
+http://worldcat.org/entity/work/id/5083152931>
+   
+umbel:isLike http://worldcat.org/issn/1932-6203> ; # PLoS one
+
     .
 
 
-http://worldcat.org/issn/1932-6203> # PloS one
-    a schema:Periodical ;
-   schema:issn "1932-6203" ;
-   schema:name "PloS one" ;
-   umbel:isLike http://worldcat.org/entity/work/id/57729172> ;
+
+
+
+
+http://worldcat.org/issn/1932-6203> # PLoS one
+
+    a 
+schema:Periodical ;
+   
+schema:issn "1932-6203" ;
+   
+schema:name "PLoS one" ;
+   
+umbel:isLike http://worldcat.org/entity/work/id/5083152931> ;
     .
 
 
-http://www.worldcat.org/title/-/oclc/969745500>
-    a genont:InformationResource, genont:ContentTypeGenericResource ;
-   schema:about http://www.worldcat.org/oclc/969745500> ; # PloS one
-   schema:dateModified "2018-03-10" ;
-   void:inDataset http://purl.oclc.org/dataset/WorldCat> ;
+
+
+
+
+http://www.pubmedcentral.nih.gov/tocrender.fcgi?action=archive&journal=440>
+   
+rdfs:comment "gratuit" ;
     .
 
 
-http://www.worldcat.org/title/-/oclc/969745500#PublicationEvent/san_francisco_ca_public_library_of_science>
-    a schema:PublicationEvent ;
-   schema:location http://experiment.worldcat.org/entity/work/data/57729172#Place/san_francisco_ca> ; # San Francisco, CA
-   schema:organizer http://experiment.worldcat.org/entity/work/data/57729172#Agent/public_library_of_science> ; # Public Library of Science.
+
+
+
+
+http://www.worldcat.org/title/-/oclc/1033714283>
+    a 
+genont:InformationResource, genont:ContentTypeGenericResource ;
+   
+schema:about http://www.worldcat.org/oclc/1033714283> ; # PLoS one
+
+   
+schema:dateModified "2018-05-04" ;
+   
+void:inDataset http://purl.oclc.org/dataset/WorldCat> ;
     .
 
 
-http://XV9LX6CM3J.search.serialssolutions.com/?V=1.0&L=XV9LX6CM3J&S=JCs&C=PLOON&T=marc>
-   rdfs:comment "Versió electrònica" ;
+
+
+
+
+http://www.worldcat.org/title/-/oclc/1033714283#PublicationEvent/san_francisco_ca_public_library_of_science>
+    a 
+schema:PublicationEvent ;
+   
+schema:location http://experiment.worldcat.org/entity/work/data/5083152931#Place/san_francisco_ca> ; # San Francisco, CA
+
+   
+schema:organizer http://experiment.worldcat.org/entity/work/data/5083152931#Agent/public_library_of_science> ; # Public Library of Science.
+
     .
+
+
+
+
+
 
 
 
 Content-negotiable representations
-	Turtle (text/turtle)
-	JSON-LD (application/ld+json)
-	RDF/XML (application/rdf+xml)
-	N-TRIPLES (text/plain)
-	HTML+RDFa (text/html)
+
+	
+Turtle (text/turtle)
+	
+JSON-LD (application/ld+json)
+	
+RDF/XML (application/rdf+xml)
+	
+N-TRIPLES (text/plain)
+	
+HTML+RDFa (text/html)
+
 
 
 
@@ -1083,15 +1098,15 @@ Content-negotiable representations
 
 
 
-969745500
+1033714283
 
 	    
 
-	    PloS one/Public Library of Science.; National Institutes of Health (U.S.). PubMed Central.;; San Francisco, CA : Public Library of Science.
+	    PLoS one/Public Library of Science.;; San Francisco, CA : Public Library of Science.
 
 		21274
 
-	        jrnl_digital
+	        jrnl
 
 	    
 	    

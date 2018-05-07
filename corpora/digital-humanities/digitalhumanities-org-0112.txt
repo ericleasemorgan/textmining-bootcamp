@@ -8,12 +8,13 @@ homesubmissionsabout dhqdhq peoplecontact
 
 
 Current Issue
-	2017: 11.3
-
-Preview Issue
 	2017: 11.4
 
+Preview Issue
+	2018: 12.1
+
 Previous Issues
+	2017: 11.3
 	2017: 11.2
 	2017: 11.1
 	2016: 10.4
@@ -669,27 +670,26 @@ Flanders et al 2007 Flanders, Julia, Wendell Piez and Melissa Terras. “Welcom
 
 Hockey 2004 Hockey, Susan. “History of Humanities Computing”. In Susan Scheibman Ray Siemens and John Unsworth, eds., A Companion to Digital Humanities. New York: Blackwell Publishing, 2004. pp. 1-19.
 
-Humanist 17.111 Svensson, Patrik, and Willard
-            McCarty. “17.111 History in Terms” June 21, 2003. http://www.digitalhumanities.org/humanist/archives/virginia/v17/0107.html
-            
-Humanist 18.001 McCarty, Willard. “18.001 Happy
-        17th Birthday” May 10, 2004. http://www.digitalhumanities.org/humanist/archives/virginia/v18/0000.html
-            
-Humanist 18.615 McCarty, Willard. “18.615 Computers and the Humanities 1966-2004.” March 5, 2005. http://www.digitalhumanities.org/humanist/archives/virginia/v18/0604.html
-            
-Humanist 19.052 Siemens, Ray. “19.052 new book series in humanities computing” May 26, 2005. http://www.digitalhumanities.org/humanist/archives/virginia/v19/0053.html
-            
-Humanist 21.436 McCarty, Willard. “21.436 Happy & merry solstitial greetings!” December 21, 2007 http://www.digitalhumanities.org/humanist/archives/virginia/v21/0434.html
-            
-Humanist 21.469 McCarty, Willard, Carsten Lutz and
-            Melanie Chernyk. “21.469 more
-            events: DL2008; Digital Humanities Summer Institute.” January 10, 2008. http://www.digitalhumanities.org/humanist/archives/virginia/v21/0467.html
-            
-Humanist 6.0357 Brennan, Elaine. “6.0357 Humanities Computing: Merely a Hobby?” November 17, 1992. http://www.digitalhumanities.org/humanist/archives/virginia/v06/0358.html
-            
-Humanist 6.0362 Rabkin, Eric, and Jim Guthrie. “6.0362 Rs:
-            Newspapers Online” November 17, 1992. http://www.digitalhumanities.org/humanist/archives/virginia/v06/0363.html
-            
+Humanist 17.111 Warning: Biblio formatting not applied. SvenssonPatrik. WillardMcCarty. 17.111 History in Terms. Humanist.  June 21, 2003 . http://www.digitalhumanities.org/humanist/archives/virginia/v17/0107.html.
+
+Humanist 18.001 Warning: Biblio formatting not applied. McCartyWillard. 18.001 Happy
+        17th Birthday. Humanist.  May 10, 2004 . http://www.digitalhumanities.org/humanist/archives/virginia/v18/0000.html.
+
+Humanist 18.615 Warning: Biblio formatting not applied. McCartyWillard. 18.615 Computers and the Humanities 1966-2004. Humanist.  March 5, 2005 . http://www.digitalhumanities.org/humanist/archives/virginia/v18/0604.html.
+
+Humanist 19.052 Warning: Biblio formatting not applied. SiemensRay. 19.052 new book series in humanities computing. Humanist.  May 26, 2005 . http://www.digitalhumanities.org/humanist/archives/virginia/v19/0053.html.
+
+Humanist 21.436 Warning: Biblio formatting not applied. McCartyWillard. 21.436 Happy & merry solstitial greetings! Humanist.  December 21, 2007 
+      . http://www.digitalhumanities.org/humanist/archives/virginia/v21/0434.html.
+
+Humanist 21.469 Warning: Biblio formatting not applied. McCartyWillard. CarstenLutz. MelanieChernyk. 21.469 more
+            events: DL2008; Digital Humanities Summer Institute. Humanist.  January 10, 2008. http://www.digitalhumanities.org/humanist/archives/virginia/v21/0467.html.
+
+Humanist 6.0357 Warning: Biblio formatting not applied. BrennanElaine. 6.0357 Humanities Computing: Merely a Hobby? Humanist. November 17, 1992. http://www.digitalhumanities.org/humanist/archives/virginia/v06/0358.html.
+
+Humanist 6.0362 Warning: Biblio formatting not applied. RabkinEric. JimGuthrie. 6.0362 Re:
+            Newspapers Online.  November 17, 1992 . http://www.digitalhumanities.org/humanist/archives/virginia/v06/0363.html.
+
 Jessop 2007 JessopMartyn. “The Inhibition of Geographical Information in Digital Humanities Scholarship”.  Literary and Linguistic Computing 23: 1 (2008), pp. 39-50.
 
 Juola 2008 Juola, Patrick. “Killer Applications in Digital Humanities”.  Literary and Linguistic Computing 23: 1 (2008), pp. 73-83.
@@ -702,22 +702,14 @@ Klein 1996 Klein, Julie Thomson. Crossing Boundaries: Knowledge, Disciplinariti
 
 Knorr Cetina 1999 Knorr Cetina, Karin. Epistemic Cultures: How the Sciences Make Knowledge. Cambridge, MA: Harvard University Press, 1999.
 
-Literary and Linguistic Computing 2008 
-               Literary and Linguistic Computing, Oxford Journals. Volume 23,
-            Number 3, September 2008. http://llc.oxfordjournals.org/content/vol23/issue3/index.dtl
-            
-Literary and Linguistic Computing 23:2 
-               Literary and Linguistic Computing, Oxford Journals. Volume 23,
-            Number 2, June 2008. http://llc.oxfordjournals.org/content/vol23/issue2/index.dtl
-            
-Literary and Linguistic Computing 23:4 
-               Literary and Linguistic Computing, Oxford Journals. Volume 23,
-            Number 4, December 2008. http://llc.oxfordjournals.org/content/vol23/issue4/index.dtl
-            
-Literary and Linguistic Computing 24:1 
-               Literary and Linguistic Computing, Oxford Journals. Volume 24,
-            Number 1, April 2009. http://llc.oxfordjournals.org/content/vol24/issue1/index.dtl
-            
+Literary and Linguistic Computing 2008 Warning: Biblio formatting not applied. Literary and Linguistic Computing. 23. 3. September 2008. http://llc.oxfordjournals.org/content/vol23/issue3/index.dtl.
+
+Literary and Linguistic Computing 23:2 Warning: Biblio formatting not applied. Literary and Linguistic Computing. 23. 2. June 2008. http://llc.oxfordjournals.org/content/vol23/issue2/index.dtl.
+
+Literary and Linguistic Computing 23:4 Warning: Biblio formatting not applied. Literary and Linguistic Computing. 23. 4. December 2008. http://llc.oxfordjournals.org/content/vol23/issue4/index.dtl.
+
+Literary and Linguistic Computing 24:1 Warning: Biblio formatting not applied. Literary and Linguistic Computing. 24. 1. April 2009. http://llc.oxfordjournals.org/content/vol24/issue1/index.dtl.
+
 McCarty & Kirschenbaum 2003 McCarty, Willard, and Matthew Kirschenbaum. “Institutional Models for Humanities Computing”.  Literary and Linguistic Computing 18: 4 (2003), pp. 465-489.
 
 McCarty 1996 McCartyWillard. “Introduction to Concording and Text-analysis: History, Theory, and Methodology”. In Hockey Susan and Willard McCarty, eds., CETH Summer Seminar. Princeton, NJ: CETH.

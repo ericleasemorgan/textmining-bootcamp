@@ -324,13 +324,12 @@ Your Web browser is not enabled for JavaScript. Some features of WorldCat will n
                         [image: &AllPage.SpinnerRetrieving;]
 
                        I thought you might be interested in this item at
-http://www.worldcat.org/oclc/682531820
+http://www.worldcat.org/oclc/60329124
 
-Title:  The Chronicle of higher education almanac.
-Publisher:  [Washington, D.C.] : The Chronicle, [©1988-
+Title:  The Chronicle of higher education
+Publisher:  Washigton, DC : Chronicle of higher education. 
 
-ISBN/ISSN: 1043-7967
-OCLC:682531820
+OCLC:60329124
                        
 
 
@@ -491,11 +490,10 @@ OCLC:682531820
 
 
 
-
  
 	
 
-     [image: The Chronicle of higher education almanac.]
+     [image: The Chronicle of higher education]
 
                 
 			Preview this item
@@ -520,32 +518,13 @@ OCLC:682531820
 
 
 
-        
-            Nearby libraries
+		The Chronicle of higher education
 
 
-        
-
-        Checking...
-
-    
-
-
-    Find more libraries
-    Librarian?
-    Claim your library
-    to
-
-
-
-		The Chronicle of higher education almanac.
-
-
-			Publisher:	[Washington, D.C.] : The Chronicle, [©1988-
+			Publisher:	Washigton, DC : Chronicle of higher education.
 	Edition/Format:	
                         
-                        [image:  ] eJournal/eMagazine : Document : EnglishView all editions and formats
-                                
+                        [image:  ] eJournal/eMagazine : Document : Periodical : English
 					
 	Rating:	
                         (not yet rated)
@@ -556,15 +535,14 @@ OCLC:682531820
 					
 	Subjects	
                     	
-                                Education, Higher -- United States -- Periodicals.
+                                Enseignement supérieur -- Périodiques.
                             
 	
-                                Education -- Demographic aspects -- United States -- Periodicals.
+                                Professeurs (Enseignement supérieur) -- Orientation professionnelle -- Périodiques.
                             
 	
-                                Enseignement supérieur -- États-Unis -- Périodiques.
+                                Emplois vacants -- Répertoires.
                             
-	View all subjects
 
 
                 
@@ -631,55 +609,9 @@ OCLC:682531820
           
             
             
-                 Google
-                    
+                 chronicle.com
+                    Acc%60es réservé UdeM
                 
-
-            
-                 Google
-                    
-                
-
-            
-                 Google
-                    
-                
-
-            
-                
-                
-                  Google
-                      
-                  
-
-                
-                  Google
-                      
-                  
-
-                
-                  HathiTrust Digital Library, Limited view (search only)
-                      
-                  
-
-                
-                  chronicle.com
-                      
-                  
-
-                
-                  chronicle.com
-                      Almanac: (1989)-
-                  
-
-                
-                  chronicle.com
-                      Chronicle: Sep.1989-
-                  
-
-                
-
-              [image: ]Show all links
 
             
 
@@ -772,20 +704,24 @@ OCLC:682531820
 
   
 
-    	Genre/Form:	Periodicals
-Périodiques
-Statistiques Périodiques
-	Additional Physical Format:	(DLC)   89641297
-(OCoLC)18548861
-	Material Type:	Document, Internet resource
+    	Genre/Form:	Périodiques
+Répertoires
+	Additional Physical Format:	Chronicle of higher education
+	Material Type:	Document, Periodical, Internet resource
 	Document Type:	Internet Resource, Computer File, Journal / Magazine / Newspaper
-	ISSN:	1043-7967
-	OCLC Number:	682531820
-	Reproduction Notes:	Electronic reproduction. [S.l.] : HathiTrust Digital Library, 2010. MiAaHDL
-	Description:	volumes : illustrations ; 39 cm
-	Details:	Master and use copy. Digital master created according to Benchmark for Faithful Digital Reproductions of Monographs and Serials, Version 1. Digital Library Federation, December 2002.
-	Other Titles:	Chronicle of higher education almanac issue
-Chronicle of higher education.
+	OCLC Number:	60329124
+	Notes:	Titre de l'écran-titre (visionné le 17 janvier 2005).
+Texte intégral.
+	Details:	Mode d'acceÌ€s: disponible sur Internet. AcceÌ€s reÌ�serveÌ� aux usagers de l'UniversiteÌ� de MontreÌ�al. Identification et mot de passe requis.
+	Other Titles:	Chronicle of higher education almanac (En ligne)
+Chronicle of higher education (En ligne)
+	More information:	
+	      	
+                        proxy.umontreal.ca
+                      
+
+
+	    
 
 
 
@@ -858,7 +794,7 @@ Chronicle of higher education.
 		
             
             
-                    Add tags for "The Chronicle of higher education almanac.".
+                    Add tags for "The Chronicle of higher education".
                     Be the first.
 
             
@@ -875,31 +811,16 @@ Chronicle of higher education.
 
 		
 
-			Related Subjects:(8)
+			Related Subjects:(3)
 
 					
-							Education, Higher -- United States -- Periodicals.
+							Enseignement supérieur -- Périodiques.
 						
 	
-							Education -- Demographic aspects -- United States -- Periodicals.
+							Professeurs (Enseignement supérieur) -- Orientation professionnelle -- Périodiques.
 						
 	
-							Enseignement supérieur -- États-Unis -- Périodiques.
-						
-	
-							Éducation -- Aspect démographique -- États-Unis -- Périodiques.
-						
-	
-							Enseignement supérieur -- États-Unis -- Statistiques -- Périodiques.
-						
-	
-							Education -- Demographic aspects.
-						
-	
-							Education, Higher.
-						
-	
-							United States.
+							Emplois vacants -- Répertoires.
 						
 
 
@@ -961,172 +882,240 @@ Chronicle of higher education.
 
             
 
-			Primary Entity
-http://www.worldcat.org/oclc/682531820> # The Chronicle of higher education almanac.
-    a schema:MediaObject, schema:Periodical, schema:CreativeWork ;
-   library:oclcnum "682531820" ;
-   library:placeOfPublication http://id.loc.gov/vocabulary/countries/dcu> ;
-   library:placeOfPublication http://experiment.worldcat.org/entity/work/data/55134754#Place/washington_d_c> ; # Washington, D.C.
-   rdfs:seeAlso http://experiment.worldcat.org/entity/work/data/55134754#CreativeWork/chronicle_of_higher_education> ; # Chronicle of higher education.
-   schema:about http://experiment.worldcat.org/entity/work/data/55134754#Topic/enseignement_superieur_etats_unis> ; # Enseignement supérieur--États-Unis
-   schema:about http://dewey.info/class/378.7305/e20/> ;
-   schema:about http://id.loc.gov/authorities/subjects/sh2009101939> ; # Education--Demographic aspects--United States
-   schema:about http://experiment.worldcat.org/entity/work/data/55134754#Topic/education_aspect_demographique_etats_unis> ; # Éducation--Aspect démographique--États-Unis
-   schema:about http://id.worldcat.org/fast/1204155> ; # United States.
-   schema:about http://experiment.worldcat.org/entity/work/data/55134754#Topic/education_higher_united_states> ; # Education, Higher--United States
-   schema:about http://id.worldcat.org/fast/903005> ; # Education, Higher
-   schema:about http://id.worldcat.org/fast/902595> ; # Education--Demographic aspects
-   schema:alternateName "Chronicle of higher education almanac issue" ;
-   schema:datePublished "1988/9999" ;
-   schema:datePublished "©1988/" ;
-   schema:exampleOfWork http://worldcat.org/entity/work/id/55134754> ;
-   schema:genre "Periodicals"@en ;
-   schema:inLanguage "en" ;
-   schema:isSimilarTo http://www.worldcat.org/oclc/18548861> ;
-   schema:name "The Chronicle of higher education almanac."@en ;
-   schema:productID "682531820" ;
-   schema:publication http://www.worldcat.org/title/-/oclc/682531820#PublicationEvent/washington_d_c_the_chronicle_1988> ;
-   schema:publisher http://experiment.worldcat.org/entity/work/data/55134754#Agent/the_chronicle> ; # The Chronicle
-   schema:url http://books.google.com/books?id=W8RXAAAAYAAJ> ;
-   schema:url http://chronicle.com/> ;
-   schema:url http://chronicle.com/section/Almanac-of-Higher-Education/463> ;
-   schema:url http://chronicle.com/free/almanac/2003/> ;
-   schema:url http://catalog.hathitrust.org/api/volumes/oclc/18548861.html> ;
-   schema:url http://books.google.com/books?id=oPokAQAAMAAJ> ;
-   schema:url http://books.google.com/books?id=DJwOAQAAMAAJ> ;
-   schema:url http://books.google.com/books?id=SMRXAAAAYAAJ> ;
-   schema:url http://books.google.com/books?id=SJwOAQAAMAAJ> ;
-   schema:workExample http://worldcat.org/issn/1043-7967> ; # The Chronicle of higher education almanac.
-   wdrs:describedby http://www.worldcat.org/title/-/oclc/682531820> ;
+			
+
+Primary Entity
+
+http://www.worldcat.org/oclc/60329124> # The Chronicle of higher education
+
+    a 
+schema:Periodical, schema:CreativeWork, schema:MediaObject ;
+   
+library:oclcnum "60329124" ;
+   
+library:placeOfPublication http://id.loc.gov/vocabulary/countries/dcu> ;
+   
+library:placeOfPublication http://experiment.worldcat.org/entity/work/data/4918864236#Place/washigton_dc> ; # Washigton, DC
+
+   
+rdfs:seeAlso http://experiment.worldcat.org/entity/work/data/4918864236#CreativeWork/chronicle_of_higher_education_almanac_en_ligne> ; # Chronicle of higher education almanac (En ligne)
+
+   
+schema:about http://experiment.worldcat.org/entity/work/data/4918864236#Topic/enseignement_superieur> ; # Enseignement supérieur
+
+   
+schema:about http://experiment.worldcat.org/entity/work/data/4918864236#Topic/professeurs_enseignement_superieur_orientation_professionnelle> ; # Professeurs (Enseignement supérieur)--Orientation professionnelle
+
+   
+schema:about http://experiment.worldcat.org/entity/work/data/4918864236#Topic/emplois_vacants> ; # Emplois vacants
+
+   
+schema:datePublished "1995/9999" ;
+   
+schema:exampleOfWork http://worldcat.org/entity/work/id/4918864236> ; # Chronicle of higher education (En ligne)
+
+   
+schema:inLanguage "en" ;
+   
+schema:isSimilarTo http://worldcat.org/entity/work/data/4918864236#CreativeWork/chronicle_of_higher_education> ;
+   
+schema:name "The Chronicle of higher education" ;
+   
+schema:productID "60329124" ;
+   
+schema:publication http://www.worldcat.org/title/-/oclc/60329124#PublicationEvent/washigton_dc_chronicle_of_higher_education> ;
+   
+schema:publisher http://experiment.worldcat.org/entity/work/data/4918864236#Agent/chronicle_of_higher_education> ; # Chronicle of higher education.
+
+   
+schema:url http://chronicle.com/archive> ;
+   
+wdrs:describedby http://www.worldcat.org/title/-/oclc/60329124> ;
     .
+
+
+
+
+
 
 
 
 Related Entities
-http://chronicle.com/>
-   rdfs:comment "Chronicle: Sep.1989-" ;
+
+http://chronicle.com/archive>
+   
+rdfs:comment "Acc%60es réservé UdeM" ;
     .
 
 
-http://chronicle.com/free/almanac/2003/>
-   rdfs:comment "Almanac: (1989)-" ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4918864236#Agent/chronicle_of_higher_education> # Chronicle of higher education.
+
+    a 
+bgn:Agent ;
+   
+schema:name "Chronicle of higher education." ;
     .
 
 
-http://dewey.info/class/378.7305/e20/>
-    a schema:Intangible ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4918864236#CreativeWork/chronicle_of_higher_education_almanac_en_ligne> # Chronicle of higher education almanac (En ligne)
+
+    a 
+schema:CreativeWork ;
+   
+schema:name "Chronicle of higher education almanac (En ligne)" ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/55134754#Agent/the_chronicle> # The Chronicle
-    a bgn:Agent ;
-   schema:name "The Chronicle" ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4918864236#Place/washigton_dc> # Washigton, DC
+
+    a 
+schema:Place ;
+   
+schema:name "Washigton, DC" ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/55134754#CreativeWork/chronicle_of_higher_education> # Chronicle of higher education.
-    a schema:CreativeWork ;
-   schema:name "Chronicle of higher education." ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4918864236#Topic/emplois_vacants> # Emplois vacants
+
+    a 
+schema:Intangible ;
+   
+schema:name "Emplois vacants"@fr ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/55134754#Place/washington_d_c> # Washington, D.C.
-    a schema:Place ;
-   schema:name "Washington, D.C." ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4918864236#Topic/enseignement_superieur> # Enseignement supérieur
+
+    a 
+schema:Intangible ;
+   
+schema:name "Enseignement supérieur"@fr ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/55134754#Topic/education_aspect_demographique_etats_unis> # Éducation--Aspect démographique--États-Unis
-    a schema:Intangible ;
-   schema:name "Éducation--Aspect démographique--États-Unis"@fr ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4918864236#Topic/professeurs_enseignement_superieur_orientation_professionnelle> # Professeurs (Enseignement supérieur)--Orientation professionnelle
+
+    a 
+schema:Intangible ;
+   
+schema:name "Professeurs (Enseignement supérieur)--Orientation professionnelle"@fr ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/55134754#Topic/education_higher_united_states> # Education, Higher--United States
-    a schema:Intangible ;
-   rdfs:seeAlso http://id.loc.gov/authorities/subjects/sh2008118935> ;
-   schema:name "Education, Higher--United States"@en ;
-    .
 
 
-http://experiment.worldcat.org/entity/work/data/55134754#Topic/enseignement_superieur_etats_unis> # Enseignement supérieur--États-Unis
-    a schema:Intangible ;
-   schema:name "Enseignement supérieur--États-Unis"@fr ;
-    .
-
-
-http://id.loc.gov/authorities/subjects/sh2009101939> # Education--Demographic aspects--United States
-    a schema:Intangible ;
-   schema:name "Education--Demographic aspects--United States"@en ;
-    .
 
 
 http://id.loc.gov/vocabulary/countries/dcu>
-    a schema:Place ;
-   dcterms:identifier "dcu" ;
+    a 
+schema:Place ;
+   
+dcterms:identifier "dcu" ;
     .
 
 
-http://id.worldcat.org/fast/1204155> # United States.
-    a schema:Place ;
-   schema:name "United States." ;
+
+
+
+
+http://worldcat.org/entity/work/data/4918864236#CreativeWork/chronicle_of_higher_education>
+    a 
+schema:CreativeWork ;
+   
+rdfs:label "Chronicle of higher education" ;
+   
+schema:isSimilarTo http://www.worldcat.org/oclc/60329124> ; # The Chronicle of higher education
+
     .
 
 
-http://id.worldcat.org/fast/902595> # Education--Demographic aspects
-    a schema:Intangible ;
-   schema:name "Education--Demographic aspects"@en ;
+
+
+
+
+http://worldcat.org/entity/work/id/4918864236> # Chronicle of higher education (En ligne)
+
+   
+schema:name "Chronicle of higher education (En ligne)" ;
     .
 
 
-http://id.worldcat.org/fast/903005> # Education, Higher
-    a schema:Intangible ;
-   schema:name "Education, Higher"@en ;
+
+
+
+
+http://www.worldcat.org/title/-/oclc/60329124>
+    a 
+genont:InformationResource, genont:ContentTypeGenericResource ;
+   
+schema:about http://www.worldcat.org/oclc/60329124> ; # The Chronicle of higher education
+
+   
+schema:dateModified "2018-04-16" ;
+   
+void:inDataset http://purl.oclc.org/dataset/WorldCat> ;
     .
 
 
-http://worldcat.org/entity/work/id/55134754>
-   umbel:isLike http://worldcat.org/issn/1043-7967> ; # The Chronicle of higher education almanac.
+
+
+
+
+http://www.worldcat.org/title/-/oclc/60329124#PublicationEvent/washigton_dc_chronicle_of_higher_education>
+    a 
+schema:PublicationEvent ;
+   
+schema:location http://experiment.worldcat.org/entity/work/data/4918864236#Place/washigton_dc> ; # Washigton, DC
+
+   
+schema:organizer http://experiment.worldcat.org/entity/work/data/4918864236#Agent/chronicle_of_higher_education> ; # Chronicle of higher education.
+
     .
 
 
-http://worldcat.org/issn/1043-7967> # The Chronicle of higher education almanac.
-    a schema:Periodical ;
-   schema:issn "1043-7967" ;
-   schema:name "The Chronicle of higher education almanac."@en ;
-   umbel:isLike http://worldcat.org/entity/work/id/55134754> ;
-    .
 
 
-http://www.worldcat.org/oclc/18548861>
-    a schema:CreativeWork ;
-   schema:isSimilarTo http://www.worldcat.org/oclc/682531820> ; # The Chronicle of higher education almanac.
-    .
 
-
-http://www.worldcat.org/title/-/oclc/682531820>
-    a genont:InformationResource, genont:ContentTypeGenericResource ;
-   schema:about http://www.worldcat.org/oclc/682531820> ; # The Chronicle of higher education almanac.
-   schema:dateModified "2018-03-11" ;
-   void:inDataset http://purl.oclc.org/dataset/WorldCat> ;
-    .
-
-
-http://www.worldcat.org/title/-/oclc/682531820#PublicationEvent/washington_d_c_the_chronicle_1988>
-    a schema:PublicationEvent ;
-   schema:location http://experiment.worldcat.org/entity/work/data/55134754#Place/washington_d_c> ; # Washington, D.C.
-   schema:organizer http://experiment.worldcat.org/entity/work/data/55134754#Agent/the_chronicle> ; # The Chronicle
-   schema:startDate "©1988-" ;
-    .
 
 
 
 Content-negotiable representations
-	Turtle (text/turtle)
-	JSON-LD (application/ld+json)
-	RDF/XML (application/rdf+xml)
-	N-TRIPLES (text/plain)
-	HTML+RDFa (text/html)
+
+	
+Turtle (text/turtle)
+	
+JSON-LD (application/ld+json)
+	
+RDF/XML (application/rdf+xml)
+	
+N-TRIPLES (text/plain)
+	
+HTML+RDFa (text/html)
+
 
 
 
@@ -1139,11 +1128,11 @@ Content-negotiable representations
 
 
 
-682531820
+60329124
 
 	    
 
-	    The Chronicle of higher education almanac./; [Washington, D.C.] : The Chronicle, [©1988-
+	    The Chronicle of higher education/; Washigton, DC : Chronicle of higher education.
 
 		21274
 

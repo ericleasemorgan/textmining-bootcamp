@@ -1,5 +1,6 @@
-lib/mallet
 .DS_Store
-tmp/*
-log/*
+.wget-hsts
 etc/.ipynb_checkpoints
+lib/mallet
+log/*
+tmp/*

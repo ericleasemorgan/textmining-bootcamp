@@ -1,4 +1,242 @@
 type	entity
+PERSON	Henry Farrer
+LOCATION	Broo
+ORGANIZATION	Aizuri Quartet
+PERSON	William Wegman
+LOCATION	California
+PERSON	Ernst Ludwig Kirchner
+PERSON	David
+LOCATION	Korea
+LOCATION	Mexico
+ORGANIZATION	MetGala
+LOCATION	Met Fifth Avenue
+LOCATION	Eastern Highlands
+LOCATION	New Guinea
+PERSON	William Eggleston
+LOCATION	Los Alamos
+LOCATION	Mexico
+LOCATION	Puebla
+PERSON	Moretto
+ORGANIZATION	Brescia
+PERSON	Bhanudatt
+PERSON	Anthony Abbot
+PERSON	Charles Honor Lannuier
+LOCATION	New York
+LOCATION	Paris
+LOCATION	Palenque
+LOCATION	Chiapas
+LOCATION	Palenque
+LOCATION	Chiapas Mexico
+PERSON	Frederic Edwin Church
+ORGANIZATION	Church
+PERSON	Katerina Jebb
+ORGANIZATION	MetHeavenlyBodies
+ORGANIZATION	Wikimedia Foundation
+PERSON	Muneakira
+LOCATION	Gorgan Iran
+PERSON	George Gibson
+PERSON	Ronda Kasl
+ORGANIZATION	MetStore Mezzanine Gallery
+LOCATION	Pinterest
+PERSON	Thomas Cole
+LOCATION	Journey Atlantic Crossings
+LOCATION	America
+PERSON	Gudea
+PERSON	JoannePillsbury
+ORGANIZATION	Yale
+LOCATION	Italy
+ORGANIZATION	Costume Institute
+PERSON	Philip Treacy
+PERSON	Huma Bhabha
+PERSON	Hugh Hammersley
+ORGANIZATION	MetGala CostumeInstitute
+PERSON	Nancy Chilton
+PERSON	George Inness
+LOCATION	Hudson River School
+LOCATION	Nepal
+LOCATION	Vajracarya
+PERSON	Edward Penfield
+ORGANIZATION	Metropolitan Museum of Art
+PERSON	Soyoung Lee
+ORGANIZATION	Diamond Mountains Travel
+PERSON	Soyoung Lee
+ORGANIZATION	Diamond Mountains Travel
+LOCATION	Mexico
+LOCATION	Mexico
+PERSON	Delacroix
+PERSON	Botticelli
+PERSON	Henry II
+LOCATION	France
+PERSON	William Wegman
+PERSON	Leon Golub
+ORGANIZATION	Met s Department of Scientific Research
+LOCATION	Tanggu
+PERSON	John Singer Sargent
+PERSON	Ralph Waldo Emerson
+PERSON	Stephanie Herdrich
+LOCATION	Italy
+LOCATION	Paris
+LOCATION	Met Fifth Avenue
+PERSON	Julia M Cameron
+PERSON	Philip Worsley
+LOCATION	Europe
+PERSON	Infante
+LOCATION	Medusa
+LOCATION	New York City
+LOCATION	Khafre
+LOCATION	Giza
+PERSON	John James Audubon
+PERSON	Delacroix
+PERSON	Charles Baudelaire
+PERSON	Delacroix
+ORGANIZATION	Costume Institute s Irene Lewisohn Costume Reference Library
+PERSON	Darcy
+PERSON	Jeary
+ORGANIZATION	Metropolitan Museum of Art The New York Dutch Room
+PERSON	Bolton
+ORGANIZATION	Costume Institute
+PERSON	Lea
+LOCATION	Ethiopia
+LOCATION	Africa
+LOCATION	Empire City
+PERSON	Kelly Baum
+PERSON	Leon Golub
+PERSON	James D Aquisto
+PERSON	Thomas Hart Benton
+ORGANIZATION	America Today
+LOCATION	Mesopotamia
+LOCATION	Flatiron Building
+PERSON	Berenice Abbott
+LOCATION	Public Parks Private Gardens Paris
+LOCATION	Provence
+LOCATION	Americas
+LOCATION	Mexico
+LOCATION	Ilkhanid
+PERSON	Andrea Palladio
+LOCATION	Venice
+LOCATION	Veneto
+ORGANIZATION	Wikimedia Foundation
+PERSON	Moretto
+ORGANIZATION	Brescia
+PERSON	Elsa Schiaparelli
+PERSON	Huma Bhabha
+PERSON	Shanay Jhaveri
+PERSON	Mary Elizabeth Crosby Brown
+LOCATION	Georgia
+PERSON	Keeffe
+LOCATION	Mexico
+PERSON	Ronda Kasl
+LOCATION	Mexico
+LOCATION	Mexico
+LOCATION	Mexico
+LOCATION	Mexico
+LOCATION	Mexico
+LOCATION	Mexico
+LOCATION	Mexico
+PERSON	Davide Gasparotto
+PERSON	Keith Christiansen
+PERSON	Getty
+ORGANIZATION	Giovanni Bellini Landsc RT Wikimedia Wikimedia
+PERSON	Monta
+LOCATION	Japan
+PERSON	William Wegman
+LOCATION	California
+ORGANIZATION	The Met Fifth Avenue
+PERSON	LcTPqyYqwt ParksandGardens
+ORGANIZATION	Chan Zen Buddhist
+PERSON	Huang Tingjian
+PERSON	Vasily Kandinsky
+ORGANIZATION	Wikimedia Foundation
+PERSON	Henry William Stiegel
+PERSON	Odilon Redon
+PERSON	Redon
+ORGANIZATION	Aztecs
+PERSON	Jaykerrdobney
+PERSON	Joan Kee
+PERSON	Kimsooja
+LOCATION	Mountains
+LOCATION	China
+ORGANIZATION	MetStore
+PERSON	Joan Kee
+PERSON	Kimsooja
+PERSON	Soyoung Lee
+LOCATION	Andes
+LOCATION	Americas
+PERSON	Beverly Hashimoto
+LOCATION	Ikebana
+PERSON	Friedrich
+PERSON	Colta Ives
+ORGANIZATION	SmithsonianNMAI RT
+LOCATION	Balcony Bar
+PERSON	Lee Bennett Hopkins
+ORGANIZATION	MetStore Mezzanine Gallery
+PERSON	Paul Revere Jr
+ORGANIZATION	Boston
+ORGANIZATION	Henri Edmond Cross
+PERSON	Soyoung Lee
+ORGANIZATION	Diamond Mountains Travel
+LOCATION	New York City
+PERSON	Huma Bhabha
+PERSON	Pliny
+PERSON	Tiye
+PERSON	Sandra
+PERSON	Beverly Hashimoto
+LOCATION	Ikebana
+ORGANIZATION	Atout France US_FranceFR
+ORGANIZATION	Paris Region Tourist Board
+ORGANIZATION	Lafayette Trave
+PERSON	Joan Elrich
+PERSON	Huma Bhabha
+ORGANIZATION	Shanay Jhaveri
+PERSON	Huma Bhabha
+LOCATION	Karachi Pakistan
+PERSON	Huma Bhabha
+LOCATION	Poughkeepsie New York
+PERSON	Huma Bhabha
+PERSON	William Glackenshad
+LOCATION	Central Piedmont
+LOCATION	North Carolina
+LOCATION	Cyprus
+PERSON	Carolee Schneemann
+LOCATION	Met Fifth Avenue
+PERSON	Thomas Cole
+PERSON	Joseph Cornell
+LOCATION	Costa Rica
+LOCATION	Panama
+PERSON	Kelly Baum Cynthia Hazen Polsky
+PERSON	Leon Polsky
+PERSON	Don
+PERSON	John Bennett
+PERSON	Don
+ORGANIZATION	Museum s Annual Appeal Join
+PERSON	Thomas Lawrence
+PERSON	Lawrence
+ORGANIZATION	Winslow Homer
+PERSON	JXK4m0htoW ThomasJefferson
+PERSON	John Trumbull
+ORGANIZATION	Yale
+ORGANIZATION	N16AWOHSdk RT JamesDoyleMet Watch Teresitafz
+ORGANIZATION	GoldenKingdoms
+ORGANIZATION	Legislature
+LOCATION	New York
+PERSON	Webb
+LOCATION	Egypt
+LOCATION	Atlantic
+LOCATION	Americas
+PERSON	JoannePillsbury
+ORGANIZATION	Voice
+PERSON	Teresita Fern
+PERSON	Huma Bhabha
+PERSON	Ranjani Shettar
+ORGANIZATION	Aztecs
+ORGANIZATION	Metropolitan Museum of Art
+LOCATION	Vienna
+ORGANIZATION	GoldenKingdoms Toma
+LOCATION	India
+LOCATION	Italy
+LOCATION	Pinterest
+PERSON	Auguste H Thomas
+PERSON	Gustav Klimt M da Primavesi
 LOCATION	Germany
 ORGANIZATION	Voice RT
 ORGANIZATION	Aztecs
@@ -19,9 +257,6 @@ PERSON	Sheila Canby
 ORGANIZATION	James RT
 LOCATION	Glasgow
 LOCATION	France
-ORGANIZATION	Atout France AtoutFranceUSA
-ORGANIZATION	Paris Region Tourist Board
-ORGANIZATION	Lafayette Tr
 PERSON	Ben Franklin
 LOCATION	Europe
 LOCATION	Versailles
@@ -1591,7 +1826,6 @@ PERSON	Monica Bincsik
 PERSON	RoshHashanah
 ORGANIZATION	Astor Court
 LOCATION	Iraq Iran
-LOCATION	Central Asia
 ORGANIZATION	TravelersChoice
 PERSON	Crist
 PERSON	Villalpando
@@ -1970,7 +2204,7 @@ PERSON	Don
 ORGANIZATION	MetBreuer
 ORGANIZATION	MetCloisters
 ORGANIZATION	Unicorn Tapestries
-LOCATION	Temple Gardens
+LOCATION	61YVLONt63 Temple Gardens
 PERSON	Klee
 LOCATION	Tunisia
 PERSON	Macke
@@ -2102,6 +2336,7 @@ PERSON	Ernesta Drinker
 PERSON	Jacob El Hanani
 PERSON	MetCurator Christian Larsen
 PERSON	Ettore Sottsass
+ORGANIZATION	Lens
 ORGANIZATION	MetTextiles Pinterest
 ORGANIZATION	Department of Textile Conservation
 PERSON	Sottsass
@@ -2166,7 +2401,7 @@ PERSON	Frankweiler
 PERSON	Konigsburg
 PERSON	Frankweiler
 PERSON	Frankweiler
-ORGANIZATION	Artemis
+ORGANIZATION	Temple of Artemis
 ORGANIZATION	National Museum of Korea
 ORGANIZATION	MetMembers
 PERSON	BastilleDay
@@ -2245,205 +2480,3 @@ LOCATION	Europe
 PERSON	Chuck Close
 LOCATION	Yongle
 ORGANIZATION	Caravaggio
-LOCATION	America
-LOCATION	Himalayas
-ORGANIZATION	Buddhist
-ORGANIZATION	IrvingPenn
-ORGANIZATION	MruzFDH4jV RT Trzaska Metal
-ORGANIZATION	MetBreuer Don
-PERSON	Davalois
-ORGANIZATION	CD51SPs2Bu RT
-PERSON	Lisa
-ORGANIZATION	Caravaggio
-ORGANIZATION	John Singleton Copley
-PERSON	Gulian Verplanck
-PERSON	Demuth
-PERSON	William Carlos Williams
-PERSON	William
-PERSON	Jeanne Lanvin
-ORGANIZATION	Comtesse Jean de Polignac
-PERSON	Eugene
-PERSON	Clare
-PERSON	Andr Kert
-LOCATION	Long Island
-PERSON	Lygia Pape
-PERSON	Adri
-PERSON	Villar Rojas
-PERSON	Adolphe Braun
-ORGANIZATION	Ming Dynasty
-ORGANIZATION	National U S Postage
-ORGANIZATION	Department of Textile Conservatio
-PERSON	Edo
-ORGANIZATION	Monet
-ORGANIZATION	Sainte Adresse
-LOCATION	Amarna
-PERSON	Nadar
-LOCATION	Yosemite Valley
-PERSON	Abraham Lincoln
-PERSON	Miodrag Guberinic Dietrich
-LOCATION	Montserrat Europe
-LOCATION	India
-LOCATION	Irving Penn
-LOCATION	Tolita Tumaco
-LOCATION	Ecuador
-ORGANIZATION	House of Worth Gown
-LOCATION	Central Park
-ORGANIZATION	OpenTable
-LOCATION	Veracruz Mexico
-PERSON	John Quincy Adams Ward
-PERSON	Kerry James Marshall Mastry
-ORGANIZATION	MetTalkingPictures
-PERSON	Jason Sun
-ORGANIZATION	Abell
-ORGANIZATION	Baltimore Sun
-LOCATION	Bronx
-PERSON	Jeff Baena
-PERSON	Rubens
-PERSON	Nicolas Trigault
-PERSON	Peter Paul Rubens
-ORGANIZATION	Tiffany amp amp Company
-LOCATION	Chicago World
-LOCATION	Egypt
-PERSON	Peder Balke
-PERSON	Philip Guston
-PERSON	Guston
-PERSON	John Baldassari
-ORGANIZATION	Met Museum
-ORGANIZATION	MetTalkingPictures
-PERSON	Andrea Miller
-PERSON	Kenneth Jay Lane
-ORGANIZATION	Coco Chanel
-PERSON	Irina Rozovsky
-PERSON	Manjari Sharma
-LOCATION	Edo Tokyo
-PERSON	Degas
-PERSON	Harry Potter
-PERSON	Qin
-PERSON	Peder Balke
-ORGANIZATION	Caravaggio
-PERSON	Frederick H Evans
-PERSON	Boucher
-PERSON	Gisela Richter
-PERSON	Edith Standen
-PERSON	Louisine Havemeyer
-PERSON	Mary Cassatt
-PERSON	Kalup Linzy
-PERSON	Manet
-PERSON	Jonah
-PERSON	Richard Doyle
-LOCATION	Himalayas
-PERSON	Bhanudatta
-PERSON	Jasper Cropsey
-ORGANIZATION	MetFridays
-ORGANIZATION	MetropolitanMuseumofArt MetFridays Pride
-PERSON	Koalani
-PERSON	Philjimeneznyc
-ORGANIZATION	American Wing Cafe
-PERSON	Phyllis Posnick
-ORGANIZATION	IrvingPenn
-ORGANIZATION	NYC RT
-ORGANIZATION	Irving Penn Show
-PERSON	Helen Frankenthaler
-ORGANIZATION	MetaCloud
-ORGANIZATION	MetMuseum
-LOCATION	Heidelberg
-ORGANIZATION	Pink Dress
-PERSON	Berthe Morisot
-ORGANIZATION	SusanTCase Took Poppy
-PERSON	Van Gogh
-ORGANIZATION	MetPubs
-PERSON	Stiegel
-ORGANIZATION	American Flint Glass Manufactory
-PERSON	JacolbySatterwhite
-LOCATION	Great Hall MetYMP SaintHeron
-LOCATION	Great Hall
-ORGANIZATION	Young Members Party
-ORGANIZATION	MetFridays
-ORGANIZATION	Young Members Party
-ORGANIZATION	MetOpenAccess Wikimedia
-LOCATION	Precolumbian Peru
-PERSON	Louis Robert
-PERSON	Vera
-ORGANIZATION	MetGala
-PERSON	Lothar
-PERSON	MichaelKors
-PERSON	Michael Kors
-PERSON	Narasimha
-PERSON	David
-ORGANIZATION	MetMusic RT JayKerrDobney Today
-PERSON	Wu Man
-ORGANIZATION	MetMusic RT
-PERSON	Henry Ossawa Tanner
-LOCATION	Egypt
-LOCATION	Pinterest
-ORGANIZATION	Young Members Party
-ORGANIZATION	MetMuseum
-PERSON	Allen
-PERSON	Ginter
-PERSON	Michael
-PERSON	KorsXTheMet
-ORGANIZATION	Jefferson R Burdick Collection
-ORGANIZATION	Hittite
-PERSON	John Monteleone
-PERSON	John Monteleone
-PERSON	Qianlong
-LOCATION	Kotaku
-PERSON	Gundam Zaku
-PERSON	Thomas Sully
-LOCATION	United States
-LOCATION	US
-PERSON	Michael
-ORGANIZATION	MetMuseum
-PERSON	Renoir
-PERSON	Marguerite Charpentier
-LOCATION	Missouri River
-PERSON	Katsukawa Shunch
-LOCATION	Hagidera
-PERSON	Andrew Bolton
-PERSON	Rei
-PERSON	Rei
-PERSON	Andrew Bolton
-ORGANIZATION	MetKawkaubo Rei
-PERSON	Andrew Bolton
-PERSON	Andrew Bolton
-ORGANIZATION	Facebook
-PERSON	Andrew Bolton
-PERSON	Metkawakubo
-LOCATION	Maine
-PERSON	Thomas de Keyser
-LOCATION	Iran
-LOCATION	Maine
-ORGANIZATION	Ettore Sottsass Design Radical
-ORGANIZATION	Memphis Design Movement
-PERSON	Charles Eames
-LOCATION	New York Harbor
-LOCATION	France
-PERSON	Andrew Bolton
-PERSON	Van Gogh
-PERSON	Paul de Mausole
-PERSON	Theo
-ORGANIZATION	Panama Pacific Exposition
-LOCATION	San Francisco
-PERSON	Andrew Bolton
-PERSON	Elsa Schiaparelli
-PERSON	Millicent Rogers
-LOCATION	Americas
-LOCATION	Maine
-PERSON	Nicolas Poussin
-PERSON	Michael
-ORGANIZATION	MetMuseum
-PERSON	Rei Kawakubo Comme des Gar
-PERSON	Cuvelier
-LOCATION	Fontainebleau
-PERSON	Greco
-LOCATION	Toledo
-ORGANIZATION	FYTCqfxokB Ducks
-ORGANIZATION	Fenimore Art Museum
-PERSON	Ruth
-ORGANIZATION	Harold D Uris Center for Education
-PERSON	Kerry James Marshall
-LOCATION	Washington Crossing
-LOCATION	Delaware
-ORGANIZATION	MetCloisters
-PERSON	Alex Nguyen
-LOCATION	New York City

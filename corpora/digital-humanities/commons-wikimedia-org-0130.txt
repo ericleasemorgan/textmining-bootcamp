@@ -45,13 +45,13 @@ C
 
 D
 
-	►  Digital Humanists‎ (5 F)
+	►  Digital Humanists‎ (7 F)
 
 		
 
 
 		
-	►  Digital humanities conference in Tartu 2017‎ (50 F)
+	►  Digital humanities conference in Tartu 2017‎ (1 C,  46 F)
 
 		
 
@@ -83,7 +83,7 @@ E
 
 F
 
-	►  Frontiers in Digital Humanities‎ (1 F)
+	►  Frontiers in Digital Humanities‎ (2 C,  1 F)
 
 		
 
@@ -140,7 +140,7 @@ M
 
 Media in category "Digital Humanities"
 
-The following 42 files are in this category, out of 42 total.
+The following 41 files are in this category, out of 41 total.
 
 	
 			[image: Around DH in 80 Days.png]
@@ -656,19 +656,6 @@ University of Delaware Wikipedia Edit-A-Thon 2014.jpg
 			
 Voyant Tools Reveal Your Texts.png
 3,142 × 2,118; 1.02 MB
-
-
-			
-
-		
-
-	
-			[image: Wikidata for Humanists - a slide. Workshop by Asaf Bartov.jpg]
-
-
-			
-Wikidata for Humanists - a slide. Workshop by Asaf Bartov.jpg
-1,979 × 2,638; 560 KB
 
 
 			

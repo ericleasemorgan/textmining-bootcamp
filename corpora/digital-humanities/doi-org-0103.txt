@@ -770,21 +770,33 @@ Send Message
   
   
      Save to my folders
-  User Name
- 
 
 
 
-  Password
- 
+
+
+  
+
+  
+      
+  
+  
+    Log In with your AAAS Login
+
+
+ 
+
+  
+
+
+  
+  
+
+  
 
 
 
- Remember my user name & password.
 
-
-
-Submit
 
 
 
@@ -824,22 +836,53 @@ Submit
   
   
     
-  Username
+
+
+  
+
+  
+      
+  
+  
+    Log In with your AAAS Login
+
+
+ 
+
+  
+
+
+  
+  
+
+  
+
+
+
+
+
+
+
+  
+
+
+  
+  
+
+
+
+  
+      
+  
+  
+    Sign In to Email Alerts with your Email Address
+
+  Email
  
-
-Enter your Sciencemag.org username.
-
-
-
-  Password
- 
-
-Enter the password that accompanies your username.
-
-
 
 
 Log in
+
 
   
 
@@ -1091,9 +1134,9 @@ Quantitative Analysis of Culture Using Millions of Digitized Books
   
   
         
-      6 April 2018
+      4 May 2018
 
-Vol 360, Issue 6384
+Vol 360, Issue 6388
 
 [image: Magazine Cover]
   
@@ -1104,27 +1147,27 @@ Vol 360, Issue 6384
         
       	Feature
 
-  A delicate balance
+  A hidden history
 
-	Education
+	Data Governance
 
-  Testing international education assessments
+  Scrutinizing the EU General Data Protection Regulation
 
-	Field Research
+	Physics
 
-  Revisiting a tragedy at Gombe
+  Deconstructing time
 
 	SCI COMMUN
 
   News at a glance
 
-	Pollution
+	Bridge: Climate and Biodiversity
 
-  Microplastics research—from sink to source
+  How to pay for saving biodiversity
 
 	Working Life
 
-  No one is an island
+  Finding reward in risk
 
 
 Table of Contents
@@ -1237,12 +1280,6 @@ Table of Contents
 
 
     
-
-
-
-
-
-
 
 
 

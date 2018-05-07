@@ -231,7 +231,6 @@ Subjects
 
 
 
-
 	Home
 	Academic
 	General
@@ -533,15 +532,15 @@ Look Inside
 
 
 
-	 Index (304 KB)
-
 	 Table of Contents (97 KB)
 
 	 Marketing Excerpt (170 KB)
 
-	 Copyright Information Page (116 KB)
-
 	 Front Matter (186 KB)
+
+	 Index (304 KB)
+
+	 Copyright Information Page (116 KB)
 
 
 
@@ -550,6 +549,7 @@ Eileen Gardiner, Italica Press, New York
 Eileen Gardiner is co-founder and co-publisher of Italica Press. She has served as director of ACLS Humanities E-Book, executive director of The Medieval Academy of America, and co-editor of Speculum: A Journal of Medieval Studies. She is author of Visions of Heaven and Hell Before Dante, Medieval Visions of Heaven and Hell, The Pilgrim's Way to St Patrick's Purgatory, and Hell-on-Line, a website on the infernal otherworld in various traditions.
 Ronald G. Musto, Italica Press, New York
 Ronald G. Musto is co-founder and co-publisher of Italica Press. He has served as director of ACLS Humanities E-Book, co-executive director of The Medieval Academy of America, and editor of Speculum: A Journal of Medieval Studies. He has taught at New York University, Duke University, North Carolina and Columbia University, New York, and has held American Academy in Rome, National Endowment for the Humanities and Mellon Foundation fellowships. He has published nine books and various articles, including Apocalypse in Rome and Renaissance Society and Culture (co-edited with John Monfasani).
+
 
 
 
@@ -731,7 +731,7 @@ Continue
 
 Remove this title from your notification list?
 
- Cancel
+Cancel
 Continue
 ×
 

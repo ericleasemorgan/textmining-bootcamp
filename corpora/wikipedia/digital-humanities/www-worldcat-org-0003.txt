@@ -324,13 +324,13 @@ Your Web browser is not enabled for JavaScript. Some features of WorldCat will n
                         [image: &AllPage.SpinnerRetrieving;]
 
                        I thought you might be interested in this item at
-http://www.worldcat.org/oclc/746941922
+http://www.worldcat.org/oclc/967783815
 
-Title:  New York Times (1
-Publisher:  New York : New York Times. 
+Title:  The New York times.
+Publisher:  New-York [N.Y.] : [H.J. Raymond & Co.], 1857-
 
 ISBN/ISSN: 0362-4331
-OCLC:746941922
+OCLC:967783815
                        
 
 
@@ -491,11 +491,10 @@ OCLC:746941922
 
 
 
-
  
 	
 
-     [image: New York Times (1]
+     [image: The New York times.]
 
                 
 			Preview this item
@@ -520,39 +519,44 @@ OCLC:746941922
 
 
 
-        
-            Nearby libraries
+		The New York times.
 
 
-        
-
-        Checking...
-
-    
-
-
-    Find more libraries
-    Librarian?
-    Claim your library
-    to
-
-
-
-		New York Times (1
-
-
-			Publisher:	New York : New York Times.
+			Author:	Gilder Lehrman Institute of American History.
+	Publisher:	New-York [N.Y.] : [H.J. Raymond & Co.], 1857-
+	Series:	
+						American history, 1493-1945.
+					
 	Edition/Format:	
                         
-                        [image:  ] eJournal/eMagazine : Document : Periodical : English
+                        [image:  ] eNewspaper : English
 					
 	Rating:	
-                        based on 1 rating(s)
+                        (not yet rated)
                         
                             0 with reviews - Be the first.
 						
 
 					
+	Subjects	
+                    	
+                                New York (N.Y.) -- Newspapers.
+                            
+	
+                                New York County (N.Y.) -- Newspapers.
+                            
+	
+                                New York (State) -- New York.
+                            
+	View all subjects
+
+
+                
+	More like this	
+                	Similar Items
+
+
+            
 
 
 
@@ -611,8 +615,8 @@ OCLC:746941922
           
             
             
-                 Abstracts AvailableJan 2002-Jan 2002
-                    Available on EBSCOhost.
+                 Vol. 9, no. 2541
+                    Adam Matthew Digital. UCB Access.
                 
 
             
@@ -706,12 +710,17 @@ OCLC:746941922
 
   
 
-    	Material Type:	Document, Periodical, Internet resource
+    	Genre/Form:	Newspapers
+	Material Type:	Newspaper, Internet resource
 	Document Type:	Internet Resource, Computer File, Journal / Magazine / Newspaper
+	All Authors / Contributors:	
+	    Gilder Lehrman Institute of American History.
 	ISSN:	0362-4331
-	OCLC Number:	746941922
-	Notes:	Newspaper.
-	Responsibility:	1/1995 to present).
+	OCLC Number:	967783815
+	Description:	1 online resource (illustrations).
+	Series Title:	American history, 1493-1945.
+	Other Titles:	Combined New York morning newspapers
+Combined New York Sunday newspapers
 
 
 
@@ -784,7 +793,7 @@ OCLC:746941922
 		
             
             
-                    Add tags for "New York Times (1".
+                    Add tags for "The New York times.".
                     Be the first.
 
             
@@ -796,6 +805,35 @@ OCLC:746941922
 
     
    
+	
+		Similar Items
+
+		
+
+			Related Subjects:(4)
+
+					
+							New York (N.Y.) -- Newspapers.
+						
+	
+							New York County (N.Y.) -- Newspapers.
+						
+	
+							New York (State) -- New York.
+						
+	
+							New York (State) -- New York County.
+						
+
+
+			
+                
+
+            
+
+	
+
+ 
  
 
  
@@ -846,85 +884,264 @@ OCLC:746941922
 
             
 
-			Primary Entity
-http://www.worldcat.org/oclc/746941922> # New York Times (1
-    a schema:Periodical, schema:CreativeWork, schema:MediaObject ;
-   library:oclcnum "746941922" ;
-   library:placeOfPublication http://id.loc.gov/vocabulary/countries/nyu> ;
-   library:placeOfPublication http://dbpedia.org/resource/New_York_City> ; # New York
-   schema:datePublished "uuuu/9999" ;
-   schema:exampleOfWork http://worldcat.org/entity/work/id/995208493> ;
-   schema:inLanguage "en" ;
-   schema:name "New York Times (1"@en ;
-   schema:productID "746941922" ;
-   schema:publication http://www.worldcat.org/title/-/oclc/746941922#PublicationEvent/new_york_new_york_times> ;
-   schema:publisher http://experiment.worldcat.org/entity/work/data/995208493#Agent/new_york_times> ; # New York Times.
-   schema:url http://search.ebscohost.com/direct.asp?db=a2h&jid=%223RAH%22&scope=site> ;
-   schema:workExample http://worldcat.org/issn/0362-4331> ; # New York Times (1
-   wdrs:describedby http://www.worldcat.org/title/-/oclc/746941922> ;
+			
+
+Primary Entity
+
+http://www.worldcat.org/oclc/967783815> # The New York times.
+
+    a 
+schema:CreativeWork, bgn:Newspaper, schema:MediaObject ;
+   
+library:oclcnum "967783815" ;
+   
+library:placeOfPublication http://id.loc.gov/vocabulary/countries/nyu> ;
+   
+library:placeOfPublication http://experiment.worldcat.org/entity/work/data/4928128920#Place/new_york_n_y> ; # New York (N.Y.)
+
+   
+schema:about http://experiment.worldcat.org/entity/work/data/4928128920#Place/new_york_state_new_york_county> ; # New York (State)--New York County.
+
+   
+schema:about http://experiment.worldcat.org/entity/work/data/4928128920#Place/new_york_state_new_york> ; # New York (State)--New York.
+
+   
+schema:about http://experiment.worldcat.org/entity/work/data/4928128920#Place/new_york_n_y> ; # New York (N.Y.)
+
+   
+schema:about http://experiment.worldcat.org/entity/work/data/4928128920#Place/new_york_county_n_y> ; # New York County (N.Y.)
+
+   
+schema:alternateName "Combined New York Sunday newspapers" ;
+   
+schema:alternateName "Combined New York morning newspapers" ;
+   
+schema:contributor http://experiment.worldcat.org/entity/work/data/4928128920#Organization/gilder_lehrman_institute_of_american_history> ; # Gilder Lehrman Institute of American History.
+
+   
+schema:datePublished "1857/9999" ;
+   
+schema:datePublished "1857/" ;
+   
+schema:exampleOfWork http://worldcat.org/entity/work/id/4928128920> ;
+   
+schema:genre "Newspapers"@en ;
+   
+schema:inLanguage "en" ;
+   
+schema:isPartOf http://experiment.worldcat.org/entity/work/data/4928128920#Series/american_history_1493_1945_module_1_settlement_commerce_revolution_and_reform_1493_1859> ; # American history, 1493-1945. Module 1, Settlement, commerce, revolution and reform, 1493-1859
+
+   
+schema:isPartOf http://experiment.worldcat.org/entity/work/data/4928128920#Series/american_history_1493_1945> ; # American history, 1493-1945.
+
+   
+schema:name "The New York times."@en ;
+   
+schema:productID "967783815" ;
+   
+schema:publication http://www.worldcat.org/title/-/oclc/967783815#PublicationEvent/new_york_n_y_h_j_raymond_&_co_1857> ;
+   
+schema:publisher http://experiment.worldcat.org/entity/work/data/4928128920#Agent/h_j_raymond_&_co> ; # [H.J. Raymond & Co.]
+
+   
+schema:url http://www.americanhistory.amdigital.co.uk/Documents/Details/GLC08771> ;
+   
+wdrs:describedby http://www.worldcat.org/title/-/oclc/967783815> ;
     .
+
+
+
+
+
 
 
 
 Related Entities
-http://dbpedia.org/resource/New_York_City> # New York
-    a schema:Place ;
-   schema:name "New York" ;
+
+http://experiment.worldcat.org/entity/work/data/4928128920#Agent/h_j_raymond_&_co> # [H.J. Raymond & Co.]
+
+    a 
+bgn:Agent ;
+   
+schema:name "[H.J. Raymond & Co.]" ;
     .
 
 
-http://experiment.worldcat.org/entity/work/data/995208493#Agent/new_york_times> # New York Times.
-    a bgn:Agent ;
-   schema:name "New York Times." ;
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4928128920#Organization/gilder_lehrman_institute_of_american_history> # Gilder Lehrman Institute of American History.
+
+    a 
+schema:Organization ;
+   
+schema:name "Gilder Lehrman Institute of American History." ;
     .
+
+
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4928128920#Place/new_york_county_n_y> # New York County (N.Y.)
+
+    a 
+schema:Place ;
+   
+schema:name "New York County (N.Y.)" ;
+    .
+
+
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4928128920#Place/new_york_n_y> # New York (N.Y.)
+
+    a 
+schema:Place ;
+   
+schema:name "New York (N.Y.)" ;
+   
+schema:name "New-York N.Y." ;
+    .
+
+
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4928128920#Place/new_york_state_new_york> # New York (State)--New York.
+
+    a 
+schema:Place ;
+   
+schema:name "New York (State)--New York." ;
+    .
+
+
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4928128920#Place/new_york_state_new_york_county> # New York (State)--New York County.
+
+    a 
+schema:Place ;
+   
+schema:name "New York (State)--New York County." ;
+    .
+
+
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4928128920#Series/american_history_1493_1945> # American history, 1493-1945.
+
+    a 
+bgn:PublicationSeries ;
+   
+schema:hasPart http://www.worldcat.org/oclc/967783815> ; # The New York times.
+
+   
+schema:name "American history, 1493-1945." ;
+    .
+
+
+
+
+
+
+http://experiment.worldcat.org/entity/work/data/4928128920#Series/american_history_1493_1945_module_1_settlement_commerce_revolution_and_reform_1493_1859> # American history, 1493-1945. Module 1, Settlement, commerce, revolution and reform, 1493-1859
+
+    a 
+bgn:PublicationSeries ;
+   
+schema:hasPart http://www.worldcat.org/oclc/967783815> ; # The New York times.
+
+   
+schema:name "American history, 1493-1945. Module 1, Settlement, commerce, revolution and reform, 1493-1859" ;
+    .
+
+
+
+
 
 
 http://id.loc.gov/vocabulary/countries/nyu>
-    a schema:Place ;
-   dcterms:identifier "nyu" ;
+    a 
+schema:Place ;
+   
+dcterms:identifier "nyu" ;
     .
 
 
-http://search.ebscohost.com/direct.asp?db=a2h&jid=%223RAH%22&scope=site>
-   rdfs:comment "Available on EBSCOhost." ;
+
+
+
+
+http://www.americanhistory.amdigital.co.uk/Documents/Details/GLC08771>
+   
+rdfs:comment "Adam Matthew Digital. UCB Access." ;
     .
 
 
-http://worldcat.org/entity/work/id/995208493>
-   umbel:isLike http://worldcat.org/issn/0362-4331> ; # New York Times (1
+
+
+
+
+http://www.worldcat.org/title/-/oclc/967783815>
+    a 
+genont:InformationResource, genont:ContentTypeGenericResource ;
+   
+schema:about http://www.worldcat.org/oclc/967783815> ; # The New York times.
+
+   
+schema:dateModified "2018-04-16" ;
+   
+void:inDataset http://purl.oclc.org/dataset/WorldCat> ;
     .
 
 
-http://worldcat.org/issn/0362-4331> # New York Times (1
-    a schema:Periodical ;
-   schema:issn "0362-4331" ;
-   schema:name "New York Times (1"@en ;
-   umbel:isLike http://worldcat.org/entity/work/id/995208493> ;
+
+
+
+
+http://www.worldcat.org/title/-/oclc/967783815#PublicationEvent/new_york_n_y_h_j_raymond_&_co_1857>
+    a 
+schema:PublicationEvent ;
+   
+schema:location http://experiment.worldcat.org/entity/work/data/4928128920#Place/new_york_n_y> ; # New York (N.Y.)
+
+   
+schema:organizer http://experiment.worldcat.org/entity/work/data/4928128920#Agent/h_j_raymond_&_co> ; # [H.J. Raymond & Co.]
+
+   
+schema:startDate "1857-" ;
     .
 
 
-http://www.worldcat.org/title/-/oclc/746941922>
-    a genont:InformationResource, genont:ContentTypeGenericResource ;
-   schema:about http://www.worldcat.org/oclc/746941922> ; # New York Times (1
-   schema:dateModified "2018-03-11" ;
-   void:inDataset http://purl.oclc.org/dataset/WorldCat> ;
-    .
 
 
-http://www.worldcat.org/title/-/oclc/746941922#PublicationEvent/new_york_new_york_times>
-    a schema:PublicationEvent ;
-   schema:location http://dbpedia.org/resource/New_York_City> ; # New York
-   schema:organizer http://experiment.worldcat.org/entity/work/data/995208493#Agent/new_york_times> ; # New York Times.
-    .
+
 
 
 
 Content-negotiable representations
-	Turtle (text/turtle)
-	JSON-LD (application/ld+json)
-	RDF/XML (application/rdf+xml)
-	N-TRIPLES (text/plain)
-	HTML+RDFa (text/html)
+
+	
+Turtle (text/turtle)
+	
+JSON-LD (application/ld+json)
+	
+RDF/XML (application/rdf+xml)
+	
+N-TRIPLES (text/plain)
+	
+HTML+RDFa (text/html)
+
 
 
 
@@ -937,15 +1154,15 @@ Content-negotiable representations
 
 
 
-746941922
+967783815
 
 	    
 
-	    New York Times (1/; New York : New York Times.
+	    The New York times./Gilder Lehrman Institute of American History.;; New-York [N.Y.] : [H.J. Raymond & Co.], 1857-
 
 		21274
 
-	        jrnl_digital
+	        news_digital
 
 	    
 	    

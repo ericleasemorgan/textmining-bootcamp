@@ -140,14 +140,7 @@ Nationalbibliothek
 		
                 
 
-                                 	
-                		[image: Neuigkeiten]
-                		Links auf Wikipedia stehen im Katalog zur Zeit nicht zur Verfügung. Wir bitten um Entschuldigung. 
-            		
-
-                     
-
-                                
+                                 
                
                 Helfen Sie uns, noch besser zu werden!
 
@@ -280,15 +273,15 @@ Kulturwissenschaften
 				Thema in
 				
 									
-																							25 Publikationen
+																							27 Publikationen
 																		
 							
 							Papstgeschichte im digitalen Zeitalter
 Papstgeschichte des hohen Mittelalters: digitale und hilfswissenschaftliche Zugangsweisen zu einer Kulturgeschichte Europas (Veranstaltung : 2015 : Erlangen). - Köln : Böhlau Verlag, 2018, [1. Auflage]
 							
 	
-							Basiswissen Digital Humanities
-Ressel, Andrea. - Göttingen : Cuvillier Verlag, 2017
+							Studiolo
+Berlin : De Gruyter, [2018]
 							
 	...
 
@@ -454,7 +447,7 @@ Jannidis, Fotis. - Würzburg : Universität Würzburg, 2017
 					
 			[image: Schriftbanner mit Deutscher Nationalbibliothek Leipzig, Frankfurt am Main]
 
-			Version 1.7.2.0 / 2018-02-20T16:34:06Seitenanfang
+			Version 1.7.3.0 / 2018-04-11T12:16:27Seitenanfang
 			
 		
 

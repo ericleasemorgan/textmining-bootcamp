@@ -128,11 +128,11 @@
 		
 
 		<div class="invisible">
-			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#inhalt" accesskey="i" title="zum Inhalt springen, Acceskey: alt+i"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zum Inhalt springen, Acceskey: alt+i" alt="" height="1" width="1" /></a>
-			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#hauptmenu" accesskey="n" title="zur Hauptnavigation springen, Acceskey: alt+n"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Hauptnavigation springen, Acceskey: alt+n" alt="" height="1" width="1" /></a>
-			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#metamenu" accesskey="m" title="zur Metanavigation springen, Acceskey: alt+m"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Metanavigation springen, Acceskey: alt+m" alt="" height="1" width="1" /></a>
-			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#pfadnavigation" accesskey="p" title="zur Pfadnavigation springen, Acceskey: alt+p"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Pfadnavigation springen, Acceskey: alt+p" alt="" height="1" width="1" /></a>
-			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#suchformular" accesskey="q" title="zum Suchformular springen, Acceskey: alt+q"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zum Suchformular springen, Acceskey: alt+q" alt="" height="1" width="1" /></a>
+			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#inhalt" accesskey="i" title="zum Inhalt springen, Acceskey: alt+i"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zum Inhalt springen, Acceskey: alt+i" alt="" height="1" width="1" /></a>
+			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#hauptmenu" accesskey="n" title="zur Hauptnavigation springen, Acceskey: alt+n"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Hauptnavigation springen, Acceskey: alt+n" alt="" height="1" width="1" /></a>
+			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#metamenu" accesskey="m" title="zur Metanavigation springen, Acceskey: alt+m"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Metanavigation springen, Acceskey: alt+m" alt="" height="1" width="1" /></a>
+			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#pfadnavigation" accesskey="p" title="zur Pfadnavigation springen, Acceskey: alt+p"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Pfadnavigation springen, Acceskey: alt+p" alt="" height="1" width="1" /></a>
+			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#suchformular" accesskey="q" title="zum Suchformular springen, Acceskey: alt+q"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zum Suchformular springen, Acceskey: alt+q" alt="" height="1" width="1" /></a>
 		</div>		<div id="header">
 			<div class="header_logo"><a href="http://www.dnb.de/DE/Home/home_node.html" title="Startseite der Deutschen Nationalbibliothek"><img src="https://portal.dnb.de/static/bilder/logo.gif" width="162" height="102" alt="Logo der Deutschen Nationalbibliothek" /></a></div>
 			<a name="metamenu"></a>
@@ -165,25 +165,25 @@
 	<ul class="search">
 					<!-- Katalog (geöffnet) -->
 				<li class="down">
-			<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showSearchForm" title="Suchmaske und Suchergebnis" accesskey="2" tabindex="90">Katalog</a>			
+			<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showSearchForm" title="Suchmaske und Suchergebnis" accesskey="2" tabindex="90">Katalog</a>			
 
 			<ul>
-				<li  class="on" ><a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showSearchForm#top" title="Einfache Suchmaske und Suchergebnis" tabindex="91">Einfache Suche</a></li>	
-				<li ><a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showOptions#top" title="Erweiterte Suche" tabindex="92">Erweiterte Suche</a></li>
+				<li  class="on" ><a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showSearchForm#top" title="Einfache Suchmaske und Suchergebnis" tabindex="91">Einfache Suche</a></li>	
+				<li ><a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showOptions#top" title="Erweiterte Suche" tabindex="92">Erweiterte Suche</a></li>
 				<li><a href="http://deweysearchde.pansoft.de/webdeweysearch/mainClasses.html?catalogs=DNB" target="_blank" title="WebDewey Search" tabindex="97">Browsen (DDC)</a></li>
-				<li ><a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showHistory#top" title="Suchverlauf" tabindex="94">Suchverlauf</a></li>
-				<li ><a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showMySelection#top" title="Gemerkte Treffer und Suchergebnisse" tabindex="95">Meine Auswahl</a></li>
+				<li ><a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showHistory#top" title="Suchverlauf" tabindex="94">Suchverlauf</a></li>
+				<li ><a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showMySelection#top" title="Gemerkte Treffer und Suchergebnisse" tabindex="95">Meine Auswahl</a></li>
 				<li ><a href="http://www.dnb.de/DE/Header/Hilfe/kataloghilfe.html" title="Hilfe zur Suche" target="_blank" tabindex="96">Hilfe</a></li>
 			</ul>	
 		</li>
 				<!-- Datenshop -->
-		<li><a href="https://portal.dnb.de/metadataShop.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#top" title="Datenshop" accesskey="3" tabindex="100">Datenshop</a></li>
+		<li><a href="https://portal.dnb.de/metadataShop.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#top" title="Datenshop" accesskey="3" tabindex="100">Datenshop</a></li>
 		
-			<li><a href="https://portal.dnb.de/myAccount/info.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#top" title="Login/Logout, persönliche Daten" accesskey="4" tabindex="110">Mein Konto</a></li>
+			<li><a href="https://portal.dnb.de/myAccount/info.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#top" title="Login/Logout, persönliche Daten" accesskey="4" tabindex="110">Mein Konto</a></li>
 		
 	
 		<!-- Ablieferung Netzpublikationen -->
-		<li><a href="https://portal.dnb.de/npdelivery/delivery.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#top" title="Ablieferung von Netzpublikationen" accesskey="5" tabindex="120">Ablieferung von Netzpublikationen</a></li>
+		<li><a href="https://portal.dnb.de/npdelivery/delivery.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#top" title="Ablieferung von Netzpublikationen" accesskey="5" tabindex="120">Ablieferung von Netzpublikationen</a></li>
 		<!-- für lokale Tests -->
 			
 		<!-- Informationsvermittlung Online -->
@@ -193,9 +193,9 @@
 		
 		
 			
-		<form action="https://portal.dnb.de/login.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0" method="post" id="login1">
+		<form action="https://portal.dnb.de/login.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1" method="post" id="login1">
 			<fieldset class="login">
-				<input type="hidden" name="view" value="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?cqlMode=true&amp;method=simpleSearch&amp;query=nid%3D1038714850" /> 
+				<input type="hidden" name="view" value="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?cqlMode=true&amp;method=simpleSearch&amp;query=nid%3D1038714850" /> 
 				<input type="submit" onclick="savePageOffset()" tabindex="160" title="Einloggen" value="Login" />
 			</fieldset>
 		</form>
@@ -214,31 +214,31 @@
 
 
 <div class="chapters">
-        <form method="get" action="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0" name="search">
+        <form method="get" action="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1" name="search">
                 <div class="tabs_main" id="tabs">
                 
 
 			
 															<div class="tab_on">				
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showSearchForm&amp;selectedCategory=any">Gesamter Bestand</a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showSearchForm&amp;selectedCategory=any">Gesamter Bestand</a>
 			</div>
 			
 															<div class="tab_off">				
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showSearchForm&amp;selectedCategory=dnb.dma">Musikarchiv</a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showSearchForm&amp;selectedCategory=dnb.dma">Musikarchiv</a>
 			</div>
 			
 															<div class="tab_off">				
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showSearchForm&amp;selectedCategory=dea">Exilsammlungen</a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showSearchForm&amp;selectedCategory=dea">Exilsammlungen</a>
 			</div>
 			
 															<div class="tab_off">				
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showSearchForm&amp;selectedCategory=dnb.dbsm">Buchmuseum</a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showSearchForm&amp;selectedCategory=dnb.dbsm">Buchmuseum</a>
 			</div>
 					<div class="tab_body">
 			<br/>		
 
 							
-				<img src="https://portal.dnb.de/static/bilder/pfeil_rechts_klein.gif" alt="" height="10" width="17"/><a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=newSearch&amp;currentView=simple&amp;selectedCategory=any" onclick="savePageOffset()" title="Suchformular zurücksetzen"><strong>Suchformular zurücksetzen</strong></a>&nbsp;&nbsp;
+				<img src="https://portal.dnb.de/static/bilder/pfeil_rechts_klein.gif" alt="" height="10" width="17"/><a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=newSearch&amp;currentView=simple&amp;selectedCategory=any" onclick="savePageOffset()" title="Suchformular zurücksetzen"><strong>Suchformular zurücksetzen</strong></a>&nbsp;&nbsp;
 				<div class="content_spacing">&nbsp;</div>
 						<div style="float:left; margin-right: 5px;">
     			    			<input style="width: 300px;" type="text" name="query" value="nid=1038714850" />
@@ -252,12 +252,7 @@
 	<div class="content_spacing">&nbsp;</div>	
 		
 		</div>                </div>
-                                 	<div class="portalmessage_INFORMATION" style="width: 70%;">
-                		<img src="https://portal.dnb.de/static/bilder/icon_info.gif" alt="Neuigkeiten" height="17" width="18" style="float: left; margin-right: 3px;" />
-                		Links auf Wikipedia stehen im Katalog zur Zeit nicht zur Verf&uuml;gung. Wir bitten um Entschuldigung. 
-            		</div>
-                    <div>&nbsp;</div>
-                                
+                                 
                <p>
                 <strong>Helfen Sie uns, noch besser zu werden!</strong><br/>
 				Wir entwickeln unseren Katalog weiter. Dabei sind wir auf Ihre Unterstützung angewiesen. 
@@ -291,10 +286,10 @@
 			
 		<span class="amount">Treffer 1 von 1</span>
 		<span class="control">
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showFirstRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum ersten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetteranfang_hell.gif" height="17" width="18" alt="&lt;" title="zum ersten Treffer blättern"/></a>
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showPreviousRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum vorherigen Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetterzurueck_hell.gif" height="17" width="18" alt="&lt;" title="zum vorherigen Treffer blättern"/></a>
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showNextRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum nächsten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaettervor_hell.gif" height="17" width="18" alt="&gt;" title="zum nächsten Treffer blättern"/></a>
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showLastRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum letzten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetterende_hell.gif" height="17" width="18" alt="&lt;" title="zum letzten Treffer blättern"/></a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showFirstRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum ersten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetteranfang_hell.gif" height="17" width="18" alt="&lt;" title="zum ersten Treffer blättern"/></a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showPreviousRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum vorherigen Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetterzurueck_hell.gif" height="17" width="18" alt="&lt;" title="zum vorherigen Treffer blättern"/></a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showNextRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum nächsten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaettervor_hell.gif" height="17" width="18" alt="&gt;" title="zum nächsten Treffer blättern"/></a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showLastRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum letzten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetterende_hell.gif" height="17" width="18" alt="&lt;" title="zum letzten Treffer blättern"/></a>
 		</span>		
 	</div>
 	<br class="clear"/><br/>
@@ -413,7 +408,7 @@
 			</td>
 			<td >
 									
-																							<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=simpleSearch&amp;reset=true&amp;cqlMode=true&amp;query=swiRef%3D1038714850&amp;selectedCategory=any">25 Publikationen</a>
+																							<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=simpleSearch&amp;reset=true&amp;cqlMode=true&amp;query=swiRef%3D1038714850&amp;selectedCategory=any">27 Publikationen</a>
 																		
 						<ol>
 											
@@ -422,7 +417,7 @@
 							</li>
 											
 														<li>
-							<em>Basiswissen Digital Humanities<br/>Ressel, Andrea. - Göttingen : Cuvillier Verlag, 2017</em>
+							<em>Studiolo<br/>Berlin : De Gruyter, [2018]</em>
 							</li>
 												
 													<li>...</li>
@@ -435,7 +430,7 @@
 			</td>
 			<td class='yellow'>
 									
-																							<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=simpleSearch&amp;reset=true&amp;cqlMode=true&amp;query=swmRef%3D1038714850&amp;selectedCategory=any">24 Publikationen</a>
+																							<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=simpleSearch&amp;reset=true&amp;cqlMode=true&amp;query=swmRef%3D1038714850&amp;selectedCategory=any">24 Publikationen</a>
 																		
 						<ol>
 											
@@ -461,7 +456,7 @@
 	<script type="text/javascript">
 	/* velocity escape character */
 		function loadCover(elementId, isbn){
-			var url = document.location.protocol + '//' + document.location.host + '/opac/mvb/cover.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?isbn=' + isbn + '&size=m';
+			var url = document.location.protocol + '//' + document.location.host + '/opac/mvb/cover.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?isbn=' + isbn + '&size=m';
 			var cover = $("<img />");
 			cover.attr("src", url);
 			cover.load(function(){
@@ -476,7 +471,7 @@
 				var link = $("<a />");
 				link.attr("href", "#");
 				link.click(function(){
-					window.open(document.location.protocol + '//' + document.location.host + '/opac/mvb/cover.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?isbn=' + isbn,"coverImage");
+					window.open(document.location.protocol + '//' + document.location.host + '/opac/mvb/cover.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?isbn=' + isbn,"coverImage");
 				});
 				link.append(cover);
 				cell.append(link);
@@ -509,7 +504,7 @@
 	<div class="searchdisplay">
 			<span class="amount">Treffer 1 von 1</span>
 		<span class="resultselect">			
-			<form action="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0" method="post">			
+			<form action="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1" method="post">			
 				<input type="hidden" name="method" value="showRecordByHitNumber"/>
 				<input type="hidden" name="currentResultId" value="nid=1038714850&amp;any"/>
 				<input type="submit" onclick="savePageOffset()" title="Gehe zu Treffernummer" class="submit" value="Gehe zu"/>
@@ -517,10 +512,10 @@
 			</form>	
 		</span>				
 		<span class="control">
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showFirstRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum ersten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetteranfang_hell.gif" height="17" width="18" alt="&lt;" title="zum ersten Treffer blättern"/></a>
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showPreviousRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum vorherigen Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetterzurueck_hell.gif" height="17" width="18" alt="&lt;" title="zum vorherigen Treffer blättern"/></a>
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showNextRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum nächsten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaettervor_hell.gif" height="17" width="18" alt="&gt;" title="zum nächsten Treffer blättern"/></a>
-				<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showLastRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum letzten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetterende_hell.gif" height="17" width="18" alt="&lt;" title="zum letzten Treffer blättern"/></a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showFirstRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum ersten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetteranfang_hell.gif" height="17" width="18" alt="&lt;" title="zum ersten Treffer blättern"/></a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showPreviousRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum vorherigen Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetterzurueck_hell.gif" height="17" width="18" alt="&lt;" title="zum vorherigen Treffer blättern"/></a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showNextRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum nächsten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaettervor_hell.gif" height="17" width="18" alt="&gt;" title="zum nächsten Treffer blättern"/></a>
+				<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showLastRecord&amp;currentResultId=nid%3D1038714850%26any&amp;currentPosition=0" onclick="savePageOffset()" title="zum letzten Treffer blättern"><img src="https://portal.dnb.de/static/bilder/pfeil_blaetterende_hell.gif" height="17" width="18" alt="&lt;" title="zum letzten Treffer blättern"/></a>
 		</span>
 	</div>
 	<br class="clear"/><br/>
@@ -537,11 +532,11 @@
 				<h2>Aktionen</h2><br/>
 				<div class="link">
 					<ul>
-						<li><a class="selection" title="Dieses Suchergebnis in meine Auswahl übernehmen" href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=saveRecord&amp;currentView=opac%2FfullRecord&amp;recordId=http%3A%2F%2Fd-nb.info%2Fgnd%2F1038714850&amp;currentPosition=0&amp;cqlMode=true" onclick="savePageOffset()">In meine Auswahl übernehmen</a></li>
+						<li><a class="selection" title="Dieses Suchergebnis in meine Auswahl übernehmen" href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=saveRecord&amp;currentView=opac%2FfullRecord&amp;recordId=http%3A%2F%2Fd-nb.info%2Fgnd%2F1038714850&amp;currentPosition=0&amp;cqlMode=true" onclick="savePageOffset()">In meine Auswahl übernehmen</a></li>
 
-					<li><a class="printpreview" title="Druckansicht für dieses Suchergebnis anzeigen" href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showPrintViewOfRecord&amp;recordId=http%3A%2F%2Fd-nb.info%2Fgnd%2F1038714850&amp;currentPosition=0">Druckansicht</a></li>
+					<li><a class="printpreview" title="Druckansicht für dieses Suchergebnis anzeigen" href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showPrintViewOfRecord&amp;recordId=http%3A%2F%2Fd-nb.info%2Fgnd%2F1038714850&amp;currentPosition=0">Druckansicht</a></li>
 
-		<li><a class="selection" title="Diesen Datensatz per E-Mail versenden" href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=showSendRecord&amp;idn=1038714850">Versenden</a></li>
+		<li><a class="selection" title="Diesen Datensatz per E-Mail versenden" href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=showSendRecord&amp;idn=1038714850">Versenden</a></li>
 
 
 					</ul>
@@ -576,7 +571,7 @@
 					<div class="link">
 			<ul>
 				<li>	
-					<a href="https://portal.dnb.de/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?method=redirectToNachschlagewerke" title="Liste der Abkürzungen für fachliche Nachschlagewerke">Nachweis der Quelle</a>
+					<a href="https://portal.dnb.de/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?method=redirectToNachschlagewerke" title="Liste der Abkürzungen für fachliche Nachschlagewerke">Nachweis der Quelle</a>
 				
 				
 				</li>
@@ -591,19 +586,19 @@
 
 
 			<div class="clear"> </div>
-			<a href="https://portal.dnb.de/emailMe.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0?context=DEFAULT" title="E-Mail an Administration"><img src="https://portal.dnb.de/static/bilder/icon_email_klein.gif" height="10" width="17" alt="E-Mail-Icon" />Administration</a>
+			<a href="https://portal.dnb.de/emailMe.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1?context=DEFAULT" title="E-Mail an Administration"><img src="https://portal.dnb.de/static/bilder/icon_email_klein.gif" height="10" width="17" alt="E-Mail-Icon" />Administration</a>
 		</div> 
 		<!-- Ende div id="content" -->
 
 		<div class="invisible">
-			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#inhalt" accesskey="i" title="zum Inhalt springen, Acceskey: alt+i"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zum Inhalt springen, Acceskey: alt+i" alt="" height="1" width="1" /></a>
-			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#hauptmenu" accesskey="n" title="zur Hauptnavigation springen, Acceskey: alt+n"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Hauptnavigation springen, Acceskey: alt+n" alt="" height="1" width="1" /></a>
-			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#metamenu" accesskey="m" title="zur Metanavigation springen, Acceskey: alt+m"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Metanavigation springen, Acceskey: alt+m" alt="" height="1" width="1" /></a>
-			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#pfadnavigation" accesskey="p" title="zur Pfadnavigation springen, Acceskey: alt+p"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Pfadnavigation springen, Acceskey: alt+p" alt="" height="1" width="1" /></a>
-			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#suchformular" accesskey="q" title="zum Suchformular springen, Acceskey: alt+q"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zum Suchformular springen, Acceskey: alt+q" alt="" height="1" width="1" /></a>
+			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#inhalt" accesskey="i" title="zum Inhalt springen, Acceskey: alt+i"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zum Inhalt springen, Acceskey: alt+i" alt="" height="1" width="1" /></a>
+			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#hauptmenu" accesskey="n" title="zur Hauptnavigation springen, Acceskey: alt+n"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Hauptnavigation springen, Acceskey: alt+n" alt="" height="1" width="1" /></a>
+			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#metamenu" accesskey="m" title="zur Metanavigation springen, Acceskey: alt+m"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Metanavigation springen, Acceskey: alt+m" alt="" height="1" width="1" /></a>
+			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#pfadnavigation" accesskey="p" title="zur Pfadnavigation springen, Acceskey: alt+p"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zur Pfadnavigation springen, Acceskey: alt+p" alt="" height="1" width="1" /></a>
+			<a href="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#suchformular" accesskey="q" title="zum Suchformular springen, Acceskey: alt+q"><img src="https://portal.dnb.de/static/bilder/transparent.gif" title="zum Suchformular springen, Acceskey: alt+q" alt="" height="1" width="1" /></a>
 		</div>		<div id="footer">			
 			<div class="footer_banner"><img src="https://portal.dnb.de/static/bilder/banner_fuss.gif" alt="Schriftbanner mit Deutscher Nationalbibliothek Leipzig, Frankfurt am Main" height="11" width="461" /></div>
-			<div class="footer_jump">Version 1.7.2.0 / 2018-02-20T16:34:06<a href="https://portal.dnb.de:443/opac.htm;jsessionid=VOrL0Y4vBEk2KBaCy_pMf9zjmQYqaiMra3VD3qAQ.prod-fly0#header" title="Sprungmarke zum Seitenbeginn" tabindex="1000" shape="rect">Seitenanfang</a></div>			
+			<div class="footer_jump">Version 1.7.3.0 / 2018-04-11T12:16:27<a href="https://portal.dnb.de:443/opac.htm;jsessionid=AO2FO6CSFZ_ywsx1clVgPHTqOGSEwTSdTpGMyRh4.prod-fly1#header" title="Sprungmarke zum Seitenbeginn" tabindex="1000" shape="rect">Seitenanfang</a></div>			
 		</div>
 
 	<!-- Einbindung BibTip -->	

@@ -116,6 +116,7 @@ Home
 
 
 
+
 Only search content I have access to
 
 
@@ -241,6 +242,7 @@ The Cambridge History of American Literature
 
 
 
+
 Download list of titles
 
 
@@ -261,7 +263,7 @@ Other actions
 	
 	
 
- 	
+	
 
 
 
@@ -402,6 +404,7 @@ Refine search
 
 
 
+
 Content type:
 
 
@@ -476,6 +479,7 @@ Literature
 
 
 Tags
+
 
 
 
@@ -875,7 +879,7 @@ Buy the print book
 
 Check if you have access via personal or institutional login
 
- 
+
 
 
 Log in
@@ -1003,7 +1007,7 @@ Recommend to librarian
 
 
 
- 
+
 
 
 
@@ -1909,7 +1913,7 @@ Send
 
 
 
- 
+
 
 
 

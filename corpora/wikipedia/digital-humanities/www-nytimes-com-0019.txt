@@ -32,12 +32,12 @@ Supported by
 
 Op-Ed Contributor
 One Republic of Learning
-Image[image: ]
-CreditNishant ChoksiBy Armand Marie Leroi
+By Armand Marie Leroi
 
 
 Feb. 13, 2015
-In the Republic of Learning humanities scholars often see themselves as second-class citizens. Their plaintive cries are not without cause. When universities trim budgets it is often their departments that take the hit. In the last 10 years, however, there has been one bright spot: the “digital humanities,” a vast enterprise that aims to digitize our cultural heritage, put it online for all to see, and do so with a scholarly punctilio that Google does not.
+Image[image: ]
+CreditNishant ChoksiIn the Republic of Learning humanities scholars often see themselves as second-class citizens. Their plaintive cries are not without cause. When universities trim budgets it is often their departments that take the hit. In the last 10 years, however, there has been one bright spot: the “digital humanities,” a vast enterprise that aims to digitize our cultural heritage, put it online for all to see, and do so with a scholarly punctilio that Google does not.
 The digital humanities have captured the imaginations of funders and university administrators. They are being built by a new breed of scholar able to both investigate Cicero’s use of the word “lascivium” and code in Python. If you want to read Cicero’s letter in which lascivium appears, or the lyrics of 140,000 Dutch folk songs, now you can. Texts are living things: Digitization transforms them from caterpillars into butterflies. But the true promise of digitization is not just better websites. Rather, it is the transformation of the humanities into science.
 By “science” I mean using numbers to test hypotheses. Numbers are the signature of science; they allow us to describe patterns and relationships with a precision that words do not. The quantification of the humanities is driven by an inexorable logic: Digitization breeds numbers; numbers demand statistics. The new breed of digital humanists is mining and visualizing data with the facility that bioinformaticians analyze genomes and cosmologists classify galaxies. All of them could, if they cared to, understand each others’ results perfectly well.
 Most traditional — analog — humanists, I suspect, delight in the new databases but do not fully grasp their consequences. One great literary critic did so years ago. “What,” asked Harold Bloom in 1973, “is Poetic Influence anyway? Can the study of it really be anything more than the wearisome industry of source-hunting, of allusion-counting, an industry that will soon touch apocalypse anyway when it passes from scholars to computers?”

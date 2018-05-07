@@ -3846,7 +3846,7 @@ Citation Index (SSCI)®
 
 
     
-            Fake news: belief in post-truth
+            Reducing noise in the academic library: the effectiveness of installing noise meters
 
                 
 
@@ -3897,7 +3897,7 @@ Citation Index (SSCI)®
 
 
     
-            Reducing noise in the academic library: the effectiveness of installing noise meters
+            Fake news: belief in post-truth
 
                 
 
@@ -3999,8 +3999,10 @@ Citation Index (SSCI)®
 
 
     
-            PLAN: Shared Automated Circulation System in California
+            Search engine optimization
 
+                
+                    : A case study using the bibliographies of LG Science Land in Korea
                 
 
             
@@ -4050,7 +4052,7 @@ Citation Index (SSCI)®
 
 
     
-            Conceptual foundations for representing robotics history in a non‐linear digital archive
+            Marketing via social media: a case study
 
                 
 

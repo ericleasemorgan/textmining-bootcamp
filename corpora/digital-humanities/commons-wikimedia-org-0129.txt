@@ -23,7 +23,7 @@ Search results
 Search
 
 
-Results 1 – 20 of 6,555
+Results 1 – 20 of 6,581
 
 
 	Content pages
@@ -105,13 +105,13 @@ Create the page "Digital humanities" on this wiki!
 
 
 
-		[image: ]	File:Digital humanities chart.jpg     DescriptionDigital humanities chart.jpg  English: A chart with multiple types of statistics about progress in the digital humanities.  Date 20 January
- (792 × 4,263 (1.87 MB)) - 18:01, 15 February 2018
-
-
-
 		[image: ]	File:Digital Humanities on Twitter.png     DescriptionDigital Humanities on Twitter.png  English: Graph of Digital Humanities Twitter users with 1,434 nodes and 137,061 directed edges that each
  (1,000 × 824 (1.09 MB)) - 12:47, 28 December 2016
+
+
+
+		[image: ]	File:Digital humanities chart.jpg     DescriptionDigital humanities chart.jpg  English: A chart with multiple types of statistics about progress in the digital humanities.  Date 20 January
+ (792 × 4,263 (1.87 MB)) - 18:01, 15 February 2018
 
 
 
@@ -120,28 +120,18 @@ Create the page "Digital humanities" on this wiki!
 
 
 
-		[image: ]	File:Conference Digital Humanities 008.JPG     DescriptionConference Digital Humanities 008.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26
- (2,560 × 1,536 (1.31 MB)) - 15:22, 24 November 2016
-
-
-
-		[image: ]	File:Conference Digital Humanities 009.JPG     DescriptionConference Digital Humanities 009.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26
- (2,560 × 1,536 (285 KB)) - 15:22, 24 November 2016
-
-
-
-		[image: ]	File:Conference Digital Humanities 18.JPG     DescriptionConference Digital Humanities 18.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
- (2,560 × 1,536 (1.56 MB)) - 15:22, 24 November 2016
-
-
-
-		[image: ]	File:Conference Digital Humanities 006.JPG     DescriptionConference Digital Humanities 006.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26
- (2,560 × 1,536 (274 KB)) - 15:22, 24 November 2016
-
-
-
 		[image: ]	File:Conference Digital Humanities 007.JPG     DescriptionConference Digital Humanities 007.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26
  (2,560 × 1,536 (1.31 MB)) - 15:22, 24 November 2016
+
+
+
+		[image: ]	File:Conference Digital Humanities 14.JPG     DescriptionConference Digital Humanities 14.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
+ (2,560 × 1,536 (1.52 MB)) - 15:22, 24 November 2016
+
+
+
+		[image: ]	File:Conference Digital Humanities 13.JPG     DescriptionConference Digital Humanities 13.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
+ (2,560 × 1,536 (1.6 MB)) - 15:22, 24 November 2016
 
 
 
@@ -150,8 +140,23 @@ Create the page "Digital humanities" on this wiki!
 
 
 
-		[image: ]	File:Conference Digital Humanities 13.JPG     DescriptionConference Digital Humanities 13.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
- (2,560 × 1,536 (1.6 MB)) - 15:22, 24 November 2016
+		[image: ]	File:Conference Digital Humanities 03.JPG     DescriptionConference Digital Humanities 03.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
+ (1,280 × 768 (450 KB)) - 15:22, 24 November 2016
+
+
+
+		[image: ]	File:Conference Digital Humanities 011.JPG     DescriptionConference Digital Humanities 011.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26
+ (2,560 × 1,536 (1.45 MB)) - 15:22, 24 November 2016
+
+
+
+		[image: ]	File:Conference Digital Humanities 006.JPG     DescriptionConference Digital Humanities 006.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26
+ (2,560 × 1,536 (274 KB)) - 15:22, 24 November 2016
+
+
+
+		[image: ]	File:Conference Digital Humanities 06.JPG     DescriptionConference Digital Humanities 06.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
+ (1,725 × 880 (643 KB)) - 15:22, 24 November 2016
 
 
 
@@ -165,27 +170,22 @@ Create the page "Digital humanities" on this wiki!
 
 
 
-		[image: ]	File:Conference Digital Humanities 06.JPG     DescriptionConference Digital Humanities 06.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
- (1,725 × 880 (643 KB)) - 15:22, 24 November 2016
+		[image: ]	File:Conference Digital Humanities 008.JPG     DescriptionConference Digital Humanities 008.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26
+ (2,560 × 1,536 (1.31 MB)) - 15:22, 24 November 2016
 
 
 
-		[image: ]	File:Conference Digital Humanities 011.JPG     DescriptionConference Digital Humanities 011.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26
- (2,560 × 1,536 (1.45 MB)) - 15:22, 24 November 2016
+		[image: ]	File:Conference Digital Humanities 18.JPG     DescriptionConference Digital Humanities 18.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
+ (2,560 × 1,536 (1.56 MB)) - 15:22, 24 November 2016
 
 
 
-		[image: ]	File:Conference Digital Humanities 14.JPG     DescriptionConference Digital Humanities 14.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
- (2,560 × 1,536 (1.52 MB)) - 15:22, 24 November 2016
+		[image: ]	File:Conference Digital Humanities 009.JPG     DescriptionConference Digital Humanities 009.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26
+ (2,560 × 1,536 (285 KB)) - 15:22, 24 November 2016
 
 
 
-		[image: ]	File:Conference Digital Humanities 03.JPG     DescriptionConference Digital Humanities 03.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
- (1,280 × 768 (450 KB)) - 15:22, 24 November 2016
-
-
-
-		[image: ]	File:Conference Digital Humanities 15.JPG     DescriptionConference Digital Humanities 15.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
+		[image: ]	File:Conference Digital Humanities 17.JPG     DescriptionConference Digital Humanities 17.JPG  English: Conference "Digital Humanities" at the Faculty of Philology, University of Belgrade, 22-26 September
  (2,560 × 1,536 (1.56 MB)) - 15:22, 24 November 2016
 
 

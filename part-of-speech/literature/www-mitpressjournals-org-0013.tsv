@@ -788,7 +788,7 @@ DT	a	a
 JJ	revolutionary	Revolutionary
 NN	war	War
 NN	heroine	Heroine
-CD	1545	1545
+CD	1512	1512
 NNS	time	times
 NN	paula	Paula
 NN	d	D
@@ -815,7 +815,7 @@ NNS	origin	ORIGINS
 IN	of	OF
 NNP	UNCLE	UNCLE
 NNP	SAM	SAM
-NNP	1810 1820 1213	1810 1820 1213
+NNP	1810 1820 1218	1810 1820 1218
 NNP	times	times
 NNP	Donald	Donald
 NNP	R	R
@@ -842,7 +842,7 @@ IN	of	of
 NNP	Thoreau	Thoreau
 NNP	s	s
 VBG	walk	Walking
-CD	658	658
+CD	620	620
 NNS	time	times
 NNP	Andrew	Andrew
 NNP	Menard	Menard

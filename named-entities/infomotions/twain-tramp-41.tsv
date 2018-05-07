@@ -176,7 +176,7 @@ PERSON	Harris
 PERSON	Neckar
 PERSON	Harris
 LOCATION	Germany
-PERSON	ICH VERSTEHE NUR DEUTCH
+PERSON	DEUTCH
 PERSON	Neckar
 LOCATION	Switzerland
 PERSON	Wimpfen
@@ -192,7 +192,7 @@ LOCATION	Europe
 PERSON	Arthur
 ORGANIZATION	Time
 PERSON	Tilly
-PERSON	Go tz von Berlichingen
+LOCATION	Berlichingen
 LOCATION	Heilbronn
 PERSON	Neckar
 LOCATION	Bavaria
@@ -355,7 +355,7 @@ PERSON	Wilhelm
 PERSON	Ulrich
 PERSON	Conrad
 PERSON	Ulrich
-ORGANIZATION	Conrad
+PERSON	Conrad
 PERSON	Conrad
 PERSON	Catharina One
 PERSON	Conrad
@@ -1082,7 +1082,6 @@ LOCATION	Switzerland
 LOCATION	Gorner Glacier
 LOCATION	Zermatt
 LOCATION	Chamonix
-ORGANIZATION	Unter Aar Glacier
 PERSON	Mont Blanc
 PERSON	Michel Payot
 PERSON	Whymper

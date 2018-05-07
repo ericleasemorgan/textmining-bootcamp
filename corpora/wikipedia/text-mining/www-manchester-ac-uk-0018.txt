@@ -390,12 +390,13 @@
 						
 							
 
-	[image: ScienceX]	
-		ScienceX
+	[image: Discover Days at The University of Manchester]	
+		Discover Days 
+for Year 12 students
 
-		Join us at intu Trafford Centre on 14–15 April and share in the fun and excitement of science and engineering.
+		Want to know more about what it's like to study your favourite subject at university? Come to a Discover Day to find out.
 
-		See what’s on
+		Discover more and register
 
 
 	
@@ -541,31 +542,14 @@ See all news
 
 	
 		
-			[image: ichthyosaur]
-			[image: ichthyosaur]
+			[image: Manchester Museum]
+			[image: Manchester Museum]
 
 		
 		
-			Giant ichthyosaur was one of the largest animals ever
+			New galleries and exhibition space planned for Manchester Museum
 
-			A prehistoric jaw bone identified by a Manchester researcher belongs to ‘one of the largest animals ever’, according to palaeontologists.
-
-		
-
-	
-
-
-
-	
-		
-			[image: New film project to help deaf children in South Africa]
-			[image: New film project to help deaf children in South Africa]
-
-		
-		
-			New film project to help deaf children in South Africa
-
-			The universities of Manchester and the Witwatersrand are collaborating to raise awareness of the vulnerability of deaf children in South Africa.
+			Manchester Museum, part of the University, has received a confirmed grant of over £4 million from the Heritage Lottery Fund for a major capital project.
 
 		
 
@@ -575,31 +559,14 @@ See all news
 
 	
 		
-			[image: Students create 3D-printed robot prosthetic limb]
-			[image: Students create 3D-printed robot prosthetic limb]
+			[image: Manchester China Institute]
+			[image: Manchester China Institute]
 
 		
 		
-			Students create 3D-printed robot prosthetic limb 
+			University’s new China institute launches
 
-			Manchester students have designed and built a 3D-printed robotic prosthetic hand that could provide a much cheaper alternative for amputees.
-
-		
-
-	
-
-
-
-	
-		
-			[image: University wins green travel award]
-			[image: University wins green travel award]
-
-		
-		
-			University wins green travel award
-
-			The University has received a Champions of Champions award for inspiring thousands of staff and students to opt for more sustainable journeys to work.
+			The new Manchester China Institute will work to improve understanding between the UK and China by promoting world-leading research, community outreach, and public lectures.
 
 		
 
@@ -609,31 +576,14 @@ See all news
 
 	
 		
-			[image: Legal students]
-			[image: Legal students]
+			[image: Innovation at Mancehster]
+			[image: Innovation at Mancehster]
 
 		
 		
-			Student lawyers help to win case
+			Manchester is top ten for innovation among Europe’s universities
 
-			Students at Manchester’s Legal Aid Centre took on a case where no legal aid was available and won.
-
-		
-
-	
-
-
-
-	
-		
-			[image: Silke Gillessen]
-			[image: Silke Gillessen]
-
-		
-		
-			World-renowned cancer researcher comes to Manchester
-
-			Professor Silke Gillessen, a leading expert in genitourinary oncology, is to join the University and The Christie NHS Foundation Trust.
+			The University of Manchester has moved up to seventh place in the Reuters ranking of Europe’s most innovative universities.
 
 		
 
@@ -643,14 +593,14 @@ See all news
 
 	
 		
-			[image: National loneliness survey]
-			[image: National loneliness survey]
+			[image: Space technology being used to measure tumours]
+			[image: Space technology being used to measure tumours]
 
 		
 		
-			Public invited to take part in national loneliness survey
+			Space technology being used to measure tumours
 
-			People are invited to share their experiences of loneliness in a national survey led by the University and the BBC.
+			Technology developed by Manchester scientists to map the surface of Mars has been adapted to measure the treatment of tumours.
 
 		
 
@@ -660,14 +610,65 @@ See all news
 
 	
 		
-			[image: International Manchester]
-			[image: International Manchester]
+			[image: Manchester top for UK business research income]
+			[image: Manchester top for UK business research income]
 
 		
 		
-			University one of the world’s ‘most international’
+			Manchester top for UK business research income
 
-			Manchester is among the world's most international universities, according to data from the Times Higher Education World University Rankings.
+			The University attracted £24,831,000 of research income from UK industry in 2016/17 – more than any other institution in the country. 
+
+		
+
+	
+
+
+
+	
+		
+			[image: Strong grip]
+			[image: Strong grip]
+
+		
+		
+			Research reveals stronger people have healthier brains
+
+			A study of nearly half a million people has revealed that muscular strength, measured by handgrip, is an indication of how healthy our brains are.
+
+		
+
+	
+
+
+
+	
+		
+			[image: Flexible TVs and wearable smart tech a step closer]
+			[image: Flexible TVs and wearable smart tech a step closer]
+
+		
+		
+			Flexible TVs and wearable smart tech a step closer
+
+			Researchers at Manchester and Shandon have created a transistor that brings flexible televisions and truly wearable tech a step closer.  
+
+		
+
+	
+
+
+
+	
+		
+			[image: Over 2,000 people join the Purple Wave]
+			[image: Over 2,000 people join the Purple Wave]
+
+		
+		
+			Over 2,000 people join the Purple Wave
+
+			A Purple Wave of more than 2,000 staff, students and alumni will take part in the Great Manchester Run to raise money for the University’s Undergraduate Access Scholarship.
 
 		
 
@@ -1117,20 +1118,6 @@ UK
 
 
 						Social media directory
-
-					
-
-
-					
-					
-						Awards
-
-						
-							[image: Lovie award winner badge]
-							[image: Lovie award winner badge]
-
-						
-					
 
 					
 

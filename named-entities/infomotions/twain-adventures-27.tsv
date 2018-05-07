@@ -1047,7 +1047,7 @@ PERSON	Tom
 PERSON	Becky
 PERSON	Tom
 PERSON	Tom Becky
-PERSON	Alfred Temple
+ORGANIZATION	Alfred Temple
 PERSON	Tom
 PERSON	Dobbins
 PERSON	Dobbins
@@ -1068,7 +1068,7 @@ PERSON	Tom
 PERSON	Becky
 PERSON	Dobbins
 PERSON	Tom
-PERSON	Alfred Temple
+ORGANIZATION	Alfred Temple
 PERSON	Becky
 PERSON	Becky
 PERSON	Tom

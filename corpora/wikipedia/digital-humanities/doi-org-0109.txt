@@ -126,7 +126,7 @@ Article
 
     	
                     
-                       1
+                            1
                        Shares
                     
             
@@ -136,7 +136,7 @@ Article
             
 	
                     
-                       2
+                            2
                        Citations
                     
             
@@ -150,7 +150,7 @@ Computational Linguistic 
 							These keywords were added by machine and not by the authors. This process is experimental and the keywords may be updated as the learning algorithm improves.
 						
 
-This is a preview of subscription content, log in to check access
+This is a preview of subscription content, log in to check access.
 
 
 Preview

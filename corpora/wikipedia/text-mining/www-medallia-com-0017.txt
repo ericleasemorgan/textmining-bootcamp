@@ -26,6 +26,13 @@
 
 			
 			
+				
+									[image: Medallia Logo]
+									[image: Medallia Logo]	
+				
+			
+
+			
 	Institute
 	Company
 
@@ -33,27 +40,13 @@
 									Request a Demo
 								
 					 
-EN
-					
-						
-						English
 
-						
 					
 
 				
 
 			
 			
-				
-										[image: Medallia Logo]
-										
-						[image: Medallia Logo]
-					
-						
-				
-			
-
 							Request a Demo
 					
 	
@@ -245,14 +238,9 @@ Your source for the latest CX research, insights and resources.
 		Feedback
 
 		
-			 English (US)
+			 
 			
-				Deutch
-
-				English
-
-				Francais
-
+				
 			
 
 		
@@ -268,19 +256,23 @@ Your source for the latest CX research, insights and resources.
 
 	
 	
-	
+		
 	
 		
+			
 
-		COOKIE NOTICE
+			
 
-This web site uses cookies for marketing, analytics, and to enhance user experience.  To change your cookie setings or find out more, see the “Cookies: Website” portion of our privacy policy here.
+		
+
+		
+		
+			
+
+			
 
 
-		LANGUAGE OPTIONS
-
-You are current viewing our French site, would you like to go to our English site?
-
+		
 
 	
 
@@ -397,6 +389,7 @@ You are current viewing our French site, would you like to go to our English sit
 	
 
 
+
 		
 		[image: ]	
 	
@@ -421,7 +414,7 @@ Turn Every Word Into Insight & Action
 
 	
 
-	
+		
 		
 										"Using [Medallia's] data insights and feedback, we’ve been able to galvanize the company around a strategy that meets our customers' demands.”
 
@@ -433,22 +426,20 @@ Turn Every Word Into Insight & Action
 
 	
 
-
-	
-		
-			Whitepaper
+			
+			
+				Whitepaper
 
 Text Analytics Is The CMO’s Secret Weapon
 
 6 ways to boost marketing effectiveness with text analytics.
 
 				
-			Download Now
+				Download Now
+
+			
 
 		
-
-	
-
 
 		
 					
@@ -546,7 +537,9 @@ Personalized reports, intuitive workflows, and topic-based alerts empower every 
 			
 
 			
-		
+	
+				
+			
 			Related Resources
 
 			
@@ -589,6 +582,8 @@ Personalized reports, intuitive workflows, and topic-based alerts empower every 
 
 							
 
+		
+			
 		
 
 	
@@ -718,12 +713,7 @@ Personalized reports, intuitive workflows, and topic-based alerts empower every 
 				
 					
 						
-							 English (US)
-							
-								
-								English
-
-								
+							 
 							
 
 						
@@ -776,8 +766,8 @@ Personalized reports, intuitive workflows, and topic-based alerts empower every 
 	Customers
 	Partners
 	Services
+	GDPR
 	Events
-	Training & Certification
 	Press
 	Careers
 	Contact Us

@@ -321,6 +321,17 @@ Text mining protocol.png
 		
 
 			
+			In other projects
+
+			
+									Wikipedia
+
+
+							
+
+		
+
+			
 			Tools
 
 			
@@ -329,6 +340,7 @@ Text mining protocol.png
 	Special pages
 	Permanent link
 	Page information
+	Wikidata item
 
 
 							
@@ -339,9 +351,32 @@ Text mining protocol.png
 			In Wikipedia
 
 			
-								
+									العربية
+	Български
+	Čeština
+	Deutsch
+	English
+	Español
+	Euskara
+	فارسی
+	Français
+	Magyar
+	Bahasa Indonesia
+	日本語
+	Nederlands
+	Polski
+	Português
+	Русский
+	Slovenščina
+	Svenska
+	ไทย
+	Türkçe
+	Українська
+	Tiếng Việt
+	中文
 
-				Add links
+
+				Edit links
 			
 
 		

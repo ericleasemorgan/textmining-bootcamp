@@ -171,6 +171,7 @@ Thank you for visiting nature.com. You are using a browser version with
                             
                                 Editorial
                                 
+                                
                             
 
                             
@@ -347,6 +348,9 @@ Share
                     Browse Articles
                 
 	
+                    Browse collections
+                
+	
                     Browse Subjects
                 
 	
@@ -386,135 +390,134 @@ Share
 
             
 
-
+            
+    
+        
             
                 
                     
-                        
-                            
-                                
-                                    Journals A-Z
-                                        Journals A-Z
-                                
-
-                            
-
-                            
-                                	
-                                        Nature
-                                    
-	
-                                        Nature Communications
-                                    
-	
-                                        Nature Protocols
-                                    
-	
-                                        Review journals
-                                    
-	
-                                        Scientific Reports
-                                    
-	
-                                        View all journals
-                                    
-
-
-                            
-
-                        
-
+                        Journals A-Z
+                        Journals A-Z
                     
+
+                
+
+                
+                    	
+                            Nature
+                        
+	
+                            Nature Communications
+                        
+	
+                            Nature Protocols
+                        
+	
+                            Review journals
+                        
+	
+                            Scientific Reports
+                        
+	
+                            View all journals
+                        
+
 
                 
 
             
 
+        
+
+    
+
+
+
+
+    
+        
             
                 
                     
-                        
-                            
-                                
-                                    All Subjects
-                                    All Subjects
-                                
-
-                            
-
-                            
-                                	
-                                        Biological Sciences
-                                    
-	
-                                            Earth & Environmental Sciences
-                                    
-	
-                                        Health Sciences
-                                    
-	
-                                        Physical Sciences
-                                    
-	
-                                            Scientific Community & Society
-                                    
-	
-                                        View all subjects
-                                    
-
-
-                            
-
-                        
-
+                        All Subjects
+                        All Subjects
                     
 
                 
 
-            
-
-            
                 
-                    
+                    	
+                            Biological Sciences
                         
-                            
-                                
-                                    nature.com
-                                    nature.com
-                                
-
-                            
-
-                            
-                                	
-                                            Subscriptions
-                                    
 	
-                                           Authors & Referees
-                                    
+                            Earth & Environmental Sciences
+                        
 	
-                                            Librarians
-                                    
+                            Health Sciences
+                        
 	
-                                            Advertisers
-                                    
+                            Physical Sciences
+                        
 	
-                                            Press
-                                    
+                            Scientific Community & Society
+                        
 	
-                                            About
-                                    
-
-
-                            
-
+                            View all subjects
                         
 
-                    
 
                 
 
             
+
+        
+
+    
+
+
+
+
+    
+        
+            
+                
+                    
+                        nature.com
+                        nature.com
+                    
+
+                
+
+                
+                    	
+                            Subscriptions
+                        
+	
+                            Authors & Referees
+                        
+	
+                            Librarians
+                        
+	
+                            Advertisers
+                        
+	
+                            Press
+                        
+	
+                            About
+                        
+
+
+                
+
+            
+
+        
+
+    
+
+
 
         
     
@@ -574,13 +577,19 @@ Share
 
 
 
-
     
         
 
             Nature
 
             ISSN 1476-4687 (online)
+
+            
+                
+    
+    Issue Cover Cover image: AXS Studio, Inc.
+
+    
 
             
         
@@ -600,10 +609,9 @@ Share
             	Guide to Authors
 	Guide to Referees
 	Editorial policies
-	Language editing
+	
 	Scientific editing
-	Reprints &
-                    permissions
+	Reprints & permissions
 
 
         
@@ -645,9 +653,9 @@ Share
         
             Careers and events
 
-            	Natureconferences
-	Natureevents
-	Naturejobs.com
+            	Nature conferences
+	Nature events
+	Nature jobs.com
 
 
         
@@ -655,13 +663,12 @@ Share
         
             Regional websites
 
-            	Natureasia
+            	Nature asia
 	Nature China
 	Nature India
 	Nature Japan
 	Nature Korea
-	Nature Middle
-                    East
+	Nature Middle East
 
 
         
@@ -686,14 +693,11 @@ Share
         
             For advertisers
 
-            	Advertising
-                    options
-	Journal
-                    audience
+            	Advertising options
+	Journal audience
 	Event advertising
 	Job posts
-	Contact
-                    representative
+	Contact representative
 
 
         

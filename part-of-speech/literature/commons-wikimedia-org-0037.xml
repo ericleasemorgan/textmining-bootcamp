@@ -1,4 +1,4 @@
-<pos><sentence id="244">
+<pos><sentence id="246">
   <word wid="0" pos="VB" lemma="help">Help</word>
   <word wid="1" pos="NN" lemma="category">Category</word>
   <word wid="2" pos="NN" lemma="literature">Literature</word>
@@ -34,9 +34,9 @@
   <word wid="32" pos="DT" lemma="the">the</word>
   <word wid="33" pos="NNP" lemma="United">United</word>
   <word wid="34" pos="NNPS" lemma="States">States</word>
-  <word wid="35" pos="CD" lemma="94">94</word>
+  <word wid="35" pos="CD" lemma="116">116</word>
   <word wid="36" pos="NN" lemma="c">C</word>
-  <word wid="37" pos="CD" lemma="1650">1650</word>
+  <word wid="37" pos="CD" lemma="1649">1649</word>
   <word wid="38" pos="NN" lemma="f">F</word>
   <word wid="39" pos="NNS" lemma="novel">Novels</word>
   <word wid="40" pos="IN" lemma="from">from</word>
@@ -45,7 +45,7 @@
   <word wid="43" pos="NNPS" lemma="States">States</word>
   <word wid="44" pos="CD" lemma="94">94</word>
   <word wid="45" pos="NN" lemma="c">C</word>
-  <word wid="46" pos="CD" lemma="39">39</word>
+  <word wid="46" pos="CD" lemma="38">38</word>
   <word wid="47" pos="NN" lemma="f">F</word>
   <word wid="48" pos="NN" lemma="poetry">Poetry</word>
   <word wid="49" pos="IN" lemma="of">of</word>
@@ -124,7 +124,7 @@
   <word wid="122" pos="DT" lemma="the">the</word>
   <word wid="123" pos="NNP" lemma="United">United</word>
   <word wid="124" pos="NNPS" lemma="States">States</word>
-  <word wid="125" pos="CD" lemma="186">186</word>
+  <word wid="125" pos="CD" lemma="194">194</word>
   <word wid="126" pos="NN" lemma="c">C</word>
   <word wid="127" pos="CD" lemma="1">1</word>
   <word wid="128" pos="NN" lemma="p">P</word>
@@ -179,8 +179,8 @@
   <word wid="177" pos="NN" lemma="project">Project</word>
   <word wid="178" pos="NNP" lemma="Gutenberg">Gutenberg</word>
   <word wid="179" pos="CD" lemma="2">2</word>
-  <word wid="180" pos="NN" lemma="c">C</word>
-  <word wid="181" pos="CD" lemma="10">10</word>
+  <word wid="180" pos="NNP" lemma="C">C</word>
+  <word wid="181" pos="CD" lemma="11">11</word>
   <word wid="182" pos="NN" lemma="f">F</word>
   <word wid="183" pos="NNS" lemma="page">Pages</word>
   <word wid="184" pos="IN" lemma="in">in</word>
@@ -826,112 +826,113 @@
   <word wid="824" pos="NNP" lemma="Latina">Latina</word>
   <word wid="825" pos="NNP" lemma="L">L</word>
   <word wid="826" pos="NNP" lemma="tzebuergesch">tzebuergesch</word>
-  <word wid="827" pos="NNP" lemma="Lietuvi">Lietuvi</word>
-  <word wid="828" pos="NNP" lemma="Latvie">Latvie</word>
-  <word wid="829" pos="NNP" lemma="u">u</word>
-  <word wid="830" pos="NNP" lemma="Mirand">Mirand</word>
-  <word wid="831" pos="NNP" lemma="s">s</word>
-  <word wid="832" pos="NNP" lemma="Nederlands">Nederlands</word>
-  <word wid="833" pos="NNP" lemma="Norsk">Norsk</word>
-  <word wid="834" pos="NNP" lemma="nynorsk">nynorsk</word>
-  <word wid="835" pos="NNP" lemma="Norsk">Norsk</word>
-  <word wid="836" pos="NNP" lemma="Occitan">Occitan</word>
-  <word wid="837" pos="NNP" lemma="Polski">Polski</word>
-  <word wid="838" pos="NNP" lemma="Piemont">Piemont</word>
-  <word wid="839" pos="VBZ" lemma="be">is</word>
-  <word wid="840" pos="NN" lemma="portugu">Portugu</word>
-  <word wid="841" pos="NNS" lemma="s">s</word>
-  <word wid="842" pos="NNP" lemma="Runa">Runa</word>
-  <word wid="843" pos="NNP" lemma="Simi">Simi</word>
-  <word wid="844" pos="NNP" lemma="Rom">Rom</word>
-  <word wid="845" pos="NNP" lemma="n">n</word>
-  <word wid="846" pos="NNP" lemma="Srpskohrvatski">Srpskohrvatski</word>
-  <word wid="847" pos="JJ" lemma="simple">Simple</word>
-  <word wid="848" pos="NNP" lemma="English">English</word>
-  <word wid="849" pos="NNP" lemma="Sloven">Sloven</word>
-  <word wid="850" pos="NNP" lemma="ina">ina</word>
-  <word wid="851" pos="NNP" lemma="Sloven">Sloven</word>
-  <word wid="852" pos="NNP" lemma="ina">ina</word>
-  <word wid="853" pos="NNP" lemma="srpski">srpski</word>
-  <word wid="854" pos="NNP" lemma="Svenska">Svenska</word>
-  <word wid="855" pos="NNP" lemma="Kiswahili">Kiswahili</word>
-  <word wid="856" pos="NNP" lemma="l">l</word>
-  <word wid="857" pos="NNP" lemma="nski">nski</word>
-  <word wid="858" pos="NNP" lemma="Tagalog">Tagalog</word>
-  <word wid="859" pos="NN" lemma="t">T</word>
-  <word wid="860" pos="NN" lemma="rk">rk</word>
-  <word wid="861" pos="NN" lemma="e">e</word>
-  <word wid="862" pos="VBD" lemma="tatar">tatar</word>
-  <word wid="863" pos="DT" lemma="a">a</word>
-  <word wid="864" pos="NNP" lemma="Ti">Ti</word>
-  <word wid="865" pos="NN" lemma="ng">ng</word>
-  <word wid="866" pos="NNP" lemma="Vi">Vi</word>
-  <word wid="867" pos="NN" lemma="t">t</word>
-  <word wid="868" pos="NN" lemma="winaray">Winaray</word>
-  <word wid="869" pos="NN" lemma="b">B</word>
-  <word wid="870" pos="NN" lemma="n">n</word>
-  <word wid="871" pos="NN" lemma="l">l</word>
-  <word wid="872" pos="NN" lemma="m">m</word>
-  <word wid="873" pos="NN" lemma="g">g</word>
-  <word wid="874" pos="VB" lemma="edit">Edit</word>
-  <word wid="875" pos="NNS" lemma="link">links</word>
-  <word wid="876" pos="DT" lemma="this">This</word>
-  <word wid="877" pos="NN" lemma="page">page</word>
-  <word wid="878" pos="VBD" lemma="be">was</word>
-  <word wid="879" pos="JJ" lemma="last">last</word>
-  <word wid="880" pos="VBN" lemma="edit">edited</word>
-  <word wid="881" pos="IN" lemma="on">on</word>
-  <word wid="882" pos="CD" lemma="11">11</word>
-  <word wid="883" pos="NNP" lemma="January">January</word>
-  <word wid="884" pos="CD" lemma="2018">2018</word>
-  <word wid="885" pos="IN" lemma="at">at</word>
-  <word wid="886" pos="CD" lemma="05">05</word>
-  <word wid="887" pos="CD" lemma="35">35</word>
-  <word wid="888" pos="NN" lemma="text">Text</word>
-  <word wid="889" pos="VBZ" lemma="be">is</word>
-  <word wid="890" pos="JJ" lemma="available">available</word>
-  <word wid="891" pos="IN" lemma="under">under</word>
-  <word wid="892" pos="DT" lemma="the">the</word>
-  <word wid="893" pos="JJ" lemma="creative">Creative</word>
-  <word wid="894" pos="NNP" lemma="Commons">Commons</word>
-  <word wid="895" pos="NN" lemma="attribution">Attribution</word>
-  <word wid="896" pos="JJ" lemma="sharealike">ShareAlike</word>
-  <word wid="897" pos="NN" lemma="license">License</word>
-  <word wid="898" pos="JJ" lemma="additional">additional</word>
-  <word wid="899" pos="NNS" lemma="term">terms</word>
-  <word wid="900" pos="MD" lemma="may">may</word>
-  <word wid="901" pos="VB" lemma="apply">apply</word>
-  <word wid="902" pos="IN" lemma="by">By</word>
-  <word wid="903" pos="VBG" lemma="use">using</word>
-  <word wid="904" pos="DT" lemma="this">this</word>
-  <word wid="905" pos="NN" lemma="site">site</word>
-  <word wid="906" pos="PRP" lemma="you">you</word>
-  <word wid="907" pos="VBP" lemma="agree">agree</word>
-  <word wid="908" pos="TO" lemma="to">to</word>
-  <word wid="909" pos="DT" lemma="the">the</word>
-  <word wid="910" pos="NNS" lemma="term">Terms</word>
-  <word wid="911" pos="IN" lemma="of">of</word>
-  <word wid="912" pos="NN" lemma="use">Use</word>
-  <word wid="913" pos="CC" lemma="and">and</word>
-  <word wid="914" pos="NN" lemma="privacy">Privacy</word>
-  <word wid="915" pos="NN" lemma="policy">Policy</word>
-  <word wid="916" pos="NN" lemma="privacy">Privacy</word>
-  <word wid="917" pos="NN" lemma="policy">policy</word>
-  <word wid="918" pos="IN" lemma="about">About</word>
-  <word wid="919" pos="NNP" lemma="Wikimedia">Wikimedia</word>
-  <word wid="920" pos="NNP" lemma="Commons">Commons</word>
-  <word wid="921" pos="NNS" lemma="disclaimer">Disclaimers</word>
-  <word wid="922" pos="NNS" lemma="developer">Developers</word>
-  <word wid="923" pos="NN" lemma="cookie">Cookie</word>
-  <word wid="924" pos="NN" lemma="statement">statement</word>
-  <word wid="925" pos="JJ" lemma="mobile">Mobile</word>
-  <word wid="926" pos="NN" lemma="view">view</word>
-  <word wid="927" pos="NN" lemma="image">image</word>
-  <word wid="928" pos="NN" lemma="wikimedia">Wikimedia</word>
-  <word wid="929" pos="NN" lemma="foundation">Foundation</word>
-  <word wid="930" pos="NN" lemma="image">image</word>
-  <word wid="931" pos="VBN" lemma="power">Powered</word>
-  <word wid="932" pos="IN" lemma="by">by</word>
-  <word wid="933" pos="NNP" lemma="MediaWiki">MediaWiki</word>
+  <word wid="827" pos="NNP" lemma="Lumbaart">Lumbaart</word>
+  <word wid="828" pos="NNP" lemma="Lietuvi">Lietuvi</word>
+  <word wid="829" pos="NNP" lemma="Latvie">Latvie</word>
+  <word wid="830" pos="NNP" lemma="u">u</word>
+  <word wid="831" pos="NNP" lemma="Mirand">Mirand</word>
+  <word wid="832" pos="NNP" lemma="s">s</word>
+  <word wid="833" pos="NNP" lemma="Nederlands">Nederlands</word>
+  <word wid="834" pos="NNP" lemma="Norsk">Norsk</word>
+  <word wid="835" pos="NNP" lemma="nynorsk">nynorsk</word>
+  <word wid="836" pos="NNP" lemma="Norsk">Norsk</word>
+  <word wid="837" pos="NNP" lemma="Occitan">Occitan</word>
+  <word wid="838" pos="NNP" lemma="Polski">Polski</word>
+  <word wid="839" pos="NNP" lemma="Piemont">Piemont</word>
+  <word wid="840" pos="VBZ" lemma="be">is</word>
+  <word wid="841" pos="NN" lemma="portugu">Portugu</word>
+  <word wid="842" pos="NNS" lemma="s">s</word>
+  <word wid="843" pos="NNP" lemma="Runa">Runa</word>
+  <word wid="844" pos="NNP" lemma="Simi">Simi</word>
+  <word wid="845" pos="NNP" lemma="Rom">Rom</word>
+  <word wid="846" pos="NNP" lemma="n">n</word>
+  <word wid="847" pos="NNP" lemma="Srpskohrvatski">Srpskohrvatski</word>
+  <word wid="848" pos="JJ" lemma="simple">Simple</word>
+  <word wid="849" pos="NNP" lemma="English">English</word>
+  <word wid="850" pos="NNP" lemma="Sloven">Sloven</word>
+  <word wid="851" pos="NNP" lemma="ina">ina</word>
+  <word wid="852" pos="NNP" lemma="Sloven">Sloven</word>
+  <word wid="853" pos="NNP" lemma="ina">ina</word>
+  <word wid="854" pos="NNP" lemma="srpski">srpski</word>
+  <word wid="855" pos="NNP" lemma="Svenska">Svenska</word>
+  <word wid="856" pos="NNP" lemma="Kiswahili">Kiswahili</word>
+  <word wid="857" pos="NNP" lemma="l">l</word>
+  <word wid="858" pos="NNP" lemma="nski">nski</word>
+  <word wid="859" pos="NNP" lemma="Tagalog">Tagalog</word>
+  <word wid="860" pos="NN" lemma="t">T</word>
+  <word wid="861" pos="NN" lemma="rk">rk</word>
+  <word wid="862" pos="NN" lemma="e">e</word>
+  <word wid="863" pos="VBD" lemma="tatar">tatar</word>
+  <word wid="864" pos="DT" lemma="a">a</word>
+  <word wid="865" pos="NNP" lemma="Ti">Ti</word>
+  <word wid="866" pos="NN" lemma="ng">ng</word>
+  <word wid="867" pos="NNP" lemma="Vi">Vi</word>
+  <word wid="868" pos="NN" lemma="t">t</word>
+  <word wid="869" pos="NN" lemma="winaray">Winaray</word>
+  <word wid="870" pos="NN" lemma="b">B</word>
+  <word wid="871" pos="NN" lemma="n">n</word>
+  <word wid="872" pos="NN" lemma="l">l</word>
+  <word wid="873" pos="NN" lemma="m">m</word>
+  <word wid="874" pos="NN" lemma="g">g</word>
+  <word wid="875" pos="VB" lemma="edit">Edit</word>
+  <word wid="876" pos="NNS" lemma="link">links</word>
+  <word wid="877" pos="DT" lemma="this">This</word>
+  <word wid="878" pos="NN" lemma="page">page</word>
+  <word wid="879" pos="VBD" lemma="be">was</word>
+  <word wid="880" pos="JJ" lemma="last">last</word>
+  <word wid="881" pos="VBN" lemma="edit">edited</word>
+  <word wid="882" pos="IN" lemma="on">on</word>
+  <word wid="883" pos="CD" lemma="11">11</word>
+  <word wid="884" pos="NNP" lemma="January">January</word>
+  <word wid="885" pos="CD" lemma="2018">2018</word>
+  <word wid="886" pos="IN" lemma="at">at</word>
+  <word wid="887" pos="CD" lemma="05">05</word>
+  <word wid="888" pos="CD" lemma="35">35</word>
+  <word wid="889" pos="NN" lemma="text">Text</word>
+  <word wid="890" pos="VBZ" lemma="be">is</word>
+  <word wid="891" pos="JJ" lemma="available">available</word>
+  <word wid="892" pos="IN" lemma="under">under</word>
+  <word wid="893" pos="DT" lemma="the">the</word>
+  <word wid="894" pos="JJ" lemma="creative">Creative</word>
+  <word wid="895" pos="NNP" lemma="Commons">Commons</word>
+  <word wid="896" pos="NN" lemma="attribution">Attribution</word>
+  <word wid="897" pos="JJ" lemma="sharealike">ShareAlike</word>
+  <word wid="898" pos="NN" lemma="license">License</word>
+  <word wid="899" pos="JJ" lemma="additional">additional</word>
+  <word wid="900" pos="NNS" lemma="term">terms</word>
+  <word wid="901" pos="MD" lemma="may">may</word>
+  <word wid="902" pos="VB" lemma="apply">apply</word>
+  <word wid="903" pos="IN" lemma="by">By</word>
+  <word wid="904" pos="VBG" lemma="use">using</word>
+  <word wid="905" pos="DT" lemma="this">this</word>
+  <word wid="906" pos="NN" lemma="site">site</word>
+  <word wid="907" pos="PRP" lemma="you">you</word>
+  <word wid="908" pos="VBP" lemma="agree">agree</word>
+  <word wid="909" pos="TO" lemma="to">to</word>
+  <word wid="910" pos="DT" lemma="the">the</word>
+  <word wid="911" pos="NNS" lemma="term">Terms</word>
+  <word wid="912" pos="IN" lemma="of">of</word>
+  <word wid="913" pos="NN" lemma="use">Use</word>
+  <word wid="914" pos="CC" lemma="and">and</word>
+  <word wid="915" pos="NN" lemma="privacy">Privacy</word>
+  <word wid="916" pos="NN" lemma="policy">Policy</word>
+  <word wid="917" pos="NN" lemma="privacy">Privacy</word>
+  <word wid="918" pos="NN" lemma="policy">policy</word>
+  <word wid="919" pos="IN" lemma="about">About</word>
+  <word wid="920" pos="NNP" lemma="Wikimedia">Wikimedia</word>
+  <word wid="921" pos="NNP" lemma="Commons">Commons</word>
+  <word wid="922" pos="NNS" lemma="disclaimer">Disclaimers</word>
+  <word wid="923" pos="NNS" lemma="developer">Developers</word>
+  <word wid="924" pos="NN" lemma="cookie">Cookie</word>
+  <word wid="925" pos="NN" lemma="statement">statement</word>
+  <word wid="926" pos="JJ" lemma="mobile">Mobile</word>
+  <word wid="927" pos="NN" lemma="view">view</word>
+  <word wid="928" pos="NN" lemma="image">image</word>
+  <word wid="929" pos="NN" lemma="wikimedia">Wikimedia</word>
+  <word wid="930" pos="NN" lemma="foundation">Foundation</word>
+  <word wid="931" pos="NN" lemma="image">image</word>
+  <word wid="932" pos="VBN" lemma="power">Powered</word>
+  <word wid="933" pos="IN" lemma="by">by</word>
+  <word wid="934" pos="NNP" lemma="MediaWiki">MediaWiki</word>
 </sentence>
 </pos>

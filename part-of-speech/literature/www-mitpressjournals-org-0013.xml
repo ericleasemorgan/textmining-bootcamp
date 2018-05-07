@@ -1,4 +1,4 @@
-<pos><sentence id="206">
+<pos><sentence id="208">
   <word wid="0" pos="VB" lemma="create">Create</word>
   <word wid="1" pos="DT" lemma="a">a</word>
   <word wid="2" pos="JJ" lemma="new">new</word>
@@ -788,7 +788,7 @@
   <word wid="786" pos="JJ" lemma="revolutionary">Revolutionary</word>
   <word wid="787" pos="NN" lemma="war">War</word>
   <word wid="788" pos="NN" lemma="heroine">Heroine</word>
-  <word wid="789" pos="CD" lemma="1545">1545</word>
+  <word wid="789" pos="CD" lemma="1512">1512</word>
   <word wid="790" pos="NNS" lemma="time">times</word>
   <word wid="791" pos="NN" lemma="paula">Paula</word>
   <word wid="792" pos="NN" lemma="d">D</word>
@@ -815,7 +815,7 @@
   <word wid="813" pos="IN" lemma="of">OF</word>
   <word wid="814" pos="NNP" lemma="UNCLE">UNCLE</word>
   <word wid="815" pos="NNP" lemma="SAM">SAM</word>
-  <word wid="816" pos="NNP" lemma="1810 1820 1213">1810 1820 1213</word>
+  <word wid="816" pos="NNP" lemma="1810 1820 1218">1810 1820 1218</word>
   <word wid="817" pos="NNP" lemma="times">times</word>
   <word wid="818" pos="NNP" lemma="Donald">Donald</word>
   <word wid="819" pos="NNP" lemma="R">R</word>
@@ -842,7 +842,7 @@
   <word wid="840" pos="NNP" lemma="Thoreau">Thoreau</word>
   <word wid="841" pos="NNP" lemma="s">s</word>
   <word wid="842" pos="VBG" lemma="walk">Walking</word>
-  <word wid="843" pos="CD" lemma="658">658</word>
+  <word wid="843" pos="CD" lemma="620">620</word>
   <word wid="844" pos="NNS" lemma="time">times</word>
   <word wid="845" pos="NNP" lemma="Andrew">Andrew</word>
   <word wid="846" pos="NNP" lemma="Menard">Menard</word>

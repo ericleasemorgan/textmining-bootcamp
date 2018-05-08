@@ -1,32 +1,49 @@
+
 Cleaning & analyzing word lists with OpenRefine
 ===============================================
 
-OpenRefine can be a useful tool for evaluating a dictionary. For example, it can be used to find sets of words with given patterns, as well as for counting & tabulating occurrences. Here's how:
+OpenRefine is a system/application enabling the reader to analyze information and begin to turn it into knowledge. [1]
 
-  1) Save a dictionary to a file.
-  2) Launch OpenRefine.
-  3) Create a new project with the saved file.
-  4) Accept the defaults, and continue to create the project.
-  5) Create a "Text facet" on the list of words.
-  6) Sort the list of facets by count.
+OpenRefine can read and parse a number of different data structures such as line-delimited files, tab-delimited files, a few flavors of XML, JSON, fixed-width files, some Google documents, and to some degree even MARC data. The imported data is then presented to the reader in a tabular format. Each column in the resulting table can be searched ("filtered"), browsed, faceted, normalized, or otherwise manipulated for analysis. Once analysis is done, the whole lot can be exported to other file formats for further refinement or visualization. 
 
-The result will be a list of words and their frequencies. The beginning of the list will be full of stop ("function") words. Ignoring the stop words, one can get a better idea of what words are mentioned more frequently, and therefore you can begin to enumerate the text's themes. Scroll to the end of the list to see the words occurring infrequently. Perusing the list of infrequent words can be just as insightful as perusing the list of frequently used words.
+For example, examining the contents of a list of words (a "dictionary") can be done by:
 
-OpenRefines supports the filtering ("searching") of columns, and filtering is enhanced through the use of regular expressions. Using this feature you can begin to identify as well as compare & contrast themes. For example, you might want to compare & contrast the frequency of the words "man" and "god". Here's how:
+  1) saving a dictionary to a file
+  2) launching OpenRefine
+  3) creating a new project with the saved file
+  4) accepting the defaults, and continue to create the project
+  5) creating a "Text facet" on the list of words
+  6) sorting the list of facets by count
 
-  1) Remove all facets and filters.
-  2) Create a new "Text filter" on the list of words.
-  3) Enter "^man$|^god$" into the query field.
-  4) Make sure the "regular expression" check box is checked.
-  5) Create a "Text facet" on the list of words.
-  6) Sort the list of facets by count.
+The result will be a list of words and their frequencies. The beginning of the list will be full of stop ("function") words. Ignoring the stop words, one can get a better idea of what words are mentioned more frequently, and therefore you can begin to enumerate a text's themes. Scroll to the end of the list to see the words occurring infrequently. Perusing the list of infrequent words can be just as insightful as perusing the list of frequent words.
 
-The result is a tabulation of the words "man" and "god", and then you can the determine whether one theme is highlighted more often than another. Additional queries might include:
+OpenRefines supports the searching ("filtering") of columns, and searching is enhanced through the use of regular expressions. Using this feature the readers can begin to identify as well as compare & contrast themes. For example, you might want to compare & contrast the frequency of the words "man" and "god". Here's how:
+
+  1) remove all facets and filters
+  2) create a new "Text filter" on the list of words
+  3) enter "^man$|^god$" into the query field
+  4) make sure the "regular expression" check box is checked
+  5) create a "Text facet" on the list of words
+  6) sort the list of facets by count
+
+The result is a tabulation of the words "man" and "god", and then you can the determine whether one theme is highlighted more often than another. Additional queries (replacements for step #3) might include:
 
   * ^love.*|^war.*
-  * ^man.*|^men*|^woman.*|^women*
+  * ^man.*|^men.*|^woman.*|^women.*
   * ^man$|^men$|^woman$|^women$
   * ^mr$|^mrs$|^ms$
   * ^time$|^space$
 
+The faceted search results can be ordered alphabetically or by count. Alphabetic listings are useful when it comes to browsing for specific words. Listings by count denote frequencies. In either case, the tabulations can be exported as a tab-delimited list, imported into a text editor, reformatted for the purposes of visualizations, and... visualized. For example, the following recipe creates a word cloud of colors:
 
+  1) remove all facets/filters
+  2) filter the dictionary for colors (^black$|^white$|^gray$|^grey$|^brown$|^red$|^yellow$|^blue$|^orange$|^green$|^purple$|^violet$)
+  3) create a "Text facet" on the search results
+  4) 
+
+[1] OpenRefine - http://openrefine.org
+
+
+--
+Eric Lease Morgan
+May 7, 2018

@@ -1,0 +1,8 @@
+
+About the author
+
+Eric Lease Morgan has been writing software since 1976, and he has been working in libraries since 1984. He has a bachelor's degree in philosophy, and master's degree in information science. Over the years his research interests have included hypermedia, expert systems, information retrieval, recommender systems, information architecture, usability, linked data, and most recently text mining, natural language processing and machine learning. He has written more than a few books and many articles. He has given numerous presentation across North America and Europe.  He has been practicing open access publishing and open source software distribution since before the phrases were coined. In his copious spare time, Eric plays guitar and recorder, maintains his outdoor aquarium, rows his boat, paints, does ceramics, and practices bookbinding. He is the sole owner of a tiny company, Infomotions LLC, providing consulting services. For more information, search the Web and the reader will probably learn more about Eric than he wishes to be known.
+
+--
+Eric Lease Morgan
+May 9, 2018

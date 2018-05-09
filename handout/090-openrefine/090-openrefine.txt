@@ -39,11 +39,20 @@ The faceted search results can be ordered alphabetically or by count. Alphabetic
   1) remove all facets/filters
   2) filter the dictionary for colors (^black$|^white$|^gray$|^grey$|^brown$|^red$|^yellow$|^blue$|^orange$|^green$|^purple$|^violet$)
   3) create a "Text facet" on the search results
-  4) 
+  4) select the number of choices
+  5) copy the result into your text editor
+  6) find & replace the tab character for a colon (:)
+  7) copy the list
+  8) use your browser to go to http://wordle.net
+  9) select the Advanced tab
+  10 paste the list into the input and Go
+  
+The result ought to look something like the figure.
+
+The dataset used in this tutorial is more than rudimentary because it only includes a single column. OpenRefine eats tab-delimited files for lunch, and consequently it supports tables with quite a few column. Moreover, there are a myriad of functions that can be applied to values in the columns, and there is a scripting language beneath the whole thing. Four of the more interesting functions include: 1) "clustering" -- a process to automatically correct differences in word spellings, 2) global find/replace operations, 3) "reconciliations" -- a process of creating keys/identifiers with your data in order to link & associate it with other data like cities & countries, and 4) graphing numeric columns.
 
 [1] OpenRefine - http://openrefine.org
 
-
 --
 Eric Lease Morgan
-May 7, 2018
+May 8, 2018

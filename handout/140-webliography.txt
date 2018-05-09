@@ -1,22 +1,43 @@
+
+
 Webliography
 ============
 
-  * “AntConc.” Accessed March 17, 2018. http://www.laurenceanthony.net/software/antconc/.
-  * “BBEdit.” Accessed March 17, 2018. https://www.barebones.com/products/bbedit/.
-  * “DiRT Directory.” Accessed March 29, 2018. http://dirtdirectory.org/.
-  * “Distant & Scalable Reading.” Accessed March 17, 2018. http://dh.crc.nd.edu/sandbox/nlp-clients/home.html.
-  * “Finding and Preparing Text.” Accessed March 29, 2018. http://hermeneuti.ca/finding-preparing-text.
-  * “Log-Linear Part-Of-Speech Tagger.” Accessed March 17, 2018. https://nlp.stanford.edu/software/tagger.shtml.
-  * “MALLET.” Accessed March 17, 2018. http://mallet.cs.umass.edu/.
-  * “Named Entity Recognizer (NER).” Accessed March 17, 2018. https://nlp.stanford.edu/software/CRF-NER.shtml.
-  * “Natural Language Toolkit (NLTK).” Accessed March 17, 2018. http://www.nltk.org/.
-  * “Notepad++.” Accessed March 17, 2018. https://notepad-plus-plus.org/.
-  * “OpenRefine.” Accessed March 17, 2018. http://openrefine.org/.
-  * “Tableau Public.” Accessed March 17, 2018. https://public.tableau.com/s/.
-  * “Tapor Tools Prototype.” Accessed March 29, 2018. http://taporware.ualberta.ca/.
-  * “TextWrangler.” Accessed March 17, 2018. https://www.barebones.com/products/textwrangler/.
-  * “Tika.” Accessed March 17, 2018. http://tika.apache.org/.
-  * “Topic-Modeling-Tool.” Accessed March 20, 2018. https://github.com/senderle/topic-modeling-tool.
-  * “Voyant Facts.” Accessed March 29, 2018. http://hermeneuti.ca/node/16.
-  * “Voyant Tools.” Accessed March 17, 2018. http://voyant-tools.org/.
+This is a list of useful links for the reader. They mostly point to software referenced in this workbook.
+
+  * AntConc. (n.d.). Retrieved March 17, 2018, from http://www.laurenceanthony.net/software/antconc/ - "A freeware corpus analysis toolkit for concordancing and text analysis."
+
+  * Apache OpenNLP. (n.d.). Retrieved April 18, 2018, from http://opennlp.apache.org/index.html - "OpenNLP supports the most common NLP tasks, such as tokenization, sentence segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, language detection and coreference resolution."
+
+  * BBEdit. (n.d.). Retrieved March 17, 2018, from https://www.barebones.com/products/bbedit/ - "BBEdit is the leading professional HTML and text editor for macOS. This award-winning product has been crafted to serve the needs of writers, Web authors and software developers, and provides an abundance of features for editing, searching, and manipulation of text. An intelligent interface provides easy access to BBEdit’s best-of-class features, including grep pattern matching, search and replace across multiple files, project definition tools, function navigation and syntax coloring for numerous source code languages, code folding, FTP and SFTP open and save, AppleScript, macOS Unix scripting support, text and code completion, and of course a complete set of robust HTML markup tools."
+
+  * CLAWS part-of-speech tagger. (n.d.). Retrieved April 18, 2018, from http://ucrel.lancs.ac.uk/claws/ - "Part-of-speech (POS) tagging, also called grammatical tagging, is the commonest form of corpus annotation, and was the first form of annotation to be developed by UCREL at Lancaster. Our POS tagging software for English text, CLAWS (the Constituent Likelihood Automatic Word-tagging System), has been continuously developed since the early 1980s. The latest version of the tagger, CLAWS4, was used to POS tag c.100 million words of the British National Corpus (BNC)."
+
+  * DiRT Directory. (n.d.). Retrieved March 29, 2018, from http://dirtdirectory.org/ - "Bamboo DiRT is a tool, service, and collection registry of digital research tools for scholarly use... and makes it easy for digital humanists and others conducting digital research to find and compare resources ranging from content management systems to music OCR, statistical analysis packages to mindmapping software."
+
+  * Finding and Preparing Text. (n.d.). Retrieved March 29, 2018, from http://hermeneuti.ca/finding-preparing-text - "How do you find an electronic text of a work you want to study? How should you prepare it for study with a tool like Voyant? This appendix provides a short guide to finding and preparing an electronic text."
+
+  * Log-linear Part-Of-Speech Tagger. (n.d.). Retrieved March 17, 2018, from https://nlp.stanford.edu/software/tagger.shtml - "A Part-Of-Speech Tagger (POS Tagger) is a piece of software that reads text in some language and assigns parts of speech to each word (and other token), such as noun, verb, adjective, etc., although generally computational applications use more fine-grained POS tags like “noun-plural”. This software is a Java implementation of the log-linear part-of-speech taggers described in [a number of papers]..."
+
+  * MALLET. (n.d.). Retrieved March 17, 2018, from http://mallet.cs.umass.edu/ - "MALLET is a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text."
+
+  * Named Entity Recognizer (NER). (n.d.). Retrieved March 17, 2018, from https://nlp.stanford.edu/software/CRF-NER.shtml - "Stanford NER is a Java implementation of a Named Entity Recognizer. Named Entity Recognition (NER) labels sequences of words in a text which are the names of things, such as person and company names, or gene and protein names. It comes with well-engineered feature extractors for Named Entity Recognition, and many options for defining feature extractors. Included with the download are good named entity recognizers for English, particularly for the 3 classes (PERSON, ORGANIZATION, LOCATION), and we also make available on this page various other models for different languages and circumstances, including models trained on just the CoNLL 2003 English training data."
+
+  * Natural Language Toolkit (NLTK). (n.d.). Retrieved March 17, 2018, from http://www.nltk.org/ - "NLTK is a leading platform for building Python programs to work with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries, and an active discussion forum."
+
+  * Notepad++. (n.d.). Retrieved March 17, 2018, from https://notepad-plus-plus.org/ - "“Notepad++ is a free (as in ‘free speech’ and also as in ‘free beer’) source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by GPL License.”"
+
+  * OpenRefine. (n.d.). Retrieved March 17, 2018, from http://openrefine.org/ - "“OpenRefine (formerly Google Refine) is a powerful tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.’’”"
+
+  * Tableau Public. (n.d.). Retrieved March 17, 2018, from https://public.tableau.com/s/ - "From connection through collaboration, Tableau is the most powerful, secure, and flexible end-to-end analytics platform for your data. Match the skills of any data worker with the capabilities they need. Prepare, create, explore, or view trusted data with subscriptions to Tableau’s governed self-service analytics platform. Upgrade to Tableau Creator, a new subscription offering that gives you Tableau Desktop, Tableau Prep, and a server seat."
+
+  * Tika. (n.d.). Retrieved March 17, 2018, from http://tika.apache.org/ - "The Apache Tika™ toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF). All of these file types can be parsed through a single interface, making Tika useful for search engine indexing, content analysis, translation, and much more."
+
+  * topic-modeling-tool. (n.d.). Retrieved March 20, 2018, from https://github.com/senderle/topic-modeling-tool - "A point-and-click tool for creating and analyzing topic models produced by MALLET."
+
+  * Voyant Tools. (n.d.). Retrieved March 17, 2018, from http://voyant-tools.org/ - "Voyant Tools is a web-based reading and analysis environment for digital texts."
+
+--
+Eric Lease Morgan
+May 9, 2018
 

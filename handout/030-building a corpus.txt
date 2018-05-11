@@ -3,17 +3,46 @@
 Building a corpus
 =================
 
-Building a corpus is very much like traditional library work. The process requires a number of steps:
+Building a corpus is very much like traditional library work. It requires a number of steps:
 
-  * Articulating what you are going to collect; develop a "collection management policy"
-  * Identifying qualified materials
-  * Acquiring the materials
-  * Describing the materials
-  * Organizing the materials
-  * Making the materials accessible
+  * articulating what you are going to collect; develop a "collection management policy"
+  * identifying qualified materials
+  * acquiring the materials
+  * describing the materials
+  * organizing the materials
+  * making the materials accessible
 
-When it comes to text mining, the format of the materials is as important as the material's subject matter. This is true because text mining requires digital materials in a plain text format. A lot of effort goes into creating digital versions of texts, as well as plain text versions. 
-  
+First, the reader needs to ask themself, "What are the questions I'm trying to answer?" Articulating these questions is not always very easy. The questions can be as simple as, "What is this particular text about? Can I get a summary of the text's action main ideas?" Other times, the questions can be as a Ph.D. thesis statement, "How was Henry David Thoreau influenced by contemporaries such as Ralph Waldo Emerson or Henry Wadsworth Longfellow?" or "How are the works of Aristotle & Plato both similar & different?" For the purposes of this bootcamp, the research questions include thing like the following:
+
+  * Who are some of the major players in the field of digital humanities?
+  * How do the tweets of academic institutions, art museums, and national news organization differ?
+  * To what degree is it possible to "read" an entire issue of a journal through computation? 
+  * What are some of the essential characteristics of early 19th Century American literature?
+  * How feasible it it to mine different forms of content: PDF, plain text, HTML, tweets, etc.
+
+Identifying qualifying materials for investigation requires the knowledge of the subject matter as well as the location of relevant materials. Qualifying materials will take different forms. The more traditional forms are books & journals, which may or may not be available on the 'Net, in a library (in analog or digital formats). The materials may be HTML pages harvested from a Web server or merely saved on a file system. The content may be survey results, and if the reader is lucky, then the results exist in a tab-delimited format whose columns are adequately enumerated & described. The answers to the research questions may exist in social media outlets such as the things of Twitter, Facebook, Instagram, etc.
+
+At this point is important to distinguish between the "types" of materials and their "formats" because the definitions of the two terms are often conflated. For the purposes of this bootcamp, "types" are denoted a genre of content such as but not limited to: book, scholarly article, magazine article, picture, movie, sound, tweet, blog posting, survey response, etc. This is contrasted with "format" which denotes the way a genre of material is (digitally) manifested. Examples include: PDF, HTML, plain text, TIFF, JPEG, Excel spreadsheet, SQL, tab-delimited file, Microsoft Word, etc. With this in mind, a book can be manifested as a PDF file, an HTML file, or even a set of JPEG images. Similarly, an article may be manifested as PDF file and/or an HTML file. Understanding the different between types and formats will assiste the reader in the process of acquiring their materials as well as organizing them into a coherent collection/corpus.
+
+For the purposes of this bootcamp, the qualifying materials include books by Aristotle, Plato, Austen, Bronte, Longfellow, Emerson, Thoreau, and Twain. There are articles from Digital Humanities Quarterly, First Monday, and Inside ASIS&T. There are tweets from art museums (the Metropolitan Art Musum, the Art Institute of Chicago, and the Detroit Art Museum), universities (Oxford, Cambridge, and Harvard), and news organizations (CBS News, Fox News, and NBC News). There are also various & sundry Web pages on the topics of the digital humanities, text mining, and American literature. On the whole, the qualifying materials are characterized by subject, type, and format. 
+
+Acquiring the materials for text mining is the next step in the process. The process may be as easy as borrowing books from a library or taking advantage of a library's book & article subscription databases. The reader may have the necessary materials already on their computer. Increasingly and more than likely, the desired content is available on the 'Net, which means in needs to be harvested -- locally downloaded. For anything but the most trivial of collections, harvesting content from the Web is not as easy as it seems. Sure, one or two items are easily obtained, but how does one systematically download a gross amount of content -- enough to give more than an overly qualified answer to a research question? The answer to this question usually falls into three categories: crawling, screen scraping, or exploiting an application programmer interface (API). Crawling is usually the most feasible. First, feed a URL to an application like curl or wget. [1, 2] The application will then output the content at the other end of the URL. The reader can repeat this process both selectively as well as recursively. Screen scraping reads an HTML page and tries to extract its content sans any Javascript, navigation, or boiler plate information. Much of this work can now be done with an application called Tika. [3] Exploiting an API is probably the cleanest method for acquiring content from the 'Net, but it requires the knowledge of one or more programming languages, and not all website support an API. Examples include OAI-PMH, linked data, or a site-specific API such as the ones offered by the Internet Archive. Taking advantages of API's is beyond the scope of this workbook. Almost all of the content for this bootcamp was harvested through the diligent use of the venerable wget get application. 
+
+Often times the articulation of the research question, the identification of the qualified materials, and acquiring the materials go hand-in-hand and are interdependent. Each limits & informs the others. Ideally all three would be factored & decided upon independently but such is usually not the case. The whole thing is a lot like deciding what to have for dinner. The decision is limited by what one wants, what is affordable, and what is in the refrigerator.
+
+Based on the author's experience, most people who come to text mining for the first time come with a small collection of books. The books usually come with "bits" of metadata: author, titles, dates, and maybe subject headings or keywords. Other times people come with sets of articles usually in the form of PDF files. These items also come with the same bits of bibliographic metadata.
+
+The metadata associated with other types of content is usually is not as rich. For example, there are Web pages in the form of HTML documents. While such things may very well have titles, the titles are ambiguous or misleading. The same Web pages originate from specific Web servers, and those Web servers have names & addresses. Web pages are usually saved as files. Both the names of the Web servers and the names of the files make for good descriptive metadata. 
+
+Other types of text are already "plain", but need   
+
+
+
+
+When it comes to text mining, the format of the materials is as important as the materials' subject matter. This is true because text mining requires materials in a plain text format. A lot of effort goes into creating digital versions of texts, as well as plain text versions.
+
+
+
 delimited files
 
   * tweets with one document per line
@@ -95,6 +124,12 @@ So for example, you could peruse a Wikipedia article, save it locally as an HTML
 
 Code4lib job postings
 wget --no-parent -E -r https://jobs.code4lib.org/jobs/
+
+[1] curl - https://curl.haxx.se
+[2] wget - https://www.gnu.org/software/wget/
+[3] Tika - http://tika.apache.org
+[4] Internet Archive API's - http://blog.archive.org/developers/
+
 
 --
 Eric Lease Morgan

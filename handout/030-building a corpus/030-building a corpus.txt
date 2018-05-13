@@ -1,0 +1,83 @@
+
+
+Building a corpus
+=================
+
+A corpus is a collection of one or more texts organized into a coherent whole. Building a corpus is very much like traditional library work. It requires a number of steps:
+
+  * articulating what you are going to collect; develop a "collection management policy"
+  * identifying qualified materials
+  * acquiring the materials
+  * describing the materials
+  * organizing the materials
+
+But of course, "Whenever you have a hammer, everything begins to look like a nail."
+
+
+What to collect or questions to answer
+
+First, the reader needs to ask themself, "What are the questions I'm trying to answer?" Articulating these questions is not always very easy. The questions can be as simple as, "What is this particular text about?" or "Can I get a summary of the text's action main ideas?" Other times, the questions can be as in-depth as a Ph.D. thesis statement, "How was Henry David Thoreau influenced by his contemporaries such as Ralph Waldo Emerson or Henry Wadsworth Longfellow?" or "How are the works of Aristotle & Plato both similar & different?" For the purposes of this bootcamp, the research questions include thing like the following:
+
+  * How do the tweets of academic institutions, art museums, and national news organization differ?
+  * How feasible it it to mine different forms of content: PDF, plain text, HTML, tweets, etc.
+  * To what degree is it possible to "read" an entire issue of a journal with the helpe of computation? 
+  * What are some of the essential characteristics of early 19th Century American literature?
+  * Who are some of the major players in the field of digital humanities?
+
+
+Identifying materials
+
+Identifying qualifying materials for investigation requires the knowledge of the subject matter as well as the location of relevant content. Qualifying materials will take different forms. The more traditional forms are books & journals, which may or may not be available on the 'Net or in a library (in analog or digital formats). The materials may be HTML pages harvested from a Web server or merely available on a file system. The content may be survey results, and if the reader is lucky, then the results exist in a tab-delimited format whose columns are adequately enumerated & described. The answers to the research questions may exist in social media outlets such as the things of Twitter, Facebook, Instagram, etc.
+
+At this point it is important to distinguish between the "types" of materials and their "formats" because the definitions of the two terms are often conflated. For the purposes of this bootcamp, "types" are denoted a genre of content such as but not limited to: books, scholarly articles, magazine articles, pictures, movies, sounds, tweets, blog postings, survey responses, etc. This is contrasted with "format" which denotes the way a genre of material is (digitally) manifested. Examples include: PDF, HTML, plain text, TIFF, JPEG, Excel spreadsheets, SQL, tab-delimited files, Microsoft Word, etc. With this in mind, a book can be manifested as a PDF file, an HTML file, or even a set of JPEG images. Similarly, an article may be manifested as a PDF file and/or an HTML file. Understanding the different between types and formats will assiste the reader in the process of acquiring their materials as well as organizing them into a coherent collection/corpus.
+
+For the purposes of this bootcamp, the qualifying materials include books by Aristotle, Plato, Austen, Bronte, Longfellow, Emerson, Thoreau, and Twain. There are articles from Digital Humanities Quarterly, First Monday, and Inside ASIS&T. There are tweets from art museums (the Metropolitan Art Musum, the Art Institute of Chicago, and the Detroit Art Museum), universities (Oxford, Cambridge, and Harvard), and news organizations (CBS News, Fox News, and NBC News). There are also various & sundry Web pages on the topics of the digital humanities, text mining, and American literature. On the whole, the qualifying materials are characterized by subject, type, and format. 
+
+
+Acquiring materials
+
+Acquiring the materials for text mining is the next step in the process. The process may be as easy as borrowing books from a library or taking advantage of a library's book & article subscription databases. The reader may have the necessary materials already on their computer. Increasingly and more than likely, the desired content is available on the 'Net, which means in needs to be harvested -- locally downloaded. For anything but the most trivial of collections, harvesting content from the Web is not as easy as it seems. Sure, one or two items are easily obtained, but how does one systematically download a gross amount of content -- enough to give more than an overly qualified answer to a research question? The answer falls into a combination of three categories: 1) crawling, 2) screen scraping, or 3) exploiting an application programmer interface (API). Crawling is usually the most feasible. First, feed a URL to an application like curl or wget. [1, 2] The application will output the content at the other end of the URL. The reader can repeat this process both selectively as well as recursively. Screen scraping reads an HTML page and tries to extract its content sans any Javascript, navigation, or boiler plate information. Much of this work can now be done with an application called Tika. [3] Exploiting an API is probably the cleanest method for acquiring content from the 'Net, but it requires a knowledge of one or more programming languages, and not all websites support an API. Examples include OAI-PMH, linked data, or a site-specific API such as the ones offered by the Internet Archive. [4] Taking advantages of API's is beyond the scope of this workbook.
+
+Almost all of the content for this bootcamp was harvested through the diligent use of the venerable wget get application. 
+
+
+Describing & organizing materials
+
+When text mining is done against an individual item or even a small number of items, describing the items is not imperative, but as a collection gets larger, so does the need for metadata.
+
+Meaningful text mining can be done against an individual item, such as a book. The process can yield knowledge of the book's action, reading difficulty, themes, etc. But as soon as the corpus includes more than one item, there will most likely be a desire to compare & contrast items. Yes, the items' action, reading difficulty, and themes can be made explicit, but as soon as they are the reader will probably desire to know to what degree each characteristic is applicable to each item. To satisfy this desire, each item needs to be associated with different forms of metadata, and the metadata will be dictated by the research question(s). For example, if there is a desire to learn how things evolve over time, then each item will need to be associated with dates. If the reader desires to understand the differences in themes between authors, then the names of authors need to be associated with each item. If the collection only contains a single author and themes are to be compared & contrasted, then identifiers of the items (titles, keys, locations, etc) will need to be associated with each item. A whole litany of metadata possibilities exist: author/creator names, author/creator gender, titles, dates, literary genres, subjects/keywords, material type, material format, place of publication, distribution mechanism, denotation of authority (peer-reviewed or not), etc.
+
+Keeping track of each item and its associated metadata can be as simple as a systematic file naming system or as complex as the exploitation of a relational database application. The later usually means associating each item in the collection with a unique identifier which points to a series of tables in a database where each table includes different metadata. The former approach has been used for this bootcamp. More specifically, each item in the collection has been saved in one or more directories/folders. Each directory/folder name denotes its subject, author, or material type (not format). Each file in each directory/folder has been given a name usually denoting authorship. Given this organizational scheme, it will be possible to text mine (make the implicit explicit) information against subjects (American literature, digital humanities, art, academia, and world affairs), authors/publishers, and types (books, journal & magazine articles, news, and tweets). 
+
+
+A recipe for creating a corpus
+
+As an aside, here is a recipe for creating a corpus based on the content of a Web page.
+
+Given an HTML file (file.html), the reader can extract (most) of the URLs it contains by chaining together a set of Unix/Linux commands:
+
+  $ cat file.html | egrep -o 'https?://[^ ]+' | sed -e 's/https/http/g' | sed -e 's/>.*//g' | sed -e 's/\W+$//g' | sed -e 's/"//g' | sort | uniq | sort -bnr
+
+The result can be saved to a file (urls.txt), and then uses as input to wget:
+
+  $ wget -i urls.txt
+
+So, for example, the reader could peruse a Wikipedia article, save it locally, extract all of the URLs, filter out any undesireable URLs, and harvest the balance for more indepth investigation. The result will be a set of content all but ripe for text mining.
+
+A Bash shell script (./bin/harvest-wikipedia.sh) which is a part of this bootcamp, does just this. Given a URL and a directory, it will cache an HTML page, extract all of its URLs, and then retrieve the content of each one, giving them (somewhat) meaningful file names. For example, a collection of texts about book binding can be gotten in this way:
+
+  $ ./bin/harvest-wikipedia.sh https://en.wikipedia.org/wiki/Bookbinding ~/Desktop/bookbinding
+
+Often times the articulation of the research question, the identification of the qualified materials, the acquisition the materials, describing them, and organizing them into a coherent whole go hand-in-hand and are interdependent. Each limits & informs the others. The process is usually not sequential but instead parallel and iterative. Ideally all would be factored & decided upon independently but such is generally not the case. The whole corpus-building process is a lot like deciding on what to have for dinner. The decision is limited by what one wants, what is affordable, what is in the refrigerator, and how everything can be combined into a delicious and satisfying meal.
+
+
+[1] curl - https://curl.haxx.se
+[2] wget - https://www.gnu.org/software/wget/
+[3] Tika - http://tika.apache.org
+[4] Internet Archive API's - http://blog.archive.org/developers/
+
+--
+Eric Lease Morgan
+May 13, 2018
+
+

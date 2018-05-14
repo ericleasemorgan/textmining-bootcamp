@@ -1,0 +1,88 @@
+
+
+Extracting simple "features" with a text editor and command-line tools
+========================================================================
+
+In the world of text mining, natural language processing, and machine learning the word "features" is used to denote a set of textual characteristics. The reader's text editor is the first tool to be used in this regard. 
+
+Features are denoted by a tokens (usually words) associated with some sort of measure. For example, a document may be 1,000 tokens (words) long. A list of all the words in a document, with duplicates removed, is called a dictionary, and the dictionary will be of a certain length. Sequential pairs of words (bigrams) can have frequencies. A third set of features may be a list of all the nouns, verbs, or adjectives with their individual counts & tabulations. A list of names, places, or organization ("named entities") are another set of features. 
+
+Given a feature-rich text editor, the lengths of documents and the makings of a dictionary are easily within the reader's grasp. There are a number of (Linux-based) tools that can take text as input, process it in a number of ways, and output features. If the reader is well-practices with these tools, then these sorts of tasks will increasingly become a part of one's everyday reading experience.
+
+Creating a dictionary -- a simple list of words in a work or corpus -- is an essential text mining process. There are many computer language modules and libraries which do this work for you, but learning how to create a dictionary with a text editor is simple and straight-forward. Once a dictionary is created, surprisingly interesting observations can be made. Here's how to create a simple dictionary:
+
+  1) load a plain text file into your text editor
+  2) find & replace all space characters with carriage returns
+  3) find & replace leading and trailing white space characters with nothingness
+  4) find & replace leading or trailing punctuation marks with nothingness
+  5) sort the text
+
+The result ought to be a long list of words, and many of them will be repeated. Search & browse the list. Ask yourself, "What words seem to occur frequently? Can I articulate a word of particular interest? If so, then does that word appear in the list and how often?"
+
+At this point, the reader may want to save the file, and the open it again in OpenRefine, which will enable one to count & tabulate the words giving a frequency list. It will also enable the reade to count & tabulate sets of words with similar shapes such as book, books, book-making, books-binding, etc. Once these tabulations are done, the reader can copy the result, find & place tab characters with colons, and supply the result as input to Wordle for a visualization.
+
+Dictionaries -- lists of words -- can include more than individual words. Dictionaries can also be lists of ngrams or specific types of words. For example, a dictionary may include all the two-word, three-word, four-word, etc., phrases in a text. Additionally, dictionaries may include all words of a given part-of-speech, named entities, roots ("stems") of a word, or a word's lemma ("canonical" form). Listing ngrams, parts-of-speech, named entities, roots, or lemmas are beyond the abilities of text editors. Instead, the techniques of machine learning are needed here. Creating such dictionaries is not within the bounds of text editors. 
+
+On the other hand, from the Unix/Linux command line, there are a number of "recipes" for doing some rudimentary analysis. For example, given a file (file.txt), the reader can do things such as the following:
+
+  $ # list all words
+    cat file.txt                        | \
+    tr -sc "[A-Z][a-z][0-9]'" '[\012*]' | \
+    tr '[A-Z]' '[a-z]'                  | \
+    tr '[:space:]' '[\n*]'              | \
+    grep -v "^\s*$"                     | \
+    sort                                | \
+    uniq -c                             | \
+    sort -bnr
+
+  $ # list all bigrams
+    cat file.txt                                      | \
+    tr -sc "[A-Z][a-z][0-9]'" '[\012*]'               | \
+    tr '[A-Z]' '[a-z]'                                | \
+    tr '[:space:]' '[\n*]'                            | \
+    awk -- 'prev!="" { print prev,$0; } { prev=$0; }' | \
+    sort                                              | \
+    uniq -c                                           | \
+    sort -bnr
+  
+  $ # list all trigrams
+    cat file.txt                                                                           | \
+    tr -sc "[A-Z][a-z][0-9]'" '[\012*]'                                                    | \
+    tr '[A-Z]' '[a-z]'                                                                     | \
+    tr '[:space:]' '[\n*]'                                                                 | \
+    awk -- 'first!=""&&second!="" { print first,second,$0; } { first=second; second=$0; }' | \
+    sort                                                                                   | \
+    uniq -c                                                                                | \
+    sort -bnr
+  
+  $ # extract all URLs
+    cat file.txt              | \
+    egrep -o 'https?://[^ ]+' | \
+    sed -e 's/https/http/g'   | \
+    sed -e 's/\W+$//g'        | \
+    sort                      | \
+    uniq -c                   | \
+    sort -bnr
+
+  $ # extract domains from URLs
+    cat file.txt              | \
+    egrep -o 'https?://[^ ]+' | \
+    sed -e 's/https/http/g'   | \
+    sed -e 's/\W+$//g'        | \
+    sed -e 's/http:\/\///g'   | \
+    sed -e 's/\/.*$//g'       | \
+    sort                      | \
+    uniq -c                   | \
+    sort -bnr
+  
+  $ # extract all email addresses
+    cat file.txt                                            | \
+    grep -i -o '[A-Z0-9._%+-]\+@[A-Z0-9.-]\+\.[A-Z]\{2,4\}' | \
+    sort                                                    | \
+    uniq -c                                                 | \
+    sort -bnr
+
+
+--
+Eric Lease Morgan
+May 14, 2018

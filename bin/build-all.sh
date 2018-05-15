@@ -9,8 +9,11 @@
 # do the work; hardcoded
 ./bin/harvest-build.sh
 ./bin/tika-server.sh
+sleep 10
 ./bin/build-corpora.sh
 ./bin/pos-server.sh
+sleep 10
 ./bin/build-pos.sh
 ./bin/ner-server.sh
+sleep 10
 ./bin/build-ner.sh

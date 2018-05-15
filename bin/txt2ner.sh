@@ -9,8 +9,6 @@
 # configure
 NERCLIENT='./bin/ner-client.pl'
 NER2TAB='./bin/ner2tab.pl'
-TMP='./tmp'
-HOME='/afs/crc.nd.edu/user/e/emorgan/local/english'
 
 # get input
 FILE=$1
@@ -18,22 +16,21 @@ FILE=$1
 # do error checking here
 
 # initialize
-cd $HOME
 BASENAME=$( basename $FILE .txt )
 DIRNAME=$( dirname $FILE )
-XML="$TMP/$BASENAME.xml"
-NER="$DIRNAME/$BASENAME.ner"
+XML="$DIRNAME/$BASENAME.xml"
+TSV="$DIRNAME/$BASENAME.tsv"
 
 # debug
 echo $FILE >&2
 echo $XML  >&2
-echo $NER  >&2
+echo $TSV  >&2
 echo       >&2
 
 # do the work
 $NERCLIENT $FILE > $XML
-$NER2TAB $XML    > $NER
-rm $XML
+$NER2TAB $XML    > $TSV
+rm $FILE
 
 # done
 exit
